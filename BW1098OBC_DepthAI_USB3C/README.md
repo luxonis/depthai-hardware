@@ -27,8 +27,9 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
+![](../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_dims.PNG)
 
-
+![](../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_cs_annotation.jpg)
 
 # Getting started
 The BW1098OBC accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. Optionally, resistors can be configured on the board to allow for power to be provided via USB. With cameras and the DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
