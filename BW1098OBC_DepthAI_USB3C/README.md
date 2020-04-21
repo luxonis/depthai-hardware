@@ -1,6 +1,6 @@
 # BW1098OBC DepthAI USB3C Baseboard
 
-![](../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_front.PNG)
+![](../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_front.png)
 
 # Overview
 
