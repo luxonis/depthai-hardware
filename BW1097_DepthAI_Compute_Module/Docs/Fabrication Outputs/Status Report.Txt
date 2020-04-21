@@ -1,0 +1,15 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BW1097.PcbDoc]
+   Generated File[BW1097-RoundHoles-Plated.TXT]
+   Generated File[BW1097-RoundHoles-NonPlated.TXT]
+   Generated File[BW1097-SlotHoles-Plated.TXT]
+   Generated File[BW1097.DRL]
+   Generated File[BW1097.LDP]
+   Generated File[BW1097.DRR]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 3:57:36 PM On 12/3/2019

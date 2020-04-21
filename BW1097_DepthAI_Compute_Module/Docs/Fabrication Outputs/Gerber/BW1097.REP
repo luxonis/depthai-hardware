@@ -1,0 +1,1035 @@
+*************************************************************
+FileName = BW1097.GBR
+AutoAperture = True
+*************************************************************
+Generating : Bottom Courtyard
+      File : BW1097.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D18
+    D217
+    D218
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : BW1097.GM14
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : BW1097.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+*************************************************************
+
+*************************************************************
+Generating : Assembly Notes
+      File : BW1097.GM10
+
+    Adding Layer      : Assembly Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 1
+      File : BW1097.G1
+
+    Adding Layer      : Signal Layer 1
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D16
+    D110
+    D137
+    D138
+    D146
+    D148
+    D149
+    D152
+    D153
+    D154
+    D155
+    D157
+    D159
+    D162
+    D163
+*************************************************************
+
+*************************************************************
+Generating : Fab Notes
+      File : BW1097.GM6
+
+    Adding Layer      : Fab Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Mask
+      File : BW1097.GBS
+
+    Adding Layer      : Bottom Mask
+
+    Adding Layer      : Bottom Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D59
+    D66
+    D68
+    D78
+    D79
+    D83
+    D87
+    D88
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+    D187
+    D188
+    D189
+    D190
+    D191
+    D192
+    D193
+    D194
+    D195
+    D196
+    D197
+    D198
+    D199
+    D200
+    D201
+    D202
+    D203
+    D204
+    D205
+    D206
+    D207
+    D208
+    D209
+    D210
+    D211
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : BW1097.GM32
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 3
+      File : BW1097.4
+
+    Adding Layer      : Dielectric 3
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : BW1097.GM31
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D16
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Sheet
+      File : BW1097.GM8
+
+    Adding Layer      : Sheet
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : BW1097.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Core 2
+      File : BW1097.2
+
+    Adding Layer      : Core 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : BW1097.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D217
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : BW1097.GM2
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D12
+    D17
+    D214
+    D215
+    D216
+*************************************************************
+
+*************************************************************
+Generating : KeepOutLayer
+      File : BW1097.GKO
+
+    Adding Layer      : KeepOutLayer
+
+
+Used DCodes :
+    D15
+*************************************************************
+
+*************************************************************
+Generating : MultiLayer
+      File : BW1097.GML
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D162
+    D163
+*************************************************************
+
+*************************************************************
+Generating : Fab Notes
+      File : BW1097.GM4
+
+    Adding Layer      : Fab Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : BW1097.GM1
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D17
+    D213
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : BW1097.GD1
+
+    Adding Drill Pair : Top Copper-Bottom Copper
+
+    Adding Layer      : DrillDrawing
+
+
+Used DCodes :
+    D219
+    D220
+    D221
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : BW1097.GG1
+
+    Adding Drill Pair : Top Copper-Bottom Copper
+
+    Adding Layer      : DrillGuide
+
+
+Used DCodes :
+    D219
+*************************************************************
+
+*************************************************************
+Generating : Core 1
+      File : BW1097.3
+
+    Adding Layer      : Core 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 3
+      File : BW1097.G3
+
+    Adding Layer      : Signal Layer 3
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D16
+    D18
+    D110
+    D130
+    D131
+    D132
+    D133
+    D134
+    D137
+    D138
+    D140
+    D146
+    D148
+    D149
+    D152
+    D153
+    D154
+    D155
+    D157
+    D158
+    D159
+    D162
+    D163
+*************************************************************
+
+*************************************************************
+Generating : Top Mask
+      File : BW1097.GTS
+
+    Adding Layer      : Top Mask
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D58
+    D59
+    D60
+    D61
+    D62
+    D63
+    D64
+    D65
+    D66
+    D67
+    D68
+    D69
+    D70
+    D71
+    D72
+    D73
+    D74
+    D75
+    D76
+    D77
+    D78
+    D79
+    D80
+    D81
+    D82
+    D83
+    D84
+    D85
+    D86
+    D87
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
+    D120
+    D121
+    D122
+    D123
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : BW1097.GM9
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : BottomPaste
+      File : BW1097.GBP
+
+    Adding Layer      : BottomPaste
+
+    Adding Layer      : Bottom Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D13
+    D23
+    D30
+    D32
+    D40
+    D41
+    D48
+    D49
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : BW1097.GM3
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D17
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : BW1097.5
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Notes
+      File : BW1097.GM7
+
+    Adding Layer      : Assembly Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Route Tool Path
+      File : BW1097.GM5
+
+    Adding Layer      : Route Tool Path
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : BW1097.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Copper
+      File : BW1097.GTL
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D16
+    D18
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D110
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+*************************************************************
+
+*************************************************************
+Generating : TopPaste
+      File : BW1097.GTP
+
+    Adding Layer      : TopPaste
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 4
+      File : BW1097.G4
+
+    Adding Layer      : Signal Layer 4
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D110
+    D137
+    D138
+    D141
+    D142
+    D143
+    D145
+    D148
+    D149
+    D152
+    D153
+    D154
+    D155
+    D157
+    D159
+    D162
+    D163
+*************************************************************
+
+*************************************************************
+Generating : Dimensions
+      File : BW1097.GM11
+
+    Adding Layer      : Dimensions
+
+
+Used DCodes :
+    D18
+    D129
+*************************************************************
+
+*************************************************************
+Generating : Signal Layer 2
+      File : BW1097.G2
+
+    Adding Layer      : Signal Layer 2
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D16
+    D110
+    D130
+    D132
+    D133
+    D134
+    D137
+    D138
+    D140
+    D146
+    D149
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D159
+    D162
+    D163
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : BW1097.GBO
+
+    Adding Layer      : Bottom Overlay
+
+
+Used DCodes :
+    D11
+    D12
+    D15
+    D17
+    D18
+    D212
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : BW1097.GPB
+
+    Adding Layer      : Bottom Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D13
+    D23
+    D30
+    D32
+    D40
+    D41
+    D48
+    D49
+    D128
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D162
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : BW1097.GPT
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D54
+    D55
+    D56
+    D57
+    D126
+    D127
+    D128
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D150
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+*************************************************************
+
+*************************************************************
+Generating : Bottom Copper
+      File : BW1097.GBL
+
+    Adding Layer      : Bottom Copper
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D13
+    D16
+    D18
+    D23
+    D30
+    D32
+    D40
+    D41
+    D48
+    D49
+    D110
+    D124
+    D125
+    D128
+    D129
+    D130
+    D131
+    D132
+    D133
+    D134
+    D135
+    D136
+    D137
+    D138
+    D139
+    D140
+    D141
+    D142
+    D143
+    D144
+    D145
+    D146
+    D147
+    D148
+    D149
+    D151
+    D152
+    D153
+    D154
+    D155
+    D156
+    D157
+    D158
+    D159
+    D160
+    D161
+    D162
+    D164
+    D165
+    D166
+    D167
+    D168
+    D169
+    D170
+    D171
+    D172
+    D173
+    D174
+    D175
+    D176
+    D177
+    D178
+    D179
+    D180
+    D181
+    D182
+    D183
+    D184
+    D185
+    D186
+*************************************************************
+
