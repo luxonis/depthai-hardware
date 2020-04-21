@@ -1,0 +1,15 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [BW1098OBC.PcbDoc]
+   Generated File[BW1098OBC-RoundHoles-Plated.TXT]
+   Generated File[BW1098OBC-RoundHoles-NonPlated.TXT]
+   Generated File[BW1098OBC-SlotHoles-Plated.TXT]
+   Generated File[BW1098OBC.DRL]
+   Generated File[BW1098OBC.LDP]
+   Generated File[BW1098OBC.DRR]
+
+
+Files Generated   : 6
+Documents Printed : 0
+
+Finished Output Generation At 11:17:32 AM On 11/27/2019
