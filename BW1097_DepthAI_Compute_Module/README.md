@@ -1,6 +1,6 @@
 # BW1097_R2M2E3 DepthAI for CM3+
 
-![](../Images/BW1097_R1M1E2_no_background.png)
+![](../BW1098OBC_DepthAI_USB3C/Images/BW1097_R1M1E2_no_background.png)
 
 # Overview
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and the [Raspberry Pi Compute Module 3+](https://www.raspberrypi.org/products/compute-module-3-plus/). 
@@ -34,7 +34,7 @@ Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis
 
 # Board layout & dimensions
 
-![](../Images/BW1097_R1M1E2_dims.PNG)
+![](../BW1098OBC_DepthAI_USB3C/Images/BW1097_R1M1E2_dims.PNG)
 
 # Getting started
 The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not populated by default, but can be added, allowing JTAG access. 
