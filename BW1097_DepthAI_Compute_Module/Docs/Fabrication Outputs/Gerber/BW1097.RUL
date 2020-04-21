@@ -1,0 +1,8 @@
+DRC Rules Export File for PCB: C:\Users\BrianLuxonis\Desktop\hardware\BW1097_R2M2E3\BW1097.PcbDoc
+RuleKind=Width|RuleName=GND|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Power_Trace|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=general|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=4.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=1
+RuleKind=Clearance|RuleName=Diff_Pair_Spacing|Scope=Board|Minimum=4.00

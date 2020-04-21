@@ -1,0 +1,11 @@
+Output: BOM
+Type  : BOM
+From  : Variant [Production] of BOM Document [BW1097_ACTIVE_BOM.BomDoc]
+   Generated File[BOM-BW1097_ACTIVE_BOM(Production).xls]
+   Generated File[BOM-BW1097_ACTIVE_BOM(Production).xls]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 3:57:47 PM On 12/3/2019
