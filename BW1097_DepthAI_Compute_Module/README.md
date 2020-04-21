@@ -36,6 +36,9 @@ Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis
 
 ![](../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_dims.png)
 
+![](../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_diagram.png)
+
+
 # Getting started
 The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not populated by default, but can be added, allowing JTAG access. 
 
