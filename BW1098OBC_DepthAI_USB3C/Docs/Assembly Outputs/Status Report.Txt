@@ -1,0 +1,11 @@
+Output: BOM
+Type  : BOM
+From  : Variant [Production] of BOM Document [BW1098OBC.BomDoc]
+   Generated File[BOM-BW1098OBC(Production).xls]
+   Generated File[BOM-BW1098OBC(Production).xls]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 11:17:37 AM On 11/27/2019
