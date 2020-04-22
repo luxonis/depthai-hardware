@@ -11,7 +11,7 @@ The [BW1097 repository](/BW1097_DepthAI_Compute_Module) contains open hardware d
 
 ## [BW1098OBC](BW1098OBC_DepthAI_USB3C)
 
-![](BW1098OBC_DepthAI_USB3C/Images/)
+![](BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_front.png)
 
 The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
 
