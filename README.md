@@ -13,8 +13,8 @@ The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware desig
 
 ## [BW1098FFC](BW1098FFC_DepthAI_USB3)
 
+The [BW1098FFC repository](BW1098FFC_DepthAI_USB3) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098FFC baseboard has three FFC interfaces which allow for two [BG0250TG](BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](BG0249_DepthAI_RGB_Camera) RGB camera module. 
 ![](BW1098FFC_DepthAI_USB3/Images/)
-
 
 ## [BW1094](BW1094_DepthAI_HAT)
 
