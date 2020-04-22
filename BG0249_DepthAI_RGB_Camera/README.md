@@ -1,6 +1,6 @@
 # BG0249_R1M1E1 RGB Camera Module
 
-![](Images/BW0249_R0M0E0_front.png)
+![](Images/BG0249_R0M0E0_front.png)
 
 # Overview
 This repository contains open hardware designed by Luxonis. The BW0249 is a carrier board for the Sunny A12N02A IMX378 camera module, and is designed to be compatible with the [BW1094](https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT) and [BW1098FFC](https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3) baseboards. A 26-pin FFC is used to carry 5V power, 4-lane MIPI, I2C, and other control signals between the BW0249 and the controller baseboards. 
@@ -22,9 +22,9 @@ This repository contains open hardware designed by Luxonis. The BW0249 is a carr
 
 # Board layout & dimensions
 
-![](Images/BW0249_R0M0E0_dims.png)
+![](Images/BG0249_R0M0E0_dims.png)
 
-![](Images/BW0249_R0M0E0_diags.png)
+![](Images/BG0249_R0M0E0_diags.png)
 
 # Getting started  
 Camera module compatibility is known for the Sunny A12N02A, but not tested for other modules. The FFC connector is an 0.5mm pitch, 26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.  
