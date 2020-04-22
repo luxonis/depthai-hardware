@@ -23,10 +23,10 @@ The [BW1094 repository](BW1094_DepthAI_HAT) contains open hardware designed by L
 
 ## [BG0249](BG0249_DepthAI_RGB_Camera)
 
+The [BG0249 repository](BG0249_DepthAI_RGB_Camera) contains open hardware designed by Luxonis. The BW0249 is a carrier board for the Sunny A12N02A IMX378 camera module, and is designed to be compatible with the [BW1094](BW1094_DepthAI_HAT) and [BW1098FFC](BW1098FFC_DepthAI_USB3) baseboards. A 26-pin FFC is used to carry 5V power, 4-lane MIPI, I2C, and other control signals between the BW0249 and the controller baseboards. 
 ![](BG0249_DepthAI_RGB_Camera/Images/)
-
 
 ## [BG0250TG](BG0250TG_DepthAI_Mono_Camera)
 
+The [BG0250TG repository](BG0250TG_DepthAI_Mono_Camera) contains open hardware designed by Luxonis. The BW0250TG is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with the [BW1094](BW1094_DepthAI_HAT) and [BW1098FFC](BW1098FFC_DepthAI_USB3) baseboards. A 20-pin FFC is used to carry 5V power, 2-lane MIPI, I2C, and other control signals between the BW0250TG and the controller baseboards. A single BG0250TG is typically paired with another to create a stereo camera pair.
 ![](BG0250TG_DepthAI_Mono_Camera/Images/)
-
