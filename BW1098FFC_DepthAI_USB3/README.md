@@ -3,7 +3,7 @@
 ![](Images/BW1098FFC_R0M0E0_front.png)
 
 # Overview
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098FFC baseboard has three FFC interfaces which allow for two [BG0250TG](depthai-hardware/BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](depthai-hardware/BG0249_DepthAI_RGB_Camera) RGB camera module. 
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098FFC baseboard has three FFC interfaces which allow for two [BG0250TG](../depthai-hardware/BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](../depthai-hardware/BG0249_DepthAI_RGB_Camera) RGB camera module. 
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
