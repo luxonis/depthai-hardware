@@ -1,0 +1,35 @@
+\t (00:00:00) allegro_free_viewer 17.2 S052 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Thu Dec 12 12:06:30 2019
+\t (00:00:00)         Host=DESKTOP-A44N8E4 User=BrianLuxonis Pid=16824 CPUs=24
+\t (00:00:00) CmdLine= C:\Program Files (x86)\Cadence Design Systems\17.2\tools\bin\allegro_free_viewer.exe
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 461
+\i (00:00:00) trapsize 455
+\i (00:00:01) trapsize 461
+\i (00:00:01) trapsize 416
+\i (00:00:01) trapsize 461
+\i (00:00:01) trapsize 416
+\i (00:00:01) trapsize 710
+\i (00:00:03) open 
+\i (00:00:06) fillin "menu_cancel"
+\i (00:00:18) open 
+\i (00:00:33) fillin "C:\Users\BrianLuxonis\Desktop\SI3402-ISO-EVB-2.2\layout\Si3402_ISO.pcb"
+\i (00:00:33) cd "C:\Users\BrianLuxonis\Desktop\SI3402-ISO-EVB-2.2\layout"
+\t (00:00:33) Opening existing design...
+\e (00:00:33) ERROR(SPMHDB-180): Design revision 9757.x is newer than current program version.
+\e (00:00:33) ERROR(SPMHDB-180): Design revision 9757.x is newer than current program version.
+\i (00:00:38) fillin confirm
+\t (00:00:38) Starting new design...
+\i (00:00:39) trapsize 710
+\i (00:00:47) fillin "C:\Users\BrianLuxonis\Desktop\SI3402-ISO-EVB-2.2\schematic\SI3402-ISO-EVB-2.2.asc"
+\i (00:00:47) cd "C:\Users\BrianLuxonis\Desktop\SI3402-ISO-EVB-2.2\schematic"
+\t (00:00:47) Opening existing design...
+\e (00:00:47) ERROR(SPMHDB-238): The design is corrupted. It may have been copied from a different architecture using ASCII mode; copy using binary mode.
+\e (00:00:47) ERROR(SPMHDB-238): The design is corrupted. It may have been copied from a different architecture using ASCII mode; copy using binary mode.
+\i (00:00:48) fillin confirm
+\t (00:00:48) Starting new design...
+\i (00:00:48) trapsize 710
+\i (00:00:50) fillin "menu_cancel"
+\i (00:00:50) exit 
+\t (00:00:51)     Journal end - Thu Dec 12 12:07:21 2019

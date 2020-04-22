@@ -1,0 +1,38 @@
+Altium Designer Pick and Place Locations
+C:\Users\BrianLuxonis\Desktop\hardware\BG0250TG\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for BG0250TG(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       14/10/19
+Time:       19:40
+Revision:   397
+Variant:    Production
+Units used: mil
+
+"Designator","Center-X(mil)","Center-Y(mil)","Rotation","Layer","Description","Comment"
+"C1","231.299","118.110","180","TopLayer","SMD Multilayer Ceramic Capacitor, 0402 [1005 Metric], 0.1 µF, 10 V, ± 10%, X5R","100nF"
+"C2","-270.669","6.417","90","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/6V"
+"C3","231.299","164.370","180","TopLayer","SMD Multilayer Ceramic Capacitor, 0402 [1005 Metric], 0.1 µF, 10 V, ± 10%, X5R","100nF"
+"C4","-220.472","150.591","270","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/6V"
+"C5","53.150","-192.913","90","TopLayer","SMD Multilayer Ceramic Capacitor, 0402 [1005 Metric], 0.1 µF, 10 V, ± 10%, X5R","100nF"
+"C6","8.858","-206.693","90","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/6V"
+"C18","-438.976","54.646","90","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C19","-438.976","159.449","270","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C21","-274.606","-255.905","90","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C22","-390.748","-332.677","360","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C24","421.260","233.268","270","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C25","421.260","127.953","90","TopLayer","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"FB1","-381.890","255.905","360","TopLayer","Ferrite Bead","600R/100MHz"
+"FB2","-280.512","139.764","270","TopLayer","Ferrite Bead","600R/100MHz"
+"FB3","367.126","40.354","180","TopLayer","Ferrite Bead","600R/100MHz"
+"J1","0.000","-18.307","0","TopLayer","24 way, 2row baord to board connector SMD","TG161B-201"
+"J2","0.000","-371.062","360","TopLayer","FFC & FPC Connectors 0.5 FPC ZIF Hsg Assy ssy 22Ckt EmbsTp Pkg","54548-2071"
+"R1","333.661","-256.890","90","TopLayer","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"R3","275.591","-256.890","270","TopLayer","SMD Chip Resistor, Thick Film, 0 ohm, 75 V, 0603 [1608 Metric], 100 mW","0R"
+"R11","-361.221","33.465","360","TopLayer","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"R12","-224.409","-255.905","90","TopLayer","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"R13","337.598","258.858","180","TopLayer","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"U6","-368.878","138.779","360","TopLayer","LDO, 200MA, 1.2V, 5SC70","TLV70012DCKT"
+"U7","-371.063","-262.795","90","TopLayer","LDO, 200MA, 1.8V, 5SC70","TLV70018DCKT"
+"U8","344.488","154.528","180","TopLayer","LDO, 200MA, 2.8V, 5SC70","TLV70028DCKT"
