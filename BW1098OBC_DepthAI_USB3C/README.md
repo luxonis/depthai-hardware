@@ -34,7 +34,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 # Getting started
 The BW1098OBC accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. Optionally, resistors can be configured on the board to allow for power to be provided via USB. With cameras and the DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
 
-Interfaing with the DepthAI SoM is also possible with BW1098OBC connector pads J4, J5, and J6. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
+Interfacing with the DepthAI SoM is also possible with BW1098OBC connector pads J4, J5, and J6. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
 
 The reset button resets the Luxonis DepthAI SoM only. 
 

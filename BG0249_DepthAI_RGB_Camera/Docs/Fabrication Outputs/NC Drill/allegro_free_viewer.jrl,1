@@ -1,0 +1,17 @@
+\t (00:00:00) allegro_free_viewer 17.2 S052 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Wed Nov 06 20:10:41 2019
+\t (00:00:00)         Host=DESKTOP-A44N8E4 User=BrianLuxonis Pid=15448 CPUs=24
+\t (00:00:00) CmdLine= C:\Program Files (x86)\Cadence Design Systems\17.2\tools\bin\allegro_free_viewer.exe
+\t (00:00:00) 
+\t (00:00:00) Starting new design...
+\i (00:00:00) trapsize 461
+\i (00:00:00) trapsize 455
+\i (00:00:00) trapsize 461
+\i (00:00:00) trapsize 416
+\i (00:00:00) trapsize 461
+\i (00:00:00) trapsize 416
+\i (00:00:01) trapsize 710
+\i (00:00:05) open 
+\i (00:00:07) fillin "menu_cancel"
+\i (00:00:08) exit 
+\t (00:00:08)     Journal end - Wed Nov 06 20:10:49 2019

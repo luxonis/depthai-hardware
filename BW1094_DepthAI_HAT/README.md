@@ -1,6 +1,6 @@
 # BW1094_R1M1E1 RPi HAT Baseboard
 
-![](../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_front.png)
+![](Images/BW1094_R0M0E0_front.png)
 
 # Overview
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and as a HAT for the [RPi "B" models](https://www.raspberrypi.org/products/). The BW1094 baseboard has three FFC interfaces which allow for two [BG0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with the exception of the 5V pins, GND pins, and [BCM GPIO26 (pin 37)](https://www.raspberrypi.org/documentation/usage/gpio/), which is used as a way for the Raspberry Pi to reset the DepthAI SoM, parallel to the RST button.  
@@ -24,9 +24,9 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
-![](../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_dims.png)
+![](Images/BW1094_R0M0E0_dims.png)
 
-![](../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_diag.png)
+![](Images/BW1094_R0M0E0_diag.png)
 
 # Getting started  
 The stereo mono cameras ([BG0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera)) can be connected via FFC to connectors J8 and J9 on the top of the board, while the RGB camera module ([BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera)) is connected via FFC to connector J6 on the bottom of the board. These connectors have a Left/Right configuration as percieved by the subject rather than the camera, so "CAM_L" is the subject's left. These designations are somehwhat arbitrary, however, due to the flexibility in positioning the cameras allowed by the FFC. Note that the RGB FFC connector is a top-contact connector while the mono FFC conectors are bottom-contact. This results in the FFCs and cameras all facing the same direction when mounted. 
