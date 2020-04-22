@@ -1,0 +1,47 @@
+# Previews Folders
+**/__Previews/
+
+# History Folders
+**/History/*
+
+# Project Logs
+Project\ Logs*/
+
+# Project Outputs
+Project\ Outputs*/
+
+# Auto-conversion notices
+*.PcbDoc.htm
+
+# Access lock file for dbLib sources
+**/*.ldb
+
+# Altium report files
+*.REP
+*Status Report*
+
+# Archives (including history) 
+*.zip
+
+# Temporary data 
+*.dat
+*.Dat
+*.log
+
+# Unwanted data from Gerber files 
+*.LDP
+*.RUL
+
+# Previews and additional Altium outputs
+__Previews
+*Project Logs*
+*Project Outputs*
+*History*
+
+# Draftsight backup files
+*bak
+*.PrjPCBStructure
+*.PrjPcbStructure
+
+# SVN files
+.svn
