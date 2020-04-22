@@ -3,9 +3,9 @@ This repository contains Luxonis open sourced baseboards, and contains Altium de
 
 # Baseboards 
 
-## BW1097
+## [BW1097](../depthai-hardware/BW1097_DepthAI_Compute_Module)
 
-* picture of board
+![](../depthai-hardware/BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png)
 * Brief description
 * link to this board's portion of the repo
 
