@@ -24,7 +24,7 @@ This repository contains open hardware designed by Luxonis. The BW0249 is a carr
 
 ![](Images/BG0249_R0M0E0_dims.png)
 
-![](Images/BG0249_R0M0E0_diags.png)
+![](Images/BG0249_R0M0E0_diag.png)
 
 # Getting started  
 Camera module compatibility is known for the Sunny A12N02A, but not tested for other modules. The FFC connector is an 0.5mm pitch, 26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.  
