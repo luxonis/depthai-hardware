@@ -1,0 +1,40 @@
+Altium Designer Pick and Place Locations
+C:\Users\BrianLuxonis\Desktop\hardware\BW0253_R0M0E0\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for BW0253(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       14/05/20
+Time:       13:33
+Revision:   702
+Variant:    Production
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"C1","22.5000mm","5.5000mm","180","TopLayer","GRM188R61A226ME15D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
+"C2","19.5000mm","13.5000mm","270","TopLayer","GRM188R61A226ME15D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
+"C3","19.2500mm","7.2500mm","360","TopLayer","GRM155R71H103KA88D","CAPC0402(1005)60_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.6mm, IPC Medium Density","CAP CER 10000PF 50V X7R 0402","10nF 0402"
+"C4","22.5750mm","11.1250mm","180","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C5","23.0000mm","16.7500mm","180","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C6","1.2500mm","13.3000mm","270","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C7","1.2500mm","15.5000mm","90","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C8","3.8000mm","5.5000mm","360","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C9","1.5000mm","7.5500mm","90","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"J1","12.5000mm","18.5000mm","180","TopLayer","SFW15R-2STE1LF","SFW15R-2STE1LF","RPi Cam 15pin 2 lane MIPI top contact","CONN FFC FPC TOP 15POS 1MM R/A","SFW15R-2STE1LF Top Contact"
+"J2","12.5090mm","3.0500mm","0","TopLayer","54548-2671","54548-2671","26pin Molex FFC 0.5mm","CONN FFC BOTTOM 26POS 0.50MM R/A 26 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","54548-2671 Bottom Contact"
+"R1","8.7500mm","13.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R2","11.2500mm","13.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R3","13.7500mm","13.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R4","16.2500mm","13.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R5","19.7500mm","11.2500mm","180","TopLayer","RC0402FR-07121KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 121K OHM 1% 1/16W 0402","121K 0402"
+"R6","18.0000mm","11.2500mm","90","TopLayer","CRCW040239K2FKED","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 39.2K OHM 1% 1/16W 0402","39.2k 0402"
+"R7","1.5000mm","17.5000mm","180","TopLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R8","1.5000mm","10.5000mm","270","TopLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R9","11.2500mm","8.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R10","16.2500mm","8.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R11","13.7500mm","8.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R12","8.7500mm","8.7500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_M","Chip Resistor, Body 1.6x0.8mm, IPC Low Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"U1","22.5000mm","8.5000mm","180","TopLayer","TPS82130SILR","TPS82130SIL","Non-Isolated PoL Module DC DC Converter 1 Output 0.9 ~ 5V    3A 3V - 17V Input","DC DC CONVERTER 0.9-5V","TPS82130SIL"
+"U2","22.5000mm","14.0000mm","360","TopLayer","TLV70018DCKR","TLV70018DCK","SC70-5 1.1mm","IC REG LINEAR 1.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70018DCK"
+"U3","3.5000mm","14.0000mm","90","TopLayer","TXS0102DCUR","TXS0102DCUR","TSSOP, 8-Leads, Body 2.00x2.30mm, Pitch 0.50mm","TEXAS INSTRUMENTS - TXS0102DCUR - IC, TRANSLATOR, 2 BIT, BI, US-8","TXS0102DCU"
+"U4","3.7500mm","8.5000mm","90","TopLayer","TXS0102DCUR","TXS0102DCUR","TSSOP, 8-Leads, Body 2.00x2.30mm, Pitch 0.50mm","TEXAS INSTRUMENTS - TXS0102DCUR - IC, TRANSLATOR, 2 BIT, BI, US-8","TXS0102DCU"
