@@ -1,4 +1,5 @@
 # BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board
+![](../BW0253_R0M0E0_RPIHQ_ADAPTER/Images/RPI_HQ_CAM_SYSTEM_2020-May-14_08-35-31PM-000_CustomizedView42985702451.png)
 
 # Overview
 
