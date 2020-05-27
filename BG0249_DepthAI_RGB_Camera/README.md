@@ -9,8 +9,7 @@ This repository contains open hardware designed by Luxonis. The BW0249 is a carr
 * `PCB` contains the packaged Altium project files
 * `Docs` contains project output files
 * `Images` contains graphics for readme and reference
-* `3D Models` contains generated mechanical models for the board
-
+* `3D Models` contains generated 3D models of the board
 # Key features
 * 26 pin 0.5mm FFC interconnect to baseboard
 * 30 pin interface to IMX378 camera module
