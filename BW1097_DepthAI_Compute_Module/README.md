@@ -11,7 +11,8 @@ Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis
 * `PCB` contains the packaged Altium project files
 * `Docs` contains project output files
 * `Images` contains graphics for readme and reference
-* `3D Models` contains generated mechanical models for the board
+* `3D Models` contains generated 3D models of the board
+* `Mechanical` contains models of mounts, enclosures, and other mechanical parts
 
 # Key features
 * Support for on-board stereo and RGB camera modules
