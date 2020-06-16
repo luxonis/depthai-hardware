@@ -25,7 +25,7 @@ Attach 0.5mm, 26 circuit, same-side contact FFC between DepthAI and BW0253_R0M0E
 Here are some quick images and videos of it in use:
 ![RPi HQ Camera Support in DepthAI](https://cdn.hackaday.io/images/9159701591761513514.JPG)
 ![RPi HQ Camera Support in DepthAI](https://cdn.hackaday.io/images/775661591761050468.png)
-[![RPi HQ Camera Support in DepthAI](https://img.youtube.com/vi/KsK-XakrpK8/0.jpg)](https://www.youtube.com/watch?v=KsK-XakrpK8 "RPi HQ Camera Support in DepthAI")
+[![RPi HQ Camera Support in DepthAI](https://i.imgur.com/AbCHQgW.jpg)](https://www.youtube.com/watch?v=KsK-XakrpK8 "RPi HQ Camera Support in DepthAI")
 
 You can buy this adapter kit for the DepthAI FFC Edition (BW1098FFC) here: [https://shop.luxonis.com/products/rpi-hq-camera-imx477-adapter-kit](https://shop.luxonis.com/products/rpi-hq-camera-imx477-adapter-kit)
 
