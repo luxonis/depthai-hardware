@@ -5,6 +5,7 @@
  - https://www.thingiverse.com/thing:4393364 
 ![BW1093 Mount](https://i.imgur.com/BNSg3L2.jpg)
 ![BW1093 Mount](https://i.imgur.com/DhWa0mq.jpg)
+Photo Credit: Jonathan Byrne
  
  - https://www.tinkercad.com/things/lUTygibtc12
  - GoPro Mount: https://www.tinkercad.com/things/gw3xuHsiT8P-mega-ai-gopro-connector
