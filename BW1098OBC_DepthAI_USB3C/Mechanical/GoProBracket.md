@@ -1,4 +1,4 @@
-Here's a picture of BW1098OBC (OAK-D) on [this](https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Mechanical/1098obc_gopro_bracket%20v19.step) mount:
+Here are a few pictures of BW1098OBC (OAK-D) mount [here](https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Mechanical/1098obc_gopro_bracket%20v19.step):
 
 ![BW1098OBC (OAK-D) Mount](https://i.imgur.com/hwNvWAl.jpg)
 ![BW1098OBC (OAK-D) Mount](https://i.imgur.com/aPh4f4p.jpg)
