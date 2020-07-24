@@ -1,6 +1,6 @@
 # BW2098POE PoE Board
 
-![](../BW2098POE_PoE_Board/Images/BW2098POE_R1M0E1_front.png)
+![](../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_front.jpg)
 
 # Overview
 
