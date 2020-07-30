@@ -1,5 +1,8 @@
 # BW1098FFC_R1M1E1 DepthAI USB3 Edition
 
+BW1098FFC + [BW0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera) + [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) are shown together below:
+![](https://i.imgur.com/LXjLpzX.jpg)
+
 ![](Images/BW1098FFC_R0M0E0_front.png)
 
 # Overview
@@ -39,11 +42,11 @@ The reset button resets the Luxonis DepthAI SoM only.
 The 5V LED indicates 5V power is present on the BW1098FFC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the DepthAI SoM is not in reset.
 
 # Revision info
+
 These files represent the R1M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 # Camera Usage
 
-BW1098FFC + [BW0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera) + [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) are shown together below:
-![](https://i.imgur.com/LXjLpzX.jpg)
+This board is compatible with the [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) and [BG0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera)
 
-This board can also be used with adapters for the Pi HQ Camera.
+This board can also be used with adapters for the Pi HQ Camera, using the [BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board](https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER)
