@@ -37,3 +37,8 @@ The [BG0249 repository](BG0249_DepthAI_RGB_Camera) contains open hardware design
 The [BG0250TG repository](BG0250TG_DepthAI_Mono_Camera) contains open hardware designed by Luxonis. The BW0250TG is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with the [BW1094](BW1094_DepthAI_HAT) and [BW1098FFC](BW1098FFC_DepthAI_USB3) baseboards. A 20-pin FFC is used to carry 5V power, 2-lane MIPI, I2C, and other control signals between the BW0250TG and the controller baseboards. A single BG0250TG is typically paired with another to create a stereo camera pair.
 
 ![](BG0250TG_DepthAI_Mono_Camera/Images/BG0250TG_R0M0E0_front.png)
+
+## [BK1096](BK1096_OAK-1_Prototype)
+The [BK1096 repository](/BK1096_OAK-1_Prototype) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the DepthAI SoM. 
+
+![](../BK1096_OAK-1_Prototype/Images/BK1096_R0M0E0_front.jpg)

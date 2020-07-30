@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: BK1096.PcbDoc   10/3/2019  11:42:28 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : BK1096-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : BK1096-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : BK1096-SlotHoles-Plated.TXT
+EIA File   : BK1096.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             133       PTH        0.00inch (0.00mm)
+T2      8mil (0.203mm)                                            Round             130       PTH        0.00inch (0.00mm)
+T3      12mil (0.305mm)                                           Round             16        PTH        0.00inch (0.00mm)
+T4      24mil (0.6mm)                                             Slot              4         PTH        0.00inch (0.00mm)
+T5      34mil (0.86mm)                                            Round             2         PTH        0.00inch (0.00mm)
+T6      108mil (2.75mm)                                           Round             4         PTH        0.00inch (0.00mm)
+T7      118mil (3mm)                                              Round             4         NPTH       0.00inch (0.00mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              293
+
+Total Processing Time (hh:mm:ss) : 00:00:00
