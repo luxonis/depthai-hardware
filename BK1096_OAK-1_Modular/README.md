@@ -1,6 +1,6 @@
 # BK1096_OAK-1_Modular
 
-![](../BK1096_OAK-1_Prototype/Images/BK1096_R0M0E0_front.jpg)
+![](../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
 
 # Overview
 
@@ -27,9 +27,9 @@ This is the open-source equivalent of BW1093 (megaAI, megaAI), using the BW1099 
 
 # Board layout & dimensions
 
-![](../BK1096_OAK-1_Prototype/Images/BK1096_R0M0E0_dims.jpg)
+![](../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_dims.jpg)
 
-![](../BK1096_OAK-1_Prototype/Images/BK1096_R0M0E0_cs_annotation.jpg)
+![](../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_cs_annotation.jpg)
 
 # Getting started
 The BK1096_R0M0E0 is designed to be powered from the USB Type-C connector. With the BW0249 camera and the DepthAI BW2099 SoM running inference, power consumption is typically about 3W (0.6A @ 5V).
