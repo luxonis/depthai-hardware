@@ -41,4 +41,4 @@ The [BG0250TG repository](BG0250TG_DepthAI_Mono_Camera) contains open hardware d
 ## [BK1096](BK1096_OAK-1_Prototype)
 The [BK1096 repository](/BK1096_OAK-1_Prototype) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the DepthAI SoM. 
 
-![](../BK1096_OAK-1_Prototype/Images/BK1096_R0M0E0_front.jpg)
+![](../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
