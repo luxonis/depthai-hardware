@@ -5,6 +5,8 @@
 
 This repository contains open hardware designed by Luxonis. The BW0253_R0M0E0 is an adapter board to allow the [Raspberry Pi HQ camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/) to physically interface to the DepthAI RGB camera port on the [BW1098FFC](https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3). 
 
+This allows using DepthAI with all sorts of lens combinations, including variable zoom, variable focus, and even [with a telescope](https://www.tomshardware.com/news/raspberry-pi-high-quality-camera-used-for-out-of-this-world-astrophotography).
+
 ## Repository structure:
 * `PCB` contains the packaged Altium project files
 * `Docs` contains project output files
