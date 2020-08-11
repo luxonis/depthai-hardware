@@ -8,13 +8,13 @@
 Photo: Jonathan Byrne
  
  - https://www.tinkercad.com/things/lUTygibtc12
- - GoPro Mount: https://www.tinkercad.com/things/gw3xuHsiT8P-mega-ai-gopro-connector
+#### GoPro Mount: https://www.tinkercad.com/things/gw3xuHsiT8P-mega-ai-gopro-connector
 ![BW1093 GoPro Mount](https://i.imgur.com/h34zAFK.png)
  
- - GoPro Mount with Logo: https://www.thingiverse.com/thing:4397044
+#### GoPro Mount with Logo: https://www.thingiverse.com/thing:4397044
 ![BW1093 GoPro with Luxonis Logo](https://i.imgur.com/juJJh4B.png) 
  
- - Clip-on case with lense mount: https://www.tinkercad.com/things/bxtWPFDoUBm-mega-ai-clip-on-case-with-lens-mount
+#### Clip-on case with lense mount: https://www.tinkercad.com/things/bxtWPFDoUBm-mega-ai-clip-on-case-with-lens-mount
 ![Clip-on case with lense mount](https://i.imgur.com/pPNqCFV.png)
  
 ### BW1098OBC (OAK-D, USB3C with Onboard Cameras)
