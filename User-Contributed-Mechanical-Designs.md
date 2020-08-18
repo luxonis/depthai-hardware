@@ -20,6 +20,10 @@ Photo: Jonathan Byrne
 ### BW1098OBC (OAK-D, USB3C with Onboard Cameras)
  - https://www.tinkercad.com/things/h1rb1lILS8P-luxonis-bw1098-obc-usb-3-with-integrated-cameras
  - GoPro Mount: https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Mechanical/1098obc_gopro_bracket%20v19.step
+ - Complete case design with glass front:
+![image](https://user-images.githubusercontent.com/32992551/90574018-13554500-e175-11ea-9769-20204821b6e7.png)
+![image](https://user-images.githubusercontent.com/32992551/90574034-2536e800-e175-11ea-92eb-63e6b5d7e18c.png)
+Design files are [here](https://drive.google.com/file/d/1WM5IjW0DGskhd5H5P6Wyq4jQzqwWz4to/view?usp=sharing).
  
 ### BW1098FFC (USB3C with Modular Cameras)
  - https://www.tinkercad.com/things/4OlxITtchVX-luxonis-bw1098ffc-usb-3-edition
