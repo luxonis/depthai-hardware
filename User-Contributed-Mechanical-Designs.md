@@ -25,9 +25,9 @@ Photo: Jonathan Byrne
 
  - Design files are [here](https://drive.google.com/file/d/1WM5IjW0DGskhd5H5P6Wyq4jQzqwWz4to/view?usp=sharing).
  - Hardware
-  -  M2.5 [threaded inserts from McMaster-Carr](https://www.mcmaster.com/94180A321/)
-  -  M2.5 x 6mm (x2) [McMaster-Carr Product Page](https://www.mcmaster.com/91290A101/)
-  -  M2.5 x 10mm (x2) [McMaster-Carr Product Page](https://www.mcmaster.com/91290A103/)
+     -  M2.5 [threaded inserts from McMaster-Carr](https://www.mcmaster.com/94180A321/)
+     -  M2.5 x 6mm (x2) [McMaster-Carr Product Page](https://www.mcmaster.com/91290A101/)
+     -  M2.5 x 10mm (x2) [McMaster-Carr Product Page](https://www.mcmaster.com/91290A103/)
 
 ![image](https://user-images.githubusercontent.com/32992551/90574018-13554500-e175-11ea-9769-20204821b6e7.png)
 ![image](https://user-images.githubusercontent.com/32992551/90574034-2536e800-e175-11ea-92eb-63e6b5d7e18c.png)
