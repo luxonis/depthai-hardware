@@ -34,6 +34,7 @@ The above design files and photos are by Eric Schleicher.
 
 #### Other designs:
  - GoPro Mount: https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Mechanical/1098obc_gopro_bracket%20v19.step
+ - https://www.tinkercad.com/things/h1rb1lILS8P-luxonis-bw1098-obc-usb-3-with-integrated-cameras
 
 ### BW1098FFC (USB3C with Modular Cameras)
  - https://www.tinkercad.com/things/4OlxITtchVX-luxonis-bw1098ffc-usb-3-edition
