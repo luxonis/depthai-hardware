@@ -1,4 +1,4 @@
-Below is a quick summary of the mechanical files available:
+Below is a quick summary of the mechanical files available for the BW1098OBC.  We will be adding the aluminum case when this design is complete.
 
 ### Go-Pro Bracket:
 
