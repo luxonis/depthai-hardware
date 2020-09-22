@@ -8,7 +8,7 @@ Normally we fix all errata before uploading to Github, but we are uploading befo
 
 Known issues:
  - The USB3 polarity select is backwards so only USB2 works.
- - The IMU uses I2C, which is incapably of operating at normal update rates.  The design will be refactored to use SPI soon.  
+ - The IMU uses I2C, which is incapable of operating at satisfactory update rates/latency.  The design will be refactored to use SPI soon.  
  - There may be other uncaught errors in the design as well - it is not yet fully tested.
  
 # Overview:
