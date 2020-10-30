@@ -44,5 +44,7 @@ The [BK1096 repository](/BK1096_OAK-1_Modular) contains open hardware designed b
 ![](BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
 
 Hardware License: MIT
+
 Software License: MIT
+
 Documentation License: MIT
