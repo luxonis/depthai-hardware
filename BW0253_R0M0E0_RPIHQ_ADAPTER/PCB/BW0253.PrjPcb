@@ -32,49 +32,12 @@ OutputPath=Project Outputs for BG0250TG
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=KingTop.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
-DocumentPath=MacroFAB.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document3]
 DocumentPath=Project_Information.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -91,7 +54,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJIJRPXX
 
-[Document4]
+[Document2]
 DocumentPath=TopLevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -108,7 +71,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XJMBUEQL
 
-[Document5]
+[Document3]
 DocumentPath=BW0253.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -125,7 +88,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document4]
 DocumentPath=BW0253.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -142,7 +105,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MNCVKFLE
 
-[Document7]
+[Document5]
 DocumentPath=BW0253_Assembly_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -159,7 +122,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document6]
 DocumentPath=RPI_CAM_INTERFACE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -176,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVYYLLAE
 
-[Document9]
+[Document7]
 DocumentPath=BW0253_Fabrication_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -193,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document8]
 DocumentPath=BW0253_R0M0E0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -210,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KLJOBHVF
 
-[Document11]
+[Document9]
 DocumentPath=BW0253_R0M0E0.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -227,7 +190,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OOSLFHPM
 
-[Document12]
+[Document10]
 DocumentPath=BW0253_POWER.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -244,7 +207,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QKUZHSAY
 
-[Document13]
+[Document11]
 DocumentPath=BW0253_LEVEL_SHIFT.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -261,7 +224,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CQKKBEPC
 
-[Document14]
+[Document12]
 DocumentPath=DEPTHAI_CAM_INTERFACE.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXTYHFKF
 
-[Document15]
+[Document13]
 DocumentPath=DEPTHAI_CAM_INTERFACE.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,25 +258,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document14]
 DocumentPath=RPI_CAM_INTERFACE.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document17]
-DocumentPath=bopolyrepour.pas
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -475,7 +421,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Foxit Reader PDF Printer
+TargetPrinter=Brother DCP-L2540DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

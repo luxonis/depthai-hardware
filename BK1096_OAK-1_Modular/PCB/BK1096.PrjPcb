@@ -32,9 +32,6 @@ OutputPath=Project Outputs for Documents
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -261,40 +258,19 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
-DocumentPath=BK1096_KingTop.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
 [ProjectVariant1]
 UniqueID=FEBD8C3C-9C4B-4597-8C96-380D29DE354C
 Description=Production
 AllowFabrication=0
 ParameterCount=0
 VariationCount=6
-Variation1=Designator=RZ28|UniqueId=\PRISAWLV\AFFWJAWO|Kind=1|AlternatePart=
-Variation2=Designator=RZ29|UniqueId=\PRISAWLV\KHIJADVP|Kind=1|AlternatePart=
-Variation3=Designator=D27|UniqueId=\PRISAWLV\JNRGHLFS|Kind=1|AlternatePart=
-Variation4=Designator=D29|UniqueId=\PRISAWLV\WPKSWNQA|Kind=1|AlternatePart=
-Variation5=Designator=D28|UniqueId=\PRISAWLV\RGHIXKPS|Kind=1|AlternatePart=
-Variation6=Designator=D36|UniqueId=\PRISAWLV\MUUGWVFY|Kind=1|AlternatePart=
+Variation1=Designator=RZ28|UniqueId=\PRISAWLV\AFFWJAWO|Kind=1|AlternatePart= 
+Variation2=Designator=RZ29|UniqueId=\PRISAWLV\KHIJADVP|Kind=1|AlternatePart= 
+Variation3=Designator=D27|UniqueId=\PRISAWLV\JNRGHLFS|Kind=1|AlternatePart= 
+Variation4=Designator=D29|UniqueId=\PRISAWLV\WPKSWNQA|Kind=1|AlternatePart= 
+Variation5=Designator=D28|UniqueId=\PRISAWLV\RGHIXKPS|Kind=1|AlternatePart= 
+Variation6=Designator=D36|UniqueId=\PRISAWLV\MUUGWVFY|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Documents\Design Rule Check - BK1096.html
-DItemRevisionGUID=
 
 [SearchPath1]
 Path=*.*

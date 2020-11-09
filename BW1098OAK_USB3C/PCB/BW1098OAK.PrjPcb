@@ -32,9 +32,6 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -80,23 +77,6 @@ GenerateClassCluster=0
 DocumentUniqueId=SYEKDYQX
 
 [Document3]
-DocumentPath=KingTop.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document4]
 DocumentPath=BW1098OBC_R2M0E2.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -113,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LMTASMIP
 
-[Document5]
+[Document4]
 DocumentPath=BW1098OBC_R2M0E2.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -130,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WOENOBEE
 
-[Document6]
+[Document5]
 DocumentPath=Assembly_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -147,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=Fabrication_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -164,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=BW1091.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -181,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EEFDIFCA
 
-[Document9]
+[Document8]
 DocumentPath=BW1092_R0M0E0.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -198,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RKIKWFYD
 
-[Document10]
+[Document9]
 DocumentPath=BW1092_R0M0E0.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -215,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FRLPKPDB
 
-[Document11]
+[Document10]
 DocumentPath=BW1098OAK.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -232,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document11]
 DocumentPath=BW1098OAK.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -249,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YNXIHYDL
 
-[Document13]
+[Document12]
 DocumentPath=BW1098OAK.PrjPcbVariants
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -266,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=BW1098OAK_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -283,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVDAELBI
 
-[Document15]
+[Document14]
 DocumentPath=BW1098OAK_IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -300,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KOBHVPKG
 
-[Document16]
+[Document15]
 DocumentPath=BW1098OAK_IMX378.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -317,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVYYLLAE
 
-[Document17]
+[Document16]
 DocumentPath=BW1098OAK_LEFT_OV9282.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -334,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FNAFRYCP
 
-[Document18]
+[Document17]
 DocumentPath=BW1098OAK_Power_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -351,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HPTPYBNP
 
-[Document19]
+[Document18]
 DocumentPath=BW1098OAK_Project_Information.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -368,7 +348,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJIJRPXX
 
-[Document20]
+[Document19]
 DocumentPath=BW1098OAK_RIGHT_OV9282.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -385,7 +365,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XBUKSRUJ
 
-[Document21]
+[Document20]
 DocumentPath=BW1098OAK_TopLevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -402,7 +382,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XJMBUEQL
 
-[Document22]
+[Document21]
 DocumentPath=BW1098OAK_USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -419,7 +399,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BALCYCRR
 
-[Document23]
+[Document22]
 DocumentPath=BW1098OAK_USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -436,7 +416,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=BW1098OAK_RIGHT_OV9282.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -453,7 +433,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=BW1098OAK_LEFT_OV9282.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -470,7 +450,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=BW1098OAK_IMX378.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -487,7 +467,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=BW1098OAK_IMU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -504,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document27]
 DocumentPath=BW1098OAK_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -521,7 +501,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document28]
 DocumentPath=BW1098OAK_R0M0E0.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -538,25 +518,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=BW1098OAK_R0M0E0.SchLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document31]
-DocumentPath=MacroFAB.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -578,20 +541,20 @@ Description=Production
 AllowFabrication=0
 ParameterCount=0
 VariationCount=14
-Variation1=Designator=R25|UniqueId=\MUKJOEVY\JXFNMICW|Kind=1|AlternatePart=
-Variation2=Designator=R27|UniqueId=\MUKJOEVY\WELUXFKJ|Kind=1|AlternatePart=
-Variation3=Designator=R22|UniqueId=\MUKJOEVY\QBUVBNJC|Kind=1|AlternatePart=
-Variation4=Designator=R18|UniqueId=\VLPOAJOG\LUVWELPX|Kind=1|AlternatePart=
-Variation5=Designator=R19|UniqueId=\VLPOAJOG\ZDLYHMVB|Kind=1|AlternatePart=
-Variation6=Designator=J5|UniqueId=\DUQNLQFH\SOWGJIXO|Kind=1|AlternatePart=
-Variation7=Designator=J6|UniqueId=\DUQNLQFH\KKLGDLJH|Kind=1|AlternatePart=
-Variation8=Designator=R28|UniqueId=\MUKJOEVY\ZLQAOPAA|Kind=1|AlternatePart=
-Variation9=Designator=R23|UniqueId=\MUKJOEVY\XLEDMTNP|Kind=1|AlternatePart=
-Variation10=Designator=D1|UniqueId=\VLPOAJOG\XAPFILWX|Kind=1|AlternatePart=
-Variation11=Designator=D5|UniqueId=\VLPOAJOG\WBXCHYJY|Kind=1|AlternatePart=
-Variation12=Designator=J8|UniqueId=\KUQNZDHS\TOZFRGGA|Kind=1|AlternatePart=
-Variation13=Designator=MISC1|UniqueId=\DUQNLQFH\CGYCGBIN|Kind=1|AlternatePart=
-Variation14=Designator=B1|UniqueId=\DUQNLQFH\JIZEVUCC|Kind=1|AlternatePart=
+Variation1=Designator=R25|UniqueId=\MUKJOEVY\JXFNMICW|Kind=1|AlternatePart= 
+Variation2=Designator=R27|UniqueId=\MUKJOEVY\WELUXFKJ|Kind=1|AlternatePart= 
+Variation3=Designator=R22|UniqueId=\MUKJOEVY\QBUVBNJC|Kind=1|AlternatePart= 
+Variation4=Designator=R18|UniqueId=\VLPOAJOG\LUVWELPX|Kind=1|AlternatePart= 
+Variation5=Designator=R19|UniqueId=\VLPOAJOG\ZDLYHMVB|Kind=1|AlternatePart= 
+Variation6=Designator=J5|UniqueId=\DUQNLQFH\SOWGJIXO|Kind=1|AlternatePart= 
+Variation7=Designator=J6|UniqueId=\DUQNLQFH\KKLGDLJH|Kind=1|AlternatePart= 
+Variation8=Designator=R28|UniqueId=\MUKJOEVY\ZLQAOPAA|Kind=1|AlternatePart= 
+Variation9=Designator=R23|UniqueId=\MUKJOEVY\XLEDMTNP|Kind=1|AlternatePart= 
+Variation10=Designator=D1|UniqueId=\VLPOAJOG\XAPFILWX|Kind=1|AlternatePart= 
+Variation11=Designator=D5|UniqueId=\VLPOAJOG\WBXCHYJY|Kind=1|AlternatePart= 
+Variation12=Designator=J8|UniqueId=\KUQNZDHS\TOZFRGGA|Kind=1|AlternatePart= 
+Variation13=Designator=MISC1|UniqueId=\DUQNLQFH\CGYCGBIN|Kind=1|AlternatePart= 
+Variation14=Designator=B1|UniqueId=\DUQNLQFH\JIZEVUCC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -600,18 +563,18 @@ Description=Prod_ESD
 AllowFabrication=0
 ParameterCount=0
 VariationCount=12
-Variation1=Designator=R25|UniqueId=\MUKJOEVY\JXFNMICW|Kind=1|AlternatePart=
-Variation2=Designator=R27|UniqueId=\MUKJOEVY\WELUXFKJ|Kind=1|AlternatePart=
-Variation3=Designator=R22|UniqueId=\MUKJOEVY\QBUVBNJC|Kind=1|AlternatePart=
-Variation4=Designator=R18|UniqueId=\VLPOAJOG\LUVWELPX|Kind=1|AlternatePart=
-Variation5=Designator=R19|UniqueId=\VLPOAJOG\ZDLYHMVB|Kind=1|AlternatePart=
-Variation6=Designator=J5|UniqueId=\DUQNLQFH\SOWGJIXO|Kind=1|AlternatePart=
-Variation7=Designator=J6|UniqueId=\DUQNLQFH\KKLGDLJH|Kind=1|AlternatePart=
-Variation8=Designator=R28|UniqueId=\MUKJOEVY\ZLQAOPAA|Kind=1|AlternatePart=
-Variation9=Designator=R23|UniqueId=\MUKJOEVY\XLEDMTNP|Kind=1|AlternatePart=
-Variation10=Designator=J8|UniqueId=\KUQNZDHS\TOZFRGGA|Kind=1|AlternatePart=
-Variation11=Designator=MISC1|UniqueId=\DUQNLQFH\CGYCGBIN|Kind=1|AlternatePart=
-Variation12=Designator=B1|UniqueId=\DUQNLQFH\JIZEVUCC|Kind=1|AlternatePart=
+Variation1=Designator=R25|UniqueId=\MUKJOEVY\JXFNMICW|Kind=1|AlternatePart= 
+Variation2=Designator=R27|UniqueId=\MUKJOEVY\WELUXFKJ|Kind=1|AlternatePart= 
+Variation3=Designator=R22|UniqueId=\MUKJOEVY\QBUVBNJC|Kind=1|AlternatePart= 
+Variation4=Designator=R18|UniqueId=\VLPOAJOG\LUVWELPX|Kind=1|AlternatePart= 
+Variation5=Designator=R19|UniqueId=\VLPOAJOG\ZDLYHMVB|Kind=1|AlternatePart= 
+Variation6=Designator=J5|UniqueId=\DUQNLQFH\SOWGJIXO|Kind=1|AlternatePart= 
+Variation7=Designator=J6|UniqueId=\DUQNLQFH\KKLGDLJH|Kind=1|AlternatePart= 
+Variation8=Designator=R28|UniqueId=\MUKJOEVY\ZLQAOPAA|Kind=1|AlternatePart= 
+Variation9=Designator=R23|UniqueId=\MUKJOEVY\XLEDMTNP|Kind=1|AlternatePart= 
+Variation10=Designator=J8|UniqueId=\KUQNZDHS\TOZFRGGA|Kind=1|AlternatePart= 
+Variation11=Designator=MISC1|UniqueId=\DUQNLQFH\CGYCGBIN|Kind=1|AlternatePart= 
+Variation12=Designator=B1|UniqueId=\DUQNLQFH\JIZEVUCC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
@@ -907,7 +870,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-L2540DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]

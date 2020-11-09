@@ -32,9 +32,6 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -182,23 +179,6 @@ GenerateClassCluster=0
 DocumentUniqueId=WBNRTNSK
 
 [Document9]
-DocumentPath=MacroFAB.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document10]
 DocumentPath=PoE_Si3404.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -215,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KCKKMDNV
 
-[Document11]
+[Document10]
 DocumentPath=PCIE_CLK.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -232,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XHYULUOQ
 
-[Document12]
+[Document11]
 DocumentPath=CONNECTOR_A.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -249,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WVRCZLRG
 
-[Document13]
+[Document12]
 DocumentPath=CONNECTOR_B.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -266,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FGZHWTQQ
 
-[Document14]
+[Document13]
 DocumentPath=ETH_PCIE_PHY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -283,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GSUFFQVC
 
-[Document15]
+[Document14]
 DocumentPath=RJ45.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -300,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TRSMGOZW
 
-[Document16]
+[Document15]
 DocumentPath=BOOT_JTAG_AUX.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -317,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YBJUCPIR
 
-[Document17]
+[Document16]
 DocumentPath=BW2098_MIPI_CAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -334,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ROJLOHMB
 
-[Document18]
+[Document17]
 DocumentPath=BW2098_USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -351,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BALCYCRR
 
-[Document19]
+[Document18]
 DocumentPath=POWER_GEN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -368,7 +348,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HNZVNOTJ
 
-[Document20]
+[Document19]
 DocumentPath=PCIE_CLK.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -385,7 +365,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document21]
+[Document20]
 DocumentPath=CONNECTOR_A.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -402,7 +382,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document22]
+[Document21]
 DocumentPath=CONNECTOR_B.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -419,7 +399,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=ETH_PCIE_PHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -436,7 +416,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=RJ45.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -453,7 +433,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=BOOT_JTAG_AUX.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -470,7 +450,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document25]
 DocumentPath=BW2098_MIPI_CAM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -487,25 +467,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=BW2098_USB.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document28]
-DocumentPath=KingTop.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -527,35 +490,35 @@ Description=Production
 AllowFabrication=0
 ParameterCount=0
 VariationCount=29
-Variation1=Designator=R39|UniqueId=\VNJFCKHO\UUOYBIMR|Kind=1|AlternatePart=
-Variation2=Designator=R38|UniqueId=\VNJFCKHO\HTKTPROZ|Kind=1|AlternatePart=
-Variation3=Designator=R46|UniqueId=\GZSTZTEL\IAJPUJUN|Kind=0|AlternatePart=
-Variation4=Designator=R29|UniqueId=\GZSTZTEL\QJNCXHOG|Kind=0|AlternatePart=
-Variation5=Designator=R28|UniqueId=\GZSTZTEL\XVPHVGQZ|Kind=0|AlternatePart=
-Variation6=Designator=R25|UniqueId=\VNJFCKHO\NMIZTQCU|Kind=0|AlternatePart=
-Variation7=Designator=R47|UniqueId=\GZSTZTEL\PJRFRWZU|Kind=1|AlternatePart=
-Variation8=Designator=C10|UniqueId=\YFXQDFVN\XSUNFLEO|Kind=1|AlternatePart=
-Variation9=Designator=C11|UniqueId=\YFXQDFVN\CDZDIKQU|Kind=1|AlternatePart=
-Variation10=Designator=C12|UniqueId=\YFXQDFVN\APKQYWOQ|Kind=1|AlternatePart=
-Variation11=Designator=C13|UniqueId=\YFXQDFVN\LCWNAAFY|Kind=1|AlternatePart=
-Variation12=Designator=C17|UniqueId=\YFXQDFVN\LRWGXSLZ|Kind=1|AlternatePart=
-Variation13=Designator=C16|UniqueId=\YFXQDFVN\TVRDTODW|Kind=1|AlternatePart=
-Variation14=Designator=C15|UniqueId=\YFXQDFVN\CKOQEUWV|Kind=1|AlternatePart=
-Variation15=Designator=C14|UniqueId=\YFXQDFVN\NPAZXZWU|Kind=1|AlternatePart=
-Variation16=Designator=C52|UniqueId=\DQQJJURT\LUOBCIRE|Kind=1|AlternatePart=
-Variation17=Designator=RZ28|UniqueId=\FIBMJGTY\HCHEDILE|Kind=1|AlternatePart=
-Variation18=Designator=RZ29|UniqueId=\FIBMJGTY\CNXAMKXH|Kind=1|AlternatePart=
-Variation19=Designator=D4|UniqueId=\ZSCLHNEO\UBULCRHU|Kind=1|AlternatePart=
-Variation20=Designator=R52|UniqueId=\ZSCLHNEO\SKRCQFXT|Kind=1|AlternatePart=
-Variation21=Designator=U8|UniqueId=\ZSCLHNEO\EDWZYXGR|Kind=1|AlternatePart=
-Variation22=Designator=C51|UniqueId=\ZSCLHNEO\MUJHEGNA|Kind=1|AlternatePart=
-Variation23=Designator=R51|UniqueId=\ZSCLHNEO\RKIHYFBC|Kind=1|AlternatePart=
-Variation24=Designator=R49|UniqueId=\GZSTZTEL\JDLXDIWV|Kind=0|AlternatePart=
-Variation25=Designator=R?|UniqueId=\ZSCLHNEO\XZOSOZGP|Kind=1|AlternatePart=
-Variation26=Designator=R?|UniqueId=\ZSCLHNEO\FTCZXGAL|Kind=1|AlternatePart=
-Variation27=Designator=R1|UniqueId=\ZSCLHNEO\XWMYWKLT|Kind=1|AlternatePart=
-Variation28=Designator=D17|UniqueId=\YFXQDFVN\ZDUKTRIC|Kind=1|AlternatePart=
-Variation29=Designator=D18|UniqueId=\YFXQDFVN\ALFINPDY|Kind=1|AlternatePart=
+Variation1=Designator=R39|UniqueId=\VNJFCKHO\UUOYBIMR|Kind=1|AlternatePart= 
+Variation2=Designator=R38|UniqueId=\VNJFCKHO\HTKTPROZ|Kind=1|AlternatePart= 
+Variation3=Designator=R46|UniqueId=\GZSTZTEL\IAJPUJUN|Kind=0|AlternatePart= 
+Variation4=Designator=R29|UniqueId=\GZSTZTEL\QJNCXHOG|Kind=0|AlternatePart= 
+Variation5=Designator=R28|UniqueId=\GZSTZTEL\XVPHVGQZ|Kind=0|AlternatePart= 
+Variation6=Designator=R25|UniqueId=\VNJFCKHO\NMIZTQCU|Kind=0|AlternatePart= 
+Variation7=Designator=R47|UniqueId=\GZSTZTEL\PJRFRWZU|Kind=1|AlternatePart= 
+Variation8=Designator=C10|UniqueId=\YFXQDFVN\XSUNFLEO|Kind=1|AlternatePart= 
+Variation9=Designator=C11|UniqueId=\YFXQDFVN\CDZDIKQU|Kind=1|AlternatePart= 
+Variation10=Designator=C12|UniqueId=\YFXQDFVN\APKQYWOQ|Kind=1|AlternatePart= 
+Variation11=Designator=C13|UniqueId=\YFXQDFVN\LCWNAAFY|Kind=1|AlternatePart= 
+Variation12=Designator=C17|UniqueId=\YFXQDFVN\LRWGXSLZ|Kind=1|AlternatePart= 
+Variation13=Designator=C16|UniqueId=\YFXQDFVN\TVRDTODW|Kind=1|AlternatePart= 
+Variation14=Designator=C15|UniqueId=\YFXQDFVN\CKOQEUWV|Kind=1|AlternatePart= 
+Variation15=Designator=C14|UniqueId=\YFXQDFVN\NPAZXZWU|Kind=1|AlternatePart= 
+Variation16=Designator=C52|UniqueId=\DQQJJURT\LUOBCIRE|Kind=1|AlternatePart= 
+Variation17=Designator=RZ28|UniqueId=\FIBMJGTY\HCHEDILE|Kind=1|AlternatePart= 
+Variation18=Designator=RZ29|UniqueId=\FIBMJGTY\CNXAMKXH|Kind=1|AlternatePart= 
+Variation19=Designator=D4|UniqueId=\ZSCLHNEO\UBULCRHU|Kind=1|AlternatePart= 
+Variation20=Designator=R52|UniqueId=\ZSCLHNEO\SKRCQFXT|Kind=1|AlternatePart= 
+Variation21=Designator=U8|UniqueId=\ZSCLHNEO\EDWZYXGR|Kind=1|AlternatePart= 
+Variation22=Designator=C51|UniqueId=\ZSCLHNEO\MUJHEGNA|Kind=1|AlternatePart= 
+Variation23=Designator=R51|UniqueId=\ZSCLHNEO\RKIHYFBC|Kind=1|AlternatePart= 
+Variation24=Designator=R49|UniqueId=\GZSTZTEL\JDLXDIWV|Kind=0|AlternatePart= 
+Variation25=Designator=R?|UniqueId=\ZSCLHNEO\XZOSOZGP|Kind=1|AlternatePart= 
+Variation26=Designator=R?|UniqueId=\ZSCLHNEO\FTCZXGAL|Kind=1|AlternatePart= 
+Variation27=Designator=R1|UniqueId=\ZSCLHNEO\XWMYWKLT|Kind=1|AlternatePart= 
+Variation28=Designator=D17|UniqueId=\YFXQDFVN\ZDUKTRIC|Kind=1|AlternatePart= 
+Variation29=Designator=D18|UniqueId=\YFXQDFVN\ALFINPDY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
@@ -563,20 +526,20 @@ Path=*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=revision
-Value=R2M1E2
+Name=document_number
+Value=D2098000
 
 [Parameter2]
-Name=project_title
-Value=BW2098POE
-
-[Parameter3]
 Name=drawn_by
 Value=Brian Weinstein
 
+[Parameter3]
+Name=project_title
+Value=BW2098POE
+
 [Parameter4]
-Name=document_number
-Value=D2098000
+Name=revision
+Value=R2M1E2
 
 [Configuration1]
 Name=Sources

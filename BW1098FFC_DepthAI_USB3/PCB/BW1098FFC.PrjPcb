@@ -32,9 +32,6 @@ OutputPath=Project Outputs for Documents
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -228,40 +225,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document12]
-DocumentPath=KingTop.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document13]
-DocumentPath=MacroFAB.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document14]
 DocumentPath=BW1098FFC_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -278,7 +241,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document13]
 DocumentPath=BW1098FFC_MIPI_CAM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -295,7 +258,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document14]
 DocumentPath=BW1098FFC_USB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -318,51 +281,43 @@ Description=Production
 AllowFabrication=0
 ParameterCount=0
 VariationCount=16
-Variation1=Designator=R11|UniqueId=\LWVJLYHR\PIWMQJDL|Kind=1|AlternatePart=
-Variation2=Designator=R12|UniqueId=\LWVJLYHR\FIFFMTMY|Kind=1|AlternatePart=
-Variation3=Designator=R8|UniqueId=\LWVJLYHR\GYWDFLGS|Kind=1|AlternatePart=
-Variation4=Designator=R10|UniqueId=\LWVJLYHR\YBUYFQLL|Kind=1|AlternatePart=
-Variation5=Designator=R13|UniqueId=\LWVJLYHR\UZORBIBR|Kind=1|AlternatePart=
-Variation6=Designator=RZ29|UniqueId=\XRZDYHUA\CNXAMKXH|Kind=1|AlternatePart=
-Variation7=Designator=RZ28|UniqueId=\XRZDYHUA\HCHEDILE|Kind=1|AlternatePart=
-Variation8=Designator=J10|UniqueId=\NRMIPHOH\QSIGFFIB|Kind=1|AlternatePart=
-Variation9=Designator=D3|UniqueId=\NRMIPHOH\PGBWPWQB|Kind=1|AlternatePart=
-Variation10=Designator=R1|UniqueId=\NRMIPHOH\VQEORPNY|Kind=1|AlternatePart=
-Variation11=Designator=U2|UniqueId=\NRMIPHOH\NONQSZLC|Kind=1|AlternatePart=
-Variation12=Designator=R5|UniqueId=\NRMIPHOH\EVHMKLCE|Kind=1|AlternatePart=
-Variation13=Designator=C5|UniqueId=\NRMIPHOH\FSHVEJRH|Kind=1|AlternatePart=
-Variation14=Designator=J4|UniqueId=\NRMIPHOH\PDHRUZIM|Kind=1|AlternatePart=
-Variation15=Designator=J5|UniqueId=\NRMIPHOH\SULNMBEN|Kind=1|AlternatePart=
-Variation16=Designator=J3|UniqueId=\NRMIPHOH\AITWZVTF|Kind=1|AlternatePart=
+Variation1=Designator=R11|UniqueId=\LWVJLYHR\PIWMQJDL|Kind=1|AlternatePart= 
+Variation2=Designator=R12|UniqueId=\LWVJLYHR\FIFFMTMY|Kind=1|AlternatePart= 
+Variation3=Designator=R8|UniqueId=\LWVJLYHR\GYWDFLGS|Kind=1|AlternatePart= 
+Variation4=Designator=R10|UniqueId=\LWVJLYHR\YBUYFQLL|Kind=1|AlternatePart= 
+Variation5=Designator=R13|UniqueId=\LWVJLYHR\UZORBIBR|Kind=1|AlternatePart= 
+Variation6=Designator=RZ29|UniqueId=\XRZDYHUA\CNXAMKXH|Kind=1|AlternatePart= 
+Variation7=Designator=RZ28|UniqueId=\XRZDYHUA\HCHEDILE|Kind=1|AlternatePart= 
+Variation8=Designator=J10|UniqueId=\NRMIPHOH\QSIGFFIB|Kind=1|AlternatePart= 
+Variation9=Designator=D3|UniqueId=\NRMIPHOH\PGBWPWQB|Kind=1|AlternatePart= 
+Variation10=Designator=R1|UniqueId=\NRMIPHOH\VQEORPNY|Kind=1|AlternatePart= 
+Variation11=Designator=U2|UniqueId=\NRMIPHOH\NONQSZLC|Kind=1|AlternatePart= 
+Variation12=Designator=R5|UniqueId=\NRMIPHOH\EVHMKLCE|Kind=1|AlternatePart= 
+Variation13=Designator=C5|UniqueId=\NRMIPHOH\FSHVEJRH|Kind=1|AlternatePart= 
+Variation14=Designator=J4|UniqueId=\NRMIPHOH\PDHRUZIM|Kind=1|AlternatePart= 
+Variation15=Designator=J5|UniqueId=\NRMIPHOH\SULNMBEN|Kind=1|AlternatePart= 
+Variation16=Designator=J3|UniqueId=\NRMIPHOH\AITWZVTF|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=BOM CROSS CHECK\Production\BW1098FFC.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Documents\Design Rule Check - BW1098FFC.html
-DItemRevisionGUID=
 
 [SearchPath1]
 Path=*.*
 IncludeSubFolders=1
 
 [Parameter1]
-Name=revision
-Value=R1M1E1
+Name=document_number
+Value=D0000190
 
 [Parameter2]
-Name=project_title
-Value=BW1098FFC
-
-[Parameter3]
 Name=drawn_by
 Value=Brian Weinstein
 
+[Parameter3]
+Name=project_title
+Value=BW1098FFC
+
 [Parameter4]
-Name=document_number
-Value=D0000190
+Name=revision
+Value=R1M1E1
 
 [Configuration1]
 Name=Default Configuration
@@ -588,42 +543,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother DCP-L2540DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -690,6 +615,12 @@ OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
 PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType11=PDF3D MBA
+OutputName11=PDF3D MBA
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1238,6 +1169,8 @@ Type114=1
 Type115=1
 Type116=1
 Type117=1
+Type118=1
+Type119=1
 
 [Difference Levels]
 Type1=1
@@ -1306,6 +1239,8 @@ Type63=1
 Type64=1
 Type65=1
 Type66=1
+Type67=1
+Type68=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1314,33 +1249,33 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=1
+Type7=0
 Type8=1
 Type9=1
 Type10=1
 Type11=2
-Type12=2
-Type13=2
+Type12=0
+Type13=0
 Type14=1
 Type15=1
 Type16=1
 Type17=1
 Type18=1
 Type19=1
-Type20=1
-Type21=1
-Type22=1
-Type23=1
+Type20=0
+Type21=0
+Type22=0
+Type23=0
 Type24=1
 Type25=2
-Type26=2
+Type26=0
 Type27=2
 Type28=1
 Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=2
+Type33=0
 Type34=1
 Type35=1
 Type36=2
@@ -1351,15 +1286,15 @@ Type40=2
 Type41=0
 Type42=2
 Type43=1
-Type44=1
-Type45=2
-Type46=1
-Type47=2
-Type48=2
-Type49=1
+Type44=0
+Type45=0
+Type46=0
+Type47=0
+Type48=0
+Type49=0
 Type50=2
-Type51=1
-Type52=1
+Type51=0
+Type52=0
 Type53=1
 Type54=1
 Type55=1
@@ -1367,10 +1302,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=0
-Type60=1
-Type61=2
-Type62=2
-Type63=1
+Type60=0
+Type61=0
+Type62=0
+Type63=0
 Type64=0
 Type65=2
 Type66=3
@@ -1408,7 +1343,7 @@ Type97=2
 Type98=0
 Type99=1
 Type100=2
-Type101=1
+Type101=0
 Type102=2
 Type103=2
 Type104=1
@@ -1453,6 +1388,7 @@ L17=WNNNNNNNWNNNWWWWN
 [Annotate]
 SortOrder=3
 SortLocation=0
+ReplaceSubparts=0
 MatchParameter1=Comment
 MatchStrictly1=1
 MatchParameter2=Library Reference
@@ -1473,6 +1409,7 @@ NetClassSeparateForBusSections=0
 [LibraryUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Any
 ComponentLibraryIdentifier0=
@@ -1710,13 +1647,14 @@ ModelUpdate8=1
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
+UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=VDD_5V|NetColor=$000101FF
-Net2=NetName=3.3VIN|NetColor=$00FF6EFF
-Net3=NetName=5V_IN|NetColor=$000101FF
-Net4=NetName=GND|NetColor=clLime
+Net1=NetName=3.3VIN|NetColor=$00FF6EFF
+Net2=NetName=5V_IN|NetColor=$000101FF
+Net3=NetName=GND|NetColor=clLime
+Net4=NetName=VDD_5V|NetColor=$000101FF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0

@@ -32,9 +32,6 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -46,23 +43,6 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=MacroFAB.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document2]
 DocumentPath=BW1098OBC.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -79,7 +59,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YNXIHYDL
 
-[Document3]
+[Document2]
 DocumentPath=BW1098OBC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -96,7 +76,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WBNRTNSK
 
-[Document4]
+[Document3]
 DocumentPath=BW1098OBC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -113,7 +93,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SYEKDYQX
 
-[Document5]
+[Document4]
 DocumentPath=BW1098OBC_Assembly_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -130,7 +110,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document5]
 DocumentPath=BW1098OBC_Fabrication_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -147,7 +127,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document7]
+[Document6]
 DocumentPath=BW1098OBC_Project_Information.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -164,7 +144,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJIJRPXX
 
-[Document8]
+[Document7]
 DocumentPath=BW1098OBC_TopLevel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -181,7 +161,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XJMBUEQL
 
-[Document9]
+[Document8]
 DocumentPath=BW1098OBC_IMX378.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -198,7 +178,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVYYLLAE
 
-[Document10]
+[Document9]
 DocumentPath=BW1098OBC_IMX378.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -215,7 +195,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document11]
+[Document10]
 DocumentPath=BW1098OBC_LEFT_OV9282.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -232,7 +212,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FNAFRYCP
 
-[Document12]
+[Document11]
 DocumentPath=BW1098OBC_LEFT_OV9282.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -249,7 +229,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=BW1098OBC_Power_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -266,7 +246,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HPTPYBNP
 
-[Document14]
+[Document13]
 DocumentPath=BW1098OBC_RIGHT_OV9282.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -283,7 +263,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XBUKSRUJ
 
-[Document15]
+[Document14]
 DocumentPath=BW1098OBC_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -300,7 +280,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVDAELBI
 
-[Document16]
+[Document15]
 DocumentPath=BW1098OBC_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -317,7 +297,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document17]
+[Document16]
 DocumentPath=BW1098OBC_RIGHT_OV9282.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -334,7 +314,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=BW1098OBC.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -351,7 +331,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document19]
+[Document18]
 DocumentPath=BW1098OBC_USB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -368,25 +348,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BALCYCRR
 
-[Document20]
+[Document19]
 DocumentPath=BW1098OBC_USB.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document21]
-DocumentPath=KingTop.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -408,24 +371,24 @@ Description=Production
 AllowFabrication=0
 ParameterCount=0
 VariationCount=18
-Variation1=Designator=R6|UniqueId=\KUQNZDHS\ZITQUOJF|Kind=1|AlternatePart=
-Variation2=Designator=R26|UniqueId=\MUKJOEVY\XRZGMJCW|Kind=1|AlternatePart=
-Variation3=Designator=R25|UniqueId=\MUKJOEVY\JXFNMICW|Kind=1|AlternatePart=
-Variation4=Designator=R27|UniqueId=\MUKJOEVY\WELUXFKJ|Kind=1|AlternatePart=
-Variation5=Designator=R24|UniqueId=\MUKJOEVY\EVUXPNYQ|Kind=1|AlternatePart=
-Variation6=Designator=R22|UniqueId=\MUKJOEVY\QBUVBNJC|Kind=1|AlternatePart=
-Variation7=Designator=R18|UniqueId=\VLPOAJOG\LUVWELPX|Kind=1|AlternatePart=
-Variation8=Designator=R19|UniqueId=\VLPOAJOG\ZDLYHMVB|Kind=1|AlternatePart=
-Variation9=Designator=J?|UniqueId=\DUQNLQFH\KOAOFCAI|Kind=1|AlternatePart=
-Variation10=Designator=U7|UniqueId=\DUQNLQFH\YEEIRKQV|Kind=1|AlternatePart=
-Variation11=Designator=R30|UniqueId=\DUQNLQFH\EOTZDKHU|Kind=1|AlternatePart=
-Variation12=Designator=D1|UniqueId=\DUQNLQFH\AJGYZBWB|Kind=1|AlternatePart=
-Variation13=Designator=R29|UniqueId=\DUQNLQFH\XLXUJTNY|Kind=1|AlternatePart=
-Variation14=Designator=C37|UniqueId=\DUQNLQFH\VSPUBLFX|Kind=1|AlternatePart=
-Variation15=Designator=MISC1|UniqueId=\DUQNLQFH\LZHAWCSR|Kind=1|AlternatePart=
-Variation16=Designator=J5|UniqueId=\DUQNLQFH\SOWGJIXO|Kind=1|AlternatePart=
-Variation17=Designator=J4|UniqueId=\DUQNLQFH\AMYMBLTO|Kind=1|AlternatePart=
-Variation18=Designator=J6|UniqueId=\DUQNLQFH\KKLGDLJH|Kind=1|AlternatePart=
+Variation1=Designator=R6|UniqueId=\KUQNZDHS\ZITQUOJF|Kind=1|AlternatePart= 
+Variation2=Designator=R26|UniqueId=\MUKJOEVY\XRZGMJCW|Kind=1|AlternatePart= 
+Variation3=Designator=R25|UniqueId=\MUKJOEVY\JXFNMICW|Kind=1|AlternatePart= 
+Variation4=Designator=R27|UniqueId=\MUKJOEVY\WELUXFKJ|Kind=1|AlternatePart= 
+Variation5=Designator=R24|UniqueId=\MUKJOEVY\EVUXPNYQ|Kind=1|AlternatePart= 
+Variation6=Designator=R22|UniqueId=\MUKJOEVY\QBUVBNJC|Kind=1|AlternatePart= 
+Variation7=Designator=R18|UniqueId=\VLPOAJOG\LUVWELPX|Kind=1|AlternatePart= 
+Variation8=Designator=R19|UniqueId=\VLPOAJOG\ZDLYHMVB|Kind=1|AlternatePart= 
+Variation9=Designator=J?|UniqueId=\DUQNLQFH\KOAOFCAI|Kind=1|AlternatePart= 
+Variation10=Designator=U7|UniqueId=\DUQNLQFH\YEEIRKQV|Kind=1|AlternatePart= 
+Variation11=Designator=R30|UniqueId=\DUQNLQFH\EOTZDKHU|Kind=1|AlternatePart= 
+Variation12=Designator=D1|UniqueId=\DUQNLQFH\AJGYZBWB|Kind=1|AlternatePart= 
+Variation13=Designator=R29|UniqueId=\DUQNLQFH\XLXUJTNY|Kind=1|AlternatePart= 
+Variation14=Designator=C37|UniqueId=\DUQNLQFH\VSPUBLFX|Kind=1|AlternatePart= 
+Variation15=Designator=MISC1|UniqueId=\DUQNLQFH\LZHAWCSR|Kind=1|AlternatePart= 
+Variation16=Designator=J5|UniqueId=\DUQNLQFH\SOWGJIXO|Kind=1|AlternatePart= 
+Variation17=Designator=J4|UniqueId=\DUQNLQFH\AMYMBLTO|Kind=1|AlternatePart= 
+Variation18=Designator=J6|UniqueId=\DUQNLQFH\KKLGDLJH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
@@ -717,42 +680,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother DCP-L2540DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs

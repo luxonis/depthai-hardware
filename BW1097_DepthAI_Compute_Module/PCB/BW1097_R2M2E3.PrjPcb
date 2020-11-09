@@ -16,7 +16,7 @@ AllowPortNetNames=0
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
-DefaultConfiguration=
+DefaultConfiguration=Sources
 UserID=0xFFFFFFFF
 DefaultPcbProtel=1
 DefaultPcbPcad=0
@@ -32,9 +32,6 @@ OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
-VaultGUID=
-ReleaseVaultName=
-ItemGUID=
 
 [Preferences]
 PrefsVaultGUID=
@@ -420,40 +417,6 @@ GenerateClassCluster=0
 DocumentUniqueId=COSSVFHP
 
 [Document23]
-DocumentPath=KingTop.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document24]
-DocumentPath=MacroFAB.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document25]
 DocumentPath=BW1097_SODIMM.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -470,7 +433,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document26]
+[Document24]
 DocumentPath=BW1097_BootSel.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -487,7 +450,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document25]
 DocumentPath=BW1097_EthernetSchDoc.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -504,7 +467,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document26]
 DocumentPath=BW1097_HUB.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -521,7 +484,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document27]
 DocumentPath=BW1097_GPIOHDR.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -538,7 +501,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document28]
 DocumentPath=BW1097_HDMI.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -555,7 +518,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document29]
 DocumentPath=BW1097_AV.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -572,7 +535,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document30]
 DocumentPath=BW1097_JTAG.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -589,7 +552,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document33]
+[Document31]
 DocumentPath=BW1097_uSD.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -606,7 +569,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document32]
 DocumentPath=BW1097_R2M2E3.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -623,7 +586,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ECEUBDBR
 
-[Document35]
+[Document33]
 DocumentPath=BW1097_MIPI_IO.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -640,7 +603,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document36]
+[Document34]
 DocumentPath=BW1097_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -657,7 +620,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document37]
+[Document35]
 DocumentPath=BW1097_IMX378.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -674,7 +637,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document38]
+[Document36]
 DocumentPath=BW1097_LEFT_OV9282.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -691,7 +654,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document39]
+[Document37]
 DocumentPath=BW1097_RIGHT_OV9282.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -714,42 +677,42 @@ Description=Production
 AllowFabrication=0
 ParameterCount=0
 VariationCount=36
-Variation1=Designator=C84|UniqueId=\YYWSRKNF\PXBTNVFL|Kind=1|AlternatePart=
-Variation2=Designator=R74|UniqueId=\TCKMGNEC\HJVJYFLE|Kind=1|AlternatePart=
-Variation3=Designator=R76|UniqueId=\TCKMGNEC\WIZJNHDC|Kind=1|AlternatePart=
-Variation4=Designator=C23|UniqueId=\EZJSRIIK\QFXIKNOX|Kind=1|AlternatePart=
-Variation5=Designator=C26|UniqueId=\EZJSRIIK\HLBJZYOZ|Kind=1|AlternatePart=
-Variation6=Designator=J28|UniqueId=\YYWSRKNF\YAKWQOVN|Kind=1|AlternatePart=
-Variation7=Designator=J29|UniqueId=\KFVEZAIU\DKQNNNBY|Kind=1|AlternatePart=
-Variation8=Designator=R52|UniqueId=\LVMRCPZX\YCAFQOSW|Kind=1|AlternatePart=
-Variation9=Designator=R53|UniqueId=\LVMRCPZX\XKNDETJI|Kind=1|AlternatePart=
-Variation10=Designator=J12|UniqueId=\CPFKPCEQ\SNOJVFFY|Kind=1|AlternatePart=
-Variation11=Designator=C2|UniqueId=\QYNDPPMV\YWHRBIDT|Kind=1|AlternatePart=
-Variation12=Designator=C3|UniqueId=\QYNDPPMV\MJKXPPIY|Kind=1|AlternatePart=
-Variation13=Designator=C4|UniqueId=\QYNDPPMV\HGMZWJRF|Kind=1|AlternatePart=
-Variation14=Designator=C5|UniqueId=\QYNDPPMV\YEZOUWYQ|Kind=1|AlternatePart=
-Variation15=Designator=C45|UniqueId=\EZJSRIIK\ASRMYKHQ|Kind=1|AlternatePart=
-Variation16=Designator=C43|UniqueId=\EZJSRIIK\AJJTMRFV|Kind=1|AlternatePart=
-Variation17=Designator=C42|UniqueId=\EZJSRIIK\SEKGOYRG|Kind=1|AlternatePart=
-Variation18=Designator=R82|UniqueId=\DYYWFUUI\RDXPBCUX|Kind=1|AlternatePart=
-Variation19=Designator=R83|UniqueId=\DYYWFUUI\XAWHDWSP|Kind=1|AlternatePart=
-Variation20=Designator=R79|UniqueId=\DYYWFUUI\LEXALUUJ|Kind=1|AlternatePart=
-Variation21=Designator=R81|UniqueId=\DYYWFUUI\HJUEGQNR|Kind=1|AlternatePart=
-Variation22=Designator=R84|UniqueId=\DYYWFUUI\EIRPTHEY|Kind=1|AlternatePart=
-Variation23=Designator=R89|UniqueId=\CCQBCPWN\ECXRVOFG|Kind=1|AlternatePart=
-Variation24=Designator=R32|UniqueId=\CCQBCPWN\HZHJFAFT|Kind=1|AlternatePart=
-Variation25=Designator=R86|UniqueId=\CCQBCPWN\WREYFPEH|Kind=1|AlternatePart=
-Variation26=Designator=R88|UniqueId=\CCQBCPWN\KGXGQIPX|Kind=1|AlternatePart=
-Variation27=Designator=R87|UniqueId=\CCQBCPWN\FLSOFTSJ|Kind=1|AlternatePart=
-Variation28=Designator=R26|UniqueId=\DFQFECNU\BEZAWVMX|Kind=1|AlternatePart=
-Variation29=Designator=U10|UniqueId=\TCKMGNEC\CJWNRVWT|Kind=1|AlternatePart=
-Variation30=Designator=R25|UniqueId=\TCKMGNEC\TYTCHHZH|Kind=1|AlternatePart=
-Variation31=Designator=D3|UniqueId=\TCKMGNEC\NLKWCGDJ|Kind=1|AlternatePart=
-Variation32=Designator=R24|UniqueId=\TCKMGNEC\TWZHLYFF|Kind=1|AlternatePart=
-Variation33=Designator=C23|UniqueId=\TCKMGNEC\BSKAFVZF|Kind=1|AlternatePart=
-Variation34=Designator=J5|UniqueId=\TCKMGNEC\YCHZEFVM|Kind=1|AlternatePart=
-Variation35=Designator=J7|UniqueId=\TCKMGNEC\OTHHZRXA|Kind=1|AlternatePart=
-Variation36=Designator=J8|UniqueId=\TCKMGNEC\LTTJETKZ|Kind=1|AlternatePart=
+Variation1=Designator=C84|UniqueId=\YYWSRKNF\PXBTNVFL|Kind=1|AlternatePart= 
+Variation2=Designator=R74|UniqueId=\TCKMGNEC\HJVJYFLE|Kind=1|AlternatePart= 
+Variation3=Designator=R76|UniqueId=\TCKMGNEC\WIZJNHDC|Kind=1|AlternatePart= 
+Variation4=Designator=C23|UniqueId=\EZJSRIIK\QFXIKNOX|Kind=1|AlternatePart= 
+Variation5=Designator=C26|UniqueId=\EZJSRIIK\HLBJZYOZ|Kind=1|AlternatePart= 
+Variation6=Designator=J28|UniqueId=\YYWSRKNF\YAKWQOVN|Kind=1|AlternatePart= 
+Variation7=Designator=J29|UniqueId=\KFVEZAIU\DKQNNNBY|Kind=1|AlternatePart= 
+Variation8=Designator=R52|UniqueId=\LVMRCPZX\YCAFQOSW|Kind=1|AlternatePart= 
+Variation9=Designator=R53|UniqueId=\LVMRCPZX\XKNDETJI|Kind=1|AlternatePart= 
+Variation10=Designator=J12|UniqueId=\CPFKPCEQ\SNOJVFFY|Kind=1|AlternatePart= 
+Variation11=Designator=C2|UniqueId=\QYNDPPMV\YWHRBIDT|Kind=1|AlternatePart= 
+Variation12=Designator=C3|UniqueId=\QYNDPPMV\MJKXPPIY|Kind=1|AlternatePart= 
+Variation13=Designator=C4|UniqueId=\QYNDPPMV\HGMZWJRF|Kind=1|AlternatePart= 
+Variation14=Designator=C5|UniqueId=\QYNDPPMV\YEZOUWYQ|Kind=1|AlternatePart= 
+Variation15=Designator=C45|UniqueId=\EZJSRIIK\ASRMYKHQ|Kind=1|AlternatePart= 
+Variation16=Designator=C43|UniqueId=\EZJSRIIK\AJJTMRFV|Kind=1|AlternatePart= 
+Variation17=Designator=C42|UniqueId=\EZJSRIIK\SEKGOYRG|Kind=1|AlternatePart= 
+Variation18=Designator=R82|UniqueId=\DYYWFUUI\RDXPBCUX|Kind=1|AlternatePart= 
+Variation19=Designator=R83|UniqueId=\DYYWFUUI\XAWHDWSP|Kind=1|AlternatePart= 
+Variation20=Designator=R79|UniqueId=\DYYWFUUI\LEXALUUJ|Kind=1|AlternatePart= 
+Variation21=Designator=R81|UniqueId=\DYYWFUUI\HJUEGQNR|Kind=1|AlternatePart= 
+Variation22=Designator=R84|UniqueId=\DYYWFUUI\EIRPTHEY|Kind=1|AlternatePart= 
+Variation23=Designator=R89|UniqueId=\CCQBCPWN\ECXRVOFG|Kind=1|AlternatePart= 
+Variation24=Designator=R32|UniqueId=\CCQBCPWN\HZHJFAFT|Kind=1|AlternatePart= 
+Variation25=Designator=R86|UniqueId=\CCQBCPWN\WREYFPEH|Kind=1|AlternatePart= 
+Variation26=Designator=R88|UniqueId=\CCQBCPWN\KGXGQIPX|Kind=1|AlternatePart= 
+Variation27=Designator=R87|UniqueId=\CCQBCPWN\FLSOFTSJ|Kind=1|AlternatePart= 
+Variation28=Designator=R26|UniqueId=\DFQFECNU\BEZAWVMX|Kind=1|AlternatePart= 
+Variation29=Designator=U10|UniqueId=\TCKMGNEC\CJWNRVWT|Kind=1|AlternatePart= 
+Variation30=Designator=R25|UniqueId=\TCKMGNEC\TYTCHHZH|Kind=1|AlternatePart= 
+Variation31=Designator=D3|UniqueId=\TCKMGNEC\NLKWCGDJ|Kind=1|AlternatePart= 
+Variation32=Designator=R24|UniqueId=\TCKMGNEC\TWZHLYFF|Kind=1|AlternatePart= 
+Variation33=Designator=C23|UniqueId=\TCKMGNEC\BSKAFVZF|Kind=1|AlternatePart= 
+Variation34=Designator=J5|UniqueId=\TCKMGNEC\YCHZEFVM|Kind=1|AlternatePart= 
+Variation35=Designator=J7|UniqueId=\TCKMGNEC\OTHHZRXA|Kind=1|AlternatePart= 
+Variation36=Designator=J8|UniqueId=\TCKMGNEC\LTTJETKZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [SearchPath1]
@@ -1035,42 +998,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=SIMetrixNetlist
-OutputName21=SIMetrix
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMPLISNetlist
-OutputName22=SIMPLIS
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=XSpiceNetlist
-OutputName23=XSpice Netlist
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=Brother DCP-L2540DW series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
