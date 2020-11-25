@@ -21,7 +21,7 @@ Project\ Outputs*/
 *Status Report*
 
 # Archives (including history) 
-*.zip
+#*.zip
 
 # Temporary data 
 *.dat
