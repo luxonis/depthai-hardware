@@ -7,8 +7,7 @@ Normally we fix all errata before uploading to Github, but we are uploading befo
 (and other unknown unknown) errors due popular request for the design files.
 
 Known issues:
- - The USB3 polarity select is backwards so only USB2 works.
- - The IMU uses I2C, which is incapable of operating at satisfactory update rates/latency.  The design will be refactored to use SPI soon.  
+ - The IMU uses I2C, which is incapable of operating at satisfactory update rates/latency.  The design will be refactored to use SPI soon.  Due to this, the IMU was depopulated from the BW1092_R1M0E1 design. 
  - There may be other uncaught errors in the design as well - it is not yet fully tested.
  
 # Overview:
