@@ -1,0 +1,1566 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 8 8
+Title "BW1098OBC_Power_Supply-SchDoc"
+Date "12 12 2020"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 14060 10700 0    60   ~ 0
+5
+Text Notes 14750 10300 0    60   ~ 0
+Luxonis Holding
+Text Notes 14750 10400 0    60   ~ 0
+1925 Harmony Park Drive
+Text Notes 14750 10500 0    60   ~ 0
+Westminster, CO
+Text Notes 14750 10600 0    60   ~ 0
+80234
+Text Notes 14750 10700 0    60   ~ 0
+United States
+Text Notes 14320 10700 0    60   ~ 0
+8
+Text Notes 12480 10360 0    90   ~ 18
+=project_title
+Text Notes 13270 10560 0    72   ~ 0
+=document_number
+Text Notes 14190 10560 0    72   ~ 0
+=revision
+Text Notes 12500 10700 0    60   ~ 0
+*
+Text Notes 13350 10700 0    60   ~ 0
+*
+Text Notes 12700 10800 0    60   ~ 12
+=drawn_by
+Wire Notes Line
+	12200 10800 12200 10200
+Wire Notes Line
+	14700 10400 12200 10400
+Wire Notes Line
+	12900 10600 12900 10400
+Wire Notes Line
+	13800 10700 13800 10400
+Wire Notes Line
+	15800 10700 15800 10200
+Text Notes 12250 10350 0    60   ~ 0
+Title
+Text Notes 12250 10550 0    60   ~ 0
+Size:
+Text Notes 12950 10550 0    60   ~ 0
+Number:
+Text Notes 12250 10700 0    60   ~ 0
+Date:
+Text Notes 12250 10800 0    60   ~ 0
+Drawn by:
+Text Notes 13850 10550 0    60   ~ 0
+Revision:
+Text Notes 13850 10700 0    60   ~ 0
+Sheet
+Text Notes 14190 10700 0    60   ~ 0
+of
+Wire Notes Line
+	14700 10700 14700 10200
+Text Notes 13100 10700 0    60   ~ 0
+Time:
+Text Notes 12500 10560 0    72   ~ 0
+Tabloid
+Wire Notes Line
+	14700 10600 12200 10600
+Wire Notes Line
+	3000 10650 3000 4500
+Wire Notes Line
+	3000 10650 8650 10650
+Wire Notes Line
+	3000 4500 8650 4500
+Wire Notes Line
+	8650 10650 8650 4500
+Text Notes 3000 4500 0    120  ~ 24
+POWER SUPPLIES FOR CAMERA MODULES
+$Comp
+L power:GND #GND_0154
+U 1 1 5FD5302C
+P 10050 9850
+F 0 "#GND_0154" H 10050 9850 20  0000 C CNN
+F 1 "GND" H 10050 9780 30  0000 C CNN
+F 2 "" H 10050 9850 70  0000 C CNN
+F 3 "" H 10050 9850 70  0000 C CNN
+	1    10050 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0155
+U 1 1 5FD5302B
+P 5050 9600
+F 0 "#GND_0155" H 5050 9600 20  0000 C CNN
+F 1 "GND" H 5050 9530 30  0000 C CNN
+F 2 "" H 5050 9600 70  0000 C CNN
+F 3 "" H 5050 9600 70  0000 C CNN
+	1    5050 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #VDD_5V_0110
+U 1 1 5FD5302A
+P 3250 8150
+F 0 "#VDD_5V_0110" H 3250 8290 20  0000 C CNN
+F 1 "VDD_5V" H 3250 8260 30  0000 C CNN
+F 2 "" H 3250 8150 70  0000 C CNN
+F 3 "" H 3250 8150 70  0000 C CNN
+	1    3250 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0156
+U 1 1 5FD53029
+P 4250 8750
+F 0 "#GND_0156" H 4250 8750 20  0000 C CNN
+F 1 "GND" H 4250 8680 30  0000 C CNN
+F 2 "" H 4250 8750 70  0000 C CNN
+F 3 "" H 4250 8750 70  0000 C CNN
+	1    4250 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0157
+U 1 1 5FD53028
+P 4250 8950
+F 0 "#GND_0157" H 4250 8950 20  0000 C CNN
+F 1 "GND" H 4250 8880 30  0000 C CNN
+F 2 "" H 4250 8950 70  0000 C CNN
+F 3 "" H 4250 8950 70  0000 C CNN
+	1    4250 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0158
+U 1 1 5FD53027
+P 6900 10350
+F 0 "#GND_0158" H 6900 10350 20  0000 C CNN
+F 1 "GND" H 6900 10280 30  0000 C CNN
+F 2 "" H 6900 10350 70  0000 C CNN
+F 3 "" H 6900 10350 70  0000 C CNN
+	1    6900 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0159
+U 1 1 5FD53026
+P 3250 8700
+F 0 "#GND_0159" H 3250 8700 20  0000 C CNN
+F 1 "GND" H 3250 8630 30  0000 C CNN
+F 2 "" H 3250 8700 70  0000 C CNN
+F 3 "" H 3250 8700 70  0000 C CNN
+	1    3250 8700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5850 8950
+$Comp
+L power:GND #GND_0160
+U 1 1 5FD53025
+P 6250 10350
+F 0 "#GND_0160" H 6250 10350 20  0000 C CNN
+F 1 "GND" H 6250 10280 30  0000 C CNN
+F 2 "" H 6250 10350 70  0000 C CNN
+F 3 "" H 6250 10350 70  0000 C CNN
+	1    6250 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #VDD_5V_0111
+U 1 1 5FD53024
+P 14250 7750
+F 0 "#VDD_5V_0111" H 14250 7890 20  0000 C CNN
+F 1 "VDD_5V" H 14250 7860 30  0000 C CNN
+F 2 "" H 14250 7750 70  0000 C CNN
+F 3 "" H 14250 7750 70  0000 C CNN
+	1    14250 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0161
+U 1 1 5FD53023
+P 14250 7550
+F 0 "#GND_0161" H 14250 7550 20  0000 C CNN
+F 1 "GND" H 14250 7480 30  0000 C CNN
+F 2 "" H 14250 7550 70  0000 C CNN
+F 3 "" H 14250 7550 70  0000 C CNN
+	1    14250 7550
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10000 9200 10000 7200
+Wire Notes Line
+	10000 9200 15750 9200
+Wire Notes Line
+	10000 7200 15750 7200
+Wire Notes Line
+	15750 9200 15750 7200
+Text Notes 10000 7200 0    120  ~ 24
+FAN CONTROLLER
+Text Notes 7350 9000 0    60   ~ 0
+VOUT= 1.065V
+Text Notes 7350 9100 0    60   ~ 0
+IOUT= 1200mA
+Text Notes 7350 9200 0    60   ~ 0
+VOUT= 0.45x(R2+R3)/R3
+$Comp
+L power:GND #1V05_0101
+U 1 1 5FD53022
+P 8100 8750
+F 0 "#1V05_0101" H 8100 8890 20  0000 C CNN
+F 1 "1V05" H 8100 8860 30  0000 C CNN
+F 2 "" H 8100 8750 70  0000 C CNN
+F 3 "" H 8100 8750 70  0000 C CNN
+	1    8100 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0162
+U 1 1 5FD53021
+P 10350 9850
+F 0 "#GND_0162" H 10350 9850 20  0000 C CNN
+F 1 "GND" H 10350 9780 30  0000 C CNN
+F 2 "" H 10350 9850 70  0000 C CNN
+F 3 "" H 10350 9850 70  0000 C CNN
+	1    10350 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0163
+U 1 1 5FD53020
+P 10700 9850
+F 0 "#GND_0163" H 10700 9850 20  0000 C CNN
+F 1 "GND" H 10700 9780 30  0000 C CNN
+F 2 "" H 10700 9850 70  0000 C CNN
+F 3 "" H 10700 9850 70  0000 C CNN
+	1    10700 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0164
+U 1 1 5FD5301F
+P 11050 9850
+F 0 "#GND_0164" H 11050 9850 20  0000 C CNN
+F 1 "GND" H 11050 9780 30  0000 C CNN
+F 2 "" H 11050 9850 70  0000 C CNN
+F 3 "" H 11050 9850 70  0000 C CNN
+	1    11050 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0165
+U 1 1 5FD5301E
+P 3850 6600
+F 0 "#GND_0165" H 3850 6600 20  0000 C CNN
+F 1 "GND" H 3850 6530 30  0000 C CNN
+F 2 "" H 3850 6600 70  0000 C CNN
+F 3 "" H 3850 6600 70  0000 C CNN
+	1    3850 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0166
+U 1 1 5FD5301D
+P 5750 6600
+F 0 "#GND_0166" H 5750 6600 20  0000 C CNN
+F 1 "GND" H 5750 6530 30  0000 C CNN
+F 2 "" H 5750 6600 70  0000 C CNN
+F 3 "" H 5750 6600 70  0000 C CNN
+	1    5750 6600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 6500
+$Comp
+L power:GND #1V8_0103
+U 1 1 5FD5301C
+P 7950 6300
+F 0 "#1V8_0103" H 7950 6440 20  0000 C CNN
+F 1 "1V8" H 7950 6410 30  0000 C CNN
+F 2 "" H 7950 6300 70  0000 C CNN
+F 3 "" H 7950 6300 70  0000 C CNN
+	1    7950 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #VDD_5V_0112
+U 1 1 5FD5301B
+P 3600 6300
+F 0 "#VDD_5V_0112" H 3600 6440 20  0000 C CNN
+F 1 "VDD_5V" H 3600 6410 30  0000 C CNN
+F 2 "" H 3600 6300 70  0000 C CNN
+F 3 "" H 3600 6300 70  0000 C CNN
+	1    3600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0167
+U 1 1 5FD5301A
+P 3850 7700
+F 0 "#GND_0167" H 3850 7700 20  0000 C CNN
+F 1 "GND" H 3850 7630 30  0000 C CNN
+F 2 "" H 3850 7700 70  0000 C CNN
+F 3 "" H 3850 7700 70  0000 C CNN
+	1    3850 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0168
+U 1 1 5FD53019
+P 5750 7700
+F 0 "#GND_0168" H 5750 7700 20  0000 C CNN
+F 1 "GND" H 5750 7630 30  0000 C CNN
+F 2 "" H 5750 7700 70  0000 C CNN
+F 3 "" H 5750 7700 70  0000 C CNN
+	1    5750 7700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 7600
+$Comp
+L power:GND #VDD_5V_0113
+U 1 1 5FD53018
+P 3650 7400
+F 0 "#VDD_5V_0113" H 3650 7540 20  0000 C CNN
+F 1 "VDD_5V" H 3650 7510 30  0000 C CNN
+F 2 "" H 3650 7400 70  0000 C CNN
+F 3 "" H 3650 7400 70  0000 C CNN
+	1    3650 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #2V8_0103
+U 1 1 5FD53017
+P 8000 7400
+F 0 "#2V8_0103" H 8000 7540 20  0000 C CNN
+F 1 "2V8" H 8000 7510 30  0000 C CNN
+F 2 "" H 8000 7400 70  0000 C CNN
+F 3 "" H 8000 7400 70  0000 C CNN
+	1    8000 7400
+	1    0    0    -1  
+$EndComp
+Text Notes 6650 6450 0    60   ~ 0
+VOUT= 1.8V
+Text Notes 6650 6550 0    60   ~ 0
+IOUT= 300mA
+Text Notes 6750 7550 0    60   ~ 0
+VOUT= 2.8V
+Text Notes 6750 7650 0    60   ~ 0
+IOUT= 300mA
+Text Notes 6650 6650 0    60   ~ 0
+Slew Rate: 18 mV/µs
+Text Notes 6750 7750 0    60   ~ 0
+Slew Rate: 28 mV/µs
+$Comp
+L power:GND #GND_0169
+U 1 1 5FD53016
+P 3250 3400
+F 0 "#GND_0169" H 3250 3540 20  0000 C CNN
+F 1 "GND" H 3250 3510 30  0000 C CNN
+F 2 "" H 3250 3400 70  0000 C CNN
+F 3 "" H 3250 3400 70  0000 C CNN
+	1    3250 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0170
+U 1 1 5FD53015
+P 5950 3400
+F 0 "#GND_0170" H 5950 3540 20  0000 C CNN
+F 1 "GND" H 5950 3510 30  0000 C CNN
+F 2 "" H 5950 3400 70  0000 C CNN
+F 3 "" H 5950 3400 70  0000 C CNN
+	1    5950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0171
+U 1 1 5FD53014
+P 5350 3500
+F 0 "#GND_0171" H 5350 3640 20  0000 C CNN
+F 1 "GND" H 5350 3610 30  0000 C CNN
+F 2 "" H 5350 3500 70  0000 C CNN
+F 3 "" H 5350 3500 70  0000 C CNN
+	1    5350 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #VDD_5V_0114
+U 1 1 5FD53013
+P 3250 3000
+F 0 "#VDD_5V_0114" H 3250 3140 20  0000 C CNN
+F 1 "VDD_5V" H 3250 3110 30  0000 C CNN
+F 2 "" H 3250 3000 70  0000 C CNN
+F 3 "" H 3250 3000 70  0000 C CNN
+	1    3250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #3V0101
+U 1 1 5FD53012
+P 7650 3000
+F 0 "#3V0101" H 7650 3140 20  0000 C CNN
+F 1 "3V3" H 7650 3110 30  0000 C CNN
+F 2 "" H 7650 3000 70  0000 C CNN
+F 3 "" H 7650 3000 70  0000 C CNN
+	1    7650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0172
+U 1 1 5FD53011
+P 6050 1800
+F 0 "#GND_0172" H 6050 1800 20  0000 C CNN
+F 1 "GND" H 6050 1730 30  0000 C CNN
+F 2 "" H 6050 1800 70  0000 C CNN
+F 3 "" H 6050 1800 70  0000 C CNN
+	1    6050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #VDD_5V_0115
+U 1 1 5FD53010
+P 8150 1100
+F 0 "#VDD_5V_0115" H 8150 1240 20  0000 C CNN
+F 1 "VDD_5V" H 8150 1210 30  0000 C CNN
+F 2 "" H 8150 1100 70  0000 C CNN
+F 3 "" H 8150 1100 70  0000 C CNN
+	1    8150 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0173
+U 1 1 5FD5300F
+P 6800 1800
+F 0 "#GND_0173" H 6800 1800 20  0000 C CNN
+F 1 "GND" H 6800 1730 30  0000 C CNN
+F 2 "" H 6800 1800 70  0000 C CNN
+F 3 "" H 6800 1800 70  0000 C CNN
+	1    6800 1800
+	1    0    0    -1  
+$EndComp
+Text Label 6400 950  2    70   ~ 0
+Parameter Set
+Text Label 5800 800  0    70   ~ 0
+Power_trace
+Text Label 4500 800  2    70   ~ 0
+Parameter Set
+Text Label 4200 700  0    70   ~ 0
+Power_trace
+Wire Notes Line
+	3000 2150 3000 500 
+Wire Notes Line
+	3000 2150 8650 2150
+Wire Notes Line
+	3000 500  8650 500 
+Wire Notes Line
+	8650 2150 8650 500 
+Text Notes 3000 500  0    120  ~ 24
+POWER INPUT
+Text GLabel 1000 2550 0    60   Output ~ 0
+1V2
+$Comp
+L power:GND #GND_0174
+U 1 1 5FD5300E
+P 1200 3100
+F 0 "#GND_0174" H 1200 3100 20  0000 C CNN
+F 1 "GND" H 1200 3030 30  0000 C CNN
+F 2 "" H 1200 3100 70  0000 C CNN
+F 3 "" H 1200 3100 70  0000 C CNN
+	1    1200 3100
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 1950 0    60   Output ~ 0
+2V8
+$Comp
+L power:GND #2V8_0104
+U 1 1 5FD5300D
+P 1200 1950
+F 0 "#2V8_0104" H 1200 2090 20  0000 C CNN
+F 1 "2V8" H 1200 2060 30  0000 C CNN
+F 2 "" H 1200 1950 70  0000 C CNN
+F 3 "" H 1200 1950 70  0000 C CNN
+	1    1200 1950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 3100 0    60   Output ~ 0
+GND
+$Comp
+L power:GND #1V2_0102
+U 1 1 5FD5300C
+P 1200 2550
+F 0 "#1V2_0102" H 1200 2690 20  0000 C CNN
+F 1 "1V2" H 1200 2660 30  0000 C CNN
+F 2 "" H 1200 2550 70  0000 C CNN
+F 3 "" H 1200 2550 70  0000 C CNN
+	1    1200 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 2250 0    60   Output ~ 0
+1V8
+$Comp
+L power:GND #1V8_0104
+U 1 1 5FD5300B
+P 1200 2250
+F 0 "#1V8_0104" H 1200 2390 20  0000 C CNN
+F 1 "1V8" H 1200 2360 30  0000 C CNN
+F 2 "" H 1200 2250 70  0000 C CNN
+F 3 "" H 1200 2250 70  0000 C CNN
+	1    1200 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 1650 0    60   Output ~ 0
+3V3
+$Comp
+L power:GND #3V3_0104
+U 1 1 5FD5300A
+P 1200 1650
+F 0 "#3V3_0104" H 1200 1790 20  0000 C CNN
+F 1 "3V3" H 1200 1760 30  0000 C CNN
+F 2 "" H 1200 1650 70  0000 C CNN
+F 3 "" H 1200 1650 70  0000 C CNN
+	1    1200 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 1350 0    60   Output ~ 0
+VDD_5V
+$Comp
+L power:GND #VDD_5V_0116
+U 1 1 5FD53009
+P 1200 1350
+F 0 "#VDD_5V_0116" H 1200 1490 20  0000 C CNN
+F 1 "VDD_5V" H 1200 1460 30  0000 C CNN
+F 2 "" H 1200 1350 70  0000 C CNN
+F 3 "" H 1200 1350 70  0000 C CNN
+	1    1200 1350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 1000 0    60   Input ~ 0
+VBUS
+$Comp
+L power:GND #VBUS_0108
+U 1 1 5FD53008
+P 1200 1000
+F 0 "#VBUS_0108" H 1200 1140 20  0000 C CNN
+F 1 "VBUS" H 1200 1110 30  0000 C CNN
+F 2 "" H 1200 1000 70  0000 C CNN
+F 3 "" H 1200 1000 70  0000 C CNN
+	1    1200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #VBUS_0109
+U 1 1 5FD53007
+P 3450 1800
+F 0 "#VBUS_0109" H 3450 1940 20  0000 C CNN
+F 1 "VBUS" H 3450 1910 30  0000 C CNN
+F 2 "" H 3450 1800 70  0000 C CNN
+F 3 "" H 3450 1800 70  0000 C CNN
+	1    3450 1800
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	10900 1300 10700 1500
+Wire Notes Line
+	12400 1300 10900 1300
+Wire Notes Line
+	11200 1300 11000 1500
+Wire Notes Line
+	11500 1300 11300 1500
+Wire Notes Line
+	10900 1700 10700 1900
+Wire Notes Line
+	12400 1700 10900 1700
+Wire Notes Line
+	11200 1700 11000 1900
+Wire Notes Line
+	11500 1700 11300 1900
+Wire Notes Line
+	11800 2100 11600 2300
+Wire Notes Line
+	10800 2800 10800 1200
+Wire Notes Line
+	11100 2800 11100 1100
+Wire Notes Line
+	11400 2800 11400 1100
+Text Notes 10200 1500 0    60   ~ 0
+2.8V
+Text Notes 10200 1900 0    60   ~ 0
+1.8V
+Text Notes 10200 2300 0    60   ~ 0
+1.2V
+Text Notes 10700 1200 0    60   ~ 0
+Power OFF
+Text Label 12550 2200 0    60   ~ 0
+1. AVDD rising can occur before or after DOVDD rising as long as they are rising before XSHUTDOWN rising  2. XSHUTDOWN is pulled up after AVDD and DOVDD are stable  3. DVDD rises after DOVDD, but before XSHUTDOWN is pulled high
+Wire Notes Line
+	12000 2700 10400 2700
+Text Notes 10200 2700 0    60   ~ 0
+XSHUTDOWN
+Wire Notes Line
+	12400 2500 12000 2500
+Wire Notes Line
+	12400 2100 11800 2100
+Wire Notes Line
+	11430 2070 11400 2100
+Wire Notes Line
+	11430 2130 11400 2100
+Wire Notes Line
+	11700 2100 11400 2100
+Wire Notes Line
+	11670 2070 11700 2100
+Wire Notes Line
+	11670 2130 11700 2100
+Wire Notes Line
+	11700 2800 11700 1100
+Wire Notes Line
+	11430 2370 11400 2400
+Wire Notes Line
+	11430 2430 11400 2400
+Wire Notes Line
+	12000 2400 11400 2400
+Wire Notes Line
+	11970 2370 12000 2400
+Wire Notes Line
+	11970 2430 12000 2400
+Text Notes 11400 2070 0    60   ~ 0
+min 0ms
+Text Notes 11540 2500 0    60   ~ 0
+min 1ms
+Text Notes 13000 1200 0    60   ~ 0
+Supply Information
+Text Notes 13100 1700 0    60   ~ 0
+AVDD
+Text Notes 13100 1500 0    60   ~ 0
+DOVDD
+Text Notes 13100 1600 0    60   ~ 0
+DVDD
+Text Notes 13500 1700 0    60   ~ 0
+VDD-A
+Text Notes 13500 1500 0    60   ~ 0
+VDD-IO
+Text Notes 13500 1600 0    60   ~ 0
+VDD-D
+Text Notes 13900 1700 0    60   ~ 0
+2.8V
+Text Notes 13900 1500 0    60   ~ 0
+1.8V
+Text Notes 13900 1600 0    60   ~ 0
+1.2V
+Text Notes 14700 1700 0    60   ~ 0
+24mA
+Text Notes 14700 1500 0    60   ~ 0
+2.5mA
+Text Notes 14700 1600 0    60   ~ 0
+52mA
+Text Notes 13100 1300 0    60   ~ 0
+Supply Name
+Text Notes 13100 1400 0    60   ~ 0
+Module
+Text Notes 13500 1400 0    60   ~ 0
+Sensor
+Text Notes 13990 1340 0    60   ~ 0
+Voltage
+Text Notes 14620 1340 0    60   ~ 0
+Max Current
+Wire Notes Line
+	13000 1200 15200 1200
+Wire Notes Line
+	13000 1700 13000 1200
+Wire Notes Line
+	15200 1700 13000 1700
+Wire Notes Line
+	15200 1200 15200 1700
+Wire Notes Line
+	13400 1700 13400 1300
+Wire Notes Line
+	13800 1300 13000 1300
+Text Notes 10000 1000 0    120  ~ 24
+OV9282 POWER REQUIREMENTS
+Wire Notes Line
+	10000 3000 10000 1000
+Wire Notes Line
+	10000 3000 15700 3000
+Wire Notes Line
+	10000 1000 15700 1000
+Wire Notes Line
+	15700 3000 15700 1000
+Wire Notes Line
+	10000 5600 10000 3600
+Wire Notes Line
+	10000 5600 15700 5600
+Wire Notes Line
+	10000 3600 15700 3600
+Wire Notes Line
+	15700 5600 15700 3600
+Text Notes 13000 3900 0    60   ~ 0
+Supply Information
+Text Notes 13100 4200 0    60   ~ 0
+AVDD
+Text Notes 13100 4300 0    60   ~ 0
+DOVDD
+Text Notes 13100 4400 0    60   ~ 0
+DVDD
+Text Notes 13500 4200 0    60   ~ 0
+VANA
+Text Notes 13500 4300 0    60   ~ 0
+VIF
+Text Notes 13500 4400 0    60   ~ 0
+VDIG
+Text Notes 13900 4200 0    60   ~ 0
+2.8V ± 0.1
+Text Notes 13900 4300 0    60   ~ 0
+1.8V ± 0.1
+Text Notes 13900 4400 0    60   ~ 0
+1.05V ± 0.1
+Text Notes 14700 4200 0    60   ~ 0
+55mA
+Text Notes 14700 4300 0    60   ~ 0
+2.5mA
+Text Notes 14700 4400 0    60   ~ 0
+446mA
+Text Notes 13100 4000 0    60   ~ 0
+Supply Name
+Text Notes 13100 4100 0    60   ~ 0
+Module
+Text Notes 13500 4100 0    60   ~ 0
+Sensor
+Text Notes 13990 4040 0    60   ~ 0
+Voltage
+Text Notes 14620 4040 0    60   ~ 0
+Max Current
+Wire Notes Line
+	13000 3900 15200 3900
+Wire Notes Line
+	13000 4400 13000 3900
+Wire Notes Line
+	15200 4400 13000 4400
+Wire Notes Line
+	15200 3900 15200 4400
+Wire Notes Line
+	13400 4400 13400 4000
+Wire Notes Line
+	13800 4000 13000 4000
+Wire Notes Line
+	10950 4050 10750 4250
+Wire Notes Line
+	12450 4050 10950 4050
+Wire Notes Line
+	11350 4050 11150 4250
+Wire Notes Line
+	11750 4050 11550 4250
+Wire Notes Line
+	10950 4450 10750 4650
+Wire Notes Line
+	12450 4450 10950 4450
+Wire Notes Line
+	11350 4450 11150 4650
+Wire Notes Line
+	11750 4450 11550 4650
+Wire Notes Line
+	10950 4850 10750 5050
+Wire Notes Line
+	12450 4850 10950 4850
+Wire Notes Line
+	11350 4850 11150 5050
+Wire Notes Line
+	11750 4850 11550 5050
+Wire Notes Line
+	10850 5150 10850 3950
+Wire Notes Line
+	11250 5150 11250 3850
+Wire Notes Line
+	11650 5150 11650 3850
+Text Notes 10250 4250 0    60   ~ 0
+2.8V
+Text Notes 10250 4650 0    60   ~ 0
+1.8V
+Text Notes 10250 5050 0    60   ~ 0
+1.05V
+Text Notes 10650 5250 0    60   ~ 0
+No power supply sequencing is needed
+Text Notes 10750 3950 0    60   ~ 0
+Power OFF
+Text Notes 11750 3950 0    60   ~ 0
+Hardware Standby
+Text Notes 13600 4650 0    60   ~ 0
+Slew Rate Constraint
+Wire Notes Line
+	13600 5450 13200 5450
+Wire Notes Line
+	14000 4850 13600 5450
+Wire Notes Line
+	14700 4850 14000 4850
+Text Notes 13100 5450 0    60   ~ 0
+0V
+Text Notes 14700 4850 0    60   ~ 0
+VDD
+Wire Notes Line
+	13900 5250 13730 5250
+Wire Notes Line
+	13900 5000 13900 5250
+Text Notes 13700 5450 0    60   ~ 0
+Max Slew Rate: 50 mV/µs
+Text Notes 13600 4750 0    60   ~ 0
+(VANA, VIF, VDIG)
+Text Notes 10000 3600 0    120  ~ 24
+IMX378 POWER REQUIREMENTS
+Wire Notes Line
+	3000 4150 3000 2500
+Wire Notes Line
+	3000 4150 8650 4150
+Wire Notes Line
+	3000 2500 8650 2500
+Wire Notes Line
+	8650 4150 8650 2500
+Text Notes 3000 2500 0    120  ~ 24
+3.3V USB SW POWER
+Text Label 4450 1800 1    70   ~ 0
+Parameter Set
+Text Label 4200 1500 0    70   ~ 0
+Power_trace
+$Comp
+L power:GND #GND_0175
+U 1 1 5FD53006
+P 4000 1350
+F 0 "#GND_0175" H 4000 1350 20  0000 C CNN
+F 1 "GND" H 4000 1280 30  0000 C CNN
+F 2 "" H 4000 1350 70  0000 C CNN
+F 3 "" H 4000 1350 70  0000 C CNN
+	1    4000 1350
+	1    0    0    -1  
+$EndComp
+Text Label 6140 1690 0    70   ~ 0
+10V
+Text Label 6890 1690 0    70   ~ 0
+10V
+Text Label 3340 3490 0    70   ~ 0
+25V
+Text Label 6990 10040 0    70   ~ 0
+10V
+Text Label 3940 6690 0    70   ~ 0
+10V
+Text Label 3940 7790 0    70   ~ 0
+10V
+Text Label 3340 8790 0    70   ~ 0
+10V
+Text GLabel 1000 2850 0    60   Output ~ 0
+1V05
+$Comp
+L power:GND #1V05_0102
+U 1 1 5FD53005
+P 1200 2850
+F 0 "#1V05_0102" H 1200 2990 20  0000 C CNN
+F 1 "1V05" H 1200 2960 30  0000 C CNN
+F 2 "" H 1200 2850 70  0000 C CNN
+F 3 "" H 1200 2850 70  0000 C CNN
+	1    1200 2850
+	1    0    0    -1  
+$EndComp
+Text Label 6040 3390 0    70   ~ 0
+10V
+Text Label 5840 6690 0    70   ~ 0
+10V
+Text Label 5840 7790 0    70   ~ 0
+10V
+$Comp
+L power:GND #GND_0176
+U 1 1 5FD53004
+P 3850 5550
+F 0 "#GND_0176" H 3850 5550 20  0000 C CNN
+F 1 "GND" H 3850 5480 30  0000 C CNN
+F 2 "" H 3850 5550 70  0000 C CNN
+F 3 "" H 3850 5550 70  0000 C CNN
+	1    3850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_0177
+U 1 1 5FD53003
+P 5750 5550
+F 0 "#GND_0177" H 5750 5550 20  0000 C CNN
+F 1 "GND" H 5750 5480 30  0000 C CNN
+F 2 "" H 5750 5550 70  0000 C CNN
+F 3 "" H 5750 5550 70  0000 C CNN
+	1    5750 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 5450
+$Comp
+L power:GND #VDD_5V_0117
+U 1 1 5FD53002
+P 3550 5250
+F 0 "#VDD_5V_0117" H 3550 5390 20  0000 C CNN
+F 1 "VDD_5V" H 3550 5360 30  0000 C CNN
+F 2 "" H 3550 5250 70  0000 C CNN
+F 3 "" H 3550 5250 70  0000 C CNN
+	1    3550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #1V2_0103
+U 1 1 5FD53001
+P 8000 5250
+F 0 "#1V2_0103" H 8000 5390 20  0000 C CNN
+F 1 "1V2" H 8000 5360 30  0000 C CNN
+F 2 "" H 8000 5250 70  0000 C CNN
+F 3 "" H 8000 5250 70  0000 C CNN
+	1    8000 5250
+	1    0    0    -1  
+$EndComp
+Text Label 5840 5640 0    70   ~ 0
+10V
+Text Label 3940 5640 0    70   ~ 0
+10V
+Text Notes 6650 5400 0    60   ~ 0
+VOUT= 1.2V
+Text Notes 6650 5500 0    60   ~ 0
+IOUT= 300mA
+Text Notes 6650 5600 0    60   ~ 0
+Slew Rate: 18 mV/µs
+Wire Wire Line
+	6100 8750 5850 8750
+Wire Wire Line
+	14400 7550 14250 7550
+Wire Wire Line
+	14400 7750 14250 7750
+Wire Wire Line
+	5550 6500 5450 6500
+Wire Wire Line
+	5550 6600 5550 6500
+Wire Wire Line
+	5750 6600 5550 6600
+Wire Wire Line
+	4350 6400 4450 6400
+Wire Wire Line
+	4350 6300 4350 6400
+Wire Wire Line
+	5550 7600 5450 7600
+Wire Wire Line
+	5550 7700 5550 7600
+Wire Wire Line
+	5750 7700 5550 7700
+Wire Wire Line
+	4350 7500 4450 7500
+Wire Wire Line
+	4350 7400 4350 7500
+Wire Wire Line
+	5350 3400 5250 3400
+Wire Wire Line
+	3250 3000 3250 3100
+Wire Wire Line
+	3750 3000 3250 3000
+Wire Wire Line
+	3750 3200 3750 3000
+Wire Wire Line
+	5950 3300 5950 3400
+Wire Wire Line
+	6050 1100 6050 1300
+Wire Wire Line
+	6050 1600 6050 1800
+Wire Wire Line
+	6800 1100 6800 1300
+Wire Wire Line
+	6800 1600 6800 1800
+Wire Wire Line
+	1400 1950 1200 1950
+Wire Wire Line
+	1200 1950 1000 1950
+Wire Wire Line
+	1200 3100 1000 3100
+Wire Wire Line
+	1200 2250 1000 2250
+Wire Wire Line
+	1400 2250 1200 2250
+Wire Wire Line
+	1200 2550 1000 2550
+Wire Wire Line
+	1400 2550 1200 2550
+Wire Wire Line
+	6900 10350 6900 9950
+Wire Wire Line
+	1400 1650 1200 1650
+Wire Wire Line
+	1200 1650 1000 1650
+Wire Wire Line
+	1400 1350 1200 1350
+Wire Wire Line
+	1200 1350 1000 1350
+Wire Wire Line
+	1400 1000 1200 1000
+Wire Wire Line
+	1200 1000 1000 1000
+Wire Wire Line
+	4450 7400 4350 7400
+Wire Wire Line
+	6050 8550 5850 8550
+Wire Wire Line
+	6050 8150 6050 8550
+Wire Wire Line
+	4100 8150 6050 8150
+Wire Wire Line
+	4100 8550 4100 8150
+Wire Wire Line
+	4250 8550 4100 8550
+Wire Wire Line
+	3250 8150 3250 8400
+Wire Wire Line
+	4100 8150 3250 8150
+Wire Wire Line
+	5250 1800 5250 1100
+Wire Wire Line
+	5100 1800 5250 1800
+Wire Wire Line
+	4000 1300 3750 1300
+Wire Wire Line
+	4000 1350 4000 1300
+Wire Wire Line
+	4000 1200 4000 1300
+Wire Wire Line
+	3750 1200 4000 1200
+Wire Wire Line
+	4350 6300 4450 6300
+Wire Wire Line
+	6250 9150 6250 9300
+Wire Wire Line
+	3950 9150 4250 9150
+Wire Wire Line
+	3950 9800 3950 9150
+Wire Wire Line
+	6250 9800 3950 9800
+Wire Wire Line
+	6250 9700 6250 9800
+Wire Wire Line
+	6250 9800 6250 9900
+Wire Wire Line
+	6250 10300 6250 10350
+Wire Wire Line
+	6900 8750 6700 8750
+Wire Wire Line
+	6250 9150 5850 9150
+Wire Wire Line
+	6900 9150 6250 9150
+Wire Wire Line
+	6900 8750 6900 9150
+Wire Wire Line
+	6900 9150 6900 9650
+Wire Wire Line
+	1200 2850 1000 2850
+Wire Wire Line
+	1400 2850 1200 2850
+Wire Wire Line
+	5050 9550 5050 9600
+Wire Wire Line
+	6800 1100 8150 1100
+Wire Wire Line
+	6050 1100 6800 1100
+Wire Wire Line
+	5250 1100 6050 1100
+Wire Wire Line
+	5100 1100 5250 1100
+Wire Wire Line
+	5350 3300 5250 3300
+Wire Wire Line
+	5350 3400 5350 3300
+Wire Wire Line
+	5350 3500 5350 3400
+Wire Wire Line
+	5550 5450 5450 5450
+Wire Wire Line
+	5550 5550 5550 5450
+Wire Wire Line
+	5750 5550 5550 5550
+Wire Wire Line
+	4350 5350 4450 5350
+Wire Wire Line
+	4350 5250 4350 5350
+Wire Wire Line
+	4350 5250 4450 5250
+Text Label 10000 5650 0    60   ~ 0
+POWER SEQUENCING REQUIREMENTS:    The BW1099 module handles it's own power sequencing on-board.     The camera modules have their own power sequencing requirements. The OV9282 have requirements for sequencing, and the IMX378 has a max slew rate requirement. See above.
+Connection ~ 1200 2850
+Connection ~ 1200 2550
+Connection ~ 1200 2250
+Connection ~ 1200 1950
+Connection ~ 1200 1650
+Connection ~ 1200 1350
+Connection ~ 1200 1000
+Connection ~ 3250 8150
+Connection ~ 3250 3000
+Connection ~ 4000 1300
+Connection ~ 4100 8150
+Connection ~ 4350 7400
+Connection ~ 4350 6300
+Connection ~ 4350 5250
+Connection ~ 5250 1100
+Connection ~ 5350 3400
+Connection ~ 6050 1100
+Connection ~ 6250 9800
+Connection ~ 6250 9150
+Connection ~ 6800 1100
+Connection ~ 6900 9150
+Connection ~ 6900 8750
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_PJ-050AH_NEB21R_COMBO--BW1098OBC_Power_Supply-cache J9
+U 1 1 5FD53000
+P 3750 1100
+F 0 "J9" H 3275 1185 60  0000 L BNN
+F 1 "PJ-050AH or NEB21R" H 3100 750 60  0000 L BNN
+F 2 "" H 3100 750 60  0001 C CNN
+F 3 "" H 3100 750 60  0000 C CNN
+	1    3750 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C37
+U 1 1 5FD52FFF
+P 6800 1600
+F 0 "C37" V 6910 1510 60  0000 R TNN
+F 1 "22uF 0603" V 6810 1510 60  0000 R TNN
+F 2 "" H 6810 1510 60  0001 C CNN
+F 3 "" H 6810 1510 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    6800 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM155R61E105KA12D--BW1098OBC_Power_Supply-cache C27
+U 1 1 5FD52FFE
+P 3250 3400
+F 0 "C27" V 3360 3310 60  0000 R TNN
+F 1 "1uF 0402" V 3260 3310 60  0000 R TNN
+F 2 "" H 3260 3310 60  0001 C CNN
+F 3 "" H 3260 3310 60  0000 C CNN
+F 4 "25V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    3250 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C38
+U 1 1 5FD52FFD
+P 6900 9950
+F 0 "C38" V 7010 9860 60  0000 R TNN
+F 1 "22uF 0603" V 6910 9860 60  0000 R TNN
+F 2 "" H 6910 9860 60  0001 C CNN
+F 3 "" H 6910 9860 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    6900 9950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C30
+U 1 1 5FD52FFC
+P 3850 6600
+F 0 "C30" V 3960 6510 60  0000 R TNN
+F 1 "10uF 0603" V 3860 6510 60  0000 R TNN
+F 2 "" H 3860 6510 60  0001 C CNN
+F 3 "" H 3860 6510 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    3850 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C31
+U 1 1 5FD52FFB
+P 3850 7700
+F 0 "C31" V 3960 7610 60  0000 R TNN
+F 1 "10uF 0603" V 3860 7610 60  0000 R TNN
+F 2 "" H 3860 7610 60  0001 C CNN
+F 3 "" H 3860 7610 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    3850 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C28
+U 1 1 5FD52FFA
+P 3250 8700
+F 0 "C28" V 3360 8610 60  0000 R TNN
+F 1 "10uF 0603" V 3260 8610 60  0000 R TNN
+F 2 "" H 3260 8610 60  0001 C CNN
+F 3 "" H 3260 8610 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    3250 8700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_CRCW040253K6FKED--BW1098OBC_Power_Supply-cache R31
+U 1 1 5FD52FF9
+P 6250 9700
+F 0 "R31" V 6460 9670 60  0000 R TNN
+F 1 "53.6k 0402" V 6360 9670 60  0000 R TNN
+F 2 "" H 6360 9670 60  0001 C CNN
+F 3 "" H 6360 9670 60  0000 C CNN
+	1    6250 9700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_CRCW040239K2FKED--BW1098OBC_Power_Supply-cache R32
+U 1 1 5FD52FF8
+P 6250 10300
+F 0 "R32" V 6460 10270 60  0000 R TNN
+F 1 "39.2k 0402" V 6360 10270 60  0000 R TNN
+F 2 "" H 6360 10270 60  0001 C CNN
+F 3 "" H 6360 10270 60  0000 C CNN
+	1    6250 10300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C35
+U 1 1 5FD52FF7
+P 5950 3300
+F 0 "C35" V 6060 3210 60  0000 R TNN
+F 1 "10uF 0603" V 5960 3210 60  0000 R TNN
+F 2 "" H 5960 3210 60  0001 C CNN
+F 3 "" H 5960 3210 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    5950 3300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C33
+U 1 1 5FD52FF6
+P 5750 6600
+F 0 "C33" V 5860 6510 60  0000 R TNN
+F 1 "10uF 0603" V 5760 6510 60  0000 R TNN
+F 2 "" H 5760 6510 60  0001 C CNN
+F 3 "" H 5760 6510 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    5750 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TLV70733PDQN--BW1098OBC_Power_Supply-cache U3
+U 1 1 5FD52FF5
+P 3750 3000
+F 0 "U3" H 4050 3100 60  0000 L BNN
+F 1 "TLV70733PDQN" H 4050 2400 60  0000 L BNN
+F 2 "" H 4050 2400 60  0001 C CNN
+F 3 "" H 4050 2400 60  0000 C CNN
+	1    3750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C34
+U 1 1 5FD52FF4
+P 5750 7700
+F 0 "C34" V 5860 7610 60  0000 R TNN
+F 1 "10uF 0603" V 5760 7610 60  0000 R TNN
+F 2 "" H 5760 7610 60  0001 C CNN
+F 3 "" H 5760 7610 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    5750 7700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_DFE252012P-1R0M=P2--BW1098OBC_Power_Supply-cache L1
+U 1 1 5FD52FF3
+P 6100 8750
+F 0 "L1" H 6200 8800 60  0000 L BNN
+F 1 "1uH, 3.2A, 20%" H 6100 8650 60  0000 L BNN
+F 2 "" H 6100 8650 60  0001 C CNN
+F 3 "" H 6100 8650 60  0000 C CNN
+	1    6100 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C32
+U 1 1 5FD52FF2
+P 5750 5550
+F 0 "C32" V 5860 5460 60  0000 R TNN
+F 1 "10uF 0603" V 5760 5460 60  0000 R TNN
+F 2 "" H 5760 5460 60  0001 C CNN
+F 3 "" H 5760 5460 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    5750 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A106ME69D--BW1098OBC_Power_Supply-cache C29
+U 1 1 5FD52FF1
+P 3850 5550
+F 0 "C29" V 3960 5460 60  0000 R TNN
+F 1 "10uF 0603" V 3860 5460 60  0000 R TNN
+F 2 "" H 3860 5460 60  0001 C CNN
+F 3 "" H 3860 5460 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    3850 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TLV70012DCK--BW1098OBC_Power_Supply-cache U5
+U 1 1 5FD52FF0
+P 4450 5250
+F 0 "U5" H 4650 5350 60  0000 L BNN
+F 1 "TLV70012DCK" H 4650 4850 60  0000 L BNN
+F 2 "" H 4650 4850 60  0001 C CNN
+F 3 "" H 4650 4850 60  0000 C CNN
+	1    4450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP12
+U 1 1 5FD52FEF
+P 4600 1100
+F 0 "TP12" H 4550 1250 60  0000 L BNN
+F 1 "~" H 4600 1100 50  0001 C CNN
+F 2 "" H 4600 1100 50  0001 C CNN
+F 3 "" H 4600 1100 50  0001 C CNN
+	1    4600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP14
+U 1 1 5FD52FEE
+P 6800 1100
+F 0 "TP14" H 6750 1250 60  0000 L BNN
+F 1 "~" H 6800 1100 50  0001 C CNN
+F 2 "" H 6800 1100 50  0001 C CNN
+F 3 "" H 6800 1100 50  0001 C CNN
+	1    6800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP13
+U 1 1 5FD52FED
+P 5950 3000
+F 0 "TP13" H 5900 3150 60  0000 L BNN
+F 1 "~" H 5950 3000 50  0001 C CNN
+F 2 "" H 5950 3000 50  0001 C CNN
+F 3 "" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP15
+U 1 1 5FD52FEC
+P 6850 5250
+F 0 "TP15" H 6800 5400 60  0000 L BNN
+F 1 "~" H 6850 5250 50  0001 C CNN
+F 2 "" H 6850 5250 50  0001 C CNN
+F 3 "" H 6850 5250 50  0001 C CNN
+	1    6850 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP16
+U 1 1 5FD52FEB
+P 6850 6300
+F 0 "TP16" H 6800 6450 60  0000 L BNN
+F 1 "~" H 6850 6300 50  0001 C CNN
+F 2 "" H 6850 6300 50  0001 C CNN
+F 3 "" H 6850 6300 50  0001 C CNN
+	1    6850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TLV70028DCK--BW1098OBC_Power_Supply-cache U7
+U 1 1 5FD52FEA
+P 4450 7400
+F 0 "U7" H 4650 7500 60  0000 L BNN
+F 1 "TLV70028DCK" H 4650 7000 60  0000 L BNN
+F 2 "" H 4650 7000 60  0001 C CNN
+F 3 "" H 4650 7000 60  0000 C CNN
+	1    4450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP17
+U 1 1 5FD52FE9
+P 6850 7400
+F 0 "TP17" H 6800 7550 60  0000 L BNN
+F 1 "~" H 6850 7400 50  0001 C CNN
+F 2 "" H 6850 7400 50  0001 C CNN
+F 3 "" H 6850 7400 50  0001 C CNN
+	1    6850 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP18
+U 1 1 5FD52FE8
+P 7650 8750
+F 0 "TP18" H 7600 8900 60  0000 L BNN
+F 1 "~" H 7650 8750 50  0001 C CNN
+F 2 "" H 7650 8750 50  0001 C CNN
+F 3 "" H 7650 8750 50  0001 C CNN
+	1    7650 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP19
+U 1 1 5FD52FE7
+P 10050 9850
+F 0 "TP19" H 10000 10000 60  0000 L BNN
+F 1 "~" H 10050 9850 50  0001 C CNN
+F 2 "" H 10050 9850 50  0001 C CNN
+F 3 "" H 10050 9850 50  0001 C CNN
+	1    10050 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP20
+U 1 1 5FD52FE6
+P 10350 9850
+F 0 "TP20" H 10300 10000 60  0000 L BNN
+F 1 "~" H 10350 9850 50  0001 C CNN
+F 2 "" H 10350 9850 50  0001 C CNN
+F 3 "" H 10350 9850 50  0001 C CNN
+	1    10350 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP21
+U 1 1 5FD52FE5
+P 10700 9850
+F 0 "TP21" H 10650 10000 60  0000 L BNN
+F 1 "~" H 10700 9850 50  0001 C CNN
+F 2 "" H 10700 9850 50  0001 C CNN
+F 3 "" H 10700 9850 50  0001 C CNN
+	1    10700 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP22
+U 1 1 5FD52FE4
+P 11050 9850
+F 0 "TP22" H 11000 10000 60  0000 L BNN
+F 1 "~" H 11050 9850 50  0001 C CNN
+F 2 "" H 11050 9850 50  0001 C CNN
+F 3 "" H 11050 9850 50  0001 C CNN
+	1    11050 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP11
+U 1 1 5FD52FE3
+P 3700 1800
+F 0 "TP11" H 3650 1950 60  0000 L BNN
+F 1 "~" H 3700 1800 50  0001 C CNN
+F 2 "" H 3700 1800 50  0001 C CNN
+F 3 "" H 3700 1800 50  0001 C CNN
+	1    3700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TLV70018DCK--BW1098OBC_Power_Supply-cache U6
+U 1 1 5FD52FE2
+P 4450 6300
+F 0 "U6" H 4650 6400 60  0000 L BNN
+F 1 "TLV70018DCK" H 4650 5900 60  0000 L BNN
+F 2 "" H 4650 5900 60  0001 C CNN
+F 3 "" H 4650 5900 60  0000 C CNN
+	1    4450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TLV62080DSG--BW1098OBC_Power_Supply-cache U4
+U 1 1 5FD52FE1
+P 4250 8550
+F 0 "U4" H 4450 8750 60  0000 L BNN
+F 1 "TLV62080DSG" H 5150 7650 60  0000 L BNN
+F 2 "" H 5150 7650 60  0001 C CNN
+F 3 "" H 5150 7650 60  0000 C CNN
+	1    4250 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_B2B-PH-K-S(LF)(SN)--BW1098OBC_Power_Supply-cache J10
+U 1 1 5FD52FE0
+P 14400 7550
+F 0 "J10" H 14700 7650 60  0000 L BNN
+F 1 "B2B-PH-K-S(LF)(SN)" H 14700 7150 60  0000 L BNN
+F 2 "" H 14700 7150 60  0001 C CNN
+F 3 "" H 14700 7150 60  0000 C CNN
+	1    14400 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_CRCW06030000Z0EA--BW1098OBC_Power_Supply-cache R29
+U 1 1 5FD52FDF
+P 4700 1100
+F 0 "R29" H 4790 1130 60  0000 L BNN
+F 1 "0R 0603" H 4790 970 60  0000 L BNN
+F 2 "" H 4790 970 60  0001 C CNN
+F 3 "" H 4790 970 60  0000 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_CRCW06030000Z0EA--BW1098OBC_Power_Supply-cache R30
+U 1 1 5FD52FDE
+P 4700 1800
+F 0 "R30" H 4790 1830 60  0000 L BNN
+F 1 "0R 0603" H 4790 1670 60  0000 L BNN
+F 2 "" H 4790 1670 60  0001 C CNN
+F 3 "" H 4790 1670 60  0000 C CNN
+	1    4700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C36
+U 1 1 5FD52FDD
+P 6050 1600
+F 0 "C36" V 6160 1510 60  0000 R TNN
+F 1 "22uF 0603" V 6060 1510 60  0000 R TNN
+F 2 "" H 6060 1510 60  0001 C CNN
+F 3 "" H 6060 1510 60  0000 C CNN
+F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+	1    6050 1600
+	0    -1   -1   0   
+$EndComp
+Wire Notes Line
+	12200 10200 16800 10200
+Wire Notes Line
+	12200 10700 16800 10700
+Wire Notes Line
+	10500 1500 11300 1500
+Wire Notes Line
+	10500 1900 11300 1900
+Wire Notes Line
+	10500 2300 11600 2300
+Wire Notes Line
+	12000 1100 12000 2800
+Wire Notes Line
+	13800 1200 13800 1700
+Wire Notes Line
+	14500 1200 14500 1700
+Wire Notes Line
+	13000 1400 15200 1400
+Wire Notes Line
+	13800 3900 13800 4400
+Wire Notes Line
+	14500 3900 14500 4400
+Wire Notes Line
+	13000 4100 15200 4100
+Wire Notes Line
+	10550 4250 11550 4250
+Wire Notes Line
+	10550 4650 11550 4650
+Wire Notes Line
+	10550 5050 11550 5050
+Wire Wire Line
+	5450 6300 7950 6300
+Wire Wire Line
+	5450 7400 8000 7400
+Wire Wire Line
+	3750 1100 4700 1100
+Wire Wire Line
+	3650 7400 4350 7400
+Wire Wire Line
+	3450 1800 4700 1800
+Wire Wire Line
+	5250 3000 7650 3000
+Wire Wire Line
+	3600 6300 4350 6300
+Wire Wire Line
+	6900 8750 8100 8750
+Wire Wire Line
+	5450 5250 8000 5250
+Wire Wire Line
+	3550 5250 4350 5250
+$EndSCHEMATC
