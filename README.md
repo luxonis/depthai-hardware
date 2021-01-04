@@ -43,4 +43,12 @@ The [BK1096 repository](/BK1096_OAK-1_Modular) contains open hardware designed b
 
 ![](BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
 
+## BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board
+![](BW0253_R0M0E0_RPIHQ_ADAPTER/Images/RPI_HQ_CAM_SYSTEM_2020-May-14_08-35-31PM-000_CustomizedView42985702451.png)
+
+The BW0253_R0M0E0 is an adapter board to allow the [Raspberry Pi HQ camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/) to physically interface to the DepthAI RGB camera port on the [BW1098FFC](https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3). 
+
+This allows using DepthAI with all sorts of lens combinations, including variable zoom, variable focus, and even [with a telescope](https://www.tomshardware.com/news/raspberry-pi-high-quality-camera-used-for-out-of-this-world-astrophotography).
+
+
 ![image](https://user-images.githubusercontent.com/32992551/97765359-5fa6f480-1ad7-11eb-85fa-4b9a6d4e30d7.png)
