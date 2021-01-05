@@ -27,22 +27,6 @@ Wire Notes Line
 	12250 10450 12250 9950
 Wire Notes Line
 	11000 10450 11000 9950
-Text HLabel 2000 1600 0    60   Output ~ 0
-1V2
-Text HLabel 2000 1400 0    60   Output ~ 0
-2V8
-Text HLabel 2000 1900 0    60   Output ~ 0
-GND
-Text HLabel 2000 1500 0    60   Output ~ 0
-1V8
-Text HLabel 2000 1100 0    60   Output ~ 0
-VDD_5V
-Text HLabel 2000 1200 0    60   Input ~ 0
-VBUS
-Text HLabel 2000 1300 0    60   Output ~ 0
-3V3
-Text HLabel 2000 1700 0    60   Output ~ 0
-1V05
 Text HLabel 13600 4700 2    60   BiDi ~ 0
 MIPI_CAM_B
 Text HLabel 13600 3200 2    60   BiDi ~ 0
@@ -316,6 +300,22 @@ U 5FD7F01D
 F0 "U_BW1098OBC_Project_Information" 60
 F1 "BW1098OBC_Project_Information.sch" 60
 $EndSheet
+Text HLabel 2000 1900 0    60   Output ~ 0
+GND
+Text HLabel 2000 1700 0    60   Output ~ 0
+1V05
+Text HLabel 2000 1500 0    60   Output ~ 0
+1V8
+Text HLabel 2000 1400 0    60   Output ~ 0
+2V8
+Text HLabel 2000 1600 0    60   Output ~ 0
+1V2
+Text HLabel 2000 1300 0    60   Output ~ 0
+3V3
+Text HLabel 2000 1200 0    60   Input ~ 0
+VBUS
+Text HLabel 2000 1100 0    60   Output ~ 0
+VDD_5V
 $Sheet
 S 500  1000 1500 1000
 U 5FD7EFCB

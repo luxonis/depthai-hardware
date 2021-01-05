@@ -691,8 +691,6 @@ Connection ~ 10350 5100
 Connection ~ 10350 5000
 Wire Wire Line
 	9750 4000 13550 4000
-Wire Wire Line
-	9750 4400 11050 4400
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 5FE2D066
@@ -850,7 +848,7 @@ Parameter Set
 Text Notes 12800 5550 0    50   ~ 0
 SDIO
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP6
+L depthAI_sch:TEST_POINT TP6
 U 1 1 604DC517
 P 4250 4200
 F 0 "TP6" V 4383 4268 60  0000 C CNN
@@ -861,7 +859,7 @@ F 3 "" H 4250 4200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP7
+L depthAI_sch:TEST_POINT TP7
 U 1 1 6050AA84
 P 4250 4400
 F 0 "TP7" V 4383 4468 60  0000 C CNN
@@ -872,7 +870,7 @@ F 3 "" H 4250 4400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP8
+L depthAI_sch:TEST_POINT TP8
 U 1 1 6052CBCA
 P 5350 4300
 F 0 "TP8" V 5483 4368 60  0000 C CNN
@@ -883,7 +881,7 @@ F 3 "" H 5350 4300 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP9
+L depthAI_sch:TEST_POINT TP9
 U 1 1 605596E8
 P 10350 5200
 F 0 "TP9" V 10350 5380 60  0000 L CNN
@@ -896,7 +894,7 @@ $EndComp
 Text Notes 750  10150 0    50   ~ 0
 2485_PGOOD and MODULE_nRST both have pull ups to 1.8V \non 1099 module. 2485_PGOOD is held low by open-drain output \non 1099 PMIC until power is good. MODULE_nRST rises with \n1.8V at POR, but can be held low by user button or 1099 JTAG.
 $Comp
-L BW1098OBC_TopLevel-rescue:20021121-00010T1LF-BW1098OBC_Connector-cache-BW1098OBC_TopLevel-rescue J?
+L depthAI_sch:20021121-00010T1LF J?
 U 1 1 605FCE0C
 P 4250 9550
 AR Path="/605FCE0C" Ref="J?"  Part="1" 
@@ -910,7 +908,7 @@ F 4 "DNP" H 4700 8850 50  0000 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:20021121-00010T1LF-BW1098OBC_Connector-cache-BW1098OBC_TopLevel-rescue J?
+L depthAI_sch:20021121-00010T1LF J?
 U 1 1 605FF28B
 P 7150 9550
 AR Path="/605FF28B" Ref="J?"  Part="1" 
@@ -924,7 +922,7 @@ F 4 "DNP" H 7550 8850 50  0000 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:20021121-00010T1LF-BW1098OBC_Connector-cache-BW1098OBC_TopLevel-rescue J?
+L depthAI_sch:20021121-00010T1LF J?
 U 1 1 6060E6D4
 P 10200 9550
 AR Path="/6060E6D4" Ref="J?"  Part="1" 
@@ -2100,7 +2098,7 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	12100 3350 11400 3350
 Text Notes 11700 2450 0    50   ~ 0
-MIPI_CAM_B
+USB
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	11400 2500 11400 3350
 Wire Notes Line
@@ -2134,7 +2132,7 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	13550 3800 13550 4050
 $Comp
-L BW1098OBC_TopLevel-rescue:DF40HC(3.0)-100DS-0.4V_BW1099_G2-BW1098OBC_Connector-cache-BW1098OBC_TopLevel-rescue J7
+L depthAI_sch:DF40HC(3.0)-100DS-0.4V_BW1099_G2 J7
 U 1 1 5FDB88CE
 P 7350 2000
 F 0 "J7" H 8550 2289 60  0000 C CNN
@@ -2145,7 +2143,7 @@ F 3 "" H 7350 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP10
+L depthAI_sch:TEST_POINT TP10
 U 1 1 5FDBCF28
 P 11050 4400
 F 0 "TP10" H 10950 4550 60  0000 R CNN
@@ -2155,9 +2153,6 @@ F 3 "" H 11050 4400 60  0000 C CNN
 	1    11050 4400
 	-1   0    0    1   
 $EndComp
-Connection ~ 11050 4400
-Wire Wire Line
-	11050 4400 11200 4400
 Text GLabel 11850 7300 2    50   UnSpc ~ 0
 MIPI_RX3_D1_N
 Text GLabel 11850 7400 2    50   UnSpc ~ 0
@@ -2356,4 +2351,6 @@ Text HLabel 6300 5900 0    50   Input ~ 0
 SD_HST0_CMD
 Text HLabel 6300 5800 0    50   Input ~ 0
 SD_HST0_CLK
+Wire Wire Line
+	9750 4400 11200 4400
 $EndSCHEMATC

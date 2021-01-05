@@ -13,66 +13,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 14060 10700 0    60   ~ 0
-6
-Text Notes 14750 10300 0    60   ~ 0
+Text Notes 15300 9400 0    60   ~ 0
 Luxonis Holding
-Text Notes 14750 10400 0    60   ~ 0
+Text Notes 15300 9500 0    60   ~ 0
 1925 Harmony Park Drive
-Text Notes 14750 10500 0    60   ~ 0
+Text Notes 15300 9600 0    60   ~ 0
 Westminster, CO
-Text Notes 14750 10600 0    60   ~ 0
+Text Notes 15300 9700 0    60   ~ 0
 80234
-Text Notes 14750 10700 0    60   ~ 0
+Text Notes 15300 9800 0    60   ~ 0
 United States
 Text Notes 14320 10700 0    60   ~ 0
 8
-Text Notes 12480 10360 0    90   ~ 18
-=project_title
-Text Notes 13270 10560 0    72   ~ 0
-=document_number
-Text Notes 14190 10560 0    72   ~ 0
-=revision
-Text Notes 12500 10700 0    60   ~ 0
-*
-Text Notes 13350 10700 0    60   ~ 0
-*
-Text Notes 12700 10800 0    60   ~ 12
-=drawn_by
 Wire Notes Line
-	12200 10800 12200 10200
+	16500 9800 16500 9300
 Wire Notes Line
-	14700 10400 12200 10400
-Wire Notes Line
-	12900 10600 12900 10400
-Wire Notes Line
-	13800 10700 13800 10400
-Wire Notes Line
-	15800 10700 15800 10200
-Text Notes 12250 10350 0    60   ~ 0
-Title
-Text Notes 12250 10550 0    60   ~ 0
-Size:
-Text Notes 12950 10550 0    60   ~ 0
-Number:
-Text Notes 12250 10700 0    60   ~ 0
-Date:
-Text Notes 12250 10800 0    60   ~ 0
-Drawn by:
-Text Notes 13850 10550 0    60   ~ 0
-Revision:
-Text Notes 13850 10700 0    60   ~ 0
-Sheet
-Text Notes 14190 10700 0    60   ~ 0
-of
-Wire Notes Line
-	14700 10700 14700 10200
-Text Notes 13100 10700 0    60   ~ 0
-Time:
-Text Notes 12500 10560 0    72   ~ 0
-Tabloid
-Wire Notes Line
-	14700 10600 12200 10600
+	15250 9800 15250 9300
 $Comp
 L power:GND #GND_0104
 U 1 1 5FD52FDC
@@ -165,72 +121,6 @@ F 3 "" H 7400 5700 70  0000 C CNN
 	1    7400 5700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #2V8_R0101
-U 1 1 5FD52FD6
-P 9700 5300
-F 0 "#2V8_R0101" H 9700 5440 20  0000 C CNN
-F 1 "2V8_R" H 9700 5410 30  0000 C CNN
-F 2 "" H 9700 5300 70  0000 C CNN
-F 3 "" H 9700 5300 70  0000 C CNN
-	1    9700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V2_R0101
-U 1 1 5FD52FD5
-P 7000 4600
-F 0 "#1V2_R0101" H 7000 4740 20  0000 C CNN
-F 1 "1V2_R" H 7000 4710 30  0000 C CNN
-F 2 "" H 7000 4600 70  0000 C CNN
-F 3 "" H 7000 4600 70  0000 C CNN
-	1    7000 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V8_R0101
-U 1 1 5FD52FD4
-P 7000 4500
-F 0 "#1V8_R0101" H 7000 4640 20  0000 C CNN
-F 1 "1V8_R" H 7000 4610 30  0000 C CNN
-F 2 "" H 7000 4500 70  0000 C CNN
-F 3 "" H 7000 4500 70  0000 C CNN
-	1    7000 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V2_R_0101
-U 1 1 5FD52FD3
-P 6600 6500
-F 0 "#1V2_R_0101" H 6600 6640 20  0000 C CNN
-F 1 "1V2_R" H 6600 6610 30  0000 C CNN
-F 2 "" H 6600 6500 70  0000 C CNN
-F 3 "" H 6600 6500 70  0000 C CNN
-	1    6600 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V8_R_0101
-U 1 1 5FD52FD2
-P 8100 6500
-F 0 "#1V8_R_0101" H 8100 6640 20  0000 C CNN
-F 1 "1V8_R" H 8100 6610 30  0000 C CNN
-F 2 "" H 8100 6500 70  0000 C CNN
-F 3 "" H 8100 6500 70  0000 C CNN
-	1    8100 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #2V8_R_0101
-U 1 1 5FD52FD1
-P 9600 6500
-F 0 "#2V8_R_0101" H 9600 6640 20  0000 C CNN
-F 1 "2V8_R" H 9600 6610 30  0000 C CNN
-F 2 "" H 9600 6500 70  0000 C CNN
-F 3 "" H 9600 6500 70  0000 C CNN
-	1    9600 6500
-	1    0    0    -1  
-$EndComp
 Text Notes 3000 4000 0    60   ~ 0
 MIPI Lanes:
 Text Notes 3000 4200 0    60   ~ 0
@@ -249,48 +139,15 @@ Text Label 2900 3800 0    60   ~ 0
 MIPI_RX3_D1_N
 Text Label 2900 3700 0    60   ~ 0
 MIPI_RX3_D1_P
-Text HLabel 800  3500 2    60   BiDi ~ 0
-MIPI_CAM_C_HARN
-Text HLabel 14900 4200 2    60   BiDi ~ 0
-I2C2_HARN
+Text HLabel 2050 3500 0    60   BiDi ~ 0
+MIPI_CAM_C
+Text HLabel 14500 4100 2    60   BiDi ~ 0
+I2C2
 Text Label 13500 4200 0    60   ~ 0
 I2C2_SDA
 Text Label 13500 4100 0    60   ~ 0
 I2C2_SCL
-$Comp
-L power:GND #1V8_R_0102
-U 1 1 5FD52FD0
-P 2500 1300
-F 0 "#1V8_R_0102" H 2500 1440 20  0000 C CNN
-F 1 "1V8_R" H 2500 1410 30  0000 C CNN
-F 2 "" H 2500 1300 70  0000 C CNN
-F 3 "" H 2500 1300 70  0000 C CNN
-	1    2500 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #2V8_R_0102
-U 1 1 5FD52FCF
-P 2500 1000
-F 0 "#2V8_R_0102" H 2500 1140 20  0000 C CNN
-F 1 "2V8_R" H 2500 1110 30  0000 C CNN
-F 2 "" H 2500 1000 70  0000 C CNN
-F 3 "" H 2500 1000 70  0000 C CNN
-	1    2500 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V2_R_0102
-U 1 1 5FD52FCE
-P 2500 1600
-F 0 "#1V2_R_0102" H 2500 1740 20  0000 C CNN
-F 1 "1V2_R" H 2500 1710 30  0000 C CNN
-F 2 "" H 2500 1600 70  0000 C CNN
-F 3 "" H 2500 1600 70  0000 C CNN
-	1    2500 1600
-	1    0    0    -1  
-$EndComp
-Text GLabel 400  1600 2    60   Input ~ 0
+Text GLabel 1000 1600 0    60   Input ~ 0
 1V2
 $Comp
 L power:GND #GND_0110
@@ -303,96 +160,59 @@ F 3 "" H 1100 1900 70  0000 C CNN
 	1    1100 1900
 	1    0    0    -1  
 $EndComp
-Text GLabel 400  1000 2    60   Input ~ 0
+Text GLabel 1000 1000 0    60   Input ~ 0
 2V8
-$Comp
-L power:GND #2V8_0101
-U 1 1 5FD52FCC
-P 1200 1000
-F 0 "#2V8_0101" H 1200 1140 20  0000 C CNN
-F 1 "2V8" H 1200 1110 30  0000 C CNN
-F 2 "" H 1200 1000 70  0000 C CNN
-F 3 "" H 1200 1000 70  0000 C CNN
-	1    1200 1000
-	1    0    0    -1  
-$EndComp
-Text GLabel 400  1900 2    60   Input ~ 0
+Text GLabel 1000 1900 0    60   Input ~ 0
 GND
-$Comp
-L power:GND #1V2_0101
-U 1 1 5FD52FCB
-P 1200 1600
-F 0 "#1V2_0101" H 1200 1740 20  0000 C CNN
-F 1 "1V2" H 1200 1710 30  0000 C CNN
-F 2 "" H 1200 1600 70  0000 C CNN
-F 3 "" H 1200 1600 70  0000 C CNN
-	1    1200 1600
-	1    0    0    -1  
-$EndComp
-Text GLabel 400  1300 2    60   Input ~ 0
+Text GLabel 1000 1300 0    60   Input ~ 0
 1V8
-$Comp
-L power:GND #1V8_0101
-U 1 1 5FD52FCA
-P 1200 1300
-F 0 "#1V8_0101" H 1200 1440 20  0000 C CNN
-F 1 "1V8" H 1200 1410 30  0000 C CNN
-F 2 "" H 1200 1300 70  0000 C CNN
-F 3 "" H 1200 1300 70  0000 C CNN
-	1    1200 1300
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
-	9600 9600 9600 7300
+	4700 10350 4700 8050
 Wire Notes Line
-	9600 9600 16600 9600
+	4700 10350 11700 10350
 Wire Notes Line
-	9600 7300 16600 7300
+	4700 8050 11700 8050
 Wire Notes Line
-	16600 9600 16600 7300
-Text Label 9700 7400 0    72   ~ 0
-Because the stereo pair of OV9282 modules hard wired to CAM_B (below) no additional reset cirucitry is required to account for different conditions. This means that "CAM1" (Left) is reset via CAM_PWDN, and "CAM2" (Right), is reset via CAM_PWM. This also means that the signal CAM_AUX_IO1 is no longer required here, as that was only possible if the stereo pair were connected to CAM_C or CAM_D  
-Text Label 9700 8300 0    72   ~ 0
-OV9282 sensor I2C address may be changed via I2C protocol. Therefore, in order to assign different I2C address to the sensors on the same I2C bus, one needs to hold the reset the all sensors except one and assign a unique I2C address to the active sensor. This routine should be applied for all sensors in the initialization routine.  
-Text Notes 11310 9260 0    60   ~ 0
+	11700 10350 11700 8050
+Text Notes 6410 10010 0    60   ~ 0
 CAM NO
-Text Notes 11300 9400 0    60   ~ 0
+Text Notes 6400 10150 0    60   ~ 0
 CAM 1
-Text Notes 11300 9500 0    60   ~ 0
+Text Notes 6400 10250 0    60   ~ 0
 CAM 2
 Wire Notes Line
-	14500 9100 11200 9100
-Text Notes 11800 9300 0    60   ~ 0
+	9600 9850 6300 9850
+Text Notes 6900 10050 0    60   ~ 0
 CAM_A
 Wire Notes Line
-	13100 9500 13100 9200
+	8200 10250 8200 9950
 Wire Notes Line
-	13800 9500 13800 9200
-Text Notes 12700 9200 0    60   ~ 0
+	8900 10250 8900 9950
+Text Notes 7800 9950 0    60   ~ 0
 CAMERA CONNECTOR
-Text Notes 11800 9400 0    60   ~ 0
+Text Notes 6900 10150 0    60   ~ 0
 CAM_PWDN
-Text Notes 12500 9400 0    60   ~ 0
+Text Notes 7600 10150 0    60   ~ 0
 CAM_PWDN
-Text Notes 11800 9500 0    60   ~ 0
+Text Notes 6900 10250 0    60   ~ 0
 CAM_PWM
-Text Notes 12500 9500 0    60   ~ 0
+Text Notes 7600 10250 0    60   ~ 0
 CAM_PWM
-Text Notes 13200 9400 0    60   ~ 0
+Text Notes 8300 10150 0    60   ~ 0
 CAM_PWDN
-Text Notes 13200 9500 0    60   ~ 0
+Text Notes 8300 10250 0    60   ~ 0
 CAM_AUX_IO1
-Text Notes 13900 9500 0    60   ~ 0
+Text Notes 9000 10250 0    60   ~ 0
 CAM_AUX_IO1
-Text Notes 13900 9400 0    60   ~ 0
+Text Notes 9000 10150 0    60   ~ 0
 CAM_PWDN
-Text Notes 12600 9300 0    60   ~ 0
+Text Notes 7700 10050 0    60   ~ 0
 CAM_B
-Text Notes 13300 9300 0    60   ~ 0
+Text Notes 8400 10050 0    60   ~ 0
 CAM_C
-Text Notes 14000 9300 0    60   ~ 0
+Text Notes 9100 10050 0    60   ~ 0
 CAM_D
-Text Notes 12000 9100 0    60   ~ 0
+Text Notes 7100 9850 0    60   ~ 0
 CAMERA CONNECTOR RESET CONNECTION TABLE
 Text Notes 7000 900  0    60   ~ 0
 SENSOR
@@ -490,32 +310,8 @@ Text Label 9800 5100 0    60   ~ 0
 FSIN2_IN
 Text Label 9800 5500 0    60   ~ 0
 STRB2
-Text Label 7200 6500 1    70   ~ 0
-Parameter Set
-Text Label 6950 6200 0    70   ~ 0
-Power_trace
-Text Label 8700 6500 1    70   ~ 0
-Parameter Set
-Text Label 8450 6200 0    70   ~ 0
-Power_trace
-Text Label 10200 6500 1    70   ~ 0
-Parameter Set
-Text Label 9950 6200 0    70   ~ 0
-Power_trace
-Text Label 10290 6890 0    70   ~ 0
-10V
-Text Label 8790 6890 0    70   ~ 0
-10V
-Text Label 7290 6890 0    70   ~ 0
-10V
-Text Label 6690 6890 0    70   ~ 0
-10V
-Text Label 8190 6890 0    70   ~ 0
-10V
-Text Label 9690 6890 0    70   ~ 0
-10V
-Text HLabel 15100 4900 2    60   BiDi ~ 0
-CTL_CAM_B_HARN
+Text HLabel 14500 4850 2    60   BiDi ~ 0
+CTL_CAM_B
 Text Label 12900 4950 0    60   ~ 0
 CAM_B_CLK_OUT
 Text Label 12900 4750 0    60   ~ 0
@@ -619,19 +415,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 1600 2000 1600
 Wire Wire Line
-	1400 1000 1200 1000
-Wire Wire Line
-	1200 1000 1000 1000
-Wire Wire Line
 	1100 1900 1000 1900
-Wire Wire Line
-	1200 1300 1000 1300
-Wire Wire Line
-	1400 1300 1200 1300
-Wire Wire Line
-	1200 1600 1000 1600
-Wire Wire Line
-	1400 1600 1200 1600
 Wire Wire Line
 	7400 4700 7500 4700
 Wire Wire Line
@@ -664,26 +448,18 @@ Wire Wire Line
 	13800 4750 12800 4750
 Wire Wire Line
 	13800 4850 12800 4850
-Text Label 3000 1100 0    60   ~ 0
-Place FBs and caps close to their associated camera connector.
-Connection ~ 1200 1600
-Connection ~ 1200 1300
-Connection ~ 1200 1000
-Connection ~ 6600 6500
 Connection ~ 6900 6900
 Connection ~ 7400 5600
 Connection ~ 7400 5300
 Connection ~ 7400 5000
-Connection ~ 8100 6500
 Connection ~ 8400 6900
 Connection ~ 9400 5600
 Connection ~ 9400 5400
 Connection ~ 9400 5200
 Connection ~ 9400 5000
-Connection ~ 9600 6500
 Connection ~ 9900 6900
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_IMX378-rescue_2508056017Y2--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-cache FB1
+L depthAI_sch:2508056017Y2 FB1
 U 1 1 5FD52FC9
 P 1400 1000
 AR Path="/5FD52FC9" Ref="FB1"  Part="1" 
@@ -696,7 +472,7 @@ F 3 "" H 1500 870 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_RIGHT_OV9282-SchDoc-rescue_TG161B-201_Connector--BW1098OBC_RIGHT_OV9282-cache J1
+L depthAI_sch:TG161B-201_Connector J1
 U 1 1 5FD52FC8
 P 7500 4500
 F 0 "J1" H 7700 4600 60  0000 L BNN
@@ -707,7 +483,7 @@ F 3 "" H 7700 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_LEFT_OV9282-SchDoc-rescue_CRCW04020000Z0ED--BW1098OBC_LEFT_OV9282-cache R2
+L depthAI_sch:CRCW04020000Z0ED R2
 U 1 1 5FD52FC7
 P 10700 5100
 F 0 "R2" H 10790 5130 60  0000 L BNN
@@ -718,7 +494,7 @@ F 3 "" H 10790 4970 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_RIGHT_OV9282-SchDoc-rescue_RC0402FR-1310KL--BW1098OBC_RIGHT_OV9282-cache R1
+L depthAI_sch:RC0402FR-1310KL R1
 U 1 1 5FD52FC6
 P 10700 4700
 F 0 "R1" H 10790 4730 60  0000 L BNN
@@ -729,7 +505,7 @@ F 3 "" H 10790 4570 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP1
+L depthAI_sch:TEST_POINT TP1
 U 1 1 5FD52FC5
 P 10400 5500
 F 0 "TP1" V 10550 5550 60  0000 L BNN
@@ -740,7 +516,7 @@ F 3 "" H 10400 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_IMX378-rescue_2508056017Y2--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-cache FB2
+L depthAI_sch:2508056017Y2 FB2
 U 1 1 5FD52FC4
 P 1400 1300
 AR Path="/5FD52FC4" Ref="FB2"  Part="1" 
@@ -753,7 +529,7 @@ F 3 "" H 1500 1170 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_IMX378-rescue_2508056017Y2--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-cache FB3
+L depthAI_sch:2508056017Y2 FB3
 U 1 1 5FD52FC3
 P 1400 1600
 AR Path="/5FD52FC3" Ref="FB3"  Part="1" 
@@ -766,7 +542,7 @@ F 3 "" H 1500 1470 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM188R61A106ME69D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C6
+L depthAI_sch:GRM188R61A106ME69D C6
 U 1 1 5FD52FC2
 P 10200 6800
 F 0 "C6" V 10310 6710 60  0000 R TNN
@@ -778,7 +554,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM188R61A106ME69D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C4
+L depthAI_sch:GRM188R61A106ME69D C4
 U 1 1 5FD52FC1
 P 8700 6800
 F 0 "C4" V 8810 6710 60  0000 R TNN
@@ -790,7 +566,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM188R61A106ME69D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C2
+L depthAI_sch:GRM188R61A106ME69D C2
 U 1 1 5FD52FC0
 P 7200 6800
 F 0 "C2" V 7310 6710 60  0000 R TNN
@@ -802,7 +578,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_IMX378-SchDoc-rescue_GRM155R71A104JA01D--BW1098OBC_IMX378-SchDoc-cache-BW1098OBC_TopLevel-rescue C1
+L depthAI_sch:GRM155R71A104JA01D C1
 U 1 1 5FD52FBF
 P 6600 6800
 F 0 "C1" V 6710 6710 60  0000 R TNN
@@ -814,7 +590,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_IMX378-SchDoc-rescue_GRM155R71A104JA01D--BW1098OBC_IMX378-SchDoc-cache-BW1098OBC_TopLevel-rescue C3
+L depthAI_sch:GRM155R71A104JA01D C3
 U 1 1 5FD52FBE
 P 8100 6800
 F 0 "C3" V 8210 6710 60  0000 R TNN
@@ -826,7 +602,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_IMX378-SchDoc-rescue_GRM155R71A104JA01D--BW1098OBC_IMX378-SchDoc-cache-BW1098OBC_TopLevel-rescue C5
+L depthAI_sch:GRM155R71A104JA01D C5
 U 1 1 5FD52FBD
 P 9600 6800
 F 0 "C5" V 9710 6710 60  0000 R TNN
@@ -838,23 +614,19 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	12200 10200 16800 10200
+	6300 10050 9600 10050
 Wire Notes Line
-	12200 10700 16800 10700
+	7500 9950 7500 10250
 Wire Notes Line
-	11200 9300 14500 9300
+	6300 9850 6300 10250
 Wire Notes Line
-	12400 9200 12400 9500
+	6300 10250 9600 10250
 Wire Notes Line
-	11200 9100 11200 9500
+	6300 10150 9600 10150
 Wire Notes Line
-	11200 9500 14500 9500
+	9600 9850 9600 10250
 Wire Notes Line
-	11200 9400 14500 9400
-Wire Notes Line
-	14500 9100 14500 9500
-Wire Notes Line
-	11700 9100 11700 9500
+	6800 9850 6800 10250
 Wire Notes Line
 	6900 600  6900 1200
 Wire Notes Line
@@ -872,5 +644,87 @@ Wire Notes Line
 Wire Notes Line
 	6900 1600 9100 1600
 Wire Notes Line
-	11700 9200 14500 9200
+	6800 9950 9600 9950
+Text Notes 10050 6500 1    60   ~ 0
+Parameter Set\nPower Trace
+Text Notes 8500 6500 1    60   ~ 0
+Parameter Set\nPower Trace
+Text Notes 7050 6500 1    60   ~ 0
+Parameter Set\nPower Trace
+Wire Wire Line
+	1000 1300 1400 1300
+Wire Wire Line
+	1000 1000 1400 1000
+Wire Wire Line
+	1000 1600 1400 1600
+Text HLabel 2500 1000 2    60   Output ~ 0
+2V8_R
+Text HLabel 2500 1300 2    60   Output ~ 0
+1V8_R
+Text HLabel 2500 1600 2    60   Output ~ 0
+1V2_R
+Text Notes 3000 1500 0    60   ~ 0
+Place FBs and caps close to their associated camera connector.
+Text HLabel 9600 6500 1    60   Input ~ 0
+2V8_R
+Text HLabel 6600 6500 1    60   Input ~ 0
+1V2_R
+Text HLabel 7000 4500 0    60   Input ~ 0
+1V8_R
+Text HLabel 7000 4600 0    60   Input ~ 0
+1V2_R
+Text HLabel 9700 5300 2    60   Input ~ 0
+2V8_R
+Text HLabel 8100 6500 1    60   Input ~ 0
+1V8_R
+Text Notes 4800 8650 0    72   ~ 0
+Because the stereo pair of OV9282 modules hard wired to CAM_B (below) no additional reset cirucitry is required to \naccount for different conditions. This means that "CAM1" (Left) is reset via CAM_PWDN, and "CAM2" (Right), is reset\n via CAM_PWM. This also means that the signal CAM_AUX_IO1 is no longer required here, as that was only possible if \nthe stereo pair were connected to CAM_C or CAM_D  
+Text Notes 4750 9450 0    72   ~ 0
+OV9282 sensor I2C address may be changed via I2C protocol. Therefore, in order to assign different I2C address to the \nsensors on the same I2C bus, one needs to hold the reset the all sensors except one and assign a unique I2C address \nto the active sensor. This routine should be applied for all sensors in the initialization routine.  
+Text GLabel 13800 4750 2    50   UnSpc ~ 0
+CAM_B_D_PWM
+Text GLabel 13800 4850 2    50   UnSpc ~ 0
+CAM_B_PWDN_N
+Text GLabel 13800 4950 2    50   UnSpc ~ 0
+CAM_B_CLK_OUT
+Text GLabel 14100 4200 2    50   UnSpc ~ 0
+I2C2_SDA
+Text GLabel 14100 4100 2    50   UnSpc ~ 0
+I2C2_SCL
+Text GLabel 2700 3800 0    50   UnSpc ~ 0
+MIPI_RX3_D1_N
+Text GLabel 2700 3700 0    50   UnSpc ~ 0
+MIPI_RX3_D1_P
+Text GLabel 2700 3400 0    50   UnSpc ~ 0
+MIPI_RX3_D0_N
+Text GLabel 2700 3500 0    50   UnSpc ~ 0
+MIPI_RX3_D0_P
+Text GLabel 2700 3200 0    50   UnSpc ~ 0
+MIPI_RX3_C_N
+Text GLabel 2700 3100 0    50   UnSpc ~ 0
+MIPI_RX3_C_P
+Wire Notes Line
+	2050 3000 2050 3900
+Wire Notes Line
+	2050 3900 4100 3900
+Wire Notes Line
+	4100 3900 4100 3000
+Wire Notes Line
+	4100 3000 2050 3000
+Wire Notes Line
+	14500 4650 14500 5050
+Wire Notes Line
+	14500 5050 12750 5050
+Wire Notes Line
+	12750 5050 12750 4650
+Wire Notes Line
+	12750 4650 14500 4650
+Wire Notes Line
+	14500 3950 14500 4300
+Wire Notes Line
+	14500 4300 13200 4300
+Wire Notes Line
+	13200 4300 13200 3950
+Wire Notes Line
+	13200 3950 14500 3950
 $EndSCHEMATC

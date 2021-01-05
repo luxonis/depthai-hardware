@@ -13,101 +13,57 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 9560 10500 0    60   ~ 0
-3
-Text Notes 10250 10100 0    60   ~ 0
+Text Notes 11050 10100 0    60   ~ 0
 Luxonis Holding
-Text Notes 10250 10200 0    60   ~ 0
+Text Notes 11050 10200 0    60   ~ 0
 1925 Harmony Park Drive
-Text Notes 10250 10300 0    60   ~ 0
+Text Notes 11050 10300 0    60   ~ 0
 Westminster, CO
-Text Notes 10250 10400 0    60   ~ 0
+Text Notes 11050 10400 0    60   ~ 0
 80234
-Text Notes 10250 10500 0    60   ~ 0
+Text Notes 11050 10500 0    60   ~ 0
 United States
 Text Notes 9820 10500 0    60   ~ 0
 8
-Text Notes 7980 10160 0    90   ~ 18
-=project_title
-Text Notes 8770 10360 0    72   ~ 0
-=document_number
-Text Notes 9690 10360 0    72   ~ 0
-=revision
-Text Notes 8000 10500 0    60   ~ 0
-*
-Text Notes 8850 10500 0    60   ~ 0
-*
-Text Notes 8200 10600 0    60   ~ 12
-=drawn_by
 Wire Notes Line
-	7700 10600 7700 10000
+	12250 10500 12250 10000
 Wire Notes Line
-	10200 10200 7700 10200
-Wire Notes Line
-	8400 10400 8400 10200
-Wire Notes Line
-	9300 10500 9300 10200
-Wire Notes Line
-	11300 10500 11300 10000
-Text Notes 7750 10150 0    60   ~ 0
-Title
-Text Notes 7750 10350 0    60   ~ 0
-Size:
-Text Notes 8450 10350 0    60   ~ 0
-Number:
-Text Notes 7750 10500 0    60   ~ 0
-Date:
-Text Notes 7750 10600 0    60   ~ 0
-Drawn by:
-Text Notes 9350 10350 0    60   ~ 0
-Revision:
-Text Notes 9350 10500 0    60   ~ 0
-Sheet
-Text Notes 9690 10500 0    60   ~ 0
-of
-Wire Notes Line
-	10200 10500 10200 10000
-Text Notes 8600 10500 0    60   ~ 0
-Time:
-Text Notes 8000 10360 0    72   ~ 0
-Tabloid
-Wire Notes Line
-	10200 10400 7700 10400
+	11000 10500 11000 10000
 Text Label 9600 600  0    72   ~ 0
 On the BW1097, the IMX378 camera module is hardwired into the "Cam-A" logical position. This means the logic which used to be required to support the module being plugged into different physical connectors (and different logical positions) is no longer needed and can be removed.     Note: It is still a limitation that the clock source for the cameras must be shared between CAMA/C and CAMB/D.  
 Text GLabel 1000 1000 0    60   Input ~ 0
 2V8
 Text GLabel 1000 1600 0    60   Input ~ 0
 1V05
-Text Label 2800 4600 0    60   ~ 0
+Text Label 3250 4650 0    60   ~ 0
 MIPI_RX4_C_P
-Text Label 2800 4500 0    60   ~ 0
+Text Label 3250 4550 0    60   ~ 0
 MIPI_RX4_C_N
-Text Label 2800 4800 0    60   ~ 0
+Text Label 3250 4850 0    60   ~ 0
 MIPI_RX4_D0_N
-Text Label 2800 4900 0    60   ~ 0
+Text Label 3250 4950 0    60   ~ 0
 MIPI_RX4_D0_P
-Text Label 2800 5100 0    60   ~ 0
+Text Label 3250 5150 0    60   ~ 0
 MIPI_RX4_D1_N
-Text Label 2800 5200 0    60   ~ 0
+Text Label 3250 5250 0    60   ~ 0
 MIPI_RX4_D1_P
-Text Label 2800 5400 0    60   ~ 0
+Text Label 3250 5450 0    60   ~ 0
 MIPI_RX5_D0_N
-Text Label 2800 5500 0    60   ~ 0
+Text Label 3250 5550 0    60   ~ 0
 MIPI_RX5_D0_P
-Text Label 2800 5700 0    60   ~ 0
+Text Label 3250 5750 0    60   ~ 0
 MIPI_RX5_D1_N
-Text Label 2800 5800 0    60   ~ 0
+Text Label 3250 5850 0    60   ~ 0
 MIPI_RX5_D1_P
-Text HLabel 15400 4900 2    60   BiDi ~ 0
+Text HLabel 14550 4850 2    60   BiDi ~ 0
 I2C1_HARN
 Text Label 13700 4900 0    60   ~ 0
 I2C1_SDA
 Text Label 13700 4800 0    60   ~ 0
 I2C1_SCL
-Text HLabel 600  5300 2    60   BiDi ~ 0
+Text HLabel 2350 5150 0    60   BiDi ~ 0
 MIPI_CAM_A
-Text HLabel 15400 5600 2    60   BiDi ~ 0
+Text HLabel 14100 5550 2    60   BiDi ~ 0
 CTL_CAM_A_HARN
 Text Label 13000 5500 0    60   ~ 0
 CAM_A_CLK_OUT
@@ -200,69 +156,14 @@ Text Label 10200 5600 0    60   ~ 0
 I2C1_SDA
 Text Label 10200 5500 0    60   ~ 0
 I2C1_SCL
-Text Notes 1700 4000 0    60   ~ 0
+Text Notes 2800 4150 0    60   ~ 0
 MIPI Lanes:
-Text Notes 1700 4200 0    60   ~ 0
+Text Notes 2800 4350 0    60   ~ 0
 Max 2.1 Gbps / lane
-Text Notes 1700 4100 0    60   ~ 0
+Text Notes 2800 4250 0    60   ~ 0
 DPHYv1.2
-$Comp
-L power:GND #1V0102
-U 1 1 5FD53070
-P 1200 1600
-F 0 "#1V0102" H 1200 1740 20  0000 C CNN
-F 1 "1V05" H 1200 1710 30  0000 C CNN
-F 2 "" H 1200 1600 70  0000 C CNN
-F 3 "" H 1200 1600 70  0000 C CNN
-	1    1200 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #2V0101
-U 1 1 5FD5306F
-P 1200 1000
-F 0 "#2V0101" H 1200 1140 20  0000 C CNN
-F 1 "2V8" H 1200 1110 30  0000 C CNN
-F 2 "" H 1200 1000 70  0000 C CNN
-F 3 "" H 1200 1000 70  0000 C CNN
-	1    1200 1000
-	1    0    0    -1  
-$EndComp
 Text GLabel 1000 1900 0    60   Input ~ 0
 GND
-$Comp
-L power:GND #2V8_IMX0101
-U 1 1 5FD5306E
-P 10000 6900
-F 0 "#2V8_IMX0101" H 10000 7040 20  0000 C CNN
-F 1 "2V8_IMX378" H 10000 7010 30  0000 C CNN
-F 2 "" H 10000 6900 70  0000 C CNN
-F 3 "" H 10000 6900 70  0000 C CNN
-	1    10000 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V8_IMX0101
-U 1 1 5FD5306D
-P 8700 6900
-F 0 "#1V8_IMX0101" H 8700 7040 20  0000 C CNN
-F 1 "1V8_IMX378" H 8700 7010 30  0000 C CNN
-F 2 "" H 8700 6900 70  0000 C CNN
-F 3 "" H 8700 6900 70  0000 C CNN
-	1    8700 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V8_IMX378_0101
-U 1 1 5FD5306C
-P 7600 5700
-F 0 "#1V8_IMX378_0101" H 7600 5840 20  0000 C CNN
-F 1 "1V8_IMX378" H 7600 5810 30  0000 C CNN
-F 2 "" H 7600 5700 70  0000 C CNN
-F 3 "" H 7600 5700 70  0000 C CNN
-	1    7600 5700
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #GND_0118
 U 1 1 5FD5306B
@@ -320,138 +221,26 @@ F 3 "" H 9900 6100 70  0000 C CNN
 $EndComp
 Text GLabel 1000 1300 0    60   Input ~ 0
 1V8
-$Comp
-L power:GND #1V0103
-U 1 1 5FD53066
-P 1200 1300
-F 0 "#1V0103" H 1200 1440 20  0000 C CNN
-F 1 "1V8" H 1200 1410 30  0000 C CNN
-F 2 "" H 1200 1300 70  0000 C CNN
-F 3 "" H 1200 1300 70  0000 C CNN
-	1    1200 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V8_IMX378_0102
-U 1 1 5FD53065
-P 2400 1300
-F 0 "#1V8_IMX378_0102" H 2400 1440 20  0001 C CNN
-F 1 "1V8_IMX378" H 2400 1350 30  0000 C CNN
-F 2 "" H 2400 1300 70  0000 C CNN
-F 3 "" H 2400 1300 70  0000 C CNN
-	1    2400 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #2V8_IMX378_0101
-U 1 1 5FD53064
-P 7600 5500
-F 0 "#2V8_IMX378_0101" H 7600 5640 20  0000 C CNN
-F 1 "2V8_IMX378" H 7600 5610 30  0000 C CNN
-F 2 "" H 7600 5500 70  0000 C CNN
-F 3 "" H 7600 5500 70  0000 C CNN
-	1    7600 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #2V8_IMX378_0102
-U 1 1 5FD53063
-P 10100 5700
-F 0 "#2V8_IMX378_0102" H 10100 5840 20  0000 C CNN
-F 1 "2V8_IMX378" H 10100 5810 30  0000 C CNN
-F 2 "" H 10100 5700 70  0000 C CNN
-F 3 "" H 10100 5700 70  0000 C CNN
-	1    10100 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #2v0101
-U 1 1 5FD53062
-P 2400 1000
-F 0 "#2v0101" H 2400 1140 20  0001 C CNN
-F 1 "2V8_IMX378" H 2400 1050 30  0000 C CNN
-F 2 "" H 2400 1000 70  0000 C CNN
-F 3 "" H 2400 1000 70  0000 C CNN
-	1    2400 1000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V05_IMX0101
-U 1 1 5FD53061
-P 2400 1600
-F 0 "#1V05_IMX0101" H 2400 1740 20  0001 C CNN
-F 1 "1V05_IMX378" H 2400 1650 30  0000 C CNN
-F 2 "" H 2400 1600 70  0000 C CNN
-F 3 "" H 2400 1600 70  0000 C CNN
-	1    2400 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V05_IMX378_0101
-U 1 1 5FD53060
-P 7400 6900
-F 0 "#1V05_IMX378_0101" H 7400 7040 20  0000 C CNN
-F 1 "1V05_IMX378" H 7400 7010 30  0000 C CNN
-F 2 "" H 7400 6900 70  0000 C CNN
-F 3 "" H 7400 6900 70  0000 C CNN
-	1    7400 6900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #1V05_IMX378_0102
-U 1 1 5FD5305F
-P 7600 5900
-F 0 "#1V05_IMX378_0102" H 7600 6040 20  0000 C CNN
-F 1 "1V05_IMX378" H 7600 6010 30  0000 C CNN
-F 2 "" H 7600 5900 70  0000 C CNN
-F 3 "" H 7600 5900 70  0000 C CNN
-	1    7600 5900
-	1    0    0    -1  
-$EndComp
-Text Label 8000 6900 1    70   ~ 0
-Parameter Set
-Text Label 7750 6600 0    70   ~ 0
-Power_trace
-Text Label 9300 6900 1    70   ~ 0
-Parameter Set
-Text Label 9050 6600 0    70   ~ 0
-Power_trace
-Text Label 10600 6900 1    70   ~ 0
-Parameter Set
-Text Label 10350 6600 0    70   ~ 0
-Power_trace
-Text Label 10690 7290 0    70   ~ 0
-10V
-Text Label 10090 7290 0    70   ~ 0
-10V
-Text Label 9390 7290 0    70   ~ 0
-10V
-Text Label 8090 7290 0    70   ~ 0
-10V
-Text Label 8790 7290 0    70   ~ 0
-10V
-Text Label 7490 7290 0    70   ~ 0
-10V
 Wire Wire Line
-	3800 4500 2500 4500
+	4250 4550 2950 4550
 Wire Wire Line
-	3800 4600 2500 4600
+	4250 4650 2950 4650
 Wire Wire Line
-	3800 4800 2500 4800
+	4250 4850 2950 4850
 Wire Wire Line
-	3800 4900 2500 4900
+	4250 4950 2950 4950
 Wire Wire Line
-	3800 5100 2500 5100
+	4250 5150 2950 5150
 Wire Wire Line
-	3800 5200 2500 5200
+	4250 5250 2950 5250
 Wire Wire Line
-	3800 5400 2500 5400
+	4250 5450 2950 5450
 Wire Wire Line
-	3800 5500 2500 5500
+	4250 5550 2950 5550
 Wire Wire Line
-	3800 5700 2500 5700
+	4250 5750 2950 5750
 Wire Wire Line
-	3800 5800 2500 5800
+	4250 5850 2950 5850
 Wire Wire Line
 	13600 4800 14400 4800
 Wire Wire Line
@@ -543,21 +332,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 1300 2000 1300
 Wire Wire Line
-	1200 1300 1400 1300
-Wire Wire Line
-	1000 1300 1200 1300
-Wire Wire Line
-	1200 1000 1000 1000
-Wire Wire Line
-	1400 1000 1200 1000
-Wire Wire Line
 	2400 1000 2000 1000
 Wire Wire Line
 	2400 1600 2000 1600
-Wire Wire Line
-	1200 1600 1400 1600
-Wire Wire Line
-	1000 1600 1200 1600
 Wire Wire Line
 	11400 5200 11500 5200
 Wire Wire Line
@@ -584,60 +361,56 @@ Wire Wire Line
 	9300 7400 9000 7400
 Wire Wire Line
 	10000 7400 9300 7400
-Text Notes 3000 950  0    60   ~ 0
+Text Notes 3200 950  0    60   ~ 0
 Supply Information
-Text Notes 3100 1250 0    60   ~ 0
+Text Notes 3300 1250 0    60   ~ 0
 AVDD
-Text Notes 3100 1350 0    60   ~ 0
+Text Notes 3300 1350 0    60   ~ 0
 DOVDD
-Text Notes 3100 1450 0    60   ~ 0
+Text Notes 3300 1450 0    60   ~ 0
 DVDD
-Text Notes 3500 1250 0    60   ~ 0
+Text Notes 3700 1250 0    60   ~ 0
 VANA
-Text Notes 3500 1350 0    60   ~ 0
+Text Notes 3700 1350 0    60   ~ 0
 VIF
-Text Notes 3500 1450 0    60   ~ 0
+Text Notes 3700 1450 0    60   ~ 0
 VDIG
-Text Notes 3900 1250 0    60   ~ 0
+Text Notes 4100 1250 0    60   ~ 0
 2.8V ± 0.1
-Text Notes 3900 1350 0    60   ~ 0
+Text Notes 4100 1350 0    60   ~ 0
 1.8V ± 0.1
-Text Notes 3900 1450 0    60   ~ 0
+Text Notes 4100 1450 0    60   ~ 0
 1.05V ± 0.1
-Text Notes 4700 1250 0    60   ~ 0
+Text Notes 4900 1250 0    60   ~ 0
 55mA
-Text Notes 4700 1350 0    60   ~ 0
+Text Notes 4900 1350 0    60   ~ 0
 2.5mA
-Text Notes 4700 1450 0    60   ~ 0
+Text Notes 4900 1450 0    60   ~ 0
 446mA
-Text Notes 3100 1050 0    60   ~ 0
+Text Notes 3300 1050 0    60   ~ 0
 Supply Name
-Text Notes 3100 1150 0    60   ~ 0
+Text Notes 3300 1150 0    60   ~ 0
 Module
-Text Notes 3500 1150 0    60   ~ 0
+Text Notes 3700 1150 0    60   ~ 0
 Sensor
-Text Notes 3990 1090 0    60   ~ 0
+Text Notes 4190 1090 0    60   ~ 0
 Voltage
-Text Notes 4620 1090 0    60   ~ 0
+Text Notes 4820 1090 0    60   ~ 0
 Max Current
 Wire Notes Line
-	3000 950  5200 950 
+	3200 950  5400 950 
 Wire Notes Line
-	3000 1450 3000 950 
+	3200 1450 3200 950 
 Wire Notes Line
-	5200 1450 3000 1450
+	5400 1450 3200 1450
 Wire Notes Line
-	5200 950  5200 1450
+	5400 950  5400 1450
 Wire Notes Line
-	3400 1450 3400 1050
+	3600 1450 3600 1050
 Wire Notes Line
-	3800 1050 3000 1050
+	4000 1050 3200 1050
 Text Label 550  750  0    60   ~ 0
 Place FBs and caps close to their associated camera connector.
-Connection ~ 1200 1600
-Connection ~ 1200 1300
-Connection ~ 1200 1000
-Connection ~ 7400 6900
 Connection ~ 7900 5800
 Connection ~ 7900 5600
 Connection ~ 7900 5400
@@ -645,15 +418,13 @@ Connection ~ 7900 5100
 Connection ~ 7900 4800
 Connection ~ 8000 7400
 Connection ~ 8700 7400
-Connection ~ 8700 6900
 Connection ~ 9000 7400
 Connection ~ 9300 7400
 Connection ~ 9900 5800
 Connection ~ 9900 5100
 Connection ~ 10000 7400
-Connection ~ 10000 6900
 $Comp
-L BW1098OBC_TopLevel-rescue:2508056017Y2--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue FB7
+L depthAI_sch:2508056017Y2 FB7
 U 1 1 5FD5305E
 P 1400 1000
 F 0 "FB7" H 1500 1050 60  0000 L BNN
@@ -664,19 +435,19 @@ F 3 "" H 1500 870 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM155R71A104JA01D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C13
+L depthAI_sch:GRM155R71A104JA01D C13
 U 1 1 5FD5305D
 P 7400 7200
 F 0 "C13" V 7510 7110 60  0000 R TNN
 F 1 "0.1uF 0402" V 7410 7110 60  0000 R TNN
 F 2 "" H 7410 7110 60  0001 C CNN
-F 3 "" H 7410 7110 60  0000 C CNN
-F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+F 3 "" H 7410 7110 60  0001 C CNN
+F 4 "10V" V 1400 2000 60  0000 C CNN "Voltage Rating"
 	1    7400 7200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:A12N02A-201_Connector--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue J3
+L depthAI_sch:A12N02A-201 J3
 U 1 1 5FD5305C
 P 8000 6000
 F 0 "J3" H 8200 7600 60  0000 L BNN
@@ -687,7 +458,7 @@ F 3 "" H 8200 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:2508056017Y2--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue FB8
+L depthAI_sch:2508056017Y2 FB8
 U 1 1 5FD5305B
 P 1400 1300
 F 0 "FB8" H 1500 1350 60  0000 L BNN
@@ -698,7 +469,7 @@ F 3 "" H 1500 1170 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:2508056017Y2--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue FB9
+L depthAI_sch:2508056017Y2 FB9
 U 1 1 5FD5305A
 P 1400 1600
 F 0 "FB9" H 1500 1650 60  0000 L BNN
@@ -709,7 +480,7 @@ F 3 "" H 1500 1470 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R13
+L depthAI_sch:RC0402FR-1310KL R13
 U 1 1 5FD53059
 P 11000 5200
 F 0 "R13" H 11090 5230 60  0000 L BNN
@@ -720,7 +491,7 @@ F 3 "" H 11090 5070 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM188R61A106ME69D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C18
+L depthAI_sch:GRM188R61A106ME69D C18
 U 1 1 5FD53058
 P 10600 7200
 F 0 "C18" V 10710 7110 60  0000 R TNN
@@ -732,7 +503,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM155R71A104JA01D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C17
+L depthAI_sch:GRM155R71A104JA01D C17
 U 1 1 5FD53057
 P 10000 7200
 F 0 "C17" V 10110 7110 60  0000 R TNN
@@ -744,7 +515,7 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM188R61A106ME69D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C16
+L depthAI_sch:GRM188R61A106ME69D C16
 U 1 1 5FD53056
 P 9300 7200
 F 0 "C16" V 9410 7110 60  0000 R TNN
@@ -756,19 +527,19 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM188R61A106ME69D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C14
+L depthAI_sch:GRM188R61A106ME69D C14
 U 1 1 5FD53055
 P 8000 7200
 F 0 "C14" V 8110 7110 60  0000 R TNN
 F 1 "10uF 0603" V 8010 7110 60  0000 R TNN
 F 2 "" H 8010 7110 60  0001 C CNN
 F 3 "" H 8010 7110 60  0000 C CNN
-F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
+F 4 "10V" V 1400 2000 60  0000 C CNN "Voltage Rating"
 	1    8000 7200
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM155R71A104JA01D--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue C15
+L depthAI_sch:GRM155R71A104JA01D C15
 U 1 1 5FD53054
 P 8700 7200
 F 0 "C15" V 8810 7110 60  0000 R TNN
@@ -780,10 +551,6 @@ F 4 "10V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	7700 10000 12300 10000
-Wire Notes Line
-	7700 10500 12300 10500
-Wire Notes Line
 	6700 3400 6700 4000
 Wire Notes Line
 	11100 3400 11100 4000
@@ -794,9 +561,85 @@ Wire Notes Line
 Wire Notes Line
 	6700 3500 11100 3500
 Wire Notes Line
-	3800 950  3800 1450
+	4000 950  4000 1450
 Wire Notes Line
-	4500 950  4500 1450
+	4700 950  4700 1450
 Wire Notes Line
-	3000 1150 5200 1150
+	3200 1150 5400 1150
+Text Notes 10400 6900 1    60   ~ 0
+Parameter Set\nPower Trace
+Text Notes 7850 6900 1    60   ~ 0
+Parameter Set\nPower Trace
+Text Notes 9100 6900 1    60   ~ 0
+Parameter Set\nPower Trace
+Wire Notes Line
+	14100 5400 12650 5400
+Wire Notes Line
+	12650 5400 12650 5700
+Wire Notes Line
+	12650 5700 14100 5700
+Wire Notes Line
+	14100 5700 14100 5400
+Wire Notes Line
+	14550 4700 14550 5000
+Wire Notes Line
+	14550 5000 13400 5000
+Wire Notes Line
+	13400 5000 13400 4700
+Wire Notes Line
+	13400 4700 14550 4700
+Wire Notes Line
+	2350 4400 2350 5900
+Wire Notes Line
+	2350 5900 3950 5900
+Wire Notes Line
+	3950 5900 3950 4400
+Wire Notes Line
+	2350 4400 3950 4400
+Text GLabel 2950 4550 0    50   UnSpc ~ 0
+MIPI_RX4_C_N
+Text GLabel 2950 4650 0    50   UnSpc ~ 0
+MIPI_RX4_C_P
+Text GLabel 2950 4850 0    50   UnSpc ~ 0
+MIPI_RX4_D0_N
+Text GLabel 2950 4950 0    50   UnSpc ~ 0
+MIPI_RX4_D0_P
+Text GLabel 2950 5150 0    50   UnSpc ~ 0
+MIPI_RX4_D1_N
+Text GLabel 2950 5250 0    50   UnSpc ~ 0
+MIPI_RX4_D1_P
+Text GLabel 2950 5450 0    50   UnSpc ~ 0
+MIPI_RX5_D0_N
+Text GLabel 2950 5550 0    50   UnSpc ~ 0
+MIPI_RX5_D0_P
+Text GLabel 2950 5750 0    50   UnSpc ~ 0
+MIPI_RX5_D1_N
+Text GLabel 2950 5850 0    50   UnSpc ~ 0
+MIPI_RX5_D1_P
+Wire Wire Line
+	1000 1000 1400 1000
+Wire Wire Line
+	1000 1300 1400 1300
+Wire Wire Line
+	1000 1600 1400 1600
+Text HLabel 2400 1000 2    60   Output ~ 0
+2V8_IMX378
+Text HLabel 2400 1300 2    60   Output ~ 0
+1V8_IMX378
+Text HLabel 2400 1600 2    60   Output ~ 0
+1V05_IMX378
+Text HLabel 7600 5500 0    60   Input ~ 0
+2V8_IMX378
+Text HLabel 7600 5700 0    60   Input ~ 0
+1V8_IMX378
+Text HLabel 7600 5900 0    60   Input ~ 0
+1V05_IMX378
+Text HLabel 10100 5700 2    60   Input ~ 0
+2V8_IMX378
+Text HLabel 7400 6900 0    60   Input ~ 0
+1V05_IMX378
+Text HLabel 8700 6900 0    60   Input ~ 0
+1V8_IMX378
+Text HLabel 10000 6900 0    60   Input ~ 0
+2V8_IMX378
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 1 8
+Sheet 5 8
 Title "BW1098OBC_USB-SchDoc"
 Date "12 12 2020"
 Rev ""
@@ -13,74 +13,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 14060 10700 0    60   ~ 0
-8
-Text Notes 14750 10300 0    60   ~ 0
+Text Notes 15300 9450 0    60   ~ 0
 Luxonis Holding
-Text Notes 14750 10400 0    60   ~ 0
+Text Notes 15300 9550 0    60   ~ 0
 1925 Harmony Park Drive
-Text Notes 14750 10500 0    60   ~ 0
+Text Notes 15300 9650 0    60   ~ 0
 Westminster, CO
-Text Notes 14750 10600 0    60   ~ 0
+Text Notes 15300 9750 0    60   ~ 0
 80234
-Text Notes 14750 10700 0    60   ~ 0
+Text Notes 15300 9850 0    60   ~ 0
 United States
 Text Notes 14320 10700 0    60   ~ 0
 8
-Text Notes 12480 10360 0    90   ~ 18
-=project_title
-Text Notes 13270 10560 0    72   ~ 0
-=document_number
-Text Notes 14190 10560 0    72   ~ 0
-=revision
-Text Notes 12500 10700 0    60   ~ 0
-*
-Text Notes 13350 10700 0    60   ~ 0
-*
-Text Notes 12700 10800 0    60   ~ 12
-=drawn_by
 Wire Notes Line
-	12200 10200 15800 10200
+	16500 9850 16500 9350
 Wire Notes Line
-	12200 10800 12200 10200
-Wire Notes Line
-	14700 10400 12200 10400
-Wire Notes Line
-	12900 10600 12900 10400
-Wire Notes Line
-	12200 10700 15800 10700
-Wire Notes Line
-	13800 10700 13800 10400
-Wire Notes Line
-	15800 10200 16800 10200
-Wire Notes Line
-	15800 10700 15800 10200
-Text Notes 12250 10350 0    60   ~ 0
-Title
-Text Notes 12250 10550 0    60   ~ 0
-Size:
-Text Notes 12950 10550 0    60   ~ 0
-Number:
-Text Notes 12250 10700 0    60   ~ 0
-Date:
-Text Notes 12250 10800 0    60   ~ 0
-Drawn by:
-Text Notes 13850 10550 0    60   ~ 0
-Revision:
-Text Notes 13850 10700 0    60   ~ 0
-Sheet
-Text Notes 14190 10700 0    60   ~ 0
-of
-Wire Notes Line
-	14700 10700 14700 10200
-Text Notes 13100 10700 0    60   ~ 0
-Time:
-Text Notes 12500 10560 0    72   ~ 0
-Tabloid
-Wire Notes Line
-	14700 10600 12200 10600
-Wire Notes Line
-	16800 10700 15800 10700
+	15250 9850 15250 9350
 Text Label 3900 4800 0    60   ~ 0
 USB_D_P
 Text Label 3900 4900 0    60   ~ 0
@@ -153,50 +101,6 @@ F 3 "" H 2000 5800 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #VBUS_0101
-U 1 1 5FD52FA3
-P 2700 4600
-F 0 "#VBUS_0101" H 2700 4740 20  0000 C CNN
-F 1 "VBUS" H 2700 4710 30  0000 C CNN
-F 2 "" H 2700 4600 70  0000 C CNN
-F 3 "" H 2700 4600 70  0000 C CNN
-	1    2700 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #VBUS_0102
-U 1 1 5FD52FA2
-P 2700 5100
-F 0 "#VBUS_0102" H 2700 5240 20  0000 C CNN
-F 1 "VBUS" H 2700 5210 30  0000 C CNN
-F 2 "" H 2700 5100 70  0000 C CNN
-F 3 "" H 2700 5100 70  0000 C CNN
-	1    2700 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #VBUS_0103
-U 1 1 5FD52FA1
-P 1300 5100
-F 0 "#VBUS_0103" H 1300 5240 20  0000 C CNN
-F 1 "VBUS" H 1300 5210 30  0000 C CNN
-F 2 "" H 1300 5100 70  0000 C CNN
-F 3 "" H 1300 5100 70  0000 C CNN
-	1    1300 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #VBUS_0104
-U 1 1 5FD52FA0
-P 1300 4600
-F 0 "#VBUS_0104" H 1300 4740 20  0000 C CNN
-F 1 "VBUS" H 1300 4710 30  0000 C CNN
-F 2 "" H 1300 4600 70  0000 C CNN
-F 3 "" H 1300 4600 70  0000 C CNN
-	1    1300 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #GND_0128
 U 1 1 5FD52F9F
 P 1300 4300
@@ -205,7 +109,7 @@ F 1 "GND" H 1300 4230 30  0000 C CNN
 F 2 "" H 1300 4300 70  0000 C CNN
 F 3 "" H 1300 4300 70  0000 C CNN
 	1    1300 4300
-	1    0    0    -1  
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #GND_0129
@@ -230,12 +134,12 @@ $Comp
 L power:GND #GND_0130
 U 1 1 5FD52F9D
 P 11900 5000
-F 0 "#GND_0130" H 11900 5000 20  0000 C CNN
+F 0 "#GND_0130" V 11900 5000 20  0000 C CNN
 F 1 "GND" H 11900 4930 30  0000 C CNN
 F 2 "" H 11900 5000 70  0000 C CNN
 F 3 "" H 11900 5000 70  0000 C CNN
 	1    11900 5000
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 NoConn ~ 9900 5700
 NoConn ~ 9900 5600
@@ -251,17 +155,6 @@ F 3 "" H 11400 5700 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #VDD_5V_0101
-U 1 1 5FD52F9B
-P 9100 6900
-F 0 "#VDD_5V_0101" H 9100 7040 20  0000 C CNN
-F 1 "VDD_5V" H 9100 7010 30  0000 C CNN
-F 2 "" H 9100 6900 70  0000 C CNN
-F 3 "" H 9100 6900 70  0000 C CNN
-	1    9100 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #GND_0132
 U 1 1 5FD52F9A
 P 9200 7400
@@ -272,29 +165,7 @@ F 3 "" H 9200 7400 70  0000 C CNN
 	1    9200 7400
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #3V3_0101
-U 1 1 5FD52F99
-P 11700 5300
-F 0 "#3V3_0101" H 11700 5440 20  0000 C CNN
-F 1 "3V3" H 11700 5410 30  0000 C CNN
-F 2 "" H 11700 5300 70  0000 C CNN
-F 3 "" H 11700 5300 70  0000 C CNN
-	1    11700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #VBUS_0105
-U 1 1 5FD52F98
-P 7800 6700
-F 0 "#VBUS_0105" H 7800 6840 20  0000 C CNN
-F 1 "VBUS" H 7800 6810 30  0000 C CNN
-F 2 "" H 7800 6700 70  0000 C CNN
-F 3 "" H 7800 6700 70  0000 C CNN
-	1    7800 6700
-	1    0    0    -1  
-$EndComp
-Text Notes 8200 6500 0    60   ~ 0
+Text Notes 7900 6300 0    60   ~ 0
 target 900k 1%
 $Comp
 L power:GND #GND_0133
@@ -307,10 +178,6 @@ F 3 "" H 11600 5700 70  0000 C CNN
 	1    11600 5700
 	1    0    0    -1  
 $EndComp
-Text Label 13900 6260 0    48   ~ 0
-Current Mode:  L - Low(500-900mA) current. (Default) Pull-down to GND or leave unconnected.  M - Medium (1.5A) current. Pull-up to VDD with 500-kO resistor.  H - High (3.0A) current. Pull-up to VDD with 10-kO resistor.
-Text Label 13900 7260 0    48   ~ 0
-Port:  H - DFP (Pull-up to VDD if DFP mode is desired)  NC - DRP (Default) (Leave unconnected if DRP mode is desired)  L - UFP (Pull-down or tie to GND if UFP mode is desired)
 NoConn ~ 11500 6800
 Text Label 5500 4500 0    60   ~ 0
 TXB_N
@@ -329,17 +196,6 @@ RXC_P
 Text Label 5500 5300 0    60   ~ 0
 RXC_N
 $Comp
-L power:GND #3V3_0102
-U 1 1 5FD52F96
-P 12900 6000
-F 0 "#3V3_0102" H 12900 6140 20  0000 C CNN
-F 1 "3V3" H 12900 6110 30  0000 C CNN
-F 2 "" H 12900 6000 70  0000 C CNN
-F 3 "" H 12900 6000 70  0000 C CNN
-	1    12900 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #GND_0134
 U 1 1 5FD52F95
 P 13100 6700
@@ -348,61 +204,16 @@ F 1 "GND" H 13100 6630 30  0000 C CNN
 F 2 "" H 13100 6700 70  0000 C CNN
 F 3 "" H 13100 6700 70  0000 C CNN
 	1    13100 6700
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Text Label 11700 6700 0    60   ~ 0
 USB_PORT
-Text HLabel 14500 4400 2    60   BiDi ~ 0
-USB_HARN
+Text HLabel 14000 4450 2    60   BiDi ~ 0
+USB
 Text Label 13100 7300 0    60   ~ 0
 CC1
 Text Label 13100 7400 0    60   ~ 0
 CC2
-Text Label 13900 6760 0    48   ~ 0
-DIR pin:  DIR of plug. This open drain output indicates the detected plug orientation: Type-C plug position 2 (H) connectos Port A to Port C on U61; Type-C plug position 1 (L) connects port A to Port B on U61.
-$Comp
-L power:GND #VDD_5V_0102
-U 1 1 5FD52F94
-P 13300 7600
-F 0 "#VDD_5V_0102" H 13300 7740 20  0000 C CNN
-F 1 "VDD_5V" H 13300 7710 30  0000 C CNN
-F 2 "" H 13300 7600 70  0000 C CNN
-F 3 "" H 13300 7600 70  0000 C CNN
-	1    13300 7600
-	1    0    0    -1  
-$EndComp
-Text Label 9700 5400 0    70   ~ 0
-DIFFPAIR
-Text Label 9700 5300 0    70   ~ 0
-DIFFPAIR
-Text Label 9700 4800 0    70   ~ 0
-DIFFPAIR
-Text Label 9700 4700 0    70   ~ 0
-DIFFPAIR
-Text Label 9300 4700 0    60   ~ 0
-TXB1_P
-Text Label 9300 4800 0    60   ~ 0
-TXB1_N
-Text Label 5900 4100 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 4200 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 5200 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 5300 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 4400 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 4500 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 5500 0    70   ~ 0
-DIFFPAIR
-Text Label 5900 5600 0    70   ~ 0
-DIFFPAIR
-Text Label 9300 5300 0    60   ~ 0
-TXC1_P
-Text Label 9300 5400 0    60   ~ 0
-TXC1_N
 $Comp
 L power:GND #GND_0135
 U 1 1 5FD52F93
@@ -412,7 +223,7 @@ F 1 "GND" H 13100 6530 30  0000 C CNN
 F 2 "" H 13100 6600 70  0000 C CNN
 F 3 "" H 13100 6600 70  0000 C CNN
 	1    13100 6600
-	1    0    0    -1  
+	0    -1   -1   0   
 $EndComp
 Text Label 11700 6600 0    60   ~ 0
 USB_CM
@@ -429,86 +240,16 @@ F 3 "" H 3100 1500 70  0000 C CNN
 $EndComp
 Text Label 9300 6700 0    60   ~ 0
 VBUS_DET
-Text Label 13000 4800 0    70   ~ 0
-DIFFPAIR
-Text Label 13000 4700 0    70   ~ 0
-DIFFPAIR
-Text Label 13000 4500 0    70   ~ 0
-DIFFPAIR
-Text Label 13000 4400 0    70   ~ 0
-DIFFPAIR
-Text Label 13000 4200 0    70   ~ 0
-DIFFPAIR
-Text Label 13000 4100 0    70   ~ 0
-DIFFPAIR
-Text GLabel 1000 1000 2    60   Output ~ 0
+Text GLabel 1600 1000 0    60   Input ~ 0
 VBUS
-$Comp
-L power:GND #VBUS_0106
-U 1 1 5FD52F91
-P 1800 1000
-F 0 "#VBUS_0106" H 1800 1140 20  0000 C CNN
-F 1 "VBUS" H 1800 1110 30  0000 C CNN
-F 2 "" H 1800 1000 70  0000 C CNN
-F 3 "" H 1800 1000 70  0000 C CNN
-	1    1800 1000
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 1250 2    60   Input ~ 0
-GND
-$Comp
-L power:GND #GND_0137
-U 1 1 5FD52F90
-P 1750 1250
-F 0 "#GND_0137" H 1750 1250 20  0000 C CNN
-F 1 "GND" H 1750 1180 30  0000 C CNN
-F 2 "" H 1750 1250 70  0000 C CNN
-F 3 "" H 1750 1250 70  0000 C CNN
-	1    1750 1250
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 1600 2    60   Input ~ 0
+Text GLabel 12900 6000 3    60   Input ~ 0
 3V3
-$Comp
-L power:GND #3V3_0103
-U 1 1 5FD52F8F
-P 1800 1600
-F 0 "#3V3_0103" H 1800 1740 20  0000 C CNN
-F 1 "3V3" H 1800 1710 30  0000 C CNN
-F 2 "" H 1800 1600 70  0000 C CNN
-F 3 "" H 1800 1600 70  0000 C CNN
-	1    1800 1600
-	1    0    0    -1  
-$EndComp
-Text GLabel 1000 1900 2    60   Input ~ 0
+Text GLabel 9100 6900 0    60   Input ~ 0
 VDD_5V
-$Comp
-L power:GND #VDD_5V_0103
-U 1 1 5FD52F8E
-P 1800 1900
-F 0 "#VDD_5V_0103" H 1800 2040 20  0000 C CNN
-F 1 "VDD_5V" H 1800 2010 30  0000 C CNN
-F 2 "" H 1800 1900 70  0000 C CNN
-F 3 "" H 1800 1900 70  0000 C CNN
-	1    1800 1900
-	1    0    0    -1  
-$EndComp
 Text Label 700  4900 0    60   ~ 0
 USB_D_P
 Text Label 700  4800 0    60   ~ 0
 USB_D_N
-Text Label 3790 1490 0    70   ~ 0
-6.3V
-Text Label 3190 1490 0    70   ~ 0
-6.3V
-Text Label 11690 5790 0    70   ~ 0
-6.3V
-Text Label 9290 7290 0    70   ~ 0
-6.3V
-Text Label 9900 7500 0    70   ~ 0
-TUSB321RWBR
-Text Label 10100 6000 0    70   ~ 0
-HD3SS3212RKSR
 Wire Wire Line
 	13500 4500 11300 4500
 Wire Wire Line
@@ -543,10 +284,6 @@ Wire Wire Line
 	9700 7400 9700 7200
 Wire Wire Line
 	9200 7400 9700 7400
-Wire Wire Line
-	9200 6900 9700 6900
-Wire Wire Line
-	9100 6900 9200 6900
 Wire Wire Line
 	9100 6600 8600 6600
 Wire Wire Line
@@ -622,10 +359,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 5500 3900 6100
 Wire Wire Line
-	4400 5500 3900 5500
-Wire Wire Line
-	3600 5300 4100 5300
-Wire Wire Line
 	3500 5200 3600 5300
 Wire Wire Line
 	2700 5200 3500 5200
@@ -649,8 +382,6 @@ Wire Wire Line
 	8200 5300 8800 5300
 Wire Wire Line
 	8200 5500 8200 5300
-Wire Wire Line
-	6500 5500 8200 5500
 Wire Wire Line
 	9900 5100 8100 5100
 Wire Wire Line
@@ -700,17 +431,7 @@ Wire Wire Line
 Wire Wire Line
 	9900 4400 8400 4400
 Wire Wire Line
-	6500 5500 4400 5500
-Wire Wire Line
-	8100 5300 4100 5300
-Wire Wire Line
 	8100 5100 8100 5300
-Wire Wire Line
-	1750 1250 1600 1250
-Wire Wire Line
-	1800 1600 1600 1600
-Wire Wire Line
-	1800 1900 1600 1900
 Wire Wire Line
 	4400 4900 2700 4900
 Wire Wire Line
@@ -782,29 +503,18 @@ Wire Wire Line
 Wire Wire Line
 	9200 7200 9200 7400
 Wire Wire Line
-	9200 6900 9100 6900
-Wire Wire Line
 	11600 6900 11500 6900
 Wire Wire Line
 	3700 1000 4300 1000
 Wire Wire Line
 	3100 1000 3700 1000
-Wire Wire Line
-	1800 1000 1600 1000
-Wire Wire Line
-	3100 1000 1800 1000
-Connection ~ 1800 1000
 Connection ~ 1900 5800
 Connection ~ 2000 5800
 Connection ~ 2100 5800
 Connection ~ 3100 1000
 Connection ~ 3700 1000
-Connection ~ 4300 1000
-Connection ~ 7800 6700
-Connection ~ 9100 6900
 Connection ~ 9100 6700
 Connection ~ 9200 7400
-Connection ~ 9200 6900
 Connection ~ 11400 5700
 Connection ~ 11400 5600
 Connection ~ 11400 5500
@@ -814,20 +524,19 @@ Connection ~ 11900 7400
 Connection ~ 12200 7600
 Connection ~ 12200 7300
 Connection ~ 12300 6000
-Connection ~ 13300 7600
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R21
+L depthAI_sch:RC0402FR-1310KL R21
 U 1 1 5FD52F8D
 P 12400 7300
-F 0 "R21" H 12400 7300 60  0000 L BNN
-F 1 "10K 0402" H 12700 7300 60  0000 L BNN
+F 0 "R21" H 12350 7300 60  0000 L BNN
+F 1 "10K 0402" H 12350 7400 60  0000 L BNN
 F 2 "" H 12700 7300 60  0001 C CNN
 F 3 "" H 12700 7300 60  0000 C CNN
 	1    12400 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C20
+L depthAI_sch:GRM155R60J106ME15D C20
 U 1 1 5FD52F8C
 P 3700 1400
 F 0 "C20" V 3810 1310 60  0000 R TNN
@@ -839,7 +548,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C19
+L depthAI_sch:GRM155R60J106ME15D C19
 U 1 1 5FD52F8B
 P 3100 1400
 F 0 "C19" V 3210 1310 60  0000 R TNN
@@ -851,7 +560,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C26
+L depthAI_sch:GRM155R60J106ME15D C26
 U 1 1 5FD52F8A
 P 11600 5700
 F 0 "C26" V 11710 5610 60  0000 R TNN
@@ -863,7 +572,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_GRM188R61A226ME15D--BW1098OBC_Power_Supply-cache C25
+L depthAI_sch:GRM155R60J106ME15D C25
 U 1 1 5FD52F89
 P 9200 7200
 F 0 "C25" V 9310 7110 60  0000 R TNN
@@ -875,7 +584,7 @@ F 4 "6.3V" V 1400 2000 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM033R61A104KE15D-BW1098OBC_USB-cache C22
+L depthAI_sch:GRM033R61A104KE15D C22
 U 1 1 5FD52F88
 P 8400 5400
 F 0 "C22" H 8490 5490 60  0000 L BNN
@@ -886,7 +595,7 @@ F 3 "" H 8490 5210 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM033R61A104KE15D-BW1098OBC_USB-cache C24
+L depthAI_sch:GRM033R61A104KE15D C24
 U 1 1 5FD52F87
 P 8800 5300
 F 0 "C24" H 8890 5390 60  0000 L BNN
@@ -897,7 +606,7 @@ F 3 "" H 8890 5110 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM033R61A104KE15D-BW1098OBC_USB-cache C21
+L depthAI_sch:GRM033R61A104KE15D C21
 U 1 1 5FD52F86
 P 8400 4800
 F 0 "C21" H 8490 4890 60  0000 L BNN
@@ -908,7 +617,7 @@ F 3 "" H 8490 4610 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:GRM033R61A104KE15D-BW1098OBC_USB-cache C23
+L depthAI_sch:GRM033R61A104KE15D C23
 U 1 1 5FD52F85
 P 8800 4700
 F 0 "C23" H 8890 4790 60  0000 L BNN
@@ -919,40 +628,40 @@ F 3 "" H 8890 4510 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:CRCW04021M80FKED-BW1098OBC_USB-cache R16
+L depthAI_sch:CRCW04021M80FKED R16
 U 1 1 5FD52F84
 P 8200 6700
-F 0 "R16" H 8100 6600 60  0000 L BNN
-F 1 "1.8MR 0402" H 8500 6600 60  0000 L BNN
+F 0 "R16" H 8300 6600 60  0000 L BNN
+F 1 "1.8MR 0402" H 8050 6500 60  0000 L BNN
 F 2 "" H 8500 6600 60  0001 C CNN
 F 3 "" H 8500 6600 60  0000 C CNN
 	1    8200 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:CRCW04021M80FKED-BW1098OBC_USB-cache R15
+L depthAI_sch:CRCW04021M80FKED R15
 U 1 1 5FD52F83
 P 8200 6600
-F 0 "R15" H 8100 6500 60  0000 L BNN
-F 1 "1.8MR 0402" H 8500 6500 60  0000 L BNN
+F 0 "R15" H 8350 6750 60  0000 L BNN
+F 1 "1.8MR 0402" H 8300 6650 60  0000 L BNN
 F 2 "" H 8500 6500 60  0001 C CNN
 F 3 "" H 8500 6500 60  0000 C CNN
 	1    8200 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R22
+L depthAI_sch:RC0402FR-1310KL R22
 U 1 1 5FD52F82
 P 12400 7400
-F 0 "R22" H 12400 7400 60  0000 L BNN
-F 1 "10K 0402" H 12700 7400 60  0000 L BNN
+F 0 "R22" H 12350 7400 60  0000 L BNN
+F 1 "10K 0402" H 12450 7300 60  0000 L BNN
 F 2 "" H 12700 7400 60  0001 C CNN
 F 3 "" H 12700 7400 60  0000 C CNN
 	1    12400 7400
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:105450-0101-BW1098OBC_USB-cache J4
+L depthAI_sch:105450-0101 J4
 U 1 1 5FD52F81
 P 2700 4300
 F 0 "J4" H 3900 4500 60  0000 R BNN
@@ -963,31 +672,19 @@ F 3 "" H 3900 4400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:TUSB321RWBR-BW1098OBC_USB-cache U2
-U 1 1 5FD52F80
-P 11500 6400
-F 0 "U2" H 13100 6500 60  0000 R BNN
-F 1 "USB Type-C Port Control" H 13100 5400 60  0000 R BNN
-F 2 "" H 13100 5400 60  0001 C CNN
-F 3 "" H 13100 5400 60  0000 C CNN
-F 4 "TUSB321RWBR" V 1400 2000 60  0001 C CNN "Manufacturer Part Number 1"
-	1    11500 6400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L BW1098OBC_TopLevel-rescue:HD3SS3212RKSR-BW1098OBC_USB-cache U1
+L depthAI_sch:HD3SS3212RKSR U1
 U 1 1 5FD52F7F
 P 9900 4400
 F 0 "U1" H 10100 4500 60  0000 L BNN
 F 1 "USB Type-C Switch" H 10100 2900 60  0000 L BNN
 F 2 "" H 10100 2900 60  0001 C CNN
 F 3 "" H 10100 2900 60  0000 C CNN
-F 4 "HD3SS3212RKSR" V 1400 2000 60  0001 C CNN "Manufacturer Part Number 1"
+F 4 "HD3SS3212RKSR" H 10700 4550 60  0000 C CNN "Manufacturer Part Number 1"
 	1    9900 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP2
+L depthAI_sch:TEST_POINT TP2
 U 1 1 5FD52F7E
 P 4300 1000
 F 0 "TP2" H 4300 1200 60  0000 L BNN
@@ -998,7 +695,7 @@ F 3 "" H 4300 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP3
+L depthAI_sch:TEST_POINT TP3
 U 1 1 5FD52F7D
 P 11600 6900
 F 0 "TP3" V 11750 6950 60  0000 L BNN
@@ -1009,7 +706,7 @@ F 3 "" H 11600 6900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP4
+L depthAI_sch:TEST_POINT TP4
 U 1 1 5FD52F7C
 P 11900 7800
 F 0 "TP4" H 11950 8150 60  0000 R TNN
@@ -1020,7 +717,7 @@ F 3 "" H 11900 7800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:BW1098OBC_Power_Supply-SchDoc-rescue_TEST_POINT--BW1098OBC_Power_Supply-cache TP5
+L depthAI_sch:TEST_POINT TP5
 U 1 1 5FD52F7B
 P 12200 7800
 F 0 "TP5" H 12250 8150 60  0000 R TNN
@@ -1031,10 +728,10 @@ F 3 "" H 12200 7800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R23
+L depthAI_sch:RC0402FR-1310KL R23
 U 1 1 5FD52F7A
 P 12400 7600
-F 0 "R23" H 12400 7600 60  0000 L BNN
+F 0 "R23" H 12350 7600 60  0000 L BNN
 F 1 "10K 0402" H 12700 7600 60  0000 L BNN
 F 2 "" H 12700 7600 60  0001 C CNN
 F 3 "" H 12700 7600 60  0000 C CNN
@@ -1042,51 +739,51 @@ F 3 "" H 12700 7600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R24
+L depthAI_sch:RC0402FR-1310KL R24
 U 1 1 5FD52F79
 P 12400 7700
-F 0 "R24" H 12400 7700 60  0000 L BNN
-F 1 "10K 0402" H 12700 7700 60  0000 L BNN
+F 0 "R24" H 12500 7600 60  0000 L BNN
+F 1 "10K 0402" H 12450 7500 60  0000 L BNN
 F 2 "" H 12700 7700 60  0001 C CNN
 F 3 "" H 12700 7700 60  0000 C CNN
 	1    12400 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R18
+L depthAI_sch:RC0402FR-1310KL R18
 U 1 1 5FD52F78
 P 12400 6000
 F 0 "R18" H 12490 6030 60  0000 L BNN
-F 1 "10K 0402" H 12490 5870 60  0000 L BNN
+F 1 "10K 0402" H 12350 5900 60  0000 L BNN
 F 2 "" H 12490 5870 60  0001 C CNN
 F 3 "" H 12490 5870 60  0000 C CNN
 	1    12400 6000
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R19
+L depthAI_sch:RC0402FR-1310KL R19
 U 1 1 5FD52F77
 P 12400 6600
-F 0 "R19" H 12400 6600 60  0000 L BNN
-F 1 "10K 0402" H 12700 6600 60  0000 L BNN
+F 0 "R19" H 12450 6650 60  0000 L BNN
+F 1 "10K 0402" H 12450 6750 60  0000 L BNN
 F 2 "" H 12700 6600 60  0001 C CNN
 F 3 "" H 12700 6600 60  0000 C CNN
 	1    12400 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R20
+L depthAI_sch:RC0402FR-1310KL R20
 U 1 1 5FD52F76
 P 12400 6700
-F 0 "R20" H 12400 6700 60  0000 L BNN
-F 1 "10K 0402" H 12700 6700 60  0000 L BNN
+F 0 "R20" H 12400 6500 60  0000 L BNN
+F 1 "10K 0402" H 12350 6600 60  0000 L BNN
 F 2 "" H 12700 6700 60  0001 C CNN
 F 3 "" H 12700 6700 60  0000 C CNN
 	1    12400 6700
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R17
+L depthAI_sch:RC0402FR-1310KL R17
 U 1 1 5FD52F75
 P 11400 5000
 F 0 "R17" H 11490 5030 60  0000 L BNN
@@ -1097,7 +794,7 @@ F 3 "" H 11490 4870 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098OBC_TopLevel-rescue:RC0402FR-1310KL--BW1098OBC_IMX378-SchDoc-rescue-BW1098OBC_IMX378-rescue-BW1098OBC_TopLevel-rescue R14
+L depthAI_sch:RC0402FR-1310KL R14
 U 1 1 5FD52F74
 P 4300 1400
 F 0 "R14" V 4510 1370 60  0000 R TNN
@@ -1107,4 +804,92 @@ F 3 "" H 4410 1370 60  0000 C CNN
 	1    4300 1400
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	3600 5300 8100 5300
+Wire Wire Line
+	3900 5500 8200 5500
+Wire Wire Line
+	9100 6900 9700 6900
+Text Notes 6000 4100 0    72   ~ 0
+DIFFPAIR
+Text Notes 6000 4200 0    72   ~ 0
+DIFFPAIR
+Text Notes 6000 4400 0    72   ~ 0
+DIFFPAIR
+Text Notes 6000 4500 0    72   ~ 0
+DIFFPAIR
+Text Notes 5900 5200 0    72   ~ 0
+DIFFPAIR
+Text Notes 5900 5300 0    72   ~ 0
+DIFFPAIR
+Text Notes 5900 5500 0    72   ~ 0
+DIFFPAIR
+Text Notes 5900 5600 0    72   ~ 0
+DIFFPAIR
+Text Notes 13200 5600 0    52   ~ 0
+Current Mode:  \nL - Low(500-900mA) current. (Default) Pull-down to GND or leave unconnected.  \nM - Medium (1.5A) current. Pull-up to VDD with 500-kO resistor.  \nH - High (3.0A) current. Pull-up to VDD with 10-kO resistor.
+Text Notes 13200 6050 0    52   ~ 0
+DIR pin:  \nDIR of plug. This open drain output indicates the detected plug orientation: \n  Type-C plug position 2 (H) connectos Port A to Port C on U61; \n  Type-C plug position 1 (L) connects port A to Port B on U61.
+Text Notes 13200 6450 0    52   ~ 0
+Port:  \nH - DFP (Pull-up to VDD if DFP mode is desired)  \nNC - DRP (Default) (Leave unconnected if DRP mode is desired)  \nL - UFP (Pull-down or tie to GND if UFP mode is desired)
+Text Notes 13000 4100 0    72   ~ 0
+DIFFPAIR
+Wire Wire Line
+	1600 1000 3100 1000
+Text GLabel 1300 4600 0    60   Output ~ 0
+VBUS
+Text GLabel 1300 5100 0    60   Output ~ 0
+VBUS
+Text GLabel 2700 4600 2    60   Output ~ 0
+VBUS
+Text GLabel 2700 5100 2    60   Output ~ 0
+VBUS
+Text GLabel 7800 6700 3    60   Input ~ 0
+VBUS
+$Comp
+L depthAI_sch:TUSB321RWBR U2
+U 1 1 5FD52F80
+P 11500 6400
+F 0 "U2" H 13100 6500 60  0000 R BNN
+F 1 "USB Type-C Port Control" H 13100 5400 60  0000 R BNN
+F 2 "" H 13100 5400 60  0001 C CNN
+F 3 "" H 13100 5400 60  0000 C CNN
+F 4 "TUSB321RWBR" H 12450 6550 60  0000 C CNN "Manufacturer Part Number 1"
+	1    11500 6400
+	-1   0    0    -1  
+$EndComp
+Text GLabel 11700 5300 2    60   Input ~ 0
+3V3
+Text GLabel 13300 7600 2    60   Input ~ 0
+VDD_5V
+Text Notes 13000 4200 0    72   ~ 0
+DIFFPAIR
+Text Notes 13000 4400 0    72   ~ 0
+DIFFPAIR
+Text Notes 13000 4500 0    72   ~ 0
+DIFFPAIR
+Text Notes 13000 4700 0    72   ~ 0
+DIFFPAIR
+Text Notes 13000 4800 0    72   ~ 0
+DIFFPAIR
+Text GLabel 13500 4500 2    50   UnSpc ~ 0
+USB_D_N
+Text GLabel 13500 4400 2    50   UnSpc ~ 0
+USB_D_P
+Text GLabel 13500 4200 2    50   UnSpc ~ 0
+USB_RX_N
+Text GLabel 13500 4100 2    50   UnSpc ~ 0
+USB_RX_P
+Text GLabel 13500 4800 2    50   UnSpc ~ 0
+USB_D_N
+Text GLabel 13500 4700 2    50   UnSpc ~ 0
+USB_TX_P
+Wire Notes Line
+	14000 4900 12400 4900
+Wire Notes Line
+	12400 4900 12400 3900
+Wire Notes Line
+	12400 3900 14000 3900
+Wire Notes Line
+	14000 3900 14000 4900
 $EndSCHEMATC
