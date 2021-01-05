@@ -108,54 +108,54 @@ Text Notes 9700 900  0    60   ~ 0
 Text Notes 650  8700 0    96   ~ 19
 Jumper configuration for FSIN and STROBE pins
 Wire Notes Line
-	5300 10500 5300 8200
+	5250 10500 5250 8200
 Wire Notes Line
-	5300 10500 12300 10500
+	5250 10500 12250 10500
 Wire Notes Line
-	5300 8200 12300 8200
+	5250 8200 12250 8200
 Wire Notes Line
-	12300 10500 12300 8200
+	12250 10500 12250 8200
 Text Notes 7900 4400 0    72   ~ 14
 Mark "LEFT" on PCB
-Text Notes 7010 10160 0    60   ~ 0
+Text Notes 6960 10160 0    60   ~ 0
 CAM NO
-Text Notes 7000 10300 0    60   ~ 0
+Text Notes 6950 10300 0    60   ~ 0
 CAM 1
-Text Notes 7000 10400 0    60   ~ 0
+Text Notes 6950 10400 0    60   ~ 0
 CAM 2
 Wire Notes Line
-	10200 10000 6900 10000
-Text Notes 7500 10200 0    60   ~ 0
+	10150 10000 6850 10000
+Text Notes 7450 10200 0    60   ~ 0
 CAM_A
 Wire Notes Line
-	8800 10400 8800 10100
+	8750 10400 8750 10100
 Wire Notes Line
-	9500 10400 9500 10100
-Text Notes 8400 10100 0    60   ~ 0
+	9450 10400 9450 10100
+Text Notes 8350 10100 0    60   ~ 0
 CAMERA CONNECTOR
-Text Notes 7500 10300 0    60   ~ 0
+Text Notes 7450 10300 0    60   ~ 0
 CAM_PWDN
-Text Notes 8200 10300 0    60   ~ 0
+Text Notes 8150 10300 0    60   ~ 0
 CAM_PWDN
-Text Notes 7500 10400 0    60   ~ 0
+Text Notes 7450 10400 0    60   ~ 0
 CAM_PWM
-Text Notes 8200 10400 0    60   ~ 0
+Text Notes 8150 10400 0    60   ~ 0
 CAM_PWM
-Text Notes 8900 10300 0    60   ~ 0
+Text Notes 8850 10300 0    60   ~ 0
 CAM_PWDN
-Text Notes 8900 10400 0    60   ~ 0
+Text Notes 8850 10400 0    60   ~ 0
 CAM_AUX_IO1
-Text Notes 9600 10400 0    60   ~ 0
+Text Notes 9550 10400 0    60   ~ 0
 CAM_AUX_IO1
-Text Notes 9600 10300 0    60   ~ 0
+Text Notes 9550 10300 0    60   ~ 0
 CAM_PWDN
-Text Notes 8300 10200 0    60   ~ 0
+Text Notes 8250 10200 0    60   ~ 0
 CAM_B
-Text Notes 9000 10200 0    60   ~ 0
+Text Notes 8950 10200 0    60   ~ 0
 CAM_C
-Text Notes 9700 10200 0    60   ~ 0
+Text Notes 9650 10200 0    60   ~ 0
 CAM_D
-Text Notes 7700 10000 0    60   ~ 0
+Text Notes 7650 10000 0    60   ~ 0
 CAMERA CONNECTOR RESET CONNECTION TABLE
 $Comp
 L power:GND #GND_0111
@@ -707,21 +707,21 @@ Wire Notes Line
 Wire Notes Line
 	6500 1600 8700 1600
 Wire Notes Line
-	6900 10200 10200 10200
+	6850 10200 10150 10200
 Wire Notes Line
-	8100 10100 8100 10400
+	8050 10100 8050 10400
 Wire Notes Line
-	6900 10000 6900 10400
+	6850 10000 6850 10400
 Wire Notes Line
-	6900 10400 10200 10400
+	6850 10400 10150 10400
 Wire Notes Line
-	6900 10300 10200 10300
+	6850 10300 10150 10300
 Wire Notes Line
-	10200 10000 10200 10400
+	10150 10000 10150 10400
 Wire Notes Line
-	7400 10000 7400 10400
+	7350 10000 7350 10400
 Wire Notes Line
-	7400 10100 10200 10100
+	7350 10100 10150 10100
 Text GLabel 6200 5100 0    50   UnSpc ~ 0
 MIPI_RX2_D1_P
 Text GLabel 6200 5200 0    50   UnSpc ~ 0
@@ -736,9 +736,9 @@ Text GLabel 6200 5800 0    50   UnSpc ~ 0
 MIPI_RX2_C_N
 Text Notes 650  10200 0    50   ~ 0
 Used for configuring the STROBE signal direction between the camera boards by using jumpers. \nA strobe signal may drive FSIN signal for waking up a sensor from its low power mode. See the \n"Supported Modes of Operation" note for supported jumper settings.     \n \n     - "NO SYNC" is the mode in which none of the camera modules is excited by any strobe signal.  \n   \n     - "NORMAL" mode means STROBE mechanism works only among the stereo cameras \nthemselves. In this mode, CAM1 strobe is connected to the CAM2 FSIN input.      \n\n     - "TIMING MASTER" mode means CAM1 STROBE signal drives the EXT_STROBE signal as well as\n the CAM2 FSIN input. EXT_STROBE signal circulates among the other camera ports so that one \ncamera module can manage the timing of all cameras within the system.    \n\n     - "TIMING SLAVE" mode uses external strobe signal which is driven externally by another \ncamera. In this mode, CAM1 and CAM2 are excited by the EXT_STROBE signal.    Note that, at \nmost only one camera can be in the "TIMING MASTER" mode at a time. STROBE generation and \nFSIN reception should be configured via software.  \n
-Text Notes 5350 9600 0    79   ~ 0
+Text Notes 5300 9600 0    79   ~ 0
 OV9282 sensor I2C address may be changed via I2C protocol. Therefore, in order to assign \ndifferent I2C address to the sensors on the same I2C bus, one needs to hold the reset the all \nsensors except one and assign a unique I2C address to the active sensor. This routine should be \napplied for all sensors in the initialization routine.  
-Text Notes 5350 8900 0    79   ~ 0
+Text Notes 5300 8900 0    79   ~ 0
 Because the stereo pair of OV9282 modules hard wired to CAM_B no additional reset cirucitry is \nrequired to account for different conditions. This means that "CAM1" (Left) is reset via \nCAM_PWDN, and "CAM2" (Right), is reset via CAM_PWM. This also means that the signal \nCAM_AUX_IO1 is no longer required here, as that was only possible if the stereo pair were \nconnected to CAM_C or CAM_D  
 $Bitmap
 Pos 1650 7700
@@ -2617,4 +2617,20 @@ Text Notes 7300 7050 1    60   ~ 0
 Parameter Set\nPower Trace
 Text Notes 8600 7050 1    60   ~ 0
 Parameter Set\nPower Trace
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	3100 5750 3100 6100
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	3100 6100 1900 6100
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	1900 6100 1900 5750
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	1900 5750 2100 5750
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	2100 5750 2100 5550
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	2100 5550 2400 5550
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	2400 5550 2400 5750
+Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
+	2400 5750 3100 5750
 $EndSCHEMATC

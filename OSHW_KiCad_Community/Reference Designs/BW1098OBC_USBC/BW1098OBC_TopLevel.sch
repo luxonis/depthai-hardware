@@ -30,15 +30,15 @@ Wire Notes Line
 Text HLabel 13600 4700 2    60   BiDi ~ 0
 MIPI_CAM_B
 Text HLabel 13600 3200 2    60   BiDi ~ 0
-MIPI_CAM_A_HARN
+MIPI_CAM_A
 Text HLabel 13600 6500 2    60   BiDi ~ 0
 MIPI_CAM_C
 Text HLabel 13600 4900 2    60   BiDi ~ 0
 I2C2
 Text HLabel 13600 3400 2    60   BiDi ~ 0
-I2C1_HARN
+I2C1
 Text HLabel 13600 3300 2    60   BiDi ~ 0
-CTL_CAM_A_HARN
+CTL_CAM_A
 Text HLabel 13600 4800 2    60   BiDi ~ 0
 CTL_CAM_B
 Text HLabel 13600 2900 2    60   Input ~ 0
@@ -322,4 +322,144 @@ U 5FD7EFCB
 F0 "U_BW1098OBC_Power_Supply" 60
 F1 "BW1098OBC_Power_Supply.sch" 60
 $EndSheet
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5FF5152E
+P 12450 9100
+F 0 "FID?" H 12535 9146 50  0000 L CNN
+F 1 "Fiducial" H 12535 9055 50  0000 L CNN
+F 2 "" H 12450 9100 50  0001 C CNN
+F 3 "~" H 12450 9100 50  0001 C CNN
+	1    12450 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5FF51DEB
+P 12950 9100
+F 0 "FID?" H 13035 9146 50  0000 L CNN
+F 1 "Fiducial" H 13035 9055 50  0000 L CNN
+F 2 "" H 12950 9100 50  0001 C CNN
+F 3 "~" H 12950 9100 50  0001 C CNN
+	1    12950 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5FF521FE
+P 13450 9100
+F 0 "FID?" H 13535 9146 50  0000 L CNN
+F 1 "Fiducial" H 13535 9055 50  0000 L CNN
+F 2 "" H 13450 9100 50  0001 C CNN
+F 3 "~" H 13450 9100 50  0001 C CNN
+	1    13450 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5FF52633
+P 13950 9100
+F 0 "FID?" H 14035 9146 50  0000 L CNN
+F 1 "Fiducial" H 14035 9055 50  0000 L CNN
+F 2 "" H 13950 9100 50  0001 C CNN
+F 3 "~" H 13950 9100 50  0001 C CNN
+	1    13950 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5FF52ACC
+P 14450 9100
+F 0 "FID?" H 14535 9146 50  0000 L CNN
+F 1 "Fiducial" H 14535 9055 50  0000 L CNN
+F 2 "" H 14450 9100 50  0001 C CNN
+F 3 "~" H 14450 9100 50  0001 C CNN
+	1    14450 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID?
+U 1 1 5FF52F7A
+P 14950 9100
+F 0 "FID?" H 15035 9146 50  0000 L CNN
+F 1 "Fiducial" H 15035 9055 50  0000 L CNN
+F 2 "" H 14950 9100 50  0001 C CNN
+F 3 "~" H 14950 9100 50  0001 C CNN
+	1    14950 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L depthAI_sch:Mechanical_MountingHole_Pad H?
+U 1 1 5FF5350B
+P 12900 8300
+F 0 "H?" H 13000 8349 50  0000 L CNN
+F 1 "MountingHole_M2.5" H 13000 8258 50  0000 L CNN
+F 2 "" H 12900 8300 50  0001 C CNN
+F 3 "" H 12900 8300 50  0001 C CNN
+	1    12900 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L depthAI_sch:Mechanical_MountingHole_Pad H?
+U 1 1 5FF56FF7
+P 12900 8650
+F 0 "H?" H 13000 8699 50  0000 L CNN
+F 1 "MountingHole_M2.5" H 13000 8608 50  0000 L CNN
+F 2 "" H 12900 8650 50  0001 C CNN
+F 3 "" H 12900 8650 50  0001 C CNN
+	1    12900 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L depthAI_sch:Mechanical_MountingHole_Pad H?
+U 1 1 5FF572C3
+P 13850 8650
+F 0 "H?" H 13950 8699 50  0000 L CNN
+F 1 "MountingHole_M2.5" H 13950 8608 50  0000 L CNN
+F 2 "" H 13850 8650 50  0001 C CNN
+F 3 "" H 13850 8650 50  0001 C CNN
+	1    13850 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L depthAI_sch:Mechanical_MountingHole_Pad H?
+U 1 1 5FF57937
+P 13850 8300
+F 0 "H?" H 13950 8349 50  0000 L CNN
+F 1 "MountingHole_M2.5" H 13950 8258 50  0000 L CNN
+F 2 "" H 13850 8300 50  0001 C CNN
+F 3 "" H 13850 8300 50  0001 C CNN
+	1    13850 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 3200 8300 3200
+Wire Wire Line
+	13600 3300 8300 3300
+Wire Wire Line
+	8300 3400 13600 3400
+Wire Wire Line
+	13600 4700 8300 4700
+Wire Wire Line
+	13600 4800 9300 4800
+Wire Wire Line
+	8300 4900 9350 4900
+Wire Wire Line
+	11800 5600 13600 5600
+Wire Wire Line
+	8300 6500 13600 6500
+Wire Wire Line
+	8300 6600 9300 6600
+Wire Wire Line
+	9300 6600 9300 4800
+Connection ~ 9300 4800
+Wire Wire Line
+	9300 4800 8300 4800
+Wire Wire Line
+	8300 6700 9350 6700
+Wire Wire Line
+	9350 6700 9350 4900
+Connection ~ 9350 4900
+Wire Wire Line
+	9350 4900 13600 4900
 $EndSCHEMATC

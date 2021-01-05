@@ -29,8 +29,6 @@ Wire Notes Line
 	12250 10500 12250 10000
 Wire Notes Line
 	11000 10500 11000 10000
-Text Label 9600 600  0    72   ~ 0
-On the BW1097, the IMX378 camera module is hardwired into the "Cam-A" logical position. This means the logic which used to be required to support the module being plugged into different physical connectors (and different logical positions) is no longer needed and can be removed.     Note: It is still a limitation that the clock source for the cameras must be shared between CAMA/C and CAMB/D.  
 Text GLabel 1000 1000 0    60   Input ~ 0
 2V8
 Text GLabel 1000 1600 0    60   Input ~ 0
@@ -642,4 +640,14 @@ Text HLabel 8700 6900 0    60   Input ~ 0
 1V8_IMX378
 Text HLabel 10000 6900 0    60   Input ~ 0
 2V8_IMX378
+Text Notes 10350 1400 0    58   ~ 0
+On the BW1097, the IMX378 camera module is hardwired into the "Cam-A" logical position. This means the logic which used to \nbe required to support the module being plugged into different physical connectors (and different logical positions) is no \nlonger needed and can be removed.     \n\nNote: It is still a limitation that the clock source for the cameras must be shared between CAMA/C and CAMB/D.  
+Wire Notes Line
+	16150 900  10300 900 
+Wire Notes Line
+	10300 900  10300 1450
+Wire Notes Line
+	10300 1450 16150 1450
+Wire Notes Line
+	16150 1450 16150 900 
 $EndSCHEMATC
