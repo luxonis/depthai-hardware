@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 4 8
+Sheet 8 10
 Title "BW1098OBC_IMX378-SchDoc"
 Date "12 12 2020"
 Rev ""
