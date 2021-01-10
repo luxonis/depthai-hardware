@@ -191,11 +191,11 @@ Wire Notes Line
 Wire Notes Line
 	6350 1550 8550 1550
 Wire Wire Line
-	950  1000 1350 1000
+	950  1000 1100 1000
 Wire Wire Line
-	950  700  1350 700 
+	950  700  1100 700 
 Wire Wire Line
-	950  1300 1350 1300
+	950  1300 1100 1300
 Text HLabel 2450 700  2    60   Output ~ 0
 2V8_R
 Text HLabel 2450 1000 2    60   Output ~ 0
@@ -686,4 +686,52 @@ F 3 "" H 6150 4950 70  0000 C CNN
 $EndComp
 Text Notes 6320 5250 0    60   ~ 0
 8
+$Comp
+L power:+1V2 #PWR?
+U 1 1 6001513E
+P 1100 1300
+AR Path="/604AEAFA/6001513E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D40A/6001513E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 1150 50  0001 C CNN
+F 1 "+1V2" H 1115 1473 50  0000 C CNN
+F 2 "" H 1100 1300 50  0001 C CNN
+F 3 "" H 1100 1300 50  0001 C CNN
+	1    1100 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 60015144
+P 1100 1000
+AR Path="/604AEAFA/60015144" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D40A/60015144" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 850 50  0001 C CNN
+F 1 "+1V8" H 1115 1173 50  0000 C CNN
+F 2 "" H 1100 1000 50  0001 C CNN
+F 3 "" H 1100 1000 50  0001 C CNN
+	1    1100 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 6001514A
+P 1100 700
+AR Path="/604AEAFA/6001514A" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D40A/6001514A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 550 50  0001 C CNN
+F 1 "+2V8" H 1115 873 50  0000 C CNN
+F 2 "" H 1100 700 50  0001 C CNN
+F 3 "" H 1100 700 50  0001 C CNN
+	1    1100 700 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 700 
+Wire Wire Line
+	1100 700  1350 700 
+Connection ~ 1100 1000
+Wire Wire Line
+	1100 1000 1350 1000
+Connection ~ 1100 1300
+Wire Wire Line
+	1100 1300 1350 1300
 $EndSCHEMATC

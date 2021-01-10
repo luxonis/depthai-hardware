@@ -2591,17 +2591,9 @@ AE 42 60 82
 EndData
 $EndBitmap
 Wire Wire Line
-	900  900  1300 900 
+	900  900  1050 900 
 Wire Wire Line
-	900  1200 1300 1200
-Wire Wire Line
-	900  1500 1300 1500
-Text HLabel 1100 900  1    79   BiDi ~ 0
-2V8
-Text HLabel 1000 1200 1    79   BiDi ~ 0
-1V8
-Text HLabel 1100 1500 1    79   BiDi ~ 0
-1V2
+	900  1500 1050 1500
 Text HLabel 2400 900  2    79   BiDi ~ 0
 2V8_L
 Text HLabel 2400 1200 2    79   BiDi ~ 0
@@ -2666,4 +2658,54 @@ Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
 	3100 5950 3800 5950
 Wire Wire Line
 	8550 3700 10150 3700
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5FFF8485
+P 1050 1500
+AR Path="/604AEAFA/5FFF8485" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D2B3/5FFF8485" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1050 1350 50  0001 C CNN
+F 1 "+1V2" H 1065 1673 50  0000 C CNN
+F 2 "" H 1050 1500 50  0001 C CNN
+F 3 "" H 1050 1500 50  0001 C CNN
+	1    1050 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5FFF848B
+P 1050 1200
+AR Path="/604AEAFA/5FFF848B" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D2B3/5FFF848B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1050 1050 50  0001 C CNN
+F 1 "+1V8" H 1065 1373 50  0000 C CNN
+F 2 "" H 1050 1200 50  0001 C CNN
+F 3 "" H 1050 1200 50  0001 C CNN
+	1    1050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5FFF8491
+P 1050 900
+AR Path="/604AEAFA/5FFF8491" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D2B3/5FFF8491" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1050 750 50  0001 C CNN
+F 1 "+2V8" H 1065 1073 50  0000 C CNN
+F 2 "" H 1050 900 50  0001 C CNN
+F 3 "" H 1050 900 50  0001 C CNN
+	1    1050 900 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1050 900 
+Wire Wire Line
+	1050 900  1300 900 
+Connection ~ 1050 1200
+Wire Wire Line
+	1050 1200 1300 1200
+Wire Wire Line
+	900  1200 1050 1200
+Connection ~ 1050 1500
+Wire Wire Line
+	1050 1500 1300 1500
 $EndSCHEMATC

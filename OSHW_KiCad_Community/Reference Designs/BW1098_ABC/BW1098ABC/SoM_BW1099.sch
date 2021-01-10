@@ -1047,20 +1047,10 @@ Text GLabel 4850 6900 0    50   UnSpc ~ 0
 CAM_B_PWDN_N
 Text GLabel 4850 7000 0    50   UnSpc ~ 0
 CAM_B_CLK_OUT
-Text GLabel 6650 5800 0    50   Input ~ 0
-VDD_5V
 Text GLabel 4550 4600 0    50   UnSpc ~ 0
 I2C1_SDA
 Text GLabel 4550 4700 0    50   UnSpc ~ 0
 I2C1_SCL
-Text GLabel 1850 5400 1    50   Input ~ 0
-VDD_5V
-Text GLabel 1900 7250 1    50   Input ~ 0
-VDD_5V
-Text GLabel 1850 3100 1    50   Input ~ 0
-VDD_5V
-Text GLabel 1350 2950 1    50   Input ~ 0
-VDD_5V
 Text GLabel 5950 2900 0    50   UnSpc ~ 0
 MIPI_RX4_C_N
 Text GLabel 5950 3000 0    50   UnSpc ~ 0
@@ -1315,8 +1305,6 @@ F 5 "DNP" V 14550 1200 50  0000 L CNN "Population"
 	0    -1   -1   0   
 $EndComp
 Connection ~ 14650 1650
-Text GLabel 14500 1150 1    60   Input ~ 0
-VDD_5V
 Wire Wire Line
 	14650 1250 14500 1250
 Wire Wire Line
@@ -1429,4 +1417,127 @@ Wire Wire Line
 	10500 8700 9650 8700
 Wire Wire Line
 	10500 8800 9650 8800
+$Comp
+L power:+5V #PWR?
+U 1 1 60025A18
+P 1350 2950
+AR Path="/604AEAFA/60025A18" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D9B2/60025A18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1350 2800 50  0001 C CNN
+F 1 "+5V" H 1365 3123 50  0000 C CNN
+F 2 "" H 1350 2950 50  0001 C CNN
+F 3 "" H 1350 2950 50  0001 C CNN
+	1    1350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 60025A1E
+P 2250 1850
+F 0 "#PWR?" H 2250 1700 50  0001 C CNN
+F 1 "+1V2" H 2265 2023 50  0000 C CNN
+F 2 "" H 2250 1850 50  0001 C CNN
+F 3 "" H 2250 1850 50  0001 C CNN
+	1    2250 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 60025A24
+P 2500 1850
+F 0 "#PWR?" H 2500 1700 50  0001 C CNN
+F 1 "+1V8" H 2515 2023 50  0000 C CNN
+F 2 "" H 2500 1850 50  0001 C CNN
+F 3 "" H 2500 1850 50  0001 C CNN
+	1    2500 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 60025A2A
+P 2750 1850
+F 0 "#PWR?" H 2750 1700 50  0001 C CNN
+F 1 "+2V8" H 2765 2023 50  0000 C CNN
+F 2 "" H 2750 1850 50  0001 C CNN
+F 3 "" H 2750 1850 50  0001 C CNN
+	1    2750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L depthAI_sch:+1V05 #PWR?
+U 1 1 60025A30
+P 3050 1850
+F 0 "#PWR?" H 3050 1700 50  0001 C CNN
+F 1 "+1V05" H 3065 2023 50  0000 C CNN
+F 2 "" H 3050 1850 50  0001 C CNN
+F 3 "" H 3050 1850 50  0001 C CNN
+	1    3050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 600461B4
+P 1850 3100
+AR Path="/604AEAFA/600461B4" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D9B2/600461B4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 2950 50  0001 C CNN
+F 1 "+5V" H 1865 3273 50  0000 C CNN
+F 2 "" H 1850 3100 50  0001 C CNN
+F 3 "" H 1850 3100 50  0001 C CNN
+	1    1850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6004658E
+P 1850 5400
+AR Path="/604AEAFA/6004658E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D9B2/6004658E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1850 5250 50  0001 C CNN
+F 1 "+5V" H 1865 5573 50  0000 C CNN
+F 2 "" H 1850 5400 50  0001 C CNN
+F 3 "" H 1850 5400 50  0001 C CNN
+	1    1850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60051547
+P 1900 7250
+AR Path="/604AEAFA/60051547" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D9B2/60051547" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1900 7100 50  0001 C CNN
+F 1 "+5V" H 1915 7423 50  0000 C CNN
+F 2 "" H 1900 7250 50  0001 C CNN
+F 3 "" H 1900 7250 50  0001 C CNN
+	1    1900 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60051B26
+P 6650 5700
+AR Path="/604AEAFA/60051B26" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D9B2/60051B26" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6650 5550 50  0001 C CNN
+F 1 "+5V" H 6665 5873 50  0000 C CNN
+F 2 "" H 6650 5700 50  0001 C CNN
+F 3 "" H 6650 5700 50  0001 C CNN
+	1    6650 5700
+	1    0    0    -1  
+$EndComp
+Connection ~ 6650 5700
+$Comp
+L power:+5V #PWR?
+U 1 1 60072499
+P 14500 1150
+AR Path="/604AEAFA/60072499" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D9B2/60072499" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 14500 1000 50  0001 C CNN
+F 1 "+5V" H 14515 1323 50  0000 C CNN
+F 2 "" H 14500 1150 50  0001 C CNN
+F 3 "" H 14500 1150 50  0001 C CNN
+	1    14500 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

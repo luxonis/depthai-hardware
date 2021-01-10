@@ -628,9 +628,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 8150 1200 8150
 Wire Wire Line
-	3200 2200 3200 1500
+	3250 3700 3250 3000
 Wire Wire Line
-	3050 2200 3200 2200
+	3100 3700 3250 3700
 Wire Wire Line
 	1950 1700 1700 1700
 Wire Wire Line
@@ -672,10 +672,6 @@ Wire Wire Line
 Wire Wire Line
 	4000 1500 4750 1500
 Wire Wire Line
-	3200 1500 4000 1500
-Wire Wire Line
-	3050 1500 3200 1500
-Wire Wire Line
 	3500 5450 3400 5450
 Wire Wire Line
 	3500 5550 3500 5450
@@ -692,7 +688,6 @@ Connection ~ 2050 8150
 Connection ~ 2300 7400
 Connection ~ 2300 6300
 Connection ~ 2300 5250
-Connection ~ 3200 1500
 Connection ~ 4000 1500
 Connection ~ 4200 9800
 Connection ~ 4200 9150
@@ -1036,14 +1031,14 @@ $EndComp
 $Comp
 L depthAI_sch:TEST_POINT TP?
 U 1 1 604BD5AB
-P 1650 2200
+P 1700 3700
 AR Path="/5FD7EFCB/604BD5AB" Ref="TP?"  Part="1" 
 AR Path="/604AEAFA/604BD5AB" Ref="TP?"  Part="1" 
-F 0 "TP?" H 1600 2350 60  0000 L BNN
-F 1 "TEST_POINT" H 1650 2200 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1650 2200 50  0001 C CNN
-F 3 "" H 1650 2200 50  0001 C CNN
-	1    1650 2200
+F 0 "TP?" H 1650 3850 60  0000 L BNN
+F 1 "TEST_POINT" H 1700 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1700 3700 50  0001 C CNN
+F 3 "" H 1700 3700 50  0001 C CNN
+	1    1700 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1101,14 +1096,14 @@ $EndComp
 $Comp
 L depthAI_sch:CRCW06030000Z0EA R?
 U 1 1 604BD5C9
-P 2650 2200
+P 2700 3700
 AR Path="/5FD7EFCB/604BD5C9" Ref="R?"  Part="1" 
 AR Path="/604AEAFA/604BD5C9" Ref="R?"  Part="1" 
-F 0 "R?" H 2740 2230 60  0000 L BNN
-F 1 "0R 0603" H 2740 2070 60  0000 L BNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 2740 2070 60  0001 C CNN
-F 3 "" H 2740 2070 60  0000 C CNN
-	1    2650 2200
+F 0 "R?" H 2790 3730 60  0000 L BNN
+F 1 "0R 0603" H 2790 3570 60  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 2790 3570 60  0001 C CNN
+F 3 "" H 2790 3570 60  0000 C CNN
+	1    2700 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1160,7 +1155,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 7400 1800 7400
 Wire Wire Line
-	1400 2200 1650 2200
+	1450 3700 1700 3700
 Wire Wire Line
 	1550 6300 1800 6300
 Wire Wire Line
@@ -1187,7 +1182,7 @@ Text GLabel 1200 8150 1    60   Input ~ 0
 VDD_5V
 Text GLabel 6050 8750 2    60   Output ~ 0
 1V05
-Text GLabel 1400 2200 0    60   Output ~ 0
+Text GLabel 1450 3700 0    60   Output ~ 0
 VBUS
 Text GLabel 6100 1500 3    60   Output ~ 0
 VDD_5V
@@ -1195,15 +1190,15 @@ Text Notes 1700 1500 0    60   ~ 0
 Parameter Set\nPower Trace
 Text Notes 5150 1500 0    60   ~ 0
 Parameter Set\nPower Trace
-Text Notes 1950 2200 0    60   ~ 0
+Text Notes 2000 3700 0    60   ~ 0
 Parameter Set\nPower Trace
 Text GLabel 5950 5250 3    60   Output ~ 0
 1V2
 Text GLabel 1500 5250 0    60   Input ~ 0
 VDD_5V
-Connection ~ 1650 2200
+Connection ~ 1700 3700
 Wire Wire Line
-	1650 2200 2650 2200
+	1700 3700 2700 3700
 Connection ~ 1800 5250
 Wire Wire Line
 	1800 5250 2300 5250
@@ -1236,8 +1231,71 @@ Wire Wire Line
 	4800 6300 5900 6300
 Connection ~ 4800 7400
 Wire Wire Line
-	4800 7400 5950 7400
+	4800 7400 5700 7400
 Connection ~ 5600 8750
 Wire Wire Line
-	5600 8750 6050 8750
+	5600 8750 5900 8750
+$Comp
+L power:+5V #PWR?
+U 1 1 5FFB0F72
+P 6100 1500
+F 0 "#PWR?" H 6100 1350 50  0001 C CNN
+F 1 "+5V" H 6115 1673 50  0000 C CNN
+F 2 "" H 6100 1500 50  0001 C CNN
+F 3 "" H 6100 1500 50  0001 C CNN
+	1    6100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V2 #PWR?
+U 1 1 5FFB5C52
+P 5950 5250
+F 0 "#PWR?" H 5950 5100 50  0001 C CNN
+F 1 "+1V2" H 5965 5423 50  0000 C CNN
+F 2 "" H 5950 5250 50  0001 C CNN
+F 3 "" H 5950 5250 50  0001 C CNN
+	1    5950 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5FFB659A
+P 5900 6300
+F 0 "#PWR?" H 5900 6150 50  0001 C CNN
+F 1 "+1V8" H 5915 6473 50  0000 C CNN
+F 2 "" H 5900 6300 50  0001 C CNN
+F 3 "" H 5900 6300 50  0001 C CNN
+	1    5900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5FFB6C28
+P 5700 7400
+F 0 "#PWR?" H 5700 7250 50  0001 C CNN
+F 1 "+2V8" H 5715 7573 50  0000 C CNN
+F 2 "" H 5700 7400 50  0001 C CNN
+F 3 "" H 5700 7400 50  0001 C CNN
+	1    5700 7400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 7400
+Wire Wire Line
+	5700 7400 5950 7400
+$Comp
+L depthAI_sch:+1V05 #PWR?
+U 1 1 5FFBECAB
+P 5900 8750
+F 0 "#PWR?" H 5900 8600 50  0001 C CNN
+F 1 "+1V05" H 5915 8923 50  0000 C CNN
+F 2 "" H 5900 8750 50  0001 C CNN
+F 3 "" H 5900 8750 50  0001 C CNN
+	1    5900 8750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 8750
+Wire Wire Line
+	5900 8750 6050 8750
+Wire Wire Line
+	3050 1500 4000 1500
 $EndSCHEMATC

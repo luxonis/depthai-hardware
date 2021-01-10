@@ -37,21 +37,11 @@ Text GLabel 950  1100 0    60   Input ~ 0
 Wire Wire Line
 	1050 1700 950  1700
 Wire Wire Line
-	2050 1100 1650 1100
+	950  800  1100 800 
 Wire Wire Line
-	2050 800  1650 800 
+	950  1100 1100 1100
 Wire Wire Line
-	2050 1400 1650 1400
-Wire Notes Line
-	1350 6350 1350 6650
-Wire Notes Line
-	1700 5900 1700 5600
-Wire Wire Line
-	950  800  1350 800 
-Wire Wire Line
-	950  1100 1350 1100
-Wire Wire Line
-	950  1400 1350 1400
+	950  1400 1100 1400
 Text HLabel 2050 800  2    60   Output ~ 0
 2V8_IMX378
 Text HLabel 2050 1100 2    60   Output ~ 0
@@ -63,32 +53,10 @@ L Device:L_Core_Ferrite FB?
 U 1 1 5FFD254F
 P 1500 800
 F 0 "FB?" V 1725 800 50  0000 C CNN
-F 1 "L_Core_Ferrite" V 1634 800 50  0000 C CNN
+F 1 "600/100MHz" V 1634 800 50  0000 C CNN
 F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" H 1500 800 50  0001 C CNN
 F 3 "~" H 1500 800 50  0001 C CNN
 	1    1500 800 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Core_Ferrite FB?
-U 1 1 5FFDA5E7
-P 1500 1100
-F 0 "FB?" V 1725 1100 50  0000 C CNN
-F 1 "L_Core_Ferrite" V 1634 1100 50  0000 C CNN
-F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" H 1500 1100 50  0001 C CNN
-F 3 "~" H 1500 1100 50  0001 C CNN
-	1    1500 1100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:L_Core_Ferrite FB?
-U 1 1 5FFDAE40
-P 1500 1400
-F 0 "FB?" V 1725 1400 50  0000 C CNN
-F 1 "L_Core_Ferrite" V 1634 1400 50  0000 C CNN
-F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" H 1500 1400 50  0001 C CNN
-F 3 "~" H 1500 1400 50  0001 C CNN
-	1    1500 1400
 	0    -1   -1   0   
 $EndComp
 Text GLabel 1900 4800 0    50   UnSpc ~ 0
@@ -574,4 +542,80 @@ Text Label 7400 2750 0    60   ~ 0
 CAM_A_PWDN_N
 Wire Wire Line
 	8300 2750 7400 2750
+$Comp
+L power:+1V8 #PWR?
+U 1 1 5FFCE432
+P 1100 1100
+AR Path="/604AEAFA/5FFCE432" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D4A5/5FFCE432" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 950 50  0001 C CNN
+F 1 "+1V8" H 1115 1273 50  0000 C CNN
+F 2 "" H 1100 1100 50  0001 C CNN
+F 3 "" H 1100 1100 50  0001 C CNN
+	1    1100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+2V8 #PWR?
+U 1 1 5FFCE438
+P 1100 800
+AR Path="/604AEAFA/5FFCE438" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D4A5/5FFCE438" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 650 50  0001 C CNN
+F 1 "+2V8" H 1115 973 50  0000 C CNN
+F 2 "" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0001 C CNN
+	1    1100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L depthAI_sch:+1V05 #PWR?
+U 1 1 5FFCE43E
+P 1100 1400
+AR Path="/604AEAFA/5FFCE43E" Ref="#PWR?"  Part="1" 
+AR Path="/5FF8D4A5/5FFCE43E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1100 1250 50  0001 C CNN
+F 1 "+1V05" H 1115 1573 50  0000 C CNN
+F 2 "" H 1100 1400 50  0001 C CNN
+F 3 "" H 1100 1400 50  0001 C CNN
+	1    1100 1400
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 1400
+Wire Wire Line
+	1100 1400 1350 1400
+Wire Wire Line
+	1650 1400 2050 1400
+Connection ~ 1100 1100
+Wire Wire Line
+	1100 1100 1350 1100
+Wire Wire Line
+	1650 1100 2050 1100
+Connection ~ 1100 800 
+Wire Wire Line
+	1100 800  1350 800 
+Wire Wire Line
+	1650 800  2050 800 
+$Comp
+L Device:L_Core_Ferrite FB?
+U 1 1 5FFE6B4A
+P 1500 1100
+F 0 "FB?" V 1725 1100 50  0000 C CNN
+F 1 "600/100MHz" V 1634 1100 50  0000 C CNN
+F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" H 1500 1100 50  0001 C CNN
+F 3 "~" H 1500 1100 50  0001 C CNN
+	1    1500 1100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:L_Core_Ferrite FB?
+U 1 1 5FFE73DF
+P 1500 1400
+F 0 "FB?" V 1725 1400 50  0000 C CNN
+F 1 "600/100MHz" V 1634 1400 50  0000 C CNN
+F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" H 1500 1400 50  0001 C CNN
+F 3 "~" H 1500 1400 50  0001 C CNN
+	1    1500 1400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
