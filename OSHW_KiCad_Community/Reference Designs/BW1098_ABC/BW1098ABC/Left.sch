@@ -453,7 +453,7 @@ Connection ~ 8650 4000
 Connection ~ 8650 3800
 Connection ~ 8900 5950
 $Comp
-L depthAI_sch:2508056017Y2 FB?
+L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
 U 1 1 603D7B3F
 P 1300 900
 AR Path="/603D7B3F" Ref="FB?"  Part="1" 
@@ -467,7 +467,7 @@ F 3 "" H 1400 770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7B46
 P 6700 5850
 AR Path="/5FD7EFD3/603D7B46" Ref="C?"  Part="1" 
@@ -481,7 +481,7 @@ F 4 "10V" V 700 750 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7B4D
 P 6100 5850
 AR Path="/5FD7EFD3/603D7B4D" Ref="C?"  Part="1" 
@@ -495,7 +495,7 @@ F 4 "10V" V 700 750 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7B54
 P 7400 5850
 AR Path="/5FD7EFD3/603D7B54" Ref="C?"  Part="1" 
@@ -509,7 +509,7 @@ F 4 "10V" V 700 750 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:TG161B-201_Connector J?
+L BW1098ABC-rescue:TG161B-201_Connector-depthAI_sch J?
 U 1 1 603D7B5A
 P 6750 3300
 AR Path="/5FD7EFD3/603D7B5A" Ref="J?"  Part="1" 
@@ -522,7 +522,7 @@ F 3 "" H 6950 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B60
 P 2700 6350
 AR Path="/5FD7EFD3/603D7B60" Ref="R?"  Part="1" 
@@ -535,7 +535,7 @@ F 3 "" H 2810 6320 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B66
 P 3200 6350
 AR Path="/5FD7EFD3/603D7B66" Ref="R?"  Part="1" 
@@ -548,7 +548,7 @@ F 3 "" H 3310 6320 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B6C
 P 3700 6350
 AR Path="/5FD7EFD3/603D7B6C" Ref="R?"  Part="1" 
@@ -561,7 +561,7 @@ F 3 "" H 3810 6320 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B72
 P 3250 5900
 AR Path="/5FD7EFD3/603D7B72" Ref="R?"  Part="1" 
@@ -574,7 +574,7 @@ F 3 "" H 3340 5770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B78
 P 2750 5900
 AR Path="/5FD7EFD3/603D7B78" Ref="R?"  Part="1" 
@@ -587,7 +587,7 @@ F 3 "" H 2840 5770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B7E
 P 3250 6400
 AR Path="/5FD7EFD3/603D7B7E" Ref="R?"  Part="1" 
@@ -600,7 +600,7 @@ F 3 "" H 3340 6270 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:2508056017Y2 FB?
+L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
 U 1 1 603D7B84
 P 1300 1200
 AR Path="/603D7B84" Ref="FB?"  Part="1" 
@@ -614,7 +614,7 @@ F 3 "" H 1400 1070 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:CRCW06030000Z0EA R?
+L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B8A
 P 2750 6400
 AR Path="/5FD7EFD3/603D7B8A" Ref="R?"  Part="1" 
@@ -627,7 +627,7 @@ F 3 "" H 2840 6270 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:2508056017Y2 FB?
+L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
 U 1 1 603D7B90
 P 1300 1500
 AR Path="/603D7B90" Ref="FB?"  Part="1" 
@@ -641,7 +641,7 @@ F 3 "" H 1400 1370 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:RC0402FR-1310KL R?
+L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
 U 1 1 603D7B96
 P 2200 6850
 AR Path="/5FD7EFD3/603D7B96" Ref="R?"  Part="1" 
@@ -654,7 +654,7 @@ F 3 "" H 2290 6720 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:RC0402FR-1310KL R?
+L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
 U 1 1 603D7B9C
 P 9850 3500
 AR Path="/5FD7EFD3/603D7B9C" Ref="R?"  Part="1" 
@@ -667,7 +667,7 @@ F 3 "" H 9940 3370 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:CRCW04020000Z0ED R?
+L BW1098ABC-rescue:CRCW04020000Z0ED-depthAI_sch R?
 U 1 1 603D7BA2
 P 9850 3900
 AR Path="/5FD7EFD3/603D7BA2" Ref="R?"  Part="1" 
@@ -680,7 +680,7 @@ F 3 "" H 9940 3770 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7BA9
 P 8600 5850
 AR Path="/5FD7EFD3/603D7BA9" Ref="C?"  Part="1" 
@@ -694,7 +694,7 @@ F 4 "10V" V 700 750 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7BB0
 P 9200 5850
 AR Path="/5FD7EFD3/603D7BB0" Ref="C?"  Part="1" 
@@ -708,7 +708,7 @@ F 4 "10V" V 700 750 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7BB7
 P 8000 5850
 AR Path="/5FD7EFD3/603D7BB7" Ref="C?"  Part="1" 

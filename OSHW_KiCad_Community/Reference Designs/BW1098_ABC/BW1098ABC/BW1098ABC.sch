@@ -216,7 +216,7 @@ F 3 "~" H 4250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:Mechanical_MountingHole_Pad H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
 U 1 1 5FF5350B
 P 2200 6700
 F 0 "H?" H 2300 6749 50  0000 L CNN
@@ -227,7 +227,7 @@ F 3 "" H 2200 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:Mechanical_MountingHole_Pad H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
 U 1 1 5FF56FF7
 P 2200 7050
 F 0 "H?" H 2300 7099 50  0000 L CNN
@@ -238,7 +238,7 @@ F 3 "" H 2200 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:Mechanical_MountingHole_Pad H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
 U 1 1 5FF572C3
 P 3150 7050
 F 0 "H?" H 3250 7099 50  0000 L CNN
@@ -249,7 +249,7 @@ F 3 "" H 3150 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:Mechanical_MountingHole_Pad H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
 U 1 1 5FF57937
 P 3150 6700
 F 0 "H?" H 3250 6749 50  0000 L CNN

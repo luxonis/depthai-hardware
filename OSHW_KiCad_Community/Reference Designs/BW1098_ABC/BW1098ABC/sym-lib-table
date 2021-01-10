@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name DEPTH)(type Legacy)(uri "/home/c/Desktop/Depthai kicad working /depthai-hardware/OSHW_KiCad_Community/Lib_Sch/depthAI_sch.lib")(options "")(descr ""))
+  (lib (name BW1098ABC-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098ABC-rescue.lib)(options "")(descr ""))
 )

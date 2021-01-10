@@ -144,7 +144,7 @@ Wire Notes Line
 Wire Notes Line
 	4000 1900 4000 2500
 $Comp
-L depthAI_sch:GRM155R71A104JA01D C?
+L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
 U 1 1 5FFB0B02
 P 6000 5700
 AR Path="/5FD7EFCF/5FFB0B02" Ref="C?"  Part="1" 
@@ -158,7 +158,7 @@ F 4 "10V" V -1300 500 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 5FFB0AFB
 P 5300 5700
 AR Path="/5FD7EFCF/5FFB0AFB" Ref="C?"  Part="1" 
@@ -172,7 +172,7 @@ F 4 "10V" V -1300 500 60  0000 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 5FFB0AF4
 P 6600 5700
 AR Path="/5FD7EFCF/5FFB0AF4" Ref="C?"  Part="1" 
@@ -186,7 +186,7 @@ F 4 "10V" V -1300 500 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM155R71A104JA01D C?
+L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
 U 1 1 5FFB0AED
 P 7300 5700
 AR Path="/5FD7EFCF/5FFB0AED" Ref="C?"  Part="1" 
@@ -200,7 +200,7 @@ F 4 "10V" V -1300 500 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 5FFB0AE6
 P 7900 5700
 AR Path="/5FD7EFCF/5FFB0AE6" Ref="C?"  Part="1" 
@@ -214,7 +214,7 @@ F 4 "10V" V -1300 500 60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:RC0402FR-1310KL R?
+L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
 U 1 1 5FFB0ADF
 P 8300 3700
 AR Path="/5FD7EFCF/5FFB0ADF" Ref="R?"  Part="1" 
@@ -227,7 +227,7 @@ F 3 "" H 8390 3570 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:A12N02A-201 J?
+L BW1098ABC-rescue:A12N02A-201-depthAI_sch J?
 U 1 1 5FFB0ACD
 P 5300 4500
 AR Path="/5FD7EFCF/5FFB0ACD" Ref="J?"  Part="1" 
@@ -240,7 +240,7 @@ F 3 "" H 5500 4400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:GRM155R71A104JA01D C?
+L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
 U 1 1 5FFB0AC7
 P 4700 5700
 AR Path="/5FD7EFCF/5FFB0AC7" Ref="C?"  Part="1" 
@@ -569,7 +569,7 @@ F 3 "" H 1100 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:+1V05 #PWR?
+L BW1098ABC-rescue:+1V05-depthAI_sch #PWR?
 U 1 1 5FFCE43E
 P 1100 1400
 AR Path="/604AEAFA/5FFCE43E" Ref="#PWR?"  Part="1" 

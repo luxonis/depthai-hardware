@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	1050 1600 950  1600
 $Comp
-L depthAI_sch:2508056017Y2 FB?
+L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
 U 1 1 6041DE16
 P 1350 700
 AR Path="/6041DE16" Ref="FB?"  Part="1" 
@@ -147,7 +147,7 @@ F 3 "" H 1450 570 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:2508056017Y2 FB?
+L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
 U 1 1 6041DE34
 P 1350 1000
 AR Path="/6041DE34" Ref="FB?"  Part="1" 
@@ -161,7 +161,7 @@ F 3 "" H 1450 870 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:2508056017Y2 FB?
+L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
 U 1 1 6041DE3A
 P 1350 1300
 AR Path="/6041DE3A" Ref="FB?"  Part="1" 
@@ -287,7 +287,7 @@ Wire Notes Line
 Wire Notes Line
 	2150 7200 5450 7200
 $Comp
-L depthAI_sch:GRM155R71A104JA01D C?
+L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
 U 1 1 6041DE64
 P 5850 4850
 AR Path="/5FD7EFD1/6041DE64" Ref="C?"  Part="1" 
@@ -301,7 +301,7 @@ F 4 "10V" V -2350 50  60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM155R71A104JA01D C?
+L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
 U 1 1 6041DE5D
 P 4350 4850
 AR Path="/5FD7EFD1/6041DE5D" Ref="C?"  Part="1" 
@@ -315,7 +315,7 @@ F 4 "10V" V -2350 50  60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM155R71A104JA01D C?
+L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
 U 1 1 6041DE56
 P 2850 4850
 AR Path="/5FD7EFD1/6041DE56" Ref="C?"  Part="1" 
@@ -329,7 +329,7 @@ F 4 "10V" V -2350 50  60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 6041DE4F
 P 3450 4850
 AR Path="/5FD7EFD1/6041DE4F" Ref="C?"  Part="1" 
@@ -343,7 +343,7 @@ F 4 "10V" V -2350 50  60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 6041DE48
 P 4950 4850
 AR Path="/5FD7EFD1/6041DE48" Ref="C?"  Part="1" 
@@ -357,7 +357,7 @@ F 4 "10V" V -2350 50  60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:GRM188R61A106ME69D C?
+L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 6041DE41
 P 6450 4850
 AR Path="/5FD7EFD1/6041DE41" Ref="C?"  Part="1" 
@@ -371,7 +371,7 @@ F 4 "10V" V -2350 50  60  0001 C CNN "Voltage Rating"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:TEST_POINT TP?
+L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
 U 1 1 6041DE2E
 P 6650 3550
 AR Path="/5FD7EFD1/6041DE2E" Ref="TP?"  Part="1" 
@@ -384,7 +384,7 @@ F 3 "" H 6650 3550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L depthAI_sch:RC0402FR-1310KL R?
+L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
 U 1 1 6041DE28
 P 6950 2750
 AR Path="/5FD7EFD1/6041DE28" Ref="R?"  Part="1" 
@@ -397,7 +397,7 @@ F 3 "" H 7040 2620 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:CRCW04020000Z0ED R?
+L BW1098ABC-rescue:CRCW04020000Z0ED-depthAI_sch R?
 U 1 1 6041DE22
 P 6950 3150
 AR Path="/5FD7EFD1/6041DE22" Ref="R?"  Part="1" 
@@ -410,7 +410,7 @@ F 3 "" H 7040 3020 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:TG161B-201_Connector J?
+L BW1098ABC-rescue:TG161B-201_Connector-depthAI_sch J?
 U 1 1 6041DE1C
 P 3750 2550
 AR Path="/5FD7EFD1/6041DE1C" Ref="J?"  Part="1" 

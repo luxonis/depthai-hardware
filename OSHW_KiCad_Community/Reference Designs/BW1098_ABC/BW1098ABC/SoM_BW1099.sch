@@ -623,7 +623,7 @@ Parameter Set
 Text Notes 10150 6250 0    50   ~ 0
 SPI
 $Comp
-L depthAI_sch:TEST_POINT TP?
+L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
 U 1 1 6009EFCC
 P 4150 5000
 AR Path="/5FD7EFCD/6009EFCC" Ref="TP?"  Part="1" 
@@ -636,7 +636,7 @@ F 3 "" H 4150 5000 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:TEST_POINT TP?
+L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
 U 1 1 6009EFD2
 P 4150 5200
 AR Path="/5FD7EFCD/6009EFD2" Ref="TP?"  Part="1" 
@@ -649,7 +649,7 @@ F 3 "" H 4150 5200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:TEST_POINT TP?
+L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
 U 1 1 6009EFD8
 P 5250 5100
 AR Path="/5FD7EFCD/6009EFD8" Ref="TP?"  Part="1" 
@@ -662,7 +662,7 @@ F 3 "" H 5250 5100 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L depthAI_sch:TEST_POINT TP?
+L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
 U 1 1 6009EFDE
 P 10250 6000
 AR Path="/5FD7EFCD/6009EFDE" Ref="TP?"  Part="1" 
@@ -677,7 +677,7 @@ $EndComp
 Text Notes 1000 9300 0    50   ~ 0
 2485_PGOOD and MODULE_nRST both have pull ups to 1.8V \non 1099 module. 2485_PGOOD is held low by open-drain output \non 1099 PMIC until power is good. MODULE_nRST rises with \n1.8V at POR, but can be held low by user button or 1099 JTAG.
 $Comp
-L depthAI_sch:20021121-00010T1LF J?
+L BW1098ABC-rescue:20021121-00010T1LF-depthAI_sch J?
 U 1 1 6009EFE6
 P 4150 10350
 AR Path="/6009EFE6" Ref="J?"  Part="1" 
@@ -692,7 +692,7 @@ F 4 "DNP" H 4600 9650 50  0000 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:20021121-00010T1LF J?
+L BW1098ABC-rescue:20021121-00010T1LF-depthAI_sch J?
 U 1 1 6009EFED
 P 7050 10350
 AR Path="/6009EFED" Ref="J?"  Part="1" 
@@ -707,7 +707,7 @@ F 4 "DNP" H 7450 9650 50  0000 C CNN "Populated"
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:20021121-00010T1LF J?
+L BW1098ABC-rescue:20021121-00010T1LF-depthAI_sch J?
 U 1 1 6009EFF4
 P 10100 10350
 AR Path="/6009EFF4" Ref="J?"  Part="1" 
@@ -988,7 +988,7 @@ Wire Notes Line width 10 style solid rgb(0, 194, 194)
 Wire Notes Line width 10 style solid rgb(0, 194, 194)
 	13450 4600 13450 4850
 $Comp
-L depthAI_sch:DF40HC(3.0)-100DS-0.4V_BW1099_G2 J?
+L BW1098ABC-rescue:DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch J?
 U 1 1 6009F08A
 P 7250 2800
 AR Path="/5FD7EFCD/6009F08A" Ref="J?"  Part="1" 
@@ -1001,7 +1001,7 @@ F 3 "" H 7250 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:TEST_POINT TP?
+L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
 U 1 1 6009F090
 P 10950 5200
 AR Path="/5FD7EFCD/6009F090" Ref="TP?"  Part="1" 
@@ -1210,7 +1210,7 @@ Wire Wire Line
 Text Label 13650 1450 0    58   ~ 0
 RST1
 $Comp
-L SparkFun-Resistors:10KOHM-0603-1_10W-1% R?
+L BW1098ABC-rescue:10KOHM-0603-1_10W-1%-SparkFun-Resistors R?
 U 1 1 6009F10D
 P 13450 1650
 AR Path="/5FD7EFCD/6009F10D" Ref="R?"  Part="1" 
@@ -1256,23 +1256,25 @@ F 3 "" H 14650 1950 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Capacitors:4.7UF0603 C?
+L BW1098ABC-rescue:4.7UF0603-SparkFun-Capacitors C?
 U 1 1 6009F123
 P 14650 1850
 AR Path="/5FD7EFCD/6009F123" Ref="C?"  Part="1" 
 AR Path="/5FF8D9B2/6009F123" Ref="C?"  Part="1" 
+AR Path="/6009F123" Ref="C?"  Part="1" 
 F 0 "C?" H 14758 1995 45  0000 L CNN
 F 1 "4.7UF0603" H 14758 1911 45  0000 L CNN
 F 2 "Capacitor_SMD:C_0201_0603Metric" H 14650 2100 20  0001 C CNN
 F 3 "" H 14650 1850 50  0001 C CNN
 F 4 "CAP-08280" H 14758 1816 60  0000 L CNN "Field4"
+F 5 "10V" H 14650 1850 50  0001 C CNN "Voltage Rating"
 	1    14650 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	14650 1650 14400 1650
 $Comp
-L depthAI_sch:PMS150C-U06 U?
+L BW1098ABC-rescue:PMS150C-U06-depthAI_sch U?
 U 1 1 6009F12B
 P 14150 1550
 AR Path="/5FD7EFCD/6009F12B" Ref="U?"  Part="1" 
@@ -1290,7 +1292,7 @@ Wire Wire Line
 Text Label 14450 1650 0    58   ~ 0
 nMR
 $Comp
-L SparkFun-Resistors:10KOHM-0603-1_10W-1% R?
+L BW1098ABC-rescue:10KOHM-0603-1_10W-1%-SparkFun-Resistors R?
 U 1 1 6009F135
 P 14650 1450
 AR Path="/5FD7EFCD/6009F135" Ref="R?"  Part="1" 
@@ -1464,7 +1466,7 @@ F 3 "" H 2750 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L depthAI_sch:+1V05 #PWR?
+L BW1098ABC-rescue:+1V05-depthAI_sch #PWR?
 U 1 1 60025A30
 P 3050 1850
 F 0 "#PWR?" H 3050 1700 50  0001 C CNN
