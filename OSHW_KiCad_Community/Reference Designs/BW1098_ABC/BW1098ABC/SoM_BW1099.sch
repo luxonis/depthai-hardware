@@ -996,7 +996,7 @@ AR Path="/5FF8D9B2/6009F08A" Ref="J?"  Part="1"
 F 0 "J?" H 8450 3089 60  0000 C CNN
 F 1 "DF40HC(3.0)-100DS-0.4V_BW1099_G2" H 8450 2983 60  0000 C CNN
 F 2 "fp_luxonis:HRS_DF40HC(3.0)-100DS-0.4V(58" H 7250 2800 60  0001 C CNN
-F 3 "" H 7250 2800 60  0000 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en" H 7250 2800 60  0001 C CNN
 	1    7250 2800
 	1    0    0    -1  
 $EndComp
@@ -1430,50 +1430,6 @@ F 1 "+5V" H 1365 3123 50  0000 C CNN
 F 2 "" H 1350 2950 50  0001 C CNN
 F 3 "" H 1350 2950 50  0001 C CNN
 	1    1350 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V2 #PWR?
-U 1 1 60025A1E
-P 2250 1850
-F 0 "#PWR?" H 2250 1700 50  0001 C CNN
-F 1 "+1V2" H 2265 2023 50  0000 C CNN
-F 2 "" H 2250 1850 50  0001 C CNN
-F 3 "" H 2250 1850 50  0001 C CNN
-	1    2250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V8 #PWR?
-U 1 1 60025A24
-P 2500 1850
-F 0 "#PWR?" H 2500 1700 50  0001 C CNN
-F 1 "+1V8" H 2515 2023 50  0000 C CNN
-F 2 "" H 2500 1850 50  0001 C CNN
-F 3 "" H 2500 1850 50  0001 C CNN
-	1    2500 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+2V8 #PWR?
-U 1 1 60025A2A
-P 2750 1850
-F 0 "#PWR?" H 2750 1700 50  0001 C CNN
-F 1 "+2V8" H 2765 2023 50  0000 C CNN
-F 2 "" H 2750 1850 50  0001 C CNN
-F 3 "" H 2750 1850 50  0001 C CNN
-	1    2750 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:+1V05-depthAI_sch #PWR?
-U 1 1 60025A30
-P 3050 1850
-F 0 "#PWR?" H 3050 1700 50  0001 C CNN
-F 1 "+1V05" H 3065 2023 50  0000 C CNN
-F 2 "" H 3050 1850 50  0001 C CNN
-F 3 "" H 3050 1850 50  0001 C CNN
-	1    3050 1850
 	1    0    0    -1  
 $EndComp
 $Comp

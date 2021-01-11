@@ -235,7 +235,7 @@ AR Path="/5FF8D4A5/5FFB0ACD" Ref="J?"  Part="1"
 F 0 "J?" H 5500 6100 60  0000 L BNN
 F 1 "24-5804-030-000-829+" H 5500 4400 60  0000 L BNN
 F 2 "fp_luxonis:245804030000829" H 5500 4400 60  0001 C CNN
-F 3 "" H 5500 4400 60  0000 C CNN
+F 3 "https://www.mouser.com/datasheet/2/909/5804-1525720.pdf" H 5500 4400 60  0001 C CNN
 	1    5300 4500
 	1    0    0    -1  
 $EndComp

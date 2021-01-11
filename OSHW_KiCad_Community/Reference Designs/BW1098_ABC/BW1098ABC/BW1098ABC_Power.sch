@@ -628,10 +628,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 8150 1200 8150
 Wire Wire Line
-	3250 3700 3250 3000
-Wire Wire Line
-	3100 3700 3250 3700
-Wire Wire Line
 	1950 1700 1700 1700
 Wire Wire Line
 	1950 1750 1950 1700
@@ -881,7 +877,7 @@ AR Path="/604AEAFA/604BD55D" Ref="U?"  Part="1"
 F 0 "U?" H 2600 5350 60  0000 L BNN
 F 1 "TLV70012DCK" H 2600 4850 60  0000 L BNN
 F 2 "digikey-footprints:SC-70-5" H 2600 4850 60  0001 C CNN
-F 3 "" H 2600 4850 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1610324804784&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV700" H 2600 4850 60  0001 C CNN
 	1    2400 5250
 	1    0    0    -1  
 $EndComp
@@ -946,7 +942,7 @@ AR Path="/604AEAFA/604BD581" Ref="U?"  Part="1"
 F 0 "U?" H 2600 7500 60  0000 L BNN
 F 1 "TLV70028DCK" H 2600 7000 60  0000 L BNN
 F 2 "digikey-footprints:SC-70-5" H 2600 7000 60  0001 C CNN
-F 3 "" H 2600 7000 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1610324804784&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV700" H 2600 7000 60  0001 C CNN
 	1    2400 7400
 	1    0    0    -1  
 $EndComp
@@ -1029,19 +1025,6 @@ F 3 "" H 10750 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
-U 1 1 604BD5AB
-P 1700 3700
-AR Path="/5FD7EFCB/604BD5AB" Ref="TP?"  Part="1" 
-AR Path="/604AEAFA/604BD5AB" Ref="TP?"  Part="1" 
-F 0 "TP?" H 1650 3850 60  0000 L BNN
-F 1 "TEST_POINT" H 1700 3700 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 1700 3700 50  0001 C CNN
-F 3 "" H 1700 3700 50  0001 C CNN
-	1    1700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L BW1098ABC-rescue:TLV70018DCK-depthAI_sch U?
 U 1 1 604BD5B1
 P 2400 6300
@@ -1050,7 +1033,7 @@ AR Path="/604AEAFA/604BD5B1" Ref="U?"  Part="1"
 F 0 "U?" H 2600 6400 60  0000 L BNN
 F 1 "TLV70018DCK" H 2600 5900 60  0000 L BNN
 F 2 "digikey-footprints:SC-70-5" H 2600 5900 60  0001 C CNN
-F 3 "" H 2600 5900 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1610324804784&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV700" H 2600 5900 60  0001 C CNN
 	1    2400 6300
 	1    0    0    -1  
 $EndComp
@@ -1063,7 +1046,7 @@ AR Path="/604AEAFA/604BD5B7" Ref="U?"  Part="1"
 F 0 "U?" H 2400 8750 60  0000 L BNN
 F 1 "TLV62080DSG" H 3100 7650 60  0000 L BNN
 F 2 "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm" H 3100 7650 60  0001 C CNN
-F 3 "" H 3100 7650 60  0000 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tlv62080.pdf?ts=1610324868570&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV62080" H 3100 7650 60  0001 C CNN
 	1    2200 8550
 	1    0    0    -1  
 $EndComp
@@ -1076,7 +1059,7 @@ AR Path="/604AEAFA/604BD5BD" Ref="J?"  Part="1"
 F 0 "J?" H 14400 7850 60  0000 L BNN
 F 1 "B2B-PH-K-S(LF)(SN)" H 14400 7350 60  0000 L BNN
 F 2 "OSHW_LuxonisMaster_20201223:B2B-PH-K-S(LF)(SN)" H 14400 7350 60  0001 C CNN
-F 3 "" H 14400 7350 60  0000 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 14400 7350 60  0001 C CNN
 	1    14100 7750
 	1    0    0    -1  
 $EndComp
@@ -1091,19 +1074,6 @@ F 1 "0R 0603" H 2740 1370 60  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 2740 1370 60  0001 C CNN
 F 3 "" H 2740 1370 60  0000 C CNN
 	1    2650 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
-U 1 1 604BD5C9
-P 2700 3700
-AR Path="/5FD7EFCB/604BD5C9" Ref="R?"  Part="1" 
-AR Path="/604AEAFA/604BD5C9" Ref="R?"  Part="1" 
-F 0 "R?" H 2790 3730 60  0000 L BNN
-F 1 "0R 0603" H 2790 3570 60  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2790 3570 60  0001 C CNN
-F 3 "" H 2790 3570 60  0000 C CNN
-	1    2700 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1155,8 +1125,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 7400 1800 7400
 Wire Wire Line
-	1450 3700 1700 3700
-Wire Wire Line
 	1550 6300 1800 6300
 Wire Wire Line
 	4850 8750 5600 8750
@@ -1182,23 +1150,16 @@ Text GLabel 1200 8150 1    60   Input ~ 0
 VDD_5V
 Text GLabel 6050 8750 2    60   Output ~ 0
 1V05
-Text GLabel 1450 3700 0    60   Output ~ 0
-VBUS
 Text GLabel 6100 1500 3    60   Output ~ 0
 VDD_5V
 Text Notes 1700 1500 0    60   ~ 0
 Parameter Set\nPower Trace
 Text Notes 5150 1500 0    60   ~ 0
 Parameter Set\nPower Trace
-Text Notes 2000 3700 0    60   ~ 0
-Parameter Set\nPower Trace
 Text GLabel 5950 5250 3    60   Output ~ 0
 1V2
 Text GLabel 1500 5250 0    60   Input ~ 0
 VDD_5V
-Connection ~ 1700 3700
-Wire Wire Line
-	1700 3700 2700 3700
 Connection ~ 1800 5250
 Wire Wire Line
 	1800 5250 2300 5250
