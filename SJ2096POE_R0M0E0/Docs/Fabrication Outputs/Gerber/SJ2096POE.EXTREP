@@ -1,0 +1,41 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: SJ2096POE.GBR   6/01/2021  10:13:50 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Solder                              
+.GTL                Top Layer                               
+.G1                 Layer 2                                 
+.G2                 Layer 3                                 
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Board                                   
+.GM2                Top Assembly                            
+.GM3                Bottom Assembly                         
+.GM4                mech4                                   
+.GM7                Assembly Notes                          
+.GM11               DimTop                                  
+.GM12               DimBot                                  
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM31               Top Component Outline                   
+.GM32               Bottom Component Outline                
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.1                  Dielectric 1                            
+.GML                Multi-Layer                             
+.2                  Dielectric 2                            
+.3                  Dielectric 3                            
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
