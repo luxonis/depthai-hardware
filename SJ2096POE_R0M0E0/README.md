@@ -33,10 +33,10 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
-![Dimension](https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/Images/oak-1-dimension.png)
+![Dimension](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-dimension.png)
 
-![Top View](https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/Images/oak-1-top.png)
-![Bottom View](https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/Images/oak-1-bottom.png)
+![Top View](https://github.com/luxonis/depthai-hardware/tree/blob/master/SJ2096POE_R0M0E0/Images/oak-1-top.png)
+![Bottom View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-bottom.png)
 
 # Getting started
 The SJ2096POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is configured with the DIP switch bank near the USB connector. With the BW0249 camera and the DepthAI BW2099 SoM running inference, power consumption is typically [TBC]. 
