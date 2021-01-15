@@ -633,12 +633,6 @@ Text Label 3850 2450 0    60   ~ 0
 A4
 Text Label 3850 2650 0    60   ~ 0
 A5
-Wire Bus Line
-	1850 4200 1850 5050
-Wire Bus Line
-	4200 4100 4200 5200
-Wire Bus Line
-	4150 1400 4150 3450
 Text Label 8750 3150 0    60   ~ 0
 A6
 Text Label 3850 2950 0    60   ~ 0
@@ -671,4 +665,10 @@ Text Label 6300 2850 0    60   ~ 0
 A10
 Text Label 4150 1900 1    60   ~ 0
 A[1...10]
+Wire Bus Line
+	1850 4200 1850 5050
+Wire Bus Line
+	4200 4100 4200 5200
+Wire Bus Line
+	4150 1400 4150 3450
 $EndSCHEMATC

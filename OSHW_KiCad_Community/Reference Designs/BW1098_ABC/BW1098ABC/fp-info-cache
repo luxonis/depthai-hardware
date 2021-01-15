@@ -1,4 +1,4 @@
-21787782141945974
+21792614141592731
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -531,6 +531,13 @@ SPECTACLE_LOGO_TITLE_0.35X0.70
 0
 0
 0
+BBR43-30KB533
+ACON_BBR43-30KB533
+
+
+0
+30
+30
 Batteries
 BATTCOM_20MM_PTH
 20MM (CR2032) COIN CELL BATTERY HOLDER - PTH
@@ -85707,6 +85714,13 @@ Logo WEEE
 0
 0
 0
+TG161B-201
+ACON_BBR43-30KB533
+
+
+0
+24
+24
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -94268,6 +94282,13 @@ Connector
 0
 30
 30
+fp_luxonis
+BW1099_Layout_Guide
+
+
+0
+0
+0
 fp_luxonis
 HRS_DF40HC(3.0)-100DS-0.4V(58
 

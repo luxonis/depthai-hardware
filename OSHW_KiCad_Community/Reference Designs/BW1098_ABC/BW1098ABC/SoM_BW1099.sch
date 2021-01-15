@@ -966,7 +966,7 @@ U 1 1 6017E490
 P 10350 2350
 F 0 "MISC1" H 10628 2447 58  0000 L CNN
 F 1 "Layout_Guide_BW1099" H 10628 2344 58  0000 L CNN
-F 2 "" H 10050 2750 58  0001 C CNN
+F 2 "fp_luxonis:BW1099_Layout_Guide" H 10050 2750 58  0001 C CNN
 F 3 "" H 10050 2750 58  0001 C CNN
 F 4 "DNP" H 10628 2247 50  0000 L CNN "Population"
 	1    10350 2350
@@ -1227,18 +1227,14 @@ Entry Wire Line
 	12950 8850 13050 8950
 Entry Wire Line
 	12950 8950 13050 9050
-Text Label 7050 6950 0    50   ~ 0
+Text Label 7000 6950 0    50   ~ 0
 CAM_B_D_PWM
-Text Label 7050 7050 0    50   ~ 0
+Text Label 7000 7050 0    50   ~ 0
 CAM_B_PWDN_N
 Text Label 7050 7350 0    50   ~ 0
 CAM_B_CLK_OUT
 Wire Wire Line
 	7050 7350 9100 7350
-Wire Wire Line
-	9100 7050 7050 7050
-Wire Wire Line
-	7050 6950 9100 6950
 Text Label 8050 6650 0    50   ~ 0
 SD_HST0_CD
 Text Label 8050 6750 0    50   ~ 0
@@ -1528,6 +1524,10 @@ Text Label 8850 4350 0    60   ~ 0
 A10
 Wire Wire Line
 	1500 850  1900 850 
+Wire Wire Line
+	7000 6950 9100 6950
+Wire Wire Line
+	7000 7050 9100 7050
 Wire Bus Line
 	5150 4250 5150 5350
 Wire Bus Line
