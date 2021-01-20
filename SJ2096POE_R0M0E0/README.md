@@ -35,7 +35,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 ![Dimension](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-dimension.png)
 
-![Top View](https://github.com/luxonis/depthai-hardware/tree/blob/master/SJ2096POE_R0M0E0/Images/oak-1-top.png)
+![Top View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-top.png)
 ![Bottom View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-bottom.png)
 
 # Getting started
