@@ -1,17 +1,49 @@
 # DepthAI Open Source Hardware
 This repository contains Luxonis open sourced baseboards, and contains Altium design files, documentation, and pictures. This repository is for anyone interested in developing with the DepthAI SoM or anyone interested in understaning more about the embedded hardware that powers DepthAI. An open source, community KiCad folder is also available for sharing KiCad based designs and components. 
 
-# Baseboards 
+# POE Designs
 
 ## [BW2098POE](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board)
 The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW2099 DepthAI SoM. The BW2098POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 5V barrel jack. The Luxonis BW0249 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 channel directly into the Myriad X on the BW2099 module for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). Finally, the BW2098POE board exposes boot selection switches, allowing the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
 
 ![](BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_front.jpg)
 
+## [SJ2088POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board)
+
+This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW1098OBC/BW1098OAK, but with POE instead of USB.  So 3 onboard cameras (1x onboard IMX378 12MP autofocus color camera, 2x global shutter grayscale for stereo depth), with the stereo baseline being 7.5cm (just like BW1098OBC/BW1098OAK/OAK-D).  
+
+![Top View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2088POE_PoE_Board/Images/oak-d-top.png)
+
+This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
+
+## [SJ2096POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0)
+
+This is the basis for OAK-1-POE.  It is the equivalent of the BK1096_OAK, with with POE instead of USB.  So 1x onboard IMX378 12MP autofocus color camera.
+
+![Dimension](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-dimension.png)
+
+This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
+
+# Integrated Raspberry Pi Design
+
 ## [BW1097](BW1097_DepthAI_Compute_Module)
 The [BW1097 repository](/BW1097_DepthAI_Compute_Module) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and the [Raspberry Pi Compute Module 3+](https://www.raspberrypi.org/products/compute-module-3-plus/). Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. 
 
 ![](BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png)
+
+# Pure Embedded Design
+
+## [BW1092](https://github.com/luxonis/depthai-hardware/tree/master/BW1092_ESP32_Embedded_WIFI_BT)
+
+This design showcases WiFi+BT interface and a pure-embedded usecase of DepthAI, with communication over SPI from depthai BW1099EMB to the onboard ESP32.  This device can be programmed and run completely standalone with no host processor (i.e. no Linux, macOS, Windows, or RPi required).
+
+![image](https://user-images.githubusercontent.com/32992551/93823746-8db73000-fc1f-11ea-9b6b-a873a1dc65c8.png)
+
+It also acts as a convenient way to do AIoT - that is, using onboard AI to compress data to information to then insight.  An example in a (remote) construction environment is returning a single byte from the device every couple seconds, with each bit representing if anything unsafe is happening, if there is a fire, if there is a hard-hat violation, a leak, etc.
+
+Or conversely, driving a transducer to communicate the number of fish observed, their size, and species 1km through water, through the water as radio waves back to a fishing vessel.
+
+# USB Designs
 
 ## [BW1098OBC](BW1098OBC_DepthAI_USB3C)
 The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
@@ -42,6 +74,8 @@ The [BG0250TG repository](BG0250TG_DepthAI_Mono_Camera) contains open hardware d
 The [BK1096 repository](/BK1096_OAK-1_Modular) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the DepthAI SoM. 
 
 ![](BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
+
+# Adapter Boards
 
 ## [BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board](/BW0253_R0M0E0_RPIHQ_ADAPTER)
 ![](BW0253_R0M0E0_RPIHQ_ADAPTER/Images/RPI_HQ_CAM_SYSTEM_2020-May-14_08-35-31PM-000_CustomizedView42985702451.png)
