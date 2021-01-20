@@ -20,7 +20,7 @@ This design is in progress.  When complete it will support the DepthAI API over 
 
 This is the basis for OAK-1-POE.  It is the equivalent of the BK1096_OAK, with with POE instead of USB.  So 1x onboard IMX378 12MP autofocus color camera.
 
-![Dimension](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-dimension.png)
+![Top View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-top.png)
 
 This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
 
