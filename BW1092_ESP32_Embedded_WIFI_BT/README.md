@@ -1,14 +1,25 @@
-# BW1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT [WIP]
+# DM1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT [WIP]
 
-**CAUTION:**
-This design has **errata** that needs to be fixed.  It is a Work In Progress (WIP) design.  
+![image](To Be Updated)
 
-Normally we fix all errata before uploading to Github, but we are uploading before fixing the following 
-(and other unknown unknown) errors due popular request for the design files.
 
-Known issues:
- - The IMU uses I2C, which is incapable of operating at satisfactory update rates/latency.  The design will be refactored to use SPI soon.  Due to this, the IMU was depopulated from the BW1092_R1M0E1 design. 
- - There may be other uncaught errors in the design as well - it is not yet fully tested.
+# Project Stage
+**Caution: This project is still under development. We are currently in process of getting our board prototyped and tested.** 
+           **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
+
+With this revision, the IMU issue is fixed, is connected over SPI, and boards are equipped with BNO085. 
+
+# Getting started
+The DM1092 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either the ESP32 or NOR flash on the BW1099EMB, boot selection is configured on BW1099EMB with BOOT resistors. 
+
+The reset button resets the Luxonis DepthAI BW1099EMB SoM only.   
+The 5V LED indicates 5V power is present on the DM1092.   
+The PG LED indicates "power good" from the DepthAI BW1099EMB SoM.   
+The "RUN" LED indicates that the DepthAI SoM is not reset.  
+
+# Design Revision info
+The design files represent the R0M0E0 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
+
  
 # Overview:
 
@@ -21,13 +32,7 @@ This design will serve (once complete and errata corrected) as a reference for m
  - How to connect DepthAI as an IoT device to AWS-IoT
  - How to use DepthAI without an OS-capable host processor (e.g. with an embedded microcontroller like the ESP32)
  - How to use DepthAI with WiFi and BT
- - First prototype of DepthAI with an integrated IMU (BNO085 - but note, we are changing from the I2C on this design to SPI)
+ - Prototype of DepthAI with an integrated IMU 
  
- We will be providing more detailed information as we update the design for the above errors.  But for now, here are some initial pictures of the first revision:
- ![23CD15EA-B9F7-4B24-B6D5-94ED3E5E7E79](https://user-images.githubusercontent.com/32992551/92783975-78aae900-f363-11ea-8127-750f22df58bd.jpeg)
- ![image](https://user-images.githubusercontent.com/32992551/93823657-70826180-fc1f-11ea-815c-53c6488243e8.png)
-And size reference:
-![image](https://user-images.githubusercontent.com/32992551/93823684-7b3cf680-fc1f-11ea-8ef4-aef809bec1cf.png)
-![image](https://user-images.githubusercontent.com/32992551/93823746-8db73000-fc1f-11ea-9b6b-a873a1dc65c8.png)
 
 
