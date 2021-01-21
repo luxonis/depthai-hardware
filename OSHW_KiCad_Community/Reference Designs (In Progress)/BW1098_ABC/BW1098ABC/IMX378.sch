@@ -569,7 +569,7 @@ F 3 "" H 1100 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:+1V05-depthAI_sch #PWR?
+L DEPTH:+1V05 #PWR?
 U 1 1 5FFCE43E
 P 1100 1400
 AR Path="/604AEAFA/5FFCE43E" Ref="#PWR?"  Part="1" 
