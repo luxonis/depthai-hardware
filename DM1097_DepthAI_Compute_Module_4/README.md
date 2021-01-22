@@ -45,7 +45,7 @@ Biggest difference in DM1097 and BW1097 architecture, is that DM1097 integrates 
 # Getting started
 The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows initial flash of eMMC on CM4. Alternatively the microSD slot can be used with a bootable system image. 
 
-The reset button resets the Luxonis DepthAI SoM only. To reset the CM4/CM4 Lite, ground the `RUN` header via to the `GND` header via. To shutdown Bluetooth/WiFi, the `BT/WIFI_DISABLE` header can be used with ground on center pin. To protect writing to EEPROM, gound `WP` header via to the `GND` header via. 
+The reset button resets the Luxonis DepthAI SoM only. To reset the CM4/CM4 Lite, ground the `RUN` header via to the `GND` header via. To shutdown Bluetooth/WiFi, the `BT/WIFI_DISABLE` header can be used with `GND` on center pin. To protect writing to EEPROM, gound `WP` header via to the `GND` header via. 
 
 All those headers are not populated by default, but can be added allowing those features. 
 
