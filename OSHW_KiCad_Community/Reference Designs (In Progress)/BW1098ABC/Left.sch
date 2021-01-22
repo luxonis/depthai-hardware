@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 6
+Sheet 6 6
 Title ""
 Date ""
 Rev ""
@@ -162,13 +162,13 @@ L power:GND #GND_?
 U 1 1 603D7A9C
 P 10350 3500
 AR Path="/5FD7EFD3/603D7A9C" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7A9C" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" V 10250 3450 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7A9C" Ref="#GND_037"  Part="1" 
+F 0 "#GND_037" V 10250 3450 20  0000 C CNN
 F 1 "GND" H 10350 3430 30  0000 C CNN
 F 2 "" H 10350 3500 70  0000 C CNN
 F 3 "" H 10350 3500 70  0000 C CNN
 	1    10350 3500
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Text Label 1500 6850 0    60   ~ 0
 COM_AUX_IO2
@@ -182,19 +182,17 @@ Text Notes 6800 3000 0    72   ~ 14
 Place so that is the module's left camera.
 Text Notes 1500 6750 0    60   ~ 0
 (EXT STROBE)
-Text Label 9050 3300 0    60   ~ 0
+Text Label 9750 3300 2    60   ~ 0
 CAM_B_CLK_OUT
 Text Label 9050 3500 0    60   ~ 0
 CAM_B_PWDN_N
-Text GLabel 900  1500 0    60   Input ~ 0
-1V2
 $Comp
 L power:GND #GND_?
 U 1 1 603D7AAF
 P 8650 4500
 AR Path="/5FD7EFD3/603D7AAF" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7AAF" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 8650 4500 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7AAF" Ref="#GND_035"  Part="1" 
+F 0 "#GND_035" H 8650 4500 20  0000 C CNN
 F 1 "GND" H 8650 4430 30  0000 C CNN
 F 2 "" H 8650 4500 70  0000 C CNN
 F 3 "" H 8650 4500 70  0000 C CNN
@@ -206,8 +204,8 @@ L power:GND #GND_?
 U 1 1 603D7AB5
 P 6650 4500
 AR Path="/5FD7EFD3/603D7AB5" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7AB5" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 6650 4500 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7AB5" Ref="#GND_033"  Part="1" 
+F 0 "#GND_033" H 6650 4500 20  0000 C CNN
 F 1 "GND" H 6650 4430 30  0000 C CNN
 F 2 "" H 6650 4500 70  0000 C CNN
 F 3 "" H 6650 4500 70  0000 C CNN
@@ -219,27 +217,21 @@ L power:GND #GND_?
 U 1 1 603D7ABB
 P 1000 1800
 AR Path="/5FD7EFD3/603D7ABB" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7ABB" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 1000 1800 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7ABB" Ref="#GND_031"  Part="1" 
+F 0 "#GND_031" H 1000 1800 20  0000 C CNN
 F 1 "GND" H 1000 1730 30  0000 C CNN
 F 2 "" H 1000 1800 70  0000 C CNN
 F 3 "" H 1000 1800 70  0000 C CNN
 	1    1000 1800
 	1    0    0    -1  
 $EndComp
-Text GLabel 900  900  0    60   Input ~ 0
-2V8
-Text GLabel 900  1800 0    60   Input ~ 0
-GND
-Text GLabel 900  1200 0    60   Input ~ 0
-1V8
 $Comp
 L power:GND #GND_?
 U 1 1 603D7AC4
 P 8900 5950
 AR Path="/5FD7EFD3/603D7AC4" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7AC4" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 8900 5950 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7AC4" Ref="#GND_036"  Part="1" 
+F 0 "#GND_036" H 8900 5950 20  0000 C CNN
 F 1 "GND" H 8900 5880 30  0000 C CNN
 F 2 "" H 8900 5950 70  0000 C CNN
 F 3 "" H 8900 5950 70  0000 C CNN
@@ -251,8 +243,8 @@ L power:GND #GND_?
 U 1 1 603D7ACA
 P 7700 5950
 AR Path="/5FD7EFD3/603D7ACA" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7ACA" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 7700 5950 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7ACA" Ref="#GND_034"  Part="1" 
+F 0 "#GND_034" H 7700 5950 20  0000 C CNN
 F 1 "GND" H 7700 5880 30  0000 C CNN
 F 2 "" H 7700 5950 70  0000 C CNN
 F 3 "" H 7700 5950 70  0000 C CNN
@@ -264,24 +256,18 @@ L power:GND #GND_?
 U 1 1 603D7AD0
 P 6400 5950
 AR Path="/5FD7EFD3/603D7AD0" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D2B3/603D7AD0" Ref="#GND_?"  Part="1" 
-F 0 "#GND_?" H 6400 5950 20  0000 C CNN
+AR Path="/5FF8D2B3/603D7AD0" Ref="#GND_032"  Part="1" 
+F 0 "#GND_032" H 6400 5950 20  0000 C CNN
 F 1 "GND" H 6400 5880 30  0000 C CNN
 F 2 "" H 6400 5950 70  0000 C CNN
 F 3 "" H 6400 5950 70  0000 C CNN
 	1    6400 5950
 	1    0    0    -1  
 $EndComp
-Text Label 12100 3650 0    60   ~ 0
-CAM_B_CLK_OUT
-Text Label 12100 3350 0    60   ~ 0
-CAM_B_D_PWM
-Text Label 12100 3500 0    60   ~ 0
-CAM_B_PWDN_N
 Wire Wire Line
-	9200 5550 8600 5550
+	9200 5550 8750 5550
 Wire Wire Line
-	8000 5550 7400 5550
+	8000 5550 7550 5550
 Wire Wire Line
 	7400 5950 7400 5850
 Wire Wire Line
@@ -291,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 5850 8000 5950
 Wire Wire Line
-	6700 5550 6100 5550
+	6700 5550 6200 5550
 Wire Wire Line
 	6100 5950 6100 5850
 Wire Wire Line
@@ -300,20 +286,6 @@ Wire Wire Line
 	6700 5950 6400 5950
 Wire Wire Line
 	6700 5850 6700 5950
-Wire Wire Line
-	6750 4300 5450 4300
-Wire Wire Line
-	6750 4200 5450 4200
-Wire Wire Line
-	6750 4000 5450 4000
-Wire Wire Line
-	6750 3900 5450 3900
-Wire Wire Line
-	9550 3600 8550 3600
-Wire Wire Line
-	6750 3700 5450 3700
-Wire Wire Line
-	6750 3600 5450 3600
 Wire Wire Line
 	9850 3500 8550 3500
 Wire Wire Line
@@ -365,21 +337,11 @@ Wire Wire Line
 Wire Wire Line
 	6750 3300 6250 3300
 Wire Wire Line
-	2400 1200 1900 1200
-Wire Wire Line
-	2400 900  1900 900 
-Wire Wire Line
-	2400 1500 1900 1500
-Wire Wire Line
 	3200 6850 3200 6400
 Wire Wire Line
 	3200 5900 3200 5400
 Wire Wire Line
-	2700 5900 2700 5400
-Wire Wire Line
 	3700 5900 3700 5350
-Wire Wire Line
-	3700 5950 3700 5900
 Wire Wire Line
 	10250 3500 10350 3500
 Wire Wire Line
@@ -401,47 +363,17 @@ Wire Wire Line
 Wire Wire Line
 	8900 5950 8600 5950
 Wire Wire Line
-	2700 5900 2700 5950
-Wire Wire Line
-	2750 5900 2700 5900
-Wire Wire Line
-	3200 5900 3150 5900
-Wire Wire Line
 	3250 5900 3200 5900
-Wire Wire Line
-	3700 6400 3700 6350
 Wire Wire Line
 	3650 6400 3700 6400
 Wire Wire Line
-	3200 6400 3200 6350
-Wire Wire Line
-	3150 6400 3200 6400
-Wire Wire Line
 	3250 6400 3200 6400
-Wire Wire Line
-	3200 5900 3200 5950
-Wire Wire Line
-	2700 6400 2700 6350
-Wire Wire Line
-	2750 6400 2700 6400
 Wire Wire Line
 	2700 6850 2700 6400
 Wire Wire Line
 	3700 5900 3650 5900
-Wire Wire Line
-	13000 3650 12000 3650
-Wire Wire Line
-	13000 3350 12000 3350
-Wire Wire Line
-	13000 3500 12000 3500
 Connection ~ 2700 6850
-Connection ~ 2700 6400
-Connection ~ 2700 5900
 Connection ~ 3200 6850
-Connection ~ 3200 6400
-Connection ~ 3200 5900
-Connection ~ 3700 6400
-Connection ~ 3700 5900
 Connection ~ 6400 5950
 Connection ~ 6650 4400
 Connection ~ 6650 4100
@@ -458,8 +390,8 @@ U 1 1 603D7B3F
 P 1300 900
 AR Path="/603D7B3F" Ref="FB?"  Part="1" 
 AR Path="/5FD7EFD3/603D7B3F" Ref="FB?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B3F" Ref="FB?"  Part="1" 
-F 0 "FB?" H 1400 950 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B3F" Ref="FB7"  Part="1" 
+F 0 "FB7" H 1400 950 60  0000 L BNN
 F 1 "600R/100MHz" H 1400 770 60  0000 L BNN
 F 2 "OSHW_LuxonisMaster_20201223:2508056017Y2" H 1400 770 60  0001 C CNN
 F 3 "" H 1400 770 60  0000 C CNN
@@ -471,8 +403,8 @@ L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7B46
 P 6700 5850
 AR Path="/5FD7EFD3/603D7B46" Ref="C?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B46" Ref="C?"  Part="1" 
-F 0 "C?" V 6810 5760 60  0000 R TNN
+AR Path="/5FF8D2B3/603D7B46" Ref="C15"  Part="1" 
+F 0 "C15" V 6810 5760 60  0000 R TNN
 F 1 "10uF 0603" V 6710 5760 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6710 5760 60  0001 C CNN
 F 3 "" H 6710 5760 60  0000 C CNN
@@ -485,8 +417,8 @@ L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7B4D
 P 6100 5850
 AR Path="/5FD7EFD3/603D7B4D" Ref="C?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B4D" Ref="C?"  Part="1" 
-F 0 "C?" V 6210 5760 60  0000 R TNN
+AR Path="/5FF8D2B3/603D7B4D" Ref="C14"  Part="1" 
+F 0 "C14" V 6210 5760 60  0000 R TNN
 F 1 "0.1uF 0402" V 6110 5760 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 6110 5760 60  0001 C CNN
 F 3 "" H 6110 5760 60  0000 C CNN
@@ -499,8 +431,8 @@ L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7B54
 P 7400 5850
 AR Path="/5FD7EFD3/603D7B54" Ref="C?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B54" Ref="C?"  Part="1" 
-F 0 "C?" V 7510 5760 60  0000 R TNN
+AR Path="/5FF8D2B3/603D7B54" Ref="C16"  Part="1" 
+F 0 "C16" V 7510 5760 60  0000 R TNN
 F 1 "0.1uF 0402" V 7410 5760 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7410 5760 60  0001 C CNN
 F 3 "" H 7410 5760 60  0000 C CNN
@@ -513,8 +445,8 @@ L BW1098ABC-rescue:TG161B-201_Connector-depthAI_sch J?
 U 1 1 603D7B5A
 P 6750 3300
 AR Path="/5FD7EFD3/603D7B5A" Ref="J?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B5A" Ref="J?"  Part="1" 
-F 0 "J?" H 6950 3400 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B5A" Ref="J7"  Part="1" 
+F 0 "J7" H 6950 3400 60  0000 L BNN
 F 1 "BBR43-24KB533 for camera module TG161B-201" H 6950 2000 60  0000 L BNN
 F 2 "" H 6950 2000 60  0001 C CNN
 F 3 "" H 6950 2000 60  0000 C CNN
@@ -523,50 +455,11 @@ F 3 "" H 6950 2000 60  0000 C CNN
 $EndComp
 $Comp
 L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
-U 1 1 603D7B60
-P 2700 6350
-AR Path="/5FD7EFD3/603D7B60" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B60" Ref="R?"  Part="1" 
-F 0 "R?" V 2910 6320 60  0000 R TNN
-F 1 "0R 0603" V 2810 6320 60  0000 R TNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2810 6320 60  0001 C CNN
-F 3 "" H 2810 6320 60  0000 C CNN
-	1    2700 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
-U 1 1 603D7B66
-P 3200 6350
-AR Path="/5FD7EFD3/603D7B66" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B66" Ref="R?"  Part="1" 
-F 0 "R?" V 3410 6320 60  0000 R TNN
-F 1 "0R 0603" V 3310 6320 60  0000 R TNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3310 6320 60  0001 C CNN
-F 3 "" H 3310 6320 60  0000 C CNN
-	1    3200 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
-U 1 1 603D7B6C
-P 3700 6350
-AR Path="/5FD7EFD3/603D7B6C" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B6C" Ref="R?"  Part="1" 
-F 0 "R?" V 3910 6320 60  0000 R TNN
-F 1 "0R 0603" V 3810 6320 60  0000 R TNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3810 6320 60  0001 C CNN
-F 3 "" H 3810 6320 60  0000 C CNN
-	1    3700 6350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B72
 P 3250 5900
 AR Path="/5FD7EFD3/603D7B72" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B72" Ref="R?"  Part="1" 
-F 0 "R?" H 3340 5930 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B72" Ref="R9"  Part="1" 
+F 0 "R9" H 3340 5930 60  0000 L BNN
 F 1 "0R 0603" H 3340 5770 60  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3340 5770 60  0001 C CNN
 F 3 "" H 3340 5770 60  0000 C CNN
@@ -575,24 +468,11 @@ F 3 "" H 3340 5770 60  0000 C CNN
 $EndComp
 $Comp
 L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
-U 1 1 603D7B78
-P 2750 5900
-AR Path="/5FD7EFD3/603D7B78" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B78" Ref="R?"  Part="1" 
-F 0 "R?" H 2840 5930 60  0000 L BNN
-F 1 "0R 0603" H 2840 5770 60  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2840 5770 60  0001 C CNN
-F 3 "" H 2840 5770 60  0000 C CNN
-	1    2750 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
 U 1 1 603D7B7E
 P 3250 6400
 AR Path="/5FD7EFD3/603D7B7E" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B7E" Ref="R?"  Part="1" 
-F 0 "R?" H 3340 6430 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B7E" Ref="R10"  Part="1" 
+F 0 "R10" H 3340 6430 60  0000 L BNN
 F 1 "0R 0603" H 3340 6270 60  0000 L BNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 3340 6270 60  0001 C CNN
 F 3 "" H 3340 6270 60  0000 C CNN
@@ -605,25 +485,12 @@ U 1 1 603D7B84
 P 1300 1200
 AR Path="/603D7B84" Ref="FB?"  Part="1" 
 AR Path="/5FD7EFD3/603D7B84" Ref="FB?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B84" Ref="FB?"  Part="1" 
-F 0 "FB?" H 1400 1250 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B84" Ref="FB8"  Part="1" 
+F 0 "FB8" H 1400 1250 60  0000 L BNN
 F 1 "600R/100MHz" H 1400 1070 60  0000 L BNN
 F 2 "OSHW_LuxonisMaster_20201223:2508056017Y2" H 1400 1070 60  0001 C CNN
 F 3 "" H 1400 1070 60  0000 C CNN
 	1    1300 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
-U 1 1 603D7B8A
-P 2750 6400
-AR Path="/5FD7EFD3/603D7B8A" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B8A" Ref="R?"  Part="1" 
-F 0 "R?" H 2840 6430 60  0000 L BNN
-F 1 "0R 0603" H 2840 6270 60  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2840 6270 60  0001 C CNN
-F 3 "" H 2840 6270 60  0000 C CNN
-	1    2750 6400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -632,8 +499,8 @@ U 1 1 603D7B90
 P 1300 1500
 AR Path="/603D7B90" Ref="FB?"  Part="1" 
 AR Path="/5FD7EFD3/603D7B90" Ref="FB?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B90" Ref="FB?"  Part="1" 
-F 0 "FB?" H 1400 1550 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B90" Ref="FB9"  Part="1" 
+F 0 "FB9" H 1400 1550 60  0000 L BNN
 F 1 "600R/100MHz" H 1400 1370 60  0000 L BNN
 F 2 "OSHW_LuxonisMaster_20201223:2508056017Y2" H 1400 1370 60  0001 C CNN
 F 3 "" H 1400 1370 60  0000 C CNN
@@ -645,8 +512,8 @@ L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
 U 1 1 603D7B96
 P 2200 6850
 AR Path="/5FD7EFD3/603D7B96" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B96" Ref="R?"  Part="1" 
-F 0 "R?" H 2290 6880 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B96" Ref="R8"  Part="1" 
+F 0 "R8" H 2290 6880 60  0000 L BNN
 F 1 "10K 0402" H 2290 6720 60  0000 L BNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 2290 6720 60  0001 C CNN
 F 3 "" H 2290 6720 60  0000 C CNN
@@ -658,8 +525,8 @@ L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
 U 1 1 603D7B9C
 P 9850 3500
 AR Path="/5FD7EFD3/603D7B9C" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B9C" Ref="R?"  Part="1" 
-F 0 "R?" H 9940 3530 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7B9C" Ref="R11"  Part="1" 
+F 0 "R11" H 9940 3530 60  0000 L BNN
 F 1 "10K 0402" H 9950 3600 60  0000 L BNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9940 3370 60  0001 C CNN
 F 3 "" H 9940 3370 60  0000 C CNN
@@ -671,8 +538,8 @@ L BW1098ABC-rescue:CRCW04020000Z0ED-depthAI_sch R?
 U 1 1 603D7BA2
 P 9850 3900
 AR Path="/5FD7EFD3/603D7BA2" Ref="R?"  Part="1" 
-AR Path="/5FF8D2B3/603D7BA2" Ref="R?"  Part="1" 
-F 0 "R?" H 9940 3930 60  0000 L BNN
+AR Path="/5FF8D2B3/603D7BA2" Ref="R12"  Part="1" 
+F 0 "R12" H 9940 3930 60  0000 L BNN
 F 1 "0R 0402" H 9940 3770 60  0000 L BNN
 F 2 "Resistor_SMD:R_0402_1005Metric" H 9940 3770 60  0001 C CNN
 F 3 "" H 9940 3770 60  0000 C CNN
@@ -684,8 +551,8 @@ L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7BA9
 P 8600 5850
 AR Path="/5FD7EFD3/603D7BA9" Ref="C?"  Part="1" 
-AR Path="/5FF8D2B3/603D7BA9" Ref="C?"  Part="1" 
-F 0 "C?" V 8710 5760 60  0000 R TNN
+AR Path="/5FF8D2B3/603D7BA9" Ref="C18"  Part="1" 
+F 0 "C18" V 8710 5760 60  0000 R TNN
 F 1 "0.1uF 0402" V 8610 5760 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 8610 5760 60  0001 C CNN
 F 3 "" H 8610 5760 60  0000 C CNN
@@ -698,8 +565,8 @@ L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7BB0
 P 9200 5850
 AR Path="/5FD7EFD3/603D7BB0" Ref="C?"  Part="1" 
-AR Path="/5FF8D2B3/603D7BB0" Ref="C?"  Part="1" 
-F 0 "C?" V 9310 5760 60  0000 R TNN
+AR Path="/5FF8D2B3/603D7BB0" Ref="C19"  Part="1" 
+F 0 "C19" V 9310 5760 60  0000 R TNN
 F 1 "10uF 0603" V 9210 5760 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 9210 5760 60  0001 C CNN
 F 3 "" H 9210 5760 60  0000 C CNN
@@ -712,8 +579,8 @@ L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
 U 1 1 603D7BB7
 P 8000 5850
 AR Path="/5FD7EFD3/603D7BB7" Ref="C?"  Part="1" 
-AR Path="/5FF8D2B3/603D7BB7" Ref="C?"  Part="1" 
-F 0 "C?" V 8100 5750 60  0000 R TNN
+AR Path="/5FF8D2B3/603D7BB7" Ref="C17"  Part="1" 
+F 0 "C17" V 8100 5750 60  0000 R TNN
 F 1 "10uF 0603" V 8010 5760 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8010 5760 60  0001 C CNN
 F 3 "" H 8010 5760 60  0000 C CNN
@@ -753,18 +620,6 @@ Wire Notes Line
 	10550 9100 10550 9500
 Wire Notes Line
 	10550 9200 13350 9200
-Text GLabel 5450 3600 0    50   UnSpc ~ 0
-MIPI_RX2_D1_P
-Text GLabel 5450 3700 0    50   UnSpc ~ 0
-MIPI_RX2_D1_N
-Text GLabel 5450 3900 0    50   UnSpc ~ 0
-MIPI_RX2_D0_P
-Text GLabel 5450 4000 0    50   UnSpc ~ 0
-MIPI_RX2_D0_N
-Text GLabel 5450 4200 0    50   UnSpc ~ 0
-MIPI_RX2_C_P
-Text GLabel 5450 4300 0    50   UnSpc ~ 0
-MIPI_RX2_C_N
 Text Notes 1350 10400 0    50   ~ 0
 Used for configuring the STROBE signal direction between the camera boards by using jumpers. \nA strobe signal may drive FSIN signal for waking up a sensor from its low power mode. See the \n"Supported Modes of Operation" note for supported jumper settings.     \n \n     - "NO SYNC" is the mode in which none of the camera modules is excited by any strobe signal.  \n   \n     - "NORMAL" mode means STROBE mechanism works only among the stereo cameras \nthemselves. In this mode, CAM1 strobe is connected to the CAM2 FSIN input.      \n\n     - "TIMING MASTER" mode means CAM1 STROBE signal drives the EXT_STROBE signal as well as\n the CAM2 FSIN input. EXT_STROBE signal circulates among the other camera ports so that one \ncamera module can manage the timing of all cameras within the system.    \n\n     - "TIMING SLAVE" mode uses external strobe signal which is driven externally by another \ncamera. In this mode, CAM1 and CAM2 are excited by the EXT_STROBE signal.    Note that, at \nmost only one camera can be in the "TIMING MASTER" mode at a time. STROBE generation and \nFSIN reception should be configured via software.  \n
 Text Notes 8500 8700 0    79   ~ 0
@@ -2594,68 +2449,14 @@ Wire Wire Line
 	900  900  1050 900 
 Wire Wire Line
 	900  1500 1050 1500
-Text HLabel 2400 900  2    79   BiDi ~ 0
-2V8_L
-Text HLabel 2400 1200 2    79   BiDi ~ 0
-1V8_L
-Text HLabel 2400 1500 2    79   BiDi ~ 0
-1V2_L
 Text Notes 3000 1450 0    79   Italic 0
 Place FBs and caps close to \ntheir associated camera connector.
-Text HLabel 8750 5550 1    79   BiDi ~ 0
-2V8_L
-Text HLabel 7450 5550 1    79   BiDi ~ 0
-1V8_L
-Text HLabel 6150 5550 1    79   BiDi ~ 0
-1V2_L
-Text HLabel 6250 3300 0    79   BiDi ~ 0
-1V8_L
-Text HLabel 6250 3400 0    79   BiDi ~ 0
-1V2_L
-Text HLabel 8950 4100 2    79   BiDi ~ 0
-2V8_L
-Text GLabel 3700 5350 2    60   Output ~ 0
-FSIN2
-Text GLabel 1500 6850 0    60   Input ~ 0
-COM_AUX_IO2
-Text GLabel 9550 3600 2    79   UnSpc ~ 0
-I2C2_SCL
-Text GLabel 10150 3700 2    79   UnSpc ~ 0
-I2C2_SDA
-Text GLabel 13000 3350 2    79   UnSpc ~ 0
-CAM_B_D_PWM
-Text GLabel 13000 3500 2    79   UnSpc ~ 0
-CAM_B_PWDN_N
-Text GLabel 13000 3650 2    79   UnSpc ~ 0
-CAM_B_CLK_OUT
 Wire Wire Line
 	10650 3900 10250 3900
 Text Label 10650 3900 0    60   ~ 0
 FSIN1
-Wire Wire Line
-	9050 3300 8550 3300
-Text Notes 9050 5550 1    60   ~ 0
-Parameter Set\nPower Trace
 Text Notes 6550 5550 1    60   ~ 0
-Parameter Set\nPower Trace
-Text Notes 7850 5550 1    60   ~ 0
-Parameter Set\nPower Trace
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	3800 5950 3800 6300
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	3800 6300 2600 6300
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	2600 6300 2600 5950
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	2600 5950 2800 5950
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	2800 5950 2800 5750
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	2800 5750 3100 5750
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	3100 5750 3100 5950
-Wire Notes Line width 16 style dash_dot rgb(255, 0, 0)
-	3100 5950 3800 5950
+Parameter \nSet\n
 Wire Wire Line
 	8550 3700 10150 3700
 $Comp
@@ -2663,8 +2464,8 @@ L power:+1V2 #PWR?
 U 1 1 5FFF8485
 P 1050 1500
 AR Path="/604AEAFA/5FFF8485" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D2B3/5FFF8485" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1050 1350 50  0001 C CNN
+AR Path="/5FF8D2B3/5FFF8485" Ref="#PWR09"  Part="1" 
+F 0 "#PWR09" H 1050 1350 50  0001 C CNN
 F 1 "+1V2" H 1065 1673 50  0000 C CNN
 F 2 "" H 1050 1500 50  0001 C CNN
 F 3 "" H 1050 1500 50  0001 C CNN
@@ -2676,8 +2477,8 @@ L power:+1V8 #PWR?
 U 1 1 5FFF848B
 P 1050 1200
 AR Path="/604AEAFA/5FFF848B" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D2B3/5FFF848B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1050 1050 50  0001 C CNN
+AR Path="/5FF8D2B3/5FFF848B" Ref="#PWR08"  Part="1" 
+F 0 "#PWR08" H 1050 1050 50  0001 C CNN
 F 1 "+1V8" H 1065 1373 50  0000 C CNN
 F 2 "" H 1050 1200 50  0001 C CNN
 F 3 "" H 1050 1200 50  0001 C CNN
@@ -2689,8 +2490,8 @@ L power:+2V8 #PWR?
 U 1 1 5FFF8491
 P 1050 900
 AR Path="/604AEAFA/5FFF8491" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D2B3/5FFF8491" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1050 750 50  0001 C CNN
+AR Path="/5FF8D2B3/5FFF8491" Ref="#PWR07"  Part="1" 
+F 0 "#PWR07" H 1050 750 50  0001 C CNN
 F 1 "+2V8" H 1065 1073 50  0000 C CNN
 F 2 "" H 1050 900 50  0001 C CNN
 F 3 "" H 1050 900 50  0001 C CNN
@@ -2708,4 +2509,174 @@ Wire Wire Line
 Connection ~ 1050 1500
 Wire Wire Line
 	1050 1500 1300 1500
+Wire Wire Line
+	8550 3600 10150 3600
+Text Label 10150 3600 2    49   ~ 0
+I2C2_SCL
+Text Label 10150 3700 2    49   ~ 0
+I2C2_SDA
+Text Notes 8000 5550 1    60   ~ 0
+Parameter \nSet\n
+Text Notes 9200 5550 1    60   ~ 0
+Parameter \nSet\n
+$Comp
+L power:PWR_FLAG #FLG07
+U 1 1 6009329B
+P 6200 5550
+F 0 "#FLG07" H 6200 5625 50  0001 C CNN
+F 1 "PWR_FLAG" H 6200 5723 50  0000 C CNN
+F 2 "" H 6200 5550 50  0001 C CNN
+F 3 "~" H 6200 5550 50  0001 C CNN
+	1    6200 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 5550
+Wire Wire Line
+	6200 5550 6100 5550
+$Comp
+L power:PWR_FLAG #FLG08
+U 1 1 60093933
+P 7550 5550
+F 0 "#FLG08" H 7550 5625 50  0001 C CNN
+F 1 "PWR_FLAG" H 7550 5723 50  0000 C CNN
+F 2 "" H 7550 5550 50  0001 C CNN
+F 3 "~" H 7550 5550 50  0001 C CNN
+	1    7550 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7550 5550
+Wire Wire Line
+	7550 5550 7400 5550
+$Comp
+L power:PWR_FLAG #FLG09
+U 1 1 60094053
+P 8750 5550
+F 0 "#FLG09" H 8750 5625 50  0001 C CNN
+F 1 "PWR_FLAG" H 8750 5723 50  0000 C CNN
+F 2 "" H 8750 5550 50  0001 C CNN
+F 3 "~" H 8750 5550 50  0001 C CNN
+	1    8750 5550
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 5550
+Wire Wire Line
+	8750 5550 8600 5550
+Wire Wire Line
+	2700 5400 2700 5950
+Text HLabel 3700 5350 2    79   Output ~ 0
+FSIN2
+Text HLabel 900  900  0    79   Input ~ 0
+2V8
+Text HLabel 900  1200 0    79   Input ~ 0
+1V8
+Text HLabel 900  1500 0    79   Input ~ 0
+1V2
+Text HLabel 900  1800 0    79   Input ~ 0
+GND
+Text HLabel 1500 6850 0    79   Input ~ 0
+COM_AUX_IO2
+Text HLabel 5200 3150 0    60   BiDi ~ 0
+MIPI_CAM_B
+Entry Wire Line
+	5200 4200 5300 4300
+Entry Wire Line
+	5200 4100 5300 4200
+Entry Wire Line
+	5200 3900 5300 4000
+Entry Wire Line
+	5200 3800 5300 3900
+Entry Wire Line
+	5200 3600 5300 3700
+Entry Wire Line
+	5200 3500 5300 3600
+Text Label 5300 3700 0    50   ~ 0
+MIPI_RX2_D1_N
+Text Label 5300 3600 0    50   ~ 0
+MIPI_RX2_D1_P
+Text Label 5300 4000 0    50   ~ 0
+MIPI_RX2_D0_N
+Text Label 5300 3900 0    50   ~ 0
+MIPI_RX2_D0_P
+Text Label 5300 4300 0    50   ~ 0
+MIPI_RX2_C_N
+Text Label 5300 4200 0    50   ~ 0
+MIPI_RX2_C_P
+Wire Wire Line
+	5300 4300 6750 4300
+Wire Wire Line
+	5300 4200 6750 4200
+Wire Wire Line
+	5300 4000 6750 4000
+Wire Wire Line
+	5300 3900 6750 3900
+Wire Wire Line
+	5300 3700 6750 3700
+Wire Wire Line
+	5300 3600 6750 3600
+Text Label 12350 4650 2    50   ~ 0
+I2C2_SDA
+Text Label 12350 4750 2    50   ~ 0
+I2C2_SCL
+Entry Wire Line
+	11900 4650 12000 4750
+Entry Wire Line
+	11900 4550 12000 4650
+Wire Wire Line
+	12000 4650 12350 4650
+Wire Wire Line
+	12350 4750 12000 4750
+Text Label 2400 900  0    60   ~ 0
+2V8_L
+Text Label 2400 1200 0    60   ~ 0
+1V8_L
+Text Label 2400 1500 0    60   ~ 0
+1V2_L
+Text Label 6250 3300 0    60   ~ 0
+1V8_L
+Text Label 6250 3400 0    60   ~ 0
+1V2_L
+Text Label 8950 4100 2    60   ~ 0
+2V8_L
+Wire Wire Line
+	8550 3300 9750 3300
+Text Label 11650 3350 0    60   ~ 0
+CAM_B_D_PWM
+Entry Wire Line
+	12550 3350 12650 3450
+Wire Wire Line
+	11650 3350 12550 3350
+Text Label 11650 3650 0    60   ~ 0
+CAM_B_CLK_OUT
+Text HLabel 12650 2900 2    50   BiDi ~ 0
+CTL_CAM_B
+Entry Wire Line
+	12550 3650 12650 3750
+Entry Wire Line
+	12550 3500 12650 3600
+Wire Wire Line
+	12550 3650 11650 3650
+Wire Wire Line
+	12550 3500 11650 3500
+Text Label 11650 3500 0    60   ~ 0
+CAM_B_PWDN_N
+Text HLabel 11900 4300 0    60   BiDi ~ 0
+I2C2
+Wire Wire Line
+	1900 900  2400 900 
+Wire Wire Line
+	1900 1200 2400 1200
+Wire Wire Line
+	1900 1500 2400 1500
+Text Label 6100 5550 2    60   ~ 0
+1V2_L
+Text Label 7400 5550 2    60   ~ 0
+1V8_L
+Text Label 8600 5550 2    60   ~ 0
+2V8_L
+Wire Bus Line
+	11900 4300 11900 4650
+Wire Bus Line
+	12650 2900 12650 3750
+Wire Bus Line
+	5200 3150 5200 4200
 $EndSCHEMATC

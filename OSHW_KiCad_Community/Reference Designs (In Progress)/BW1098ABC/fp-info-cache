@@ -1,4 +1,4 @@
-19862900636641797
+19870954715445071
 BBR43-30KB533
 ACON_BBR43-30KB533
 
@@ -86435,3 +86435,38 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
+ffldU
+ffldU
+
+
+0
+0
+0
+inStock
+JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical
+JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
+connector JST EH vertical
+0
+4
+4
+inStock
+TerminalBlock_1x02_P3.81mm_Horizontal
+terminal block Metz Connect Type086_RT03402HBLC, 2 pins, pitch 3.81mm, size 7.51x7.3mm^2, drill diamater 0.7mm, pad diameter 1.4mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114K.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type086_RT03402HBLC pitch 3.81mm size 7.51x7.3mm^2 drill 0.7mm pad 1.4mm
+0
+2
+2
+inStock
+TerminalBlock_1x03_P3.81mm_Horizontal
+terminal block Metz Connect Type086_RT03403HBLC, 3 pins, pitch 3.81mm, size 11.3x7.3mm^2, drill diamater 0.7mm, pad diameter 1.4mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114K.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type086_RT03403HBLC pitch 3.81mm size 11.3x7.3mm^2 drill 0.7mm pad 1.4mm
+0
+3
+3
+inStock
+ds04-254-smt-02
+
+
+0
+4
+4

@@ -18,81 +18,31 @@ S 8050 850  2200 4950
 U 5FF8D9B2
 F0 "SoM_BW1099" 50
 F1 "SoM_BW1099.sch" 50
-$EndSheet
-$Sheet
-S 4550 1400 2150 1350
-U 5FF8D4A5
-F0 "IMX378" 50
-F1 "IMX378.sch" 50
+F2 "MIPI_CAM_B" B L 8050 3850 50 
+F3 "MIPI_CAM_C" B L 8050 5600 50 
+F4 "I2C2" B L 8050 4050 50 
+F5 "VDD_5V" I L 8050 1100 50 
+F6 "GND" I R 10250 5650 50 
+F7 "COM_AUX_IO2" O L 8050 2650 50 
+F8 "CTL_CAM_A" B L 8050 2000 50 
+F9 "I2C1" B L 8050 2100 50 
+F10 "MIPI_CAM_A" B L 8050 1900 50 
+F11 "CTL_CAM_B" B L 8050 3950 50 
 $EndSheet
 $Sheet
 S 4500 5400 2150 1350
 U 5FF8D40A
 F0 "RIGHT_CAMERA" 50
 F1 "Right.sch" 50
+F2 "MIPI_CAM_C" B R 6650 5600 50 
+F3 "2V8" I L 4500 5950 50 
+F4 "1V8" I L 4500 6050 50 
+F5 "1V2" I L 4500 6150 50 
+F6 "FSIN2" I R 6650 6250 50 
+F7 "I2C2" B R 6650 5950 50 
+F8 "CTL_CAM_B" B R 6650 5850 50 
+F9 "GND" I R 6650 6550 50 
 $EndSheet
-$Sheet
-S 4500 3600 2150 1350
-U 5FF8D2B3
-F0 "LEFT_CAMERA" 50
-F1 "Left.sch" 50
-$EndSheet
-Text HLabel 8050 3850 2    60   BiDi ~ 0
-MIPI_CAM_B
-Text HLabel 8050 1900 2    60   BiDi ~ 0
-MIPI_CAM_A
-Text HLabel 8050 5600 2    60   BiDi ~ 0
-MIPI_CAM_C
-Text HLabel 8050 4050 2    60   BiDi ~ 0
-I2C2
-Text HLabel 8050 2100 2    60   BiDi ~ 0
-I2C1
-Text HLabel 8050 2000 2    60   BiDi ~ 0
-CTL_CAM_A
-Text HLabel 8050 3950 2    60   BiDi ~ 0
-CTL_CAM_B
-Text HLabel 8050 1100 2    60   Input ~ 0
-VDD_5V
-Text HLabel 10250 5650 0    60   Input ~ 0
-GND
-Text HLabel 8050 2650 2    60   Output ~ 0
-COM_AUX_IO2
-Text HLabel 4550 1900 2    60   Input ~ 0
-2V8
-Text HLabel 4550 2100 2    60   Input ~ 0
-1V05
-Text HLabel 6700 2100 0    60   BiDi ~ 0
-I2C1
-Text HLabel 6700 1900 0    60   BiDi ~ 0
-MIPI_CAM_A
-Text HLabel 6700 2000 0    60   BiDi ~ 0
-CTL_CAM_A
-Text HLabel 6700 2400 0    60   Input ~ 0
-GND
-Text HLabel 4550 2000 2    60   Input ~ 0
-1V8
-Text HLabel 6650 5600 0    60   BiDi ~ 0
-MIPI_CAM_C
-Text HLabel 6650 5950 0    60   BiDi ~ 0
-I2C2
-Text HLabel 4500 6150 2    60   Input ~ 0
-1V2
-Text HLabel 4500 5950 2    60   Input ~ 0
-2V8
-Text HLabel 6650 6550 0    60   Input ~ 0
-GND
-Text HLabel 4500 6050 2    60   Input ~ 0
-1V8
-Text HLabel 6650 6250 0    60   Input ~ 0
-FSIN2
-Text HLabel 6650 5850 0    60   BiDi ~ 0
-CTL_CAM_B
-Text HLabel 4500 4200 2    60   Input ~ 0
-1V2
-Text HLabel 4500 4000 2    60   Input ~ 0
-2V8
-Text HLabel 4500 4100 2    60   Input ~ 0
-1V8
 $Comp
 L power:GND #GND_066
 U 1 1 5FD7E7BA
@@ -137,23 +87,11 @@ F 3 "" H 6650 6550 70  0000 C CNN
 	1    6650 6550
 	0    -1   -1   0   
 $EndComp
-Text HLabel 2900 1900 0    60   Output ~ 0
-GND
-Text HLabel 2900 1700 0    60   Output ~ 0
-1V05
-Text HLabel 2900 1500 0    60   Output ~ 0
-1V8
-Text HLabel 2900 1400 0    60   Output ~ 0
-2V8
-Text HLabel 2900 1600 0    60   Output ~ 0
-1V2
-Text HLabel 2900 1100 0    60   Output ~ 0
-VDD_5V
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID1
 U 1 1 6049A903
 P 1750 7500
-F 0 "FID?" H 1835 7546 50  0000 L CNN
+F 0 "FID1" H 1835 7546 50  0000 L CNN
 F 1 "Fiducial" H 1835 7455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1750 7500 50  0001 C CNN
 F 3 "~" H 1750 7500 50  0001 C CNN
@@ -161,10 +99,10 @@ F 3 "~" H 1750 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID2
 U 1 1 5FF51DEB
 P 2250 7500
-F 0 "FID?" H 2335 7546 50  0000 L CNN
+F 0 "FID2" H 2335 7546 50  0000 L CNN
 F 1 "Fiducial" H 2335 7455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2250 7500 50  0001 C CNN
 F 3 "~" H 2250 7500 50  0001 C CNN
@@ -172,10 +110,10 @@ F 3 "~" H 2250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID3
 U 1 1 6049A905
 P 2750 7500
-F 0 "FID?" H 2835 7546 50  0000 L CNN
+F 0 "FID3" H 2835 7546 50  0000 L CNN
 F 1 "Fiducial" H 2835 7455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 2750 7500 50  0001 C CNN
 F 3 "~" H 2750 7500 50  0001 C CNN
@@ -183,10 +121,10 @@ F 3 "~" H 2750 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID4
 U 1 1 6049A906
 P 3250 7500
-F 0 "FID?" H 3335 7546 50  0000 L CNN
+F 0 "FID4" H 3335 7546 50  0000 L CNN
 F 1 "Fiducial" H 3335 7455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3250 7500 50  0001 C CNN
 F 3 "~" H 3250 7500 50  0001 C CNN
@@ -194,10 +132,10 @@ F 3 "~" H 3250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID5
 U 1 1 6049A907
 P 3750 7500
-F 0 "FID?" H 3835 7546 50  0000 L CNN
+F 0 "FID5" H 3835 7546 50  0000 L CNN
 F 1 "Fiducial" H 3835 7455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 3750 7500 50  0001 C CNN
 F 3 "~" H 3750 7500 50  0001 C CNN
@@ -205,10 +143,10 @@ F 3 "~" H 3750 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Fiducial FID?
+L Mechanical:Fiducial FID6
 U 1 1 5FF52F7A
 P 4250 7500
-F 0 "FID?" H 4335 7546 50  0000 L CNN
+F 0 "FID6" H 4335 7546 50  0000 L CNN
 F 1 "Fiducial" H 4335 7455 50  0000 L CNN
 F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 4250 7500 50  0001 C CNN
 F 3 "~" H 4250 7500 50  0001 C CNN
@@ -216,21 +154,21 @@ F 3 "~" H 4250 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H1
 U 1 1 5FF5350B
-P 2200 6700
-F 0 "H?" H 2300 6749 50  0000 L CNN
-F 1 "MountingHole_M2.5" H 2300 6658 50  0000 L CNN
-F 2 "fp_luxonis:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 2200 6700 50  0001 C CNN
-F 3 "" H 2200 6700 50  0001 C CNN
-	1    2200 6700
+P 2200 6550
+F 0 "H1" H 2300 6599 50  0000 L CNN
+F 1 "MountingHole_M2.5" H 2300 6508 50  0000 L CNN
+F 2 "fp_luxonis:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 2200 6550 50  0001 C CNN
+F 3 "" H 2200 6550 50  0001 C CNN
+	1    2200 6550
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H2
 U 1 1 5FF56FF7
 P 2200 7050
-F 0 "H?" H 2300 7099 50  0000 L CNN
+F 0 "H2" H 2300 7099 50  0000 L CNN
 F 1 "MountingHole_M2.5" H 2300 7008 50  0000 L CNN
 F 2 "fp_luxonis:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 2200 7050 50  0001 C CNN
 F 3 "" H 2200 7050 50  0001 C CNN
@@ -238,10 +176,10 @@ F 3 "" H 2200 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H4
 U 1 1 5FF572C3
 P 3150 7050
-F 0 "H?" H 3250 7099 50  0000 L CNN
+F 0 "H4" H 3250 7099 50  0000 L CNN
 F 1 "MountingHole_M2.5" H 3250 7008 50  0000 L CNN
 F 2 "fp_luxonis:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 3150 7050 50  0001 C CNN
 F 3 "" H 3150 7050 50  0001 C CNN
@@ -249,14 +187,14 @@ F 3 "" H 3150 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H?
+L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H3
 U 1 1 5FF57937
-P 3150 6700
-F 0 "H?" H 3250 6749 50  0000 L CNN
-F 1 "MountingHole_M2.5" H 3250 6658 50  0000 L CNN
-F 2 "fp_luxonis:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 3150 6700 50  0001 C CNN
-F 3 "" H 3150 6700 50  0001 C CNN
-	1    3150 6700
+P 3150 6550
+F 0 "H3" H 3250 6599 50  0000 L CNN
+F 1 "MountingHole_M2.5" H 3250 6508 50  0000 L CNN
+F 2 "fp_luxonis:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 3150 6550 50  0001 C CNN
+F 3 "" H 3150 6550 50  0001 C CNN
+	1    3150 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -270,18 +208,6 @@ F 3 "" H 6650 4650 70  0000 C CNN
 	1    6650 4650
 	0    -1   -1   0   
 $EndComp
-Text HLabel 6650 4250 0    60   Input ~ 0
-COM_AUX_IO2
-Text HLabel 6650 4350 0    60   Output ~ 0
-FSIN2
-Text HLabel 6650 4650 0    60   Input ~ 0
-GND
-Text HLabel 6650 3850 0    60   BiDi ~ 0
-MIPI_CAM_B
-Text HLabel 6650 3950 0    60   BiDi ~ 0
-CTL_CAM_B
-Text HLabel 6650 4050 0    60   BiDi ~ 0
-I2C2
 Wire Wire Line
 	2900 1400 4100 1400
 Wire Wire Line
@@ -307,6 +233,12 @@ S 1750 750  1150 1350
 U 604AEAFA
 F0 "Power Supply" 50
 F1 "BW1098ABC_Power.sch" 50
+F2 "VDD_5V" O R 2900 1100 50 
+F3 "1V2" O R 2900 1600 50 
+F4 "1V8" O R 2900 1500 50 
+F5 "2V8" O R 2900 1400 50 
+F6 "1V05" O R 2900 1700 50 
+F7 "GND" O R 2900 1900 50 
 $EndSheet
 Wire Wire Line
 	4100 1900 4100 4000
@@ -373,4 +305,82 @@ Wire Wire Line
 	7100 4050 8050 4050
 Wire Wire Line
 	2900 1100 8050 1100
+$Sheet
+S 4550 1400 2150 1350
+U 5FF8D4A5
+F0 "IMX378" 50
+F1 "IMX378.sch" 50
+F2 "2V8" I L 4550 1900 50 
+F3 "1V8" I L 4550 2000 50 
+F4 "1V05" I L 4550 2100 50 
+F5 "GND" I R 6700 2400 50 
+F6 "CTL_CAM_A" B R 6700 2000 50 
+F7 "I2C1" B R 6700 2100 50 
+F8 "MIPI_CAM_A" B R 6700 1900 50 
+$EndSheet
+Wire Wire Line
+	8050 2650 6900 2650
+Wire Wire Line
+	6900 2650 6900 4250
+Wire Wire Line
+	6900 4250 6650 4250
+$Sheet
+S 4500 3600 2150 1350
+U 5FF8D2B3
+F0 "LEFT_CAMERA" 50
+F1 "Left.sch" 50
+F2 "FSIN2" O R 6650 4350 50 
+F3 "2V8" I L 4500 4000 50 
+F4 "1V8" I L 4500 4100 50 
+F5 "1V2" I L 4500 4200 50 
+F6 "GND" I R 6650 4650 50 
+F7 "COM_AUX_IO2" I R 6650 4250 50 
+F8 "MIPI_CAM_B" B R 6650 3850 50 
+F9 "CTL_CAM_B" B R 6650 3950 50 
+F10 "I2C2" B R 6650 4050 50 
+$EndSheet
+$Comp
+L power:GND #PWR0107
+U 1 1 6106C817
+P 2200 6650
+F 0 "#PWR0107" H 2200 6400 50  0001 C CNN
+F 1 "GND" H 2205 6477 50  0000 C CNN
+F 2 "" H 2200 6650 50  0001 C CNN
+F 3 "" H 2200 6650 50  0001 C CNN
+	1    2200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 6106D903
+P 3150 6650
+F 0 "#PWR0108" H 3150 6400 50  0001 C CNN
+F 1 "GND" H 3155 6477 50  0000 C CNN
+F 2 "" H 3150 6650 50  0001 C CNN
+F 3 "" H 3150 6650 50  0001 C CNN
+	1    3150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 6106E6FC
+P 3150 7150
+F 0 "#PWR0109" H 3150 6900 50  0001 C CNN
+F 1 "GND" H 3155 6977 50  0000 C CNN
+F 2 "" H 3150 7150 50  0001 C CNN
+F 3 "" H 3150 7150 50  0001 C CNN
+	1    3150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6106EA7D
+P 2200 7150
+F 0 "#PWR0110" H 2200 6900 50  0001 C CNN
+F 1 "GND" H 2205 6977 50  0000 C CNN
+F 2 "" H 2200 7150 50  0001 C CNN
+F 3 "" H 2200 7150 50  0001 C CNN
+	1    2200 7150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
