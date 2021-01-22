@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -161,19 +161,11 @@ Wire Notes Line
 	7850 1350 7850 1850
 Wire Notes Line
 	6350 1550 8550 1550
-Wire Wire Line
-	950  1000 1100 1000
-Wire Wire Line
-	950  700  1100 700 
-Wire Wire Line
-	950  1300 1100 1300
 Text Notes 2950 1200 0    60   ~ 0
 Place FBs and caps close to their associated camera connector.
-Wire Wire Line
-	5550 2950 6950 2950
 Text Notes 600  6600 0    72   ~ 0
 OV9282 sensor I2C address may be changed via I2C protocol. Therefore, in order to assign different I2C address to the \nsensors on the same I2C bus, one needs to hold the reset the all sensors except one and assign a unique I2C address \nto the active sensor. This routine should be applied for all sensors in the initialization routine.  
-Text Notes 650  5800 0    72   ~ 0
+Text Notes 600  5950 0    72   ~ 0
 Because the stereo pair of OV9282 modules hard wired to CAM_B (below) no additional reset cirucitry is required to \naccount for different conditions. This means that "CAM1" (Left) is reset via CAM_PWDN, and "CAM2" (Right), is reset\n via CAM_PWM. This also means that the signal CAM_AUX_IO1 is no longer required here, as that was only possible if \nthe stereo pair were connected to CAM_C or CAM_D  
 Text Notes 6450 4550 1    60   ~ 0
 Parameter \nSet\n
@@ -342,7 +334,7 @@ Connection ~ 3150 4950
 Wire Wire Line
 	7350 2750 7850 2750
 Wire Wire Line
-	5550 2750 6950 2750
+	5550 2750 6850 2750
 Wire Wire Line
 	5650 3750 5650 3650
 Wire Wire Line
@@ -390,8 +382,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 3150 5550 3150
 Wire Wire Line
-	5550 2550 6550 2550
-Wire Wire Line
 	3450 4850 3450 4950
 Wire Wire Line
 	3450 4950 3150 4950
@@ -423,8 +413,6 @@ Wire Wire Line
 	6450 4550 6050 4550
 Text Label 6050 3550 0    60   ~ 0
 STRB2
-Text Label 6050 3150 0    60   ~ 0
-FSIN2_IN
 Text Notes 2950 7000 0    60   ~ 0
 CAMERA CONNECTOR RESET CONNECTION TABLE
 Text Notes 4950 7200 0    60   ~ 0
@@ -473,13 +461,11 @@ Wire Notes Line
 	550  7500 7550 7500
 Wire Notes Line
 	550  7500 550  5200
-Text HLabel 2200 2600 0    60   BiDi ~ 0
-MIPI_CAM_C
-Text Notes 1050 2900 0    60   ~ 0
+Text Notes 1500 2600 0    60   ~ 0
 DPHYv1.2
-Text Notes 1050 3000 0    60   ~ 0
+Text Notes 1500 2700 0    60   ~ 0
 Max 2.1 Gbps / lane
-Text Notes 1050 2800 0    60   ~ 0
+Text Notes 1500 2500 0    60   ~ 0
 MIPI Lanes:
 $Comp
 L power:GND #GND_?
@@ -494,18 +480,8 @@ F 3 "" H 3650 3750 70  0000 C CNN
 	1    3650 3750
 	1    0    0    -1  
 $EndComp
-Text Label 6050 2750 0    60   ~ 0
-CAM_B_D_PWM
-Text Label 6550 2550 2    60   ~ 0
-CAM_B_CLK_OUT
-Text Label 6950 2850 2    60   ~ 0
-I2C2_SCL
-Text Label 6950 2950 2    60   ~ 0
-I2C2_SDA
 Text Notes 3650 2150 0    72   ~ 14
 Place so that this is the module's right camera.
-Text Label 7900 3150 2    60   ~ 0
-FSIN2
 $Comp
 L power:GND #GND_?
 U 1 1 6041DD52
@@ -614,25 +590,12 @@ F 3 "" H 1100 700 50  0001 C CNN
 	1    1100 700 
 	1    0    0    -1  
 $EndComp
-Connection ~ 1100 700 
 Wire Wire Line
 	1100 700  1350 700 
-Connection ~ 1100 1000
 Wire Wire Line
 	1100 1000 1350 1000
-Connection ~ 1100 1300
 Wire Wire Line
 	1100 1300 1350 1300
-Text HLabel 950  700  0    60   Input ~ 0
-2V8
-Text HLabel 950  1000 0    60   Input ~ 0
-1V8
-Text HLabel 950  1300 0    60   Input ~ 0
-1V2
-Wire Wire Line
-	5550 2850 6950 2850
-Text HLabel 7900 3150 2    50   Input ~ 0
-FSIN2
 Text Notes 4950 4550 1    60   ~ 0
 Parameter \nSet\n
 Text Notes 3450 4550 1    60   ~ 0
@@ -679,40 +642,6 @@ $EndComp
 Connection ~ 3000 4550
 Wire Wire Line
 	3000 4550 2850 4550
-Text HLabel 8850 4150 0    60   BiDi ~ 0
-I2C2
-Text Label 9300 4500 2    50   ~ 0
-I2C2_SDA
-Text Label 9300 4600 2    50   ~ 0
-I2C2_SCL
-Entry Wire Line
-	8850 4500 8950 4600
-Entry Wire Line
-	8850 4400 8950 4500
-Wire Wire Line
-	8950 4500 9300 4500
-Wire Wire Line
-	9300 4600 8950 4600
-Text Label 8600 3350 0    60   ~ 0
-CAM_B_PWDN_N
-Wire Wire Line
-	9500 3350 8600 3350
-Wire Wire Line
-	9500 3500 8600 3500
-Entry Wire Line
-	9500 3350 9600 3450
-Entry Wire Line
-	9500 3500 9600 3600
-Text HLabel 9600 2750 2    50   BiDi ~ 0
-CTL_CAM_B
-Text Label 8600 3500 0    60   ~ 0
-CAM_B_CLK_OUT
-Wire Wire Line
-	8600 3200 9500 3200
-Entry Wire Line
-	9500 3200 9600 3300
-Text Label 8600 3200 0    60   ~ 0
-CAM_B_D_PWM
 Wire Wire Line
 	3750 2850 2300 2850
 Wire Wire Line
@@ -725,53 +654,12 @@ Wire Wire Line
 	3750 3450 2300 3450
 Wire Wire Line
 	2300 3550 3750 3550
-Text Label 2300 2950 0    50   ~ 0
-MIPI_RX3_D1_N
-Text Label 2300 2850 0    50   ~ 0
-MIPI_RX3_D1_P
-Text Label 2300 3250 0    50   ~ 0
-MIPI_RX3_D0_N
-Text Label 2300 3150 0    50   ~ 0
-MIPI_RX3_D0_P
-Text Label 2300 3550 0    50   ~ 0
-MIPI_RX3_C_N
-Text Label 2300 3450 0    50   ~ 0
-MIPI_RX3_C_P
-Entry Wire Line
-	2300 2850 2200 2950
-Entry Wire Line
-	2300 2950 2200 3050
-Entry Wire Line
-	2300 3150 2200 3250
-Entry Wire Line
-	2300 3250 2200 3350
-Entry Wire Line
-	2300 3450 2200 3550
-Entry Wire Line
-	2300 3550 2200 3650
 Text Label 2450 700  0    60   ~ 0
 2V8_R
 Text Label 2450 1000 0    60   ~ 0
 1V8_R
 Text Label 2450 1300 0    60   ~ 0
 1V2_R
-Wire Wire Line
-	1050 1600 950  1600
-$Comp
-L power:GND #GND_?
-U 1 1 6041DD77
-P 1050 1600
-AR Path="/5FD7EFD1/6041DD77" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D40A/6041DD77" Ref="#GND_024"  Part="1" 
-F 0 "#GND_024" H 1050 1600 20  0000 C CNN
-F 1 "GND" H 1050 1530 30  0000 C CNN
-F 2 "" H 1050 1600 70  0000 C CNN
-F 3 "" H 1050 1600 70  0000 C CNN
-	1    1050 1600
-	1    0    0    -1  
-$EndComp
-Text HLabel 950  1600 0    60   Input ~ 0
-GND
 Text Label 5950 3350 2    60   ~ 0
 2V8_R
 Text Label 3250 2550 0    60   ~ 0
@@ -792,10 +680,39 @@ Wire Wire Line
 	1950 1300 2450 1300
 Wire Wire Line
 	7350 3150 7900 3150
-Wire Bus Line
-	8850 4150 8850 4500
-Wire Bus Line
-	9600 2750 9600 3600
-Wire Bus Line
-	2200 2600 2200 3650
+Text GLabel 7200 2650 2    50   BiDi ~ 0
+CAM_B_D_PWM
+Text GLabel 6200 2550 2    50   BiDi ~ 0
+CAM_B_CLK_OUT
+Text GLabel 2300 2850 0    50   BiDi ~ 0
+MIPI_RX3_D1_N
+Text GLabel 2300 2950 0    50   BiDi ~ 0
+MIPI_RX3_D1_P
+Text GLabel 2300 3150 0    50   BiDi ~ 0
+MIPI_RX3_D0_N
+Text GLabel 2300 3250 0    50   BiDi ~ 0
+MIPI_RX3_D0_P
+Text GLabel 2300 3450 0    50   BiDi ~ 0
+MIPI_RX3_C_N
+Text GLabel 2300 3550 0    50   BiDi ~ 0
+MIPI_RX3_C_P
+Wire Wire Line
+	7200 2650 6850 2650
+Wire Wire Line
+	6850 2650 6850 2750
+Connection ~ 6850 2750
+Wire Wire Line
+	6850 2750 6950 2750
+Wire Wire Line
+	6200 2550 5550 2550
+Text GLabel 7900 3150 2    50   Input ~ 0
+FSIN2
+Text GLabel 6300 2950 2    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 6300 2850 2    50   BiDi ~ 0
+I2C2_SCL
+Wire Wire Line
+	6300 2850 5550 2850
+Wire Wire Line
+	5550 2950 6300 2950
 $EndSCHEMATC

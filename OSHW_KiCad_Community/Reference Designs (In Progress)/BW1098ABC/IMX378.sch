@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 6
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -13,21 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L power:GND #GND_?
-U 1 1 5FFB0A3C
-P 1150 1750
-AR Path="/5FD7EFCF/5FFB0A3C" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0A3C" Ref="#GND_019"  Part="1" 
-F 0 "#GND_019" H 1150 1750 20  0000 C CNN
-F 1 "GND" H 1150 1680 30  0000 C CNN
-F 2 "" H 1150 1750 70  0000 C CNN
-F 3 "" H 1150 1750 70  0000 C CNN
-	1    1150 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 1750 1050 1750
 $Comp
 L Device:L_Core_Ferrite FB1
 U 1 1 5FFD254F
@@ -258,7 +243,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 2850 8450 2850
 Wire Wire Line
-	9650 3350 8450 3350
+	9650 3350 8900 3350
 Wire Wire Line
 	6650 5050 6150 5050
 Wire Wire Line
@@ -310,39 +295,13 @@ U 1 1 5FFB0A36
 P 10150 3350
 AR Path="/5FD7EFCF/5FFB0A36" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0A36" Ref="#GND_023"  Part="1" 
-F 0 "#GND_023" H 10150 3490 20  0000 C CNN
-F 1 "GND" H 10150 3460 30  0000 C CNN
+F 0 "#GND_023" H 10150 3450 20  0000 C CNN
+F 1 "GND" H 10150 3400 30  0000 C CNN
 F 2 "" H 10150 3350 70  0000 C CNN
 F 3 "" H 10150 3350 70  0000 C CNN
 	1    10150 3350
 	1    0    0    -1  
 $EndComp
-Text Label 9650 3650 2    60   ~ 0
-I2C1_SCL
-Text Label 9650 3750 2    60   ~ 0
-I2C1_SDA
-Text Label 8850 3350 0    60   ~ 0
-CAM_A_PWDN_N
-Text Label 5500 3150 0    60   ~ 0
-MIPI_RX4_D0_P
-Text Label 5500 3050 0    60   ~ 0
-MIPI_RX4_D0_N
-Text Label 9650 3150 2    60   ~ 0
-MIPI_RX4_D1_P
-Text Label 9650 3050 2    60   ~ 0
-MIPI_RX4_D1_N
-Text Label 5500 3450 0    60   ~ 0
-MIPI_RX5_D2_P
-Text Label 5500 3350 0    60   ~ 0
-MIPI_RX5_D2_N
-Text Label 5500 2850 0    60   ~ 0
-MIPI_RX5_D3_P
-Text Label 5500 2750 0    60   ~ 0
-MIPI_RX5_D3_N
-Text Label 9650 2850 2    60   ~ 0
-MIPI_RX4_C_N
-Text Label 9650 2950 2    60   ~ 0
-MIPI_RX4_C_P
 Text Notes 5350 1450 0    120  ~ 24
 IMX378 MODULE CONNECTOR
 Wire Notes Line
@@ -351,8 +310,6 @@ Wire Notes Line
 	5150 1150 10750 1150
 Wire Notes Line
 	5150 6050 10750 6050
-Wire Notes Line
-	5150 6050 5150 1150
 Wire Notes Line
 	9750 1550 5350 1550
 Text Notes 6750 1650 0    60   ~ 0
@@ -402,12 +359,6 @@ SENSOR
 NoConn ~ 8450 3450
 NoConn ~ 8450 3550
 NoConn ~ 8450 4050
-Text Label 9600 2650 2    60   ~ 0
-CAM_A_CLK_OUT
-Text Label 850  4800 0    60   ~ 0
-CAM_A_PWDN_N
-Wire Wire Line
-	1750 4800 850  4800
 $Comp
 L Device:L_Core_Ferrite FB2
 U 1 1 5FFE6B4A
@@ -430,14 +381,6 @@ F 3 "~" H 1600 1450 50  0001 C CNN
 	1    1600 1450
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1050 850  0    60   Input ~ 0
-2V8
-Text HLabel 1050 1150 0    60   Input ~ 0
-1V8
-Text HLabel 1050 1450 0    60   Input ~ 0
-1V05
-Text HLabel 1050 1750 0    60   Input ~ 0
-GND
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 6005D76E
@@ -493,16 +436,6 @@ Wire Wire Line
 Connection ~ 8450 2650
 Wire Wire Line
 	8450 2650 8400 2650
-Wire Wire Line
-	1750 4950 850  4950
-Entry Wire Line
-	1750 4800 1850 4900
-Entry Wire Line
-	1750 4950 1850 5050
-Text HLabel 1850 4200 2    50   BiDi ~ 0
-CTL_CAM_A
-Text Label 850  4950 0    60   ~ 0
-CAM_A_CLK_OUT
 Text Label 2300 850  2    50   ~ 0
 2V8_IMX378
 Wire Wire Line
@@ -529,128 +462,45 @@ Text Label 6250 4050 2    50   ~ 0
 1V05_IMX378
 Text Label 8750 3850 0    50   ~ 0
 2V8_IMX378
-Wire Wire Line
-	3250 4950 4100 4950
-Wire Wire Line
-	4100 5100 3250 5100
-Text Label 3250 4950 0    60   ~ 0
-I2C1_SCL
-Text Label 3250 5100 0    60   ~ 0
-I2C1_SDA
-Entry Wire Line
-	4100 4950 4200 5050
-Entry Wire Line
-	4100 5100 4200 5200
-Text HLabel 4200 4100 2    50   BiDi ~ 0
-I2C1
-Text HLabel 4150 1400 0    50   BiDi ~ 0
-MIPI_CAM_A
-Entry Wire Line
-	4050 3350 4150 3450
-Entry Wire Line
-	4050 3250 4150 3350
-Entry Wire Line
-	4050 3050 4150 3150
-Entry Wire Line
-	4050 2950 4150 3050
-Entry Wire Line
-	4050 2750 4150 2850
-Entry Wire Line
-	4050 2650 4150 2750
-Entry Wire Line
-	4050 2450 4150 2550
-Entry Wire Line
-	4050 2350 4150 2450
-Entry Wire Line
-	4050 2150 4150 2250
-Entry Wire Line
-	4050 2050 4150 2150
-Wire Wire Line
-	0    0    0    0   
 $Comp
 L power:+1V8 #PWR?
 U 1 1 5FFCE432
-P 1100 1100
+P 1050 1150
 AR Path="/604AEAFA/5FFCE432" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D4A5/5FFCE432" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1100 950 50  0001 C CNN
-F 1 "+1V8" H 1115 1273 50  0000 C CNN
-F 2 "" H 1100 1100 50  0001 C CNN
-F 3 "" H 1100 1100 50  0001 C CNN
-	1    1100 1100
+AR Path="/5FF8D4A5/5FFCE432" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 1050 1000 50  0001 C CNN
+F 1 "+1V8" H 1065 1323 50  0000 C CNN
+F 2 "" H 1050 1150 50  0001 C CNN
+F 3 "" H 1050 1150 50  0001 C CNN
+	1    1050 1150
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+2V8 #PWR?
 U 1 1 5FFCE438
-P 1100 800
+P 1050 850
 AR Path="/604AEAFA/5FFCE438" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D4A5/5FFCE438" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1100 650 50  0001 C CNN
-F 1 "+2V8" H 1115 973 50  0000 C CNN
-F 2 "" H 1100 800 50  0001 C CNN
-F 3 "" H 1100 800 50  0001 C CNN
-	1    1100 800 
+AR Path="/5FF8D4A5/5FFCE438" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 1050 700 50  0001 C CNN
+F 1 "+2V8" H 1065 1023 50  0000 C CNN
+F 2 "" H 1050 850 50  0001 C CNN
+F 3 "" H 1050 850 50  0001 C CNN
+	1    1050 850 
 	1    0    0    -1  
 $EndComp
 $Comp
 L DEPTH:+1V05 #PWR?
 U 1 1 5FFCE43E
-P 1100 1400
+P 1050 1450
 AR Path="/604AEAFA/5FFCE43E" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D4A5/5FFCE43E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1100 1250 50  0001 C CNN
-F 1 "+1V05" H 1115 1573 50  0000 C CNN
-F 2 "" H 1100 1400 50  0001 C CNN
-F 3 "" H 1100 1400 50  0001 C CNN
-	1    1100 1400
+AR Path="/5FF8D4A5/5FFCE43E" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 1050 1300 50  0001 C CNN
+F 1 "+1V05" H 1065 1623 50  0000 C CNN
+F 2 "" H 1050 1450 50  0001 C CNN
+F 3 "" H 1050 1450 50  0001 C CNN
+	1    1050 1450
 	1    0    0    -1  
 $EndComp
-Connection ~ 1100 1400
-Wire Wire Line
-	3100 3250 4050 3250
-Wire Wire Line
-	3100 3050 4050 3050
-Wire Wire Line
-	3100 2950 4050 2950
-Wire Wire Line
-	3100 2750 4050 2750
-Wire Wire Line
-	3100 2650 4050 2650
-Wire Wire Line
-	3100 2450 4050 2450
-Wire Wire Line
-	3100 2350 4050 2350
-Wire Wire Line
-	3100 2150 4050 2150
-Wire Wire Line
-	3100 2050 4050 2050
-Text Notes 3200 1750 0    60   ~ 0
-DPHYv1.2
-Text Label 3100 2150 0    60   ~ 0
-MIPI_RX4_C_P
-Text Label 3100 2050 0    60   ~ 0
-MIPI_RX4_C_N
-Text Label 3100 2350 0    60   ~ 0
-MIPI_RX4_D0_N
-Text Label 3100 2450 0    60   ~ 0
-MIPI_RX4_D0_P
-Text Label 3100 2650 0    60   ~ 0
-MIPI_RX4_D1_N
-Text Label 3100 2750 0    60   ~ 0
-MIPI_RX4_D1_P
-Text Label 3100 2950 0    60   ~ 0
-MIPI_RX5_D2_N
-Text Label 3100 3050 0    60   ~ 0
-MIPI_RX5_D2_P
-Text Label 3100 3250 0    60   ~ 0
-MIPI_RX5_D3_N
-Text Label 3100 3350 0    60   ~ 0
-MIPI_RX5_D3_P
-Text Notes 3200 1600 0    60   ~ 0
-MIPI Lanes:
-Text Notes 2950 1850 0    60   ~ 0
-Max 2.1 Gbps / lane
 Wire Wire Line
 	5500 2750 6650 2750
 Wire Wire Line
@@ -663,52 +513,39 @@ Wire Wire Line
 	5500 3350 6650 3350
 Wire Wire Line
 	5500 3450 6650 3450
-Text Label 3850 2050 0    60   ~ 0
-A1
-Text Label 3850 2150 0    60   ~ 0
-A2
-Text Label 3850 2350 0    60   ~ 0
-A3
-Text Label 3850 2450 0    60   ~ 0
-A4
-Text Label 3850 2650 0    60   ~ 0
-A5
-Text Label 8750 3150 0    60   ~ 0
-A6
-Text Label 3850 2950 0    60   ~ 0
-A7
-Text Label 3850 3050 0    60   ~ 0
-A8
-Text Label 3850 3250 0    60   ~ 0
-A9
-Text Label 3850 3350 0    60   ~ 0
-A10
-Text Label 8750 2850 0    60   ~ 0
-A1
-Text Label 8750 2950 0    60   ~ 0
-A2
-Text Label 6300 3050 0    60   ~ 0
-A3
-Text Label 6300 3150 0    60   ~ 0
-A4
-Text Label 8750 3050 0    60   ~ 0
-A5
-Text Label 3850 2750 0    60   ~ 0
-A6
-Text Label 6300 3350 0    60   ~ 0
-A7
-Text Label 6300 3450 0    60   ~ 0
-A8
-Text Label 6300 2750 0    60   ~ 0
-A9
-Text Label 6300 2850 0    60   ~ 0
-A10
-Text Label 4150 1900 1    60   ~ 0
-A[1...10]
-Wire Bus Line
-	1850 4200 1850 5050
-Wire Bus Line
-	4200 4100 4200 5200
-Wire Bus Line
-	4150 1400 4150 3450
+Text GLabel 9650 2850 2    50   BiDi ~ 0
+MIPI_RX4_C_N
+Text GLabel 9650 2950 2    50   BiDi ~ 0
+MIPI_RX4_C_P
+Text GLabel 5500 3050 0    50   BiDi ~ 0
+MIPI_RX4_D0_N
+Text GLabel 5500 3150 0    50   BiDi ~ 0
+MIPI_RX4_D0_P
+Text GLabel 9650 3050 2    50   BiDi ~ 0
+MIPI_RX4_D1_N
+Text GLabel 9650 3150 2    50   BiDi ~ 0
+MIPI_RX4_D1_P
+Text GLabel 5500 3350 0    50   BiDi ~ 0
+MIPI_RX5_D0_N
+Text GLabel 5500 3450 0    50   BiDi ~ 0
+MIPI_RX5_D0_P
+Text GLabel 5500 2750 0    50   BiDi ~ 0
+MIPI_RX5_D1_N
+Text GLabel 5500 2850 0    50   BiDi ~ 0
+MIPI_RX5_D1_P
+Text GLabel 9650 3750 2    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 9650 3650 2    50   BiDi ~ 0
+I2C1_SCL
+Text GLabel 9000 3500 2    50   BiDi ~ 0
+CAM_A_PWDN_N
+Text GLabel 9600 2650 2    50   BiDi ~ 0
+CAM_A_CLK_OUT
+Wire Wire Line
+	9000 3500 8900 3500
+Wire Wire Line
+	8900 3500 8900 3350
+Connection ~ 8900 3350
+Wire Wire Line
+	8900 3350 8450 3350
 $EndSCHEMATC

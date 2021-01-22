@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 6
+Sheet 2 7
 Title ""
 Date ""
 Rev ""
@@ -13,12 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7550 9400 0    60   BiDi ~ 0
-MIPI_CAM_B
-Text HLabel 13050 8000 2    60   BiDi ~ 0
-MIPI_CAM_C
-Text HLabel 6600 7400 0    60   BiDi ~ 0
-I2C2
 $Comp
 L power:GND #GND_?
 U 1 1 6009EE60
@@ -875,43 +869,6 @@ F 3 "" H 12800 5350 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	11500 5350 12800 5350
-$Comp
-L power:GND #GND_?
-U 1 1 6009F11C
-P 14650 1950
-AR Path="/5FD7EFCD/6009F11C" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D9B2/6009F11C" Ref="#GND_018"  Part="1" 
-F 0 "#GND_018" H 14650 1950 20  0001 C CNN
-F 1 "GND" H 14650 1880 30  0000 C CNN
-F 2 "" H 14650 1950 70  0000 C CNN
-F 3 "" H 14650 1950 70  0000 C CNN
-	1    14650 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:4.7UF0603-SparkFun-Capacitors C?
-U 1 1 6009F123
-P 14650 1850
-AR Path="/5FD7EFCD/6009F123" Ref="C?"  Part="1" 
-AR Path="/5FF8D9B2/6009F123" Ref="C1"  Part="1" 
-AR Path="/6009F123" Ref="C?"  Part="1" 
-F 0 "C1" H 14758 1995 45  0000 L CNN
-F 1 "4.7UF0603" H 14758 1911 45  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 14650 2100 20  0001 C CNN
-F 3 "" H 14650 1850 50  0001 C CNN
-F 4 "CAP-08280" H 14758 1816 60  0000 L CNN "Field4"
-F 5 "10V" H 14650 1850 50  0001 C CNN "Voltage Rating"
-	1    14650 1850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14650 1650 14400 1650
-Text Label 14400 1650 0    58   ~ 0
-nMR
-Text Notes 14700 1400 0    50   ~ 0
-PMS150C powered by 5V\nso that it is the first in the \npower sequence to turn on
-Text Notes 14100 1100 0    50   ~ 0
-Code executed when PMS150C comes out of RST \n(PRST#), toggling RST_1 as required
 Text Notes 8400 8250 0    50   ~ 0
 DIFFPAIR
 Text Notes 8500 3050 0    50   ~ 0
@@ -961,7 +918,7 @@ Connection ~ 12800 5350
 Wire Wire Line
 	12800 5350 12950 5350
 $Comp
-L depthAI_sch:Layout_Guide_BW1099 MISC1
+L DEPTH:Layout_Guide_BW1099 MISC1
 U 1 1 6017E490
 P 10350 2350
 F 0 "MISC1" H 10628 2447 58  0000 L CNN
@@ -972,57 +929,6 @@ F 4 "DNP" H 10628 2247 50  0000 L CNN "Population"
 	1    10350 2350
 	1    0    0    -1  
 $EndComp
-Text HLabel 1500 850  0    50   Input ~ 0
-VDD_5V
-Text HLabel 1500 1100 0    50   Input ~ 0
-GND
-$Comp
-L power:GND #GND_?
-U 1 1 601ECCA4
-P 1750 1150
-AR Path="/5FD7EFCD/601ECCA4" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D9B2/601ECCA4" Ref="#GND_01"  Part="1" 
-F 0 "#GND_01" H 1750 1150 20  0000 C CNN
-F 1 "GND" H 1750 1080 30  0000 C CNN
-F 2 "" H 1750 1150 70  0000 C CNN
-F 3 "" H 1750 1150 70  0000 C CNN
-	1    1750 1150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1500 1100 1750 1100
-Wire Wire Line
-	1750 1100 1750 1150
-Text HLabel 12950 5350 2    50   Output ~ 0
-COM_AUX_IO2
-Text Label 14250 4650 0    60   ~ 0
-CAM_A_PWDN_N
-Wire Wire Line
-	15150 4650 14250 4650
-Wire Wire Line
-	15150 4800 14250 4800
-Entry Wire Line
-	15150 4650 15250 4750
-Entry Wire Line
-	15150 4800 15250 4900
-Text HLabel 15250 4050 2    50   BiDi ~ 0
-CTL_CAM_A
-Text Label 14250 4800 0    60   ~ 0
-CAM_A_CLK_OUT
-Wire Wire Line
-	4200 5100 5050 5100
-Wire Wire Line
-	5050 5250 4200 5250
-Text Label 4200 5100 0    60   ~ 0
-I2C1_SCL
-Text Label 4200 5250 0    60   ~ 0
-I2C1_SDA
-Entry Wire Line
-	5050 5100 5150 5200
-Entry Wire Line
-	5050 5250 5150 5350
-Text HLabel 5150 4250 2    50   BiDi ~ 0
-I2C1
 Text Label 7700 3050 0    60   ~ 0
 MIPI_RX4_C_N
 Text Label 7700 3150 0    60   ~ 0
@@ -1043,14 +949,10 @@ Text Label 7700 4250 0    60   ~ 0
 MIPI_RX5_D3_N
 Text Label 7700 4350 0    60   ~ 0
 MIPI_RX5_D3_P
-Text Label 13000 4650 2    50   ~ 0
-CAM_A_CLK_OUT
 Wire Wire Line
 	13000 4650 11500 4650
 Wire Wire Line
 	11500 4950 13000 4950
-Text Label 13000 4950 2    50   ~ 0
-CAM_A_PWDN_N
 Text Label 8150 4750 0    60   ~ 0
 I2C1_SCL
 Text Label 8150 4850 0    60   ~ 0
@@ -1075,18 +977,10 @@ Wire Wire Line
 	9100 3150 7700 3150
 Wire Wire Line
 	7700 3050 9100 3050
-NoConn ~ 11500 3550
-NoConn ~ 11500 3650
-NoConn ~ 11500 3850
-NoConn ~ 11500 3950
-NoConn ~ 11500 4150
-NoConn ~ 11500 4250
 Wire Wire Line
 	9100 4750 8150 4750
 Wire Wire Line
 	8150 4850 9100 4850
-Text Label 1900 850  0    50   ~ 0
-+5V
 Text Label 1850 2900 0    50   ~ 0
 +5V
 $Comp
@@ -1149,9 +1043,9 @@ Wire Wire Line
 	5250 10350 5600 10350
 Wire Wire Line
 	5600 10450 5250 10450
-Text Label 5250 10350 0    50   ~ 0
+Text Label 5600 10350 2    50   ~ 0
 I2C3_SCL
-Text Label 5250 10450 0    50   ~ 0
+Text Label 5600 10450 2    50   ~ 0
 I2C3_SDA
 Text Label 5600 10550 2    50   ~ 0
 UART_RX
@@ -1161,10 +1055,6 @@ Wire Wire Line
 	5250 10550 5600 10550
 Wire Wire Line
 	5250 10650 5600 10650
-Text Label 12600 3050 2    50   ~ 0
-UART_RX
-Text Label 12600 3150 2    50   ~ 0
-UART_TX
 Text Label 12750 4850 2    50   ~ 0
 SD_HST0_D3
 Text Label 12750 5050 2    50   ~ 0
@@ -1203,36 +1093,6 @@ Wire Wire Line
 	11500 8850 12950 8850
 Wire Wire Line
 	12950 8950 11500 8950
-Text Label 12950 8250 2    50   ~ 0
-MIPI_RX3_D1_N
-Text Label 12950 8350 2    50   ~ 0
-MIPI_RX3_D1_P
-Text Label 12950 8550 2    50   ~ 0
-MIPI_RX3_D0_N
-Text Label 12950 8650 2    50   ~ 0
-MIPI_RX3_D0_P
-Text Label 12950 8850 2    50   ~ 0
-MIPI_RX3_C_N
-Text Label 12950 8950 2    50   ~ 0
-MIPI_RX3_C_P
-Entry Wire Line
-	12950 8250 13050 8350
-Entry Wire Line
-	12950 8350 13050 8450
-Entry Wire Line
-	12950 8550 13050 8650
-Entry Wire Line
-	12950 8650 13050 8750
-Entry Wire Line
-	12950 8850 13050 8950
-Entry Wire Line
-	12950 8950 13050 9050
-Text Label 7000 6950 0    50   ~ 0
-CAM_B_D_PWM
-Text Label 7000 7050 0    50   ~ 0
-CAM_B_PWDN_N
-Text Label 7050 7350 0    50   ~ 0
-CAM_B_CLK_OUT
 Wire Wire Line
 	7050 7350 9100 7350
 Text Label 8050 6650 0    50   ~ 0
@@ -1243,18 +1103,6 @@ Text Label 8050 6850 0    50   ~ 0
 SD_HST0_CMD
 Text Label 8050 7150 0    50   ~ 0
 AUX_IO_IRQ
-Text Label 6700 7750 0    50   ~ 0
-I2C2_SDA
-Text Label 6700 7850 0    50   ~ 0
-I2C2_SCL
-Entry Wire Line
-	6600 7750 6700 7850
-Entry Wire Line
-	6600 7650 6700 7750
-Entry Wire Line
-	12850 7750 12750 7850
-Entry Wire Line
-	12850 7650 12750 7750
 $Comp
 L power:+5V #PWR0105
 U 1 1 60BB1D14
@@ -1345,18 +1193,6 @@ Text Label 1050 6400 0    50   ~ 0
 2485_PGOOD
 Wire Wire Line
 	1550 6400 1050 6400
-Text Label 7650 8250 0    50   ~ 0
-MIPI_RX2_D1_N
-Text Label 7650 8350 0    50   ~ 0
-MIPI_RX2_D1_P
-Text Label 7650 8550 0    50   ~ 0
-MIPI_RX2_D0_N
-Text Label 7650 8650 0    50   ~ 0
-MIPI_RX2_D0_P
-Text Label 7650 8850 0    50   ~ 0
-MIPI_RX2_C_N
-Text Label 7650 8950 0    50   ~ 0
-MIPI_RX2_C_P
 Wire Wire Line
 	7650 8950 9100 8950
 Wire Wire Line
@@ -1369,49 +1205,12 @@ Wire Wire Line
 	7650 8350 9100 8350
 Wire Wire Line
 	7650 8250 9100 8250
-Entry Wire Line
-	7550 8350 7650 8250
-Entry Wire Line
-	7550 8450 7650 8350
-Entry Wire Line
-	7550 8650 7650 8550
-Entry Wire Line
-	7550 8750 7650 8650
-Entry Wire Line
-	7550 8950 7650 8850
-Entry Wire Line
-	7550 9050 7650 8950
-Wire Wire Line
-	9100 6150 8500 6150
-Wire Wire Line
-	8500 6150 8500 6050
-Connection ~ 8500 6050
 Text Label 7150 5500 0    50   ~ 0
 MODULE_nRST
 Text Label 6100 5350 0    50   ~ 0
 2485_WAKEUP
 Text Label 6100 5150 0    50   ~ 0
 2485_PGOOD
-Text Label 3950 7450 0    60   ~ 0
-CAM_B_D_PWM
-Entry Wire Line
-	4850 7450 4950 7550
-Wire Wire Line
-	3950 7450 4850 7450
-Text Label 3950 7750 0    60   ~ 0
-CAM_B_CLK_OUT
-Text HLabel 4950 7000 2    50   BiDi ~ 0
-CTL_CAM_B
-Entry Wire Line
-	4850 7750 4950 7850
-Entry Wire Line
-	4850 7600 4950 7700
-Wire Wire Line
-	4850 7750 3950 7750
-Wire Wire Line
-	4850 7600 3950 7600
-Text Label 3950 7600 0    60   ~ 0
-CAM_B_PWDN_N
 Text Notes 7600 2750 0    60   ~ 0
 DPHYv1.2
 Text Notes 7600 2600 0    60   ~ 0
@@ -1439,23 +1238,103 @@ A9
 Text Label 8850 4350 0    60   ~ 0
 A10
 Wire Wire Line
-	1500 850  1900 850 
-Wire Wire Line
 	7000 6950 9100 6950
 Wire Wire Line
 	7000 7050 9100 7050
-Wire Bus Line
-	5150 4250 5150 5350
-Wire Bus Line
-	15250 4050 15250 4900
-Wire Bus Line
-	6600 7400 6600 7750
-Wire Bus Line
-	12850 7500 12850 7750
-Wire Bus Line
-	4950 7000 4950 7850
-Wire Bus Line
-	13050 8000 13050 9050
-Wire Bus Line
-	7550 8350 7550 9400
+Text GLabel 7700 3050 0    50   BiDi ~ 0
+MIPI_RX4_C_N
+Text GLabel 7700 3150 0    50   BiDi ~ 0
+MIPI_RX4_C_P
+Text GLabel 7700 3350 0    50   BiDi ~ 0
+MIPI_RX4_D0_N
+Text GLabel 7700 3450 0    50   BiDi ~ 0
+MIPI_RX4_D0_P
+Text GLabel 7700 3650 0    50   BiDi ~ 0
+MIPI_RX4_D1_N
+Text GLabel 7700 3750 0    50   BiDi ~ 0
+MIPI_RX4_D1_P
+Text GLabel 7700 3950 0    50   BiDi ~ 0
+MIPI_RX5_D0_N
+Text GLabel 7700 4050 0    50   BiDi ~ 0
+MIPI_RX5_D0_P
+Text GLabel 7700 4250 0    50   BiDi ~ 0
+MIPI_RX5_D1_N
+Text GLabel 7700 4350 0    50   BiDi ~ 0
+MIPI_RX5_D1_P
+Text GLabel 12950 5350 2    50   Output ~ 0
+COM_AUX_IO2
+Text GLabel 12950 8250 2    50   BiDi ~ 0
+MIPI_RX3_D1_N
+Text GLabel 12950 8350 2    50   BiDi ~ 0
+MIPI_RX3_D1_P
+Text GLabel 12950 8550 2    50   BiDi ~ 0
+MIPI_RX3_D0_N
+Text GLabel 12950 8650 2    50   BiDi ~ 0
+MIPI_RX3_D0_P
+Text GLabel 12950 8850 2    50   BiDi ~ 0
+MIPI_RX3_C_N
+Text GLabel 12950 8950 2    50   BiDi ~ 0
+MIPI_RX3_C_P
+Text GLabel 7650 8250 0    50   BiDi ~ 0
+MIPI_RX2_D1_N
+Text GLabel 7650 8350 0    50   BiDi ~ 0
+MIPI_RX2_D1_P
+Text GLabel 7650 8550 0    50   BiDi ~ 0
+MIPI_RX2_D0_N
+Text GLabel 7650 8650 0    50   BiDi ~ 0
+MIPI_RX2_D0_P
+Text GLabel 7650 8850 0    50   BiDi ~ 0
+MIPI_RX2_C_N
+Text GLabel 7650 8950 0    50   BiDi ~ 0
+MIPI_RX2_C_P
+Text GLabel 8150 4750 0    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 8150 4850 0    50   BiDi ~ 0
+I2C1_SCL
+Text GLabel 12200 3950 2    50   BiDi ~ 0
+USB_D_N
+Text GLabel 12200 3850 2    50   BiDi ~ 0
+USB_D_P
+Text GLabel 12200 3650 2    50   BiDi ~ 0
+USB_RX_N
+Text GLabel 12200 3550 2    50   BiDi ~ 0
+USB_RX_P
+Text GLabel 12200 4250 2    50   BiDi ~ 0
+USB_TX_N
+Text GLabel 12200 4150 2    50   BiDi ~ 0
+USB_TX_P
+Text GLabel 13000 4950 2    50   BiDi ~ 0
+CAM_A_PWDN_N
+Text GLabel 13000 4650 2    50   BiDi ~ 0
+CAM_A_CLK_OUT
+Text GLabel 6700 7750 0    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 6700 7850 0    50   BiDi ~ 0
+I2C2_SCL
+Text GLabel 7000 6950 0    50   BiDi ~ 0
+CAM_B_D_PWM
+Text GLabel 7000 7050 0    50   BiDi ~ 0
+CAM_B_PWDN_N
+Text GLabel 7050 7350 0    50   BiDi ~ 0
+CAM_B_CLK_OUT
+Wire Wire Line
+	9100 6150 8500 6150
+Text GLabel 8500 6150 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	12200 3550 11500 3550
+Wire Wire Line
+	11500 3650 12200 3650
+Wire Wire Line
+	11500 4150 12200 4150
+Wire Wire Line
+	12200 4250 11500 4250
+Wire Wire Line
+	11500 3950 12200 3950
+Wire Wire Line
+	12200 3850 11500 3850
+Text Label 12600 3150 2    50   ~ 0
+UART_TX
+Text Label 12600 3050 2    50   ~ 0
+UART_RX
 $EndSCHEMATC
