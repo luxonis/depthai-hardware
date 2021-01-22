@@ -4,13 +4,13 @@
 
 # Project Stage
 **Caution : This project is still under development. We are currently in process of getting our board prototyped and tested.** 
-           **We are proactively making our desing available for our uses to plan ahead and provide us with design feedback.** 
+           **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
 
 # Overview
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and the [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000). 
 
-Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. 
-Biggest difference in DM1097 and BW1097 architecture, is that DM1097 integrates CM4 module, has gigabit ethernet and populated with MagJack supporting POE. POE can be used with additional POE Hat.
+Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis DepthAI SoM to allow for a fully integrated solution for real-time spatial AI. 
+The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrates CM4 module, has gigabit ethernet, and populated with MagJack supporting POE. POE can be used with additional POE Hat.
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -20,7 +20,7 @@ Biggest difference in DM1097 and BW1097 architecture, is that DM1097 integrates 
 * `Mechanical` contains models of mounts, enclosures, and other mechanical parts
 
 # Key features
-* Support for on-board stereo and RGB camera modules
+* Support for onboard stereo and RGB camera modules
 * Interface for Luxnois DepthAI SoM
 * Interface for Raspberry PI CM4/CM4 Lite
 * USB2 interface between CM4 and DepthAI SoM
@@ -43,14 +43,14 @@ Biggest difference in DM1097 and BW1097 architecture, is that DM1097 integrates 
 
 
 # Getting started
-The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows initial flash of eMMC on CM4. Alternatively the microSD slot can be used with a bootable system image. 
+The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows an initial flash of eMMC on CM4. Alternatively, the microSD slot can be used with a bootable system image. 
 
-The reset button resets the Luxonis DepthAI SoM only. To reset the CM4/CM4 Lite, ground the `RUN` header via to the `GND` header via. To shutdown Bluetooth/WiFi, the `BT/WIFI_DISABLE` header can be used with `GND` on center pin. To protect writing to EEPROM, gound `WP` header via to the `GND` header via. 
+The reset button resets the Luxonis DepthAI SoM only. To reset the CM4/CM4 Lite, ground the `RUN` header via to the `GND` header via. To shutdown Bluetooth/WiFi, the `BT/WIFI_DISABLE` header can be used with `GND` on the center pin. To protect writing to EEPROM, gound `WP` header via to the `GND` header via. 
 
-All those headers are not populated by default, but can be added allowing those features. 
+All those headers are not populated by default but can be added allowing those features. 
 
 The PWR LED indicates "power good" for the BW1097 on-board PMIC. The CM4 ACT LED indicates activity on the CM4/CM4 Lite device and CM4 PWR indicates power on CM$/CM4 Lite. Other indicator LEDs exist for the two USB2.0 Type A ports and for the Gigabit Ethernet port. 
 
 
 # Revision info
-These files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R0M0E0 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
