@@ -680,21 +680,21 @@ Wire Wire Line
 	1950 1300 2450 1300
 Wire Wire Line
 	7350 3150 7900 3150
-Text GLabel 7200 2650 2    50   BiDi ~ 0
+Text GLabel 7200 2650 2    50   Input ~ 0
 CAM_B_D_PWM
-Text GLabel 6200 2550 2    50   BiDi ~ 0
+Text GLabel 6200 2550 2    50   Input ~ 0
 CAM_B_CLK_OUT
-Text GLabel 2300 2850 0    50   BiDi ~ 0
+Text GLabel 2300 2850 0    50   Output ~ 0
 MIPI_RX3_D1_N
-Text GLabel 2300 2950 0    50   BiDi ~ 0
+Text GLabel 2300 2950 0    50   Output ~ 0
 MIPI_RX3_D1_P
-Text GLabel 2300 3150 0    50   BiDi ~ 0
+Text GLabel 2300 3150 0    50   Output ~ 0
 MIPI_RX3_D0_N
-Text GLabel 2300 3250 0    50   BiDi ~ 0
+Text GLabel 2300 3250 0    50   Output ~ 0
 MIPI_RX3_D0_P
-Text GLabel 2300 3450 0    50   BiDi ~ 0
+Text GLabel 2300 3450 0    50   Output ~ 0
 MIPI_RX3_C_N
-Text GLabel 2300 3550 0    50   BiDi ~ 0
+Text GLabel 2300 3550 0    50   Output ~ 0
 MIPI_RX3_C_P
 Wire Wire Line
 	7200 2650 6850 2650
@@ -715,4 +715,6 @@ Wire Wire Line
 	6300 2850 5550 2850
 Wire Wire Line
 	5550 2950 6300 2950
+Text Notes 1500 2350 0    62   ~ 0
+MIPI CAM C
 $EndSCHEMATC

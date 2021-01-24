@@ -2531,25 +2531,25 @@ Text Label 7400 5550 2    60   ~ 0
 1V8_L
 Text Label 8600 5550 2    60   ~ 0
 2V8_L
-Text GLabel 5300 3600 0    50   BiDi ~ 0
+Text GLabel 5300 3600 0    50   Output ~ 0
 MIPI_RX2_D1_N
-Text GLabel 5300 3700 0    50   BiDi ~ 0
+Text GLabel 5300 3700 0    50   Output ~ 0
 MIPI_RX2_D1_P
-Text GLabel 5300 3900 0    50   BiDi ~ 0
+Text GLabel 5300 3900 0    50   Output ~ 0
 MIPI_RX2_D0_N
-Text GLabel 5300 4000 0    50   BiDi ~ 0
+Text GLabel 5300 4000 0    50   Output ~ 0
 MIPI_RX2_D0_P
-Text GLabel 5300 4200 0    50   BiDi ~ 0
+Text GLabel 5300 4200 0    50   Output ~ 0
 MIPI_RX2_C_N
-Text GLabel 5300 4300 0    50   BiDi ~ 0
+Text GLabel 5300 4300 0    50   Output ~ 0
 MIPI_RX2_C_P
 Text GLabel 9050 3700 2    50   BiDi ~ 0
 I2C2_SDA
 Text GLabel 9050 3600 2    50   BiDi ~ 0
 I2C2_SCL
-Text GLabel 10100 3250 2    50   BiDi ~ 0
+Text GLabel 10100 3250 2    50   Input ~ 0
 CAM_B_PWDN_N
-Text GLabel 8950 3300 2    50   BiDi ~ 0
+Text GLabel 8950 3300 2    50   Input ~ 0
 CAM_B_CLK_OUT
 Text Notes 4850 3450 0    62   ~ 0
 MIPI CAM B

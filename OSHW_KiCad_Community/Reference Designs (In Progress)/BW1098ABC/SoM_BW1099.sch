@@ -1241,39 +1241,35 @@ Wire Wire Line
 	7000 6950 9100 6950
 Wire Wire Line
 	7000 7050 9100 7050
-Text GLabel 7700 3050 0    50   BiDi ~ 0
-MIPI_RX4_C_N
-Text GLabel 7700 3150 0    50   BiDi ~ 0
-MIPI_RX4_C_P
-Text GLabel 7700 3350 0    50   BiDi ~ 0
+Text GLabel 7700 3350 0    50   Input ~ 0
 MIPI_RX4_D0_N
-Text GLabel 7700 3450 0    50   BiDi ~ 0
+Text GLabel 7700 3450 0    50   Input ~ 0
 MIPI_RX4_D0_P
-Text GLabel 7700 3650 0    50   BiDi ~ 0
+Text GLabel 7700 3650 0    50   Input ~ 0
 MIPI_RX4_D1_N
-Text GLabel 7700 3750 0    50   BiDi ~ 0
+Text GLabel 7700 3750 0    50   Input ~ 0
 MIPI_RX4_D1_P
-Text GLabel 7700 3950 0    50   BiDi ~ 0
+Text GLabel 7700 3950 0    50   Input ~ 0
 MIPI_RX5_D0_N
-Text GLabel 7700 4050 0    50   BiDi ~ 0
+Text GLabel 7700 4050 0    50   Input ~ 0
 MIPI_RX5_D0_P
-Text GLabel 7700 4250 0    50   BiDi ~ 0
+Text GLabel 7700 4250 0    50   Input ~ 0
 MIPI_RX5_D1_N
-Text GLabel 7700 4350 0    50   BiDi ~ 0
+Text GLabel 7700 4350 0    50   Input ~ 0
 MIPI_RX5_D1_P
 Text GLabel 12950 5350 2    50   Output ~ 0
 COM_AUX_IO2
-Text GLabel 12950 8250 2    50   BiDi ~ 0
+Text GLabel 12950 8250 2    50   Input ~ 0
 MIPI_RX3_D1_N
-Text GLabel 12950 8350 2    50   BiDi ~ 0
+Text GLabel 12950 8350 2    50   Input ~ 0
 MIPI_RX3_D1_P
-Text GLabel 12950 8550 2    50   BiDi ~ 0
+Text GLabel 12950 8550 2    50   Input ~ 0
 MIPI_RX3_D0_N
-Text GLabel 12950 8650 2    50   BiDi ~ 0
+Text GLabel 12950 8650 2    50   Input ~ 0
 MIPI_RX3_D0_P
-Text GLabel 12950 8850 2    50   BiDi ~ 0
+Text GLabel 12950 8850 2    50   Input ~ 0
 MIPI_RX3_C_N
-Text GLabel 12950 8950 2    50   BiDi ~ 0
+Text GLabel 12950 8950 2    50   Input ~ 0
 MIPI_RX3_C_P
 Text GLabel 7650 8250 0    50   BiDi ~ 0
 MIPI_RX2_D1_N
@@ -1303,19 +1299,17 @@ Text GLabel 12200 4250 2    50   BiDi ~ 0
 USB_TX_N
 Text GLabel 12200 4150 2    50   BiDi ~ 0
 USB_TX_P
-Text GLabel 13000 4950 2    50   BiDi ~ 0
+Text GLabel 13000 4950 2    50   Output ~ 0
 CAM_A_PWDN_N
-Text GLabel 13000 4650 2    50   BiDi ~ 0
+Text GLabel 13000 4650 2    50   Output ~ 0
 CAM_A_CLK_OUT
 Text GLabel 6700 7750 0    50   BiDi ~ 0
 I2C2_SDA
 Text GLabel 6700 7850 0    50   BiDi ~ 0
 I2C2_SCL
-Text GLabel 7000 6950 0    50   BiDi ~ 0
-CAM_B_D_PWM
-Text GLabel 7000 7050 0    50   BiDi ~ 0
+Text GLabel 7000 7050 0    50   Output ~ 0
 CAM_B_PWDN_N
-Text GLabel 7050 7350 0    50   BiDi ~ 0
+Text GLabel 7050 7350 0    50   Output ~ 0
 CAM_B_CLK_OUT
 Wire Wire Line
 	9100 6150 8500 6150
@@ -1337,4 +1331,12 @@ Text Label 12600 3150 2    50   ~ 0
 UART_TX
 Text Label 12600 3050 2    50   ~ 0
 UART_RX
+Text GLabel 7700 3150 0    50   Input ~ 0
+MIPI_RX4_C_P
+Text GLabel 7700 3050 0    50   Input ~ 0
+MIPI_RX4_C_N
+Text GLabel 7000 6950 0    50   Output ~ 0
+CAM_B_D_PWM
+Text Notes 13050 6900 0    58   ~ 0
+Adding peripherals? SPI_SS_1\nand SPI_SS_2 (1.8V logic) are chip\nselects, and any other SGPIO\ncan be configured as a CS as well
 $EndSCHEMATC
