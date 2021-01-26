@@ -557,7 +557,7 @@ AR Path="/5FD7EFCD/6009EFB5" Ref="B?"  Part="1"
 AR Path="/5FF8D9B2/6009EFB5" Ref="B1"  Part="1" 
 F 0 "B1" V 7196 5752 50  0000 R CNN
 F 1 "Off-Mohm, 50mA" V 7105 5752 50  0000 R CNN
-F 2 "DTSM-32N-V-T_R:DTSM32NVTR" H 7150 6000 50  0001 C CNN
+F 2 "Luxonis_Kicad_Master:DTSM32NVTR" H 7150 6000 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7150 6000 50  0001 C CNN
 	1    7150 5800
 	0    -1   -1   0   
@@ -791,7 +791,7 @@ AR Path="/5FD7EFCD/6009F030" Ref="D?"  Part="1"
 AR Path="/5FF8D9B2/6009F030" Ref="D1"  Part="1" 
 F 0 "D1" V 1889 3482 50  0000 R CNN
 F 1 "RED0603" V 1798 3482 50  0000 R CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 1850 3600 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 1850 3600 50  0001 C CNN
 F 3 "~" H 1850 3600 50  0001 C CNN
 	1    1850 3600
 	0    -1   -1   0   
