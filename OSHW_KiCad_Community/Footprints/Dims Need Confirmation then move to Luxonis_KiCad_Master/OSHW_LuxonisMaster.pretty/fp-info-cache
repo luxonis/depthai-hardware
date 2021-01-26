@@ -1,4 +1,4 @@
-21757385105996561
+21757386343984290
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -52338,6 +52338,13 @@ THT ceramic resonator filter DSS6
 0
 3
 3
+DTSM-32N-V-T_R
+DTSM32NVTR
+DTSM-3
+Switch
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -60557,6 +60564,20 @@ Luxonis_Kicad_Master
 2
 2
 Luxonis_Kicad_Master
+A12N01A-201_IMX378
+
+
+0
+30
+30
+Luxonis_Kicad_Master
+ACON_BBR43-24KB533
+
+
+0
+24
+24
+Luxonis_Kicad_Master
 B2B-PH-K-S(LF)(SN)
 
 
@@ -60581,6 +60602,13 @@ Luxonis_Kicad_Master
 DFE252012P-1R0M=P2
 
 
+0
+2
+2
+Luxonis_Kicad_Master
+DTSM32NVTR
+DTSM-3
+Switch
 0
 2
 2
@@ -64043,13 +64071,6 @@ OSHW_LuxonisMaster
 0
 0
 OSHW_LuxonisMaster
-2508056017Y2
-
-
-0
-0
-0
-OSHW_LuxonisMaster
 245804030000829
 245804030000829+-3
 Connector
@@ -64162,13 +64183,6 @@ AP2331W-7
 0
 0
 OSHW_LuxonisMaster
-B2B-PH-K-S(LF)(SN)
-
-
-0
-0
-0
-OSHW_LuxonisMaster
 BAT54ALT1G
 
 
@@ -64198,13 +64212,6 @@ BK1608HS800-T_N
 0
 OSHW_LuxonisMaster
 BLM18PG121SN1D_N
-
-
-0
-0
-0
-OSHW_LuxonisMaster
-BW1099_Layout_Guide
 
 
 0
@@ -85588,13 +85595,6 @@ Logo WEEE
 0
 0
 0
-TG161B-201
-ACON_BBR43-30KB533
-
-
-0
-24
-24
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
