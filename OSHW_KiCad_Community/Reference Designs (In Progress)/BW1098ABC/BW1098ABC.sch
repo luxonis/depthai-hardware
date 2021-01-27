@@ -211,8 +211,8 @@ Wire Notes Line
 	2900 6050 5550 6050
 Wire Notes Line
 	5550 6050 5550 1100
-Text Notes 2700 6550 0    58   ~ 0
-When designing a baseboard using the BW1099 SoM, the configuration depends \nmostly on your selection of cameras and connectors. Luxonis designs use Arducam\n cameras. The IMX378 is an RGB camera which uses I2C1 and MIPI A (4 lane). The left \nand right cameras use MIPI B and C (2 lane) and share I2C2, I2C3 is free and unconnected \nexcept to a header. Other peripherals could also be attached using this\n
+Text Notes 3000 1200 0    58   ~ 0
+SEE CAMERA AND CONNECTORS GUIDE FOR MORE INFO\n
 Wire Notes Line
 	8350 1800 6000 1800
 Wire Notes Line
@@ -221,10 +221,12 @@ Wire Notes Line
 	6000 3100 8350 3100
 Wire Notes Line
 	8350 3100 8350 1800
-Text Notes 5700 3400 0    58   ~ 0
-USBC is not *strictly* neccessary, but is strongly recommended\n as it increases debugging capabilities and makes communication\n with the SoM considerably easier.\n
-Text Notes 9000 4700 0    58   ~ 0
-A system on module (SoM) is the basis of \nevery design. The BW1099 uses a 100 pin\ninterface to communicate with any board. \nAfter you have imported a SoM and USBC\nfrom this reference design, you are ready \nto start your own custom one! The SPIO \ninterface with the SoM provides easy \nperipheral configuration.
-Text Notes 600  2900 0    58   ~ 0
-The power subsystem (of course)\nmust be tailored to meet whatever\nneeds your design has. USBC needs\nVBUS (also then present on SoM) as \nwell as 3.3V. These are not used \notherwise. The SoM must have 5V, \nand has 1.8V and 3.3V logic pins, these \ncameras use 1.8V and 2.8V for this \nlogic
+Text Notes 5950 1800 0    58   ~ 0
+USBC is recommended in all designs. Leave this as is.\n
+Text Notes 9000 2050 0    58   ~ 0
+Except where noted, leave current contents\nof this sheet as-is and add in whatever \nyou'd like!\n\nA system on module (SoM) is the basis of \nevery design. The BW1099 uses a 100 pin\ninterface to communicate. The SPIO \ninterface with the SoM provides easy \nperipheral configuration. I2C3 UART and \nQSPI available. 
+Text Notes 500  2400 0    58   ~ 0
+The power subsystem likely does not need \nto change except for deciding where\npower comes in. Most simply, a \nbarrel jack, but in this case from the ABC Board
+Text Notes 3000 1050 0    58   ~ 0
+Leave as is unless using another BW1099 \ncompatible camera/connector set.\nPower req.'s and other things may change.
 $EndSCHEMATC
