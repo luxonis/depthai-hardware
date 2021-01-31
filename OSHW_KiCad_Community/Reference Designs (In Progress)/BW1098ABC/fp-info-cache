@@ -1,6 +1,9 @@
 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 Aesthetics
 BREADBOARD_SPACING
 BREADBOARD SPACING
@@ -533,7 +536,12 @@ SPECTACLE_LOGO_TITLE_0.35X0.70
 0
 0
 0
+<<<<<<< HEAD
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 BBR43-30KB533
 ACON_BBR43-30KB533
 
@@ -2859,6 +2867,14 @@ capacitor tantalum
 2
 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Capacitor_SMD
+C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 Capacitor_Tantalum_SMD
 CP_EIA-7343-43_Kemet-X
 Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
@@ -2870,12 +2886,16 @@ Capacitor_Tantalum_SMD
 CP_EIA-7343-43_Kemet-X_Pad2.25x2.55mm_HandSolder
 Tantalum Capacitor SMD Kemet-X (7343-43 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+<<<<<<< HEAD
 =======
 Capacitor_SMD
 C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 2
 2
@@ -2887,6 +2907,14 @@ capacitor tantalum
 2
 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Capacitor_SMD
+C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 Capacitor_Tantalum_SMD
 CP_EIA-7360-38_Kemet-E_Pad2.25x4.25mm_HandSolder
 Tantalum Capacitor SMD Kemet-E (7360-38 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator
@@ -2898,12 +2926,16 @@ Capacitor_Tantalum_SMD
 CP_EIA-7361-38_AVX-V
 Tantalum Capacitor SMD AVX-V (7361-38 Metric), IPC_7351 nominal, (Body size from: http://datasheets.avx.com/NOS.pdf), generated with kicad-footprint-generator
 capacitor tantalum
+<<<<<<< HEAD
 =======
 Capacitor_SMD
 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
 capacitor handsolder
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 2
 2
@@ -2929,6 +2961,14 @@ capacitor tantalum
 2
 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+Capacitor_SMD
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -2940,12 +2980,16 @@ Connector
 Banana_Jack_2Pin
 Dual banana socket, footprint - 2 x 6mm drills
 banana socket
+<<<<<<< HEAD
 =======
 Capacitor_SMD
 C_1210_3225Metric
 Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 2
 2
@@ -2955,6 +2999,23 @@ Triple banana socket, footprint - 3 x 6mm drills
 banana socket
 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+2
+2
+Capacitor_SMD
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1812_4532Metric_Pad1.57x3.40mm_HandSolder
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 3
 3
 Connector
@@ -2996,6 +3057,7 @@ Connector
 FanPinHeader_1x04_P2.54mm_Vertical
 4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
 pin header 4-pin CPU fan
+<<<<<<< HEAD
 =======
 2
 2
@@ -3011,6 +3073,9 @@ C_1812_4532Metric_Pad1.57x3.40mm_HandSolder
 Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 capacitor handsolder
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 4
 4
@@ -3027,6 +3092,16 @@ https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
 connector IHI B6A-PCB-45
 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+2
+2
+Capacitor_SMD
+C_2220_5650Metric
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 49
 1
 Connector
@@ -3054,6 +3129,7 @@ Connector
 Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
 Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
 tag connect programming header pogo pins
+<<<<<<< HEAD
 =======
 2
 2
@@ -3062,6 +3138,9 @@ C_2220_5650Metric
 Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
 capacitor
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 6
 6
@@ -3085,6 +3164,16 @@ Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-
 tag connect programming header pogo pins
 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+2
+2
+Capacitor_SMD
+C_3640_9110Metric
+Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 10
 10
 Connector
@@ -3119,6 +3208,7 @@ Connector_AMASS
 AMASS_XT30PW-F_1x02_P2.50mm_Horizontal
 Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf
 RC Connector XT30
+<<<<<<< HEAD
 =======
 2
 2
@@ -3127,6 +3217,9 @@ C_3640_9110Metric
 Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
 capacitor
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 4
 2
@@ -5733,7 +5826,10 @@ Molex LY 20 series connector, LY20-34P-DT1, 17 Circuits (http://www.jae.com/z-en
 connector JAE  side entry
 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 2
 2
 Capacitor_THT
@@ -14099,7 +14195,12 @@ JAE_LY20-34P-DT1_2x17_P2.00mm_Vertical
 Molex LY 20 series connector, LY20-34P-DT1, 17 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ103130.pdf), generated with kicad-footprint-generator
 connector JAE  side entry
 0
+<<<<<<< HEAD
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 34
 34
 Connector_JAE
@@ -14107,7 +14208,10 @@ JAE_LY20-36P-DLT1_2x18_P2.00mm_Horizontal
 Molex LY 20 series connector, LY20-36P-DLT1, 18 Circuits (http://www.jae.com/z-en/pdf_download_exec.cfm?param=SJ038187.pdf), generated with kicad-footprint-generator
 connector JAE  top entry
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 36
 36
@@ -92179,7 +92283,12 @@ digikey-footprints
 WiFi_Module_MRF24WG0MA
 
 
+<<<<<<< HEAD
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 0
 36
 36
@@ -92210,6 +92319,12 @@ Molex LY 20 series connector, LY20-40P-DLT1, 20 Circuits (http://www.jae.com/z-e
 connector JAE  top entry
 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+12
+12
+=======
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413
 40
 40
 Connector_JAE
@@ -92261,7 +92376,11 @@ SIM Card with Detect Switch
 0
 18
 9
+<<<<<<< HEAD
 =======
 12
 12
 >>>>>>> 6dc2df6aeeb3c3949627ec8add06a09106c08cdd
+=======
+>>>>>>> 29084d6b8fd92f7905321c32863833bc2fa77a7b
+>>>>>>> 88923e198dccb753b9ec8bab7501ed2064023413

@@ -24,8 +24,6 @@ F 3 "~" H 1600 850 50  0001 C CNN
 	1    1600 850 
 	0    -1   -1   0   
 $EndComp
-Text Notes 7600 1300 1    60   ~ 0
-Parameter \nSet\n
 Wire Notes Line
 	2500 2800 6900 2800
 Wire Notes Line
@@ -37,87 +35,17 @@ Wire Notes Line
 Wire Notes Line
 	2500 2700 2500 3300
 $Comp
-L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
-U 1 1 5FFB0B02
-P 5750 1600
-AR Path="/5FD7EFCF/5FFB0B02" Ref="C?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0B02" Ref="C4"  Part="1" 
-F 0 "C4" V 5860 1510 60  0000 R TNN
-F 1 "0.1uF 0402" V 5760 1510 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 5760 1510 60  0001 C CNN
-F 3 "" H 5760 1510 60  0000 C CNN
-F 4 "10V" V -1550 -3600 60  0001 C CNN "Voltage Rating"
-	1    5750 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
-U 1 1 5FFB0AFB
-P 5050 1600
-AR Path="/5FD7EFCF/5FFB0AFB" Ref="C?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0AFB" Ref="C3"  Part="1" 
-F 0 "C3" V 5160 1510 60  0000 R TNN
-F 1 "10uF 0603" V 5060 1510 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5060 1510 60  0001 C CNN
-F 3 "" H 5060 1510 60  0000 C CNN
-F 4 "10V" V -1550 -3600 60  0000 C CNN "Voltage Rating"
-	1    5050 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
-U 1 1 5FFB0AF4
-P 6350 1600
-AR Path="/5FD7EFCF/5FFB0AF4" Ref="C?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0AF4" Ref="C5"  Part="1" 
-F 0 "C5" V 6460 1510 60  0000 R TNN
-F 1 "10uF 0603" V 6360 1510 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 6360 1510 60  0001 C CNN
-F 3 "" H 6360 1510 60  0000 C CNN
-F 4 "10V" V -1550 -3600 60  0001 C CNN "Voltage Rating"
-	1    6350 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
-U 1 1 5FFB0AED
-P 7050 1600
-AR Path="/5FD7EFCF/5FFB0AED" Ref="C?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0AED" Ref="C6"  Part="1" 
-F 0 "C6" V 7160 1510 60  0000 R TNN
-F 1 "0.1uF 0402" V 7060 1510 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 7060 1510 60  0001 C CNN
-F 3 "" H 7060 1510 60  0000 C CNN
-F 4 "10V" V -1550 -3600 60  0001 C CNN "Voltage Rating"
-	1    7050 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
-U 1 1 5FFB0AE6
-P 7650 1600
-AR Path="/5FD7EFCF/5FFB0AE6" Ref="C?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0AE6" Ref="C7"  Part="1" 
-F 0 "C7" V 7760 1510 60  0000 R TNN
-F 1 "10uF 0603" V 7660 1510 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7660 1510 60  0001 C CNN
-F 3 "" H 7660 1510 60  0000 C CNN
-F 4 "10V" V -1550 -3600 60  0001 C CNN "Voltage Rating"
-	1    7650 1600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:RC0402FR-1310KL-depthAI_sch R?
+L Device:R_US R?
 U 1 1 5FFB0ADF
-P 6800 4500
+P 6950 4500
 AR Path="/5FD7EFCF/5FFB0ADF" Ref="R?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0ADF" Ref="R5"  Part="1" 
-F 0 "R5" H 6890 4530 60  0000 L BNN
-F 1 "10K 0402" H 6890 4370 60  0000 L BNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 6890 4370 60  0001 C CNN
-F 3 "" H 6890 4370 60  0000 C CNN
-	1    6800 4500
-	1    0    0    -1  
+F 0 "R5" V 7050 4650 60  0000 L BNN
+F 1 "10K" V 6950 4200 60  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 7040 4370 60  0001 C CNN
+F 3 "" H 7040 4370 60  0000 C CNN
+	1    6950 4500
+	0    1    1    0   
 $EndComp
 $Comp
 L BW1098ABC-rescue:A12N02A-201-depthAI_sch J?
@@ -132,58 +60,13 @@ F 3 "https://www.mouser.com/datasheet/2/909/5804-1525720.pdf" H 4000 5200 60  00
 	1    3800 5300
 	1    0    0    -1  
 $EndComp
-$Comp
-L BW1098ABC-rescue:GRM155R71A104JA01D-depthAI_sch C?
-U 1 1 5FFB0AC7
-P 4450 1600
-AR Path="/5FD7EFCF/5FFB0AC7" Ref="C?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0AC7" Ref="C2"  Part="1" 
-F 0 "C2" V 4560 1510 60  0000 R TNN
-F 1 "0.1uF 0402" V 4460 1510 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 4460 1510 60  0001 C CNN
-F 3 "" H 4460 1510 60  0001 C CNN
-F 4 "10V" V -1550 -3600 60  0000 C CNN "Voltage Rating"
-	1    4450 1600
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7050 1800
 Connection ~ 5700 4400
 Connection ~ 5700 5100
-Connection ~ 6350 1800
-Connection ~ 6050 1800
-Connection ~ 5750 1800
-Connection ~ 5050 1800
 Connection ~ 3700 4100
 Connection ~ 3700 4400
 Connection ~ 3700 4700
 Connection ~ 3700 4900
 Connection ~ 3700 5100
-Wire Wire Line
-	7050 1800 6350 1800
-Wire Wire Line
-	6350 1800 6050 1800
-Wire Wire Line
-	6050 1800 5750 1800
-Wire Wire Line
-	5750 1800 5050 1800
-Wire Wire Line
-	5050 1800 4450 1800
-Wire Wire Line
-	4450 1800 4450 1600
-Wire Wire Line
-	6350 1600 6350 1800
-Wire Wire Line
-	5750 1800 5750 1600
-Wire Wire Line
-	5050 1600 5050 1800
-Wire Wire Line
-	7650 1600 7650 1800
-Wire Wire Line
-	7650 1800 7050 1800
-Wire Wire Line
-	7050 1800 7050 1600
-Wire Wire Line
-	7200 4500 7300 4500
 Wire Wire Line
 	3700 5100 3800 5100
 Wire Wire Line
@@ -244,12 +127,6 @@ Wire Wire Line
 	6800 4000 5600 4000
 Wire Wire Line
 	6800 4500 6050 4500
-Wire Wire Line
-	5050 1300 4550 1300
-Wire Wire Line
-	6350 1300 5850 1300
-Wire Wire Line
-	7650 1300 7200 1300
 $Comp
 L power:GND #GND_?
 U 1 1 5FFB0A4E
@@ -274,19 +151,6 @@ F 1 "GND" H 3700 5330 30  0000 C CNN
 F 2 "" H 3700 5400 70  0000 C CNN
 F 3 "" H 3700 5400 70  0000 C CNN
 	1    3700 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #GND_?
-U 1 1 5FFB0A42
-P 6050 1800
-AR Path="/5FD7EFCF/5FFB0A42" Ref="#GND_?"  Part="1" 
-AR Path="/5FF8D4A5/5FFB0A42" Ref="#GND_021"  Part="1" 
-F 0 "#GND_021" H 6050 1800 20  0000 C CNN
-F 1 "GND" H 6050 1730 30  0000 C CNN
-F 2 "" H 6050 1800 70  0000 C CNN
-F 3 "" H 6050 1800 70  0000 C CNN
-	1    6050 1800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -375,52 +239,6 @@ F 3 "~" H 1600 1450 50  0001 C CNN
 	1    1600 1450
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 6005D76E
-P 4550 1300
-F 0 "#FLG01" H 4550 1375 50  0001 C CNN
-F 1 "PWR_FLAG" H 4550 1473 50  0000 C CNN
-F 2 "" H 4550 1300 50  0001 C CNN
-F 3 "~" H 4550 1300 50  0001 C CNN
-	1    4550 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 4550 1300
-Wire Wire Line
-	4550 1300 4450 1300
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 6005DCC9
-P 5850 1300
-F 0 "#FLG02" H 5850 1375 50  0001 C CNN
-F 1 "PWR_FLAG" H 5850 1473 50  0000 C CNN
-F 2 "" H 5850 1300 50  0001 C CNN
-F 3 "~" H 5850 1300 50  0001 C CNN
-	1    5850 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 5850 1300
-Wire Wire Line
-	5850 1300 5750 1300
-$Comp
-L power:PWR_FLAG #FLG03
-U 1 1 6005E1A8
-P 7200 1300
-F 0 "#FLG03" H 7200 1375 50  0001 C CNN
-F 1 "PWR_FLAG" H 7200 1473 50  0000 C CNN
-F 2 "" H 7200 1300 50  0001 C CNN
-F 3 "~" H 7200 1300 50  0001 C CNN
-	1    7200 1300
-	1    0    0    -1  
-$EndComp
-Connection ~ 7200 1300
-Wire Wire Line
-	7200 1300 7050 1300
-Text Notes 6250 1300 1    60   ~ 0
-Parameter \nSet\n
-Text Notes 4950 1300 1    60   ~ 0
-Parameter \nSet\n
 Wire Wire Line
 	1050 1450 1450 1450
 Wire Wire Line
@@ -551,4 +369,204 @@ Text Notes 1600 3550 0    60   ~ 0
 MIPI Lanes:
 Text Notes 1600 3400 0    62   ~ 0
 MIPI CAM A
+Wire Wire Line
+	7100 4500 7300 4500
+$Comp
+L power:GND #GND_?
+U 1 1 603DCC0F
+P 4750 1700
+AR Path="/5FD7EFD3/603DCC0F" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D2B3/603DCC0F" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 4750 1700 20  0000 C CNN
+F 1 "GND" H 4750 1630 30  0000 C CNN
+F 2 "" H 4750 1700 70  0000 C CNN
+F 3 "" H 4750 1700 70  0000 C CNN
+	1    4750 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1300 4550 1300
+Wire Wire Line
+	4750 1700 4450 1700
+Wire Wire Line
+	5050 1700 4750 1700
+Wire Wire Line
+	5050 1600 5050 1700
+Connection ~ 4750 1700
+$Comp
+L Device:C C?
+U 1 1 603DCC1B
+P 5050 1450
+AR Path="/5FD7EFD3/603DCC1B" Ref="C?"  Part="1" 
+AR Path="/5FF8D2B3/603DCC1B" Ref="C?"  Part="1" 
+F 0 "C?" V 5150 1700 60  0000 R TNN
+F 1 "10uF" V 5050 1700 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5060 1360 60  0001 C CNN
+F 3 "" H 5060 1360 60  0000 C CNN
+F 4 "10V" V -950 -3650 60  0001 C CNN "Voltage Rating"
+	1    5050 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 603DCC22
+P 4450 1450
+AR Path="/5FD7EFD3/603DCC22" Ref="C?"  Part="1" 
+AR Path="/5FF8D2B3/603DCC22" Ref="C?"  Part="1" 
+F 0 "C?" V 4450 1400 60  0000 R TNN
+F 1 "0.1uF" V 4350 1400 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4460 1360 60  0001 C CNN
+F 3 "" H 4460 1360 60  0000 C CNN
+F 4 "10V" V -950 -3650 60  0001 C CNN "Voltage Rating"
+	1    4450 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603DCC28
+P 4550 1300
+F 0 "#FLG?" H 4550 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 4550 1473 50  0000 C CNN
+F 2 "" H 4550 1300 50  0001 C CNN
+F 3 "~" H 4550 1300 50  0001 C CNN
+	1    4550 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4550 1300
+Wire Wire Line
+	4550 1300 4450 1300
+$Comp
+L power:GND #GND_?
+U 1 1 603F10BF
+P 6050 1700
+AR Path="/5FD7EFD3/603F10BF" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D2B3/603F10BF" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 6050 1700 20  0000 C CNN
+F 1 "GND" H 6050 1630 30  0000 C CNN
+F 2 "" H 6050 1700 70  0000 C CNN
+F 3 "" H 6050 1700 70  0000 C CNN
+	1    6050 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 1300 5850 1300
+Wire Wire Line
+	6050 1700 5750 1700
+Wire Wire Line
+	6350 1700 6050 1700
+Wire Wire Line
+	6350 1600 6350 1700
+Connection ~ 6050 1700
+$Comp
+L Device:C C?
+U 1 1 603F10CB
+P 6350 1450
+AR Path="/5FD7EFD3/603F10CB" Ref="C?"  Part="1" 
+AR Path="/5FF8D2B3/603F10CB" Ref="C?"  Part="1" 
+F 0 "C?" V 6450 1700 60  0000 R TNN
+F 1 "10uF" V 6350 1700 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6360 1360 60  0001 C CNN
+F 3 "" H 6360 1360 60  0000 C CNN
+F 4 "10V" V 350 -3650 60  0001 C CNN "Voltage Rating"
+	1    6350 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 603F10D2
+P 5750 1450
+AR Path="/5FD7EFD3/603F10D2" Ref="C?"  Part="1" 
+AR Path="/5FF8D2B3/603F10D2" Ref="C?"  Part="1" 
+F 0 "C?" V 5750 1400 60  0000 R TNN
+F 1 "0.1uF" V 5650 1400 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5760 1360 60  0001 C CNN
+F 3 "" H 5760 1360 60  0000 C CNN
+F 4 "10V" V 350 -3650 60  0001 C CNN "Voltage Rating"
+	1    5750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603F10D8
+P 5850 1300
+F 0 "#FLG?" H 5850 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 5850 1473 50  0000 C CNN
+F 2 "" H 5850 1300 50  0001 C CNN
+F 3 "~" H 5850 1300 50  0001 C CNN
+	1    5850 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 5850 1300
+Wire Wire Line
+	5850 1300 5750 1300
+$Comp
+L power:GND #GND_?
+U 1 1 603F3216
+P 7350 1700
+AR Path="/5FD7EFD3/603F3216" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D2B3/603F3216" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 7350 1700 20  0000 C CNN
+F 1 "GND" H 7350 1630 30  0000 C CNN
+F 2 "" H 7350 1700 70  0000 C CNN
+F 3 "" H 7350 1700 70  0000 C CNN
+	1    7350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1300 7150 1300
+Wire Wire Line
+	7350 1700 7050 1700
+Wire Wire Line
+	7650 1700 7350 1700
+Wire Wire Line
+	7650 1600 7650 1700
+Connection ~ 7350 1700
+$Comp
+L Device:C C?
+U 1 1 603F3222
+P 7650 1450
+AR Path="/5FD7EFD3/603F3222" Ref="C?"  Part="1" 
+AR Path="/5FF8D2B3/603F3222" Ref="C?"  Part="1" 
+F 0 "C?" V 7750 1700 60  0000 R TNN
+F 1 "10uF" V 7650 1700 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7660 1360 60  0001 C CNN
+F 3 "" H 7660 1360 60  0000 C CNN
+F 4 "10V" V 1650 -3650 60  0001 C CNN "Voltage Rating"
+	1    7650 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 603F3229
+P 7050 1450
+AR Path="/5FD7EFD3/603F3229" Ref="C?"  Part="1" 
+AR Path="/5FF8D2B3/603F3229" Ref="C?"  Part="1" 
+F 0 "C?" V 7050 1400 60  0000 R TNN
+F 1 "0.1uF" V 6950 1400 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7060 1360 60  0001 C CNN
+F 3 "" H 7060 1360 60  0000 C CNN
+F 4 "10V" V 1650 -3650 60  0001 C CNN "Voltage Rating"
+	1    7050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603F322F
+P 7150 1300
+F 0 "#FLG?" H 7150 1375 50  0001 C CNN
+F 1 "PWR_FLAG" H 7150 1473 50  0000 C CNN
+F 2 "" H 7150 1300 50  0001 C CNN
+F 3 "~" H 7150 1300 50  0001 C CNN
+	1    7150 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7150 1300
+Wire Wire Line
+	7150 1300 7050 1300
+Wire Wire Line
+	7050 1700 7050 1600
+Wire Wire Line
+	5750 1600 5750 1700
+Wire Wire Line
+	4450 1600 4450 1700
 $EndSCHEMATC

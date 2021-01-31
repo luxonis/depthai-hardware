@@ -14,8 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Notes Line
-	950  8900 950  2750
-Wire Notes Line
 	950  8900 6600 8900
 Wire Notes Line
 	950  2750 6600 2750
@@ -209,7 +207,7 @@ F 3 "" H 3700 4850 70  0000 C CNN
 	1    3700 4850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 4750
+NoConn ~ 3000 4650
 $Comp
 L power:GND #GND_?
 U 1 1 604BD3DA
@@ -236,7 +234,6 @@ F 3 "" H 3700 5950 70  0000 C CNN
 	1    3700 5950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 5850
 Text Notes 4600 4700 0    60   ~ 0
 VOUT= 1.8V
 Text Notes 4600 4800 0    60   ~ 0
@@ -561,14 +558,13 @@ U 1 1 604BD49B
 P 3700 3800
 AR Path="/5FD7EFCB/604BD49B" Ref="#GND_?"  Part="1" 
 AR Path="/604AEAFA/604BD49B" Ref="#GND_046"  Part="1" 
-F 0 "#GND_046" H 3700 3800 20  0000 C CNN
+F 0 "#GND_046" H 3750 3700 20  0000 C CNN
 F 1 "GND" H 3700 3730 30  0000 C CNN
 F 2 "" H 3700 3800 70  0000 C CNN
 F 3 "" H 3700 3800 70  0000 C CNN
 	1    3700 3800
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2400 3700
 Text Notes 4600 3650 0    60   ~ 0
 VOUT= 1.2V
 Text Notes 4600 3750 0    60   ~ 0
@@ -580,23 +576,11 @@ Wire Wire Line
 Wire Wire Line
 	14100 7750 13950 7750
 Wire Wire Line
-	3500 4750 3400 4750
-Wire Wire Line
-	3500 4850 3500 4750
-Wire Wire Line
-	3700 4850 3500 4850
-Wire Wire Line
 	2300 4650 2400 4650
 Wire Wire Line
 	2300 4550 2300 4650
 Wire Wire Line
-	3500 5850 3400 5850
-Wire Wire Line
-	3500 5950 3500 5850
-Wire Wire Line
-	3700 5950 3500 5950
-Wire Wire Line
-	2300 5750 2400 5750
+	3700 5950 3600 5950
 Wire Wire Line
 	2300 5650 2300 5750
 Wire Wire Line
@@ -609,8 +593,6 @@ Wire Wire Line
 	4750 2000 4750 2200
 Wire Wire Line
 	4850 8600 4850 8200
-Wire Wire Line
-	2400 5650 2300 5650
 Wire Wire Line
 	4000 6800 3800 6800
 Wire Wire Line
@@ -634,19 +616,11 @@ Wire Wire Line
 Wire Wire Line
 	2300 4550 2400 4550
 Wire Wire Line
-	4200 7400 4200 7550
-Wire Wire Line
 	1900 7400 2200 7400
 Wire Wire Line
 	1900 8050 1900 7400
 Wire Wire Line
 	4200 8050 1900 8050
-Wire Wire Line
-	4200 7950 4200 8050
-Wire Wire Line
-	4200 8050 4200 8150
-Wire Wire Line
-	4200 8550 4200 8600
 Wire Wire Line
 	4850 7000 4650 7000
 Wire Wire Line
@@ -664,17 +638,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 1500 4750 1500
 Wire Wire Line
-	3500 3700 3400 3700
-Wire Wire Line
-	3500 3800 3500 3700
-Wire Wire Line
-	3700 3800 3500 3800
-Wire Wire Line
-	2300 3600 2400 3600
+	3700 3800 3600 3800
 Wire Wire Line
 	2300 3500 2300 3600
-Wire Wire Line
-	2300 3500 2400 3500
 Connection ~ 1950 1700
 Connection ~ 2050 6400
 Connection ~ 2300 5650
@@ -700,128 +666,128 @@ F 3 "" H 1050 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM155R60J106ME15D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD4F9
-P 4750 2000
+P 4750 1850
 AR Path="/5FD7EFCB/604BD4F9" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD4F9" Ref="C28"  Part="1" 
-F 0 "C28" V 4860 1910 60  0000 R TNN
-F 1 "22uF 0603" V 4760 1910 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4760 1910 60  0001 C CNN
-F 3 "" H 4760 1910 60  0000 C CNN
-F 4 "10V" V -650 2400 60  0001 C CNN "Voltage Rating"
-	1    4750 2000
-	0    -1   -1   0   
+F 0 "C28" V 4860 1760 60  0000 R TNN
+F 1 "22uF" V 4760 1760 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4760 1760 60  0001 C CNN
+F 3 "" H 4760 1760 60  0000 C CNN
+F 4 "10V" V -650 2250 60  0001 C CNN "Voltage Rating"
+	1    4750 1850
+	-1   0    0    1   
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM155R60J106ME15D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD507
-P 4850 8200
+P 4850 8050
 AR Path="/5FD7EFCB/604BD507" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD507" Ref="C29"  Part="1" 
-F 0 "C29" V 4960 8110 60  0000 R TNN
-F 1 "22uF 0603" V 4860 8110 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4860 8110 60  0001 C CNN
-F 3 "" H 4860 8110 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    4850 8200
-	0    -1   -1   0   
+F 0 "C29" V 4960 7960 60  0000 R TNN
+F 1 "22uF" V 4850 8000 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4860 7960 60  0001 C CNN
+F 3 "" H 4860 7960 60  0000 C CNN
+F 4 "10V" V -650 100 60  0001 C CNN "Voltage Rating"
+	1    4850 8050
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD50E
-P 1800 4850
+P 1800 4700
 AR Path="/5FD7EFCB/604BD50E" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD50E" Ref="C22"  Part="1" 
-F 0 "C22" V 1910 4760 60  0000 R TNN
-F 1 "10uF 0603" V 1810 4760 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1810 4760 60  0001 C CNN
-F 3 "" H 1810 4760 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    1800 4850
-	0    -1   -1   0   
+F 0 "C22" V 2000 4750 60  0000 R TNN
+F 1 "10uF " V 1900 4850 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1810 4610 60  0001 C CNN
+F 3 "" H 1810 4610 60  0000 C CNN
+F 4 "10V" V -650 100 60  0001 C CNN "Voltage Rating"
+	1    1800 4700
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD515
-P 1800 5950
+P 1800 5800
 AR Path="/5FD7EFCB/604BD515" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD515" Ref="C23"  Part="1" 
-F 0 "C23" V 1910 5860 60  0000 R TNN
-F 1 "10uF 0603" V 1810 5860 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1810 5860 60  0001 C CNN
-F 3 "" H 1810 5860 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    1800 5950
-	0    -1   -1   0   
+F 0 "C23" V 2000 5900 60  0000 R TNN
+F 1 "10uF" V 1900 5950 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1810 5710 60  0001 C CNN
+F 3 "" H 1810 5710 60  0000 C CNN
+F 4 "10V" V -650 100 60  0001 C CNN "Voltage Rating"
+	1    1800 5800
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD51C
-P 1200 6950
+P 1200 6800
 AR Path="/5FD7EFCB/604BD51C" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD51C" Ref="C20"  Part="1" 
-F 0 "C20" V 1310 6860 60  0000 R TNN
-F 1 "10uF 0603" V 1210 6860 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1210 6860 60  0001 C CNN
-F 3 "" H 1210 6860 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    1200 6950
-	0    -1   -1   0   
+F 0 "C20" V 1400 7000 60  0000 R TNN
+F 1 "10uF" V 1300 7050 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1210 6710 60  0001 C CNN
+F 3 "" H 1210 6710 60  0000 C CNN
+F 4 "10V" V -650 100 60  0001 C CNN "Voltage Rating"
+	1    1200 6800
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:CRCW040253K6FKED-depthAI_sch R?
+L Device:R_US R?
 U 1 1 604BD522
-P 4200 7950
+P 4200 7700
 AR Path="/5FD7EFCB/604BD522" Ref="R?"  Part="1" 
 AR Path="/604AEAFA/604BD522" Ref="R14"  Part="1" 
-F 0 "R14" V 4410 7920 60  0000 R TNN
-F 1 "53.6k 0402" V 4310 7920 60  0000 R TNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4310 7920 60  0001 C CNN
-F 3 "" H 4310 7920 60  0000 C CNN
-	1    4200 7950
-	0    -1   -1   0   
+F 0 "R14" V 4410 7670 60  0000 R TNN
+F 1 "53.6k" V 4310 7670 60  0000 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4310 7670 60  0001 C CNN
+F 3 "" H 4310 7670 60  0000 C CNN
+	1    4200 7700
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:CRCW040239K2FKED-depthAI_sch R?
+L Device:R_US R?
 U 1 1 604BD528
-P 4200 8550
+P 4200 8300
 AR Path="/5FD7EFCB/604BD528" Ref="R?"  Part="1" 
 AR Path="/604AEAFA/604BD528" Ref="R15"  Part="1" 
-F 0 "R15" V 4410 8520 60  0000 R TNN
-F 1 "39.2k 0402" V 4310 8520 60  0000 R TNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 4310 8520 60  0001 C CNN
-F 3 "" H 4310 8520 60  0000 C CNN
-	1    4200 8550
-	0    -1   -1   0   
+F 0 "R15" V 4410 8270 60  0000 R TNN
+F 1 "39.2k" V 4310 8270 60  0000 R TNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 4310 8270 60  0001 C CNN
+F 3 "" H 4310 8270 60  0000 C CNN
+	1    4200 8300
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD536
-P 3700 4850
+P 3450 4700
 AR Path="/5FD7EFCB/604BD536" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD536" Ref="C25"  Part="1" 
-F 0 "C25" V 3810 4760 60  0000 R TNN
-F 1 "10uF 0603" V 3710 4760 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3710 4760 60  0001 C CNN
-F 3 "" H 3710 4760 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    3700 4850
-	0    -1   -1   0   
+F 0 "C25" V 3650 4800 60  0000 R TNN
+F 1 "10uF" V 3550 4800 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3460 4610 60  0001 C CNN
+F 3 "" H 3460 4610 60  0000 C CNN
+F 4 "10V" V -900 100 60  0001 C CNN "Voltage Rating"
+	1    3450 4700
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD543
-P 3700 5950
+P 3600 5800
 AR Path="/5FD7EFCB/604BD543" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD543" Ref="C26"  Part="1" 
-F 0 "C26" V 3810 5860 60  0000 R TNN
-F 1 "10uF 0603" V 3710 5860 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3710 5860 60  0001 C CNN
-F 3 "" H 3710 5860 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    3700 5950
-	0    -1   -1   0   
+F 0 "C26" V 3800 5900 60  0000 R TNN
+F 1 "10uF" V 3700 5900 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3610 5710 60  0001 C CNN
+F 3 "" H 3610 5710 60  0000 C CNN
+F 4 "10V" V -750 100 60  0001 C CNN "Voltage Rating"
+	1    3600 5800
+	1    0    0    -1  
 $EndComp
 $Comp
 L BW1098ABC-rescue:DFE252012P-1R0M-depthAI_sch L?
@@ -837,44 +803,31 @@ F 3 "" H 4050 6900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD550
-P 3700 3800
+P 3600 3650
 AR Path="/5FD7EFCB/604BD550" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD550" Ref="C24"  Part="1" 
-F 0 "C24" V 3810 3710 60  0000 R TNN
-F 1 "10uF 0603" V 3710 3710 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3710 3710 60  0001 C CNN
-F 3 "" H 3710 3710 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    3700 3800
-	0    -1   -1   0   
+F 0 "C24" V 3700 3750 60  0000 R TNN
+F 1 "10uF" V 3800 3750 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3610 3560 60  0001 C CNN
+F 3 "" H 3610 3560 60  0000 C CNN
+F 4 "10V" V -750 100 60  0001 C CNN "Voltage Rating"
+	1    3600 3650
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD557
-P 1800 3800
+P 1800 3650
 AR Path="/5FD7EFCB/604BD557" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD557" Ref="C21"  Part="1" 
-F 0 "C21" V 1910 3710 60  0000 R TNN
-F 1 "10uF 0603" V 1810 3710 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1810 3710 60  0001 C CNN
-F 3 "" H 1810 3710 60  0000 C CNN
-F 4 "10V" V -650 250 60  0001 C CNN "Voltage Rating"
-	1    1800 3800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:TLV70012DCK-depthAI_sch U?
-U 1 1 604BD55D
-P 2400 3500
-AR Path="/5FD7EFCB/604BD55D" Ref="U?"  Part="1" 
-AR Path="/604AEAFA/604BD55D" Ref="U2"  Part="1" 
-F 0 "U2" H 2600 3600 60  0000 L BNN
-F 1 "TLV70012DCK" H 2600 3100 60  0000 L BNN
-F 2 "digikey-footprints:SC-70-5" H 2600 3100 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1610324804784&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV700" H 2600 3100 60  0001 C CNN
-	1    2400 3500
+F 0 "C21" V 2000 3700 60  0000 R TNN
+F 1 "10uF" V 1900 3750 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1810 3560 60  0001 C CNN
+F 3 "" H 1810 3560 60  0000 C CNN
+F 4 "10V" V -650 100 60  0001 C CNN "Voltage Rating"
+	1    1800 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -927,19 +880,6 @@ F 1 "TEST_POINT" H 4800 4550 50  0001 C CNN
 F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4800 4550 50  0001 C CNN
 F 3 "" H 4800 4550 50  0001 C CNN
 	1    4800 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:TLV70028DCK-depthAI_sch U?
-U 1 1 604BD581
-P 2400 5650
-AR Path="/5FD7EFCB/604BD581" Ref="U?"  Part="1" 
-AR Path="/604AEAFA/604BD581" Ref="U4"  Part="1" 
-F 0 "U4" H 2600 5750 60  0000 L BNN
-F 1 "TLV70028DCK" H 2600 5250 60  0000 L BNN
-F 2 "digikey-footprints:SC-70-5" H 2600 5250 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1610324804784&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV700" H 2600 5250 60  0001 C CNN
-	1    2400 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1021,19 +961,6 @@ F 3 "" H 10750 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:TLV70018DCK-depthAI_sch U?
-U 1 1 604BD5B1
-P 2400 4550
-AR Path="/5FD7EFCB/604BD5B1" Ref="U?"  Part="1" 
-AR Path="/604AEAFA/604BD5B1" Ref="U3"  Part="1" 
-F 0 "U3" H 2600 4650 60  0000 L BNN
-F 1 "TLV70018DCK" H 2600 4150 60  0000 L BNN
-F 2 "digikey-footprints:SC-70-5" H 2600 4150 60  0001 C CNN
-F 3 "https://www.ti.com/lit/ds/symlink/tlv700.pdf?ts=1610324804784&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV700" H 2600 4150 60  0001 C CNN
-	1    2400 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L BW1098ABC-rescue:TLV62080DSG-depthAI_sch U?
 U 1 1 604BD5B7
 P 2200 6800
@@ -1060,31 +987,31 @@ F 3 "http://www.jst-mfg.com/product/pdf/eng/ePH.pdf" H 14400 7350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:CRCW06030000Z0EA-depthAI_sch R?
+L Device:R_US R?
 U 1 1 604BD5C3
-P 2650 1500
+P 2800 1500
 AR Path="/5FD7EFCB/604BD5C3" Ref="R?"  Part="1" 
 AR Path="/604AEAFA/604BD5C3" Ref="R13"  Part="1" 
-F 0 "R13" H 2740 1530 60  0000 L BNN
-F 1 "0R 0603" H 2740 1370 60  0000 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2740 1370 60  0001 C CNN
-F 3 "" H 2740 1370 60  0000 C CNN
-	1    2650 1500
-	1    0    0    -1  
+F 0 "R13" V 2900 1600 60  0000 L BNN
+F 1 "0R" V 2900 1350 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2890 1370 60  0001 C CNN
+F 3 "" H 2890 1370 60  0000 C CNN
+	1    2800 1500
+	0    1    1    0   
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM155R60J106ME15D-depthAI_sch C?
+L Device:C C?
 U 1 1 604BD5D0
-P 4000 2000
+P 4000 1850
 AR Path="/5FD7EFCB/604BD5D0" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/604BD5D0" Ref="C27"  Part="1" 
-F 0 "C27" V 4110 1910 60  0000 R TNN
-F 1 "22uF 0603" V 4050 2000 60  0000 R TNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4010 1910 60  0001 C CNN
-F 3 "" H 4010 1910 60  0000 C CNN
-F 4 "10V" V -650 2400 60  0001 C CNN "Voltage Rating"
-	1    4000 2000
-	0    -1   -1   0   
+F 0 "C27" V 4050 2100 60  0000 R TNN
+F 1 "22uF" V 4150 2100 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4010 1760 60  0001 C CNN
+F 3 "" H 4010 1760 60  0000 C CNN
+F 4 "10V" V -650 2250 60  0001 C CNN "Voltage Rating"
+	1    4000 1850
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	10200 1700 11000 1700
@@ -1113,21 +1040,9 @@ Wire Notes Line
 Wire Notes Line
 	10250 5250 11250 5250
 Wire Wire Line
-	3400 4550 3700 4550
-Wire Wire Line
-	3400 5650 3700 5650
-Wire Wire Line
 	1700 1500 2550 1500
 Wire Wire Line
-	1600 5650 1800 5650
-Wire Wire Line
-	1550 4550 1800 4550
-Wire Wire Line
 	4850 7000 5600 7000
-Wire Wire Line
-	3400 3500 3700 3500
-Wire Wire Line
-	1500 3500 1800 3500
 Text Notes 11850 3100 0    50   ~ 0
 1. AVDD rising can occur before or after DOVDD rising as long as they are rising \n  before XSHUTDOWN rising  \n2. XSHUTDOWN is pulled up after AVDD and DOVDD are stable  \n3. DVDD rises after DOVDD, but before XSHUTDOWN is pulled high
 Text Notes 9700 6400 0    58   ~ 0
@@ -1136,30 +1051,9 @@ Text Notes 1700 1500 0    60   ~ 0
 Parameter Set\nPower Trace
 Text Notes 5150 1500 0    60   ~ 0
 Parameter Set\nPower Trace
-Connection ~ 1800 3500
-Wire Wire Line
-	1800 3500 2300 3500
-Connection ~ 1800 4550
-Wire Wire Line
-	1800 4550 2300 4550
-Connection ~ 1800 5650
-Wire Wire Line
-	1800 5650 2300 5650
 Connection ~ 2550 1500
 Wire Wire Line
 	2550 1500 2650 1500
-Connection ~ 3700 3500
-Wire Wire Line
-	3700 3500 4800 3500
-Connection ~ 3700 3800
-Connection ~ 3700 4550
-Wire Wire Line
-	3700 4550 4800 4550
-Connection ~ 3700 4850
-Connection ~ 3700 5650
-Wire Wire Line
-	3700 5650 4800 5650
-Connection ~ 3700 5950
 Connection ~ 4800 3500
 Wire Wire Line
 	4800 3500 5600 3500
@@ -1205,8 +1099,6 @@ F 3 "" H 5950 5650 50  0001 C CNN
 	1    5950 5650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 1500 4000 1500
 Wire Wire Line
 	1950 1700 1950 1750
 $Comp
@@ -1391,14 +1283,14 @@ $EndComp
 $Comp
 L power:GND #GND_?
 U 1 1 605021E2
-P 3350 10050
+P 2500 10150
 AR Path="/5FD7EFCB/605021E2" Ref="#GND_?"  Part="1" 
 AR Path="/604AEAFA/605021E2" Ref="#GND_0103"  Part="1" 
-F 0 "#GND_0103" H 3350 10190 20  0000 C CNN
-F 1 "GND" H 3350 10160 30  0000 C CNN
-F 2 "" H 3350 10050 70  0000 C CNN
-F 3 "" H 3350 10050 70  0000 C CNN
-	1    3350 10050
+F 0 "#GND_0103" H 2500 10290 20  0000 C CNN
+F 1 "GND" H 2500 10260 30  0000 C CNN
+F 2 "" H 2500 10150 70  0000 C CNN
+F 3 "" H 2500 10150 70  0000 C CNN
+	1    2500 10150
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1412,61 +1304,35 @@ Wire Notes Line
 Text Notes 4700 9300 0    120  ~ 24
 3.3V USB SW POWER
 Wire Wire Line
-	3350 9950 3250 9950
-Wire Wire Line
 	1250 9550 1250 9650
 Wire Wire Line
-	1750 9550 1250 9550
-Wire Wire Line
-	1750 9750 1750 9550
-Wire Wire Line
 	3950 9850 3950 9950
-Wire Wire Line
-	3350 9850 3250 9850
-Wire Wire Line
-	3350 9950 3350 9850
-Wire Wire Line
-	3350 10050 3350 9950
-Connection ~ 3350 9950
 $Comp
-L BW1098ABC-rescue:GRM155R61E105KA12D-DEPTH C?
+L Device:C C?
 U 1 1 605021F7
-P 1250 9950
+P 1250 9800
 AR Path="/5FD7EFCB/605021F7" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/605021F7" Ref="C31"  Part="1" 
-F 0 "C31" V 1360 9860 60  0000 R TNN
-F 1 "1uF 0402 25V" V 1260 9860 60  0000 R TNN
-F 2 "" H 1260 9860 60  0001 C CNN
-F 3 "" H 1260 9860 60  0000 C CNN
-F 4 "25V" V -600 8550 60  0001 C CNN "Voltage Rating"
-	1    1250 9950
-	0    -1   -1   0   
+F 0 "C31" V 1350 9950 60  0000 R TNN
+F 1 "1uF" V 1450 9950 60  0000 R TNN
+F 2 "" H 1260 9710 60  0001 C CNN
+F 3 "" H 1260 9710 60  0000 C CNN
+F 4 "25V" V -600 8400 60  0001 C CNN "Voltage Rating"
+	1    1250 9800
+	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:GRM188R61A106ME69D-DEPTH C?
+L Device:C C?
 U 1 1 605021FE
-P 3950 9850
+P 3950 9700
 AR Path="/5FD7EFCB/605021FE" Ref="C?"  Part="1" 
 AR Path="/604AEAFA/605021FE" Ref="C30"  Part="1" 
-F 0 "C30" V 4060 9760 60  0000 R TNN
-F 1 "10uF 0603 10V" V 3960 9760 60  0000 R TNN
-F 2 "" H 3960 9760 60  0001 C CNN
-F 3 "" H 3960 9760 60  0000 C CNN
-F 4 "10V" V -600 8550 60  0001 C CNN "Voltage Rating"
-	1    3950 9850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L BW1098ABC-rescue:TLV70733PDQN-DEPTH U?
-U 1 1 60502204
-P 1750 9550
-AR Path="/5FD7EFCB/60502204" Ref="U?"  Part="1" 
-AR Path="/604AEAFA/60502204" Ref="U5"  Part="1" 
-F 0 "U5" H 2050 9650 60  0000 L BNN
-F 1 "TLV70733PDQN" H 2050 8950 60  0000 L BNN
-F 2 "" H 2050 8950 60  0001 C CNN
-F 3 "" H 2050 8950 60  0000 C CNN
-	1    1750 9550
+F 0 "C30" V 4060 9610 60  0000 R TNN
+F 1 "10uF" V 4150 9600 60  0000 R TNN
+F 2 "" H 3960 9610 60  0001 C CNN
+F 3 "" H 3960 9610 60  0000 C CNN
+F 4 "10V" V -600 8400 60  0001 C CNN "Voltage Rating"
+	1    3950 9700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1482,8 +1348,6 @@ F 3 "" H 3950 9550 50  0001 C CNN
 	1    3950 9550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 9550 4650 9550
 Wire Wire Line
 	5550 5650 5950 5650
 $Comp
@@ -1536,4 +1400,140 @@ $EndComp
 Connection ~ 4650 9550
 Wire Wire Line
 	4650 9550 5650 9550
+$Comp
+L DEPTH:SP6201EM5-L-1-8 U?
+U 1 1 60188202
+P 2700 4650
+F 0 "U?" H 2700 4992 50  0000 C CNN
+F 1 "SP6201EM5-L-1-8" H 2700 4901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2700 4975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809201019_MaxLinear-SP6201EM5-L-1-8-TR_C32021.pdf" H 2700 4650 50  0001 C CNN
+	1    2700 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 4850 3200 4950
+Wire Wire Line
+	3200 4950 2700 4950
+Wire Wire Line
+	3200 4850 3450 4850
+$Comp
+L DEPTH:SP6201EM5-L-1-8 U?
+U 1 1 601CDF7F
+P 2500 9650
+F 0 "U?" H 2500 9992 50  0000 C CNN
+F 1 "SP6201EM5-L-3-3" H 2500 9901 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2500 9975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1809201019_MaxLinear-SP6201EM5-L-1-8-TR_C32021.pdf" H 2500 9650 50  0001 C CNN
+	1    2500 9650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 9550 1950 9550
+Wire Wire Line
+	2200 9650 1950 9650
+Wire Wire Line
+	1950 9650 1950 9550
+Connection ~ 1950 9550
+Wire Wire Line
+	1950 9550 2200 9550
+Wire Wire Line
+	2500 9950 2500 10150
+Wire Wire Line
+	2800 9550 3950 9550
+NoConn ~ 2800 9650
+Wire Notes Line
+	950  8900 950  2750
+$Comp
+L Regulator_Linear:TPS7A0518PDBV U?
+U 1 1 6024AB68
+P 3100 5750
+F 0 "U?" H 3100 6117 50  0000 C CNN
+F 1 "TPS73028DBVR" H 3100 6026 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3100 6100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/tps730.pdf?ts=1612131501479&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTPS730%253FHQS%253DTI-null-null-octopart-df-pf-null-wwe" H 3100 6250 50  0001 C CNN
+	1    3100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 5950 3500 6050
+Wire Wire Line
+	3500 6050 3100 6050
+Wire Wire Line
+	2300 5750 2800 5750
+Wire Wire Line
+	2300 5650 2800 5650
+$Comp
+L Regulator_Linear:AP2127K-1.2 U?
+U 1 1 602CC00F
+P 3100 3600
+F 0 "U?" H 3100 3942 50  0000 C CNN
+F 1 "AP2127AK-1.2" H 3100 3851 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3100 3925 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/115/AP2121-271514.pdf" H 3100 3700 50  0001 C CNN
+	1    3100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 3800 3500 3950
+Wire Wire Line
+	3500 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 3900
+Wire Wire Line
+	2300 3500 2800 3500
+Wire Wire Line
+	2300 3600 2800 3600
+Wire Wire Line
+	4200 8050 4200 8150
+Wire Wire Line
+	4200 8450 4200 8600
+Wire Wire Line
+	4200 7400 4200 7550
+Wire Wire Line
+	4200 7850 4200 8050
+Wire Wire Line
+	2950 1500 4000 1500
+Wire Wire Line
+	3400 5650 3600 5650
+Wire Wire Line
+	1600 5650 1800 5650
+Wire Wire Line
+	1550 4550 1800 4550
+Wire Wire Line
+	3400 3500 3600 3500
+Wire Wire Line
+	1500 3500 1800 3500
+Wire Wire Line
+	3000 4550 3450 4550
+Connection ~ 1800 3500
+Wire Wire Line
+	1800 3500 2300 3500
+Connection ~ 3600 3500
+Wire Wire Line
+	3600 3500 4800 3500
+Connection ~ 3600 3800
+Wire Wire Line
+	3600 3800 3500 3800
+Connection ~ 3450 4550
+Wire Wire Line
+	3450 4550 4800 4550
+Connection ~ 3450 4850
+Wire Wire Line
+	3450 4850 3700 4850
+Connection ~ 1800 4550
+Wire Wire Line
+	1800 4550 2300 4550
+Connection ~ 1800 5650
+Wire Wire Line
+	1800 5650 2300 5650
+Connection ~ 3600 5650
+Wire Wire Line
+	3600 5650 4800 5650
+Connection ~ 3600 5950
+Wire Wire Line
+	3600 5950 3500 5950
+Connection ~ 3950 9550
+Wire Wire Line
+	3950 9550 4650 9550
 $EndSCHEMATC
