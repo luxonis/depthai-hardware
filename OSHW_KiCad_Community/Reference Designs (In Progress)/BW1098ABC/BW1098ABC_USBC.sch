@@ -49,32 +49,6 @@ Text Label 13150 5000 0    60   ~ 0
 USB_D_N
 $Comp
 L power:GND #GND_?
-U 1 1 604C8AE3
-P 3450 6200
-AR Path="/5FD7F014/604C8AE3" Ref="#GND_?"  Part="1" 
-AR Path="/60483E6B/604C8AE3" Ref="#GND_0106"  Part="1" 
-F 0 "#GND_0106" H 3450 6200 20  0000 C CNN
-F 1 "GND" H 3450 6130 30  0000 C CNN
-F 2 "" H 3450 6200 70  0000 C CNN
-F 3 "" H 3450 6200 70  0000 C CNN
-	1    3450 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #GND_?
-U 1 1 604C8AE9
-P 2050 6200
-AR Path="/5FD7F014/604C8AE9" Ref="#GND_?"  Part="1" 
-AR Path="/60483E6B/604C8AE9" Ref="#GND_0107"  Part="1" 
-F 0 "#GND_0107" H 2050 6200 20  0000 C CNN
-F 1 "GND" H 2050 6130 30  0000 C CNN
-F 2 "" H 2050 6200 70  0000 C CNN
-F 3 "" H 2050 6200 70  0000 C CNN
-	1    2050 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #GND_?
 U 1 1 604C8AEF
 P 2750 6600
 AR Path="/5FD7F014/604C8AEF" Ref="#GND_?"  Part="1" 
@@ -196,15 +170,15 @@ RXC_N
 $Comp
 L power:GND #GND_?
 U 1 1 604C8B29
-P 13850 7500
+P 13850 7600
 AR Path="/5FD7F014/604C8B29" Ref="#GND_?"  Part="1" 
 AR Path="/60483E6B/604C8B29" Ref="#GND_0115"  Part="1" 
-F 0 "#GND_0115" H 13850 7500 20  0000 C CNN
-F 1 "GND" H 13850 7430 30  0000 C CNN
-F 2 "" H 13850 7500 70  0000 C CNN
-F 3 "" H 13850 7500 70  0000 C CNN
-	1    13850 7500
-	0    -1   -1   0   
+F 0 "#GND_0115" H 13850 7600 20  0000 C CNN
+F 1 "GND" H 13850 7530 30  0000 C CNN
+F 2 "" H 13850 7600 70  0000 C CNN
+F 3 "" H 13850 7600 70  0000 C CNN
+	1    13850 7600
+	1    0    0    -1  
 $EndComp
 Text Label 12450 7500 0    60   ~ 0
 USB_PORT
@@ -212,19 +186,6 @@ Text Label 14050 8100 2    60   ~ 0
 CC1
 Text Label 14050 8200 2    60   ~ 0
 CC2
-$Comp
-L power:GND #GND_?
-U 1 1 604C8B33
-P 13850 7400
-AR Path="/5FD7F014/604C8B33" Ref="#GND_?"  Part="1" 
-AR Path="/60483E6B/604C8B33" Ref="#GND_0116"  Part="1" 
-F 0 "#GND_0116" H 13850 7400 20  0000 C CNN
-F 1 "GND" H 13850 7330 30  0000 C CNN
-F 2 "" H 13850 7400 70  0000 C CNN
-F 3 "" H 13850 7400 70  0000 C CNN
-	1    13850 7400
-	0    -1   -1   0   
-$EndComp
 Text Label 12450 7400 0    60   ~ 0
 USB_CM
 $Comp
@@ -830,30 +791,12 @@ Wire Wire Line
 	4350 6100 8850 6100
 Wire Wire Line
 	4650 6300 8950 6300
-Text Notes 6750 4900 0    72   ~ 0
-DIFFPAIR
-Text Notes 6750 5000 0    72   ~ 0
-DIFFPAIR
-Text Notes 6750 5200 0    72   ~ 0
-DIFFPAIR
-Text Notes 6750 5300 0    72   ~ 0
-DIFFPAIR
-Text Notes 6650 6000 0    72   ~ 0
-DIFFPAIR
-Text Notes 6650 6100 0    72   ~ 0
-DIFFPAIR
-Text Notes 6650 6300 0    72   ~ 0
-DIFFPAIR
-Text Notes 6650 6400 0    72   ~ 0
-DIFFPAIR
 Text Notes 12450 3150 0    52   ~ 0
 Current Mode:  \nL - Low(500-900mA) current. (Default) Pull-down to GND or leave unconnected.  \nM - Medium (1.5A) current. Pull-up to VDD with 500-kO resistor.  \nH - High (3.0A) current. Pull-up to VDD with 10-kO resistor.
 Text Notes 12450 3600 0    52   ~ 0
 DIR pin:  \nDIR of plug. This open drain output indicates the detected plug orientation: \n  Type-C plug position 2 (H) connectos Port A to Port C on U61; \n  Type-C plug position 1 (L) connects port A to Port B on U61.
 Text Notes 12450 4000 0    52   ~ 0
 Port:  \nH - DFP (Pull-up to VDD if DFP mode is desired)  \nNC - DRP (Default) (Leave unconnected if DRP mode is desired)  \nL - UFP (Pull-down or tie to GND if UFP mode is desired)
-Text Notes 13750 4900 0    72   ~ 0
-DIFFPAIR
 Wire Wire Line
 	2350 1800 3850 1800
 Text GLabel 2050 5400 0    60   Output ~ 0
@@ -880,16 +823,6 @@ F 4 "TUSB321RWBR" H 13200 7350 60  0000 C CNN "Manufacturer Part Number 1"
 	1    12250 7200
 	-1   0    0    -1  
 $EndComp
-Text Notes 13750 5000 0    72   ~ 0
-DIFFPAIR
-Text Notes 13750 5200 0    72   ~ 0
-DIFFPAIR
-Text Notes 13750 5300 0    72   ~ 0
-DIFFPAIR
-Text Notes 13750 5500 0    72   ~ 0
-DIFFPAIR
-Text Notes 13750 5600 0    72   ~ 0
-DIFFPAIR
 Text GLabel 14250 5300 2    50   BiDi ~ 0
 USB_D_N
 Text GLabel 14250 5200 2    50   BiDi ~ 0
@@ -995,4 +928,19 @@ Wire Wire Line
 	8550 7500 9050 7500
 Wire Wire Line
 	8550 7400 9050 7400
+Wire Wire Line
+	13850 7400 13850 7500
+Wire Wire Line
+	13850 7500 13850 7600
+Connection ~ 13850 7500
+Wire Wire Line
+	3450 6200 3450 6600
+Wire Wire Line
+	3450 6600 2950 6600
+Connection ~ 2950 6600
+Wire Wire Line
+	2050 6200 2050 6600
+Wire Wire Line
+	2050 6600 2550 6600
+Connection ~ 2550 6600
 $EndSCHEMATC
