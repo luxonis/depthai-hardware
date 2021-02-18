@@ -25,198 +25,196 @@ F 3 "~" H 1600 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	2500 2800 6900 2800
+	6800 2650 11200 2650
 Wire Notes Line
-	2500 3200 6900 3200
+	6800 3050 11200 3050
 Wire Notes Line
-	2500 3300 6900 3300
+	6800 3150 11200 3150
 Wire Notes Line
-	6900 2700 6900 3300
+	11200 2550 11200 3150
 Wire Notes Line
-	2500 2700 2500 3300
+	6800 2550 6800 3150
 $Comp
 L Device:R_US R?
 U 1 1 5FFB0ADF
-P 6950 4500
+P 3600 5000
 AR Path="/5FD7EFCF/5FFB0ADF" Ref="R?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0ADF" Ref="R5"  Part="1" 
-F 0 "R5" V 7050 4650 60  0000 L BNN
-F 1 "10K" V 6950 4200 60  0000 L BNN
-F 2 "Resistor_SMD:R_0402_1005Metric" H 7040 4370 60  0001 C CNN
-F 3 "" H 7040 4370 60  0000 C CNN
-	1    6950 4500
+F 0 "R5" V 3700 5150 60  0000 L BNN
+F 1 "10K" V 3600 4700 60  0000 L BNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3690 4870 60  0001 C CNN
+F 3 "" H 3690 4870 60  0000 C CNN
+	1    3600 5000
 	0    1    1    0   
 $EndComp
 $Comp
 L BW1098ABC-rescue:A12N02A-201-depthAI_sch J?
 U 1 1 5FFB0ACD
-P 3800 5300
+P 5800 5350
 AR Path="/5FD7EFCF/5FFB0ACD" Ref="J?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0ACD" Ref="J5"  Part="1" 
-F 0 "J5" H 4000 6900 60  0000 L BNN
-F 1 "24-5804-030-000-829+" H 4000 5200 60  0000 L BNN
-F 2 "Luxonis_Kicad_Master:A12N01A-201_IMX378" H 4000 5200 60  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/909/5804-1525720.pdf" H 4000 5200 60  0001 C CNN
-	1    3800 5300
+F 0 "J5" H 6000 6950 60  0000 L BNN
+F 1 "24-5804-030-000-829+" H 6000 5250 60  0000 L BNN
+F 2 "Luxonis_Kicad_Master:A12N01A-201_IMX378" H 6000 5250 60  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/909/5804-1525720.pdf" H 6000 5250 60  0001 C CNN
+	1    5800 5350
 	1    0    0    -1  
 $EndComp
-Connection ~ 5700 4400
-Connection ~ 5700 5100
-Connection ~ 3700 4100
-Connection ~ 3700 4400
-Connection ~ 3700 4700
-Connection ~ 3700 4900
-Connection ~ 3700 5100
+Connection ~ 7700 4450
+Connection ~ 7700 5150
+Connection ~ 5700 4150
+Connection ~ 5700 4450
+Connection ~ 5700 4750
+Connection ~ 5700 4950
+Connection ~ 5700 5150
 Wire Wire Line
-	3700 5100 3800 5100
+	5700 5150 5800 5150
 Wire Wire Line
-	3700 4900 3800 4900
+	5700 4950 5800 4950
 Wire Wire Line
-	3700 4700 3800 4700
+	5700 4750 5800 4750
 Wire Wire Line
-	3700 4400 3800 4400
+	5700 4450 5800 4450
 Wire Wire Line
-	3700 4100 3800 4100
+	5700 4150 5800 4150
 Wire Wire Line
-	5700 5100 5600 5100
+	7700 5150 7600 5150
 Wire Wire Line
-	5700 4400 5600 4400
+	7700 4450 7600 4450
 Wire Wire Line
-	5700 5400 5700 5100
+	7700 5450 7700 5150
 Wire Wire Line
-	5700 5100 5700 4400
+	7700 5150 7700 4450
 Wire Wire Line
-	5700 4400 5700 3900
+	7700 4450 7700 3950
 Wire Wire Line
-	5700 3900 5600 3900
+	7700 3950 7600 3950
 Wire Wire Line
-	5600 5000 5900 5000
+	7600 5050 7900 5050
 Wire Wire Line
-	3700 5400 3700 5100
+	5700 5450 5700 5150
 Wire Wire Line
-	3700 5100 3700 4900
+	5700 5150 5700 4950
 Wire Wire Line
-	3700 4900 3700 4700
+	5700 4950 5700 4750
 Wire Wire Line
-	3700 4700 3700 4400
+	5700 4750 5700 4450
 Wire Wire Line
-	3700 4400 3700 4100
+	5700 4450 5700 4150
 Wire Wire Line
-	3700 4100 3700 3800
+	5700 4150 5700 3850
 Wire Wire Line
-	3700 3800 3800 3800
+	5700 3850 5800 3850
 Wire Wire Line
-	3400 5200 3800 5200
+	5400 5250 5800 5250
 Wire Wire Line
-	3400 4800 3800 4800
+	5400 4850 5800 4850
 Wire Wire Line
-	3400 5000 3800 5000
+	5400 5050 5800 5050
 Wire Wire Line
-	6800 4900 5600 4900
+	2700 5100 1500 5100
 Wire Wire Line
-	6800 4800 5600 4800
+	2700 5200 1500 5200
 Wire Wire Line
-	6750 3800 5600 3800
+	2650 4800 1500 4800
 Wire Wire Line
-	6800 4300 5600 4300
+	2700 4200 1500 4200
 Wire Wire Line
-	6800 4200 5600 4200
+	2700 4300 1500 4300
 Wire Wire Line
-	6800 4100 5600 4100
+	2700 3900 1500 3900
 Wire Wire Line
-	6800 4000 5600 4000
-Wire Wire Line
-	6800 4500 6050 4500
+	2700 4000 1500 4000
 $Comp
 L power:GND #GND_?
 U 1 1 5FFB0A4E
-P 5700 5400
+P 7700 5450
 AR Path="/5FD7EFCF/5FFB0A4E" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0A4E" Ref="#GND_022"  Part="1" 
-F 0 "#GND_022" H 5700 5400 20  0000 C CNN
-F 1 "GND" H 5700 5330 30  0000 C CNN
-F 2 "" H 5700 5400 70  0000 C CNN
-F 3 "" H 5700 5400 70  0000 C CNN
-	1    5700 5400
+F 0 "#GND_022" H 7700 5450 20  0000 C CNN
+F 1 "GND" H 7700 5380 30  0000 C CNN
+F 2 "" H 7700 5450 70  0000 C CNN
+F 3 "" H 7700 5450 70  0000 C CNN
+	1    7700 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #GND_?
 U 1 1 5FFB0A48
-P 3700 5400
+P 5700 5450
 AR Path="/5FD7EFCF/5FFB0A48" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0A48" Ref="#GND_020"  Part="1" 
-F 0 "#GND_020" H 3700 5400 20  0000 C CNN
-F 1 "GND" H 3700 5330 30  0000 C CNN
-F 2 "" H 3700 5400 70  0000 C CNN
-F 3 "" H 3700 5400 70  0000 C CNN
-	1    3700 5400
+F 0 "#GND_020" H 5700 5450 20  0000 C CNN
+F 1 "GND" H 5700 5380 30  0000 C CNN
+F 2 "" H 5700 5450 70  0000 C CNN
+F 3 "" H 5700 5450 70  0000 C CNN
+	1    5700 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #GND_?
 U 1 1 5FFB0A36
-P 7300 4500
+P 3950 5000
 AR Path="/5FD7EFCF/5FFB0A36" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D4A5/5FFB0A36" Ref="#GND_023"  Part="1" 
-F 0 "#GND_023" H 7300 4600 20  0000 C CNN
-F 1 "GND" H 7300 4550 30  0000 C CNN
-F 2 "" H 7300 4500 70  0000 C CNN
-F 3 "" H 7300 4500 70  0000 C CNN
-	1    7300 4500
+F 0 "#GND_023" H 3950 5100 20  0000 C CNN
+F 1 "GND" H 3950 5050 30  0000 C CNN
+F 2 "" H 3950 5000 70  0000 C CNN
+F 3 "" H 3950 5000 70  0000 C CNN
+	1    3950 5000
 	1    0    0    -1  
 $EndComp
-Text Notes 2500 2600 0    120  ~ 24
+Text Notes 6800 2450 0    120  ~ 24
 IMX378 MODULE CONNECTOR
 Wire Notes Line
-	6900 2700 2500 2700
-Text Notes 3900 2800 0    60   ~ 0
+	11200 2550 6800 2550
+Text Notes 8200 2650 0    60   ~ 0
 MODULE & SENSOR INFORMATION
 Wire Notes Line
-	4490 2800 4490 3300
+	8790 2650 8790 3150
 Wire Notes Line
-	6900 2900 2500 2900
+	11200 2750 6800 2750
 Wire Notes Line
-	5600 3300 5600 2800
+	9900 3150 9900 2650
 Wire Notes Line
-	3300 3300 3300 2800
+	7600 3150 7600 2650
 Wire Notes Line
-	4500 3300 4500 2800
-Text Notes 5800 3300 0    60   ~ 0
+	8800 3150 8800 2650
+Text Notes 10100 3150 0    60   ~ 0
 6 - 27 MHz
-Text Notes 4600 3300 0    60   ~ 0
+Text Notes 8900 3150 0    60   ~ 0
 Sensor Clock Input
-Text Notes 5800 2900 0    60   ~ 0
+Text Notes 10100 2750 0    60   ~ 0
 1000 kHz Max
-Text Notes 4600 2900 0    60   ~ 0
+Text Notes 8900 2750 0    60   ~ 0
 I2C Clock Rate
-Text Notes 5800 3200 0    60   ~ 0
+Text Notes 10100 3050 0    60   ~ 0
 0xA0 (EEPROM driver)
-Text Notes 5800 3100 0    60   ~ 0
+Text Notes 10100 2950 0    60   ~ 0
 0x18 (VCM driver)
-Text Notes 5800 3000 0    60   ~ 0
+Text Notes 10100 2850 0    60   ~ 0
 0x34 (Sensor)
-Text Notes 4600 3000 0    60   ~ 0
+Text Notes 8900 2850 0    60   ~ 0
 I2C Address (8 bits)
-Text Notes 3400 3200 0    60   ~ 0
+Text Notes 7700 3050 0    60   ~ 0
 1/2.3 inch
-Text Notes 2600 3300 0    60   ~ 0
+Text Notes 6900 3150 0    60   ~ 0
 MAX RESOLUTION
-Text Notes 3400 2900 0    60   ~ 0
+Text Notes 7700 2750 0    60   ~ 0
 A12N02A-201
-Text Notes 2600 2900 0    60   ~ 0
+Text Notes 6900 2750 0    60   ~ 0
 MODULE
-Text Notes 3400 3000 0    60   ~ 0
+Text Notes 7700 2850 0    60   ~ 0
 IMX378-AAQH5-C
-Text Notes 3400 3300 0    60   ~ 0
+Text Notes 7700 3150 0    60   ~ 0
 4056x3040
-Text Notes 3400 3100 0    60   ~ 0
+Text Notes 7700 2950 0    60   ~ 0
 12.3 Mega pixel CMOS
-Text Notes 2600 3000 0    60   ~ 0
+Text Notes 6900 2850 0    60   ~ 0
 SENSOR
-NoConn ~ 5600 4600
-NoConn ~ 5600 4700
-NoConn ~ 5600 5200
+NoConn ~ 7600 4650
+NoConn ~ 7600 4750
+NoConn ~ 7600 5250
 $Comp
 L Device:L_Core_Ferrite FB2
 U 1 1 5FFE6B4A
@@ -245,9 +243,8 @@ Wire Wire Line
 	1050 1150 1450 1150
 Wire Wire Line
 	1050 850  1450 850 
-Connection ~ 5600 3800
 Wire Wire Line
-	5600 3800 5550 3800
+	7600 3850 7550 3850
 Text Label 2300 850  2    50   ~ 0
 2V8_IMX378
 Wire Wire Line
@@ -266,13 +263,13 @@ Text Label 5750 1300 2    50   ~ 0
 1V8_IMX378
 Text Label 4450 1300 2    50   ~ 0
 1V05_IMX378
-Text Label 3400 4800 2    50   ~ 0
+Text Label 5400 4850 2    50   ~ 0
 2V8_IMX378
-Text Label 3400 5000 2    50   ~ 0
+Text Label 5400 5050 2    50   ~ 0
 1V8_IMX378
-Text Label 3400 5200 2    50   ~ 0
+Text Label 5400 5250 2    50   ~ 0
 1V05_IMX378
-Text Label 5900 5000 0    50   ~ 0
+Text Label 7900 5050 0    50   ~ 0
 2V8_IMX378
 $Comp
 L power:+1V8 #PWR?
@@ -315,68 +312,58 @@ F 3 "" H 1050 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2650 3900 3800 3900
+	2650 4600 1500 4600
 Wire Wire Line
-	2650 4000 3800 4000
+	2650 4500 1500 4500
 Wire Wire Line
-	2650 4200 3800 4200
+	2650 3400 1500 3400
 Wire Wire Line
-	2650 4300 3800 4300
-Wire Wire Line
-	2650 4500 3800 4500
-Wire Wire Line
-	2650 4600 3800 4600
-Text GLabel 6800 4000 2    50   Output ~ 0
+	2650 3300 1500 3300
+Text GLabel 2700 4000 2    50   Output ~ 0
 MIPI_RX4_C_N
-Text GLabel 6800 4100 2    50   Output ~ 0
+Text GLabel 2700 3900 2    50   Output ~ 0
 MIPI_RX4_C_P
-Text GLabel 2650 4200 0    50   Output ~ 0
-MIPI_RX4_D0_N
-Text GLabel 2650 4300 0    50   Output ~ 0
-MIPI_RX4_D0_P
-Text GLabel 6800 4200 2    50   Output ~ 0
+Text GLabel 2700 4300 2    50   Output ~ 0
 MIPI_RX4_D1_N
-Text GLabel 6800 4300 2    50   Output ~ 0
+Text GLabel 2700 4200 2    50   Output ~ 0
 MIPI_RX4_D1_P
-Text GLabel 2650 4500 0    50   Output ~ 0
+Text GLabel 2650 3400 2    50   Output ~ 0
 MIPI_RX5_D0_N
-Text GLabel 2650 4600 0    50   Output ~ 0
+Text GLabel 2650 3300 2    50   Output ~ 0
 MIPI_RX5_D0_P
-Text GLabel 2650 3900 0    50   Output ~ 0
+Text GLabel 2650 4600 2    50   Output ~ 0
 MIPI_RX5_D1_N
-Text GLabel 2650 4000 0    50   Output ~ 0
+Text GLabel 2650 4500 2    50   Output ~ 0
 MIPI_RX5_D1_P
-Text GLabel 6800 4900 2    50   BiDi ~ 0
+Text GLabel 2700 5100 2    50   BiDi ~ 0
 I2C1_SDA
-Text GLabel 6800 4800 2    50   BiDi ~ 0
+Text GLabel 2700 5200 2    50   BiDi ~ 0
 I2C1_SCL
-Text GLabel 6150 4650 2    50   Input ~ 0
+Text GLabel 2650 4900 2    50   Input ~ 0
 CAM_A_PWDN_N
-Text GLabel 6750 3800 2    50   Input ~ 0
+Text GLabel 2650 4800 2    50   Input ~ 0
 CAM_A_CLK_OUT
 Wire Wire Line
-	6150 4650 6050 4650
+	8050 4700 8050 4550
 Wire Wire Line
-	6050 4650 6050 4500
-Connection ~ 6050 4500
-Wire Wire Line
-	6050 4500 5600 4500
-Text Notes 1600 3650 0    60   ~ 0
+	8050 4550 7600 4550
+Text Notes 900  2600 0    60   ~ 0
 DPHYv1.2
-Text Notes 1600 3750 0    60   ~ 0
+Text Notes 900  2700 0    60   ~ 0
 Max 2.1 Gbps / lane
-Text Notes 1600 3550 0    60   ~ 0
+Text Notes 900  2500 0    60   ~ 0
 MIPI Lanes:
-Text Notes 1600 3400 0    62   ~ 0
+Text Notes 900  2350 0    62   ~ 0
 MIPI CAM A
 Wire Wire Line
-	7100 4500 7300 4500
+	3750 5000 3950 5000
 $Comp
 L power:GND #GND_?
 U 1 1 603DCC0F
 P 4750 1700
 AR Path="/5FD7EFD3/603DCC0F" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D2B3/603DCC0F" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D4A5/603DCC0F" Ref="#GND_?"  Part="1" 
 F 0 "#GND_?" H 4750 1700 20  0000 C CNN
 F 1 "GND" H 4750 1630 30  0000 C CNN
 F 2 "" H 4750 1700 70  0000 C CNN
@@ -399,6 +386,7 @@ U 1 1 603DCC1B
 P 5050 1450
 AR Path="/5FD7EFD3/603DCC1B" Ref="C?"  Part="1" 
 AR Path="/5FF8D2B3/603DCC1B" Ref="C?"  Part="1" 
+AR Path="/5FF8D4A5/603DCC1B" Ref="C?"  Part="1" 
 F 0 "C?" V 5150 1700 60  0000 R TNN
 F 1 "10uF" V 5050 1700 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5060 1360 60  0001 C CNN
@@ -413,6 +401,7 @@ U 1 1 603DCC22
 P 4450 1450
 AR Path="/5FD7EFD3/603DCC22" Ref="C?"  Part="1" 
 AR Path="/5FF8D2B3/603DCC22" Ref="C?"  Part="1" 
+AR Path="/5FF8D4A5/603DCC22" Ref="C?"  Part="1" 
 F 0 "C?" V 4450 1400 60  0000 R TNN
 F 1 "0.1uF" V 4350 1400 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 4460 1360 60  0001 C CNN
@@ -441,6 +430,7 @@ U 1 1 603F10BF
 P 6050 1700
 AR Path="/5FD7EFD3/603F10BF" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D2B3/603F10BF" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D4A5/603F10BF" Ref="#GND_?"  Part="1" 
 F 0 "#GND_?" H 6050 1700 20  0000 C CNN
 F 1 "GND" H 6050 1630 30  0000 C CNN
 F 2 "" H 6050 1700 70  0000 C CNN
@@ -463,6 +453,7 @@ U 1 1 603F10CB
 P 6350 1450
 AR Path="/5FD7EFD3/603F10CB" Ref="C?"  Part="1" 
 AR Path="/5FF8D2B3/603F10CB" Ref="C?"  Part="1" 
+AR Path="/5FF8D4A5/603F10CB" Ref="C?"  Part="1" 
 F 0 "C?" V 6450 1700 60  0000 R TNN
 F 1 "10uF" V 6350 1700 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6360 1360 60  0001 C CNN
@@ -477,6 +468,7 @@ U 1 1 603F10D2
 P 5750 1450
 AR Path="/5FD7EFD3/603F10D2" Ref="C?"  Part="1" 
 AR Path="/5FF8D2B3/603F10D2" Ref="C?"  Part="1" 
+AR Path="/5FF8D4A5/603F10D2" Ref="C?"  Part="1" 
 F 0 "C?" V 5750 1400 60  0000 R TNN
 F 1 "0.1uF" V 5650 1400 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 5760 1360 60  0001 C CNN
@@ -505,6 +497,7 @@ U 1 1 603F3216
 P 7350 1700
 AR Path="/5FD7EFD3/603F3216" Ref="#GND_?"  Part="1" 
 AR Path="/5FF8D2B3/603F3216" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D4A5/603F3216" Ref="#GND_?"  Part="1" 
 F 0 "#GND_?" H 7350 1700 20  0000 C CNN
 F 1 "GND" H 7350 1630 30  0000 C CNN
 F 2 "" H 7350 1700 70  0000 C CNN
@@ -527,6 +520,7 @@ U 1 1 603F3222
 P 7650 1450
 AR Path="/5FD7EFD3/603F3222" Ref="C?"  Part="1" 
 AR Path="/5FF8D2B3/603F3222" Ref="C?"  Part="1" 
+AR Path="/5FF8D4A5/603F3222" Ref="C?"  Part="1" 
 F 0 "C?" V 7750 1700 60  0000 R TNN
 F 1 "10uF" V 7650 1700 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7660 1360 60  0001 C CNN
@@ -541,6 +535,7 @@ U 1 1 603F3229
 P 7050 1450
 AR Path="/5FD7EFD3/603F3229" Ref="C?"  Part="1" 
 AR Path="/5FF8D2B3/603F3229" Ref="C?"  Part="1" 
+AR Path="/5FF8D4A5/603F3229" Ref="C?"  Part="1" 
 F 0 "C?" V 7050 1400 60  0000 R TNN
 F 1 "0.1uF" V 6950 1400 60  0000 R TNN
 F 2 "Capacitor_SMD:C_0402_1005Metric" H 7060 1360 60  0001 C CNN
@@ -569,4 +564,98 @@ Wire Wire Line
 	5750 1600 5750 1700
 Wire Wire Line
 	4450 1600 4450 1700
+$Comp
+L Connector_Generic:Conn_01x26 J?
+U 1 1 6025B66C
+P 1300 4400
+F 0 "J?" H 1218 5817 50  0000 C CNN
+F 1 "2\" 26 ckt 0.5mm same side flex" H 1218 5726 50  0000 C CNN
+F 2 "" H 1300 4400 50  0001 C CNN
+F 3 "~" H 1300 4400 50  0001 C CNN
+	1    1300 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6029B3C6
+P 1700 5850
+AR Path="/5FD7EFCF/6029B3C6" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D4A5/6029B3C6" Ref="#GND_?"  Part="1" 
+F 0 "#GND_?" H 1700 5850 20  0001 C CNN
+F 1 "GND" H 1700 5780 30  0000 C CNN
+F 2 "" H 1700 5850 70  0000 C CNN
+F 3 "" H 1700 5850 70  0000 C CNN
+	1    1700 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5850 1700 5300
+Wire Wire Line
+	1700 3200 1500 3200
+Wire Wire Line
+	1500 3500 1700 3500
+Connection ~ 1700 3500
+Wire Wire Line
+	1700 3500 1700 3200
+Wire Wire Line
+	1500 3800 1700 3800
+Connection ~ 1700 3800
+Wire Wire Line
+	1700 3800 1700 3500
+Wire Wire Line
+	1500 4100 1700 4100
+Connection ~ 1700 4100
+Wire Wire Line
+	1700 4100 1700 3800
+Wire Wire Line
+	1500 4400 1700 4400
+Connection ~ 1700 4400
+Wire Wire Line
+	1700 4400 1700 4100
+Wire Wire Line
+	1500 4700 1700 4700
+Connection ~ 1700 4700
+Wire Wire Line
+	1700 4700 1700 4400
+Wire Wire Line
+	1500 5000 1700 5000
+Connection ~ 1700 5000
+Wire Wire Line
+	1700 5000 1700 4700
+$Comp
+L power:+5V #PWR?
+U 1 1 602AF8B1
+P 1500 5600
+F 0 "#PWR?" H 1500 5450 50  0001 C CNN
+F 1 "+5V" V 1550 5600 50  0000 L CNN
+F 2 "" H 1500 5600 50  0001 C CNN
+F 3 "" H 1500 5600 50  0001 C CNN
+	1    1500 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1500 5700 1500 5600
+Connection ~ 1500 5600
+Wire Wire Line
+	2650 3700 1500 3700
+Wire Wire Line
+	2650 3600 1500 3600
+Text GLabel 2650 3700 2    50   Output ~ 0
+MIPI_RX4_D0_N
+Text GLabel 2650 3600 2    50   Output ~ 0
+MIPI_RX4_D0_P
+Wire Wire Line
+	1500 5300 1700 5300
+Connection ~ 1700 5300
+Wire Wire Line
+	1700 5300 1700 5000
+Wire Wire Line
+	1500 4900 2400 4900
+Wire Wire Line
+	2400 5000 2400 4900
+Wire Wire Line
+	2400 5000 3450 5000
+Connection ~ 2400 4900
+Wire Wire Line
+	2400 4900 2650 4900
 $EndSCHEMATC

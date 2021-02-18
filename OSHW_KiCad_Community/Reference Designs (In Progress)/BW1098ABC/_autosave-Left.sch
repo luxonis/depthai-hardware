@@ -15,96 +15,6 @@ Comment4 ""
 $EndDescr
 Text Label 9650 4300 0    60   ~ 0
 STROBE1
-Text Notes 5800 850  0    60   ~ 0
-SENSOR
-Text Notes 6550 950  0    60   ~ 0
-B&W 1 Mega pixel CMOS
-Text Notes 6600 1150 0    60   ~ 0
-1280X800
-Text Notes 6600 850  0    60   ~ 0
-OV09282-GA4A
-Text Notes 5800 750  0    60   ~ 0
-MODULE
-Text Notes 6250 750  0    60   ~ 0
-TG161B-201 OR AN01V32-0JG
-Text Notes 5700 1150 0    60   ~ 0
-MAX RESOLUTION
-Text Notes 6550 1050 0    60   ~ 0
-1/4 inch
-Text Notes 7800 850  0    60   ~ 0
-I2C Address (8 bits)
-Text Notes 7800 750  0    60   ~ 0
-I2C Clock Rate
-Text Notes 8900 750  0    60   ~ 0
-400 kHz Max
-Text Notes 7800 1150 0    60   ~ 0
-Sensor Clock Input
-Text Notes 8900 1150 0    60   ~ 0
-6 - 64 MHz (24 MHz typ.)
-Wire Notes Line
-	7700 1150 7700 650 
-Wire Notes Line
-	6500 1150 6500 750 
-Wire Notes Line
-	8800 1150 8800 650 
-Wire Notes Line
-	10100 750  5700 750 
-Wire Notes Line
-	7690 650  7690 1150
-Text Notes 7100 650  0    60   ~ 0
-MODULE & SENSOR INFORMATION
-Wire Notes Line
-	10100 550  5700 550 
-Text Notes 5700 1350 0    60   ~ 0
-Supply Information
-Text Notes 5700 1850 0    60   ~ 0
-AVDD
-Text Notes 5700 1650 0    60   ~ 0
-DOVDD
-Text Notes 5700 1750 0    60   ~ 0
-DVDD
-Text Notes 6100 1850 0    60   ~ 0
-VDD-A
-Text Notes 6100 1650 0    60   ~ 0
-VDD-IO
-Text Notes 6100 1750 0    60   ~ 0
-VDD-D
-Text Notes 6600 1850 0    60   ~ 0
-2.8V
-Text Notes 6600 1650 0    60   ~ 0
-1.8V
-Text Notes 6600 1750 0    60   ~ 0
-1.2V
-Text Notes 7400 1850 0    60   ~ 0
-24mA
-Text Notes 7400 1650 0    60   ~ 0
-2.5mA
-Text Notes 7400 1750 0    60   ~ 0
-52mA
-Text Notes 5800 1450 0    60   ~ 0
-Supply Name
-Text Notes 5800 1550 0    60   ~ 0
-Module
-Text Notes 6200 1550 0    60   ~ 0
-Sensor
-Text Notes 6690 1490 0    60   ~ 0
-Voltage
-Text Notes 7320 1490 0    60   ~ 0
-Max Current
-Wire Notes Line
-	5700 1350 7900 1350
-Wire Notes Line
-	5700 1850 5700 1350
-Wire Notes Line
-	7900 1850 5700 1850
-Wire Notes Line
-	7900 1350 7900 1850
-Wire Notes Line
-	6100 1850 6100 1450
-Wire Notes Line
-	6500 1450 5700 1450
-Text Notes 8900 850  0    60   ~ 0
-0xC0(W) 0xC1(R)
 Wire Notes Line
 	8450 9600 8450 7300
 Wire Notes Line
@@ -113,7 +23,7 @@ Wire Notes Line
 	8450 7300 15450 7300
 Wire Notes Line
 	15450 9600 15450 7300
-Text Notes 7150 2900 0    72   ~ 14
+Text Notes 12750 1200 0    72   ~ 14
 Mark "LEFT" on PCB
 Text Notes 10160 9260 0    60   ~ 0
 CAM NO
@@ -172,8 +82,8 @@ Text Label 3200 5400 3    60   ~ 0
 STROBE1
 Text Label 3700 5750 1    60   ~ 0
 FSIN2
-Text Notes 6800 3000 0    72   ~ 14
-Place so that is the module's left camera.
+Text Notes 13000 1050 0    72   ~ 14
+STEREO LEFT
 Text Notes 1500 6750 0    60   ~ 0
 (EXT STROBE)
 $Comp
@@ -297,20 +207,6 @@ Connection ~ 8650 4200
 Connection ~ 8650 4000
 Connection ~ 8650 3800
 $Comp
-L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
-U 1 1 603D7B3F
-P 1300 900
-AR Path="/603D7B3F" Ref="FB?"  Part="1" 
-AR Path="/5FD7EFD3/603D7B3F" Ref="FB?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B3F" Ref="FB7"  Part="1" 
-F 0 "FB7" H 1400 950 60  0000 L BNN
-F 1 "600R/100MHz" H 1400 770 60  0000 L BNN
-F 2 "Luxonis_Kicad_Master:2508056017Y2" H 1400 770 60  0001 C CNN
-F 3 "" H 1400 770 60  0000 C CNN
-	1    1300 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C?
 U 1 1 603D7B46
 P 6700 5700
@@ -378,34 +274,6 @@ F 3 "" H 3490 6270 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
-U 1 1 603D7B84
-P 1300 1200
-AR Path="/603D7B84" Ref="FB?"  Part="1" 
-AR Path="/5FD7EFD3/603D7B84" Ref="FB?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B84" Ref="FB8"  Part="1" 
-F 0 "FB8" H 1400 1250 60  0000 L BNN
-F 1 "600R/100MHz" H 1400 1070 60  0000 L BNN
-F 2 "Luxonis_Kicad_Master:2508056017Y2" H 1400 1070 60  0001 C CNN
-F 3 "" H 1400 1070 60  0000 C CNN
-	1    1300 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L BW1098ABC-rescue:2508056017Y2-depthAI_sch FB?
-U 1 1 603D7B90
-P 1300 1500
-AR Path="/603D7B90" Ref="FB?"  Part="1" 
-AR Path="/5FD7EFD3/603D7B90" Ref="FB?"  Part="1" 
-AR Path="/5FF8D2B3/603D7B90" Ref="FB9"  Part="1" 
-F 0 "FB9" H 1400 1550 60  0000 L BNN
-F 1 "600R/100MHz" H 1400 1370 60  0000 L BNN
-F 2 "Luxonis_Kicad_Master:2508056017Y2" H 1400 1370 60  0001 C CNN
-F 3 "" H 1400 1370 60  0000 C CNN
-	1    1300 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R?
 U 1 1 603D7B96
 P 2350 6850
@@ -432,22 +300,6 @@ F 3 "" H 10190 3370 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Notes Line
-	5700 550  5700 1150
-Wire Notes Line
-	10100 550  10100 1150
-Wire Notes Line
-	5700 1150 10100 1150
-Wire Notes Line
-	5700 1050 10100 1050
-Wire Notes Line
-	5700 650  10100 650 
-Wire Notes Line
-	6500 1350 6500 1850
-Wire Notes Line
-	7200 1350 7200 1850
-Wire Notes Line
-	5700 1550 7900 1550
-Wire Notes Line
 	10050 9300 13350 9300
 Wire Notes Line
 	11250 9200 11250 9500
@@ -467,53 +319,6 @@ Text Notes 8500 8700 0    79   ~ 0
 OV9282 sensor I2C address may be changed via I2C protocol. Therefore, in order to assign \ndifferent I2C address to the sensors on the same I2C bus, one needs to hold the reset the all \nsensors except one and assign a unique I2C address to the active sensor. This routine should be \napplied for all sensors in the initialization routine.  
 Text Notes 8500 8000 0    79   ~ 0
 Because the stereo pair of OV9282 modules hard wired to CAM_B no additional reset cirucitry is \nrequired to account for different conditions. This means that "CAM1" (Left) is reset via \nCAM_PWDN, and "CAM2" (Right), is reset via CAM_PWM. This also means that the signal \nCAM_AUX_IO1 is no longer required here, as that was only possible if the stereo pair were \nconnected to CAM_C or CAM_D  
-Text Notes 3000 1450 0    79   Italic 0
-Place FBs and caps close to \ntheir associated camera connector.
-$Comp
-L power:+1V2 #PWR?
-U 1 1 5FFF8485
-P 1050 1500
-AR Path="/604AEAFA/5FFF8485" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D2B3/5FFF8485" Ref="#PWR09"  Part="1" 
-F 0 "#PWR09" H 1050 1350 50  0001 C CNN
-F 1 "+1V2" H 1065 1673 50  0000 C CNN
-F 2 "" H 1050 1500 50  0001 C CNN
-F 3 "" H 1050 1500 50  0001 C CNN
-	1    1050 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+1V8 #PWR?
-U 1 1 5FFF848B
-P 1050 1200
-AR Path="/604AEAFA/5FFF848B" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D2B3/5FFF848B" Ref="#PWR08"  Part="1" 
-F 0 "#PWR08" H 1050 1050 50  0001 C CNN
-F 1 "+1V8" H 1065 1373 50  0000 C CNN
-F 2 "" H 1050 1200 50  0001 C CNN
-F 3 "" H 1050 1200 50  0001 C CNN
-	1    1050 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+2V8 #PWR?
-U 1 1 5FFF8491
-P 1050 900
-AR Path="/604AEAFA/5FFF8491" Ref="#PWR?"  Part="1" 
-AR Path="/5FF8D2B3/5FFF8491" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 1050 750 50  0001 C CNN
-F 1 "+2V8" H 1065 1073 50  0000 C CNN
-F 2 "" H 1050 900 50  0001 C CNN
-F 3 "" H 1050 900 50  0001 C CNN
-	1    1050 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1050 900  1300 900 
-Wire Wire Line
-	1050 1200 1300 1200
-Wire Wire Line
-	1050 1500 1300 1500
 $Comp
 L power:PWR_FLAG #FLG07
 U 1 1 6009329B
@@ -540,24 +345,12 @@ Wire Wire Line
 	5300 3700 6750 3700
 Wire Wire Line
 	5300 3600 6750 3600
-Text Label 2400 900  0    60   ~ 0
-2V8_L
-Text Label 2400 1200 0    60   ~ 0
-1V8_L
-Text Label 2400 1500 0    60   ~ 0
-1V2_L
 Text Label 6250 3300 0    60   ~ 0
 1V8_L
 Text Label 6250 3400 0    60   ~ 0
 1V2_L
 Text Label 8950 4100 2    60   ~ 0
 2V8_L
-Wire Wire Line
-	1900 900  2400 900 
-Wire Wire Line
-	1900 1200 2400 1200
-Wire Wire Line
-	1900 1500 2400 1500
 Text Label 6100 5550 2    60   ~ 0
 1V2_L
 Text Label 7400 5550 2    60   ~ 0
@@ -580,7 +373,7 @@ Text GLabel 9050 3700 2    50   BiDi ~ 0
 I2C2_SDA
 Text GLabel 9050 3600 2    50   BiDi ~ 0
 I2C2_SCL
-Text GLabel 10100 3250 2    50   Input ~ 0
+Text GLabel 12300 2850 0    50   Input ~ 0
 CAM_B_PWDN_N
 Text GLabel 8950 3300 2    50   Input ~ 0
 CAM_B_CLK_OUT
@@ -590,8 +383,6 @@ Wire Wire Line
 	8950 3300 8550 3300
 Wire Wire Line
 	9700 3500 9700 3250
-Wire Wire Line
-	9700 3250 10100 3250
 Connection ~ 9700 3500
 Wire Wire Line
 	9700 3500 8550 3500
@@ -744,4 +535,162 @@ Wire Wire Line
 	9700 3500 9950 3500
 Wire Wire Line
 	2500 6850 3200 6850
+$Comp
+L DEPTH:26_pin_FFC J?
+U 1 1 6057E43A
+P 15250 2800
+F 0 "J?" H 15250 4217 50  0000 C CNN
+F 1 "26_pin_FFC" H 15250 4126 50  0000 C CNN
+F 2 "" H 15250 2800 50  0001 C CNN
+F 3 "~" H 15250 2800 50  0001 C CNN
+	1    15250 2800
+	1    0    0    1   
+$EndComp
+Text GLabel 12300 2450 0    50   Output ~ 0
+MIPI_RX2_D1_N
+Text GLabel 12300 2350 0    50   Output ~ 0
+MIPI_RX2_D1_P
+Text GLabel 12300 3550 0    50   Output ~ 0
+MIPI_RX2_D0_N
+Text GLabel 12300 3450 0    50   Output ~ 0
+MIPI_RX2_D0_P
+Text GLabel 12300 3850 0    50   Output ~ 0
+MIPI_RX2_C_N
+Text GLabel 12300 3750 0    50   Output ~ 0
+MIPI_RX2_C_P
+Text Notes 14200 1150 0    62   ~ 0
+MIPI CAM B
+Wire Wire Line
+	12300 3750 12900 3750
+Wire Wire Line
+	12900 3850 12300 3850
+Wire Wire Line
+	12300 2350 12900 2350
+Wire Wire Line
+	12900 2450 12300 2450
+Wire Wire Line
+	12300 3450 12900 3450
+Wire Wire Line
+	12900 3550 12300 3550
+Text Label 11800 3250 2    60   ~ 0
+STROBE1
+Wire Wire Line
+	11800 3250 12900 3250
+$Comp
+L power:Earth #PWR?
+U 1 1 6062EDF5
+P 12750 4150
+F 0 "#PWR?" H 12750 3900 50  0001 C CNN
+F 1 "Earth" H 12750 4000 50  0001 C CNN
+F 2 "" H 12750 4150 50  0001 C CNN
+F 3 "~" H 12750 4150 50  0001 C CNN
+	1    12750 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12750 4150 12750 3950
+Wire Wire Line
+	12750 3950 12900 3950
+Wire Wire Line
+	12750 3950 12750 3650
+Wire Wire Line
+	12750 3650 12900 3650
+Connection ~ 12750 3950
+Wire Wire Line
+	12750 3650 12750 3350
+Wire Wire Line
+	12750 3350 12900 3350
+Connection ~ 12750 3650
+Wire Wire Line
+	12750 3350 12750 2750
+Wire Wire Line
+	12750 2750 12900 2750
+Connection ~ 12750 3350
+Wire Wire Line
+	12750 2750 12750 2550
+Wire Wire Line
+	12750 2550 12900 2550
+Connection ~ 12750 2750
+Wire Wire Line
+	12750 2550 12750 2250
+Wire Wire Line
+	12750 2250 12900 2250
+Connection ~ 12750 2550
+$Comp
+L power:+5V #PWR?
+U 1 1 606400BB
+P 12500 2000
+F 0 "#PWR?" H 12500 1850 50  0001 C CNN
+F 1 "+5V" H 12515 2173 50  0000 C CNN
+F 2 "" H 12500 2000 50  0001 C CNN
+F 3 "" H 12500 2000 50  0001 C CNN
+	1    12500 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12500 2000 12500 2150
+Wire Wire Line
+	12500 2150 12750 2150
+Wire Wire Line
+	12900 2050 12750 2050
+Wire Wire Line
+	12750 2050 12750 2150
+Connection ~ 12750 2150
+Wire Wire Line
+	12750 2150 12900 2150
+Text GLabel 12300 2650 0    50   Input ~ 0
+CAM_B_CLK_OUT
+$Comp
+L power:Earth #PWR?
+U 1 1 6064BF32
+P 13400 4050
+F 0 "#PWR?" H 13400 3800 50  0001 C CNN
+F 1 "Earth" H 13400 3900 50  0001 C CNN
+F 2 "" H 13400 4050 50  0001 C CNN
+F 3 "~" H 13400 4050 50  0001 C CNN
+	1    13400 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 4050 13400 3850
+Wire Wire Line
+	13400 3850 13300 3850
+$Comp
+L power:Earth #PWR?
+U 1 1 60650451
+P 13400 2350
+F 0 "#PWR?" H 13400 2100 50  0001 C CNN
+F 1 "Earth" H 13400 2200 50  0001 C CNN
+F 2 "" H 13400 2350 50  0001 C CNN
+F 3 "~" H 13400 2350 50  0001 C CNN
+	1    13400 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13400 2350 13400 2150
+Wire Wire Line
+	13400 2150 13300 2150
+$Comp
+L DEPTH:20_pin_FFC J?
+U 1 1 606A3CE1
+P 13100 3050
+F 0 "J?" H 13100 4167 50  0000 C CNN
+F 1 "20_pin_FFC" H 13100 4076 50  0000 C CNN
+F 2 "" H 13100 3050 50  0001 C CNN
+F 3 "~" H 13100 3050 50  0001 C CNN
+	1    13100 3050
+	1    0    0    1   
+$EndComp
+Text GLabel 12300 3050 0    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 12300 2950 0    50   BiDi ~ 0
+I2C2_SCL
+Wire Wire Line
+	12300 2650 12900 2650
+Wire Wire Line
+	12300 2850 12900 2850
+Wire Wire Line
+	12300 2950 12900 2950
+Wire Wire Line
+	12300 3050 12900 3050
 $EndSCHEMATC

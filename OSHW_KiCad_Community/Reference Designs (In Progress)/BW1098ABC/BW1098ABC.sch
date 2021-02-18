@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -18,12 +18,6 @@ S 8950 1000 2000 4950
 U 5FF8D9B2
 F0 "SoM_BW1099" 50
 F1 "SoM_BW1099.sch" 50
-$EndSheet
-$Sheet
-S 3150 4650 2200 750 
-U 5FF8D40A
-F0 "RIGHT_CAMERA" 50
-F1 "Right.sch" 50
 $EndSheet
 $Comp
 L Mechanical:Fiducial FID1
@@ -136,22 +130,10 @@ F 3 "" H 1600 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 600  600  1150 1350
-U 604AEAFA
-F0 "Power Supply" 50
-F1 "BW1098ABC_Power.sch" 50
-$EndSheet
-$Sheet
-S 3150 2900 2150 1000
-U 5FF8D4A5
-F0 "IMX378" 50
-F1 "IMX378.sch" 50
-$EndSheet
-$Sheet
-S 3200 1700 2200 750 
+S 4800 3400 3700 2250
 U 5FF8D2B3
-F0 "LEFT_CAMERA" 50
-F1 "Left.sch" 50
+F0 "CAMERA_FFC_DUAL" 50
+F1 "CAMS.sch" 50
 $EndSheet
 $Comp
 L power:GND #PWR0107
@@ -198,35 +180,15 @@ F 3 "" H 650 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6250 2200 1900 600 
+S 1300 1050 3000 1300
 U 60483E6B
-F0 "USBC" 50
+F0 "USBC&POWER" 50
 F1 "BW1098ABC_USBC.sch" 50
 $EndSheet
-Wire Notes Line
-	5550 1100 2900 1100
-Wire Notes Line
-	2900 1100 2900 6050
-Wire Notes Line
-	2900 6050 5550 6050
-Wire Notes Line
-	5550 6050 5550 1100
-Text Notes 3000 1200 0    58   ~ 0
+Text Notes 4900 4100 0    58   ~ 0
 SEE CAMERA AND CONNECTORS GUIDE FOR MORE INFO\n
-Wire Notes Line
-	8350 1800 6000 1800
-Wire Notes Line
-	6000 1800 6000 3100
-Wire Notes Line
-	6000 3100 8350 3100
-Wire Notes Line
-	8350 3100 8350 1800
-Text Notes 5950 1800 0    58   ~ 0
-USBC is recommended in all designs. Leave this as is.\n
 Text Notes 9000 2050 0    58   ~ 0
 Except where noted, leave current contents\nof this sheet as-is and add in peripherals or uC\n\nA system on module (SoM) is the basis of \nevery design. The BW1099 uses a 100 pin\ninterface to communicate. The SPIO \ninterface with the SoM provides easy \nperipheral configuration. I2C3 UART and \nQSPI available. 
-Text Notes 500  2350 0    58   ~ 0
-Power input should be decided\nLinear regulators can be swapped\nout if desired
-Text Notes 3000 1050 0    58   ~ 0
-Leave as is unless using another BW1099 \ncompatible camera/connector set.\nPower req.'s and other things may change.
+Text Notes 1350 1800 0    72   ~ 0
+USBC Recommended in all designs. \nAdjust power as needed. \nArducam and Luxonis camera modules \n     have on board power supplies
 $EndSCHEMATC

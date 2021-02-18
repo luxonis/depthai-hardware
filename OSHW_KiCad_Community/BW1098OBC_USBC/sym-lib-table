@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BW1098OBC_TopLevel-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098OBC_TopLevel-rescue.lib)(options "")(descr ""))
+  (lib (name BW1098ABC-rescue)(type Legacy)(uri "C:/Users/lafky/Desktop/DepthAI/depthai-hardware/OSHW_KiCad_Community/Reference Designs (In Progress)/BW1098ABC/BW1098ABC-rescue.lib")(options "")(descr ""))
+  (lib (name DEPTH)(type Legacy)(uri "C:/Users/lafky/Desktop/DepthAI/depthai-hardware/OSHW_KiCad_Community/Schematic Libraries/depthAI_sch.lib")(options "")(descr ""))
+)
