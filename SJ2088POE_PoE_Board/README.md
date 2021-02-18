@@ -1,6 +1,6 @@
 # SJ2088POE OAK-D-POE Board
 
-![image](To Be Updated)
+![SJ2088POE_R0M0E0 assembledasfd](https://user-images.githubusercontent.com/32992551/108413418-3cb86180-71e8-11eb-9edf-6daf78663f3b.jpg)
 
 
 # Project Stage
