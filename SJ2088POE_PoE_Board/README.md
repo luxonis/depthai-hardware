@@ -2,6 +2,9 @@
 
 ![SJ2088POE_R0M0E0 assembledasfd](https://user-images.githubusercontent.com/32992551/108413418-3cb86180-71e8-11eb-9edf-6daf78663f3b.jpg)
 
+Note that the heatsink above is not needed when the board is used in its IP67 enclosure - it is only there for non-enclosure testing/etc.
+
+![image](https://user-images.githubusercontent.com/32992551/108413593-725d4a80-71e8-11eb-9c6a-ea0b242a53fa.png)
 
 # Project Stage
 **Caution : This project is still under development. We are currently in process of getting our board prototyped and tested.** 
