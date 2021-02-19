@@ -10,3 +10,5 @@ CONTENTS:
 
 - BW1099EMB_R1M0E1 .step file for mechanical integration (BW1099EMB_R1M0E1.step)
 
+- BW1099_wHS.step file has integrated heatsink 
+
