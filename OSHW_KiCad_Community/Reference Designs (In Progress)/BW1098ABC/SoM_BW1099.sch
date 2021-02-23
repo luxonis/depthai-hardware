@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE60
 P 12100 8250
 AR Path="/5FD7EFCD/6009EE60" Ref="#GND_?"  Part="1" 
@@ -29,7 +29,7 @@ $EndComp
 Text Notes 9750 800  0    60   ~ 0
 SMT mounting standoffs for module\nM2, 3MM steel spacer on M2.5 mounting pad
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE67
 P 7650 5300
 AR Path="/5FD7EFCD/6009EE67" Ref="#GND_?"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "" H 7650 5300 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE6D
 P 11200 1050
 AR Path="/5FD7EFCD/6009EE6D" Ref="#GND_?"  Part="1" 
@@ -69,7 +69,7 @@ SPI_SIO2
 Text Label 13300 6150 2    60   ~ 0
 SPI_SIO3
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE7D
 P 4200 10500
 AR Path="/5FD7EFCD/6009EE7D" Ref="#GND_?"  Part="1" 
@@ -82,7 +82,7 @@ F 3 "" H 4200 10500 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE83
 P 9500 8250
 AR Path="/5FD7EFCD/6009EE83" Ref="#GND_?"  Part="1" 
@@ -101,7 +101,7 @@ Mark "2485_PGOOD" on PCB
 Text Notes 1050 8750 0    72   ~ 14
 Mark "nRST" on PCB
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE8C
 P 1900 8450
 AR Path="/5FD7EFCD/6009EE8C" Ref="#GND_?"  Part="1" 
@@ -114,7 +114,7 @@ F 3 "" H 1900 8450 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE92
 P 2900 10500
 AR Path="/5FD7EFCD/6009EE92" Ref="#GND_?"  Part="1" 
@@ -127,7 +127,7 @@ F 3 "" H 2900 10500 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE98
 P 5800 10500
 AR Path="/5FD7EFCD/6009EE98" Ref="#GND_?"  Part="1" 
@@ -140,7 +140,7 @@ F 3 "" H 5800 10500 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EE9E
 P 7100 10500
 AR Path="/5FD7EFCD/6009EE9E" Ref="#GND_?"  Part="1" 
@@ -153,7 +153,7 @@ F 3 "" H 7100 10500 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EEA4
 P 8850 10500
 AR Path="/5FD7EFCD/6009EEA4" Ref="#GND_?"  Part="1" 
@@ -166,7 +166,7 @@ F 3 "" H 8850 10500 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EEAA
 P 10150 10500
 AR Path="/5FD7EFCD/6009EEAA" Ref="#GND_?"  Part="1" 
@@ -464,7 +464,7 @@ F 3 "~" H 10850 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EF80
 P 10850 1050
 AR Path="/5FD7EFCD/6009EF80" Ref="#GND_?"  Part="1" 
@@ -477,7 +477,7 @@ F 3 "" H 10850 1050 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EF86
 P 10500 1050
 AR Path="/5FD7EFCD/6009EF86" Ref="#GND_?"  Part="1" 
@@ -490,7 +490,7 @@ F 3 "" H 10500 1050 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009EF8C
 P 10150 1050
 AR Path="/5FD7EFCD/6009EF8C" Ref="#GND_?"  Part="1" 
@@ -549,7 +549,7 @@ AR Path="/5FD7EFCD/6009EFB5" Ref="B?"  Part="1"
 AR Path="/5FF8D9B2/6009EFB5" Ref="B1"  Part="1" 
 F 0 "B1" V 7696 4852 50  0000 R CNN
 F 1 "Off-Mohm, 50mA" V 7605 4852 50  0000 R CNN
-F 2 "Luxonis_Kicad_Master:DTSM32NVTR" H 7650 5100 50  0001 C CNN
+F 2 "Luxonis_KiCad_Master:DTSM32NVTR" H 7650 5100 50  0001 C CNN
 F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7650 5100 50  0001 C CNN
 	1    7650 4900
 	0    -1   -1   0   
@@ -694,8 +694,8 @@ P 1800 8250
 AR Path="/5FD7EFCD/6009F007" Ref="Q?"  Part="1" 
 AR Path="/5FF8D9B2/6009F007" Ref="Q3"  Part="1" 
 F 0 "Q3" H 2005 8296 50  0000 L CNN
-F 1 "RE1C002UNTCL" H 2005 8205 50  0000 L CNN
-F 2 "" H 2000 8350 50  0001 C CNN
+F 1 "BSS138LT1" H 2005 8205 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2000 8350 50  0001 C CNN
 F 3 "~" H 1800 8250 50  0001 C CNN
 	1    1800 8250
 	1    0    0    -1  
@@ -703,7 +703,7 @@ $EndComp
 Wire Wire Line
 	1900 8050 1900 7900
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009F00F
 P 1850 6600
 AR Path="/5FD7EFCD/6009F00F" Ref="#GND_?"  Part="1" 
@@ -750,8 +750,8 @@ P 1750 6400
 AR Path="/5FD7EFCD/6009F022" Ref="Q?"  Part="1" 
 AR Path="/5FF8D9B2/6009F022" Ref="Q2"  Part="1" 
 F 0 "Q2" H 1955 6446 50  0000 L CNN
-F 1 "RE1C002UNTCL" H 1955 6355 50  0000 L CNN
-F 2 "" H 1950 6500 50  0001 C CNN
+F 1 "BSS138LT1" H 1955 6355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 6500 50  0001 C CNN
 F 3 "~" H 1750 6400 50  0001 C CNN
 	1    1750 6400
 	1    0    0    -1  
@@ -759,7 +759,7 @@ $EndComp
 Wire Wire Line
 	1850 6200 1850 6050
 $Comp
-L power:GND #GND_?
+L power:Earth #GND_?
 U 1 1 6009F02A
 P 1850 4550
 AR Path="/5FD7EFCD/6009F02A" Ref="#GND_?"  Part="1" 
@@ -806,8 +806,8 @@ P 1750 4100
 AR Path="/5FD7EFCD/6009F03D" Ref="Q?"  Part="1" 
 AR Path="/5FF8D9B2/6009F03D" Ref="Q1"  Part="1" 
 F 0 "Q1" H 1955 4146 50  0000 L CNN
-F 1 "RE1C002UNTCL" H 1955 4055 50  0000 L CNN
-F 2 "" H 1950 4200 50  0001 C CNN
+F 1 "BSS138LT1" H 1955 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1950 4200 50  0001 C CNN
 F 3 "~" H 1750 4100 50  0001 C CNN
 	1    1750 4100
 	1    0    0    -1  
@@ -837,7 +837,7 @@ AR Path="/5FD7EFCD/6009F08A" Ref="J?"  Part="1"
 AR Path="/5FF8D9B2/6009F08A" Ref="J3"  Part="1" 
 F 0 "J3" H 10800 2339 60  0000 C CNN
 F 1 "DF40HC(3.0)-100DS-0.4V_BW1099_G2" H 10800 2233 60  0000 C CNN
-F 2 "Luxonis_Kicad_Master:DF40HC(3.0)-100DS-0.4V(58)" H 9600 2050 60  0001 C CNN
+F 2 "Luxonis_KiCad_Master:DF40HC(3.0)-100DS-0.4V(58)" H 9600 2050 60  0001 C CNN
 F 3 "https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en" H 9600 2050 60  0001 C CNN
 	1    9600 2050
 	1    0    0    -1  
@@ -867,7 +867,7 @@ U 1 1 6017E490
 P 10850 1450
 F 0 "MISC1" H 11128 1547 58  0000 L CNN
 F 1 "Layout_Guide_BW1099" H 11128 1444 58  0000 L CNN
-F 2 "Luxonis_Kicad_Master:BW1099_Layout_Guide" H 10550 1850 58  0001 C CNN
+F 2 "Luxonis_KiCad_Master:BW1099_Layout_Guide" H 10550 1850 58  0001 C CNN
 F 3 "" H 10550 1850 58  0001 C CNN
 F 4 "DNP" H 11128 1347 50  0000 L CNN "Population"
 	1    10850 1450
@@ -1281,14 +1281,4 @@ Text GLabel 8200 2150 0    50   Input ~ 0
 MIPI_RX4_C_N
 Text GLabel 7500 6050 0    50   Output ~ 0
 CAM_B_D_PWM
-Wire Notes Line width 16 style solid rgb(0, 255, 0)
-	10700 10950 2200 10950
-Wire Notes Line width 16 style solid rgb(0, 255, 0)
-	2200 10950 2200 9300
-Wire Notes Line width 16 style solid rgb(0, 255, 0)
-	2200 9300 10700 9300
-Wire Notes Line width 16 style solid rgb(0, 255, 0)
-	10700 9300 10700 10950
-Text Notes 5200 9300 0    157  ~ 31
-Use these pins to add functionality
 $EndSCHEMATC

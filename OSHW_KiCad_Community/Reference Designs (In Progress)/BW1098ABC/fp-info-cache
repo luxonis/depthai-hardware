@@ -1,4 +1,4 @@
-20272573387988559
+20280622171004760
 BBR43-30KB533
 ACON_BBR43-30KB533
 
@@ -56483,12 +56483,47 @@ Switch
 2
 2
 Luxonis_KiCad_Master
+Molex-54548-2071-Manufacturer_Recommended
+
+
+0
+22
+22
+Luxonis_KiCad_Master
+Molex-54548-2671-Manufacturer_Recommended
+
+
+0
+28
+28
+Luxonis_KiCad_Master
 RE1C002UNTCL
 
 
 0
 3
 3
+Luxonis_KiCad_Master
+Texas_Instruments-RKS0020A-0-0-MFG
+
+
+0
+26
+22
+Luxonis_KiCad_Master
+Texas_Instruments-RWB0012A-0-0-MFG
+
+
+0
+16
+12
+Luxonis_KiCad_Master
+arducam_40mm_34mm
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

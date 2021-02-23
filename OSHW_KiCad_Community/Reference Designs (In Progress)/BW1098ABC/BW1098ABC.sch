@@ -136,7 +136,7 @@ F0 "CAMERA_FFC_DUAL" 50
 F1 "CAMS.sch" 50
 $EndSheet
 $Comp
-L power:GND #PWR0107
+L power:Earth #PWR0107
 U 1 1 6106C817
 P 650 6100
 F 0 "#PWR0107" H 650 5850 50  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 650 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L power:Earth #PWR0108
 U 1 1 6106D903
 P 1600 6100
 F 0 "#PWR0108" H 1600 5850 50  0001 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 1600 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L power:Earth #PWR0109
 U 1 1 6106E6FC
 P 1600 6600
 F 0 "#PWR0109" H 1600 6350 50  0001 C CNN
@@ -169,7 +169,7 @@ F 3 "" H 1600 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L power:Earth #PWR0110
 U 1 1 6106EA7D
 P 650 6600
 F 0 "#PWR0110" H 650 6350 50  0001 C CNN
