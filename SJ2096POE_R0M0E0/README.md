@@ -1,11 +1,10 @@
-# SJ2096POE OAK-1-POE Board
+# SJ2096POE LDC-1-POE Board in IP67 Enclosure
 
-![image](To Be Updated
-
+![IMG_3041](https://user-images.githubusercontent.com/32992551/109261978-fce01400-77bd-11eb-8895-2a5083a61013.JPG)
+![image](https://user-images.githubusercontent.com/32992551/109262197-58aa9d00-77be-11eb-9d58-88723eb1eef3.png)
 
 # Project Stage
-**Caution : This project is still under development. We are currently in process of getting our board prototyped and tested.** 
-           **We are proactively making our desing available for our uses to plan ahead and provide us with design feedback.** 
+Hardware design is complete and verified.  The Ethernet port of the depthai ecosystem starts in March and is expected to be feature complete in April.
 
 # Overview
 
