@@ -1,10 +1,9 @@
 # DM1097_R0M0E0 DepthAI for Compute module 4
 
-![](To Be Updated)
+![image](https://user-images.githubusercontent.com/32992551/109263101-edfa6100-77bf-11eb-85ef-037fe24e9975.png)
 
 # Project Stage
-**Caution : This project is still under development. We are currently in process of getting our board prototyped and tested.** 
-           **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
+This design is now vetted and currently for sale ([here](https://shop.luxonis.com/collections/all/products/depthai-rpi-compute-module-4-edition)).
 
 # Overview
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and the [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000). 
