@@ -1,6 +1,9 @@
 # BW1098OAK USB3C Baseboard
 
-![](../BW1098OAK_USB3C/Images/BW1098OAK_R0M0E0.png)
+This board is used in the depthai product known as the OpenCV AI Kit with Depth, OAK-D:
+
+![image](https://user-images.githubusercontent.com/32992551/109374027-aaf7c680-786f-11eb-9e96-90e9928d161c.png)
+
 
 # Overview
 
