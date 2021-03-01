@@ -4,6 +4,7 @@ This board is used in the depthai product known as the OpenCV AI Kit with Depth,
 
 ![image](https://user-images.githubusercontent.com/32992551/109374027-aaf7c680-786f-11eb-9e96-90e9928d161c.png)
 
+(The mechanical design files for the enclosure above are [here](https://github.com/luxonis/depthai-hardware/blob/master/Mechanical-Designs.md).)
 
 # Overview
 
