@@ -5,12 +5,6 @@ D Power symbol creates a global label with name "+1V0"
 K power-flag
 $ENDCMP
 #
-$CMP 20_Pin_FFC
-D Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)
-K connector
-F ~
-$ENDCMP
-#
 $CMP 20_pin_FFC
 D Generic connectable mounting pin connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)
 K connector

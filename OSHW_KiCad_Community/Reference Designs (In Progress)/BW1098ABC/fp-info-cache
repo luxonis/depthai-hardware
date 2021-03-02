@@ -1,4 +1,4 @@
-20280622171004760
+20311291879749319
 BBR43-30KB533
 ACON_BBR43-30KB533
 
@@ -56483,6 +56483,13 @@ Switch
 2
 2
 Luxonis_KiCad_Master
+F32R-26p-FFC
+
+
+0
+28
+28
+Luxonis_KiCad_Master
 Molex-54548-2071-Manufacturer_Recommended
 
 
@@ -88214,6 +88221,13 @@ Zigbee_Module_MRF24J40MD
 12
 12
 ffldU
+AM90
+http://www.cui.com/product/resource/up2-ah-th.pdf
+
+0
+8
+5
+ffldU
 ffldU
 
 
@@ -88221,9 +88235,23 @@ ffldU
 0
 0
 inStock
+DO-214AC
+
+
+0
+2
+2
+inStock
 JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical
 JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH vertical
+0
+4
+4
+inStock
+JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical
+JST XH series connector, B4B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator
+connector JST XH vertical
 0
 4
 4
@@ -88248,3 +88276,108 @@ ds04-254-smt-02
 0
 4
 4
+inStock
+keystone_7824
+simple 4-pin terminal block, pitch 5.08mm, revamped version of bornier4
+terminal block bornier4
+0
+8
+4
+new
+687126182122
+
+
+0
+28
+28
+new
+TO-220-KCS0003B
+
+
+0
+4
+4
+teensy
+Teensy1.0
+11
+
+0
+27
+27
+teensy
+Teensy1.0++
+20
+
+0
+51
+51
+teensy
+Teensy2.0
+11
+
+0
+31
+31
+teensy
+Teensy2.0++
+20
+
+0
+52
+52
+teensy
+Teensy30_31_32_All_Pins
+Teensy 3.0/3.1/3.2 All Pins
+
+0
+54
+54
+teensy
+Teensy30_31_32_LC
+
+
+0
+39
+38
+teensy
+Teensy35_36
+
+
+0
+62
+62
+teensy
+Teensy35_36_All_Pins
+
+
+0
+88
+88
+teensy
+Teensy40
+
+
+0
+44
+44
+teensy
+Teensy40_SMT
+
+
+0
+54
+54
+teensy
+Teensy41
+
+
+0
+67
+67
+teensy
+Teensy_LC
+
+
+0
+39
+39
