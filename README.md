@@ -3,11 +3,6 @@ This repository contains Luxonis open sourced baseboards, and contains Altium de
 
 # POE Designs
 
-## [BW2098POE](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board)
-The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW2099 DepthAI SoM. The BW2098POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 5V barrel jack. The Luxonis BW0249 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 channel directly into the Myriad X on the BW2099 module for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). Finally, the BW2098POE board exposes boot selection switches, allowing the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
-
-![](BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_front.jpg)
-
 ## [SJ2088POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board)
 
 This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW1098OBC/BW1098OAK, but with POE instead of USB.  So 3 onboard cameras (1x onboard IMX378 12MP autofocus color camera, 2x global shutter grayscale for stereo depth), with the stereo baseline being 7.5cm (just like BW1098OBC/BW1098OAK/OAK-D).  
@@ -23,6 +18,11 @@ This is the basis for OAK-1-POE.  It is the equivalent of the BK1096_OAK, with w
 ![IMG_3041](https://user-images.githubusercontent.com/32992551/109261978-fce01400-77bd-11eb-8895-2a5083a61013.JPG)
 
 This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
+
+## [BW2098POE](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board)
+The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW2099 DepthAI SoM. The BW2098POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 5V barrel jack. The Luxonis BW0249 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 channel directly into the Myriad X on the BW2099 module for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). Finally, the BW2098POE board exposes boot selection switches, allowing the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
+
+![](BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_front.jpg)
 
 # Integrated Raspberry Pi Design
 
