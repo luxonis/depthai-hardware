@@ -12,7 +12,7 @@ The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/mast
 
 This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW1098OBC/BW1098OAK, but with POE instead of USB.  So 3 onboard cameras (1x onboard IMX378 12MP autofocus color camera, 2x global shutter grayscale for stereo depth), with the stereo baseline being 7.5cm (just like BW1098OBC/BW1098OAK/OAK-D).  
 
-![Top View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2088POE_PoE_Board/Images/oak-d-top.png)
+![IMG_3045](https://user-images.githubusercontent.com/32992551/109262631-1cc40780-77bf-11eb-9263-034dd1b55ad4.JPG)
 
 This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
 
@@ -20,7 +20,7 @@ This design is in progress.  When complete it will support the DepthAI API over 
 
 This is the basis for OAK-1-POE.  It is the equivalent of the BK1096_OAK, with with POE instead of USB.  So 1x onboard IMX378 12MP autofocus color camera.
 
-![Top View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Images/oak-1-top.png)
+![IMG_3041](https://user-images.githubusercontent.com/32992551/109261978-fce01400-77bd-11eb-8895-2a5083a61013.JPG)
 
 This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
 
