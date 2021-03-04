@@ -40,8 +40,9 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 ![Bottom View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2088POE_PoE_Board/Images/oak-d-bottom.png)
 
 # Getting started
-The SJ2088POE accepts power input from any 802.3af, Class 3 PoE circuitry.  So this for example includes any/every POE UniFi Switch (e.g. [US-8-150W](https://www.ui.com/unifi-switching/unifi-switch-8-150w/) and any other standard POE switch and/or 802.3af POE injector (e.g. [here](https://www.amazon.com/Injector-U-POE-af-802-3af-Supported-Ethernet/dp/B07SH2NM9F/ref=sr_1_3?dchild=1&keywords=ubiquiti+48v+poe+injector&qid=1614832809&sr=8-3)).   Power consumption is typically 5W, leaving ~7.5W available if active lighting is desired additionally over POE/etc.  
-Also, if an outdoor rated POE switch is needed, one option is the EP-S16, [here](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-s16).
+The SJ2088POE accepts power input from any 802.3af, Class 3 PoE circuitry.  So this for example includes any/every POE UniFi Switch (e.g. [US-8-150W](https://www.ui.com/unifi-switching/unifi-switch-8-150w/)) and any other standard POE switch and/or 802.3af POE injector (e.g. [here](https://www.amazon.com/Injector-U-POE-af-802-3af-Supported-Ethernet/dp/B07SH2NM9F/ref=sr_1_3?dchild=1&keywords=ubiquiti+48v+poe+injector&qid=1614832809&sr=8-3)).   Power consumption is typically 5W, leaving ~7.5W available if active lighting is desired additionally over POE/etc.  
+
+If an outdoor rated POE switch is needed, one option is the EP-S16, [here](https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-s16).
 
 Interfacing with the DepthAI SoM is also possible with BW2098POE connector pads J5 which expose BW2099 auxiliary IO. This header is [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
 
