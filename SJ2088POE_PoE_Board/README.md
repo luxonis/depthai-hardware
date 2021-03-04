@@ -1,6 +1,7 @@
 # SJ2088POE LDC-D-POE with IP67 Enclosure
 
 ![IMG_3045](https://user-images.githubusercontent.com/32992551/109262631-1cc40780-77bf-11eb-9263-034dd1b55ad4.JPG)
+(Enclosure STEP file is [here](https://drive.google.com/file/d/18MleH4f2TQZvNOU39eg31wnYMboooq5U/view))
 
 ![image](https://user-images.githubusercontent.com/32992551/108413593-725d4a80-71e8-11eb-9c6a-ea0b242a53fa.png)
 
@@ -39,7 +40,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 ![Bottom View](https://github.com/luxonis/depthai-hardware/blob/master/SJ2088POE_PoE_Board/Images/oak-d-bottom.png)
 
 # Getting started
-The SJ2088POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is configured with the DIP switch bank near the USB connector. With the BW0249 camera and the DepthAI BW2099 SoM running inference, power consumption is typically [TBC]. 
+The SJ2088POE accepts power input from any 802.3af, Class 3 PoE circuitry.  So this for example includes any/every POE UniFi Switch and any other standar POE switch and/or 802.3af POE injector (e.g. [here](https://www.amazon.com/Injector-U-POE-af-802-3af-Supported-Ethernet/dp/B07SH2NM9F/ref=sr_1_3?dchild=1&keywords=ubiquiti+48v+poe+injector&qid=1614832809&sr=8-3)).   It can also accect power from USB C connector. Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is configured with the DIP switch bank near the USB connector. With the BW0249 camera and the DepthAI BW2099 SoM running inference, power consumption is typically [TBC]. 
 
 Interfacing with the DepthAI SoM is also possible with BW2098POE connector pads J5 which expose BW2099 auxiliary IO. This header is [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
 
