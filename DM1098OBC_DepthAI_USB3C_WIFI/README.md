@@ -1,11 +1,14 @@
 # DM1098OBC_WiFi DepthAI USB3C Baseboard
 
-![](To be updated)
+![image](https://user-images.githubusercontent.com/32992551/110514833-f0649100-80c4-11eb-8e2c-6c164f2d9f48.png)
+![image](https://user-images.githubusercontent.com/32992551/110514872-fce8e980-80c4-11eb-95f7-552f1ff6fdf7.png)
+
+Size comparison to BW1092, DepthAI Pi CM4, and BW1099 below:
+![image](https://user-images.githubusercontent.com/32992551/110514940-12f6aa00-80c5-11eb-9789-baccb00740ea.png)
 
 # Project Stage
 
-**Caution: This project is still under development. We are currently in process of getting our board prototyped and tested.** 
-           **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
+This design is validated and is now in mass production.  It is ready to be used in downstream designs and/or customizations.
 
 # Overview
 
