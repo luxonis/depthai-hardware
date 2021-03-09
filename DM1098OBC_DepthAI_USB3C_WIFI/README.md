@@ -35,9 +35,9 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
-![](Images/DM1098OAKW_R0M0E0_SIDE_AllComponents.PNG)
+![](../Images/DM1098OAKW_R0M0E0_SIDE_AllComponents.PNG)
 
-![](Images/DM1098OAKW_R0M0E0_BOT_AllComponents.PNG)
+![](../Images/DM1098OAKW_R0M0E0_BOT_AllComponents.PNG)
 
 # Getting started
 The DM1098OBC_WiFi accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
