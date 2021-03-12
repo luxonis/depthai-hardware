@@ -5,16 +5,18 @@
 
 This design is one of two baseboards for the DepthAI: System on Module (SoM) - Embedded Variant ([BW1099EMB](https://shop.luxonis.com/collections/all/products/bw1099emb)).
 
+It is available for purchase [here](https://shop.luxonis.com/collections/all/products/bw1092).
+
 To read more on the `why` of this design, see https://github.com/luxonis/depthai-hardware/issues/10 and https://github.com/luxonis/depthai-hardware/issues/9.
 
-This design will serve (once complete and errata corrected) as a reference for multiple purposes:
+This design will serves as a reference for multiple purposes:
  - How to use the BW1099EMB with microcontrollers over SPI
  - How to connect DepthAI as an IoT device to AWS-IoT
  - How to use DepthAI without an OS-capable host processor (e.g. with an embedded microcontroller like the ESP32)
  - How to use DepthAI with WiFi and BT
- - First prototype of DepthAI with an integrated IMU (BNO085 - but note, we are changing from the I2C on this design to SPI)
+ - First prototype of DepthAI with an integrated IMU (BNO085)
  
- We will be providing more detailed information as we update the design for the above errors.  But for now, here are some initial pictures of the first revision:
+Here are some initial pictures of the first revision:
  ![23CD15EA-B9F7-4B24-B6D5-94ED3E5E7E79](https://user-images.githubusercontent.com/32992551/92783975-78aae900-f363-11ea-8127-750f22df58bd.jpeg)
  ![image](https://user-images.githubusercontent.com/32992551/93823657-70826180-fc1f-11ea-815c-53c6488243e8.png)
 And size reference:
