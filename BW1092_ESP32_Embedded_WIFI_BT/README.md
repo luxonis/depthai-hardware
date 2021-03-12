@@ -1,4 +1,4 @@
-# BW1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT [WIP]
+# BW1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT
 
  
 # Overview:
