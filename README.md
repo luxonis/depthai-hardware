@@ -24,7 +24,13 @@ The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/mast
 
 ![](BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_front.jpg)
 
-# Integrated Raspberry Pi Design
+# Integrated Raspberry Pi Designs
+
+## [DM1097](https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4#dm1097_r0m0e0-depthai-for-compute-module-4)
+The [DM1097](https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4#dm1097_r0m0e0-depthai-for-compute-module-4) contains the design files for DepthAI with an integrated/onboard [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000).
+The DM1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. It is effectively the same as the BW1097, below, but with a Pi 4 computer module instead of a Pi 3 compute module.
+
+![image](https://user-images.githubusercontent.com/32992551/109263101-edfa6100-77bf-11eb-85ef-037fe24e9975.png)
 
 ## [BW1097](BW1097_DepthAI_Compute_Module)
 The [BW1097 repository](/BW1097_DepthAI_Compute_Module) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and the [Raspberry Pi Compute Module 3+](https://www.raspberrypi.org/products/compute-module-3-plus/). Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. 
