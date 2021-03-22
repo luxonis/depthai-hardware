@@ -1,6 +1,7 @@
 # DM1097_R0M0E0 DepthAI for Compute module 4
 
 ![image](https://user-images.githubusercontent.com/32992551/109263101-edfa6100-77bf-11eb-85ef-037fe24e9975.png)
+![image](https://user-images.githubusercontent.com/32992551/112017081-e5f9bc80-8af2-11eb-90ef-16f673ed294c.png)
 
 # Project Stage
 This design is now vetted and currently for sale ([here](https://shop.luxonis.com/collections/all/products/depthai-rpi-compute-module-4-edition)).
