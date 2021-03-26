@@ -22,7 +22,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * Support for on-board stereo and RGB camera modules
 * Interface for Luxnois BW1099 DepthAI SoM
 * USB 3.1 Gen1 Type-C
-* Power from 5V barrel jack OR USB Type-C
+* Power from **5V barrel jack** OR **5V USB3 Type-C**
 * Pads for DepthAI SoM 1.8V SPI
 * Pads for DepthAI SoM 3.3V SDIO 
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO) 
