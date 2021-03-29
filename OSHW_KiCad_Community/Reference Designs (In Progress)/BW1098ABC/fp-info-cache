@@ -1,4 +1,172 @@
-20311291879749319
+20366240205112385
+ABC
+4881
+
+
+0
+1
+1
+ABC
+4881-Top
+
+
+0
+2
+1
+ABC
+4881-Top-1side
+
+
+0
+3
+1
+ABC
+A-1JB-2pad
+
+
+0
+4
+2
+ABC
+ABC-Layout
+
+
+0
+0
+0
+ABC
+ACAG0201-2450-T
+
+
+0
+3
+2
+ABC
+APDS-9960
+
+
+0
+8
+8
+ABC
+BG96
+
+
+0
+102
+102
+ABC
+CE_Logo
+
+
+0
+0
+0
+ABC
+DF23C-30DS-0.5V(51)
+
+
+0
+30
+30
+ABC
+DF23C-50DS-0.5V(51)
+
+
+0
+50
+50
+ABC
+GCT_SIM8051-6-0-14-01-X-REVD
+
+
+0
+10
+10
+ABC
+KiCad-Logo_5mm_SilkScreen-RPiModel
+KiCad Logo
+Logo KiCad
+0
+0
+0
+ABC
+L_0806_2012Metric
+Inductor SMD 0806 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+inductor
+0
+2
+2
+ABC
+Mousebite
+
+
+0
+0
+0
+ABC
+NPTH_3mm_ID
+
+
+0
+0
+0
+ABC
+NSR10F20NXT5G
+
+
+0
+2
+2
+ABC
+Nordic_AQFN-73-1EP_7x7mm_P0.5mm-JLC
+http://infocenter.nordicsemi.com/index.jsp?topic=%2Fcom.nordic.infocenter.nrf52%2Fdita%2Fnrf52%2Fchips%2Fnrf52840.html
+AQFN 7mm 
+0
+78
+74
+ABC
+PB 9.9 - 3 V
+
+
+0
+2
+2
+ABC
+PinSocket_2x20_P2.54mm_Vertical-RPi-Center
+Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
+Through hole socket strip THT 2x20 2.54mm double row
+0
+40
+40
+ABC
+SOD123F
+
+
+0
+2
+2
+ABC
+TPS62821DLC
+
+
+0
+8
+8
+ABC
+XAL5030
+
+
+0
+4
+2
+ABC
+uwT0.20_0.20_0.50_0.50_0.50
+
+
+0
+2
+1
 BBR43-30KB533
 ACON_BBR43-30KB533
 
@@ -56511,14 +56679,14 @@ RE1C002UNTCL
 3
 3
 Luxonis_KiCad_Master
-Texas_Instruments-RKS0020A-0-0-MFG
+Texas_Instruments-HD3SS3212RKSR
 
 
 0
 26
 22
 Luxonis_KiCad_Master
-Texas_Instruments-RWB0012A-0-0-MFG
+Texas_Instruments-TUSB321RWBR
 
 
 0
@@ -84972,6 +85140,20 @@ WSON-10-1EP
 0
 15
 11
+depthABC
+MOLEX_1054550101
+
+
+0
+28
+28
+depthABC
+SW_PTS636_SM43J_SMTR_LFS
+
+
+0
+2
+2
 digikey-footprints
 3-SIP_Module_TM1000Q
 
@@ -88242,6 +88424,13 @@ DO-214AC
 2
 2
 inStock
+Fuse_1806_4516Metric
+Fuse SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+inStock
 JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical
 JST EH series connector, B4B-EH-A (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator
 connector JST EH vertical
@@ -88256,6 +88445,41 @@ connector JST XH vertical
 4
 4
 inStock
+PinHeader_2x05_P2.54mm_Vertical
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
+inStock
+SO-16_3.9x9.9mm_P1.27mm
+SO, 16 Pin (https://www.nxp.com/docs/en/package-information/SOT109-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+16
+16
+inStock
+SO-16_5.3x10.2mm_P1.27mm
+SO, 16 Pin (https://www.ti.com/lit/ml/msop002a/msop002a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SO SO
+0
+16
+16
+inStock
+SOP-18_7x12.5mm_P1.27mm
+SOP, 18 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=30523), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+18
+18
+inStock
+SOP-24_7.5x15.4mm_P1.27mm
+SOP, 24 Pin (http://www.issi.com/WW/pdf/31FL3218.pdf#page=14), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+24
+24
+inStock
 TerminalBlock_1x02_P3.81mm_Horizontal
 terminal block Metz Connect Type086_RT03402HBLC, 2 pins, pitch 3.81mm, size 7.51x7.3mm^2, drill diamater 0.7mm, pad diameter 1.4mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114K.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
 THT terminal block Metz Connect Type086_RT03402HBLC pitch 3.81mm size 7.51x7.3mm^2 drill 0.7mm pad 1.4mm
@@ -88266,6 +88490,13 @@ inStock
 TerminalBlock_1x03_P3.81mm_Horizontal
 terminal block Metz Connect Type086_RT03403HBLC, 3 pins, pitch 3.81mm, size 11.3x7.3mm^2, drill diamater 0.7mm, pad diameter 1.4mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_310861_RT034xxHBLC_OFF-026114K.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
 THT terminal block Metz Connect Type086_RT03403HBLC pitch 3.81mm size 11.3x7.3mm^2 drill 0.7mm pad 1.4mm
+0
+3
+3
+inStock
+TerminalBlock_MetzConnect_Type101__1x03_P5.08mm_Horizontal
+terminal block Metz Connect Type101_RT01603HBWC, 3 pins, pitch 5.08mm, size 15.2x8mm^2, drill diamater 1.3mm, pad diameter 2.5mm, see http://www.metz-connect.com/de/system/files/productfiles/Datenblatt_311011_RT016xxHBWC_OFF-022771S.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_MetzConnect
+THT terminal block Metz Connect Type101_RT01603HBWC pitch 5.08mm size 15.2x8mm^2 drill 1.3mm pad 2.5mm
 0
 3
 3
@@ -88283,6 +88514,13 @@ terminal block bornier4
 0
 8
 4
+inStock
+reverse2x05header
+Through hole straight pin header, 2x05, 2.54mm pitch, double rows
+Through hole pin header THT 2x05 2.54mm double row
+0
+10
+10
 new
 687126182122
 

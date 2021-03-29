@@ -130,7 +130,7 @@ F 3 "" H 1750 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 4950 3350 3700 2250
+S 4500 3050 3700 2250
 U 5FF8D2B3
 F0 "CAMERA_FFC_DUAL" 50
 F1 "CAMS.sch" 50
@@ -185,7 +185,7 @@ U 60483E6B
 F0 "USBC&POWER" 50
 F1 "BW1098ABC_USBC.sch" 50
 $EndSheet
-Text Notes 5050 4050 0    58   ~ 0
+Text Notes 4600 3750 0    58   ~ 0
 SEE CAMERA AND CONNECTORS GUIDE FOR MORE INFO\n
 Text Notes 9150 2000 0    58   ~ 0
 Except where noted, leave current contents\nof this sheet as-is and add in peripherals or uC\n\nA system on module (SoM) is the basis of \nevery design. The BW1099 uses a 100 pin\ninterface to communicate. The SPIO \ninterface with the SoM provides easy \nperipheral configuration. I2C3 UART and \nQSPI available. 
@@ -243,7 +243,7 @@ AR Path="/60483E6B/60A1363B" Ref="J?"  Part="1"
 AR Path="/60A1363B" Ref="J2"  Part="1" 
 F 0 "J2" H 2472 3932 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 2472 4023 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2500 4050 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical" H 2500 4050 50  0001 C CNN
 F 3 "~" H 2500 4050 50  0001 C CNN
 	1    2500 4050
 	-1   0    0    1   
