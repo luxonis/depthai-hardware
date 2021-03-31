@@ -1931,4 +1931,12 @@ Wire Wire Line
 	4300 8700 4900 8700
 Text Notes 6450 5650 0    118  ~ 24
 90 Ohm DIfferential Impedance
+Text Label 13250 8850 0    50   ~ 0
+OUT1
+Text Label 13350 9150 0    50   ~ 0
+OUT2
+Text Label 10750 8450 0    50   ~ 0
+VBUS_DET
+Text Label 13100 8150 0    50   ~ 0
+DIR
 $EndSCHEMATC

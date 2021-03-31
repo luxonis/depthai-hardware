@@ -1,4 +1,4 @@
-update=3/29/2021 12:39:07 AM
+update=3/31/2021 6:05:18 PM
 version=1
 last_client=kicad
 [general]
@@ -253,7 +253,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=MIPI
-Clearance=0.25
+Clearance=0.1
 TrackWidth=0.1
 ViaDiameter=0.4
 ViaDrill=0.2
@@ -264,7 +264,7 @@ dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=USBC
-Clearance=0.45
+Clearance=0.2
 TrackWidth=0.15
 ViaDiameter=0.4
 ViaDrill=0.2
