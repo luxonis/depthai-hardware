@@ -51,7 +51,7 @@ Or conversely, driving a transducer to communicate the number of fish observed, 
 
 # USB Designs
 
-# [BW1098OAK USB3C Baseboard](https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C#bw1098oak-usb3c-baseboard)
+# [OAK-D](https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C#bw1098oak-usb3c-baseboard)
 
 This board is used in the depthai product known as the OpenCV AI Kit with Depth, OAK-D:
 
