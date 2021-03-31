@@ -51,6 +51,12 @@ Or conversely, driving a transducer to communicate the number of fish observed, 
 
 # USB Designs
 
+# [BW1098OAK USB3C Baseboard](https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C#bw1098oak-usb3c-baseboard)
+
+This board is used in the depthai product known as the OpenCV AI Kit with Depth, OAK-D:
+
+![image](https://user-images.githubusercontent.com/32992551/109374027-aaf7c680-786f-11eb-9e96-90e9928d161c.png)
+
 ## [BW1098OBC](BW1098OBC_DepthAI_USB3C)
 The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
 
