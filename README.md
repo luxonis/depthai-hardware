@@ -3,7 +3,7 @@ This repository contains Luxonis open sourced baseboards, and contains Altium de
 
 # POE Designs
 
-## [SJ2088POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board)
+## [OAK-D-POE | SJ2088POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board)
 
 This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW1098OBC/BW1098OAK, but with POE instead of USB.  So 3 onboard cameras (1x onboard IMX378 12MP autofocus color camera, 2x global shutter grayscale for stereo depth), with the stereo baseline being 7.5cm (just like BW1098OBC/BW1098OAK/OAK-D).  
 
@@ -11,7 +11,7 @@ This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW10
 
 This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
 
-## [SJ2096POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0)
+## [OAK-1-POE | SJ2096POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0)
 
 This is the basis for OAK-1-POE.  It is the equivalent of the BK1096_OAK, with with POE instead of USB.  So 1x onboard IMX378 12MP autofocus color camera.
 
@@ -51,7 +51,7 @@ Or conversely, driving a transducer to communicate the number of fish observed, 
 
 # USB Designs
 
-# [OAK-D](https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C#bw1098oak-usb3c-baseboard)
+## [OAK-D | BW1098OAK](https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C#bw1098oak-usb3c-baseboard)
 
 This board is used in the depthai product known as the OpenCV AI Kit with Depth, OAK-D:
 
