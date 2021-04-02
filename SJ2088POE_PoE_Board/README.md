@@ -1,4 +1,4 @@
-# SJ2088POE LDC-D-POE with IP67 Enclosure
+# SJ2088POE OAK-D-POE with IP67 Enclosure
 
 ![IMG_3045](https://user-images.githubusercontent.com/32992551/109262631-1cc40780-77bf-11eb-9263-034dd1b55ad4.JPG)
 (Enclosure STEP file is [here](https://drive.google.com/file/d/18MleH4f2TQZvNOU39eg31wnYMboooq5U/view))
