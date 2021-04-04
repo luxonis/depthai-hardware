@@ -1,4 +1,4 @@
-update=4/2/2021 11:30:10 AM
+update=4/4/2021 5:13:18 PM
 version=1
 last_client=kicad
 [general]
@@ -28,7 +28,7 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.2
+TrackWidth1=0.15
 TrackWidth2=0.175
 TrackWidth3=0.2
 TrackWidth4=0.3
@@ -243,7 +243,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1
-TrackWidth=0.2
+TrackWidth=0.15
 ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -254,7 +254,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=MIPI
 Clearance=0.1
-TrackWidth=0.1
+TrackWidth=0.126
 ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
@@ -265,7 +265,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=USBC
 Clearance=0.08
-TrackWidth=0.15
+TrackWidth=0.175
 ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.3
