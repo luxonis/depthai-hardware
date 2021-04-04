@@ -1,4 +1,4 @@
-update=3/31/2021 6:05:18 PM
+update=4/2/2021 11:30:10 AM
 version=1
 last_client=kicad
 [general]
@@ -264,7 +264,7 @@ dPairGap=0.1
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=USBC
-Clearance=0.2
+Clearance=0.08
 TrackWidth=0.15
 ViaDiameter=0.4
 ViaDrill=0.2
