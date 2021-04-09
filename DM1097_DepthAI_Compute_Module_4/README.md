@@ -41,6 +41,8 @@ The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrat
 
 ![](../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0.jpg)
 
+![](../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0_dimensions.png)
+
 
 # Getting started
 The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows an initial flash of eMMC on CM4. Alternatively, the microSD slot can be used with a bootable system image. 
