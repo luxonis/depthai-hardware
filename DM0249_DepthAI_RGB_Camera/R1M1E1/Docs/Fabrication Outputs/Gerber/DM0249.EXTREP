@@ -1,0 +1,37 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: DM0249.GBR   13/02/2021  17:48:07
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Mask                                
+.GTL                Top Copper                              
+.G1                 Signal Layer 1                          
+.G2                 Layer 1                                 
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Board                                   
+.GM3                Bottom Courtyard                        
+.GM5                Top Assembly                            
+.GM6                Bottom Assembly                         
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM31               Top Component Outline                   
+.GM32               Bottom Component Outline                
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.2                  Core                                    
+.3                  Dielectric 2                            
+.GML                Multi-Layer                             
+.1                  Dielectric 1                            
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------

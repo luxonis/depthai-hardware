@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM1090FFC.PcbDoc   15/02/2021  10:07:31
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Layer
+ASCII Plated RoundHoles File : DM1090FFC-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM1090FFC-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DM1090FFC-SlotHoles-Plated.TXT
+EIA File   : DM1090FFC.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             385       PTH        0.00mm (0.00inch)
+T2      0.254mm (10mil)                                           Round             60        PTH        0.00mm (0.00inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
+T4      0.86mm (34mil)                                            Round             2         PTH        0.00mm (0.00inch)
+T5      1.05mm (41mil)                                            Slot              3         PTH        0.00mm (0.00inch)
+T6      2.75mm (108mil)                                           Round             4         PTH        0.00mm (0.00inch)
+T7      3mm (118mil)                                              Round             4         PTH        0.00mm (0.00inch)
+T8      1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T9      2mm (79mil)                                               Round             2         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              465
+
+Total Processing Time (hh:mm:ss) : 00:00:00

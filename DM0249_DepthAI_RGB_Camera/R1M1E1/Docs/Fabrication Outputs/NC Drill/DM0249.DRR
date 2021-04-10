@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM0249.PcbDoc   13/02/2021  17:48:09
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Layer
+ASCII Plated RoundHoles File : DM0249-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM0249-NonPlated.TXT
+EIA File   : DM0249.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             121       PTH        0.00mm (0.00inch)
+T2      0.203mm (8mil)                                            Round             2         PTH        0.00mm (0.00inch)
+T3      0.254mm (10mil)                                           Round             18        PTH        0.00mm (0.00inch)
+T4      2.2mm (87mil)                                             Round             4         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              145
+
+Total Processing Time (hh:mm:ss) : 00:00:00
