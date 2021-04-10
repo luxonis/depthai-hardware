@@ -1,0 +1,37 @@
+DepthAI RPi HAT Baseboard (BW1094)
+===================================
+
+.. image:: ../../../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_front.png
+
+
+Overview
+********
+
+Board layout & dimensions
+*************************
+
+.. image:: ../../../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_diag.png
+.. image:: ../../../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_dims.png
+
+Key features
+************
+
+
+Alium project files
+*******************
+
+Project output files
+********************
+
+* Assembly Drawing
+* Assembly Outputs
+* Fabrication Drawing
+* Fabrication Outputs
+* Schematic
+
+3D Models
+*********
+
+
+
+.. include::  /pages/includes/footer-short.rst

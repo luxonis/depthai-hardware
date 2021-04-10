@@ -1,0 +1,40 @@
+OAK-1 Modular (BK1096)
+======================
+
+
+.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg
+
+
+Overview
+********
+
+
+Key features
+************
+
+
+Board layout & dimensions
+*************************
+
+.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_cs_annotation.jpg
+
+.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg
+
+Alium project files
+*******************
+
+Project output files
+********************
+
+* Assembly Drawing
+* Assembly Outputs
+* Fabrication Drawing
+* Fabrication Outputs
+* Schematic
+
+3D Models
+*********
+
+
+
+.. include::  /pages/includes/footer-short.rst

@@ -1,0 +1,32 @@
+Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT (BW1092)
+=============================================================================
+
+.. image:: ../../../BW1092_ESP32_Embedded_WIFI_BT/Images/items.jpeg
+
+
+Overview
+********
+
+
+Key features
+************
+
+
+Alium project files
+*******************
+
+Project output files
+********************
+
+* Assembly Drawing
+* Assembly Outputs
+* Fabrication Drawing
+* Fabrication Outputs
+* Schematic
+
+3D Models
+*********
+
+
+
+.. include::  /pages/includes/footer-short.rst
