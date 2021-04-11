@@ -17,24 +17,14 @@ Documentation for each part includes:
 * `3D Models` - generated 3D models of the board
 * `Mechanical` - models of mounts, enclosures, and other mechanical parts
 
-Hardware parts
-==============
-
-POE Designs
-***********
-
-* OAK-D-POE
-* OAK-1-POE
-* BW2098POE
-  
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Cameras
 
-   pages/BG0249.rst
    pages/BG0250TG_R0M0E0.rst
+   pages/BG0249.rst
    pages/BW0253_R0M0E0.rst
 
 .. toctree::
@@ -71,5 +61,4 @@ POE Designs
    pages/BW1098OBC.rst
    pages/BW1098FFC.rst
    pages/BW1094.rst
-   
    

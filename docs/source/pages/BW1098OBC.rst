@@ -1,3 +1,5 @@
+.. _bw1098obc:
+
 DepthAI USB3C Baseboard (BW1098OBC)
 ===================================
 

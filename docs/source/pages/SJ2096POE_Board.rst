@@ -1,3 +1,5 @@
+.. _sj2096poe:
+
 OAK-D-POE with IP67 Enclosure (SJ2096POE)
 =========================================
 

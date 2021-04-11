@@ -1,3 +1,5 @@
+.. _bg0249:
+
 RGB Camera Module (BG0249)
 ==========================
 
@@ -8,9 +10,20 @@ RGB Camera Module (BG0249)
 Overview
 ********
 
+The BG0249 is a carrier board for the Sunny A12N02A IMX378 camera module, and is designed to be compatible with the :ref:`BW1094 <bw1094>` and 
+:ref:`BW1098FFC <bw1098ffc>` baseboards. A 26-pin FFC is used to carry 5V power, 4-lane MIPI, I2C, and other control signals between the BW0249 and 
+the controller baseboards.
 
 Key features
 ************
+
+* 26 pin 0.5mm FFC interconnect to baseboard
+* 30 pin interface to IMX378 camera module
+* 4-lane MIPI
+* Aux/Control signals to camera module
+* 5V power input via FFC
+* On-board power generation for camera module
+* Design files produced with Altium Designer 20
 
 
 Board layout & dimensions

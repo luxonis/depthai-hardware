@@ -1,3 +1,5 @@
+.. _bw1098oak:
+
 BW1098OAK USB3C Baseboard
 =========================
 
