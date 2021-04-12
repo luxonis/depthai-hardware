@@ -1,3 +1,4 @@
-git+git://github.com/sphinx-doc/sphinx.git@8bf84167a30aa05886fcc1ed8895c8c20e939d89
-sphinx-rtd-theme==0.5.0
-git+git://github.com/VanDavv/rtd-redirects.git@3e7333898acad533b37c9de426f1f2ef258d756b
+Sphinx==3.5.3
+sphinx-rtd-theme==0.5.2
+rtd-redirects==1.1.0
+sphinxcontrib-spelling
