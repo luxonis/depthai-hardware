@@ -3,9 +3,7 @@
 RGB Camera Module (BG0249)
 ==========================
 
-
 .. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_front.png
-
 
 Overview
 ********

@@ -3,9 +3,7 @@
 Mono Camera Module (BG0250TG_R0M0E0)
 ====================================
 
-
 .. image:: ../../../BG0250TG_DepthAI_Mono_Camera/Images/BG0250TG_R0M0E0_front.png
-
 
 Overview
 ********

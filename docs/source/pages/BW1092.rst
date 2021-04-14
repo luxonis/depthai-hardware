@@ -5,13 +5,12 @@ Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT (BW1092)
 
 .. image:: ../../../BW1092_ESP32_Embedded_WIFI_BT/Images/items.jpeg
 
-
 Overview
 ********
 
 This design is one of two baseboards for the DepthAI: System on Module (SoM) - Embedded Variant (BW1099EMB).
-To read more on the why of this design, see `https://github.com/luxonis/depthai-hardware/issues/10`__ and 
-`https://github.com/luxonis/depthai-hardware/issues/9`__.
+To read more on the why of this design, see `here https://github.com/luxonis/depthai-hardware/issues/10`__ and 
+`here https://github.com/luxonis/depthai-hardware/issues/9`__.
 
 Key features
 ************

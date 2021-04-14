@@ -14,7 +14,7 @@ the BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board.
 
 BW1098FFC + BW0250TG + BG0249 are shown together below:
 
-.. image:: ../../../BW1098FFC_DepthAI_USB3/Images/with_camera.jpg
+.. image:: ../../../BW1098FFC_DepthAI_USB3/Images/with_camera.jpeg
 
 Board layout & dimensions
 *************************

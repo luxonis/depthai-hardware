@@ -5,7 +5,6 @@ DepthAI for CM3+ (BW1097)
 
 .. image:: ../../../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png
 
-
 Overview
 ********
 
