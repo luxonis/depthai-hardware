@@ -8,12 +8,10 @@ DepthAI Hardware Documentation
 
 This page contains documentation of the open hardware designed by Luxonis.
 
-Documentation for each part includes:
-*************************************
+Documentation for each part includes an overview, getting started guide, images and project files, such as:
 
 * `PCB` - packaged Altium project files
 * `Docs` - project output files
-* `Images` - graphics for readme and reference
 * `3D Models` - generated 3D models of the board
 * `Mechanical` - models of mounts, enclosures, and other mechanical parts
 
