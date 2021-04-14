@@ -20,6 +20,13 @@ Key features
 * Level shifting of DepthAI 1.8V-native IO to 3.3V-native RPI IO
 * Same board outline size as RPI cam v2
 
+Getting started
+***************
+
+Attach 0.5mm, 26 circuit, same-side contact FFC between DepthAI and BW0253_R0M0E0. Use the standard RPI FFC which is included with 
+the RPI cameras.
+
+See a video `here <https://www.youtube.com/watch?v=KsK-XakrpK8>`__
 
 Alium project files
 *******************

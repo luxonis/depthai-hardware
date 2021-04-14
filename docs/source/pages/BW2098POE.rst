@@ -3,7 +3,7 @@
 PoE Board (BW2096POE)
 =====================
 
-.. image:: ../../../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_up.jpg
+.. image:: ../../../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_up.png
 
 Overview
 ********

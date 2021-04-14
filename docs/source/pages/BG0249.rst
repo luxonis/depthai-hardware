@@ -12,6 +12,13 @@ The BG0249 is a carrier board for the Sunny A12N02A IMX378 camera module, and is
 :ref:`BW1098FFC <bw1098ffc>` baseboards. A 26-pin FFC is used to carry 5V power, 4-lane MIPI, I2C, and other control signals between the BW0249 and 
 the controller baseboards.
 
+Board layout & dimensions
+*************************
+
+.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_diag.png
+
+.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_dims.png
+
 Key features
 ************
 
@@ -23,13 +30,12 @@ Key features
 * On-board power generation for camera module
 * Design files produced with Altium Designer 20
 
+Getting started
+***************
 
-Board layout & dimensions
-*************************
-
-.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_diag.png
-
-.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_dims.png
+Camera module compatibility is known for the Sunny A12N02A, but not tested for other modules. The FFC connector is an 0.5mm pitch, 
+26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 
+5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.
 
 Alium project files
 *******************

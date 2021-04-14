@@ -14,6 +14,13 @@ the DepthAI SoM.
 This is the open-source equivalent of BW1093 (megaAI, megaAI), using the BW1099 System on Module. The BW1093 itself cannot be open-sourced 
 because it contains proprietary chip-down vendor information and therefore cannot be shared publicly.
 
+Board layout & dimensions
+*************************
+
+.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_cs_annotation.jpg
+
+.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg
+
 Key features
 ************
 
@@ -25,12 +32,15 @@ Key features
 * Access to SoM 1.8V I2C and UART
 * Design files produced with Altium Designer 20
 
-Board layout & dimensions
-*************************
+Getting started
+***************
 
-.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_cs_annotation.jpg
+The BK1096_R0M0E0 is designed to be powered from the USB Type-C connector. With the BW0249 camera and the DepthAI BW2099 SoM running 
+inference, power consumption is typically about 3W (0.6A @ 5V).
 
-.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg
+The reset button resets the Luxonis DepthAI BW1099 SoM only.
+
+The OUT1 and OUT2 LEDs indicate USB Type-C current mode. See datasheet for TUSB321RWBR Port Control device for more details.
 
 Alium project files
 *******************
