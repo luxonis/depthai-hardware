@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: DM0249.GBR   4. 01. 2021  15:24:21
+Gerber File Extension Report For: DM0249.GBR   13/02/2021  17:48:07
 ------------------------------------------------------------------------------------------
 
 
@@ -28,10 +28,10 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
-.1                  Dielectric 1                            
-.GML                Multi-Layer                             
 .2                  Core                                    
 .3                  Dielectric 2                            
+.GML                Multi-Layer                             
+.1                  Dielectric 1                            
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------

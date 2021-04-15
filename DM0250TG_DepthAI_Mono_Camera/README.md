@@ -1,4 +1,4 @@
-# DM0250TG_R0M0E0 Mono Camera Module
+# DM0250TG Mono Camera Module
 
 ![](To be updated)
 
@@ -8,8 +8,8 @@
            **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
 
 # Overview
-This repository contains open hardware designed by Luxonis. The DM0250TG is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with the [BW1094](https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT) and [BW1098FFC](https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3) baseboards and also with new version of 1098FFC which is  [DM1098FFC](https://github.com/luxonis/depthai-hardware/tree/master/DM1098FFC_DepthAI_USB3). A 20-pin FFC is used to carry 5V power, 2-lane MIPI, I2C, and other control signals between the DM0250TG and the controller baseboards. A single DM0250TG is typically paired with another to create a stereo camera pair.
-In this version of 0250TG carrier board no outer dimensions or mounting holes were changed. Main reason for change was having more robust FFC connectors.
+This repository contains open hardware designed by Luxonis. The DM0250TG_R1M1E1 is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with new version of FFC base boards which is [DM1090FFC](https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3). A single DM0250TG is typically paired with another to create a stereo camera pair.
+In this version of 0250TG carrier board no outer dimensions or mounting holes were changed. Reason for change was having same 26-pin FFC pinout on all camera connectors and being able to attach cameras with 22pin RPi pinout to DM1090FFC with use of custom FFC from Arducam.
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -18,22 +18,22 @@ In this version of 0250TG carrier board no outer dimensions or mounting holes we
 * `3D Models` contains generated mechanical models for the board
 
 # Key features
-* 20 pin 0.5mm FFC interconnect to baseboard
+* 26 pin 0.5mm FFC interconnect to baseboard
 * 24 pin interface to OV9282 camera module
 * 2-lane MIPI
 * Aux/Control signals to camera module
-* 5V power input via FFC
+* 3.3V power input via FFC
 * On-board power generation for camera module
 * Design files produced with Altium Designer 20
 
 # Board layout & dimensions
 
-![](Images/DM0250TG_R0M0E0-BOT.png)
+![](Images/DM0250TG_R1M1E1-BOT.png)
 
-![](Images/DM0250TG_R0M0E0-TOP.png)
+![](Images/DM0250TG_R1M1E1-TOP.png)
 
 # Getting started  
-Camera module compatibility is known for the Sunny TG161B and AN01V32, but not tested for other modules. The FFC interface is an 0.5mm pitch, 20-pin, and bottom-contact connector, across which travels the 2-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and OV9282.  
+Camera module compatibility is known for the Sunny TG161B and AN01V32, but not tested for other modules. The FFC interface is an 0.5mm pitch, 26-pin, and bottom-contact connector, across which travels the 2-lane MIPI, 3.3V, I2C, camera clock, camera reset, and other optional control lines. 3.3V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and OV9282.  
 
 # Revision info
-These files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R1M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.

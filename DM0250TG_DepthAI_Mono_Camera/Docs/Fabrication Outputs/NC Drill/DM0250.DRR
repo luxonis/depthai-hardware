@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DM0250.PcbDoc   3. 01. 2021  21:35:38
+NCDrill File Report For: DM0250.PcbDoc   13/02/2021  17:35:45
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Copper to Bottom Layer
@@ -9,9 +9,11 @@ EIA File   : DM0250.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.25mm (10mil)                                            Round             72        PTH        0.00mm (0.00inch)
-T2      2.2mm (87mil)                                             Round             4         NPTH       0.00mm (0.00inch)
+T1      0.2mm (8mil)                                              Round             49        PTH        0.00mm (0.00inch)
+T2      0.25mm (10mil)                                            Round             18        PTH        0.00mm (0.00inch)
+T3      0.254mm (10mil)                                           Round             4         PTH        0.00mm (0.00inch)
+T4      2.2mm (87mil)                                             Round             4         NPTH       0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              76
+Totals                                                                              75
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00

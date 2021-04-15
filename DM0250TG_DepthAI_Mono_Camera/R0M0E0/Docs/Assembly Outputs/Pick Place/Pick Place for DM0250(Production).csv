@@ -1,0 +1,40 @@
+Altium Designer Pick and Place Locations
+E:\Luxonis-projects\DM0250_R0M0E0\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM0250(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       22/01/21
+Time:       14:45
+Revision:   Not in VersionControl
+Variant:    Production
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"C1","5.8750mm","-18.0250mm","180","TopLayer","","0402","chip 0402","SMD Multilayer Ceramic Capacitor, 0402 [1005 Metric], 0.1 µF, 10 V, ± 10%, X5R","100nF"
+"C2","-6.8750mm","-20.8620mm","90","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/6V"
+"C3","5.8750mm","-16.8500mm","180","TopLayer","","0402","chip 0402","SMD Multilayer Ceramic Capacitor, 0402 [1005 Metric], 0.1 µF, 10 V, ± 10%, X5R","100nF"
+"C4","-5.6000mm","-17.2000mm","270","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/6V"
+"C5","1.3500mm","-25.9250mm","90","TopLayer","","0402","chip 0402","SMD Multilayer Ceramic Capacitor, 0402 [1005 Metric], 0.1 µF, 10 V, ± 10%, X5R","100nF"
+"C6","0.2250mm","-26.2750mm","90","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/6V"
+"C18","-11.1500mm","-19.6370mm","90","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C19","-11.1500mm","-16.9750mm","270","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C21","-6.9750mm","-26.7620mm","90","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C22","-9.9250mm","-29.4750mm","360","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C24","10.7000mm","-15.1000mm","270","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"C25","10.7000mm","-17.7750mm","90","TopLayer","","0603","chip 0603","CC0603MRX5R5BB106  SMD Multilayer Ceramic Capacitor, 0603 [1608 Metric], 10 µF, 6.3 V, ± 20%, X5R","10uF/10V"
+"D1","-2.8852mm","-26.1825mm","0","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"D2","3.8463mm","-26.0894mm","0","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"FB1","-9.7000mm","-14.5250mm","360","TopLayer","","0805","chip 0805","Ferrite Bead","600R/100MHz"
+"FB2","-7.1250mm","-17.4750mm","270","TopLayer","","0805","chip 0805","Ferrite Bead","600R/100MHz"
+"FB3","9.3250mm","-20.0000mm","180","TopLayer","","0805","chip 0805","Ferrite Bead","600R/100MHz"
+"J1","0.0000mm","-21.4900mm","0","TopLayer","","TG161B-201_/_AN01V32_-_Board_Wrap","SMT connector: BBR43-24KB533","24 way, 2row baord to board connector SMD","TG161B-201"
+"J2","0.0035mm","-30.2560mm","360","TopLayer","","5052782033","20pin Molex FFC 0.5mm TOP","0.5 Ffc Zif Btm Cont Embt Pkg 0.5 Fpc Zif Btm FS19","CONN FFC TOP 20POS 0.50MM R/A"
+"R1","8.4750mm","-27.5500mm","90","TopLayer","","0603","chip 0603","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"R3","-6.8750mm","-23.8630mm","270","TopLayer","","0603","chip 0603","SMD Chip Resistor, Thick Film, 0 ohm, 75 V, 0603 [1608 Metric], 100 mW","0R"
+"R11","-9.1750mm","-20.1750mm","360","TopLayer","","0603","chip 0603","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"R12","-5.5250mm","-26.7500mm","90","TopLayer","","0603","chip 0603","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"R13","8.5750mm","-14.4500mm","180","TopLayer","","0603","chip 0603","SMD Chip Resistor, 10 kohm, 75 V, 0603 [1608 Metric], 100 mW, ± 1%","10K"
+"U6","-9.3695mm","-17.5000mm","360","TopLayer","","SC70-5","","LDO, 200MA, 1.2V, 5SC70","TLV70012DCKT"
+"U7","-9.4250mm","-27.7000mm","90","TopLayer","","SC70-5","","LDO, 200MA, 1.8V, 5SC70","TLV70018DCKT"
+"U8","8.7500mm","-17.1000mm","180","TopLayer","","SC70-5","","LDO, 200MA, 2.8V, 5SC70","TLV70028DCKT"
