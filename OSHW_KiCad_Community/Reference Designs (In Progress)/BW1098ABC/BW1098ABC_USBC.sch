@@ -543,7 +543,7 @@ AR Path="/5FD7F014/604C8C30" Ref="TP?"  Part="1"
 AR Path="/60483E6B/604C8C30" Ref="TP18"  Part="1" 
 F 0 "TP18" H 2750 2450 60  0000 L BNN
 F 1 "~" H 2750 2250 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2750 2250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2750 2250 50  0001 C CNN
 F 3 "~" H 2750 2250 50  0001 C CNN
 F 4 "~" H 2750 2250 50  0001 C CNN "Link1"
 F 5 "~" H 2750 2250 50  0001 C CNN "MPN1"
@@ -560,7 +560,7 @@ AR Path="/5FD7F014/604C8C36" Ref="TP?"  Part="1"
 AR Path="/60483E6B/604C8C36" Ref="TP19"  Part="1" 
 F 0 "TP19" V 13150 8700 60  0000 L BNN
 F 1 "~" H 13000 8650 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 13000 8650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 13000 8650 50  0001 C CNN
 F 3 "~" H 13000 8650 50  0001 C CNN
 F 4 "~" H 13000 8650 50  0001 C CNN "Link1"
 F 5 "~" H 13000 8650 50  0001 C CNN "MPN1"
@@ -577,7 +577,7 @@ AR Path="/5FD7F014/604C8C3C" Ref="TP?"  Part="1"
 AR Path="/60483E6B/604C8C3C" Ref="TP20"  Part="1" 
 F 0 "TP20" H 13350 9900 60  0000 R TNN
 F 1 "~" H 13300 9550 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 13300 9550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 13300 9550 50  0001 C CNN
 F 3 "~" H 13300 9550 50  0001 C CNN
 F 4 "~" H 13300 9550 50  0001 C CNN "Link1"
 F 5 "~" H 13300 9550 50  0001 C CNN "MPN1"
@@ -594,7 +594,7 @@ AR Path="/5FD7F014/604C8C42" Ref="TP?"  Part="1"
 AR Path="/60483E6B/604C8C42" Ref="TP21"  Part="1" 
 F 0 "TP21" H 13650 9900 60  0000 R TNN
 F 1 "~" H 13600 9550 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 13600 9550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 13600 9550 50  0001 C CNN
 F 3 "~" H 13600 9550 50  0001 C CNN
 F 4 "~" H 13600 9550 50  0001 C CNN "Link1"
 F 5 "~" H 13600 9550 50  0001 C CNN "MPN1"
@@ -721,7 +721,7 @@ Text Notes 8400 10250 0    52   ~ 0
 DIR pin:  \nDIR of plug. This open drain output indicates the detected plug orientation: \n  Type-C plug position 2 (H) connectos Port A to Port C on U61; \n  Type-C plug position 1 (L) connects port A to Port B on U61.
 Text Notes 8400 10650 0    52   ~ 0
 Port:  \nH - DFP (Pull-up to VDD if DFP mode is desired)  \nNC - DRP (Default) (Leave unconnected if DRP mode is desired)  \nL - UFP (Pull-down or tie to GND if UFP mode is desired)
-Text GLabel 9200 8450 3    60   Input ~ 0
+Text GLabel 9200 8450 3    60   Output ~ 0
 VBUS
 $Comp
 L BW1098ABC-rescue:TUSB321RWBR-DEPTH U?
@@ -801,7 +801,7 @@ F 3 "" H 10500 8650 50  0001 C CNN
 	1    10500 8650
 	1    0    0    -1  
 $EndComp
-Text GLabel 1200 2300 0    60   Output ~ 0
+Text GLabel 1200 2300 0    60   Input ~ 0
 VBUS
 $Comp
 L power:+3V3 #PWR0120
@@ -885,7 +885,7 @@ AR Path="/604AEAFA/60CF6C4E" Ref="TP?"  Part="1"
 AR Path="/60483E6B/60CF6C4E" Ref="TP9"  Part="1" 
 F 0 "TP9" H 7200 9050 60  0000 L BNN
 F 1 "~" H 7250 8900 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 7250 8900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7250 8900 50  0001 C CNN
 F 3 "~" H 7250 8900 50  0001 C CNN
 F 4 "~" H 7250 8900 50  0001 C CNN "Link1"
 F 5 "~" H 7250 8900 50  0001 C CNN "MPN1"
@@ -903,7 +903,7 @@ AR Path="/604AEAFA/60CF6C54" Ref="TP?"  Part="1"
 AR Path="/60483E6B/60CF6C54" Ref="TP10"  Part="1" 
 F 0 "TP10" H 7500 9050 60  0000 L BNN
 F 1 "~" H 7550 8900 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 7550 8900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7550 8900 50  0001 C CNN
 F 3 "~" H 7550 8900 50  0001 C CNN
 F 4 "~" H 7550 8900 50  0001 C CNN "Link1"
 F 5 "~" H 7550 8900 50  0001 C CNN "MPN1"
@@ -1089,19 +1089,6 @@ F 2 "" H 5350 2800 50  0001 C CNN
 F 3 "~" H 5350 2800 50  0001 C CNN
 	1    5350 2800
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3V3 #PWR?
-U 1 1 60A3EAF8
-P 2300 2100
-AR Path="/5FF8D9B2/60A3EAF8" Ref="#PWR?"  Part="1" 
-AR Path="/60483E6B/60A3EAF8" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 2300 1950 50  0001 C CNN
-F 1 "+3V3" H 2315 2273 50  0000 C CNN
-F 2 "" H 2300 2100 50  0001 C CNN
-F 3 "" H 2300 2100 50  0001 C CNN
-	1    2300 2100
-	1    0    0    -1  
 $EndComp
 Text Notes 14600 1900 0    50   ~ 0
 1.8V 
@@ -1462,7 +1449,7 @@ AR Path="/5FD7F014/60A46E33" Ref="TP?"  Part="1"
 AR Path="/60483E6B/60A46E33" Ref="TP2"  Part="1" 
 F 0 "TP2" H 3800 1250 60  0000 L BNN
 F 1 "~" H 3800 1050 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 3800 1050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3800 1050 50  0001 C CNN
 F 3 "~" H 3800 1050 50  0001 C CNN
 F 4 "~" H 3800 1050 50  0001 C CNN "Link1"
 F 5 "~" H 3800 1050 50  0001 C CNN "MPN1"
@@ -1722,19 +1709,12 @@ F 6 "~" H 1900 2300 50  0001 C CNN "Population"
 $EndComp
 Wire Wire Line
 	1750 2300 1650 2300
-Wire Wire Line
-	2050 2300 2300 2300
-Wire Wire Line
-	2300 2100 2300 2300
 Connection ~ 1350 2300
 Wire Wire Line
 	1350 2300 1200 2300
 Connection ~ 1650 2300
 Wire Wire Line
 	1650 2300 1350 2300
-Wire Wire Line
-	2300 2300 2750 2300
-Connection ~ 2300 2300
 Connection ~ 2750 2300
 $Comp
 L Device:R_US R31
@@ -2182,7 +2162,7 @@ AR Path="/5FD7F014/6095CFF9" Ref="TP?"  Part="1"
 AR Path="/60483E6B/6095CFF9" Ref="TP6"  Part="1" 
 F 0 "TP6" H 4850 1550 60  0000 L BNN
 F 1 "~" H 4850 1350 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4850 1350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4850 1350 50  0001 C CNN
 F 3 "~" H 4850 1350 50  0001 C CNN
 F 4 "~" H 4850 1350 50  0001 C CNN "Link1"
 F 5 "~" H 4850 1350 50  0001 C CNN "MPN1"
@@ -2196,4 +2176,6 @@ Wire Wire Line
 Connection ~ 5200 1350
 Wire Wire Line
 	5200 1350 5550 1350
+Wire Wire Line
+	2050 2300 2750 2300
 $EndSCHEMATC
