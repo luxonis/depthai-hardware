@@ -53,6 +53,12 @@ The 5V LED indicates 5V power is present on the DM1090FFC. The PG LED indicates 
 
 These files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
+
+
+USB designs with FFC camera boards contain 3 different iterations, below is a flowchart which tries to explain the design progress flow:
+
+![](Images/Flowchart_FFC.png)
+
 # Camera Usage
 
 This board is compatible with the  [DM0249_R1M1E1](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1), connected to the `RGB` FFC port and [DM0250TG_R1M1E1](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1), connected to the `CAM_L` and/or `CAM_R` and/or `RGB`port.
