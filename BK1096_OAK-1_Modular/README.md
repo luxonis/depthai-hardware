@@ -41,4 +41,4 @@ The OUT1 and OUT2 LEDs indicate USB Type-C current mode. See datasheet for TUSB3
 
 
 # Revision info
-The desigs files represent the R0M0E0 revision of this project, though some photos may be of ealier revisions. 
+The design files represent the R1M0E1 revision of this project, though some photos may be of ealier revisions. 

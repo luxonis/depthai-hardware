@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BK1096.PcbDoc   10/3/2019  11:42:28 AM
+NCDrill File Report For: BK1096.PcbDoc   21/04/2021  13:55:58
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -10,13 +10,13 @@ EIA File   : BK1096.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      8mil (0.2mm)                                              Round             133       PTH        0.00inch (0.00mm)
-T2      8mil (0.203mm)                                            Round             130       PTH        0.00inch (0.00mm)
-T3      12mil (0.305mm)                                           Round             16        PTH        0.00inch (0.00mm)
-T4      24mil (0.6mm)                                             Slot              4         PTH        0.00inch (0.00mm)
-T5      34mil (0.86mm)                                            Round             2         PTH        0.00inch (0.00mm)
-T6      108mil (2.75mm)                                           Round             4         PTH        0.00inch (0.00mm)
-T7      118mil (3mm)                                              Round             4         NPTH       0.00inch (0.00mm)
+T1      0.2mm (8mil)                                              Round             133       PTH        0.00mm (0.00inch)
+T2      0.203mm (8mil)                                            Round             130       PTH        0.00mm (0.00inch)
+T3      0.305mm (12mil)                                           Round             16        PTH        0.00mm (0.00inch)
+T4      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
+T5      0.86mm (34mil)                                            Round             2         PTH        0.00mm (0.00inch)
+T6      2.75mm (108mil)                                           Round             4         PTH        0.00mm (0.00inch)
+T7      3mm (118mil)                                              Round             4         NPTH       0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
 Totals                                                                              293
 
