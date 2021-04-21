@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: DM1098FFC.GBR   4. 01. 2021  18:38:51
+Gerber File Extension Report For: DM1098FFC.GBR   21/04/2021  11:07:46
 ------------------------------------------------------------------------------------------
 
 
@@ -30,10 +30,10 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
-.1                  Dielectric 1                            
 .GML                Multi-Layer                             
-.2                  Core                                    
+.1                  Dielectric 1                            
 .3                  Dielectric 2                            
+.2                  Core                                    
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------

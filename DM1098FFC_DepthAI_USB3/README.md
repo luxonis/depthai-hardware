@@ -47,7 +47,7 @@ The 5V LED indicates 5V power is present on the DM1098FFC. The PG LED indicates 
 
 # Revision info
 
-These files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R1M0E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 # Camera Usage
 
@@ -55,4 +55,6 @@ This board is compatible with the [BG0249](https://github.com/luxonis/depthai-ha
 
 This board can also be used with adapters for the [Raspberry Pi HQ Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/), using the [BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board](https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER).
 
-One could trivially change this board design (since it's open source) to allow it to be used with up to 3x [Raspberry Pi HQ Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/).  And contact us if this is of interest!  We might just make it.  ;-)
+
+
+One could trivially change this board design (since it's open source) to allow it to be used with up to 3x [Raspberry Pi HQ Camera](https://www.raspberrypi.org/products/raspberry-pi-high-quality-camera/).  And contact us if this is of interest!  We might just make it.  ;-) 
