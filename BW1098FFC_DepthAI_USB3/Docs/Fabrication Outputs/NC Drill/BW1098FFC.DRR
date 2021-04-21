@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BW1098FFC.PcbDoc   11/29/2019  4:40:08 PM
+NCDrill File Report For: BW1098FFC.PcbDoc   21/04/2021  13:29:43
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Copper to Bottom Layer
@@ -10,7 +10,7 @@ EIA File   : BW1098FFC.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.203mm (8mil)                                            Round             297       PTH        0.00mm (0.00inch)
+T1      0.203mm (8mil)                                            Round             295       PTH        0.00mm (0.00inch)
 T2      0.254mm (10mil)                                           Round             16        PTH        0.00mm (0.00inch)
 T3      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
 T4      0.86mm (34mil)                                            Round             2         PTH        0.00mm (0.00inch)
@@ -19,6 +19,6 @@ T6      2.75mm (108mil)                                           Round         
 T7      3mm (118mil)                                              Round             4         PTH        0.00mm (0.00inch)
 T8      1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              331
+Totals                                                                              329
 
 Total Processing Time (hh:mm:ss) : 00:00:00
