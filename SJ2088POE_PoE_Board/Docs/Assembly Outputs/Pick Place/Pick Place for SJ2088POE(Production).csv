@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\workspace\personal\luxonis\depthai-hardware2\SJ2088POE_PoE_Board\PCB\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for SJ2088POE(Production).csv
+C:\Users\David\Documents\depthai-hardware\SJ2088POE_PoE_Board\PCB\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for SJ2088POE(Production).csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       05/01/21
-Time:       22:27
-Revision:   982
+Date:       21/04/21
+Time:       10:24
+Revision:   Not in VersionControl
 Variant:    Production
 Units used: mm
 
@@ -44,6 +44,7 @@ Units used: mm
 "C30","37.4883mm","28.9528mm","270","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
 "C31","44.9250mm","35.4750mm","360","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
 "C32","35.9042mm","28.9786mm","90","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C33","101.5068mm","14.4950mm","180","TopLayer","CL21B104KCFNNNE","CAPC0805(2012)145_N","Chip Capacitor, Body 2.0x1.2mm, Height 1.45mm, IPC Medium Density","CAP CER 0.1UF 100V X7R 0805","0.1UF 0805"
 "C34","56.9359mm","31.3040mm","360","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
 "C35","57.1000mm","35.5500mm","360","TopLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
 "C36","56.8500mm","26.7000mm","180","TopLayer","GRM188R61C475KAAJD","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 4.7UF 16V X5R 0603 10%","4.7uF 0603"
@@ -107,6 +108,7 @@ Units used: mm
 "C94","12.3819mm","28.0661mm","270","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
 "C95","5.5432mm","27.3487mm","90","BottomLayer","GRM0335C1E180FA01D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","Cap Ceramic 18pF 25V C0G 1% Pad SMD 0201 125C T/R","18pF 0201"
 "C96","5.5432mm","28.8487mm","270","BottomLayer","GRM0335C1E180FA01D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","Cap Ceramic 18pF 25V C0G 1% Pad SMD 0201 125C T/R","18pF 0201"
+"C97","17.4915mm","33.2017mm","270","TopLayer","GRM155R61E105KA12D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 1UF 25V X5R 0402 10%","1uF 0402"
 "C207","37.6750mm","43.2750mm","360","BottomLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
 "C208","30.4999mm","35.1735mm","180","BottomLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
 "C209","30.4999mm","35.7735mm","180","BottomLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
@@ -141,6 +143,12 @@ Units used: mm
 "FB10","55.4250mm","7.8000mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
 "FB11","57.7000mm","7.8000mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
 "FB12","59.7500mm","8.2500mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FID1","99.6195mm","47.0714mm","180","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID2","14.2500mm","48.5000mm","180","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID3","3.0000mm","20.7500mm","360","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID4","97.2500mm","2.5000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID5","99.6195mm","47.0714mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID6","3.0000mm","20.7500mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
 "J1","73.0695mm","13.3960mm","360","TopLayer","TRJG0926HENL","TRJG0926HENL","TRXCOM TRJG0926HENL 1000BASE-T PoE","CONN MAGJACK 1PORT 1000 BASET","802.3af PoE"
 "J2","24.9750mm","4.7500mm","270","TopLayer","","DF40HC-3.0-100DS-0.4V_minpad","3.0MM MATED HEIGHT CONN HDR 100POS 0.4MM SMD GOLD","CONN RCPT 100POS 0.4MM SMD GOLD BW2098_A Receptacle","BW2098_A Receptacle"
 "J3","21.9750mm","41.7500mm","270","TopLayer","","DF40HC-3.0-100DS-0.4V_minpad","3.0MM MATED HEIGHT CONN HDR 100POS 0.4MM SMD GOLD","CONN RCPT 100POS 0.4MM SMD GOLD BW2098_B Receptacle","BW2098_B Receptacle"
@@ -156,6 +164,10 @@ Units used: mm
 "L3","48.9000mm","40.1000mm","270","TopLayer","DFE252012P-1R0M=P2","DFE252012P-1R0M=P2","Chip Inductor, 2-Leads, Body 2.40x2.00mm, IPC High Density","FIXED IND 1UH 3.2A 42 MOHM SMD","1uH, 3.2A, 20%"
 "MH1","12.8750mm","12.6500mm","225","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
 "MH2","37.0750mm","36.8500mm","360","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
+"MP1","104.5000mm","3.6000mm","180","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MP2","4.0000mm","35.0000mm","180","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MP3","104.5000mm","46.6000mm","180","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MP4","4.0000mm","15.0000mm","180","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
 "OS1","41.9500mm","33.0750mm","270","BottomLayer","ASDMB-25.000MHZ-LC-T","ASDMB-25.000MHZ-LC-T","0.098" L x 0.079" W (2.50mm x 2.00mm)","MEMS OSC XO 25.0000MHZ LVCMOS","25MHz OSC"
 "Q1","53.3250mm","34.1500mm","90","BottomLayer","DDTC114YCA-7-F","DDTC114YCA-7-F","TO-236-3, SC-59, SOT-23-3","TRANS PREBIAS NPN 200MW SOT23-3","PREBIAS'd DDTC114YCA-7-F"
 "Q2","39.0450mm","20.8409mm","90","BottomLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
@@ -247,6 +259,40 @@ Units used: mm
 "RZ2","37.0141mm","30.9750mm","90","BottomLayer","CRCW04020000Z0ED","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/16W 0402","0R 0402"
 "SW1","25.6250mm","44.3500mm","90","BottomLayer","A6H-6102","A6H-610x","DIP Sw, Std/SealTape Body 8.85x4.50mm, Pitch 1.27mm, IPC High Density","SWITCH SLIDE DIP SPST 25MA 24V (SEALED)","A6H-6102 DIP SW"
 "T1","81.2250mm","41.0000mm","270","TopLayer","749119950","749119950","SMD, 10-Leads, Body 13.5x14.0mm (max), Pitch 2.48mm, IPC Medium Density","TRANS FLYBACK POE 127UH SMD","749119950"
+"TP1","17.2000mm","44.7750mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP2","19.3750mm","44.8250mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP3","57.9500mm","47.7750mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP4","47.3887mm","42.8236mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP5","103.7500mm","35.7500mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP6","67.2465mm","46.7465mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP8","90.5000mm","40.5000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP9","74.7500mm","46.0000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP10","95.7522mm","37.6272mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP11","100.7069mm","37.3846mm","360","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP12","92.0000mm","46.2500mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP13","99.5000mm","43.2500mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP14","45.5586mm","45.7549mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP15","54.8250mm","43.1309mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP16","43.0750mm","38.3000mm","270","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP17","56.2344mm","44.6701mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP18","84.3169mm","28.6640mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP19","12.7500mm","26.2500mm","270","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP20","48.3395mm","48.1343mm","360","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP21","51.0000mm","46.2500mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP22","59.3875mm","38.0875mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP23","54.9453mm","39.8249mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP24","47.4250mm","39.6500mm","0","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP25","12.7500mm","23.7500mm","270","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP26","9.8250mm","34.4250mm","360","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP27","8.0500mm","22.7750mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP28","10.8027mm","6.6593mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP29","9.6750mm","21.0750mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP30","8.9000mm","19.0000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP40","23.8000mm","30.9500mm","0","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP41","25.4750mm","38.0000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP42","22.3500mm","32.5750mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP43","15.1282mm","34.1942mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP44","12.5708mm","30.0381mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "U1","97.7000mm","40.7500mm","90","TopLayer","SI3404-A-GM","SI3404-A-GM","QFN, 20-Leads, Body 4.00x4.00mm, Pitch 0.50mm, Thermal Pad 2.60x2.60mm, IPC Medium Density","IC POE CNTRL 1 CHANNEL 20QFN","SI3404-A-GM"
 "U2","81.0980mm","31.1250mm","360","TopLayer","VO618A-3X017T","VO618A-3X017T","4-SMD, Gull Wing","OPTOISOLATOR 5.3KV TRANS 4-SMD","VO618A-3X017T"
 "U3","35.0730mm","27.0250mm","90","BottomLayer","TXS0102DCUR","TXS0102DCUR","TSSOP, 8-Leads, Body 2.00x2.30mm, Pitch 0.50mm","TEXAS INSTRUMENTS - TXS0102DCUR - IC, TRANSLATOR, 2 BIT, BI, US-8","TXS0102DCU"

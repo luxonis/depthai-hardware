@@ -55,4 +55,4 @@ The "RUN" LED indicates that the DepthAI SoM is not in reset.
 
 
 # Design Revision info
-The desigs files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+The desigs files represent the R2M0E2 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: SJ2088POE.GBR   5/01/2021  10:26:43 PM
+Gerber File Extension Report For: SJ2088POE.GBR   21/04/2021  10:24:34
 ------------------------------------------------------------------------------------------
 
 
@@ -34,12 +34,12 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
-.1                  Dielectric 1                            
 .GML                Multi-Layer                             
+.1                  Dielectric 1                            
 .2                  Core 1                                  
+.3                  Dielectric 2                            
 .4                  Core 2                                  
 .5                  Dielectric 3                            
-.3                  Dielectric 2                            
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------
