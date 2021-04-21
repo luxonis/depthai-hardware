@@ -51,7 +51,7 @@ The 5V LED indicates 5V power is present on the DM1090FFC. The PG LED indicates 
 
 # Revision info
 
-These files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R1M0E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 
 

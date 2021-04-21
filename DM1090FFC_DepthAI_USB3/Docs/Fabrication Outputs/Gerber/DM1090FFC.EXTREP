@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: DM1090FFC.GBR   15/02/2021  10:07:28
+Gerber File Extension Report For: DM1090FFC.GBR   21/04/2021  11:22:10
 ------------------------------------------------------------------------------------------
 
 
@@ -30,10 +30,10 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
+.3                  Dielectric 2                            
+.1                  Dielectric 1                            
 .2                  Core                                    
 .GML                Multi-Layer                             
-.1                  Dielectric 1                            
-.3                  Dielectric 2                            
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------

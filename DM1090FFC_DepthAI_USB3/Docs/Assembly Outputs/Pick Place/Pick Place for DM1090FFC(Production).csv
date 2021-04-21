@@ -1,11 +1,11 @@
 Altium Designer Pick and Place Locations
-E:\Luxonis-projects\DM1090FFC_R0M0E0\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM1090FFC(Production).csv
+C:\Users\David\Documents\depthai-hardware\DM1090FFC_DepthAI_USB3\PCB\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM1090FFC(Production).csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       15/02/21
-Time:       10:07
+Date:       21/04/21
+Time:       11:22
 Revision:   Not in VersionControl
 Variant:    Production
 Units used: mm
@@ -20,6 +20,7 @@ Units used: mm
 "C5","15.4000mm","27.2524mm","90","BottomLayer","GRM155R61E105KA12D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 1UF 25V X5R 0402 10%","1uF 0402"
 "C6","24.7224mm","20.0710mm","270","BottomLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
 "C7","29.6844mm","20.0088mm","270","BottomLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C8","14.7600mm","18.8000mm","90","BottomLayer","GRM155R61E105KA12D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 1UF 25V X5R 0402 10%","1uF 0402"
 "C42","43.5198mm","22.0588mm","180","BottomLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
 "C43","43.5198mm","24.1088mm","180","BottomLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
 "C44","43.1844mm","23.0886mm","180","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
@@ -46,6 +47,12 @@ Units used: mm
 "D9","34.7700mm","8.7350mm","360","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
 "D10","51.0525mm","21.3600mm","90","BottomLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
 "D11","37.7700mm","8.7350mm","360","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"FID1","2.0000mm","32.0000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID2","7.0000mm","2.0000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID3","57.2117mm","31.2154mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID4","40.2100mm","2.2700mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID5","1.6464mm","33.3461mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID6","25.8300mm","17.1700mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
 "J1","20.0000mm","20.0000mm","180","TopLayer","DF40HC(3.0)-100DS-0.4V(51","DF40HC-3.0-100DS-0.4V_minpad","3.0MM MATED HEIGHT CONN HDR 100POS 0.4MM SMD GOLD","CONN RCPT 100POS 0.4MM SMD GOLD","DF40HC(3.0)-100DS-0.4V_BW1099G2 Receptacle"
 "J2","7.9375mm","25.5875mm","270","TopLayer","PJ-050AH","PJ-050AH/NEB21R_COMBO","PJ-050AH or NEB21R 2.1mm ID, 5.5mm OD, 3pin, 2contact","CONN POWER PIN 2 POS RA PTH Barrel jack 2.1mm x 5.5mm combo footprint","PJ-050AH or NEB21R"
 "J6","55.3450mm","20.0000mm","90","TopLayer","F32R-1A7H1-11026","F32R-1A7H1-11026","26pin Molex FFC 0.5mm Bottom","26 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","FLEX CONNECTOR, 0.50MM PITCH, HE"
@@ -57,6 +64,10 @@ Units used: mm
 "M1","9.4000mm","6.7000mm","0","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
 "M2","9.4000mm","14.2000mm","360","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
 "M3","9.4000mm","9.4000mm","360","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
+"MTG1","3.0000mm","3.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MTG2","3.0000mm","37.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MTG3","57.0000mm","3.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MTG4","57.0000mm","37.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
 "MTG7","27.9000mm","32.1000mm","0","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
 "MTG8","52.1000mm","32.1000mm","0","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
 "MTG9","27.9000mm","7.9000mm","0","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
@@ -85,6 +96,34 @@ Units used: mm
 "R190","13.6000mm","19.9000mm","270","BottomLayer","CRCW04021M80FKED","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1.8M OHM 1% 1/16W 0402","1.8MR 0402"
 "R213","9.6000mm","16.9000mm","360","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
 "R214","9.6000mm","18.5000mm","360","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"TP1","27.9100mm","35.8800mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP2","57.3400mm","32.4300mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP3","56.1100mm","31.1800mm","180","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP4","56.1100mm","33.2087mm","180","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP5","50.5300mm","3.8800mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP6","15.0200mm","7.0600mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP7","15.5157mm","31.5488mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP8","50.7400mm","36.0200mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP9","15.3100mm","4.0800mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP10","3.9811mm","33.6270mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP11","51.7900mm","37.2400mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP12","5.6000mm","34.3775mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP13","52.8700mm","3.8800mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP14","52.8500mm","36.0200mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP15","26.3800mm","3.8800mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP16","16.2900mm","24.1400mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP17","56.1100mm","6.8600mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP18","9.1000mm","33.9400mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP19","58.1700mm","6.8600mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP20","25.8800mm","35.8800mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP21","28.4800mm","3.8800mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP25","58.1700mm","8.9000mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP26","56.1100mm","8.9000mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP40","6.3901mm","19.1901mm","180","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP41","13.6000mm","14.1000mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP42","12.6612mm","18.9609mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP43","8.5000mm","18.4000mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP44","10.3653mm","17.5907mm","360","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "U1","11.5100mm","5.3500mm","270","BottomLayer","TLV62568DRLR","TLV62568DRLR","SOT-563, SOT-666,  SOT-563-6","IC REG BUCK ADJ 1A SOT563-6","TLV62568DRLR"
 "U2","9.8001mm","33.5803mm","90","BottomLayer","LM66100DCKR","LM66100DCKR","SOT23, 6-Leads, Body 2.00x2.10mm, Pitch 0.65mm, IPC Medium Density","IC OR CTRLR IDEAL DIODE SC70-6","1.5A ideal diode"
 "U3","6.9500mm","33.5803mm","90","BottomLayer","LM66100DCKR","LM66100DCKR","SOT23, 6-Leads, Body 2.00x2.10mm, Pitch 0.65mm, IPC Medium Density","IC OR CTRLR IDEAL DIODE SC70-6","1.5A ideal diode"
