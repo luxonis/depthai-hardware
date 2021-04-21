@@ -47,4 +47,4 @@ The 5V LED indicates 5V power is present on the BW2098POE. The PG LED indicates 
 
 
 # Revision info
-The desigs files represent the R2M1E2 revision of this project, though some photos may be of ealier revisions. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+The desigs files represent the R3M1E3 revision of this project, though some photos may be of ealier revisions. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.

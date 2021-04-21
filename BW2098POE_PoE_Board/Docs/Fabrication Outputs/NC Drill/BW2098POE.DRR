@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BW2098POE.PcbDoc   7/23/2020  3:12:02 PM
+NCDrill File Report For: BW2098POE.PcbDoc   21/04/2021  12:05:28
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
@@ -11,7 +11,7 @@ EIA File   : BW2098POE.DRL
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
 T1      0.203mm (8mil)                                            Round             104       PTH        0.00mm (0.00inch)
-T2      0.254mm (10mil)                                           Round             433       PTH        0.00mm (0.00inch)
+T2      0.254mm (10mil)                                           Round             434       PTH        0.00mm (0.00inch)
 T3      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
 T4      0.8mm (31mil)                                             Round             4         PTH        0.00mm (0.00inch)
 T5      0.9mm (35mil)                                             Round             14        PTH        0.00mm (0.00inch)
@@ -23,6 +23,6 @@ T10     3mm (118mil)                                              Round         
 T11     3.2mm (126mil)          +/-0mm (0mil)                     Round             2         PTH        0.00mm (0.00inch)
 T12     1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              580
+Totals                                                                              581
 
 Total Processing Time (hh:mm:ss) : 00:00:01
