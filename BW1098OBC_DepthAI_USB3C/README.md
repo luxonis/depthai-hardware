@@ -43,4 +43,4 @@ The 5V LED indicates 5V power is present on the BW1098OBC. The PG LED indicates 
 
 
 # Revision info
-These files represent the R1M0E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R2M0E2 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.

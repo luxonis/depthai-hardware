@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\Users\BrianLuxonis\Desktop\hardware\BW1098OBC_R1M0E1\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for BW1098OBC(Production).csv
+C:\Users\David\Documents\depthai-hardware\BW1098OBC_DepthAI_USB3C\PCB\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for BW1098OBC(Production).csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       27/11/19
-Time:       11:17
-Revision:   Not in VersionControl
+Date:       21/04/21
+Time:       12:27
+Revision:   fa1be695eb5d083fdafc0289ce8342b7adb95ece
 Variant:    Production
 Units used: mm
 
@@ -48,6 +48,7 @@ Units used: mm
 "C34","3.9249mm","-29.0999mm","90","TopLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
 "C35","3.6000mm","-22.6000mm","90","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
 "C36","9.4249mm","-27.5999mm","270","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C37","11.8986mm","-23.1450mm","360","TopLayer","GRM155R61E105KA12D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 1UF 25V X5R 0402 10%","1uF 0402"
 "C38","-15.8000mm","-11.2000mm","180","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
 "C39","-17.8000mm","-8.1000mm","90","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
 "D2","18.0000mm","-32.0000mm","180","BottomLayer","SML-D12U8WT86","SML_D1xx8W","Rohm LED SML_D1 series - Chip Diode, 2-Leads, Body 1.60x0.80mm, IPC High Density","LED RED DIFFUSED 0603 SMD Red 620nm LED Indication - Discrete 2.2V 0603 (1608 Metric)","RED 0603"
@@ -62,6 +63,12 @@ Units used: mm
 "FB7","-29.7000mm","3.8000mm","90","BottomLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
 "FB8","-43.1000mm","4.6000mm","270","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
 "FB9","-31.0000mm","-4.8000mm","180","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FID1","4.0000mm","-37.0000mm","360","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID2","-48.0000mm","5.0000mm","0","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID3","48.0000mm","-5.0000mm","0","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID4","48.0000mm","5.0000mm","180","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID5","14.0000mm","-37.5000mm","180","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID6","-48.0000mm","-5.0000mm","180","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
 "J1","15.0000mm","-9.0000mm","360","BottomLayer","DF40HC(3.0)-100DS-0.4V(51","DF40HC-3.0-100DS-0.4V_minpad","3.0MM MATED HEIGHT CONN HDR 100POS 0.4MM SMD GOLD","CONN RCPT 100POS 0.4MM SMD GOLD","DF40HC(3.0)-100DS-0.4V_BW1099G2 Receptacle"
 "J2","0.0000mm","-11.6000mm","180","BottomLayer","245804030000829+","A12N02A-201","connector: 24-5804-030-000-829+","CONN Series 5804 board to board 0.4mm pitch 30 way connector","24-5804-030-000-829+"
 "J3","37.5000mm","2.0000mm","180","BottomLayer","","TG161B-201_/_AN01V32_-_BOARD_WRAP_(7MM_SETBACK)_MINPADS","SMT connector: BBR43-24KB533, 7mm camera setback","CONN 24 way, 2 row board to board connector SMD","BBR43-24KB533 for camera module TG161B-201"
@@ -74,6 +81,10 @@ Units used: mm
 "MH2","-17.1000mm","3.1000mm","45","BottomLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
 "MH3","-17.1000mm","-21.1000mm","180","BottomLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
 "MH4","7.1000mm","-21.1000mm","180","BottomLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
+"MP5","-18.0000mm","-36.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MP6","18.0000mm","-36.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MP7","-46.5000mm","0.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
+"MP8","46.5000mm","0.0000mm","0","TopLayer","","MOUNTING_HOLE_M2.5","2.7mm dia hole, 5.5mm dia ring","=CurrentFootprint","MOUNTING_HOLE_M2.5"
 "Q1","18.9000mm","-29.9000mm","180","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
 "Q2","18.8000mm","-26.9000mm","180","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
 "Q3","18.8000mm","-23.9000mm","180","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
@@ -95,12 +106,35 @@ Units used: mm
 "R17","14.1499mm","-26.2499mm","180","TopLayer","CRCW04021M80FKED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 1.8M OHM 1% 1/16W 0402","1.8MR 0402"
 "R20","10.9000mm","-29.1500mm","90","TopLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
 "R21","12.5000mm","-29.1500mm","90","TopLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
-"R23","21.9500mm","-3.1500mm","180","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
-"R28","21.9500mm","-4.7500mm","360","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R24","24.4000mm","-3.9500mm","90","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
+"R26","21.1500mm","-3.9500mm","90","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
 "R31","16.5000mm","-30.1000mm","90","TopLayer","RC0402FR-071KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R32","17.4000mm","-30.1000mm","90","TopLayer","RC0402FR-071KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R33","17.3000mm","-27.1000mm","90","TopLayer","RC0402FR-071KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R34","17.3000mm","-24.1000mm","90","TopLayer","RC0402FR-071KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
+"TP1","-3.9513mm","-34.9115mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP2","-13.3720mm","-25.9925mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP3","19.0699mm","-12.3507mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP4","16.5477mm","-11.4557mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP5","-14.0000mm","-17.1000mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP6","-8.1610mm","-29.4216mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP7","18.3917mm","-8.5428mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP8","19.0688mm","-22.3387mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP9","3.4552mm","-18.8765mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP10","26.3078mm","-5.6330mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP11","-19.8081mm","-4.6227mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP12","22.6498mm","5.2000mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP13","-10.4103mm","-15.2282mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP14","14.9778mm","-9.0273mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP15","2.5941mm","-12.3702mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP16","-43.1211mm","-5.0750mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP17","17.5000mm","3.2000mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP18","-33.6000mm","5.6000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP19","-0.2000mm","-33.5265mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP20","44.2000mm","3.7000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP21","13.7480mm","-24.9436mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP22","11.6000mm","-27.3000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
+"TP23","12.1622mm","-31.3707mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","CurrentFootprint"
 "U1","0.7950mm","-22.0000mm","180","TopLayer","","TLV70733PDQN","DFN, 4-Leads, Body 1.00x1.00mm, Pitch 0.65mm, IPC High Density","IC REG LINEAR 3.3V 200MA 4X2SON Linear Voltage Regulator IC  1 Output  200mA 4-X2SON (1x1)","TLV70733PDQN"
 "U2","-14.0001mm","-14.2749mm","270","TopLayer","TLV70018DCKR","TLV70018DCK","SC70-5 1.1mm","IC REG LINEAR 1.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70018DCK"
 "U3","-10.5749mm","-9.3999mm","180","TopLayer","TLV70028DCKT","TLV70028DCK","SC70-5 1.1mm","IC REG LINEAR 2.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70028DCK"

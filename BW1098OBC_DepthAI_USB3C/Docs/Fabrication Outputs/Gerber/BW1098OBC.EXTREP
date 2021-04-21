@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: BW1098OBC.GBR   11/27/2019  11:17:30 AM
+Gerber File Extension Report For: BW1098OBC.GBR   21/04/2021  12:27:35
 ------------------------------------------------------------------------------------------
 
 
@@ -30,10 +30,10 @@ Layer Extension     Layer Description
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
-.1                  Dielectric 1                            
-.3                  Dielectric 2                            
-.2                  Core                                    
 .GML                Multi-Layer                             
+.2                  Core                                    
+.3                  Dielectric 2                            
+.1                  Dielectric 1                            
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------

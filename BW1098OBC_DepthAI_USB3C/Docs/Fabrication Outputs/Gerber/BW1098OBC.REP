@@ -2,72 +2,6 @@
 FileName = BW1098OBC.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : BW1098OBC.GBL
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D25
-    D32
-    D36
-    D39
-    D40
-    D41
-    D82
-    D83
-    D87
-    D88
-    D89
-    D90
-    D92
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D102
-    D103
-    D104
-    D105
-    D106
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : BW1098OBC.GTO
-
-    Adding Layer      : Top Overlay
-
-
-Used DCodes :
-    D10
-    D11
-    D12
-    D13
-    D14
-*************************************************************
-
-*************************************************************
 Generating : Top Copper
       File : BW1098OBC.GTL
 
@@ -77,6 +11,7 @@ Generating : Top Copper
 
 
 Used DCodes :
+    D14
     D15
     D16
     D17
@@ -99,9 +34,11 @@ Used DCodes :
     D36
     D37
     D38
-    D39
-    D40
-    D41
+    D77
+    D78
+    D79
+    D80
+    D81
     D82
     D83
     D84
@@ -122,18 +59,11 @@ Used DCodes :
     D99
     D100
     D101
-    D102
-    D103
-    D104
-    D105
-    D106
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : BW1098OBC.GBP
-
-    Adding Layer      : Bottom Paste
+Generating : Bottom Layer
+      File : BW1098OBC.GBL
 
     Adding Layer      : Bottom Layer
 
@@ -142,12 +72,35 @@ Generating : Bottom Paste
 
 Used DCodes :
     D15
-    D25
-    D32
+    D30
+    D33
     D36
-    D39
-    D40
-    D41
+    D37
+    D38
+    D77
+    D78
+    D82
+    D84
+    D85
+    D86
+    D88
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D97
+    D98
+    D99
+    D100
+    D101
+    D104
+    D105
+    D106
+    D107
+    D108
     D109
     D110
     D111
@@ -155,6 +108,31 @@ Used DCodes :
     D113
     D114
     D115
+    D116
+*************************************************************
+
+*************************************************************
+Generating : Layer 2
+      File : BW1098OBC.G1
+
+    Adding Layer      : Layer 2
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D77
+    D89
+    D91
+    D94
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D102
+    D103
 *************************************************************
 
 *************************************************************
@@ -169,10 +147,14 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D42
-    D50
-    D58
+    D40
+    D54
+    D57
+    D60
+    D61
     D62
+    D63
+    D64
     D65
     D66
     D67
@@ -180,23 +162,140 @@ Used DCodes :
     D69
     D70
     D71
-    D72
     D73
     D74
     D75
     D76
-    D78
-    D79
-    D80
-    D81
+    D117
+    D118
+    D119
+    D120
+    D121
     D122
     D123
     D124
-    D125
-    D126
-    D127
+*************************************************************
+
+*************************************************************
+Generating : Layer 3
+      File : BW1098OBC.G2
+
+    Adding Layer      : Layer 3
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D77
+    D85
+    D89
+    D91
+    D94
+    D96
+    D97
+    D98
+    D99
+    D100
+    D101
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Board
+      File : BW1098OBC.GM1
+
+    Adding Layer      : Board
+
+
+Used DCodes :
+    D10
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : BW1098OBC.GM3
+
+    Adding Layer      : Bottom Assembly
+
+
+Used DCodes :
+    D10
     D128
     D129
+    D130
+*************************************************************
+
+*************************************************************
+Generating : Top 3D Body
+      File : BW1098OBC.GM13
+
+    Adding Layer      : Top 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Courtyard
+      File : BW1098OBC.GM15
+
+    Adding Layer      : Top Courtyard
+
+
+Used DCodes :
+    D10
+    D129
+*************************************************************
+
+*************************************************************
+Generating : Top Component Outline
+      File : BW1098OBC.GM31
+
+    Adding Layer      : Top Component Outline
+
+
+Used DCodes :
+    D10
+    D128
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : BW1098OBC.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
 *************************************************************
 
 *************************************************************
@@ -213,6 +312,9 @@ Generating : Top Mask
 Used DCodes :
     D18
     D19
+    D39
+    D40
+    D41
     D42
     D43
     D44
@@ -248,207 +350,13 @@ Used DCodes :
     D74
     D75
     D76
-    D77
-    D78
-    D79
-    D80
-    D81
 *************************************************************
 
 *************************************************************
-Generating : Top Paste
-      File : BW1098OBC.GTP
+Generating : Bottom Paste
+      File : BW1098OBC.GBP
 
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Top Copper
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-*************************************************************
-
-*************************************************************
-Generating : Bottom Courtyard
-      File : BW1098OBC.GM16
-
-    Adding Layer      : Bottom Courtyard
-
-
-Used DCodes :
-    D10
-    D133
-    D134
-*************************************************************
-
-*************************************************************
-Generating : Top Pad Master
-      File : BW1098OBC.GPT
-
-    Adding Layer      : Top Copper
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D15
-    D16
-    D17
-    D18
-    D19
-    D20
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D84
-    D85
-    D86
-    D87
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-*************************************************************
-
-*************************************************************
-Generating : Layer 2
-      File : BW1098OBC.G1
-
-    Adding Layer      : Layer 2
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D82
-    D94
-    D96
-    D99
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-*************************************************************
-
-*************************************************************
-Generating : Core
-      File : BW1098OBC.2
-
-    Adding Layer      : Core
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Layer 3
-      File : BW1098OBC.G2
-
-    Adding Layer      : Layer 3
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D82
-    D88
-    D94
-    D96
-    D99
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D108
-*************************************************************
-
-*************************************************************
-Generating : Drill Drawing
-      File : BW1098OBC.GD1
-
-    Adding Drill Pair : Top Copper-Bottom Layer
-
-    Adding Layer      : Drill Drawing
-
-
-Used DCodes :
-    D137
-    D138
-    D139
-*************************************************************
-
-*************************************************************
-Generating : Drill Guide
-      File : BW1098OBC.GG1
-
-    Adding Drill Pair : Top Copper-Bottom Layer
-
-    Adding Layer      : Drill Guide
-
-
-Used DCodes :
-    D137
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : BW1098OBC.GPB
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -457,197 +365,18 @@ Generating : Bottom Pad Master
 
 Used DCodes :
     D15
-    D25
-    D32
+    D30
+    D33
     D36
-    D39
-    D40
-    D41
-    D87
-    D94
-    D95
-    D96
-    D97
-    D98
-    D99
-    D100
-    D102
-    D103
+    D37
+    D38
+    D104
+    D105
+    D106
+    D107
+    D108
     D109
     D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D121
-*************************************************************
-
-*************************************************************
-Generating : Assembly Notes
-      File : BW1098OBC.GM7
-
-    Adding Layer      : Assembly Notes
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Mechanical 4
-      File : BW1098OBC.GM4
-
-    Adding Layer      : Mechanical 4
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top Assembly
-      File : BW1098OBC.GM2
-
-    Adding Layer      : Top Assembly
-
-
-Used DCodes :
-    D10
-    D14
-    D133
-    D134
-    D135
-*************************************************************
-
-*************************************************************
-Generating : Multi-Layer
-      File : BW1098OBC.GML
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D94
-    D95
-    D96
-    D97
-    D99
-    D100
-    D101
-    D102
-    D103
-    D108
-*************************************************************
-
-*************************************************************
-Generating : Bottom Component Outline
-      File : BW1098OBC.GM32
-
-    Adding Layer      : Bottom Component Outline
-
-
-Used DCodes :
-    D10
-    D133
-*************************************************************
-
-*************************************************************
-Generating : Top Component Outline
-      File : BW1098OBC.GM31
-
-    Adding Layer      : Top Component Outline
-
-
-Used DCodes :
-    D10
-    D133
-*************************************************************
-
-*************************************************************
-Generating : Top Courtyard
-      File : BW1098OBC.GM15
-
-    Adding Layer      : Top Courtyard
-
-
-Used DCodes :
-    D10
-    D134
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 2
-      File : BW1098OBC.3
-
-    Adding Layer      : Dielectric 2
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Dielectric 1
-      File : BW1098OBC.1
-
-    Adding Layer      : Dielectric 1
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom 3D Body
-      File : BW1098OBC.GM14
-
-    Adding Layer      : Bottom 3D Body
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Top 3D Body
-      File : BW1098OBC.GM13
-
-    Adding Layer      : Top 3D Body
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Bottom Assembly
-      File : BW1098OBC.GM3
-
-    Adding Layer      : Bottom Assembly
-
-
-Used DCodes :
-    D10
-    D133
-    D134
-    D136
-*************************************************************
-
-*************************************************************
-Generating : Board
-      File : BW1098OBC.GM1
-
-    Adding Layer      : Board
-
-
-Used DCodes :
-    D10
-*************************************************************
-
-*************************************************************
-Generating : Keep-Out Layer
-      File : BW1098OBC.GKO
-
-    Adding Layer      : Keep-Out Layer
-
-
-Used DCodes :
-    D14
 *************************************************************
 
 *************************************************************
@@ -661,11 +390,268 @@ Used DCodes :
     D10
     D11
     D12
+    D13
+    D85
+    D125
+    D126
+    D127
+    D128
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : BW1098OBC.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+
+Used DCodes :
+    D12
+*************************************************************
+
+*************************************************************
+Generating : Bottom 3D Body
+      File : BW1098OBC.GM14
+
+    Adding Layer      : Bottom 3D Body
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Bottom Component Outline
+      File : BW1098OBC.GM32
+
+    Adding Layer      : Bottom Component Outline
+
+
+Used DCodes :
+    D10
+    D128
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : BW1098OBC.GTO
+
+    Adding Layer      : Top Overlay
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : BW1098OBC.GM2
+
+    Adding Layer      : Top Assembly
+
+
+Used DCodes :
+    D10
+    D12
+    D128
+    D129
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 4
+      File : BW1098OBC.GM4
+
+    Adding Layer      : Mechanical 4
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Assembly Notes
+      File : BW1098OBC.GM7
+
+    Adding Layer      : Assembly Notes
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Core
+      File : BW1098OBC.2
+
+    Adding Layer      : Core
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 2
+      File : BW1098OBC.3
+
+    Adding Layer      : Dielectric 2
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : BW1098OBC.GPT
+
+    Adding Layer      : Top Copper
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
     D14
-    D88
-    D130
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D79
+    D80
+    D81
+    D82
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : BW1098OBC.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D30
+    D33
+    D36
+    D37
+    D38
+    D82
+    D89
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D97
+    D98
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D116
+*************************************************************
+
+*************************************************************
+Generating : Bottom Courtyard
+      File : BW1098OBC.GM16
+
+    Adding Layer      : Bottom Courtyard
+
+
+Used DCodes :
+    D10
+    D128
+    D129
+*************************************************************
+
+*************************************************************
+Generating : Multi-Layer
+      File : BW1098OBC.GML
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D89
+    D90
+    D91
+    D92
+    D94
+    D95
+    D96
+    D97
+    D98
+    D103
+*************************************************************
+
+*************************************************************
+Generating : Dielectric 1
+      File : BW1098OBC.1
+
+    Adding Layer      : Dielectric 1
+
+
+Used DCodes :
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : BW1098OBC.GD1
+
+    Adding Drill Pair : Top Copper-Bottom Layer
+
+    Adding Layer      : Drill Drawing
+
+
+Used DCodes :
     D131
     D132
     D133
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : BW1098OBC.GG1
+
+    Adding Drill Pair : Top Copper-Bottom Layer
+
+    Adding Layer      : Drill Guide
+
+
+Used DCodes :
+    D131
 *************************************************************
 
