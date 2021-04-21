@@ -47,9 +47,9 @@ The 5V LED indicates 5V power is present on the BW2098POE.
 The PG LED indicates "power good" from the DepthAI BW2099 SoM.   
 The "RUN" LED indicates that the DepthAI SoM is not in reset.  
 
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 57V may exist. Always use electronics handling best practices.** 
+**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 57V may exist. Always use electronics handling best practices.** 
 
 
 # Design Revision info
-The desigs files represent the R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+The design files represent the R1M0E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
