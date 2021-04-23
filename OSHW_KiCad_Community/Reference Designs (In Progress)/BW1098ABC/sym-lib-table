@@ -5,4 +5,5 @@
   (lib (name ABCDCBA)(type Legacy)(uri C:/Users/lafky/Desktop/DepthAI/ABCDCBA/ABCDCBA.lib)(options "")(descr ""))
   (lib (name 1054550101)(type Legacy)(uri ${KIPRJMOD}/Lib/1054550101.lib)(options "")(descr ""))
   (lib (name 10132328-10011LF)(type Legacy)(uri ${KIPRJMOD}/Lib/10132328-10011LF.lib)(options "")(descr ""))
+  (lib (name DepthABC-rescue)(type Legacy)(uri ${KIPRJMOD}/DepthABC-rescue.lib)(options "")(descr ""))
 )

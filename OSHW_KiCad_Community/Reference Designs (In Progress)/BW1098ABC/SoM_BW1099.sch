@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE60
 P 6950 8400
 AR Path="/5FD7EFCD/6009EE60" Ref="#GND_?"  Part="1" 
@@ -29,7 +29,7 @@ $EndComp
 Text Notes 13400 9350 0    60   ~ 0
 SMT mounting standoffs for module\nM2, 3MM steel spacer on M2.5 mounting pad
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE67
 P 2500 5450
 AR Path="/5FD7EFCD/6009EE67" Ref="#GND_?"  Part="1" 
@@ -42,7 +42,7 @@ F 3 "" H 2500 5450 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE6D
 P 14850 9600
 AR Path="/5FD7EFCD/6009EE6D" Ref="#GND_?"  Part="1" 
@@ -55,7 +55,7 @@ F 3 "" H 14850 9600 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE7D
 P 4700 10650
 AR Path="/5FD7EFCD/6009EE7D" Ref="#GND_?"  Part="1" 
@@ -68,7 +68,7 @@ F 3 "" H 4700 10650 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE83
 P 4350 8400
 AR Path="/5FD7EFCD/6009EE83" Ref="#GND_?"  Part="1" 
@@ -87,7 +87,7 @@ Mark "2485_PGOOD" on PCB
 Text Notes 13950 8250 0    72   ~ 14
 Mark "nRST" on PCB
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE8C
 P 14700 8000
 AR Path="/5FD7EFCD/6009EE8C" Ref="#GND_?"  Part="1" 
@@ -100,7 +100,7 @@ F 3 "" H 14700 8000 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EE92
 P 4000 10650
 AR Path="/5FD7EFCD/6009EE92" Ref="#GND_?"  Part="1" 
@@ -113,7 +113,7 @@ F 3 "" H 4000 10650 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EEA4
 P 7150 10650
 AR Path="/5FD7EFCD/6009EEA4" Ref="#GND_?"  Part="1" 
@@ -126,7 +126,7 @@ F 3 "" H 7150 10650 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EEAA
 P 7850 10650
 AR Path="/5FD7EFCD/6009EEAA" Ref="#GND_?"  Part="1" 
@@ -393,7 +393,7 @@ AR Path="/5FD7EFCD/6009EF7A" Ref="H?"  Part="1"
 AR Path="/5FF8D9B2/6009EF7A" Ref="H7"  Part="1" 
 F 0 "H7" H 14600 9549 50  0000 L CNN
 F 1 "MountingHole_Pad" H 14700 9450 50  0001 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14500 9500 50  0001 C CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14500 9500 50  0001 C CNN
 F 3 "~" H 14500 9500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 14500 9500 50  0001 C CNN "Link1"
 F 5 "NO POP" H 14500 9500 50  0001 C CNN "Population"
@@ -403,7 +403,7 @@ F 7 "~" H 14500 9500 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EF80
 P 14500 9600
 AR Path="/5FD7EFCD/6009EF80" Ref="#GND_?"  Part="1" 
@@ -416,7 +416,7 @@ F 3 "" H 14500 9600 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EF86
 P 14150 9600
 AR Path="/5FD7EFCD/6009EF86" Ref="#GND_?"  Part="1" 
@@ -429,7 +429,7 @@ F 3 "" H 14150 9600 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009EF8C
 P 13800 9600
 AR Path="/5FD7EFCD/6009EF8C" Ref="#GND_?"  Part="1" 
@@ -449,7 +449,7 @@ AR Path="/5FD7EFCD/6009EF92" Ref="H?"  Part="1"
 AR Path="/5FF8D9B2/6009EF92" Ref="H6"  Part="1" 
 F 0 "H6" H 14250 9549 50  0000 L CNN
 F 1 "MountingHole_Pad" H 14350 9450 50  0001 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14150 9500 50  0001 C CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14150 9500 50  0001 C CNN
 F 3 "~" H 14150 9500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 14150 9500 50  0001 C CNN "Link1"
 F 5 "NO POP" H 14150 9500 50  0001 C CNN "Population"
@@ -466,7 +466,7 @@ AR Path="/5FD7EFCD/6009EF98" Ref="H?"  Part="1"
 AR Path="/5FF8D9B2/6009EF98" Ref="H5"  Part="1" 
 F 0 "H5" H 13900 9549 50  0000 L CNN
 F 1 "MountingHole_Pad" H 14000 9450 50  0001 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 13800 9500 50  0001 C CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 13800 9500 50  0001 C CNN
 F 3 "~" H 13800 9500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 13800 9500 50  0001 C CNN "Link1"
 F 5 "NO POP" H 13800 9500 50  0001 C CNN "Population"
@@ -483,7 +483,7 @@ AR Path="/5FD7EFCD/6009EF9E" Ref="H?"  Part="1"
 AR Path="/5FF8D9B2/6009EF9E" Ref="H8"  Part="1" 
 F 0 "H8" H 14950 9549 50  0000 L CNN
 F 1 "MountingHole_Pad" H 15050 9450 50  0001 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14850 9500 50  0001 C CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14850 9500 50  0001 C CNN
 F 3 "~" H 14850 9500 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 14850 9500 50  0001 C CNN "Link1"
 F 5 "NO POP" H 14850 9500 50  0001 C CNN "Population"
@@ -499,7 +499,7 @@ Wire Wire Line
 Text Notes 1450 5300 0    50   ~ 0
 Note on silk that this \nbutton only resets the \nBW1099.
 $Comp
-L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
 U 1 1 6009EFCC
 P 1350 4400
 AR Path="/5FD7EFCD/6009EFCC" Ref="TP?"  Part="1" 
@@ -516,7 +516,7 @@ F 7 "~" H 1350 4400 50  0001 C CNN "STANDARD"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
 U 1 1 6009EFDE
 P 7450 5400
 AR Path="/5FD7EFCD/6009EFDE" Ref="TP?"  Part="1" 
@@ -572,7 +572,7 @@ Wire Wire Line
 Wire Wire Line
 	14700 7250 14700 7100
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009F00F
 P 12800 7850
 AR Path="/5FD7EFCD/6009F00F" Ref="#GND_?"  Part="1" 
@@ -620,7 +620,7 @@ $EndComp
 Wire Wire Line
 	12800 6650 12800 6800
 $Comp
-L Transistor_FET:DMG1012T Q?
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
 U 1 1 6009F022
 P 12700 7450
 AR Path="/5FD7EFCD/6009F022" Ref="Q?"  Part="1" 
@@ -639,7 +639,7 @@ $EndComp
 Wire Wire Line
 	12800 7250 12800 7100
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6009F02A
 P 15300 3000
 AR Path="/5FD7EFCD/6009F02A" Ref="#GND_?"  Part="1" 
@@ -687,7 +687,7 @@ $EndComp
 Wire Wire Line
 	15300 1750 15300 1900
 $Comp
-L Transistor_FET:DMG1012T Q?
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
 U 1 1 6009F03D
 P 15200 2550
 AR Path="/5FD7EFCD/6009F03D" Ref="Q?"  Part="1" 
@@ -722,11 +722,12 @@ F 6 "~" H 14800 1550 50  0001 C CNN "Population"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch J?
+L DepthABC-rescue:DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch-BW1098ABC-rescue J?
 U 1 1 6009F08A
 P 4450 2200
 AR Path="/5FD7EFCD/6009F08A" Ref="J?"  Part="1" 
 AR Path="/5FF8D9B2/6009F08A" Ref="J3"  Part="1" 
+AR Path="/6009F08A" Ref="J3"  Part="1" 
 F 0 "J3" H 5650 2489 60  0000 C CNN
 F 1 "BW1099EMB_SoM" H 5650 2383 60  0000 C CNN
 F 2 "Luxonis_KiCad_Master:DF40HC(3.0)-100DS-0.4V(58)" H 4450 2200 60  0001 C CNN
@@ -739,7 +740,7 @@ F 7 "~" H 4450 2200 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
 U 1 1 6009F090
 P 8150 4600
 AR Path="/5FD7EFCD/6009F090" Ref="TP?"  Part="1" 
@@ -762,7 +763,7 @@ Connection ~ 8150 4600
 Wire Wire Line
 	8150 4600 8300 4600
 $Comp
-L BW1098ABC-rescue:Layout_Guide_BW1099-DEPTH MISC1
+L DepthABC-rescue:Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue MISC1
 U 1 1 6017E490
 P 5700 1600
 F 0 "MISC1" H 5978 1697 58  0000 L CNN
@@ -1143,7 +1144,7 @@ Wire Wire Line
 Wire Wire Line
 	13500 1600 13500 2500
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60B613E8
 P 14000 2950
 AR Path="/5FD7EFCD/60B613E8" Ref="#GND_?"  Part="1" 
@@ -1191,7 +1192,7 @@ $EndComp
 Wire Wire Line
 	14000 1700 14000 1850
 $Comp
-L Transistor_FET:DMG1012T Q?
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
 U 1 1 60B613FB
 P 13900 2500
 AR Path="/5FD7EFCD/60B613FB" Ref="Q?"  Part="1" 
@@ -1247,7 +1248,7 @@ Wire Wire Line
 Wire Wire Line
 	13600 4150 13600 5050
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 6065D3A8
 P 14100 5500
 AR Path="/5FD7EFCD/6065D3A8" Ref="#GND_?"  Part="1" 
@@ -1295,7 +1296,7 @@ $EndComp
 Wire Wire Line
 	14100 4250 14100 4400
 $Comp
-L Transistor_FET:DMG1012T Q?
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
 U 1 1 6065D3BB
 P 14000 5050
 AR Path="/5FD7EFCD/6065D3BB" Ref="Q?"  Part="1" 
@@ -1333,7 +1334,7 @@ $EndComp
 Wire Wire Line
 	12000 7450 12500 7450
 $Comp
-L Transistor_FET:DMG1012T Q?
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
 U 1 1 6009F007
 P 14600 7450
 AR Path="/5FD7EFCD/6009F007" Ref="Q?"  Part="1" 
@@ -1408,7 +1409,7 @@ Connection ~ 4800 10150
 Wire Wire Line
 	4800 10150 4800 10250
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 607E4FCE
 P 3450 5650
 AR Path="/5FD7F014/607E4FCE" Ref="#GND_?"  Part="1" 
@@ -1447,7 +1448,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 5100 3450 5250
 $Comp
-L BW1098ABC-rescue:TEST_POINT-depthAI_sch TP?
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
 U 1 1 6083F113
 P 3350 4500
 AR Path="/5FD7EFCD/6083F113" Ref="TP?"  Part="1" 

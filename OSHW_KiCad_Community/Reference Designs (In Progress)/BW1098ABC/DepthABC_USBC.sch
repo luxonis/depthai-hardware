@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8AD1
 P 1650 2800
 AR Path="/5FD7F014/604C8AD1" Ref="#GND_?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "" H 1650 2800 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8AD7
 P 2750 2750
 AR Path="/5FD7F014/604C8AD7" Ref="#GND_?"  Part="1" 
@@ -48,7 +48,7 @@ CC1
 Text Label 10600 8250 0    60   ~ 0
 CC2
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8B05
 P 13300 6750
 AR Path="/5FD7F014/604C8B05" Ref="#GND_?"  Part="1" 
@@ -63,7 +63,7 @@ $EndComp
 NoConn ~ 11300 7450
 NoConn ~ 11300 7350
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8B0D
 P 12800 7450
 AR Path="/5FD7F014/604C8B0D" Ref="#GND_?"  Part="1" 
@@ -76,7 +76,7 @@ F 3 "" H 12800 7450 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8B13
 P 10600 9150
 AR Path="/5FD7F014/604C8B13" Ref="#GND_?"  Part="1" 
@@ -91,7 +91,7 @@ $EndComp
 Text Notes 9300 8050 0    60   ~ 0
 target 900k 1%
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8B1A
 P 13000 7450
 AR Path="/5FD7F014/604C8B1A" Ref="#GND_?"  Part="1" 
@@ -121,7 +121,7 @@ RXC_P
 Text Label 6900 7050 0    60   ~ 0
 RXC_N
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8B29
 P 14500 8550
 AR Path="/5FD7F014/604C8B29" Ref="#GND_?"  Part="1" 
@@ -142,7 +142,7 @@ CC2
 Text Label 13100 8350 0    60   ~ 0
 USB_CM
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 604C8B3A
 P 1350 2800
 AR Path="/5FD7F014/604C8B3A" Ref="#GND_?"  Part="1" 
@@ -762,10 +762,10 @@ Wire Notes Line
 Wire Notes Line
 	15400 5650 15400 6650
 $Comp
-L power:+5V #PWR0117
+L power:+5V #PWR?
 U 1 1 6052F787
 P 15350 9300
-F 0 "#PWR0117" H 15350 9150 50  0001 C CNN
+F 0 "#PWR?" H 15350 9150 50  0001 C CNN
 F 1 "+5V" H 15365 9473 50  0000 C CNN
 F 2 "" H 15350 9300 50  0001 C CNN
 F 3 "" H 15350 9300 50  0001 C CNN
@@ -778,10 +778,10 @@ Wire Wire Line
 	15350 9350 14700 9350
 Connection ~ 14700 9350
 $Comp
-L power:+3V3 #PWR0118
+L power:+3V3 #PWR?
 U 1 1 605448CF
 P 14300 7650
-F 0 "#PWR0118" H 14300 7500 50  0001 C CNN
+F 0 "#PWR?" H 14300 7500 50  0001 C CNN
 F 1 "+3V3" H 14315 7823 50  0000 C CNN
 F 2 "" H 14300 7650 50  0001 C CNN
 F 3 "" H 14300 7650 50  0001 C CNN
@@ -791,10 +791,10 @@ $EndComp
 Wire Wire Line
 	14300 7650 14300 7750
 $Comp
-L power:+5V #PWR0119
+L power:+5V #PWR?
 U 1 1 60558EB6
 P 10500 8650
-F 0 "#PWR0119" H 10500 8500 50  0001 C CNN
+F 0 "#PWR?" H 10500 8500 50  0001 C CNN
 F 1 "+5V" H 10600 8800 50  0000 C CNN
 F 2 "" H 10500 8650 50  0001 C CNN
 F 3 "" H 10500 8650 50  0001 C CNN
@@ -804,10 +804,10 @@ $EndComp
 Text GLabel 1200 2300 0    60   Input ~ 0
 VBUS
 $Comp
-L power:+3V3 #PWR0120
+L power:+3V3 #PWR?
 U 1 1 605719D5
 P 13100 7050
-F 0 "#PWR0120" H 13100 6900 50  0001 C CNN
+F 0 "#PWR?" H 13100 6900 50  0001 C CNN
 F 1 "+3V3" H 13200 7150 50  0000 C CNN
 F 2 "" H 13100 7050 50  0001 C CNN
 F 3 "" H 13100 7050 50  0001 C CNN
@@ -849,7 +849,7 @@ Wire Wire Line
 	14500 8450 14500 8550
 Connection ~ 14500 8450
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60CF6BF2
 P 7250 8900
 AR Path="/5FD7EFCB/60CF6BF2" Ref="#GND_?"  Part="1" 
@@ -863,7 +863,7 @@ F 3 "" H 7250 8900 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60CF6BFF
 P 7550 8900
 AR Path="/5FD7EFCB/60CF6BFF" Ref="#GND_?"  Part="1" 
@@ -913,7 +913,7 @@ F 7 "~" H 7550 8900 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 60A3EA63
 P 7300 4150
 AR Path="/5FF8D9B2/60A3EA63" Ref="#PWR?"  Part="1" 
@@ -974,7 +974,7 @@ Wire Wire Line
 Text GLabel 7400 2650 2    50   Input ~ 0
 PMID
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 60A3EA98
 P 7450 2850
 AR Path="/5FF8D9B2/60A3EA98" Ref="#PWR?"  Part="1" 
@@ -1019,7 +1019,7 @@ F 11 "~" H 6300 4350 50  0001 C CNN "STANDARD"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 60A3EAB1
 P 6050 3050
 AR Path="/5FF8D9B2/60A3EAB1" Ref="#PWR?"  Part="1" 
@@ -1045,7 +1045,7 @@ F 3 "" H 5350 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 60A3EABD
 P 6200 2450
 AR Path="/5FF8D9B2/60A3EABD" Ref="#PWR?"  Part="1" 
@@ -1058,7 +1058,7 @@ F 3 "" H 6200 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 60A3EAC3
 P 7350 2250
 AR Path="/5FF8D9B2/60A3EAC3" Ref="#PWR?"  Part="1" 
@@ -1145,10 +1145,10 @@ Wire Wire Line
 NoConn ~ 6300 2250
 NoConn ~ 6300 2350
 $Comp
-L Logic_LevelTranslator:TXB0102DCT U1
+L Logic_LevelTranslator:TXB0102DCT U?
 U 1 1 604F1A9B
 P 12750 1950
-F 0 "U1" H 12750 1361 50  0000 C CNN
+F 0 "U?" H 12750 1361 50  0000 C CNN
 F 1 "2-bit bidirectional level shifter " H 13500 1150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-8" H 12750 1400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/txb0102.pdf" H 12750 1920 50  0001 C CNN
@@ -1208,10 +1208,10 @@ Wire Wire Line
 Wire Wire Line
 	12650 1050 12650 1450
 $Comp
-L power:+3V3 #PWR0123
+L power:+3V3 #PWR?
 U 1 1 607B9077
 P 12650 1050
-F 0 "#PWR0123" H 12650 900 50  0001 C CNN
+F 0 "#PWR?" H 12650 900 50  0001 C CNN
 F 1 "+3V3" H 12665 1223 50  0000 C CNN
 F 2 "" H 12650 1050 50  0001 C CNN
 F 3 "" H 12650 1050 50  0001 C CNN
@@ -1261,10 +1261,10 @@ P0.02
 Text Label 11550 1850 0    50   ~ 0
 P0.03
 $Comp
-L Device:R_US R5
+L Device:R_US R?
 U 1 1 60886AFD
 P 8050 3250
-F 0 "R5" V 8000 3400 50  0000 C CNN
+F 0 "R?" V 8000 3400 50  0000 C CNN
 F 1 "0R" V 8000 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3240 50  0001 C CNN
 F 3 "~" H 8050 3250 50  0001 C CNN
@@ -1275,10 +1275,10 @@ F 6 "~" H 8050 3250 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R6
+L Device:R_US R?
 U 1 1 60889E92
 P 8050 3350
-F 0 "R6" V 8000 3500 50  0000 C CNN
+F 0 "R?" V 8000 3500 50  0000 C CNN
 F 1 "0R" V 8000 3200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3340 50  0001 C CNN
 F 3 "~" H 8050 3350 50  0001 C CNN
@@ -1289,10 +1289,10 @@ F 6 "~" H 8050 3350 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R7
+L Device:R_US R?
 U 1 1 6088A2BF
 P 8050 3450
-F 0 "R7" V 8000 3600 50  0000 C CNN
+F 0 "R?" V 8000 3600 50  0000 C CNN
 F 1 "0R" V 8000 3300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3440 50  0001 C CNN
 F 3 "~" H 8050 3450 50  0001 C CNN
@@ -1303,10 +1303,10 @@ F 6 "~" H 8050 3450 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R11
+L Device:R_US R?
 U 1 1 6088A715
 P 8050 3550
-F 0 "R11" V 8000 3700 50  0000 C CNN
+F 0 "R?" V 8000 3700 50  0000 C CNN
 F 1 "0R" V 8000 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3540 50  0001 C CNN
 F 3 "~" H 8050 3550 50  0001 C CNN
@@ -1317,10 +1317,10 @@ F 6 "~" H 8050 3550 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R12
+L Device:R_US R?
 U 1 1 6088B6ED
 P 8050 3650
-F 0 "R12" V 8000 3800 50  0000 C CNN
+F 0 "R?" V 8000 3800 50  0000 C CNN
 F 1 "0R" V 8000 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3640 50  0001 C CNN
 F 3 "~" H 8050 3650 50  0001 C CNN
@@ -1331,10 +1331,10 @@ F 6 "~" H 8050 3650 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R13
+L Device:R_US R?
 U 1 1 6088BABA
 P 8050 3750
-F 0 "R13" V 8000 3900 50  0000 C CNN
+F 0 "R?" V 8000 3900 50  0000 C CNN
 F 1 "0R" V 8000 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3740 50  0001 C CNN
 F 3 "~" H 8050 3750 50  0001 C CNN
@@ -1369,7 +1369,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 3750 7900 3750
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 609D6AF3
 P 3200 1550
 AR Path="/5FD7F014/609D6AF3" Ref="#GND_?"  Part="1" 
@@ -1382,7 +1382,7 @@ F 3 "" H 3200 1550 70  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 609D6AF9
 P 2600 1550
 AR Path="/5FD7F014/609D6AF9" Ref="#GND_?"  Part="1" 
@@ -1459,10 +1459,10 @@ F 7 "~" H 3800 1050 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0124
+L power:+5V #PWR?
 U 1 1 60A47E40
 P 3450 850
-F 0 "#PWR0124" H 3450 700 50  0001 C CNN
+F 0 "#PWR?" H 3450 700 50  0001 C CNN
 F 1 "+5V" H 3465 1023 50  0000 C CNN
 F 2 "" H 3450 850 50  0001 C CNN
 F 3 "" H 3450 850 50  0001 C CNN
@@ -1477,10 +1477,10 @@ Wire Wire Line
 Text GLabel 1600 1000 1    50   Input ~ 0
 PMID
 $Comp
-L power:PWR_FLAG #FLG0102
+L power:PWR_FLAG #FLG?
 U 1 1 60A6699B
 P 3700 1050
-F 0 "#FLG0102" H 3700 1125 50  0001 C CNN
+F 0 "#FLG?" H 3700 1125 50  0001 C CNN
 F 1 "PWR_FLAG" H 3700 1223 50  0000 C CNN
 F 2 "" H 3700 1050 50  0001 C CNN
 F 3 "~" H 3700 1050 50  0001 C CNN
@@ -1491,10 +1491,10 @@ Connection ~ 3700 1050
 Wire Wire Line
 	3700 1050 3800 1050
 $Comp
-L power:PWR_FLAG #FLG0103
+L power:PWR_FLAG #FLG?
 U 1 1 60AAAF89
 P 7800 2350
-F 0 "#FLG0103" H 7800 2425 50  0001 C CNN
+F 0 "#FLG?" H 7800 2425 50  0001 C CNN
 F 1 "PWR_FLAG" H 7800 2523 50  0000 C CNN
 F 2 "" H 7800 2350 50  0001 C CNN
 F 3 "~" H 7800 2350 50  0001 C CNN
@@ -1502,7 +1502,7 @@ F 3 "~" H 7800 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60ACD3BF
 P 12750 2450
 AR Path="/5FD7F014/60ACD3BF" Ref="#GND_?"  Part="1" 
@@ -1543,10 +1543,10 @@ Wire Wire Line
 Wire Wire Line
 	2600 1450 2600 1550
 $Comp
-L power:PWR_FLAG #FLG0104
+L power:PWR_FLAG #FLG?
 U 1 1 60E4ED8B
 P 6100 3050
-F 0 "#FLG0104" H 6100 3125 50  0001 C CNN
+F 0 "#FLG?" H 6100 3125 50  0001 C CNN
 F 1 "PWR_FLAG" H 6000 3150 50  0000 C CNN
 F 2 "" H 6100 3050 50  0001 C CNN
 F 3 "~" H 6100 3050 50  0001 C CNN
@@ -1557,10 +1557,10 @@ Connection ~ 6100 3050
 Wire Wire Line
 	6100 3050 6250 3050
 $Comp
-L Device:R_US R15
+L Device:R_US R?
 U 1 1 6054716D
 P 13450 1850
-F 0 "R15" V 13400 2000 50  0000 C CNN
+F 0 "R?" V 13400 2000 50  0000 C CNN
 F 1 "0R" V 13400 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13490 1840 50  0001 C CNN
 F 3 "~" H 13450 1850 50  0001 C CNN
@@ -1571,10 +1571,10 @@ F 6 "~" H 13450 1850 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R27
+L Device:R_US R?
 U 1 1 60547173
 P 13450 2050
-F 0 "R27" V 13400 2200 50  0000 C CNN
+F 0 "R?" V 13400 2200 50  0000 C CNN
 F 1 "0R" V 13400 1900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13490 2040 50  0001 C CNN
 F 3 "~" H 13450 2050 50  0001 C CNN
@@ -1585,10 +1585,10 @@ F 6 "~" H 13450 2050 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R28
+L Device:R_US R?
 U 1 1 60547179
 P 13450 2250
-F 0 "R28" V 13400 2400 50  0000 C CNN
+F 0 "R?" V 13400 2400 50  0000 C CNN
 F 1 "0R" V 13400 2100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13490 2240 50  0001 C CNN
 F 3 "~" H 13450 2250 50  0001 C CNN
@@ -1605,10 +1605,10 @@ Wire Wire Line
 Wire Wire Line
 	13150 2250 13300 2250
 $Comp
-L Device:R_US R14
+L Device:R_US R?
 U 1 1 605CDA58
 P 5650 2850
-F 0 "R14" V 5600 3000 50  0000 C CNN
+F 0 "R?" V 5600 3000 50  0000 C CNN
 F 1 "0R" V 5600 2700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5690 2840 50  0001 C CNN
 F 3 "~" H 5650 2850 50  0001 C CNN
@@ -1656,7 +1656,7 @@ USB_D_P
 Text Label 4900 8300 2    60   ~ 0
 USB_D_N
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 607CB7D4
 P 2550 9150
 AR Path="/5FD7F014/607CB7D4" Ref="#GND_?"  Part="1" 
@@ -1694,10 +1694,10 @@ Wire Wire Line
 Wire Wire Line
 	9800 5850 6900 5850
 $Comp
-L Device:R_US R32
+L Device:R_US R?
 U 1 1 60947697
 P 1900 2300
-F 0 "R32" V 1850 2450 50  0000 C CNN
+F 0 "R?" V 1850 2450 50  0000 C CNN
 F 1 "0R" V 1850 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1940 2290 50  0001 C CNN
 F 3 "~" H 1900 2300 50  0001 C CNN
@@ -1717,10 +1717,10 @@ Wire Wire Line
 	1650 2300 1350 2300
 Connection ~ 2750 2300
 $Comp
-L Device:R_US R31
+L Device:R_US R?
 U 1 1 60A6A230
 P 2100 1050
-F 0 "R31" V 2050 1200 50  0000 C CNN
+F 0 "R?" V 2050 1200 50  0000 C CNN
 F 1 "0R" V 2050 900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 1040 50  0001 C CNN
 F 3 "~" H 2100 1050 50  0001 C CNN
@@ -1738,10 +1738,10 @@ Wire Wire Line
 Wire Wire Line
 	1600 1050 1950 1050
 $Comp
-L BW1098ABC-rescue:Layout_Guide_BW1099-DEPTH MISC2
+L BW1098ABC-rescue:Layout_Guide_BW1099-DEPTH MISC?
 U 1 1 60C31494
 P 9400 1800
-F 0 "MISC2" H 9678 1852 58  0000 L CNN
+F 0 "MISC?" H 9678 1852 58  0000 L CNN
 F 1 "Layout_Guide_ABC" H 9678 1749 58  0000 L CNN
 F 2 "ABC:ABC-Layout" H 9100 2200 58  0001 C CNN
 F 3 "~" H 9100 2200 58  0001 C CNN
@@ -1767,10 +1767,10 @@ Wire Wire Line
 Wire Wire Line
 	5200 3850 4700 3850
 $Comp
-L Device:R_US R39
+L Device:R_US R?
 U 1 1 607E9843
 P 5350 3650
-F 0 "R39" V 5300 3800 50  0000 C CNN
+F 0 "R?" V 5300 3800 50  0000 C CNN
 F 1 "0R" V 5300 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 3640 50  0001 C CNN
 F 3 "~" H 5350 3650 50  0001 C CNN
@@ -1781,10 +1781,10 @@ F 6 "~" H 5350 3650 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R40
+L Device:R_US R?
 U 1 1 607E9849
 P 5350 3750
-F 0 "R40" V 5300 3900 50  0000 C CNN
+F 0 "R?" V 5300 3900 50  0000 C CNN
 F 1 "0R" V 5300 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 3740 50  0001 C CNN
 F 3 "~" H 5350 3750 50  0001 C CNN
@@ -1795,10 +1795,10 @@ F 6 "~" H 5350 3750 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R41
+L Device:R_US R?
 U 1 1 607E984F
 P 5350 3850
-F 0 "R41" V 5300 4000 50  0000 C CNN
+F 0 "R?" V 5300 4000 50  0000 C CNN
 F 1 "0R" V 5300 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 3840 50  0001 C CNN
 F 3 "~" H 5350 3850 50  0001 C CNN
@@ -1809,10 +1809,10 @@ F 6 "~" H 5350 3850 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R42
+L Device:R_US R?
 U 1 1 607E9855
 P 5350 3950
-F 0 "R42" V 5300 4100 50  0000 C CNN
+F 0 "R?" V 5300 4100 50  0000 C CNN
 F 1 "0R" V 5300 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 3940 50  0001 C CNN
 F 3 "~" H 5350 3950 50  0001 C CNN
@@ -1823,10 +1823,10 @@ F 6 "~" H 5350 3950 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R43
+L Device:R_US R?
 U 1 1 607E985B
 P 5350 4050
-F 0 "R43" V 5300 4200 50  0000 C CNN
+F 0 "R?" V 5300 4200 50  0000 C CNN
 F 1 "0R" V 5300 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 4040 50  0001 C CNN
 F 3 "~" H 5350 4050 50  0001 C CNN
@@ -1837,10 +1837,10 @@ F 6 "~" H 5350 4050 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R44
+L Device:R_US R?
 U 1 1 607E9861
 P 5350 4150
-F 0 "R44" V 5300 4300 50  0000 C CNN
+F 0 "R?" V 5300 4300 50  0000 C CNN
 F 1 "0R" V 5300 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 4140 50  0001 C CNN
 F 3 "~" H 5350 4150 50  0001 C CNN
@@ -1851,10 +1851,10 @@ F 6 "~" H 5350 4150 50  0001 C CNN "Population"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_US R38
+L Device:R_US R?
 U 1 1 607FBF8B
 P 5350 3550
-F 0 "R38" V 5300 3700 50  0000 C CNN
+F 0 "R?" V 5300 3700 50  0000 C CNN
 F 1 "0R" V 5300 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 5390 3540 50  0001 C CNN
 F 3 "~" H 5350 3550 50  0001 C CNN
@@ -1910,7 +1910,7 @@ F 7 "~" H 1750 5500 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 6062CDFA
 P 1750 5600
 AR Path="/6062CDFA" Ref="#PWR?"  Part="1" 
@@ -1940,7 +1940,7 @@ F 7 "~" H 2750 5500 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 606A059D
 P 2750 5600
 AR Path="/606A059D" Ref="#PWR?"  Part="1" 
@@ -1970,7 +1970,7 @@ F 7 "~" H 1700 6250 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 606C7411
 P 1700 6350
 AR Path="/606C7411" Ref="#PWR?"  Part="1" 
@@ -2000,7 +2000,7 @@ F 7 "~" H 2750 6300 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR?
+L power:GND #PWR?
 U 1 1 606DA375
 P 2750 6400
 AR Path="/606DA375" Ref="#PWR?"  Part="1" 
@@ -2013,10 +2013,10 @@ F 3 "" H 2750 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 10132328-10011LF:10132328-10011LF J5
+L 10132328-10011LF:10132328-10011LF J?
 U 1 1 6062DC2A
 P 3500 8300
-F 0 "J5" H 3500 9167 50  0000 C CNN
+F 0 "J?" H 3500 9167 50  0000 C CNN
 F 1 "USBC 3.1 Vertical" H 3500 9076 50  0000 C CNN
 F 2 "AMPHENOL_10132328-10011LF" H 3500 8300 50  0001 L BNN
 F 3 "" H 3500 8300 50  0001 L BNN
@@ -2049,7 +2049,7 @@ Wire Wire Line
 	2150 8700 2700 8700
 NoConn ~ 2700 8400
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60777FEC
 P 2700 7700
 AR Path="/5FD7F014/60777FEC" Ref="#GND_?"  Part="1" 
@@ -2062,7 +2062,7 @@ F 3 "" H 2700 7700 70  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60778BAA
 P 4300 7700
 AR Path="/5FD7F014/60778BAA" Ref="#GND_?"  Part="1" 
@@ -2079,7 +2079,7 @@ VBUS
 Text GLabel 4300 8500 2    47   Input ~ 0
 VBUS
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 607BED24
 P 4300 8950
 AR Path="/5FD7F014/607BED24" Ref="#GND_?"  Part="1" 
@@ -2120,7 +2120,7 @@ DIR
 Text GLabel 5550 1350 2    50   Input ~ 0
 1V8
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 609499FD
 P 5200 1850
 AR Path="/5FD7F014/609499FD" Ref="#GND_?"  Part="1" 

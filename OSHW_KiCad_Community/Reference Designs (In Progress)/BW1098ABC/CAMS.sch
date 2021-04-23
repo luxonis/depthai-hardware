@@ -161,7 +161,7 @@ Wire Wire Line
 Text Notes 1000 1750 0    118  ~ 0
 MIPI CAM B
 $Comp
-L power:Earth #PWR03
+L power:GND #PWR03
 U 1 1 606EC1E7
 P 3450 2600
 F 0 "#PWR03" H 3450 2350 50  0001 C CNN
@@ -176,7 +176,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 2400 3350 2400
 $Comp
-L power:Earth #PWR09
+L power:GND #PWR09
 U 1 1 606EF3B3
 P 3450 4900
 F 0 "#PWR09" H 3450 4650 50  0001 C CNN
@@ -250,7 +250,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 2800 2950 2800
 $Comp
-L power:Earth #PWR012
+L power:GND #PWR012
 U 1 1 607415FE
 P 2800 5000
 F 0 "#PWR012" H 2800 4750 50  0001 C CNN
@@ -351,7 +351,7 @@ F 7 "~" H 8650 4650 50  0001 C CNN "STANDARD"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR018
+L power:GND #PWR018
 U 1 1 6085B7DE
 P 8950 3650
 F 0 "#PWR018" H 8950 3400 50  0001 C CNN
@@ -366,7 +366,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 3450 8850 3450
 $Comp
-L power:Earth #PWR022
+L power:GND #PWR022
 U 1 1 6085B7E6
 P 8950 5950
 F 0 "#PWR022" H 8950 5700 50  0001 C CNN
@@ -426,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	7850 3850 8450 3850
 $Comp
-L power:Earth #PWR024
+L power:GND #PWR024
 U 1 1 6085B80D
 P 8300 6050
 F 0 "#PWR024" H 8300 5800 50  0001 C CNN
@@ -611,7 +611,7 @@ Wire Wire Line
 	14250 4350 14250 4650
 Connection ~ 14250 4350
 $Comp
-L power:Earth #PWR016
+L power:GND #PWR016
 U 1 1 60B1E690
 P 14250 4650
 F 0 "#PWR016" H 14250 4400 50  0001 C CNN
@@ -637,7 +637,7 @@ F 7 "~" H 3150 3600 50  0001 C CNN "STANDARD"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:Earth #PWR014
+L power:GND #PWR014
 U 1 1 60B1E6F6
 P 14900 4400
 F 0 "#PWR014" H 14900 4150 50  0001 C CNN
@@ -652,7 +652,7 @@ Wire Wire Line
 Wire Wire Line
 	14900 4250 14850 4250
 $Comp
-L power:Earth #PWR05
+L power:GND #PWR05
 U 1 1 60B1E6FE
 P 14900 2100
 F 0 "#PWR05" H 14900 1850 50  0001 C CNN

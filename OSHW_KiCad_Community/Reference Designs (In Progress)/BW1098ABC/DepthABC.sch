@@ -110,12 +110,12 @@ F 7 "~" H 1850 7350 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H1
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H1
 U 1 1 600C0C23
 P 800 5950
 F 0 "H1" H 900 5999 50  0000 L CNN
-F 1 "MountingHole_M2.5" H 900 5908 50  0000 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 800 5950 50  0001 C CNN
+F 1 "MountingHole_M3" H 900 5908 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 800 5950 50  0001 C CNN
 F 3 "~" H 800 5950 50  0001 C CNN
 F 4 "~" H 800 5950 50  0001 C CNN "Link1"
 F 5 "~" H 800 5950 50  0001 C CNN "MPN1"
@@ -125,12 +125,12 @@ F 7 "~" H 800 5950 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H2
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H2
 U 1 1 600C0C24
 P 800 6450
 F 0 "H2" H 900 6499 50  0000 L CNN
-F 1 "MountingHole_M2.5" H 900 6408 50  0000 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 800 6450 50  0001 C CNN
+F 1 "MountingHole_M3" H 900 6408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 800 6450 50  0001 C CNN
 F 3 "~" H 800 6450 50  0001 C CNN
 F 4 "~" H 800 6450 50  0001 C CNN "Link1"
 F 5 "~" H 800 6450 50  0001 C CNN "MPN1"
@@ -140,12 +140,12 @@ F 7 "~" H 800 6450 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H4
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H4
 U 1 1 600C0C25
 P 1750 6450
 F 0 "H4" H 1850 6499 50  0000 L CNN
-F 1 "MountingHole_M2.5" H 1850 6408 50  0000 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 1750 6450 50  0001 C CNN
+F 1 "MountingHole_M3" H 1850 6408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1750 6450 50  0001 C CNN
 F 3 "~" H 1750 6450 50  0001 C CNN
 F 4 "~" H 1750 6450 50  0001 C CNN "Link1"
 F 5 "~" H 1750 6450 50  0001 C CNN "MPN1"
@@ -155,12 +155,12 @@ F 7 "~" H 1750 6450 50  0001 C CNN "STANDARD"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BW1098ABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch H3
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H3
 U 1 1 600C0C26
 P 1750 5950
 F 0 "H3" H 1850 5999 50  0000 L CNN
-F 1 "MountingHole_M2.5" H 1850 5908 50  0000 L CNN
-F 2 "Mounting_Wuerth:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 1750 5950 50  0001 C CNN
+F 1 "MountingHole_M3" H 1850 5908 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1750 5950 50  0001 C CNN
 F 3 "~" H 1750 5950 50  0001 C CNN
 F 4 "~" H 1750 5950 50  0001 C CNN "Link1"
 F 5 "~" H 1750 5950 50  0001 C CNN "MPN1"
@@ -176,7 +176,7 @@ F0 "CAMERA_FFC_DUAL" 50
 F1 "CAMS.sch" 50
 $EndSheet
 $Comp
-L power:Earth #PWR0107
+L power:GND #PWR0107
 U 1 1 6106C817
 P 800 6050
 F 0 "#PWR0107" H 800 5800 50  0001 C CNN
@@ -187,7 +187,7 @@ F 3 "" H 800 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0108
+L power:GND #PWR0108
 U 1 1 6106D903
 P 1750 6050
 F 0 "#PWR0108" H 1750 5800 50  0001 C CNN
@@ -198,7 +198,7 @@ F 3 "" H 1750 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0109
+L power:GND #PWR0109
 U 1 1 6106E6FC
 P 1750 6550
 F 0 "#PWR0109" H 1750 6300 50  0001 C CNN
@@ -209,7 +209,7 @@ F 3 "" H 1750 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:Earth #PWR0110
+L power:GND #PWR0110
 U 1 1 6106EA7D
 P 800 6550
 F 0 "#PWR0110" H 800 6300 50  0001 C CNN
@@ -219,12 +219,6 @@ F 3 "" H 800 6550 50  0001 C CNN
 	1    800  6550
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 1450 1000 3000 1300
-U 60483E6B
-F0 "USBC&POWER" 50
-F1 "BW1098ABC_USBC.sch" 50
-$EndSheet
 Text Notes 4600 3750 0    58   ~ 0
 SEE CAMERA AND CONNECTORS GUIDE FOR MORE INFO\n
 Text Notes 9150 2000 0    58   ~ 0
@@ -232,7 +226,7 @@ Except where noted, leave current contents\nof this sheet as-is and add in perip
 Text Notes 1500 1750 0    72   ~ 0
 USBC Recommended in all designs. \nAdjust power as needed. \nArducam and Luxonis camera modules \n     have on board power supplies
 $Comp
-L power:Earth #GND_?
+L power:GND #GND_?
 U 1 1 60A13627
 P 2150 4050
 AR Path="/5FD7EFCB/60A13627" Ref="#GND_?"  Part="1" 
@@ -291,4 +285,10 @@ F 6 "~" H 2500 4050 50  0001 C CNN "STANDARD"
 	1    2500 4050
 	-1   0    0    1   
 $EndComp
+$Sheet
+S 1450 1000 3000 1300
+U 60483E6B
+F0 "USBC&POWER" 50
+F1 "DepthABC_USBC.sch" 50
+$EndSheet
 $EndSCHEMATC
