@@ -35,11 +35,11 @@ More about the "why" are we making this product available and open sourcing you 
 
 # Board layout & dimensions
 
-![](../DM1098_LUX-D-LITE_DepthAI_USB3C/Images/DM1098LUXD-LITE-D-LITE_TOP.PNG)
+![](/DM1098_LUX-D-LITE_DepthAI_USB3C/Images/DM1098LUXD-LITE-D-LITE_TOP.png)
 
-![](../DM1098_LUX-D-LITE_DepthAI_USB3C/Images/DM1098LUXD-LITE-D-LITE_BOTTOM.PNG)
+![](/DM1098_LUX-D-LITE_DepthAI_USB3C/Images/DM1098LUXD-LITE-D-LITE_BOTTOM.png)
 
-![](../DM1098_LUX-D-LITE_DepthAI_USB3C/Images/DM1098LUXD-LITE-D-LITE_dimmensions.PNG)
+![](/DM1098_LUX-D-LITE_DepthAI_USB3C/Images/DM1098LUXD-LITE-D-LITE_dimmensions.png)
 
 # Getting started
 The DM1098-LUX-D-LITE is powered via USB Type-C connector and requires USB3-capable host, or USB2 host that can provide 900mA. USB3 5Gbps speeds are standard for streaming video or data from the device. With cameras and the DepthAI SoM, total power consumption usually stays below the 900mA specification of USB3. 
