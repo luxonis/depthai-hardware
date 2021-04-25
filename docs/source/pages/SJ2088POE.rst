@@ -1,6 +1,6 @@
-.. _sj2096poe:
+.. _sj2088poe:
 
-OAK-D-POE with IP67 Enclosure (SJ2096POE)
+OAK-D-POE with IP67 Enclosure (SJ2088POE)
 =========================================
 
 .. image:: ../../../SJ2088POE_PoE_Board/Images/SJ2096POE.JPG
