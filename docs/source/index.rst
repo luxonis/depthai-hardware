@@ -23,14 +23,14 @@ OAK Designs
    :widths: 30 30 30
    :header-rows: 1
 
-   * - BW1098OBC USB3C Baseboard
-     - BW1098OAK USB3C Baseboard
+   * - OAK-D / LUX-D (BW1098OAK)
+     - BW1098OBC USB3C Baseboard
      - OAK-1 Modular (BK1096)
-   * - .. image:: /_static/images/BW1098OBC.png
-     - .. image:: /_static/images/bw1098oak.png
+   * - .. image:: /_static/images/bw1098oak.jpg
+     - .. image:: /_static/images/BW1098OBC.png
      - .. image:: /_static/images/BK1096.jpg
-   * - :ref:`Learn more <bw1098obc>` 
-     - :ref:`Learn more <bw1098oak>`
+   * - :ref:`Learn more <bw1098oak>` 
+     - :ref:`Learn more <bw1098obc>`
      - :ref:`Learn more <bk1096>` 
 
 POE Designs
@@ -40,56 +40,59 @@ POE Designs
    :widths: 30 30 30
    :header-rows: 1
 
-   * - POE Board (BW2096POE)
-     - OAK-D-POE (SJ2088POE)
-     - LDC-1-POE (SJ2096POE)
-   * - .. image:: /_static/images/BW2098POE.jpg
-     - .. image:: /_static/images/SJ2096POE.JPG
-     - .. image:: /_static/images/top.JPG
-   * - :ref:`Learn more <bw2096poe>` 
-     - :ref:`Learn more <sj2088poe>` 
-     - :ref:`Learn more <sj2096>` 
+  * - OAK-D-POE (SJ2088POE)
+    - OAK-1-POE (SJ2096POE)
+    - POE Board (BW2096POE)
+  * - .. image:: /_static/images/SJ2088POE.JPG
+    - .. image:: /_static/images/SJ2096POE.JPG
+    - .. image:: /_static/images/BW2098POE.jpg
+  * - :ref:`Learn more <sj2096>` 
+    - :ref:`Learn more <sj2088poe>`
+    - :ref:`Learn more <bw2096poe>`
 
 Integrated Raspberry Pi Designs
 *******************************
 
 .. list-table::
-   :widths: 50 50
+   :widths: 30 30 30
    :header-rows: 1
 
-   * - DepthAI for CM3+ (BW1097)
-     - DepthAI for Compute module 4 (DM1097)
+   * - DepthAI with Pi CM3+ (BW1097)
+     - DepthAI with Pi CM4 (DM1097)
+     - RPi HAT Baseboard (BW1094)
    * - .. image:: /_static/images/BW1097.png
      - .. image:: /_static/images/DM1097.png
+     - .. image:: /_static/images/BW1094.png
    * - :ref:`Learn more <bw1097>` 
      - :ref:`Learn more <dm1097>` 
+     - :ref:`Learn more <bw1094>` 
 
 Pure Embedded Design
 ********************
 
 .. list-table::
-   :widths: 100
+   :widths: 50 50
    :header-rows: 1
 
-   * - Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT (BW1092)
-   * - .. image:: /_static/images/items.jpeg
+   * - DepthAI Design with Onboard ESP32 (BW1092)
+     - WiFi DepthAI USB3C Baseboard (DM1098OBC)
+   * - .. image:: /_static/images/BW1092.jpeg
+     - .. image:: /_static/images/DM1098OBC_s.jpg
    * - :ref:`Learn more <bw1092>` 
+     - :ref:`Learn more <dm1098obc>`
 
 USB Designs
 ***********
 
 .. list-table::
-   :widths: 30 30 30
+   :widths: 50 50
    :header-rows: 1
 
-   * - RPi HAT Baseboard (BW1094)
-     - DepthAI USB3 (DM1090FFC)
-     - DepthAI USB3 (BW1098FFC)
-   * - .. image:: /_static/images/BW1094.png
-     - .. image:: /_static/images/DM1090FFC_R0M0E0_BOT_s.png
+   * - DepthAI *NEW* FFC (DM1090FFC)
+     - DepthAI *OLD* FFC (BW1098FFC)
+   * - .. image:: /_static/images/DM1090FFC_R0M0E0_BOT_s.png
      - .. image:: /_static/images/BW1098FFC.png
-   * - :ref:`Learn more <bw1094>` 
-     - :ref:`Learn more <dm1090ffc>` 
+   * - :ref:`Learn more <dm1090ffc>` 
      - :ref:`Learn more <bw1098ffc>`
 
 Cameras
@@ -114,9 +117,9 @@ Cameras
    :maxdepth: 1
    :hidden:
    :caption: OAK Designs
-   
-   pages/BW1098OBC.rst
+
    pages/BW1098OAK.rst
+   pages/BW1098OBC.rst
    pages/BK1096.rst
 
 .. toctree::
@@ -124,10 +127,10 @@ Cameras
    :hidden:
    :caption: POE Designs
    
-   pages/BW2098POE.rst
    pages/SJ2088POE.rst
    pages/SJ2096POE.rst
-
+   pages/BW2098POE.rst
+   
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -135,6 +138,7 @@ Cameras
 
    pages/BW1097.rst
    pages/DM1097.rst
+   pages/BW1094.rst
 
 .. toctree::
    :maxdepth: 1
@@ -142,13 +146,13 @@ Cameras
    :caption: Pure Embedded Design
 
    pages/BW1092.rst
+   pages/DM1098OBC.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: USB Designs
 
-   pages/BW1094.rst
    pages/DM1090.rst
    pages/BW1098FFC.rst
 
@@ -157,7 +161,7 @@ Cameras
    :hidden:
    :caption: Cameras
 
-   pages/BG0250TG_R0M0E0.rst
+   pages/BG0250TG.rst
    pages/BG0249.rst
-   pages/BW0253_R0M0E0.rst
+   pages/BW0253.rst
 
