@@ -1,7 +1,7 @@
 .. _sj2088poe:
 
-OAK-D-POE with IP67 Enclosure (SJ2088POE)
-=========================================
+OAK-D-POE (SJ2088POE)
+=====================
 
 .. image:: ../../../SJ2088POE_PoE_Board/Images/SJ2096POE.JPG
 
@@ -53,8 +53,8 @@ The "RUN" LED indicates that the DepthAI SoM is not in reset.
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 
 57V may exist. Always use electronics handling best practices.**
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board/PCB>`__
 

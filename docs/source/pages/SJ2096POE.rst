@@ -1,14 +1,14 @@
 .. _sj2096:
 
-LDC-1-POE Board in IP67 Enclosure (SJ2096POE)
-=============================================
+OAK-1-POE (SJ2096POE)
+=====================
 
 .. image:: ../../../SJ2096POE_R0M0E0/Images/top.JPG
 
 Overview
 ********
 
-The SJ2096POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The SJ2096POE baseboard has one on-board 
+The OAK-1-POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The SJ2096POE baseboard has one on-board 
 cameras which implement RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host 
 via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The SJ2096POE board exposes boot selection switches, allowing the end 
 user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
@@ -36,9 +36,9 @@ Key features
 Getting started
 ***************
 
-The SJ2096POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
+The OAK-1-POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
 Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is 
-configured with the DIP switch bank near the USB connector. With the BW0249 camera and the DepthAI BW2099 SoM running inference, 
+configured with the DIP switch bank near the USB connector. With the :ref:`BW0249 <bg0249>` camera and the DepthAI BW2099 SoM running inference, 
 power consumption is typically [TBC].
 
 Interfacing with the DepthAI SoM is also possible with BW2098POE connector pads J5 and J8, which expose BW2099 auxiliary IO and 
@@ -53,8 +53,8 @@ The "RUN" LED indicates that the DepthAI SoM is not in reset.
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 
 57V may exist. Always use electronics handling best practices.**
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/PCB>`__
 

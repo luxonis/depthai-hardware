@@ -54,8 +54,8 @@ that the DepthAI SoM is not in reset.
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 57V may exist. 
 Always use electronics handling best practices.**
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/PCB>`__
 

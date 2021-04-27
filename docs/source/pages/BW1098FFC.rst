@@ -1,7 +1,7 @@
 .. _bw1098ffc:
 
-R1M1E1 DepthAI USB3 (BW1098FFC)
-===============================
+DepthAI OLD FFC (BW1098FFC)
+===========================
 
 .. image:: ../../../BW1098FFC_DepthAI_USB3/Images/BW1098FFC_R0M0E0_front.png
 
@@ -50,8 +50,8 @@ The reset button resets the Luxonis DepthAI SoM only.
 The 5V LED indicates 5V power is present on the BW1098FFC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates 
 that the DepthAI SoM is not in reset.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/PCB>`__
 

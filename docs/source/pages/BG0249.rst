@@ -37,8 +37,8 @@ Camera module compatibility is known for the Sunny A12N02A, but not tested for o
 26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 
 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/PCB>`__
 

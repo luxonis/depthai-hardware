@@ -1,7 +1,7 @@
 .. _bw1097:
 
-DepthAI for CM3+ (BW1097)
-=========================
+DepthAI with Pi CM 3+ (BW1097) 
+==============================
 
 .. image:: ../../../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png
 
@@ -50,8 +50,8 @@ The reset button resets the Luxonis DepthAI SoM only. To reset the CM3/CM3+, gro
 The PWR LED indicates "power good" for the BW1097 on-board PMIC. The ACT LED indicates activity on the CM3/CM3+ device. Other indicator LEDs exist 
 for the two USB2.0 Type A ports and for the 10/100 Ethernet port.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/PCB>`__
 

@@ -46,8 +46,8 @@ The reset button resets the Luxonis DepthAI SoM only.
 The 5V LED indicates 5V power is present on the BW1098OBC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates 
 that the DepthAI SoM is not in reset.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/PCB>`__
 

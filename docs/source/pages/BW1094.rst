@@ -56,8 +56,8 @@ of the Raspberry Pi.
 
 The 2485_PGOOD LED indicates "power good" for the DepthAI SoM. The 5V_PWR LED 5V power is applied to the BW1094.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/PCB>`__
 

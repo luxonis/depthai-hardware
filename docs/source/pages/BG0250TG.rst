@@ -37,8 +37,8 @@ Camera module compatibility is known for the Sunny TG161B and AN01V32, but not t
 20-pin, and bottom-contact connector, across which travels the 2-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control 
 lines. 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and OV9282.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera/PCB>`__
 

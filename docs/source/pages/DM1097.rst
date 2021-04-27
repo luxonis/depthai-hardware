@@ -1,7 +1,7 @@
 .. _dm1097:
 
-DepthAI for Compute module 4 (DM1097)
-=====================================
+DepthAI with Pi CM 4 (DM1097)
+=============================
 
 .. image:: ../../../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0_up.png
 
@@ -38,8 +38,8 @@ Key features
 * microSD card support
 * Design files produced with Altium Designer 20
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/PCB>`__
 

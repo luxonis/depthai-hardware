@@ -28,8 +28,8 @@ the RPI cameras.
 
 See a video `here <https://www.youtube.com/watch?v=KsK-XakrpK8>`__
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER/PCB>`__
 

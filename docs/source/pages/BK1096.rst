@@ -42,8 +42,8 @@ The reset button resets the Luxonis DepthAI BW1099 SoM only.
 
 The OUT1 and OUT2 LEDs indicate USB Type-C current mode. See datasheet for TUSB321RWBR Port Control device for more details.
 
-Alium project files
-*******************
+Altium project files
+********************
 
 See `here <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/PCB>`__
 
