@@ -62,7 +62,11 @@ The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware desig
 
 ![](BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_front.png)
 
-**USB designs with attachable FFC camera boards** contain 3 different iterations, below is a flowchart which tries to explain the design progress:
+# USB designs with attachable FFC camera boards
+
+We have iterated on these to improve (1) physical robustness, (2) ESD robustness, and (3) compatibility with ArduCam cameras (including clock sync and trigger sync).
+
+Below is a flow-chart showing the evolution of this design over time based on customer feedback/needs.
 
 ![](DM1090FFC_DepthAI_USB3/Images/Flowchart_FFC.png)
 
