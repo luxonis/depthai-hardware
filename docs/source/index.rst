@@ -40,15 +40,15 @@ POE Designs
    :widths: 30 30 30
    :header-rows: 1
 
-  * - OAK-D-POE (SJ2088POE)
-    - OAK-1-POE (SJ2096POE)
-    - POE Board (BW2096POE)
-  * - .. image:: /_static/images/index/SJ2088POE.JPG
-    - .. image:: /_static/images/index/SJ2096POE.JPG
-    - .. image:: /_static/images/index/BW2098POE.jpg
-  * - :ref:`Learn more <sj2096>` 
-    - :ref:`Learn more <sj2088poe>`
-    - :ref:`Learn more <bw2096poe>`
+   * - OAK-D-POE (SJ2088POE)
+     - OAK-1-POE (SJ2096POE)
+     - POE Board (BW2096POE)
+   * - .. image:: /_static/images/index/SJ2088POE.JPG
+     - .. image:: /_static/images/index/SJ2096POE.JPG
+     - .. image:: /_static/images/index/BW2098POE.jpg
+   * - :ref:`Learn more <sj2096>` 
+     - :ref:`Learn more <sj2088poe>`
+     - :ref:`Learn more <bw2096poe>`
 
 Integrated Raspberry Pi Designs
 *******************************
