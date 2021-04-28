@@ -1,0 +1,72 @@
+.. _bw1097:
+
+DepthAI with Pi CM 3+ (BW1097) 
+==============================
+
+.. image:: /_static/images/BW1097/BW1097.jpg
+
+Overview
+********
+
+Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis DepthAI SoM to allow 
+for fully integrated solution for real-time spatial AI.
+
+Board layout & dimensions
+*************************
+
+.. image:: /_static/images/BW1097/BW1097_diag.jpg
+.. image:: /_static/images/BW1097/BW1097_dims.jpg
+
+Key features
+************
+
+* Support for on-board stereo and RGB camera modules
+* Interface for Luxnois DepthAI SoM
+* SODIMM for Raspberry PI CM3/CM3+
+* USB2 interface between CM3+ and DepthAI SoM
+* 2x USB2
+* 1x Aux USB2
+* 10/100 Ethernet
+* Raspberry PI CSI/DSI support
+* Raspberry PI USB boot option
+* CM3+ JTAG header
+* Standard 40-pin header for CMIO/CM3+
+* HDMI output
+* 5V barrel jack input
+* Support for 5V fan
+* TRS Audio output
+* microSD card support
+* Design files produced with Altium Designer 20
+
+Getting started
+***************
+
+The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows 
+initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not 
+populated by default, but can be added, allowing JTAG access.
+
+The reset button resets the Luxonis DepthAI SoM only. To reset the CM3/CM3+, ground the RUN header via to the GND header via.
+
+The PWR LED indicates "power good" for the BW1097 on-board PMIC. The ACT LED indicates activity on the CM3/CM3+ device. Other indicator LEDs exist 
+for the two USB2.0 Type A ports and for the 10/100 Ethernet port.
+
+Altium project files
+********************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/PCB>`__
+
+Project output files
+********************
+
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Schematic%20PDF/Production.PDF>`__
+
+3D Models
+*********
+
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/3D_Models>`__ and `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Mechanical>`__
+
+.. include::  /pages/includes/footer-short.rst

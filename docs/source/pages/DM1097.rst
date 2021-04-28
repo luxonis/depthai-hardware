@@ -1,0 +1,63 @@
+.. _dm1097:
+
+DepthAI with Pi CM 4 (DM1097)
+=============================
+
+.. image:: /_static/images/DM1097/DM1097_up.jpg
+
+Overview
+********
+
+Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis DepthAI SoM to allow for a fully integrated 
+solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`BW1097 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit 
+ethernet, and populated with MagJack supporting POE. POE can be used with additional POE Hat.
+
+Board layout & dimensions
+*************************
+
+.. image:: /_static/images/DM1097/DM1097_dim.jpg
+.. image:: /_static/images/DM1097/DM1097.jpg
+
+Key features
+************
+
+* Support for onboard stereo and RGB camera modules
+* Interface for Luxnois DepthAI SoM
+* Interface for Raspberry PI CM4/CM4 Lite
+* USB2 interface between CM4 and DepthAI SoM
+* 2x USB2
+* 1x Aux USB2
+* Gigabit Ethernet connected directly to CM4
+* Raspberry PI CSI/DSI support
+* Raspberry PI USB boot option
+* Standard 40-pin header for CMIO/CM4
+* HDMI output
+* 5V barrel jack input
+* Support for 5V fan
+* TRS Audio output
+* microSD card support
+* Design files produced with Altium Designer 20
+
+.. image:: /_static/images/DM1097/DM1097_side.jpg
+
+Altium project files
+********************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/PCB>`__
+
+Project output files
+********************
+
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Schematic%20PDF/Production.PDF>`__
+
+3D Models
+*********
+
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/3D_Models>`__ and `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Mechanical>`__
+
+
+.. include::  /pages/includes/footer-short.rst

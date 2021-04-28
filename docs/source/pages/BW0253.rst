@@ -1,0 +1,52 @@
+.. _bw0253:
+
+Raspberry Pi HQ Cam Adapter Board (BW0253_R0M0E0)
+=================================================
+
+.. image:: /_static/images/BW0253/BW0253_2.jpg
+
+Overview
+********
+
+The BW0253_R0M0E0 is an adapter board to allow the Raspberry Pi HQ camera to physically interface to the DepthAI RGB camera port on 
+the :ref:`BW1098FFC <bw1098ffc>`.
+
+This allows using DepthAI with all sorts of lens combinations, including variable zoom, variable focus, and even with a telescope.
+
+.. image:: /_static/images/BW0253/BW0253.jpg
+
+Key features
+************
+
+* Onboard 5V to 3.3V regulation
+* Level shifting of DepthAI 1.8V-native IO to 3.3V-native RPI IO
+* Same board outline size as RPI cam v2
+
+Getting started
+***************
+
+Attach 0.5mm, 26 circuit, same-side contact FFC between DepthAI and BW0253_R0M0E0. Use the standard RPI FFC which is included with 
+the RPI cameras.
+
+See a video `here <https://www.youtube.com/watch?v=KsK-XakrpK8>`__
+
+Altium project files
+********************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER/PCB>`__
+
+Project output files
+********************
+
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW0253_R0M0E0_RPIHQ_ADAPTER/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW0253_R0M0E0_RPIHQ_ADAPTER/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW0253_R0M0E0_RPIHQ_ADAPTER/Docs/Schematic%20PDF/Production.PDF>`__
+
+3D Models
+*********
+
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW0253_R0M0E0_RPIHQ_ADAPTER/3D_Models>`__
+
+.. include::  /pages/includes/footer-short.rst

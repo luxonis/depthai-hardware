@@ -1,3 +1,11 @@
+# Microsoft Visual Studio Code
+.project
+.vscode/
+.vs/
+build*/*
+# Auto-generated
+generated/*
+
 # Previews Folders
 **/__Previews/
 
