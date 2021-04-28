@@ -1,9 +1,9 @@
 .. _bw1098ffc:
 
-DepthAI OLD FFC (BW1098FFC)
-===========================
+DepthAI *OLD* FFC (BW1098FFC)
+=============================
 
-.. image:: ../../../BW1098FFC_DepthAI_USB3/Images/BW1098FFC_R0M0E0_front.png
+.. image:: /_static/images/BW1098FFC/BW1098FFC_front.jpg
 
 Overview
 ********
@@ -12,15 +12,15 @@ The BW1098FFC baseboard has three FFC interfaces which allow for two :ref:`BG025
 and one :ref:`BG0249 <bg0249>` RGB camera module. This board can also be used with adapters for the Raspberry Pi HQ Camera, using 
 the BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board.
 
-BW1098FFC + BW0250TG + BG0249 are shown together below:
+Baseboards and cameras (BW1098FFC + :ref:`BG0250TG <bg0250tg>` + :ref:`BG0249 <bg0249>`) together:
 
-.. image:: ../../../BW1098FFC_DepthAI_USB3/Images/with_camera.jpeg
+.. image:: /_static/images/BW1098FFC/with_camera.jpeg
 
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BW1098FFC_DepthAI_USB3/Images/BW1098FFC_R0M0E0_diag.png
-.. image:: ../../../BW1098FFC_DepthAI_USB3/Images/BW1098FFC_R0M0E0_dims.png
+.. image:: /_static/images/BW1098FFC/BW1098FFC_diag.jpg
+.. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
 
 Key features
 ************

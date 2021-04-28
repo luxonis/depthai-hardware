@@ -3,7 +3,7 @@
 OAK-1 Modular (BK1096)
 ======================
 
-.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg
+.. image:: /_static/images/BK1096/BK1096_R0M0E0_front.jpg
 
 Overview
 ********
@@ -17,9 +17,9 @@ because it contains proprietary chip-down vendor information and therefore canno
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_cs_annotation.jpg
+.. image:: /_static/images/BK1096/BK1096_R0M0E0_cs_annotation.jpg
 
-.. image:: ../../../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg
+.. image:: /_static/images/BK1096/BK1096_R0M0E0_dims.jpg
 
 Key features
 ************

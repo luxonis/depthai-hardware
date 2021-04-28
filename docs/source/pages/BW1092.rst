@@ -3,7 +3,7 @@
 DepthAI Design with Onboard ESP32 for WiFi and BT (BW1092)
 ==========================================================
 
-.. image:: ../../../BW1092_ESP32_Embedded_WIFI_BT/Images/items.jpeg
+.. image:: /_static/images/BW1092/BW1092_2.jpg
 
 Overview
 ********
@@ -23,6 +23,7 @@ This design will serves as a reference for multiple purposes:
 * How to use DepthAI with WiFi and BT
 * First prototype of DepthAI with an integrated IMU (BNO085)
 
+.. image:: /_static/images/BW1092/BW1092.jpg
 
 Altium project files
 ********************

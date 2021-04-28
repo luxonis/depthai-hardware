@@ -3,7 +3,7 @@
 OAK-D-POE (SJ2088POE)
 =====================
 
-.. image:: ../../../SJ2088POE_PoE_Board/Images/SJ2096POE.JPG
+.. image:: /_static/images/SJ2088POE/SJ2088POE.jpg
 
 Overview
 ********
@@ -16,8 +16,8 @@ the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flas
 Board layout & dimensions
 *************************
 
-.. image:: ../../../SJ2088POE_PoE_Board/Images/oak-d-dimension.png
-.. image:: ../../../SJ2088POE_PoE_Board/Images/oak-d-top.png
+.. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
+.. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
 
 Key features
 ************

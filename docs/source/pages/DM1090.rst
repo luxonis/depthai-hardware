@@ -3,7 +3,7 @@
 DepthAI NEW FFC (DM1090FFC)
 ===========================
 
-.. image:: /_static/images/DM1090FFC_R0M0E0_BOT.png
+.. image:: /_static/images/DM1090FFC/DM1090FFC.jpg
 
 **Caution: This project is still under development. We are currently in process of getting our board prototyped and tested. 
 We are proactively making our design available for our uses to plan and provide us with design feedback.**
@@ -22,6 +22,7 @@ In addition IMU over SPI support was also added to the 1090FFC.
 Board layout & dimensions
 *************************
 
+.. image:: /_static/images/DM1090FFC/DM1090FFC_BOT.jpg
 
 Key features
 ************

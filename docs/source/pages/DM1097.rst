@@ -3,7 +3,7 @@
 DepthAI with Pi CM 4 (DM1097)
 =============================
 
-.. image:: ../../../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0_up.png
+.. image:: /_static/images/DM1097/DM1097_up.jpg
 
 Overview
 ********
@@ -15,8 +15,8 @@ ethernet, and populated with MagJack supporting POE. POE can be used with additi
 Board layout & dimensions
 *************************
 
-.. image:: ../../../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0_dimensions.png
-.. image:: ../../../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0.jpg
+.. image:: /_static/images/DM1097/DM1097_dim.jpg
+.. image:: /_static/images/DM1097/DM1097.jpg
 
 Key features
 ************
@@ -37,6 +37,8 @@ Key features
 * TRS Audio output
 * microSD card support
 * Design files produced with Altium Designer 20
+
+.. image:: /_static/images/DM1097/DM1097_side.jpg
 
 Altium project files
 ********************

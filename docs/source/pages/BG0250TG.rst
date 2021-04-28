@@ -3,7 +3,7 @@
 Mono Camera Module (BG0250TG_R0M0E0)
 ====================================
 
-.. image:: ../../../BG0250TG_DepthAI_Mono_Camera/Images/BG0250TG_R0M0E0_front.png
+.. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_front.jpg
 
 Overview
 ********
@@ -15,9 +15,9 @@ controller baseboards. A single BG0250TG is typically paired with another to cre
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BG0250TG_DepthAI_Mono_Camera/Images/BG0250TG_R0M0E0_dims.png
+.. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_dims.jpg
 
-.. image:: ../../../BG0250TG_DepthAI_Mono_Camera/Images/BG0250TG_R0M0E0_diag.png
+.. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_diag.jpg
 
 Key features
 ************

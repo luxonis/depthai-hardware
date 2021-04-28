@@ -3,7 +3,7 @@
 DepthAI RPi HAT Baseboard (BW1094)
 ===================================
 
-.. image:: ../../../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_front.png
+.. image:: /_static/images/BW1094/BW1094_R0M0E0_front.jpg
 
 Overview
 ********
@@ -16,8 +16,8 @@ parallel to the RST button.
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_diag.png
-.. image:: ../../../BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_dims.png
+.. image:: /_static/images/BW1094/BW1094_R0M0E0_diag.jpg
+.. image:: /_static/images/BW1094/BW1094_R0M0E0_dims.jpg
 
 Key features
 ************

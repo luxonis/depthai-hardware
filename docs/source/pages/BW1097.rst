@@ -3,7 +3,7 @@
 DepthAI with Pi CM 3+ (BW1097) 
 ==============================
 
-.. image:: ../../../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png
+.. image:: /_static/images/BW1097/BW1097.jpg
 
 Overview
 ********
@@ -14,8 +14,8 @@ for fully integrated solution for real-time spatial AI.
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_diagram.png
-.. image:: ../../../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_dims.png
+.. image:: /_static/images/BW1097/BW1097_diag.jpg
+.. image:: /_static/images/BW1097/BW1097_dims.jpg
 
 Key features
 ************

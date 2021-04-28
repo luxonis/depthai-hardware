@@ -3,7 +3,7 @@
 OAK-1-POE (SJ2096POE)
 =====================
 
-.. image:: ../../../SJ2096POE_R0M0E0/Images/top.JPG
+.. image:: /_static/images/SJ2096POE/SJ2096POE.jpg
 
 Overview
 ********
@@ -16,8 +16,8 @@ user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
 Board layout & dimensions
 *************************
 
-.. image:: ../../../SJ2096POE_R0M0E0/Images/oak-1-dimension.png
-.. image:: ../../../SJ2096POE_R0M0E0/Images/oak-1-top.png
+.. image:: /_static/images/SJ2096POE/SJ2096POE_dim.jpg
+.. image:: /_static/images/SJ2096POE/SJ2096POE_dim_2.jpg
 
 Key features
 ************

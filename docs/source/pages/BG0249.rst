@@ -3,7 +3,7 @@
 RGB Camera Module (BG0249)
 ==========================
 
-.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_front.png
+.. image:: /_static/images/BG0249/BG0249_R0M0E0_front.jpg
 
 Overview
 ********
@@ -15,9 +15,9 @@ the controller baseboards.
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_diag.png
+.. image:: /_static/images/BG0249/BG0249_R0M0E0_diag.jpg
 
-.. image:: ../../../BG0249_DepthAI_RGB_Camera/Images/BG0249_R0M0E0_dims.png
+.. image:: /_static/images/BG0249/BG0249_R0M0E0_dims.jpg
 
 Key features
 ************

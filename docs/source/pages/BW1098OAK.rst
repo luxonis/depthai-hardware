@@ -3,7 +3,7 @@
 OAK-D / LUX-D (BW1098OAK)
 =========================
 
-.. image:: ../../../BW1098OAK_USB3C/Images/bw1098oak.png
+.. image:: /_static/images/BW1098OAK/BW1098oak.jpg
 
 Overview
 ********

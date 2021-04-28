@@ -1,9 +1,9 @@
 .. _bw2096poe:
 
-POE Board (BW2096POE)
+POE Board (BW2098POE)
 =====================
 
-.. image:: ../../../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_up.png
+.. image:: /_static/images/BW2098POE/BW2098POE_up.jpg
 
 Overview
 ********
@@ -17,8 +17,8 @@ or NOR flash.
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_cs_annotation.jpg
-.. image:: ../../../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_dims.jpg
+.. image:: /_static/images/BW2098POE/BW2098POE_an.jpg
+.. image:: /_static/images/BW2098POE/BW2098POE_dims.jpg
 
 Key features
 ************

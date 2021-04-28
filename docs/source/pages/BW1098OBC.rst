@@ -3,7 +3,7 @@
 DepthAI USB3C Baseboard (BW1098OBC)
 ===================================
 
-.. image:: ../../../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_front.png
+.. image:: /_static/images/BW1098OBC/BW1098OBC_front.jpg
 
 Overview
 ********
@@ -14,8 +14,8 @@ AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 Board layout & dimensions
 *************************
 
-.. image:: ../../../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_cs_annotation.png
-.. image:: ../../../BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_dims.PNG
+.. image:: /_static/images/BW1098OBC/BW1098OBC_an.jpg
+.. image:: /_static/images/BW1098OBC/BW1098OBC_dims.jpg
 
 Key features
 ************
