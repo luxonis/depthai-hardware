@@ -41,7 +41,7 @@ Booting can be accomplished from either the USB interface or from the eMMC or NO
 configured with the DIP switch bank near the USB connector. With the :ref:`BW0249 <bg0249>` camera and the DepthAI BW2099 SoM running inference, 
 power consumption is typically [TBC].
 
-Interfacing with the DepthAI SoM is also possible with BW2098POE connector pads J5 and J8, which expose BW2099 auxiliary IO and 
+Interfacing with the DepthAI SoM is also possible with :ref:`BW2098POE <bw2096poe>` connector pads J5 and J8, which expose BW2099 auxiliary IO and 
 BW2099 Quad SPI, respectively. These headers are Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for 
 pinout information.
 

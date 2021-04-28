@@ -1,7 +1,7 @@
 .. _dm1090ffc:
 
-DepthAI NEW FFC (DM1090FFC)
-===========================
+DepthAI *NEW* FFC (DM1090FFC)
+=============================
 
 .. image:: /_static/images/DM1090FFC/DM1090FFC.jpg
 
@@ -58,7 +58,7 @@ Revision info
 
 USB designs with FFC camera boards contain 3 different iterations, below is a flowchart which tries to explain the design progress flow:
 
-.. image:: /_static/images/Flowchart_FFC.png
+.. image:: /_static/images/DM1090FFC/Flowchart_FFC.jpg
 
 Altium project files
 ********************
