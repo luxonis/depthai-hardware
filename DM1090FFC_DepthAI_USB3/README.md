@@ -10,9 +10,19 @@ DM1090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/D
            **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
 
 # Overview
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) if [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module is not required.  
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module. Besides that there is also a chance to connect three 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) if [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module is not required.  
 
-Please note that only revision R1M1E1 and newer camera modules can be connected to the 1090FFC. With DM1090FFC we gained support for 22-pin RPi camera interface. For that you will need a FFC from Arducam, which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout. 
+The 1090FFC is our updated version from the common issues customers have had with BW1098FFC.  (We will keep selling the 1098FFC, for folks who have that connector type.)
+Improvements/changes:
+
+ - More robust mechanical connection (a LOT more robust)
+ - ESD protection added
+ - Standardized pinout (so all 3 cameras have the same pinout - meaning that mix/match can be done)
+ - Capability to use with ArduCam cameras w/out an adapter board.
+
+
+
+Please note that **only revision R1M1E1 and newer camera modules** can be connected to the **1090FFC**. With DM1090FFC we gained support for 22-pin RPi camera interface. For that you will need a FFC from Arducam, which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout. 
 
 In addition IMU over SPI support was also added to the 1090FFC. 
 

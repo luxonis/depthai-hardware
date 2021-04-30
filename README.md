@@ -64,7 +64,12 @@ The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware desig
 
 # USB designs with attachable FFC camera boards
 
-We have iterated on these to improve (1) physical robustness, (2) ESD robustness, and (3) compatibility with ArduCam cameras (including clock sync and trigger sync).
+The 1090 is our updated version from the common issues customers have had with BW1098FFC. (We will keep selling the 1098FFC, for folks who have that connector type.)
+Improvements/changes:
+ \- More robust mechanical connection (a LOT more robust)
+ \- ESD protection added.
+ \- Standardized pinout (All 3 camera connectors have the same pinout - meaning that mix/match can be done using 2x 2-lane MIPI and 1x 4-lane MIPI)
+ \- Capability to use with ArduCam cameras w/out an adapter board (including clock sync and trigger sync).
 
 Below is a flow-chart showing the evolution of this design over time based on customer feedback/needs.
 
