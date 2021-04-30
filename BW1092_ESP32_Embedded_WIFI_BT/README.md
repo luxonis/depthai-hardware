@@ -16,6 +16,8 @@ This design will serves as a reference for multiple purposes:
  - How to use DepthAI with WiFi and BT
  - First prototype of DepthAI with an integrated IMU (BNO085)
 
+# Product Photos
+
 Here are some initial pictures of the first revision:
  ![23CD15EA-B9F7-4B24-B6D5-94ED3E5E7E79](https://user-images.githubusercontent.com/32992551/92783975-78aae900-f363-11ea-8127-750f22df58bd.jpeg)
  ![image](https://user-images.githubusercontent.com/32992551/93823657-70826180-fc1f-11ea-815c-53c6488243e8.png)
