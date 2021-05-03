@@ -11,7 +11,7 @@ Overview
 The SJ2088POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The SJ2088POE baseboard has three on-board 
 cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output 
 to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther SJ2088POE board exposes boot selection switches, allowing 
-the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
+the end user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
 Board layout & dimensions
 *************************
@@ -42,7 +42,7 @@ leaving ~7.5W available if active lighting is desired additionally over POE/etc.
 
 If an outdoor rated POE switch is needed, one option is the EP-S16.
 
-Interfacing with the DepthAI SoM is also possible with BW2098POE connector pads J5 which expose BW2099 auxiliary IO. This header 
+Interfacing with the DepthAI SoM is also possible with :ref:`BW2098POE <bw2096poe>` connector pads J5 which expose :ref:`BW2099 <bw2099>` auxiliary I/O. This header 
 is Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout information.
 
 The reset button resets the Luxonis DepthAI BW2099 SoM only.

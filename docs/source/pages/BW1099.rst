@@ -1,0 +1,48 @@
+.. _bw1099:
+
+DepthAI SoM (BW1099) 
+====================
+
+.. image:: /_static/images/BW1099/BW1099.jpg
+
+Overview
+********
+
+The BW1099 is a system-on-modul (SoM) designed for integration into top-level system with a need for a low-power,
+4 Tera Operation Per Second (TOPS) AI vision system. To be used in industrial automation, robotics and security systems.
+The BW1099 interfaces with the system through a single 10-gbps-rated 100-pin board-to-board mezzanine connector which carries
+all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
+An auxillary power port is offered to interface without connetion to a baseboard.
+
+Board layout & dimensions
+*************************
+
+.. image:: /_static/images/BW1099/BW1099_diag.jpg
+.. image:: /_static/images/BW1099/BW1099_dim.jpg
+
+Key features
+************
+
+* Interfaces with the system through a single 10-gbps-rated 100-pin connector (DF40C-100DP-0.4V(51))
+* 2 x 2-lane MIPI channels
+* 1 x 4-lane MIPI channels
+* USB 3.1 Gen 1
+* Boot Modes supported: USB, NOR (optional)
+* Design files produced with Altium Designer 20
+
+Altium project files
+********************
+
+See files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/BW1099/BW1099_libs.zip>`__
+
+Project datasheet
+*****************
+
+Download `here <https://raw.githubusercontent.com/luxonis/depthai-hardware/master/SoMs/BW1099/BW1099_Datasheet.pdf>`__
+
+3D Models
+*********
+
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099>`__ 
+
+.. include::  /pages/includes/footer-short.rst
