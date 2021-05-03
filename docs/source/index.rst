@@ -67,6 +67,21 @@ Integrated Raspberry Pi Designs
      - :ref:`Learn more <dm1097>` 
      - :ref:`Learn more <bw1094>` 
 
+
+System on Module
+****************
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - DepthAI SoM (BW1099)
+     - DepthAI SoM with eMMC Flash (BW2099)
+   * - .. image:: /_static/images/index/BW1099.jpg
+     - .. image:: /_static/images/index/BW2099.jpg
+   * - :ref:`Learn more <bw1099>` 
+     - :ref:`Learn more <bw2099>`
+
 Pure Embedded Design
 ********************
 
@@ -140,6 +155,14 @@ Cameras
    pages/DM1097.rst
    pages/BW1094.rst
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: System on Module
+
+   pages/BW1099.rst
+   pages/BW2099.rst
+  
 .. toctree::
    :maxdepth: 1
    :hidden:
