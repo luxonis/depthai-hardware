@@ -12,12 +12,12 @@ Overview
 ********
 
 The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. :ref:`DM0250TG <bg0250tg>` (stereo pair) and one 
-DM0249 RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. DM0250TG if DM0249 RGB camera module is not required.
+:ref:`BG0249 <bg0249>` RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. DM0250TG if DM0249 RGB camera module is not required.
 
-Please note that only revision R1M1E1 and newer camera modules can be connected to the 1090FFC. With DM1090FFC we gained support for 22-pin RPi camera 
+Please note that only revision R1M1E1 and newer camera modules can be connected to the DM1090FFC. With DM1090FFC we gained support for 22-pin RPi camera 
 interface. For that you will need a FFC from Arducam, which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
-In addition IMU over SPI support was also added to the 1090FFC.
+In addition IMU over SPI support was also added to the DM1090FFC.
 
 Board layout & dimensions
 *************************
@@ -48,7 +48,7 @@ Interfacing with the DepthAI SoM is also possible with DM1090FFC connector pads 
 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout information.
 
 The reset button resets the Luxonis DepthAI SoM only. The boot button overrides boot mode to USB boot if different boot mode is set in NOR Flash 
-and 1099EMB SoM is used.
+and `BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__ SoM is used.
 
 The 5V LED indicates 5V power is present on the DM1090FFC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the 
 DepthAI SoM is not in reset.

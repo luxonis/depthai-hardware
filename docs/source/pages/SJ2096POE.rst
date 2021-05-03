@@ -11,7 +11,7 @@ Overview
 The OAK-1-POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The SJ2096POE baseboard has one on-board 
 cameras which implement RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host 
 via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The SJ2096POE board exposes boot selection switches, allowing the end 
-user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
+user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
 Board layout & dimensions
 *************************
@@ -38,10 +38,10 @@ Getting started
 
 The OAK-1-POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
 Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is 
-configured with the DIP switch bank near the USB connector. With the :ref:`BW0249 <bg0249>` camera and the DepthAI BW2099 SoM running inference, 
+configured with the DIP switch bank near the USB connector. With the :ref:`BW0249 <bg0249>` camera and the DepthAI :ref:`BW2099 <bw2099>` SoM running inference, 
 power consumption is typically [TBC].
 
-Interfacing with the DepthAI SoM is also possible with :ref:`BW2098POE <bw2096poe>` connector pads J5 and J8, which expose BW2099 auxiliary IO and 
+Interfacing with the DepthAI SoM is also possible with :ref:`BW2098POE <bw2096poe>` connector pads J5 and J8, which expose :ref:`BW2099 <bw2099>` auxiliary I/O and 
 BW2099 Quad SPI, respectively. These headers are Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for 
 pinout information.
 
