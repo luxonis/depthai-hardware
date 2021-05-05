@@ -1,0 +1,33 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM1097_R1M1E1.PcbDoc   04/05/2021  18:55:07
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Copper
+ASCII Plated RoundHoles File : DM1097_R1M1E1-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM1097_R1M1E1-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DM1097_R1M1E1-SlotHoles-Plated.TXT
+EIA File   : DM1097_R1M1E1.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             25        PTH        0.00mm (0.00inch)
+T2      0.203mm (8mil)                                            Round             875       PTH        0.00mm (0.00inch)
+T3      0.254mm (10mil)                                           Round             24        PTH        0.00mm (0.00inch)
+T4      0.5mm (20mil)                                             Slot              2         PTH        0.00mm (0.00inch)
+T5      0.55mm (22mil)                                            Slot              2         PTH        0.00mm (0.00inch)
+T6      0.65mm (26mil)                                            Slot              4         PTH        0.00mm (0.00inch)
+T7      0.7mm (28mil)                                             Round             33        PTH        0.00mm (0.00inch)
+T8      0.8mm (31mil)                                             Round             4         PTH        0.00mm (0.00inch)
+T9      0.86mm (34mil)                                            Round             2         PTH        0.00mm (0.00inch)
+T10     0.9mm (35mil)                                             Round             14        PTH        0.00mm (0.00inch)
+T11     1.02mm (40mil)                                            Round             4         PTH        0.00mm (0.00inch)
+T12     1.7mm (67mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T13     2.3mm (91mil)                                             Round             4         PTH        0.00mm (0.00inch)
+T14     3mm (118mil)                                              Round             6         PTH        0.00mm (0.00inch)
+T15     3.2mm (126mil)                                            Round             2         PTH        0.00mm (0.00inch)
+T16     0.81mm (32mil)                                            Round             2         NPTH       0.00mm (0.00inch)
+T17     2mm (79mil)                                               Round             2         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1007
+
+Total Processing Time (hh:mm:ss) : 00:00:00

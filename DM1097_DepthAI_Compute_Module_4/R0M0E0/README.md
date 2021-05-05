@@ -39,9 +39,9 @@ The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrat
 
 # Board layout & dimensions
 
-![](../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0.jpg)
+![](./Images/DM1097_R0M0E0.jpg)
 
-![](../DM1097_DepthAI_Compute_Module_4/Images/DM1097_R0M0E0_dimensions.png)
+![](./Images/DM1097_R0M0E0_dimensions.png)
 
 
 # Getting started
