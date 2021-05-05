@@ -78,11 +78,13 @@ Below is a flow-chart showing the evolution of this design over time based on cu
 
 More information about each design can be found in corresponding repositories.  
 
-## [BW1098FFC](BW1098FFC_DepthAI_USB3)
+## [DM1090FFC](DM1090FFC_DepthAI_USB3)
 
-The [BW1098FFC repository](BW1098FFC_DepthAI_USB3) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098FFC baseboard has three FFC interfaces which allow for two [BG0250TG](BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](BG0249_DepthAI_RGB_Camera) RGB camera module. 
+The [DM1090FFC repository](DM1090FFC_DepthAI_USB3) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two [DM0250TG](DM0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [DM0249](DM0249_DepthAI_RGB_Camera) RGB camera module.
+Besides Luxonis camera modules, several Arducam CCMs can be connected to [DM1090FFC](DM1090FFC_DepthAI_USB3). 
+Please note that only revision R1 and above (R1M1E1) ([DM0250TG](DM0250TG_DepthAI_Mono_Camera) and [DM0249](DM0249_DepthAI_RGB_Camera)) cameras with 26-pin FFC connectors can be connected to [DM1090FFC](DM1090FFC_DepthAI_USB3). 
 
-![](https://i.imgur.com/LXjLpzX.jpg)
+![](DM1090FFC_DepthAI_USB3/Images/DM1090FFC-KIT.jpg)
 
 ## [BW1094](BW1094_DepthAI_HAT)
 The [BW1094 repository](BW1094_DepthAI_HAT) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and as a HAT for the [RPi "B" models](https://www.raspberrypi.org/products/). The BW1094 baseboard has three FFC interfaces which allow for two [BG0250TG](BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](BG0249_DepthAI_RGB_Camera) RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with the exception of the 5V pins, GND pins, and [BCM GPIO26 (pin 37)](https://www.raspberrypi.org/documentation/usage/gpio/), which is used as a way for the Raspberry Pi to reset the DepthAI SoM, parallel to the RST button.  

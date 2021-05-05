@@ -1,6 +1,6 @@
 # DM0249 RGB Camera Module
 
-![](To be updated)
+![](Images/DM0249_R1M1E1.jpg)
 
 # Project Stage
 **Caution: This project is still under development. We are currently in process of getting our board prototyped and tested.** 

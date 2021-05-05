@@ -1,11 +1,20 @@
-# BW1098FFC DepthAI USB3 Edition
+# BW1098FFC DepthAI USB3 Edition (EOL)
 
 BW1098FFC + [BW0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera) + [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) are shown together below:
 ![](https://i.imgur.com/LXjLpzX.jpg)
 
 ![](Images/BW1098FFC_R0M0E0_front.png)
 
+# Project Stage (EOL)
+
+**Caution: This design shouldn't be used in a new products or as a reference for new designs, its status is EOL and out of production.**        
+
+**If you need a replacement for BW1098FFC which is EOL you should contact Luxonis support and we will send you DM1098FFC as a replacement, which is updated and more robust design.**   
+
+**For new projects FFC reference design DM1090FFC is located [here](https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3) .** 
+
 # Overview
+
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098FFC baseboard has three FFC interfaces which allow for two [BG0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) RGB camera module. 
 
 # Repository structure:

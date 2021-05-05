@@ -1,6 +1,6 @@
 # DM0250TG Mono Camera Module
 
-![](To be updated)
+![DM0250](Images/DM0250_R1M1E1.jpg)
 
 # Project Stage
 
