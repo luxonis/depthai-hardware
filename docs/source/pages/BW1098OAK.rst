@@ -24,6 +24,9 @@ Key features
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * Design files produced with Altium Designer 20
 
+.. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
+.. image:: /_static/images/BW1098OAK/oak-d_mono_camera_spec.jpg
+
 Getting started
 ***************
 

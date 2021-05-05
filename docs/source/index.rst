@@ -67,7 +67,6 @@ Integrated Raspberry Pi Designs
      - :ref:`Learn more <dm1097>` 
      - :ref:`Learn more <bw1094>` 
 
-
 System on Module
 ****************
 
