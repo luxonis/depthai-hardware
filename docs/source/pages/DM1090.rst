@@ -3,10 +3,7 @@
 DepthAI *NEW* FFC (DM1090FFC)
 =============================
 
-.. image:: /_static/images/DM1090FFC/DM1090FFC.jpg
-
-**Caution: This project is still under development. We are currently in process of getting our board prototyped and tested. 
-We are proactively making our design available for our uses to plan and provide us with design feedback.**
+.. image:: /_static/images/DM1090FFC/DM1090FFC_up.jpg
 
 Overview
 ********
@@ -37,6 +34,8 @@ Key features
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * 5V Fan OR USB Type-C
 * Design files produced with Altium Designer 20
+
+.. image:: /_static/images/DM1090FFC/DM1090FFC_with_cameras.jpg
 
 Getting started
 ***************
