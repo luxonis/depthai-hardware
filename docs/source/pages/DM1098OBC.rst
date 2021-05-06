@@ -3,7 +3,7 @@
 WiFi DepthAI USB3C Baseboard (DM1098OBC)
 ========================================
 
-.. image:: /_static/images/DM1098OBC/DM1098OBC_top.jpg
+.. image:: /_static/images/DM1098OBC/DM1098OBC.jpg
 
 Overview
 ********
@@ -30,6 +30,8 @@ Key features
 * 5V barrel jack input
 * Support for 5V fan
 * Design files produced with Altium Designer 20
+
+.. image:: /_static/images/DM1098OBC/DM1098OBC_top.jpg
 
 Getting started
 ***************

@@ -3,7 +3,7 @@
 OAK-1 Modular (BK1096)
 ======================
 
-.. image:: /_static/images/BK1096/BK1096_R0M0E0_front.jpg
+.. image:: /_static/images/BK1096/BK1096_sq.jpg
 
 Overview
 ********
