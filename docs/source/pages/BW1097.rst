@@ -3,7 +3,7 @@
 DepthAI with Pi CM 3+ (BW1097) 
 ==============================
 
-.. image:: /_static/images/BW1097/BW1097.jpg
+.. image:: /_static/images/BW1097/BW1097_sq.jpg
 
 Overview
 ********
@@ -37,6 +37,8 @@ Key features
 * TRS Audio output
 * microSD card support
 * Design files produced with Altium Designer 20
+
+.. image:: /_static/images/BW1097/BW1097.jpg
 
 Getting started
 ***************

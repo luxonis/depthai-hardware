@@ -26,9 +26,9 @@ OAK Designs
    * - OAK-D / LUX-D (BW1098OAK)
      - BW1098OBC USB3C Baseboard
      - OAK-1 Modular (BK1096)
-   * - .. image:: /_static/images/index/bw1098oak.jpg
-     - .. image:: /_static/images/index/BW1098OBC.png
-     - .. image:: /_static/images/index/BK1096.jpg
+   * - .. image:: /_static/images/thumbnails/BW1098OAK.png
+     - .. image:: /_static/images/thumbnails/BW1098OBC.png
+     - .. image:: /_static/images/thumbnails/BK1096.png
    * - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bw1098obc>`
      - :ref:`Learn more <bk1096>` 
@@ -43,9 +43,9 @@ POE Designs
    * - OAK-D-POE (SJ2088POE)
      - OAK-1-POE (SJ2096POE)
      - POE Board (BW2096POE)
-   * - .. image:: /_static/images/index/SJ2088POE.JPG
-     - .. image:: /_static/images/index/SJ2096POE.JPG
-     - .. image:: /_static/images/index/BW2098POE.jpg
+   * - .. image:: /_static/images/thumbnails/SJ2088POE.png
+     - .. image:: /_static/images/thumbnails/SJ2096POE.png
+     - .. image:: /_static/images/thumbnails/BW2098POE.png
    * - :ref:`Learn more <sj2096>` 
      - :ref:`Learn more <sj2088poe>`
      - :ref:`Learn more <bw2096poe>`
@@ -60,13 +60,12 @@ Integrated Raspberry Pi Designs
    * - DepthAI with Pi CM3+ (BW1097)
      - DepthAI with Pi CM4 (DM1097)
      - RPi HAT Baseboard (BW1094)
-   * - .. image:: /_static/images/index/BW1097.png
-     - .. image:: /_static/images/index/DM1097.png
-     - .. image:: /_static/images/index/BW1094.png
+   * - .. image:: /_static/images/thumbnails/BW1097.png
+     - .. image:: /_static/images/thumbnails/DM1097.png
+     - .. image:: /_static/images/thumbnails/BW1094.png
    * - :ref:`Learn more <bw1097>` 
      - :ref:`Learn more <dm1097>` 
      - :ref:`Learn more <bw1094>` 
-
 
 System on Module
 ****************
@@ -77,8 +76,8 @@ System on Module
 
    * - DepthAI SoM (BW1099)
      - DepthAI SoM with eMMC Flash (BW2099)
-   * - .. image:: /_static/images/index/BW1099.jpg
-     - .. image:: /_static/images/index/BW2099.jpg
+   * - .. image:: /_static/images/thumbnails/BW1099.png
+     - .. image:: /_static/images/thumbnails/BW2099.png
    * - :ref:`Learn more <bw1099>` 
      - :ref:`Learn more <bw2099>`
 
@@ -91,8 +90,8 @@ Pure Embedded Design
 
    * - DepthAI Design with Onboard ESP32 (BW1092)
      - WiFi DepthAI USB3C Baseboard (DM1098OBC)
-   * - .. image:: /_static/images/index/BW1092.jpeg
-     - .. image:: /_static/images/index/DM1098OBC_s.jpg
+   * - .. image:: /_static/images/thumbnails/BW1092.jpg
+     - .. image:: /_static/images/thumbnails/DM1098OBC.png
    * - :ref:`Learn more <bw1092>` 
      - :ref:`Learn more <dm1098obc>`
 
@@ -105,8 +104,8 @@ USB Designs
 
    * - DepthAI *NEW* FFC (DM1090FFC)
      - DepthAI *OLD* FFC (BW1098FFC)
-   * - .. image:: /_static/images/index/DM1090FFC_R0M0E0_BOT_s.png
-     - .. image:: /_static/images/index/BW1098FFC.png
+   * - .. image:: /_static/images/thumbnails/DM1090FFC.png
+     - .. image:: /_static/images/thumbnails/BW1098FFC.png
    * - :ref:`Learn more <dm1090ffc>` 
      - :ref:`Learn more <bw1098ffc>`
 
@@ -120,9 +119,9 @@ Cameras
    * - Mono Camera (BG0250TG)
      - RGB Camera (BG0249)
      - RaspberryPi Adapter Camera
-   * - .. image:: /_static/images/index/BG0250TG.png
-     - .. image:: /_static/images/index/BG0249.png
-     - .. image:: /_static/images/index/RPI_HQ_CAM_SYSTEM.png
+   * - .. image:: /_static/images/thumbnails/BG0250TG.png
+     - .. image:: /_static/images/thumbnails/BG0249.png
+     - .. image:: /_static/images/thumbnails/BW0253.jpg
    * - :ref:`Learn more <bg0250tg>` 
      - :ref:`Learn more <bg0249>` 
      - :ref:`Learn more <bw0253>` 

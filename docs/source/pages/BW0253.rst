@@ -3,7 +3,7 @@
 Raspberry Pi HQ Cam Adapter Board (BW0253_R0M0E0)
 =================================================
 
-.. image:: /_static/images/BW0253/BW0253_2.jpg
+.. image:: /_static/images/BW0253/BW0253_sq.jpg
 
 Overview
 ********

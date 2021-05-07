@@ -30,6 +30,8 @@ Key features
 * On-board power generation for camera module
 * Design files produced with Altium Designer 20
 
+.. image:: /_static/images/BG0249/BG0249_sq.jpg
+
 Getting started
 ***************
 
