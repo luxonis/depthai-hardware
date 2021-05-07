@@ -26,9 +26,9 @@ OAK Designs
    * - OAK-D / LUX-D (BW1098OAK)
      - BW1098OBC USB3C Baseboard
      - OAK-1 Modular (BK1096)
-   * - .. image:: /_static/images/thumbnails/BW1098OAK.jpg
+   * - .. image:: /_static/images/thumbnails/BW1098OAK.png
      - .. image:: /_static/images/thumbnails/BW1098OBC.png
-     - .. image:: /_static/images/thumbnails/BK1096.jpg
+     - .. image:: /_static/images/thumbnails/BK1096.png
    * - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bw1098obc>`
      - :ref:`Learn more <bk1096>` 
@@ -43,9 +43,9 @@ POE Designs
    * - OAK-D-POE (SJ2088POE)
      - OAK-1-POE (SJ2096POE)
      - POE Board (BW2096POE)
-   * - .. image:: /_static/images/thumbnails/SJ2088POE.JPG
-     - .. image:: /_static/images/thumbnails/SJ2096POE.jpg
-     - .. image:: /_static/images/thumbnails/BW2098POE.jpg
+   * - .. image:: /_static/images/thumbnails/SJ2088POE.png
+     - .. image:: /_static/images/thumbnails/SJ2096POE.png
+     - .. image:: /_static/images/thumbnails/BW2098POE.png
    * - :ref:`Learn more <sj2096>` 
      - :ref:`Learn more <sj2088poe>`
      - :ref:`Learn more <bw2096poe>`
@@ -61,7 +61,7 @@ Integrated Raspberry Pi Designs
      - DepthAI with Pi CM4 (DM1097)
      - RPi HAT Baseboard (BW1094)
    * - .. image:: /_static/images/thumbnails/BW1097.png
-     - .. image:: /_static/images/thumbnails/DM1097.jpg
+     - .. image:: /_static/images/thumbnails/DM1097.png
      - .. image:: /_static/images/thumbnails/BW1094.png
    * - :ref:`Learn more <bw1097>` 
      - :ref:`Learn more <dm1097>` 
@@ -76,8 +76,8 @@ System on Module
 
    * - DepthAI SoM (BW1099)
      - DepthAI SoM with eMMC Flash (BW2099)
-   * - .. image:: /_static/images/thumbnails/BW1099.jpg
-     - .. image:: /_static/images/thumbnails/BW2099.jpg
+   * - .. image:: /_static/images/thumbnails/BW1099.png
+     - .. image:: /_static/images/thumbnails/BW2099.png
    * - :ref:`Learn more <bw1099>` 
      - :ref:`Learn more <bw2099>`
 
@@ -91,7 +91,7 @@ Pure Embedded Design
    * - DepthAI Design with Onboard ESP32 (BW1092)
      - WiFi DepthAI USB3C Baseboard (DM1098OBC)
    * - .. image:: /_static/images/thumbnails/BW1092.jpg
-     - .. image:: /_static/images/thumbnails/DM1098OBC.jpg
+     - .. image:: /_static/images/thumbnails/DM1098OBC.png
    * - :ref:`Learn more <bw1092>` 
      - :ref:`Learn more <dm1098obc>`
 
@@ -104,7 +104,7 @@ USB Designs
 
    * - DepthAI *NEW* FFC (DM1090FFC)
      - DepthAI *OLD* FFC (BW1098FFC)
-   * - .. image:: /_static/images/thumbnails/DM1090FFC.jpg
+   * - .. image:: /_static/images/thumbnails/DM1090FFC.png
      - .. image:: /_static/images/thumbnails/BW1098FFC.png
    * - :ref:`Learn more <dm1090ffc>` 
      - :ref:`Learn more <bw1098ffc>`
