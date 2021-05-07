@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PTS636_SM43J_SMTR_LFS
+#
+DEF PTS636_SM43J_SMTR_LFS S 0 40 Y N 1 L N
+F0 "S" -100 100 50 H V L BNN
+F1 "PTS636_SM43J_SMTR_LFS" -100 -100 50 H V L BNN
+F2 "SW_PTS636_SM43J_SMTR_LFS" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "4.3 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F5 "27 mar 19" 0 0 50 H I L BNN "PARTREV"
+F6 "C&K" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+DRAW
+P 2 0 0 6 -100 0 110 84 N
+C 100 0 13 0 0 6 N
+P 2 0 0 6 200 0 115 0 N
+P 2 0 0 6 -100 0 -200 0 N
+X ~ 1 -300 0 100 R 40 40 0 0 P 
+X ~ 2 300 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

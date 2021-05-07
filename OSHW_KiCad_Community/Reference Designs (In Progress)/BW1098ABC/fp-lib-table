@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name OSHW_RES_Altium_Vault_Generic_20201223)(type KiCad)(uri "/home/c/Desktop/Depthai kicad working /depthai-hardware/OSHW_KiCad_Community/Footprints/OSHW_RES_Altium_Vault_Generic_20201223.pretty")(options "")(descr ""))
+  (lib (name OSHW_LuxonisMaster_20201223)(type KiCad)(uri "/home/c/Desktop/Depthai kicad working /depthai-hardware/OSHW_KiCad_Community/Footprints/OSHW_LuxonisMaster_20201223.pretty")(options "")(descr ""))
+  (lib (name DTSM-32N-V-T_R)(type KiCad)(uri "/home/c/Desktop/Depthai kicad working /depthai-hardware/OSHW_KiCad_Community/Footprints/DTSM-32N-V-T_R.pretty")(options "")(descr ""))
+  (lib (name depthABC)(type KiCad)(uri ${KIPRJMOD}/Lib/depthABC.pretty)(options "")(descr ""))
+)

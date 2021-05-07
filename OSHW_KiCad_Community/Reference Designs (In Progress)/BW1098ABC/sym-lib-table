@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name DEPTH)(type Legacy)(uri "C:/Users/lafky/Desktop/DepthAI/depthai-hardware/OSHW_KiCad_Community/Schematic Libraries/depthAI_sch.lib")(options "")(descr ""))
+  (lib (name BW1098ABC-rescue)(type Legacy)(uri ${KIPRJMOD}/BW1098ABC-rescue.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri C:/Users/chris/.kicad/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name ABCDCBA)(type Legacy)(uri C:/Users/lafky/Desktop/DepthAI/ABCDCBA/ABCDCBA.lib)(options "")(descr ""))
+  (lib (name 1054550101)(type Legacy)(uri ${KIPRJMOD}/Lib/1054550101.lib)(options "")(descr ""))
+  (lib (name 10132328-10011LF)(type Legacy)(uri ${KIPRJMOD}/Lib/10132328-10011LF.lib)(options "")(descr ""))
+  (lib (name DepthABC-rescue)(type Legacy)(uri ${KIPRJMOD}/DepthABC-rescue.lib)(options "")(descr ""))
+)

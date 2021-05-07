@@ -1,0 +1,6 @@
+(module "TP100_200_NS" (layer F.Cu) (tedit 5B0D3C36)
+  (gr_arc (start 0.00000 0.00000) (end 1.00000 0.00000) (angle -360) (layer F.SilkS) (width 0.05))
+  (gr_arc (start 0.00000 0.00000) (end 1.00000 0.00000) (angle -360) (layer F.SilkS) (width 0.1))
+  (fp_line (start -0.50000 0.00000) (end 0.50000 0.00000) (layer Cmts.User) (width 0.05))
+  (fp_line (start 0.00000 0.50000) (end 0.00000 -0.50000) (layer Cmts.User) (width 0.05))
+)
