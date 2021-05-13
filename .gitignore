@@ -53,3 +53,6 @@ __Previews
 
 # SVN files
 .svn
+
+# Docs build folder
+docs/build/*
