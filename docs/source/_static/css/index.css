@@ -1,0 +1,27 @@
+.item .item-cta {
+    width: 100%;
+}
+
+.cta-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.cta-row .cta-box {
+    width: 33%;
+    margin: 0 5px;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 10px;
+}
+
+.cta-row .cta-box img {
+    width:  24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.cta-row .cta-box a {
+    display: flex;
+}

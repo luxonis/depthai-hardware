@@ -9,19 +9,19 @@ We're always happy to help with code or other questions you might have.
      <div class="cta-row cta-row-short">
          <div class="cta-box">
             <a href="https://discord.gg/EPsZHkg9Nx">
-               <img src="/_images/discord.png" alt="Discord"/>
+               <img src="https://docs.luxonis.com/en/latest/_images/discord.png" alt="Discord"/>
                <h5 class="cta-title">Community Discord</h5>
             </a>
          </div>
          <div class="cta-box">
             <a href="https://discuss.luxonis.com/">
-               <img src="/_images/forum.png" alt="forum"/>
+               <img src="https://docs.luxonis.com/en/latest/_images/forum.png" alt="forum"/>
                <h5 class="cta-title">Discussion Forum</h5>
             </a>
          </div>
          <div class="cta-box">
             <a href="mailto:support@luxonis.com">
-               <img src="/_images/email.png" alt="forum"/>
+               <img src="https://docs.luxonis.com/en/latest/_images/email.png" alt="forum"/>
                <h5 class="cta-title">Email Support</h5>
             </a>
          </div>
