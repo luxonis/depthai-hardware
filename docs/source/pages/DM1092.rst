@@ -31,10 +31,10 @@ Getting started
 The DM1092 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either 
 the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is configured on BW1099EMB with BOOT resistors.
 
-The reset button resets the Luxonis DepthAI :ref:`BW1099EMB <bw1099>` SoM only.
-The 5V LED indicates 5V power is present on the DM1092.
-The PG LED indicates "power good" from the DepthAI :ref:`BW1099EMB <bw1099>` SoM.
-The "RUN" LED indicates that the DepthAI SoM is not reset.
+* The reset button resets the Luxonis DepthAI :ref:`BW1099EMB <bw1099>` SoM only.
+* The 5V LED indicates 5V power is present on the DM1092.
+* The PG LED indicates "power good" from the DepthAI :ref:`BW1099EMB <bw1099>` SoM.
+* The "RUN" LED indicates that the DepthAI SoM is not reset.
 
 .. image:: /_static/images/DM1092/DM1092_back.jpg
 
