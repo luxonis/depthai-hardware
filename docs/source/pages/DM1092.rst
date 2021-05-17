@@ -20,7 +20,7 @@ This design will serve as a reference for multiple purposes:
 * How to use the BW1099EMB with microcontrollers over SPI
 * How to connect DepthAI as an IoT device to AWS-IoT
 * How to use DepthAI without an OS-capable host processor (e.g. with an embedded microcontroller like the ESP32)
-* How to use DepthAI with WiFi and BT
+* How to use DepthAI with WiFi and Bluetooth
 * Prototype of DepthAI with an integrated IMU
 
 .. image:: /_static/images/DM1092/DM1092_pcba.jpg

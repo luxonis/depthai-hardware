@@ -99,13 +99,13 @@ Pure Embedded Design
    :widths: 50 50
    :header-rows: 1
 
-   * - DepthAI Design with Onboard ESP32 (BW1092)
+   * - DepthAI Design with Onboard ESP32 (DM1092)
      - WiFi DepthAI USB3C Baseboard (DM1098OBC)
-   * - .. image:: /_static/images/thumbnails/BW1092.jpg
-          :target: pages/BW1092.html 
+   * - .. image:: /_static/images/thumbnails/DM1092.png
+          :target: pages/DM1092.html 
      - .. image:: /_static/images/thumbnails/DM1098OBC.png
           :target: pages/DM1098OBC.html 
-   * - :ref:`Learn more <bw1092>` 
+   * - :ref:`Learn more <dm1092>` 
      - :ref:`Learn more <dm1098obc>`
 
 USB Designs
@@ -185,7 +185,7 @@ Cameras
    :hidden:
    :caption: Pure Embedded Design
 
-   pages/BW1092.rst
+   pages/DM1092.rst
    pages/DM1098OBC.rst
 
 .. toctree::
