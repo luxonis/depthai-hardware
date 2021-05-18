@@ -52,8 +52,8 @@ POE Designs
           :target: pages/SJ2096POE.html
      - .. image:: /_static/images/thumbnails/BW2098POE.png
           :target: pages/BW2098POE.html
-   * - :ref:`Learn more <sj2096>` 
-     - :ref:`Learn more <sj2088poe>`
+   * - :ref:`Learn more <sj2088poe>`
+     - :ref:`Learn more <sj2096>` 
      - :ref:`Learn more <bw2096poe>`
 
 Integrated Raspberry Pi Designs
