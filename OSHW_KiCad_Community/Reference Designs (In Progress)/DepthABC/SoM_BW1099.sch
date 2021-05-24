@@ -731,8 +731,8 @@ AR Path="/6009F08A" Ref="J3"  Part="1"
 F 0 "J3" H 5650 2489 60  0000 C CNN
 F 1 "BW1099EMB_SoM" H 5650 2383 60  0000 C CNN
 F 2 "Luxonis_KiCad_Master:DF40HC(3.0)-100DS-0.4V(58)" H 4450 2200 60  0001 C CNN
-F 3 "" H 4450 2200 60  0001 C CNN
-F 4 "https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en" H 4450 2200 50  0001 C CNN "Link1"
+F 3 "https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en" H 4450 2200 60  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V58?qs=Gufeu08L%2Fl14mOnXtNJDUw%3D%3D" H 4450 2200 50  0001 C CNN "Link1"
 F 5 "DF40HC(3.0)-100DS-0.4V(58)" H 4450 2200 50  0001 C CNN "MPN1"
 F 6 "~" H 4450 2200 50  0001 C CNN "Population"
 F 7 "~" H 4450 2200 50  0001 C CNN "STANDARD"
