@@ -15,6 +15,8 @@ Documentation for each part includes an overview, getting started guide, images 
 * `3D Models` - generated 3D models of the board
 * `Mechanical` - models of mounts, enclosures, and other mechanical parts
 
+.. note::
+  We have just published our first :ref:`DepthAI Design Guide <design_guide>` that covers camera placement and mechanical stiffness. 
 
 OAK Designs
 ***********
@@ -144,6 +146,12 @@ Cameras
      - :ref:`Learn more <bg0249>` 
      - :ref:`Learn more <bw0253>`  
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Design Guide
+    
+   pages/design_guide.rst
 
 .. toctree::
    :maxdepth: 1
