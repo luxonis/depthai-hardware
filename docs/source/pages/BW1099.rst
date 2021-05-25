@@ -3,7 +3,7 @@
 DepthAI SoM (BW1099) 
 ====================
 
-.. image:: /_static/images/BW1099/BW1099.jpg
+.. image:: https://user-images.githubusercontent.com/32992551/119542582-f4f82780-bd4c-11eb-9059-32b55e58cdb6.png
 
 Overview
 ********
