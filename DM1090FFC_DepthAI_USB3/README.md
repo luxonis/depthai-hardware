@@ -37,7 +37,7 @@ In addition IMU over SPI support was also added to the 1090FFC.
 * 2x DM0250TG_R1M1E1 and 1x DM0249_R1M1E1 RGB camera module interface
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
-* Interface for Luxnois BW1099 DepthAI SoM
+* Interface for Luxonis BW1099 DepthAI SoM
 * Pads for DepthAI SoM 1.8V SPI
 * Pads for DepthAI SoM 3.3V SDIO 
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
@@ -46,9 +46,11 @@ In addition IMU over SPI support was also added to the 1090FFC.
 
 # Board layout & dimensions
 
-![](Images/DM1090FFC_R0M0E0_TOP.png)
+![](Images/DM1090FFC_R0M0E0_TOP.jpg)
 
-![](Images/DM1090FFC_R0M0E0_BOT.png)
+![](Images/DM1090FFC_R0M0E0_BOT.jpg)
+
+![](Images/DM1090FFC_R0M0E0_dims.png)
 
 # Getting started  
 
