@@ -1,0 +1,61 @@
+.. _dm1092:
+
+DepthAI Design with Onboard ESP32 for WiFi and BT (DM1092)
+==========================================================
+
+.. image:: /_static/images/DM1092/DM1092.jpg
+
+Overview
+********
+
+This design is one of two baseboards for the DepthAI: System on Module (SoM) - Embedded Variant (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
+To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and 
+`here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
+
+Key features
+************
+
+This design will serve as a reference for multiple purposes:
+
+* How to use the BW1099EMB with microcontrollers over SPI
+* How to connect DepthAI as an IoT device to AWS-IoT
+* How to use DepthAI without an OS-capable host processor (e.g. with an embedded microcontroller like the ESP32)
+* How to use DepthAI with WiFi and Bluetooth
+* Prototype of DepthAI with an integrated IMU
+
+.. image:: /_static/images/DM1092/DM1092_pcba.jpg
+
+Getting started
+***************
+
+The DM1092 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either 
+the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is configured on BW1099EMB with BOOT resistors.
+
+* The reset button resets the Luxonis DepthAI :ref:`BW1099EMB <bw1099>` SoM only.
+* The 5V LED indicates 5V power is present on the DM1092.
+* The PG LED indicates "power good" from the DepthAI :ref:`BW1099EMB <bw1099>` SoM.
+* The "RUN" LED indicates that the DepthAI SoM is not reset.
+
+.. image:: /_static/images/DM1092/DM1092_back.jpg
+
+Altium project files
+********************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB>`__
+
+Project output files
+********************
+
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Schematic%20PDF/Production.PDF>`__
+
+3D Models
+*********
+
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/3D_Models>`__
+
+
+.. include::  /pages/includes/footer-short.rst
