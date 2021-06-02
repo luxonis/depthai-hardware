@@ -12,7 +12,7 @@ This design is validated and is now in mass production.  It is ready to be used 
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC_WiFi baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface. 
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC_WIFI baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 Wi-Fi interface. 
 
 ## Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -24,7 +24,8 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * Support for on-board stereo and RGB camera modules
 * Interface for Luxonis DepthAI SoM
 * USB 3.1 Gen1 Type-C
-* Micro USB interface for serial communication with ESP32
+* Integrates ESP32-WROOM-32D (Wi-Fi 2.4 GHz to 2.5 GHz)
+* Micro USB interface for serial communication with ESP32 
 * Pads for DepthAI SoM / ESP32 3.3V SPI (refer to schematic for pinout)
 * Pads for ESP32 3.3V AUX GPIOs (refer to schematic for pinout) 
 * QWIIC connector for ESP32 I2C 
@@ -39,10 +40,12 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 ![](https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Images/DM1098OAKW_R0M0E0_BOT_AllComponents.png?raw=true)
 
-# Getting started
-The DM1098OBC_WiFi accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
+![](Images/DM1098OAKW_R0M0E0_Dimensions.jpg)
 
-Interfacing with the DepthAI SoM is also possible with DM1098OBC_WiFi connector pads J5, and J6. These pads are designed for the [Molex/53047-0810](https://octopart.com/search?q=53047-0810&currency=USD&specs=0) or equivalent. Please refer to the schematics for pinout information.
+# Getting started
+The DM1098OBC_WIFI accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
+
+Interfacing with the DepthAI SoM is also possible with DM1098OBC_WIFI connector pads J5, and J6. These pads are designed for the [Molex/53047-0810](https://octopart.com/search?q=53047-0810&currency=USD&specs=0) or equivalent. Please refer to the schematics for pinout information.
 
 The reset button resets the Luxonis DepthAI SoM only. 
 
