@@ -102,7 +102,7 @@ Pure Embedded Design
    :header-rows: 1
 
    * - DepthAI Design with Onboard ESP32 (DM1092)
-     - WiFi DepthAI USB3C Baseboard (DM1098OBC)
+     - OAK-D-WiFi (DM1098OBC)
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: pages/DM1092.html 
      - .. image:: /_static/images/thumbnails/DM1098OBC.png

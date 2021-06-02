@@ -1,14 +1,14 @@
 .. _dm1098obc:
 
-WiFi DepthAI USB3C Baseboard (DM1098OBC)
-========================================
+OAK-D-WiFi (DM1098OBC)
+======================
 
 .. image:: /_static/images/DM1098OBC/DM1098OBC.jpg
 
 Overview
 ********
 
-The BW1098OBC_WiFi baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for 
+The OAK-D-WiFi baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for 
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
 
 Board layout & dimensions
@@ -36,7 +36,7 @@ Key features
 Getting started
 ***************
 
-The DM1098OBC_WiFi accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
+The OAK-D-WiFi accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
 
 Interfacing with the DepthAI SoM is also possible with DM1098OBC_WiFi connector pads J5, and J6. These pads are designed for 
 the Molex/53047-0810 or equivalent. Please refer to the schematics for pinout information.
