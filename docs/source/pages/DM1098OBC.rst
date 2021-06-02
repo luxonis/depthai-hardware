@@ -14,7 +14,7 @@ depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 
 Board layout & dimensions
 *************************
 
-.. image:: /_static/images/DM1098OBC/DM1098OAKW_BOT.jpg
+.. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 .. image:: /_static/images/DM1098OBC/DM1098OAKW_SIDE.jpg
 
 Key features
