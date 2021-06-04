@@ -36,7 +36,8 @@ Key features
 Getting started
 ***************
 
-The OAK-D-WiFi accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
+OAK-D-WiFi Integrates ESP32-WROOM-32D (Wi-Fi 2.4 GHz to 2.5 GHz) and in terms of power consumption the device accepts 5V (+/-10%) from 
+a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C
 
 Interfacing with the DepthAI SoM is also possible with DM1098OBC_WiFi connector pads J5, and J6. These pads are designed for 
 the Molex/53047-0810 or equivalent. Please refer to the schematics for pinout information.
@@ -45,6 +46,8 @@ The reset button resets the Luxonis DepthAI SoM only.
 
 The 5V LED indicates 5V power is present on the DM1098OBC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" 
 LED indicates that the DepthAI SoM is not in reset.
+
+`Here is an example how to connect to the wifi and creates a basic http file server <https://github.com/luxonis/esp32-spi-message-demo/tree/main/jpeg_webserver_demo>`__.
 
 Altium project files
 ********************

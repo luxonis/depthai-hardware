@@ -105,7 +105,7 @@ Pure Embedded Design
      - OAK-D-WiFi (DM1098OBC)
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: pages/DM1092.html 
-     - .. image:: /_static/images/thumbnails/DM1098OBC.png
+     - .. image:: /_static/images/thumbnails/DM1098OBC_2.png
           :target: pages/DM1098OBC.html 
    * - :ref:`Learn more <dm1092>` 
      - :ref:`Learn more <dm1098obc>`
