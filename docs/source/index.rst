@@ -25,7 +25,7 @@ OAK Designs
    :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-D / LUX-D (BW1098OAK)
+   * - OAK-D (BW1098OAK)
      - OAK-1 Modular (BK1096)
      - BW1098OBC USB3C Baseboard
    * - .. image:: /_static/images/thumbnails/BW1098OAK.png
