@@ -46,6 +46,23 @@ ReleaseFolderPath=[OutputPath]
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
+DocumentPath=KingTop.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document2]
 DocumentPath=DM1098LUXD-LITE.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -62,7 +79,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LMTASMIP
 
-[Document2]
+[Document3]
 DocumentPath=DM1098LUXD-LITE.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -77,9 +94,9 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WOENOBEE
+DocumentUniqueId=NPADRNZC
 
-[Document3]
+[Document4]
 DocumentPath=Assembly_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -96,7 +113,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=Fabrication_Drawing.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -113,7 +130,75 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document6]
+DocumentPath=..\!Altium_Shared\Libaries\Luxonis\CAP_Altium_Vault_Generic.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OVUEKGLJ
+
+[Document7]
+DocumentPath=..\!Altium_Shared\Libaries\Luxonis\LuxonisMaster.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KYPVKCPA
+
+[Document8]
+DocumentPath=..\!Altium_Shared\Libaries\Luxonis\LuxonisMaster.SchLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=NJSWDNVK
+
+[Document9]
+DocumentPath=..\!Altium_Shared\Libaries\Luxonis\RES_Altium_Vault_Generic.PcbLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PHIHOSPK
+
+[Document10]
 DocumentPath=DM1098LUXD-LITE.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -130,7 +215,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document6]
+[Document11]
 DocumentPath=DM1098LUXD-LITE.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -147,7 +232,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YNXIHYDL
 
-[Document7]
+[Document12]
 DocumentPath=DM1098LUXD-LITE.PrjPcbVariants
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -164,7 +249,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document13]
 DocumentPath=DM1098LUXD-LITE_Connector.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -181,7 +266,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document14]
 DocumentPath=DM1098LUXD-LITE_Project_Information.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -198,7 +283,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AJIJRPXX
 
-[Document10]
+[Document15]
 DocumentPath=DM1098LUXD-LITE_Connector.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -215,7 +300,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IVDAELBI
 
-[Document11]
+[Document16]
 DocumentPath=DM1098LUXD-LITE_Power_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -232,7 +317,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HPTPYBNP
 
-[Document12]
+[Document17]
 DocumentPath=DM1098LUXD-LITE_IMX214.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -249,7 +334,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document18]
 DocumentPath=DM1098LUXD-LITE_IMX214.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -266,7 +351,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UVYYLLAE
 
-[Document14]
+[Document19]
 DocumentPath=DM1098LUXD-LITE_LEFT_OV7251.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -283,7 +368,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document20]
 DocumentPath=DM1098LUXD-LITE_LEFT_OV7251.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -300,93 +385,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FNAFRYCP
 
-[Document16]
-DocumentPath=DM1098LUXD-LITE_RIGHT_OV7251.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document17]
-DocumentPath=DM1098LUXD-LITE_RIGHT_OV7251.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XBUKSRUJ
-
-[Document18]
-DocumentPath=DM1098LUXD-LITE_TopLevel.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=XJMBUEQL
-
-[Document19]
-DocumentPath=DM1098LUXD-LITE_USB.Harness
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document20]
-DocumentPath=DM1098LUXD-LITE_USB.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=8
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BALCYCRR
-
 [Document21]
-DocumentPath=DM1098LUXD-LITE-D-LITE.PrjPcbStructure
+DocumentPath=DM1098LUXD-LITE_LEVEL_SHIFT.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -403,6 +403,125 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document22]
+DocumentPath=DM1098LUXD-LITE_QWIIC.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document23]
+DocumentPath=DM1098LUXD-LITE_RIGHT_OV7251.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document24]
+DocumentPath=DM1098LUXD-LITE_RIGHT_OV7251.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XBUKSRUJ
+
+[Document25]
+DocumentPath=DM1098LUXD-LITE_TopLevel.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XJMBUEQL
+
+[Document26]
+DocumentPath=DM1098LUXD-LITE_USB.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document27]
+DocumentPath=DM1098LUXD-LITE_USB.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=BALCYCRR
+
+[Document28]
+DocumentPath=DM1098LUXD-LITE-D-LITE.PrjPcbStructure
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document29]
 DocumentPath=DM1098LUXD-LITE_IMU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -419,7 +538,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KOBHVPKG
 
-[Document23]
+[Document30]
 DocumentPath=DM1098LUXD-LITE_IMU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -479,6 +598,18 @@ Variation11=Designator=MISC1|UniqueId=\DUQNLQFH\CGYCGBIN|Kind=1|AlternatePart=
 Variation12=Designator=B1|UniqueId=\DUQNLQFH\JIZEVUCC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for DM1098LUXD-LITE-D-LITE\Design Rule Check - DM1098LUXD-LITE.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=BOM CROSS CHECK\Production\DM1098LUX-D-LITE.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Mechanical 3D\Production.step
+DItemRevisionGUID=
+
 [SearchPath1]
 Path=*.*
 IncludeSubFolders=1
@@ -497,11 +628,11 @@ Value=DM1098LUX-D-LITE
 
 [Parameter4]
 Name=revision
-Value=R0M0E0
+Value=R1M0E1
 
 [Parameter5]
 Name=revision1
-Value=R0M0E0
+Value=R1M0E1
 
 [Configuration1]
 Name=Sources
@@ -1011,6 +1142,18 @@ OutputName6=Report Project Hierarchy
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs

@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: DM1098LUXD-LITE.GBR   23/04/2021  16:22:53
+Gerber File Extension Report For: DM1098LUXD-LITE.GBR   07/06/2021  07:54:46
 ------------------------------------------------------------------------------------------
 
 
@@ -31,8 +31,8 @@ Layer Extension     Layer Description
 .GPB                Bottom Pad Master                       
 .2                  Core                                    
 .3                  Dielectric 2                            
-.GML                Multi-Layer                             
 .1                  Dielectric 1                            
+.GML                Multi-Layer                             
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------
