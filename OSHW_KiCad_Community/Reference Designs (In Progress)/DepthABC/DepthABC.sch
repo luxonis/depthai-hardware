@@ -29,8 +29,12 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 850 7350 50  0001 C CNN
 F 3 "~" H 850 7350 50  0001 C CNN
 F 4 "~" H 850 7350 50  0001 C CNN "Link1"
 F 5 "~" H 850 7350 50  0001 C CNN "MPN1"
-F 6 "~" H 850 7350 50  0001 C CNN "Population"
+F 6 "Y" H 850 7350 50  0001 C CNN "Population"
 F 7 "~" H 850 7350 50  0001 C CNN "STANDARD"
+F 8 "~" H 850 7350 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 850 7350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 850 7350 50  0001 C CNN "Short Description"
+F 11 "~" H 850 7350 50  0001 C CNN "Substitutes "
 	1    850  7350
 	1    0    0    -1  
 $EndComp
@@ -44,8 +48,12 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 850 6900 50  0001 C CNN
 F 3 "~" H 850 6900 50  0001 C CNN
 F 4 "~" H 850 6900 50  0001 C CNN "Link1"
 F 5 "~" H 850 6900 50  0001 C CNN "MPN1"
-F 6 "~" H 850 6900 50  0001 C CNN "Population"
+F 6 "Y" H 850 6900 50  0001 C CNN "Population"
 F 7 "~" H 850 6900 50  0001 C CNN "STANDARD"
+F 8 "~" H 850 6900 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 850 6900 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 850 6900 50  0001 C CNN "Short Description"
+F 11 "~" H 850 6900 50  0001 C CNN "Substitutes "
 	1    850  6900
 	1    0    0    -1  
 $EndComp
@@ -59,8 +67,12 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1350 6900 50  0001 C CNN
 F 3 "~" H 1350 6900 50  0001 C CNN
 F 4 "~" H 1350 6900 50  0001 C CNN "Link1"
 F 5 "~" H 1350 6900 50  0001 C CNN "MPN1"
-F 6 "~" H 1350 6900 50  0001 C CNN "Population"
+F 6 "Y" H 1350 6900 50  0001 C CNN "Population"
 F 7 "~" H 1350 6900 50  0001 C CNN "STANDARD"
+F 8 "~" H 1350 6900 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1350 6900 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 1350 6900 50  0001 C CNN "Short Description"
+F 11 "~" H 1350 6900 50  0001 C CNN "Substitutes "
 	1    1350 6900
 	1    0    0    -1  
 $EndComp
@@ -74,8 +86,12 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1850 6900 50  0001 C CNN
 F 3 "~" H 1850 6900 50  0001 C CNN
 F 4 "~" H 1850 6900 50  0001 C CNN "Link1"
 F 5 "~" H 1850 6900 50  0001 C CNN "MPN1"
-F 6 "~" H 1850 6900 50  0001 C CNN "Population"
+F 6 "Y" H 1850 6900 50  0001 C CNN "Population"
 F 7 "~" H 1850 6900 50  0001 C CNN "STANDARD"
+F 8 "~" H 1850 6900 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1850 6900 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 1850 6900 50  0001 C CNN "Short Description"
+F 11 "~" H 1850 6900 50  0001 C CNN "Substitutes "
 	1    1850 6900
 	1    0    0    -1  
 $EndComp
@@ -89,8 +105,12 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1350 7350 50  0001 C CNN
 F 3 "~" H 1350 7350 50  0001 C CNN
 F 4 "~" H 1350 7350 50  0001 C CNN "Link1"
 F 5 "~" H 1350 7350 50  0001 C CNN "MPN1"
-F 6 "~" H 1350 7350 50  0001 C CNN "Population"
+F 6 "Y" H 1350 7350 50  0001 C CNN "Population"
 F 7 "~" H 1350 7350 50  0001 C CNN "STANDARD"
+F 8 "~" H 1350 7350 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1350 7350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 1350 7350 50  0001 C CNN "Short Description"
+F 11 "~" H 1350 7350 50  0001 C CNN "Substitutes "
 	1    1350 7350
 	1    0    0    -1  
 $EndComp
@@ -104,8 +124,12 @@ F 2 "Fiducial:Fiducial_1mm_Mask2mm" H 1850 7350 50  0001 C CNN
 F 3 "~" H 1850 7350 50  0001 C CNN
 F 4 "~" H 1850 7350 50  0001 C CNN "Link1"
 F 5 "~" H 1850 7350 50  0001 C CNN "MPN1"
-F 6 "~" H 1850 7350 50  0001 C CNN "Population"
+F 6 "Y" H 1850 7350 50  0001 C CNN "Population"
 F 7 "~" H 1850 7350 50  0001 C CNN "STANDARD"
+F 8 "~" H 1850 7350 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1850 7350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 1850 7350 50  0001 C CNN "Short Description"
+F 11 "~" H 1850 7350 50  0001 C CNN "Substitutes "
 	1    1850 7350
 	1    0    0    -1  
 $EndComp
@@ -119,8 +143,12 @@ F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 800 5950 50  0001 C CNN
 F 3 "~" H 800 5950 50  0001 C CNN
 F 4 "~" H 800 5950 50  0001 C CNN "Link1"
 F 5 "~" H 800 5950 50  0001 C CNN "MPN1"
-F 6 "~" H 800 5950 50  0001 C CNN "Population"
+F 6 "NO POP" H 800 5950 50  0001 C CNN "Population"
 F 7 "~" H 800 5950 50  0001 C CNN "STANDARD"
+F 8 "~" H 800 5950 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 800 5950 50  0001 C CNN "Voltage Rating"
+F 10 "Arducam mounts" H 800 5950 50  0001 C CNN "Short Description"
+F 11 "~" H 800 5950 50  0001 C CNN "Substitutes "
 	1    800  5950
 	1    0    0    -1  
 $EndComp
@@ -134,8 +162,12 @@ F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 800 6450 50  0001 C CNN
 F 3 "~" H 800 6450 50  0001 C CNN
 F 4 "~" H 800 6450 50  0001 C CNN "Link1"
 F 5 "~" H 800 6450 50  0001 C CNN "MPN1"
-F 6 "~" H 800 6450 50  0001 C CNN "Population"
+F 6 "NO POP" H 800 6450 50  0001 C CNN "Population"
 F 7 "~" H 800 6450 50  0001 C CNN "STANDARD"
+F 8 "~" H 800 6450 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 800 6450 50  0001 C CNN "Voltage Rating"
+F 10 "Arducam mounts" H 800 6450 50  0001 C CNN "Short Description"
+F 11 "~" H 800 6450 50  0001 C CNN "Substitutes "
 	1    800  6450
 	1    0    0    -1  
 $EndComp
@@ -149,8 +181,12 @@ F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1750 6450 50  0001 C CNN
 F 3 "~" H 1750 6450 50  0001 C CNN
 F 4 "~" H 1750 6450 50  0001 C CNN "Link1"
 F 5 "~" H 1750 6450 50  0001 C CNN "MPN1"
-F 6 "~" H 1750 6450 50  0001 C CNN "Population"
+F 6 "NO POP" H 1750 6450 50  0001 C CNN "Population"
 F 7 "~" H 1750 6450 50  0001 C CNN "STANDARD"
+F 8 "~" H 1750 6450 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1750 6450 50  0001 C CNN "Voltage Rating"
+F 10 "Arducam mounts" H 1750 6450 50  0001 C CNN "Short Description"
+F 11 "~" H 1750 6450 50  0001 C CNN "Substitutes "
 	1    1750 6450
 	1    0    0    -1  
 $EndComp
@@ -164,8 +200,12 @@ F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 1750 5950 50  0001 C CNN
 F 3 "~" H 1750 5950 50  0001 C CNN
 F 4 "~" H 1750 5950 50  0001 C CNN "Link1"
 F 5 "~" H 1750 5950 50  0001 C CNN "MPN1"
-F 6 "~" H 1750 5950 50  0001 C CNN "Population"
+F 6 "NO POP" H 1750 5950 50  0001 C CNN "Population"
 F 7 "~" H 1750 5950 50  0001 C CNN "STANDARD"
+F 8 "~" H 1750 5950 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1750 5950 50  0001 C CNN "Voltage Rating"
+F 10 "Arducam mounts" H 1750 5950 50  0001 C CNN "Short Description"
+F 11 "~" H 1750 5950 50  0001 C CNN "Substitutes "
 	1    1750 5950
 	1    0    0    -1  
 $EndComp
@@ -282,6 +322,10 @@ F 3 "~" H 2500 4050 50  0001 C CNN
 F 4 "GH_BM02B-GHS-TBT" H 2500 4050 50  0001 C CNN "MPN1"
 F 5 "NO POP" H 2500 4050 50  0001 C CNN "Population"
 F 6 "~" H 2500 4050 50  0001 C CNN "STANDARD"
+F 7 "JST" H 2500 4050 50  0001 C CNN "MANUFACTURER"
+F 8 "~" H 2500 4050 50  0001 C CNN "Voltage Rating"
+F 9 "~" H 2500 4050 50  0001 C CNN "Short Description"
+F 10 "~" H 2500 4050 50  0001 C CNN "Substitutes "
 	1    2500 4050
 	-1   0    0    1   
 $EndComp
