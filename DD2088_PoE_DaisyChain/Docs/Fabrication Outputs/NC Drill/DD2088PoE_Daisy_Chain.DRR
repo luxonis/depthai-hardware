@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DD2088PoE_Daisy_Chain.PcbDoc   18-May-21  4:06:44 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Copper
+ASCII Plated RoundHoles File : DD2088PoE_Daisy_Chain-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : DD2088PoE_Daisy_Chain-SlotHoles-Plated.TXT
+EIA File   : DD2088PoE_Daisy_Chain.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             8         PTH        0.00mm (0.00inch)
+T2      0.254mm (10mil)                                           Round             879       PTH        0.00mm (0.00inch)
+T3      0.3mm (12mil)                                             Round             2         PTH        0.00mm (0.00inch)
+T4      0.5mm (20mil)                                             Slot              2         PTH        0.00mm (0.00inch)
+T5      0.7mm (28mil)                                             Slot              4         PTH        0.00mm (0.00inch)
+T6      0.8mm (31mil)                                             Round             4         PTH        0.00mm (0.00inch)
+T7      0.9mm (35mil)                                             Round             28        PTH        0.00mm (0.00inch)
+T8      1.02mm (40mil)                                            Round             8         PTH        0.00mm (0.00inch)
+T9      1.7mm (67mil)                                             Round             4         PTH        0.00mm (0.00inch)
+T10     2.75mm (108mil)                                           Round             4         PTH        0.00mm (0.00inch)
+T11     3mm (118mil)                                              Round             2         PTH        0.00mm (0.00inch)
+T12     3.2mm (126mil)          +/-0mm (0mil)                     Round             4         PTH        0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              949
+
+Total Processing Time (hh:mm:ss) : 00:00:01
