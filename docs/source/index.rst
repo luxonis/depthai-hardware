@@ -146,6 +146,10 @@ Cameras
      - :ref:`Learn more <bg0249>` 
      - :ref:`Learn more <bw0253>`  
 
+
+.. include::  /pages/includes/footer-long.rst
+
+
 .. toctree::
    :maxdepth: 1
    :hidden:
