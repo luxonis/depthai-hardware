@@ -150,7 +150,7 @@ Cameras
    :widths: 30 
    :header-rows: 1
 
-   * - Ardcuam Cameras
+   * - ArduCam Cameras
    * - .. image:: /_static/images/thumbnails/arducam_2.png
           :target: pages/arducam.html 
    * - :ref:`Learn more <arducam>`
