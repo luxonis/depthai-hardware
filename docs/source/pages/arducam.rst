@@ -3,7 +3,7 @@
 ArduCam Cameras
 ===============
 
-.. image:: /_static/images/arducam/arducam.jpg
+.. image:: /_static/images/arducam/cameras.jpg
 
 Overview
 ********
