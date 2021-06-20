@@ -1,4 +1,4 @@
-20560985842774450
+20562610044063516
 ABC
 4881
 
@@ -57400,6 +57400,13 @@ F32R-26p-FFC
 28
 27
 Luxonis_KiCad_Master
+HRS_DF40HC(3.0)-100DS-0.4V(58-snapeda)
+
+
+0
+100
+100
+Luxonis_KiCad_Master
 Molex-54548-2071-Manufacturer_Recommended
 
 
@@ -57453,8 +57460,8 @@ depthAIcam
 
 
 0
-4
-4
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
