@@ -42,6 +42,13 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 ![](Images/DM1098OAKW_R0M0E0_Dimensions.jpg)
 
+# Enclosure
+We are working on an enclosure for the OAK-D-WiFi. Meanwhile, it's worth noticing excellent cases designed by our community members.
+* T Kamoi design https://www.thingiverse.com/thing:4876999
+* Thomas Höfler design https://www.thingiverse.com/thing:4880485
+* Xplicator (Gerrit Kolb) design https://www.thingiverse.com/thing:4879233
+* Carlos Alvarenga design https://www.thingiverse.com/thing:4876354
+
 # Getting started
 The DM1098OBC_WIFI accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C.
 
