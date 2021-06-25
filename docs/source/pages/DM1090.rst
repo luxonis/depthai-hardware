@@ -59,6 +59,9 @@ USB designs with FFC camera boards contain 3 different iterations, below is a fl
 
 .. image:: /_static/images/DM1090FFC/Flowchart_FFC.jpg
 
+.. note::
+  The first two revisions (**BW1092FFC** and **DM1098FFC**) were also named **F1**, and the newest revision (**DM1090FFC**) is named **F2**.
+
 Altium project files
 ********************
 
