@@ -50,11 +50,11 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098O
 Project output files
 ********************
 
-* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Assembly%20Drawing%20PDF/Prod_ESD.PDF>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Assembly%20Outputs>`__
-* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Fabrication%20Drawing%20PDF/Prod_ESD.PDF>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Fabrication%20Outputs>`__
-* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Schematic%20PDF/Prod_ESD.PDF>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Schematic%20PDF/Production.PDF>`__
 
 3D Models
 *********

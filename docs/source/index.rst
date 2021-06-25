@@ -156,6 +156,9 @@ Cameras
    * - :ref:`Learn more <arducam>`
   
 
+.. include::  /pages/includes/footer-long.rst
+
+
 .. toctree::
    :maxdepth: 1
    :hidden:
