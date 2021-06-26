@@ -146,6 +146,15 @@ Cameras
      - :ref:`Learn more <bg0249>` 
      - :ref:`Learn more <bw0253>`  
 
+.. list-table::
+   :widths: 30 
+   :header-rows: 1
+
+   * - ArduCam Cameras
+   * - .. image:: /_static/images/thumbnails/arducam_2.png
+          :target: pages/arducam.html 
+   * - :ref:`Learn more <arducam>`
+  
 
 .. include::  /pages/includes/footer-long.rst
 
@@ -216,4 +225,5 @@ Cameras
    pages/BG0250TG.rst
    pages/BG0249.rst
    pages/BW0253.rst
+   pages/arducam.rst
 
