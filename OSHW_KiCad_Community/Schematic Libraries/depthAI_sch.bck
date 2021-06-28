@@ -213,6 +213,11 @@ $CMP PMS150C-U06
 K PROD_ID:CONN-11290
 $ENDCMP
 #
+$CMP PTN5150HXMP
+D NXP - PTN5150HXMP - USB TYPE-C CC LOGIC/PORT CONTROL, X2QFN
+F http://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf
+$ENDCMP
+#
 $CMP SP6201EM5-L-1-8
 D 300mA low dropout linear regulator, shutdown pin, 1.5V fixed positive output, SOT-23-5
 K linear regulator ldo fixed positive
