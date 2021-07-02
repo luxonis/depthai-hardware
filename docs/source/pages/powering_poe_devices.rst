@@ -26,10 +26,10 @@ The advised way to use DepthAI OAK POE models is with a POE switch.  We have a p
 POE Switches range in all sorts of sizes, power capacities, and port numbers.  The OAK POE devices work with the lowest-power POE standard, 802.3af.  Any 802.3af POE switch can deliver 12.95W per port, which is actually substantially higher than the max power that OAK POE models require (which is under 6.25W). 
 So OAK POE devices work with all standards-compliant POE switches, including:
 
-- 802.3af - 12.95W
-- 802.3at - 25.5W
-- 802.3bt/3 - 51W
-- 802.3bt/4 - 71W
+- 802.3af - 12.95W per port
+- 802.3at - 25.5W per port
+- 802.3bt/3 - 51W per port
+- 802.3bt/4 - 71W per port
 
 Below is a quick list of UniFi switches that have been tested with OAK POE models, starting with the smallest switch and moving to the larger models:
 - US-8-60W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-60w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1CqyJdc4DEDE4mjlpSgxuKxGE2QrmUY4N7CRlCBatOrsjd7V8RG17kaAi4PEALw_wcB>`__). This switch has 4x 802.3af ports, so can power up to 4x OAK POE devices
