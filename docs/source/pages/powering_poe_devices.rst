@@ -58,7 +58,7 @@ The OAK POE models are designed to allow outdoor use, including being weather re
 Cables with boots often will not fit in these water-sealing glands (since they are designed for these professional installations, which are no-boot installations).  So if you are installing outdoors, it is recommended to either use a no-boot pre-made cable, or us the "professional" technique of making the cable to length, or find a cable with a small boot that fits in the gland (some do).  It is also worth noting that if installing outside, it is necessary to use a shielded Ethernet cable, otherwise wind/rain/hail/etc. will build up a static charge on the data wires in the cable, and eventually destroy the POE switch, the OAK POE device, or both.  
 
 For the custom-length cable route, you can use `TOUGHCable PRO cable <https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW>`__
-together with `TOUGHCable connectors <https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0>`__.  Our team has used this combination extensively in the past for outdoor installations.
+together with `TOUGHCable connectors <https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0>`__.  Our team has used this combination extensively in the past for outdoor installations.  (A crimping too, such as `this one <https://www.amazon.com/Ratcheting-Stripper-Klein-Tools-VDV226-011-SEN/dp/B002D3B97U/ref=pd_lpo_1?pd_rd_i=B002D3B97U&psc=1>`__ is necessary to crimp the connectors to the cable.)
 
 
 *Note that we are not connected with any of these products linked, we just have had good experience with them, and some of us may or may not have worked on the UniFi team in the past.*
