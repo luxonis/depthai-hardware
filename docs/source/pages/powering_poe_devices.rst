@@ -32,6 +32,7 @@ So OAK POE devices work with all standards-compliant POE switches, including:
 - 802.3bt/4 - 71W per port
 
 Below is a quick list of UniFi switches that have been tested with OAK POE models, starting with the smallest switch and moving to the larger models:
+
 - US-8-60W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-60w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1CqyJdc4DEDE4mjlpSgxuKxGE2QrmUY4N7CRlCBatOrsjd7V8RG17kaAi4PEALw_wcB>`__). This switch has 4x 802.3af ports, so can power up to 4x OAK POE devices
 - US-8-150W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1DhfxWteXVfMS3Lk3y1N3jaxIItdLimljE1Y-AGa_2aQuF96h6bTFIaAqa_EALw_wcB>`__).  This switch has 8x 802.3at ports, so it can power up to 8x OAK POE devices.
 - US-16-150W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-16-150w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1BGnUy93AYvz_Q9mRTlDp0DBQurdSAP6C5Jt-gMfgjirsKUF7NF40saAjT1EALw_wcB>`__).  16x 802.3at ports, so it can power up to 16x OAK POE devices.
