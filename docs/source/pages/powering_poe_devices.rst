@@ -1,5 +1,5 @@
-Powerig PoE devices
-===================
+Powering PoE devices
+====================
 
 We currently have two Power-over-Ethernet (PoE) devices, :ref:`OAK-D-POE <sj2088poe>` and :ref:`OAK-1-POE <sj2096>`,
 that require getting the power over the ethernet. In this tutorial, we will go through the
