@@ -54,7 +54,7 @@ Ethernet Cables and Weather Resistance
 
 The OAK POE models are designed to allow outdoor use, including being weather resistant.  As part of this weather resistance, there is a cable gland that provides the sealing around the Ethernet cable.  These glands are designed to be used with "professional" installations - meaning that they are designed to be used with cable that is crimped to length for the installation - and thereby has no "boot".
 
-<Insert image of an Ethernet Cable with a boot and without a boot>
+.. image:: /_static/images/poe/boot.jpeg
 
 Cables with boots often will not fit in these water-sealing glands (since they are designed for these professional installations, which are no-boot installations).  So if you are installing outdoors, it is recommended to either use a no-boot pre-made cable, or us the "professional" technique of making the cable to length, or find a cable with a small boot that fits in the gland (some do).  It is also worth noting that if installing outside, it is necessary to use a shielded Ethernet cable, otherwise wind/rain/hail/etc. will build up a static charge on the data wires in the cable, and eventually destroy the POE switch, the OAK POE device, or both.  
 
