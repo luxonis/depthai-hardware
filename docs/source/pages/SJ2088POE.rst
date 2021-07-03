@@ -32,6 +32,7 @@ Key features
 * On-board PCIe ref clk for BW2099 and PCIe/Ethernet bridge
 * User-selectable BW2099 boot configuration switches
 * Design files produced with Altium Designer 20
+* :ref:`PoE injector <Powering PoE devices>` is required to power the device.
 
 Getting started
 ***************

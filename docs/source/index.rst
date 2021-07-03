@@ -183,6 +183,7 @@ Cameras
    pages/SJ2088POE.rst
    pages/SJ2096POE.rst
    pages/BW2098POE.rst
+   pages/powering_poe_devices.rst
    
 .. toctree::
    :maxdepth: 1
