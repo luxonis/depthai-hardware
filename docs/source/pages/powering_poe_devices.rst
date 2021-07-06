@@ -43,7 +43,7 @@ The nice thing about using POE switches, is then one has a clean, plug-and-play 
 
 If you would like to use their existing non-POE switch, it is possible to do so using what's called a PoE Injector.
 
-PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our DepthAIs).  So if you'd prefer to use an existing non-POE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a POE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__ , injector which would be used per OAK POE device.
+PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our DepthAIs).  So if you'd prefer to use an existing non-POE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a POE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__ injector, which would be used per OAK POE device.
 
 Here's an example of connecting multiple DepthAI PoE devices to the UniFi switch:
 
