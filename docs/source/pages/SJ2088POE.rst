@@ -13,6 +13,9 @@ cameras which implement stereo and RGB vision, piped directly into the DepthAI S
 to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther SJ2088POE board exposes boot selection switches, allowing 
 the end user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
+.. note::
+  Just getting started with the DepthAI PoE device? You can check out `this tutorial <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
+
 Board layout & dimensions
 *************************
 
