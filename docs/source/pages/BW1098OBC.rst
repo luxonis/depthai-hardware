@@ -1,14 +1,14 @@
 .. _bw1098obc:
 
-DepthAI USB3C Baseboard (BW1098OBC)
-===================================
+OAK-D-PCBA
+==========
 
 .. image:: /_static/images/BW1098OBC/BW1098OBC_front.jpg
 
 Overview
 ********
 
-The BW1098OBC baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and 
+The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and 
 AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
 Board layout & dimensions
@@ -34,7 +34,7 @@ Key features
 Getting started
 ***************
 
-The BW1098OBC accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. Optionally, resistors can 
+The OAK-D-IoT-75 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. Optionally, resistors can 
 be configured on the board to allow for power to be provided via USB. With cameras and the DepthAI SoM, total power consumption usually stays 
 below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended.
 
