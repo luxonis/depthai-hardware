@@ -18,36 +18,33 @@ Documentation for each part includes an overview, getting started guide, images 
 .. note::
   We have just published our first :ref:`DepthAI Design Guide <design_guide>` that covers camera placement and mechanical stiffness. 
 
-OAK Designs
+
+USB Designs
 ***********
 
 .. list-table::
-   :widths: 30 30 30
+   :widths: 50 50
    :header-rows: 1
 
-   * - OAK-D (BW1098OAK)
-     - OAK-1 Modular (BK1096)
-     - BW1098OBC USB3C Baseboard
+   * - OAK-D
+     - OAK-1-PCBA
    * - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
      - .. image:: /_static/images/thumbnails/BK1096.png
           :target: pages/BK1096.html 
-     - .. image:: /_static/images/thumbnails/BW1098OBC.png
-          :target: pages/BW1098OBC.html
    * - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bk1096>` 
-     - :ref:`Learn more <bw1098obc>`
 
 POE Designs
 ***********
-
+     
 .. list-table::
    :widths: 30 30 30
    :header-rows: 1
-
-   * - OAK-D-POE (SJ2088POE)
-     - OAK-1-POE (SJ2096POE)
-     - POE Board (BW2096POE)
+     
+   * - OAK-D-POE 
+     - OAK-1-POE 
+     - POE Board 
    * - .. image:: /_static/images/thumbnails/SJ2088POE.png
           :target: pages/SJ2088POE.html 
      - .. image:: /_static/images/thumbnails/SJ2096POE.png
@@ -58,51 +55,15 @@ POE Designs
      - :ref:`Learn more <sj2096>` 
      - :ref:`Learn more <bw2096poe>`
 
-Integrated Raspberry Pi Designs
-*******************************
-
-.. list-table::
-   :widths: 30 30 30
-   :header-rows: 1
-
-   * - DepthAI with Pi CM3+ (BW1097)
-     - DepthAI with Pi CM4 (DM1097)
-     - RPi HAT Baseboard (BW1094)
-   * - .. image:: /_static/images/thumbnails/BW1097.png
-          :target: pages/BW1097.html
-     - .. image:: /_static/images/thumbnails/DM1097.png
-          :target: pages/DM1097.html
-     - .. image:: /_static/images/thumbnails/BW1094.png
-          :target: pages/BW1094.html 
-   * - :ref:`Learn more <bw1097>` 
-     - :ref:`Learn more <dm1097>` 
-     - :ref:`Learn more <bw1094>` 
-
-System on Module
-****************
+IoT Designs
+***********
 
 .. list-table::
    :widths: 50 50
    :header-rows: 1
 
-   * - DepthAI SoM (BW1099)
-     - DepthAI SoM with eMMC Flash (BW2099)
-   * - .. image:: /_static/images/thumbnails/BW1099.png
-          :target: pages/BW1099.html 
-     - .. image:: /_static/images/thumbnails/BW2099.png
-          :target: pages/BW2099.html 
-   * - :ref:`Learn more <bw1099>` 
-     - :ref:`Learn more <bw2099>`
-
-Pure Embedded Design
-********************
-
-.. list-table::
-   :widths: 50 50
-   :header-rows: 1
-
-   * - DepthAI Design with Onboard ESP32 (DM1092)
-     - OAK-D-WiFi (DM1098OBC)
+   * - OAK-D-IoT-40 (LUX-ESP32)
+     - OAK-D-IoT-75 (OAK-D-WiFi)
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: pages/DM1092.html 
      - .. image:: /_static/images/thumbnails/DM1098OBC_2.png
@@ -110,51 +71,95 @@ Pure Embedded Design
    * - :ref:`Learn more <dm1092>` 
      - :ref:`Learn more <dm1098obc>`
 
-USB Designs
-***********
-
-.. list-table::
-   :widths: 50 50
-   :header-rows: 1
-
-   * - DepthAI *NEW* FFC (DM1090FFC)
-     - DepthAI *OLD* FFC (BW1098FFC)
-   * - .. image:: /_static/images/thumbnails/DM1090FFC.png
-          :target: pages/DM1090.html 
-     - .. image:: /_static/images/thumbnails/BW1098FFC.png
-          :target: pages/BW1098FFC.html 
-   * - :ref:`Learn more <dm1090ffc>` 
-     - :ref:`Learn more <bw1098ffc>`
-
-Cameras
-*******
+Modular Cameras Designs
+***********************
 
 .. list-table::
    :widths: 30 30 30
    :header-rows: 1
 
-   * - Mono Camera (BG0250TG)
-     - RGB Camera (BG0249)
-     - RaspberryPi Adapter Camera
-   * - .. image:: /_static/images/thumbnails/BG0250TG.png
-          :target: pages/BG0250TG.html 
+   * - OAK-FFC-3P
+     - OAK-FFC-3P-OG
+     - OAK-FFC-OV9282
+   * - .. image:: /_static/images/thumbnails/DM1090FFC.png
+          :target: pages/DM1090.html 
+     - .. image:: /_static/images/thumbnails/BW1098FFC.png
+          :target: pages/BW1098FFC.html 
      - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249.html 
-     - .. image:: /_static/images/thumbnails/BW0253.jpg
-          :target: pages/BW0253.html
-   * - :ref:`Learn more <bg0250tg>` 
+   * - :ref:`Learn more <dm1090ffc>` 
+     - :ref:`Learn more <bw1098ffc>`
      - :ref:`Learn more <bg0249>` 
-     - :ref:`Learn more <bw0253>`  
 
 .. list-table::
-   :widths: 30 
+   :widths: 50 50
    :header-rows: 1
 
-   * - ArduCam Cameras
-   * - .. image:: /_static/images/thumbnails/arducam_2.png
+   * - OAK-FFC-OV9282 (mono, pair)
+     - ArduCam Cameras
+   * - .. image:: /_static/images/thumbnails/BG0250TG.png
+          :target: pages/BG0250TG.html 
+     - .. image:: /_static/images/thumbnails/arducam_2.png
           :target: pages/arducam.html 
-   * - :ref:`Learn more <arducam>`
-  
+   * - :ref:`Learn more <bg0250tg>` 
+     - :ref:`Learn more <arducam>`
+
+
+All in One Dev. Kits Designs
+****************************
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - OAK-D-CM3 (BW1097)
+     - OAK-D-CM4 (DM1097)
+   * - .. image:: /_static/images/thumbnails/BW1097.png
+          :target: pages/BW1097.html
+     - .. image:: /_static/images/thumbnails/DM1097.png
+          :target: pages/DM1097.html
+   * - :ref:`Learn more <bw1097>` 
+     - :ref:`Learn more <dm1097>` 
+
+
+System on Module Designs
+************************
+
+.. list-table::
+   :widths: 50 50
+   :header-rows: 1
+
+   * - OAK-SoM (BW1099)
+     - OAK-SoM-Pro (BW2099)
+   * - .. image:: /_static/images/thumbnails/BW1099.png
+          :target: pages/BW1099.html 
+     - .. image:: /_static/images/thumbnails/BW2099.png
+          :target: pages/BW2099.html 
+   * - :ref:`Learn more <bw1099>` 
+     - :ref:`Learn more <bw2099>`
+
+
+Miscellaneous Designs
+*********************
+
+.. list-table::
+   :widths: 30 30 30
+   :header-rows: 1
+
+   * - OAK-D-PCBA
+     - RPi Adapter Camera
+     - RPi HAT Baseboard (BW1094)
+   * - .. image:: /_static/images/thumbnails/BW1098OBC.png
+          :target: pages/BW1098OBC.html
+     - .. image:: /_static/images/thumbnails/BW0253.jpg
+          :target: pages/BW0253.html
+     - .. image:: /_static/images/thumbnails/BW1094.png
+          :target: pages/BW1094.html 
+   * - :ref:`Learn more <bw1098obc>`
+     - :ref:`Learn more <bw0253>` 
+     - :ref:`Learn more <bw1094>`  
+
+
 
 .. include::  /pages/includes/footer-long.rst
 
@@ -162,17 +167,17 @@ Cameras
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Design Guide
+   :caption: Guides
     
    pages/design_guide.rst
+   pages/powering_poe_devices.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: OAK Designs
+   :caption: USB Designs
 
    pages/BW1098OAK.rst
-   pages/BW1098OBC.rst
    pages/BK1096.rst
 
 .. toctree::
@@ -183,17 +188,35 @@ Cameras
    pages/SJ2088POE.rst
    pages/SJ2096POE.rst
    pages/BW2098POE.rst
-   pages/powering_poe_devices.rst
+  
    
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Integrated Raspberry Pi Designs
+   :caption: IoT Design
+
+   pages/DM1092.rst
+   pages/DM1098OBC.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Modular Cameras
+
+   pages/DM1090.rst
+   pages/BW1098FFC.rst
+   pages/BG0250TG.rst
+   pages/BG0249.rst
+   pages/arducam.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: All In One Dev. Kits
 
    pages/BW1097.rst
    pages/DM1097.rst
-   pages/BW1094.rst
-
+   
 .. toctree::
    :maxdepth: 1
    :hidden:
@@ -205,26 +228,9 @@ Cameras
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: Pure Embedded Design
+   :caption: Miscellaneous Designs
 
-   pages/DM1092.rst
-   pages/DM1098OBC.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: USB Designs
-
-   pages/DM1090.rst
-   pages/BW1098FFC.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Cameras
-
-   pages/BG0250TG.rst
-   pages/BG0249.rst
+   pages/BW1098OBC.rst
    pages/BW0253.rst
-   pages/arducam.rst
+   pages/BW1094.rst
 

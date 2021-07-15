@@ -1,16 +1,16 @@
 .. _bw1098ffc:
 
-DepthAI *OLD* FFC (BW1098FFC)
-=============================
+OAK-FFC-3P-OG
+=============
 
 .. image:: /_static/images/BW1098FFC/BW1098FFC_front.jpg
 
 Overview
 ********
 
-The BW1098FFC baseboard has three FFC interfaces which allow for two :ref:`BG0250TG <bg0250tg>` camera modules (stereo pair) 
+The OAK-FFC-3P-OG (BW1098FFC) baseboard has three FFC interfaces which allow for two :ref:`BG0250TG <bg0250tg>` camera modules (stereo pair) 
 and one :ref:`BG0249 <bg0249>` RGB camera module. This board can also be used with adapters for the Raspberry Pi HQ Camera, using 
-the BW0253_R0M0E0 Raspberry Pi HQ Cam Adapter Board.
+the :ref: `Raspberry Pi Adapter Board <bw0253>`.
 
 Baseboards and cameras (BW1098FFC + :ref:`BG0250TG <bg0250tg>` + :ref:`BG0249 <bg0249>`) together:
 

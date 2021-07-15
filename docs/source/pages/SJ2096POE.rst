@@ -1,16 +1,16 @@
 .. _sj2096:
 
-OAK-1-POE (SJ2096POE)
-=====================
+OAK-1-POE
+=========
 
 .. image:: /_static/images/SJ2096POE/SJ2096POE.jpg
 
 Overview
 ********
 
-The OAK-1-POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The SJ2096POE baseboard has one on-board 
+The OAK-1-POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-1-POE (SJ2096POE) baseboard has one on-board 
 cameras which implement RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host 
-via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The SJ2096POE board exposes boot selection switches, allowing the end 
+via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-1-POE board exposes boot selection switches, allowing the end 
 user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
 .. note::

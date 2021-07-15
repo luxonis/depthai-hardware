@@ -1,7 +1,7 @@
 .. _bw1098oak:
 
-OAK-D (BW1098OAK)
-=================
+OAK-D
+=====
 
 .. image:: /_static/images/BW1098OAK/BW1098oak.jpg
 
