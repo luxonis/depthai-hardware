@@ -1,7 +1,7 @@
 .. _bg0250tg:
 
-OAK-FFC-OV9282 (mono)
-=====================
+OAK-FFC-OV9282
+==============
 
 .. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_front.jpg
 

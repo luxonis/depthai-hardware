@@ -30,7 +30,7 @@ USB Designs
      - OAK-1-PCBA
    * - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
-     - .. image:: /_static/images/thumbnails/BK1096.png
+     - .. image:: /_static/images/thumbnails/megaai.png
           :target: pages/BK1096.html 
    * - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bk1096>` 
@@ -80,10 +80,10 @@ Modular Cameras Designs
 
    * - OAK-FFC-3P
      - OAK-FFC-3P-OG
-     - OAK-FFC-OV9282
-   * - .. image:: /_static/images/thumbnails/DM1090FFC.png
+     - OAK-FFC-IMX378
+   * - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
           :target: pages/DM1090.html 
-     - .. image:: /_static/images/thumbnails/BW1098FFC.png
+     - .. image:: /_static/images/thumbnails/bw1098_new.png
           :target: pages/BW1098FFC.html 
      - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249.html 
@@ -95,7 +95,7 @@ Modular Cameras Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-FFC-OV9282 (mono, pair)
+   * - OAK-FFC-OV9282
      - ArduCam Cameras
    * - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html 
@@ -112,8 +112,8 @@ All in One Dev. Kits Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-D-CM3 (BW1097)
-     - OAK-D-CM4 (DM1097)
+   * - OAK-D-CM3
+     - OAK-D-CM4
    * - .. image:: /_static/images/thumbnails/BW1097.png
           :target: pages/BW1097.html
      - .. image:: /_static/images/thumbnails/DM1097.png
@@ -129,8 +129,8 @@ System on Module Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-SoM (BW1099)
-     - OAK-SoM-Pro (BW2099)
+   * - OAK-SoM
+     - OAK-SoM-Pro
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html 
      - .. image:: /_static/images/thumbnails/BW2099.png
@@ -148,7 +148,7 @@ Miscellaneous Designs
 
    * - OAK-D-PCBA
      - RPi Adapter Camera
-     - RPi HAT Baseboard (BW1094)
+     - RPi HAT Baseboard
    * - .. image:: /_static/images/thumbnails/BW1098OBC.png
           :target: pages/BW1098OBC.html
      - .. image:: /_static/images/thumbnails/BW0253.jpg
