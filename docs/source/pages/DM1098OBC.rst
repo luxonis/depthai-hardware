@@ -1,6 +1,6 @@
 .. _dm1098obc:
 
-OAK-D-IoT-75
+OAK-D-IOT-75
 ============
 
 .. image:: /_static/images/DM1098OBC/DM1098OBC.jpg

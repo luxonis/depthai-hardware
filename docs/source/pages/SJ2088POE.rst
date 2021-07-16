@@ -3,7 +3,7 @@
 OAK-D-POE
 =========
 
-.. image:: /_static/images/SJ2088POE/SJ2088POE.jpg
+.. image:: /_static/images/SJ2088POE/oak-d-poe_2.png
 
 Overview
 ********
@@ -40,6 +40,10 @@ Key features
 Getting started
 ***************
 
+.. note:: 
+    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
+
+
 The OAK-D-POE accepts power input from any 802.3af, Class 3 PoE circuitry. So this for example includes any/every POE UniFi Switch 
 (e.g. US-8-150W) and any other standard POE switch and/or 802.3af POE injector. Power consumption is typically 5W, 
 leaving ~7.5W available if active lighting is desired additionally over POE/etc.
@@ -56,6 +60,8 @@ The "RUN" LED indicates that the DepthAI SoM is not in reset.
 
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 
 57V may exist. Always use electronics handling best practices.**
+
+.. image:: /_static/images/SJ2088POE/oak-d-poe.png
 
 Altium project files
 ********************

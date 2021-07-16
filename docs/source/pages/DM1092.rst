@@ -1,6 +1,6 @@
 .. _dm1092:
 
-OAK-D-IoT-40
+OAK-D-IOT-40
 ============
 
 .. image:: /_static/images/DM1092/DM1092.jpg

@@ -40,6 +40,10 @@ Key features
 Getting started
 ***************
 
+.. note:: 
+    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
+
+    
 The OAK-1-POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
 Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is 
 configured with the DIP switch bank near the USB connector. With the :ref:`BW0249 <bg0249>` camera and the DepthAI :ref:`BW2099 <bw2099>` SoM running inference, 

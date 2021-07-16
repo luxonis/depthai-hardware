@@ -30,7 +30,7 @@ USB Designs
      - OAK-1-PCBA
    * - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
-     - .. image:: /_static/images/thumbnails/megaai.png
+     - .. image:: /_static/images/thumbnails/OAK-1.png
           :target: pages/BK1096.html 
    * - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bk1096>` 
@@ -45,7 +45,7 @@ POE Designs
    * - OAK-D-POE 
      - OAK-1-POE 
      - POE Board 
-   * - .. image:: /_static/images/thumbnails/SJ2088POE.png
+   * - .. image:: /_static/images/thumbnails/oak-d-poe.png
           :target: pages/SJ2088POE.html 
      - .. image:: /_static/images/thumbnails/SJ2096POE.png
           :target: pages/SJ2096POE.html
@@ -62,8 +62,8 @@ IoT Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-D-IoT-40 (LUX-ESP32)
-     - OAK-D-IoT-75 (OAK-D-WiFi)
+   * - OAK-D-IOT-40 (LUX-ESP32)
+     - OAK-D-IOT-75 (OAK-D-WiFi)
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: pages/DM1092.html 
      - .. image:: /_static/images/thumbnails/DM1098OBC_2.png
