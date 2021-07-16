@@ -1,14 +1,14 @@
 .. _bw2096poe:
 
-POE Board (BW2098POE)
-=====================
+POE Board
+=========
 
 .. image:: /_static/images/BW2098POE/BW2098POE_up.jpg
 
 Overview
 ********
 
-The BW2098POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 
+The POE Board baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 
 5V barrel jack. The Luxonis :ref:`BG0249 <bg0249>` 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 
 channel directly into the Myriad X on the BW2099 module for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). 
 Finally, the BW2098POE board exposes boot selection switches, allowing the end user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC 
