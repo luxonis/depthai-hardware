@@ -62,6 +62,6 @@ For the custom-length cable route, you can use `TOUGHCable PRO cable <https://ww
 together with `TOUGHCable connectors <https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0>`__.  Our team has used this combination extensively in the past for outdoor installations.  (A crimping too, such as `this one <https://www.amazon.com/Ratcheting-Stripper-Klein-Tools-VDV226-011-SEN/dp/B002D3B97U/ref=pd_lpo_1?pd_rd_i=B002D3B97U&psc=1>`__ is necessary to crimp the connectors to the cable.)
 
 .. note::
-  **We recommend using Cat5e ethernet cable**, as the newer ones are bigger and might not fit into the camera.
+  **We recommend using Cat5e ethernet cable**, as the newer ones are bigger and might not fit properly in the IP67 gland.
 
 *Note that we are not connected with any of these products linked, we just have had good experience with them, and some of us may or may not have worked on the UniFi team in the past.*
