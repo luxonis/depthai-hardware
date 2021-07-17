@@ -11,14 +11,14 @@ Overview
 `ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with DepthAI
 and megaAI. A variety of M12-mount options allow to match lenses in many projects.
 
-OAK-FCC compatible cameras
-**************************
+:ref:`FCC <dm1090ffc>` compatible cameras
+*****************************************
 
 - `M12-Mount Global Shutter Grayscale OV9282 <https://www.arducam.com/product/arducam-1mp-ov9282-global-shutter-mono-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 - `M12-Mount Global Shutter Color OV9782 <https://www.arducam.com/product/arducam-1mp-ov9782-global-shutter-color-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 
 These two cameras are compatible with the :ref:`OAK-FFC-3P <dm1090ffc>`. And since they have **M12 mount**,
-you can use a variety of **differnet lenses** (for **custom FoV**), for example:
+you can use a variety of **different lenses** (for **custom FoV**), for example:
 
 - Kit of `10 different M12 lenses <https://www.arducam.com/product/m12-mount-camera-lens-kit-arduino-raspberry-pi/>`__ (for testing purposes),
 - `M25156H14 (HFoV: 141°C) <https://www.arducam.com/product/M25156H14/>`__,

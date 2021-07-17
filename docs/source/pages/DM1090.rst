@@ -12,7 +12,8 @@ The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI
 :ref:`BG0249 <bg0249>` RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. DM0250TG if DM0249 RGB camera module is not required.
 
 Please note that only revision R1M1E1 and newer camera modules can be connected to the DM1090FFC. With DM1090FFC we gained support for 22-pin RPi camera 
-interface. For that you will need a FFC from Arducam, which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
+interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
+which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
 Here's a list of :ref:`compatible ArduCam cameras <OAK-FCC compatible cameras>` with the DM1090FFC. Those cameras have a M12 mount, so you can use
 different lenses to get **custom FoV** (they have wide and narrow angle M12 lenses).
