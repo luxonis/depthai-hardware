@@ -5,7 +5,7 @@ We currently have two Power-over-Ethernet (PoE) devices:
  - :ref:`OAK-D-POE <sj2088poe>` and 
  - :ref:`OAK-1-POE <sj2096>`
 
-If you are new to Power over Ethernet (POE), welcome; POE is extremely convenient.  POE allows a single Cat5e (or higher) Ethernet cable to be used to both power a device and give it connectivity at 1,000mbps (1gbps) full-duplex (so 2 gpbs aggregate) at up to 100 meters (328 feet).
+If you are new to Power over Ethernet (POE), welcome; POE is extremely convenient.  POE allows a single Cat5e (or higher) Ethernet cable to be used to both power a device and give it connectivity at 1,000mbps (1gbps) full-duplex at up to 100 meters (328 feet).
 
 In this tutorial, we will go through the suggested hardware to use with Luxonis POE devices.  
 
@@ -61,5 +61,7 @@ Cables with boots often will not fit in these water-sealing glands (since they a
 For the custom-length cable route, you can use `TOUGHCable PRO cable <https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW>`__
 together with `TOUGHCable connectors <https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0>`__.  Our team has used this combination extensively in the past for outdoor installations.  (A crimping too, such as `this one <https://www.amazon.com/Ratcheting-Stripper-Klein-Tools-VDV226-011-SEN/dp/B002D3B97U/ref=pd_lpo_1?pd_rd_i=B002D3B97U&psc=1>`__ is necessary to crimp the connectors to the cable.)
 
+.. note::
+  **We recommend using Cat5e ethernet cable**, as the newer ones are bigger and might not fit into the camera.
 
 *Note that we are not connected with any of these products linked, we just have had good experience with them, and some of us may or may not have worked on the UniFi team in the past.*
