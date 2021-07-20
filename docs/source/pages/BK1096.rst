@@ -1,17 +1,17 @@
 .. _bk1096:
 
-OAK-1 Modular (BK1096)
-======================
+OAK-1-PCBA
+==========
 
 .. image:: /_static/images/BK1096/BK1096_sq.jpg
 
 Overview
 ********
 
-The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to 
+The OAK-1-PCBA (BK1096) baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to 
 the DepthAI SoM.
 
-This is the open-source equivalent of BW1093 (OAK-1, megaAI) which uses the BW1099 SoM (System on Module). The BW1093 itself cannot be open-sourced 
+This is the open-source equivalent of OAK-1 (BW1093, megaAI) which uses the BW1099 SoM (System on Module). The BW1093 itself cannot be open-sourced 
 because it contains proprietary chip-down vendor information and therefore cannot be shared publicly.
 
 Board layout & dimensions
@@ -32,10 +32,13 @@ Key features
 * Access to SoM 1.8V I2C and UART
 * Design files produced with Altium Designer 20
 
+
+.. image:: /_static/images/BK1096/megaAI_front.jpg
+
 Getting started
 ***************
 
-The BK1096_R0M0E0 is designed to be powered from the USB Type-C connector. With the BW0249 camera and the DepthAI BW2099 SoM running 
+The OAK-1-PCBA is designed to be powered from the USB Type-C connector. With the BW0249 camera and the DepthAI BW2099 SoM running 
 inference, power consumption is typically about 3W (0.6A @ 5V).
 
 The reset button resets the Luxonis DepthAI BW1099 SoM only.

@@ -1,16 +1,16 @@
 .. _sj2088poe:
 
-OAK-D-POE (SJ2088POE)
-=====================
+OAK-D-POE
+=========
 
-.. image:: /_static/images/SJ2088POE/SJ2088POE.jpg
+.. image:: /_static/images/SJ2088POE/oak-d-poe_2.png
 
 Overview
 ********
 
-The SJ2088POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The SJ2088POE baseboard has three on-board 
+The OAK-D-POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-D-POE baseboard has three on-board 
 cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output 
-to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther SJ2088POE board exposes boot selection switches, allowing 
+to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther OAK-D-POE board exposes boot selection switches, allowing 
 the end user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
 .. note::
@@ -40,7 +40,11 @@ Key features
 Getting started
 ***************
 
-The SJ2088POE accepts power input from any 802.3af, Class 3 PoE circuitry. So this for example includes any/every POE UniFi Switch 
+.. note:: 
+    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
+
+
+The OAK-D-POE accepts power input from any 802.3af, Class 3 PoE circuitry. So this for example includes any/every POE UniFi Switch 
 (e.g. US-8-150W) and any other standard POE switch and/or 802.3af POE injector. Power consumption is typically 5W, 
 leaving ~7.5W available if active lighting is desired additionally over POE/etc.
 
@@ -56,6 +60,8 @@ The "RUN" LED indicates that the DepthAI SoM is not in reset.
 
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 
 57V may exist. Always use electronics handling best practices.**
+
+.. image:: /_static/images/SJ2088POE/oak-d-poe.png
 
 Altium project files
 ********************

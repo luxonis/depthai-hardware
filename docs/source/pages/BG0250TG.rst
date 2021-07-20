@@ -1,14 +1,14 @@
 .. _bg0250tg:
 
-Mono Camera Module (BG0250TG_R0M0E0)
-====================================
+OAK-FFC-OV9282
+==============
 
 .. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_front.jpg
 
 Overview
 ********
 
-The BW0250TG is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with the :ref:`BW1094 <bw1094>` and 
+The OAK-FFC-OV9282 is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with the :ref:`BW1094 <bw1094>` and 
 :ref:`BW1098FFC <bw1098ffc>` baseboards. A 20-pin FFC is used to carry 5V power, 2-lane MIPI, I2C, and other control signals between the BW0250TG and the 
 controller baseboards. A single BG0250TG is typically paired with another to create a stereo camera pair.
 

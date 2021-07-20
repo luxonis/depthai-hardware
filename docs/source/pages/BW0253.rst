@@ -1,14 +1,14 @@
 .. _bw0253:
 
-Raspberry Pi HQ Cam Adapter Board (BW0253_R0M0E0)
-=================================================
+RaspberryPi Adapter Camera
+==========================
 
 .. image:: /_static/images/BW0253/BW0253_sq.jpg
 
 Overview
 ********
 
-The BW0253_R0M0E0 is an adapter board to allow the Raspberry Pi HQ camera to physically interface to the DepthAI RGB camera port on 
+The RaspberryPi Adapter Camera (BW0253_R0M0E0) is an adapter board to allow the Raspberry Pi HQ camera to physically interface to the DepthAI RGB camera port on 
 the :ref:`BW1098FFC <bw1098ffc>`.
 
 This allows using DepthAI with all sorts of lens combinations, including variable zoom, variable focus, and even with a telescope.

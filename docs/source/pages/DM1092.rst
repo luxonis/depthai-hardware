@@ -1,14 +1,14 @@
 .. _dm1092:
 
-DepthAI Design with Onboard ESP32 for WiFi and BT (DM1092)
-==========================================================
+OAK-D-IOT-40
+============
 
 .. image:: /_static/images/DM1092/DM1092.jpg
 
 Overview
 ********
 
-This design is one of two baseboards for the DepthAI: System on Module (SoM) - Embedded Variant (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
+This design is one of two baseboards for the OAK-SoM-IoT (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
 To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and 
 `here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
 
@@ -28,7 +28,7 @@ This design will serve as a reference for multiple purposes:
 Getting started
 ***************
 
-The DM1092 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either 
+The OAK-D-IoT-40 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either 
 the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is configured on BW1099EMB with BOOT resistors.
 
 * The reset button resets the Luxonis DepthAI :ref:`BW1099EMB <bw1099>` SoM only.

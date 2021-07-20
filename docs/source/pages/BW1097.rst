@@ -1,14 +1,14 @@
 .. _bw1097:
 
-DepthAI with Pi CM 3+ (BW1097) 
-==============================
+OAK-D-CM3
+=========
 
 .. image:: /_static/images/BW1097/BW1097_sq.jpg
 
 Overview
 ********
 
-Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis DepthAI SoM to allow 
+Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the Luxonis DepthAI SoM to allow 
 for fully integrated solution for real-time spatial AI.
 
 Board layout & dimensions
@@ -43,7 +43,7 @@ Key features
 Getting started
 ***************
 
-The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows 
+The OAK-D-CM3 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows 
 initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not 
 populated by default, but can be added, allowing JTAG access.
 
