@@ -11,7 +11,7 @@ Overview
 `ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with DepthAI
 and megaAI. A variety of M12-mount options allow to match lenses in many projects.
 
-:ref:`FCC <dm1090ffc>` compatible cameras
+:ref:`OAK-FFC <dm1090ffc>` compatible cameras
 *****************************************
 
 - `M12-Mount Global Shutter Grayscale OV9282 <https://www.arducam.com/product/arducam-1mp-ov9282-global-shutter-mono-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
