@@ -1,0 +1,3495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\lafky\Desktop\DepthAI\depthai-hardware\OSHW_KiCad_Community\Reference Designs (In Progress)\DepthABC\DepthABC.sch</source>
+    <date>7/5/2021 7:11:27 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DepthABC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SoM_BW1099/" tstamps="/5FF8D9B2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SoM_BW1099.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CAMS.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USBC&amp;POWER/" tstamps="/60483E6B/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DepthABC_USBC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="FID1">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">~</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049A903</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">~</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF51DEB</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">~</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049A905</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">~</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049A906</tstamp>
+    </comp>
+    <comp ref="FID5">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">~</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049A907</tstamp>
+    </comp>
+    <comp ref="FID6">
+      <value>Fiducial</value>
+      <footprint>Fiducial:Fiducial_1mm_Mask2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">~</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="Fiducial" description="Fiducial Marker"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C0C22</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">Arducam mounts</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C0C23</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">Arducam mounts</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C0C24</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">Arducam mounts</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C0C25</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_M3</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">Arducam mounts</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600C0C26</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>FAN</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A1363B</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole_Pad</value>
+      <footprint>Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&amp;utm_medium=aggregator&amp;curr=usd&amp;utm_source=octopart</field>
+        <field name="MANUFACTURER">Wuerth</field>
+        <field name="MPN1">9774030243R</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">SoM Mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EF7A</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole_Pad</value>
+      <footprint>Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&amp;utm_medium=aggregator&amp;curr=usd&amp;utm_source=octopart</field>
+        <field name="MANUFACTURER">Wuerth</field>
+        <field name="MPN1">9774030243R</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">SoM Mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EF92</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole_Pad</value>
+      <footprint>Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&amp;utm_medium=aggregator&amp;curr=usd&amp;utm_source=octopart</field>
+        <field name="MANUFACTURER">Wuerth</field>
+        <field name="MPN1">9774030243R</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">SoM Mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EF98</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole_Pad</value>
+      <footprint>Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&amp;utm_medium=aggregator&amp;curr=usd&amp;utm_source=octopart</field>
+        <field name="MANUFACTURER">Wuerth</field>
+        <field name="MPN1">9774030243R</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">SoM Mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EF9E</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EFCC</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EFDE</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kingbright/APT2012SYCK-J3-PRV/4753624</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="MPN1">APT2012SYCK/J3-PRV</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2V 0805 20mA test orange LED</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EFFA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="MPN1">ESR03EZPF10R0</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F000</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kingbright/APT2012SYCK-J3-PRV/4753624</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="MPN1">APT2012SYCK/J3-PRV</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2V 0805 20mA test orange LED</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F015</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="MPN1">ESR03EZPF10R0</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F01B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>RK7002B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2.5V Drive Nch FET ESD Protection Diode</field>
+        <field name="Substitutes ">W/ APPROVAL</field>
+        <field name="Voltage Rating">60V 250mA</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="RK7002B-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F022</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="MPN1">APT2012SRCPRV</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2V 0805 20mA test red LED</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F030</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="MPN1">ESR03EZPF10R0</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F036</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>RK7002B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2.5V Drive Nch FET ESD Protection Diode</field>
+        <field name="Substitutes ">W/ APPROVAL</field>
+        <field name="Voltage Rating">60V 250mA</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="RK7002B-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F03D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="MPN1">ESR03EZPF10R0</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F045</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>BW1099EMB_SoM</value>
+      <footprint>Luxonis_KiCad_Master:DF40HC(3.0)-100DS-0.4V(58)</footprint>
+      <datasheet>https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&amp;productname=DF40C-60DP-0.4V(51)&amp;series=DF40&amp;documenttype=Catalog&amp;lang=en&amp;documentid=D31649_en</datasheet>
+      <fields>
+        <field name="Link1">https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V58?qs=Gufeu08L%2Fl14mOnXtNJDUw%3D%3D</field>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MPN1">DF40HC(3.0)-100DS-0.4V(58)</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">SoM header</field>
+        <field name="Substitutes ">N</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F08A</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F090</tstamp>
+    </comp>
+    <comp ref="MISC1">
+      <value>Layout_Guide_BW1099</value>
+      <footprint>Luxonis_KiCad_Master:BW1099_Layout_Guide</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">Luxonis</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6017E490</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2x05 FEMALE 2.54mm pin socket</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6044CBBE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2x05 FEMALE 2.54mm pin socket</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>60463FCD</tstamp>
+    </comp>
+    <comp ref="B1">
+      <value>Off-Mohm, 50mA</value>
+      <footprint>depthABC:SW_PTS636_SM43J_SMTR_LFS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/c-k/PTS636-SM43-SMTR-LFS/10071723</field>
+        <field name="MANUFACTURER">C&amp;K</field>
+        <field name="MPN1">PTS636</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">reset switch</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009EFB5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="MPN1">APT2012SRCPRV</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2V 0805 20mA test red LED</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>60B613EE</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="MPN1">ESR03EZPF10R0</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>60B613F4</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>RK7002B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2.5V Drive Nch FET ESD Protection Diode</field>
+        <field name="Substitutes ">W/ APPROVAL</field>
+        <field name="Voltage Rating">60V 250mA</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="RK7002B-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>60B613FB</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73S1JTTD1001F/10279992</field>
+        <field name="MANUFACTURER">KOA</field>
+        <field name="MPN1">SG73S1JTTD1001F</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>60B61403</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531</field>
+        <field name="MANUFACTURER">Kingbright</field>
+        <field name="MPN1">APT2012SRCPRV</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2V 0805 20mA test red LED</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6065D3AE</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="MPN1">ESR03EZPF10R0</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6065D3B4</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>RK7002B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2.5V Drive Nch FET ESD Protection Diode</field>
+        <field name="Substitutes ">W/ APPROVAL</field>
+        <field name="Voltage Rating">60V 250mA</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="RK7002B-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6065D3BB</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>RK7002B</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA</field>
+        <field name="MANUFACTURER">ROhm</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">2.5V Drive Nch FET ESD Protection Diode</field>
+        <field name="Substitutes ">W/ APPROVAL</field>
+        <field name="Voltage Rating">60V 250mA</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="RK7002B-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6009F007</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>607E4FD8</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6083F113</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73S1JTTD1001F/10279992</field>
+        <field name="MANUFACTURER">KOA</field>
+        <field name="MPN1">SG73S1JTTD1001F</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/SoM_BW1099/" tstamps="/5FF8D9B2/"/>
+      <tstamp>6065D3C3</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>603D7B72</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>603D7B7E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>603D7B96</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>26_pin_FFC</value>
+      <footprint>Luxonis_KiCad_Master:F32R-26p-FFC</footprint>
+      <fields>
+        <field name="Link1">https://www.mouser.com/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11026?qs=xZ%2FP%252Ba9zWqYrrDYjP3Iz3Q%3D%3D</field>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MPN1">F32R-1A7H1-11026</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">DM Series Luxonis FFC</field>
+        <field name="Substitutes ">N</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DEPTH" part="26_pin_FFC" description="Generic connectable mounting pin connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>6085B78A</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>26_pin_FFC</value>
+      <footprint>Luxonis_KiCad_Master:F32R-26p-FFC</footprint>
+      <fields>
+        <field name="Link1">https://www.mouser.com/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11026?qs=xZ%2FP%252Ba9zWqYrrDYjP3Iz3Q%3D%3D</field>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MPN1">F32R-1A7H1-11026</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">DM Series Luxonis FFC</field>
+        <field name="Substitutes ">N</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DEPTH" part="26_pin_FFC" description="Generic connectable mounting pin connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>60B1E6DA</tstamp>
+    </comp>
+    <comp ref="CAM1">
+      <value>Arducam_Module</value>
+      <footprint>Luxonis_KiCad_Master:arducam_40mm_34mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">Arducam</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DEPTH" part="40mm_Arducam_Module" description=""/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>60388CE3</tstamp>
+    </comp>
+    <comp ref="CAM2">
+      <value>Arducam_Module</value>
+      <footprint>Luxonis_KiCad_Master:arducam_40mm_34mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">Arducam</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DEPTH" part="40mm_Arducam_Module" description=""/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>6039AEA1</tstamp>
+    </comp>
+    <comp ref="CAM3">
+      <value>Arducam_Module</value>
+      <footprint>Luxonis_KiCad_Master:arducam_40mm_34mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">Arducam</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DEPTH" part="40mm_Arducam_Module" description=""/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>6039B617</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>26_pin_FFC</value>
+      <footprint>Luxonis_KiCad_Master:F32R-26p-FFC</footprint>
+      <fields>
+        <field name="Link1">https://www.mouser.com/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11026?qs=xZ%2FP%252Ba9zWqYrrDYjP3Iz3Q%3D%3D</field>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MPN1">F32R-1A7H1-11026</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">DM Series Luxonis FFC</field>
+        <field name="Substitutes ">N</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DEPTH" part="26_pin_FFC" description="Generic connectable mounting pin connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/CAMERA_FFC_DUAL/" tstamps="/5FF8D2B3/"/>
+      <tstamp>603E9FF0</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BD7</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BDE</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BE5</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BEC</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BF3</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C104K8RACTU</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 10%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BF9</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C104K8RACTU</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 10%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8BFF</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C104K8RACTU</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 10%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C0B</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1.8M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C11</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1.8M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD"> 1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C17</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C1D</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C30</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C36</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C3C</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C42</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C48</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C4E</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C54</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C5A</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C60</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C66</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-7W10KL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">1%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C6C</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60CF6C4E</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60CF6C54</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>2-bit bidirectional level shifter </value>
+      <footprint>Package_SO:TSSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0102.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/nxp-usa-inc/NTB0102DP-Q100H/4289801</field>
+        <field name="MANUFACTURER">NXP</field>
+        <field name="MPN1">NTB0102DP-Q100H</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Logic_LevelTranslator" part="TXB0102DCT" description="2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604F1A9B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60886AFD</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60889E92</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6088A2BF</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6088A715</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6088B6ED</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6088BABA</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>609D6B08</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>609D6B0F</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60A46E33</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6054716D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60547173</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60547179</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>605CDA58</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60947697</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60A6A230</tstamp>
+    </comp>
+    <comp ref="MISC2">
+      <value>Layout_Guide_ABC</value>
+      <footprint>ABC:ABC-Layout</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">Luxonis</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60C31494</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607E9843</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607E9849</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607E984F</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607E9855</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607E985B</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607E9861</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008</field>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MPN1">RC0603FR-070RL</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">1/10W </field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>607FBF8B</tstamp>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole_4-40</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">ABC mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6062CDE2</tstamp>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole_4-40</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">ABC mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>606A0597</tstamp>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole_4-40</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">ABC mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>606C740B</tstamp>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole_4-40</value>
+      <footprint>MountingHole:MountingHole_3mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">ABC mount</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>606DA36F</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>USBC 3.1 Vertical</value>
+      <footprint>AMPHENOL_10132328-10011LF</footprint>
+      <fields>
+        <field name="Link1">https://www.amphenol-icc.com/usb-1013232810011lf.html?__cf_chl_jschl_tk__=0f5ca71e87e5c21f3558710009ce813cb5029150-1618280928-0-Ae1QLIIZL77w7L0Za4797vDMhHlVdapWk_pPFpeR05FI2lEl93-ukIaj2wtzXQ_tU7C9Blcmn4x_tzPbtZpji2TBBs1oh7gECH1P6N3W4s3PmPp0p6TWnq_LBestk2_yHmoDtoVJRs74rKO1Bc_n0RJpgpNZSglm3wci3mnRDblYi8js1mlgva-H7Pqbj22_Zy8vepA-0e0-VIQN5IUiaRH9njPgdWDKvjoPw3TGdoCLu9Qc4McAIw0eTgiXqqZrHFKF8FDzTJ2XLhYTFZ65MNW8DNWyC269lpWRqdBHEKHk5YzpHW7dqCl56wEaQeXZr7gbIU9bq1xJ2Ygu5FD_TGs42A4CWEipT0p0CWvPFTFAi9WiuuQWPNkshYvOn3QqF_aTQQbLcHV7zuAivF3DP6Kt9vmOdob547ArJEJnslOYIFVV4rrOxiFw_C9KI4Fw0pqsmJSUB_-z58wJcutnFfw</field>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.80mm</field>
+        <field name="MPN1">10132328-10011LF</field>
+        <field name="PARTREV">A</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">N</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="10132328-10011LF" part="10132328-10011LF" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6062DC2A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF </value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C106M8PAC7867</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 20%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60949A0A</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>6095CFF9</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x25_Counter_Clockwise</value>
+      <footprint>ABC:DF23C-50DS-0.5V(51)</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.mouser.com/ProductDetail/Hirose-Connector/DF23C-50DS-05V51?qs=nSryOFbzj8K%252BlAT%2FH6jJhg%3D%3D</field>
+        <field name="MANUFACTURER">Amphenol</field>
+        <field name="MPN1">DF23C-50DS-0.5V(51)</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">ABC header</field>
+        <field name="Substitutes ">N</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x25_Counter_Clockwise" description="Generic connector, double row, 02x25, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60AD703F</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094</field>
+        <field name="MANUFACTURER">Kemet</field>
+        <field name="MPN1">C0603C104K8RACTU</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">X5R 10%</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">OR EQUIVALENT</field>
+        <field name="Voltage Rating">10V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>604C8C05</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CBTL02043A</value>
+      <footprint>Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm</footprint>
+      <datasheet>https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf</datasheet>
+      <fields>
+        <field name="Link1">https://www.digikey.com/en/products/detail/nxp-usa-inc/CBTL02043ABQ-115/2619746</field>
+        <field name="MANUFACTURER">NXP</field>
+        <field name="MPN1">CBTL02043ABQ,115</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">Usb mux</field>
+        <field name="Substitutes ">N</field>
+      </fields>
+      <libsource lib="Analog_Switch" part="CBTL02043A" description="3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60DF561C</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>PTN5150HXMP</value>
+      <footprint>Luxonis_KiCad_Master:PTN5150HXMP</footprint>
+      <datasheet>http://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">PTN5150HXMP</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ptn5150hxmp/nxp-semiconductors</field>
+        <field name="Description">NXP - PTN5150HXMP - USB TYPE-C CC LOGIC/PORT CONTROL, X2QFN</field>
+        <field name="Height">0.35</field>
+        <field name="Link1">https://www.digikey.com/en/products/detail/nxp-usa-inc/PTN5150HXMP/5981071</field>
+        <field name="MANUFACTURER">NXP</field>
+        <field name="MPN1">PTN5150HXMP</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">PTN5150HXMP</field>
+        <field name="Mouser Part Number">771-PTN5150HXMP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PTN5150HXMP</field>
+        <field name="Population">Y</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">Usb port control</field>
+        <field name="Substitutes ">N</field>
+      </fields>
+      <libsource lib="DEPTH" part="PTN5150HXMP" description="NXP - PTN5150HXMP - USB TYPE-C CC LOGIC/PORT CONTROL, X2QFN"/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>61036230</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60EBD88D</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>~</value>
+      <footprint>TestPoint:TestPoint_Pad_D2.0mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Link1">~</field>
+        <field name="MANUFACTURER">~</field>
+        <field name="MPN1">~</field>
+        <field name="Population">NO POP</field>
+        <field name="STANDARD">~</field>
+        <field name="Short Description">~</field>
+        <field name="Substitutes ">~</field>
+        <field name="Voltage Rating">~</field>
+      </fields>
+      <libsource lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue" description=""/>
+      <sheetpath names="/USBC&amp;POWER/" tstamps="/60483E6B/"/>
+      <tstamp>60EBE5FD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="10132328-10011LF" part="10132328-10011LF">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">10132328-10011LF</field>
+        <field name="Footprint">AMPHENOL_10132328-10011LF</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">8.80mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MANUFACTURER">Amphenol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SHIELD" type="passive"/>
+        <pin num="2" name="SHIELD" type="passive"/>
+        <pin num="3" name="SHIELD" type="passive"/>
+        <pin num="4" name="SHIELD" type="passive"/>
+        <pin num="5" name="SHIELD" type="passive"/>
+        <pin num="6" name="SHIELD" type="passive"/>
+        <pin num="7" name="SHIELD" type="passive"/>
+        <pin num="8" name="SHIELD" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+        <pin num="10" name="SHIELD" type="passive"/>
+        <pin num="11" name="SHIELD" type="passive"/>
+        <pin num="12" name="SHIELD" type="passive"/>
+        <pin num="13" name="SHIELD" type="passive"/>
+        <pin num="14" name="SHIELD" type="passive"/>
+        <pin num="A1" name="GND_A1" type="power_in"/>
+        <pin num="A2" name="SSTXP1" type="BiDi"/>
+        <pin num="A3" name="SSTXN1" type="BiDi"/>
+        <pin num="A4" name="VBUS_A4" type="power_in"/>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="DP1" type="BiDi"/>
+        <pin num="A7" name="DN1" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A9" name="VBUS_A9" type="power_in"/>
+        <pin num="A10" name="SSRXN2" type="BiDi"/>
+        <pin num="A11" name="SSRXP2" type="BiDi"/>
+        <pin num="A12" name="GND_A12" type="power_in"/>
+        <pin num="B1" name="GND_B1" type="power_in"/>
+        <pin num="B2" name="SSTXP2" type="BiDi"/>
+        <pin num="B3" name="SSTXN2" type="BiDi"/>
+        <pin num="B4" name="VBUS_B4" type="power_in"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="DP2" type="BiDi"/>
+        <pin num="B7" name="DN2" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B9" name="VBUS_B9" type="power_in"/>
+        <pin num="B10" name="SSRXN1" type="BiDi"/>
+        <pin num="B11" name="SSRXP1" type="BiDi"/>
+        <pin num="B12" name="GND_B12" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_Switch" part="CBTL02043A">
+      <description>3.3 V, 2 differential channel, 2:1 MUX/deMUX switch, 10 Gbps, WQFN-20</description>
+      <docs>https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf</docs>
+      <footprints>
+        <fp>WQFN*1EP*2.5x4.5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CBTL02043A</field>
+        <field name="Footprint">Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="XSD" type="input"/>
+        <pin num="3" name="A0_P" type="passive"/>
+        <pin num="4" name="A0_N" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VDD" type="passive"/>
+        <pin num="7" name="A1_P" type="passive"/>
+        <pin num="8" name="A1_N" type="passive"/>
+        <pin num="9" name="SEL" type="input"/>
+        <pin num="10" name="VDD" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="C1_N" type="passive"/>
+        <pin num="13" name="C1_P" type="passive"/>
+        <pin num="14" name="C0_N" type="passive"/>
+        <pin num="15" name="C0_P" type="passive"/>
+        <pin num="16" name="B1_N" type="passive"/>
+        <pin num="17" name="B1_P" type="passive"/>
+        <pin num="18" name="B0_N" type="passive"/>
+        <pin num="19" name="B0_P" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x25_Counter_Clockwise">
+      <description>Generic connector, double row, 02x25, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x25_Counter_Clockwise</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+        <pin num="41" name="Pin_41" type="passive"/>
+        <pin num="42" name="Pin_42" type="passive"/>
+        <pin num="43" name="Pin_43" type="passive"/>
+        <pin num="44" name="Pin_44" type="passive"/>
+        <pin num="45" name="Pin_45" type="passive"/>
+        <pin num="46" name="Pin_46" type="passive"/>
+        <pin num="47" name="Pin_47" type="passive"/>
+        <pin num="48" name="Pin_48" type="passive"/>
+        <pin num="49" name="Pin_49" type="passive"/>
+        <pin num="50" name="Pin_50" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DEPTH" part="26_pin_FFC">
+      <description>Generic connectable mounting pin connector, single row, 01x26, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">26_pin_FFC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DEPTH" part="40mm_Arducam_Module">
+      <fields>
+        <field name="Reference">CAM</field>
+        <field name="Value">40mm_Arducam_Module</field>
+      </fields>
+    </libpart>
+    <libpart lib="DEPTH" part="PTN5150HXMP">
+      <description>NXP - PTN5150HXMP - USB TYPE-C CC LOGIC/PORT CONTROL, X2QFN</description>
+      <docs>http://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PTN5150HXMP</field>
+        <field name="Footprint">Luxonis_KiCad_Master:PTN5150HXMP</field>
+        <field name="Description">NXP - PTN5150HXMP - USB TYPE-C CC LOGIC/PORT CONTROL, X2QFN</field>
+        <field name="Height">0.35</field>
+        <field name="Manufacturer_Name">NXP</field>
+        <field name="Manufacturer_Part_Number">PTN5150HXMP</field>
+        <field name="Mouser Part Number">771-PTN5150HXMP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=771-PTN5150HXMP</field>
+        <field name="Arrow Part Number">PTN5150HXMP</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ptn5150hxmp/nxp-semiconductors</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CC1" type="passive"/>
+        <pin num="2" name="CC2" type="passive"/>
+        <pin num="3" name="PORT" type="passive"/>
+        <pin num="4" name="VBUS_DET" type="passive"/>
+        <pin num="5" name="ADR/CON_DET" type="passive"/>
+        <pin num="6" name="INTB/OUT3" type="passive"/>
+        <pin num="7" name="SDA/OUT1" type="passive"/>
+        <pin num="8" name="SCL/OUT2" type="passive"/>
+        <pin num="9" name="ID" type="passive"/>
+        <pin num="10" name="GND" type="passive"/>
+        <pin num="11" name="ENB" type="passive"/>
+        <pin num="12" name="VDD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DepthABC-rescue" part="DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch-BW1098ABC-rescue">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch-BW1098ABC-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CAMA_CLKN" type="passive"/>
+        <pin num="4" name="UART_RX" type="passive"/>
+        <pin num="5" name="CAMA_CLKP" type="passive"/>
+        <pin num="6" name="UART_TX" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="GND" type="passive"/>
+        <pin num="9" name="CAMA_D0_N" type="passive"/>
+        <pin num="10" name="USB_RX_P" type="passive"/>
+        <pin num="11" name="CAMA_D0_P" type="passive"/>
+        <pin num="12" name="USB_RX_N" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="CAMA_D1_N" type="passive"/>
+        <pin num="16" name="USB_D_P" type="passive"/>
+        <pin num="17" name="CAMA_D1_P" type="passive"/>
+        <pin num="18" name="USB_D_N" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="CAMA_D2_N" type="passive"/>
+        <pin num="22" name="USB_TX_P" type="passive"/>
+        <pin num="23" name="CAMA_D2_P" type="passive"/>
+        <pin num="24" name="USB_TX_N" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="CAMA_D3_N" type="passive"/>
+        <pin num="28" name="CAMA_CLK" type="passive"/>
+        <pin num="29" name="CAMA_D3_P" type="passive"/>
+        <pin num="30" name="GND" type="passive"/>
+        <pin num="31" name="GND" type="passive"/>
+        <pin num="32" name="SD_HST0_D3" type="passive"/>
+        <pin num="33" name="CAMA_I2C_SDA" type="passive"/>
+        <pin num="34" name="CAMA_RST" type="passive"/>
+        <pin num="35" name="CAMA_I2C_SCL" type="passive"/>
+        <pin num="36" name="SD_HST0_D2" type="passive"/>
+        <pin num="37" name="PGOOD" type="passive"/>
+        <pin num="38" name="SD_HST0_D1" type="passive"/>
+        <pin num="39" name="_RST" type="passive"/>
+        <pin num="40" name="SD_HST0_D0" type="passive"/>
+        <pin num="41" name="WAKEUP" type="passive"/>
+        <pin num="42" name="COM_AUX_IO2" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="GND" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
+        <pin num="46" name="GND" type="passive"/>
+        <pin num="47" name="5V" type="passive"/>
+        <pin num="48" name="5V" type="passive"/>
+        <pin num="49" name="5V" type="passive"/>
+        <pin num="50" name="5V" type="passive"/>
+        <pin num="51" name="5V" type="passive"/>
+        <pin num="52" name="5V" type="passive"/>
+        <pin num="53" name="5V" type="passive"/>
+        <pin num="54" name="5V" type="passive"/>
+        <pin num="55" name="GND" type="passive"/>
+        <pin num="56" name="GND" type="passive"/>
+        <pin num="57" name="GND" type="passive"/>
+        <pin num="58" name="GND" type="passive"/>
+        <pin num="59" name="SD_HST0_CD" type="passive"/>
+        <pin num="60" name="SPI_SS_1" type="passive"/>
+        <pin num="61" name="SD_HST0_CLK" type="passive"/>
+        <pin num="62" name="SPI_SIO0" type="passive"/>
+        <pin num="63" name="SD_HST0_CMD" type="passive"/>
+        <pin num="64" name="SPI_SIO1" type="passive"/>
+        <pin num="65" name="CAM_B_D_PWM" type="passive"/>
+        <pin num="66" name="SPI_SIO2" type="passive"/>
+        <pin num="67" name="CAM_B_PWDN_N" type="passive"/>
+        <pin num="68" name="SPI_SIO3" type="passive"/>
+        <pin num="69" name="AUX_IO_IRQ" type="passive"/>
+        <pin num="70" name="SPI_SS_0" type="passive"/>
+        <pin num="71" name="GND" type="passive"/>
+        <pin num="72" name="GND" type="passive"/>
+        <pin num="73" name="CAMB_CLK" type="passive"/>
+        <pin num="74" name="SPI_SCK" type="passive"/>
+        <pin num="75" name="GND" type="passive"/>
+        <pin num="76" name="GND" type="passive"/>
+        <pin num="77" name="CAMB_I2C_SCL" type="passive"/>
+        <pin num="78" name="I2C3_SCL" type="passive"/>
+        <pin num="79" name="CAMB_I2C_SDA" type="passive"/>
+        <pin num="80" name="I2C3_SDA" type="passive"/>
+        <pin num="81" name="GND" type="passive"/>
+        <pin num="82" name="GND" type="passive"/>
+        <pin num="83" name="CAMB_D1_N" type="passive"/>
+        <pin num="84" name="CAMC_D1_N" type="passive"/>
+        <pin num="85" name="CAMB_D1_P" type="passive"/>
+        <pin num="86" name="CAMC_D1_P" type="passive"/>
+        <pin num="87" name="GND" type="passive"/>
+        <pin num="88" name="GND" type="passive"/>
+        <pin num="89" name="CAMB_D0_N" type="passive"/>
+        <pin num="90" name="CAMC_D0_N" type="passive"/>
+        <pin num="91" name="CAMB_D0_P" type="passive"/>
+        <pin num="92" name="CAMC_D0_P" type="passive"/>
+        <pin num="93" name="GND" type="passive"/>
+        <pin num="94" name="GND" type="passive"/>
+        <pin num="95" name="CAMB_CLKN" type="passive"/>
+        <pin num="96" name="CAMC_CLKN" type="passive"/>
+        <pin num="97" name="CAMB_CLKP" type="passive"/>
+        <pin num="98" name="CAMC_CLKP" type="passive"/>
+        <pin num="99" name="GND" type="passive"/>
+        <pin num="100" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DepthABC-rescue" part="Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue">
+      <fields>
+        <field name="Reference">MISC</field>
+        <field name="Value">Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue</field>
+      </fields>
+    </libpart>
+    <libpart lib="DepthABC-rescue" part="Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue">
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DepthABC-rescue" part="RK7002B-BW1098ABC-rescue">
+      <footprints>
+        <fp>SOT?523*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">RK7002B-BW1098ABC-rescue</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-523</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DepthABC-rescue" part="TEST_POINT-DEPTH-BW1098ABC-rescue">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST_POINT-DEPTH-BW1098ABC-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DepthABC-rescue" part="TEST_POINT-depthAI_sch-BW1098ABC-rescue">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TEST_POINT-depthAI_sch-BW1098ABC-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="TXB0102DCT">
+      <description>2-Bit Bidirectional Voltage-Level Translator in TSSOP Package With Auto Direction Sensing and ±15-kV ESD Protection</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txb0102.pdf</docs>
+      <footprints>
+        <fp>TSSOP*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0102DCT</field>
+        <field name="Footprint">Package_SO:TSSOP-8_3x3mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="BiDi"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VCCA" type="power_in"/>
+        <pin num="4" name="A2" type="BiDi"/>
+        <pin num="5" name="A1" type="BiDi"/>
+        <pin num="6" name="OE" type="input"/>
+        <pin num="7" name="VCCB" type="power_in"/>
+        <pin num="8" name="B1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="10132328-10011LF">
+      <uri>C:\Users\lafky\Desktop\DepthAI\depthai-hardware\OSHW_KiCad_Community\Reference Designs (In Progress)\DepthABC/Lib/10132328-10011LF.lib</uri>
+    </library>
+    <library logical="Analog_Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Analog_Switch.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="DEPTH">
+      <uri>C:/Users/lafky/Desktop/DepthAI/depthai-hardware/OSHW_KiCad_Community/Schematic Libraries/depthAI_sch.lib</uri>
+    </library>
+    <library logical="DepthABC-rescue">
+      <uri>C:\Users\lafky\Desktop\DepthAI\depthai-hardware\OSHW_KiCad_Community\Reference Designs (In Progress)\DepthABC/DepthABC-rescue.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Logic_LevelTranslator.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="J3" pin="48"/>
+      <node ref="J3" pin="54"/>
+      <node ref="J3" pin="52"/>
+      <node ref="J3" pin="51"/>
+      <node ref="J3" pin="50"/>
+      <node ref="J3" pin="49"/>
+      <node ref="J3" pin="47"/>
+      <node ref="IC1" pin="12"/>
+      <node ref="R30" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U2" pin="21"/>
+      <node ref="J8" pin="48"/>
+      <node ref="J3" pin="19"/>
+      <node ref="J3" pin="25"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="20"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J3" pin="57"/>
+      <node ref="J3" pin="58"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="J3" pin="26"/>
+      <node ref="J3" pin="14"/>
+      <node ref="J3" pin="30"/>
+      <node ref="J3" pin="31"/>
+      <node ref="J3" pin="100"/>
+      <node ref="U2" pin="20"/>
+      <node ref="J3" pin="13"/>
+      <node ref="H8" pin="1"/>
+      <node ref="J5" pin="11"/>
+      <node ref="H5" pin="1"/>
+      <node ref="J5" pin="12"/>
+      <node ref="J5" pin="13"/>
+      <node ref="J5" pin="14"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="J5" pin="8"/>
+      <node ref="J3" pin="7"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J3" pin="43"/>
+      <node ref="J3" pin="44"/>
+      <node ref="J3" pin="45"/>
+      <node ref="J3" pin="46"/>
+      <node ref="J3" pin="56"/>
+      <node ref="J3" pin="71"/>
+      <node ref="C3" pin="1"/>
+      <node ref="J3" pin="72"/>
+      <node ref="J5" pin="9"/>
+      <node ref="J3" pin="55"/>
+      <node ref="H7" pin="1"/>
+      <node ref="J5" pin="10"/>
+      <node ref="H6" pin="1"/>
+      <node ref="H11" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="H12" pin="1"/>
+      <node ref="J5" pin="B1"/>
+      <node ref="H9" pin="1"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J5" pin="B12"/>
+      <node ref="J5" pin="A12"/>
+      <node ref="J1" pin="9"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="B1" pin="1"/>
+      <node ref="J1" pin="10"/>
+      <node ref="H10" pin="1"/>
+      <node ref="H2" pin="1"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J8" pin="29"/>
+      <node ref="J4" pin="9"/>
+      <node ref="J3" pin="82"/>
+      <node ref="J5" pin="A1"/>
+      <node ref="J3" pin="99"/>
+      <node ref="J3" pin="93"/>
+      <node ref="J3" pin="88"/>
+      <node ref="J4" pin="10"/>
+      <node ref="J3" pin="81"/>
+      <node ref="J3" pin="8"/>
+      <node ref="J3" pin="87"/>
+      <node ref="J3" pin="76"/>
+      <node ref="J3" pin="75"/>
+      <node ref="J3" pin="94"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="J6" pin="7"/>
+      <node ref="J6" pin="16"/>
+      <node ref="J6" pin="10"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J6" pin="MP"/>
+      <node ref="J6" pin="MP"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="24"/>
+      <node ref="J6" pin="19"/>
+      <node ref="J8" pin="20"/>
+      <node ref="J9" pin="16"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J9" pin="10"/>
+      <node ref="J9" pin="24"/>
+      <node ref="J9" pin="19"/>
+      <node ref="H3" pin="1"/>
+      <node ref="H4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="H1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J9" pin="MP"/>
+      <node ref="J9" pin="MP"/>
+      <node ref="J9" pin="7"/>
+      <node ref="J7" pin="19"/>
+      <node ref="J7" pin="16"/>
+      <node ref="J7" pin="13"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="J8" pin="35"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="J7" pin="MP"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J5" pin="6"/>
+      <node ref="J8" pin="14"/>
+      <node ref="J8" pin="15"/>
+      <node ref="R20" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="J7" pin="10"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J7" pin="4"/>
+      <node ref="C33" pin="1"/>
+      <node ref="J7" pin="22"/>
+      <node ref="J7" pin="MP"/>
+      <node ref="J8" pin="36"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J9-Pad11)">
+      <node ref="J9" pin="11"/>
+    </net>
+    <net code="4" name="Net-(J9-Pad12)">
+      <node ref="J9" pin="12"/>
+    </net>
+    <net code="5" name="Net-(J9-Pad13)">
+      <node ref="J9" pin="13"/>
+    </net>
+    <net code="6" name="Net-(J9-Pad14)">
+      <node ref="J9" pin="14"/>
+    </net>
+    <net code="7" name="Net-(J9-Pad15)">
+      <node ref="J9" pin="15"/>
+    </net>
+    <net code="8" name="I2C2_SCL">
+      <node ref="J6" pin="20"/>
+      <node ref="J9" pin="20"/>
+      <node ref="J3" pin="79"/>
+    </net>
+    <net code="9" name="Net-(J9-Pad22)">
+      <node ref="J9" pin="22"/>
+    </net>
+    <net code="10" name="Net-(J6-Pad15)">
+      <node ref="J6" pin="15"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad23)">
+      <node ref="J6" pin="23"/>
+    </net>
+    <net code="12" name="+3V3">
+      <node ref="J9" pin="25"/>
+      <node ref="J9" pin="26"/>
+      <node ref="C38" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R29" pin="1"/>
+      <node ref="J6" pin="25"/>
+      <node ref="J6" pin="26"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J7" pin="25"/>
+      <node ref="J7" pin="26"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="13" name="CAM_B_D_PWM">
+      <node ref="J9" pin="17"/>
+      <node ref="J3" pin="65"/>
+    </net>
+    <net code="14" name="MIPI_RX3_D1_N">
+      <node ref="J9" pin="5"/>
+      <node ref="J3" pin="84"/>
+    </net>
+    <net code="15" name="MIPI_RX3_D0_N">
+      <node ref="J3" pin="90"/>
+      <node ref="J9" pin="2"/>
+    </net>
+    <net code="16" name="MIPI_RX3_D0_P">
+      <node ref="J9" pin="3"/>
+      <node ref="J3" pin="92"/>
+    </net>
+    <net code="17" name="CAM_B_CLK_OUT">
+      <node ref="J6" pin="18"/>
+      <node ref="J9" pin="18"/>
+      <node ref="J3" pin="73"/>
+    </net>
+    <net code="18" name="I2C2_SDA">
+      <node ref="J6" pin="21"/>
+      <node ref="J9" pin="21"/>
+      <node ref="J3" pin="77"/>
+    </net>
+    <net code="19" name="/CAMERA_FFC_DUAL/STROBE1">
+      <node ref="J6" pin="22"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="20" name="MIPI_RX3_D1_P">
+      <node ref="J3" pin="86"/>
+      <node ref="J9" pin="6"/>
+    </net>
+    <net code="21" name="MIPI_RX3_C_N">
+      <node ref="J3" pin="96"/>
+      <node ref="J9" pin="8"/>
+    </net>
+    <net code="22" name="MIPI_RX3_C_P">
+      <node ref="J9" pin="9"/>
+      <node ref="J3" pin="98"/>
+    </net>
+    <net code="23" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="24" name="CAM_B_PWDN_N">
+      <node ref="J3" pin="67"/>
+      <node ref="J6" pin="17"/>
+    </net>
+    <net code="25" name="MIPI_RX2_D1_N">
+      <node ref="J3" pin="83"/>
+      <node ref="J6" pin="5"/>
+    </net>
+    <net code="26" name="MIPI_RX2_D1_P">
+      <node ref="J3" pin="85"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="27" name="MIPI_RX2_D0_N">
+      <node ref="J3" pin="89"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="28" name="MIPI_RX2_D0_P">
+      <node ref="J3" pin="91"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="29" name="MIPI_RX2_C_N">
+      <node ref="J6" pin="8"/>
+      <node ref="J3" pin="95"/>
+    </net>
+    <net code="30" name="MIPI_RX2_C_P">
+      <node ref="J6" pin="9"/>
+      <node ref="J3" pin="97"/>
+    </net>
+    <net code="31" name="/CAMERA_FFC_DUAL/FSIN2">
+      <node ref="J9" pin="23"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="32" name="COM_AUX_IO2">
+      <node ref="TP5" pin="1"/>
+      <node ref="J3" pin="42"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J6-Pad11)">
+      <node ref="J6" pin="11"/>
+    </net>
+    <net code="34" name="Net-(J6-Pad12)">
+      <node ref="J6" pin="12"/>
+    </net>
+    <net code="35" name="Net-(J6-Pad13)">
+      <node ref="J6" pin="13"/>
+    </net>
+    <net code="36" name="Net-(J6-Pad14)">
+      <node ref="J6" pin="14"/>
+    </net>
+    <net code="37" name="MIPI_RX4_D1_N">
+      <node ref="J3" pin="15"/>
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="38" name="Net-(J7-Pad23)">
+      <node ref="J7" pin="23"/>
+    </net>
+    <net code="39" name="Net-(J7-Pad24)">
+      <node ref="J7" pin="24"/>
+    </net>
+    <net code="40" name="MIPI_RX4_D0_P">
+      <node ref="J3" pin="11"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="41" name="MIPI_RX4_D0_N">
+      <node ref="J3" pin="9"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="42" name="MIPI_RX4_D1_P">
+      <node ref="J3" pin="17"/>
+      <node ref="J7" pin="6"/>
+    </net>
+    <net code="43" name="MIPI_RX4_C_N">
+      <node ref="J7" pin="8"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="44" name="MIPI_RX4_C_P">
+      <node ref="J3" pin="5"/>
+      <node ref="J7" pin="9"/>
+    </net>
+    <net code="45" name="MIPI_RX5_D2_N">
+      <node ref="J3" pin="21"/>
+      <node ref="J7" pin="11"/>
+    </net>
+    <net code="46" name="MIPI_RX5_D2_P">
+      <node ref="J7" pin="12"/>
+      <node ref="J3" pin="23"/>
+    </net>
+    <net code="47" name="MIPI_RX5_D3_N">
+      <node ref="J3" pin="27"/>
+      <node ref="J7" pin="14"/>
+    </net>
+    <net code="48" name="MIPI_RX5_D3_P">
+      <node ref="J3" pin="29"/>
+      <node ref="J7" pin="15"/>
+    </net>
+    <net code="49" name="CAM_A_PWDN_N">
+      <node ref="J7" pin="17"/>
+      <node ref="J3" pin="34"/>
+    </net>
+    <net code="50" name="CAM_A_CLK_OUT">
+      <node ref="J7" pin="18"/>
+      <node ref="J3" pin="28"/>
+    </net>
+    <net code="51" name="I2C1_SCL">
+      <node ref="J3" pin="35"/>
+      <node ref="J7" pin="20"/>
+    </net>
+    <net code="52" name="I2C1_SDA">
+      <node ref="J3" pin="33"/>
+      <node ref="J7" pin="21"/>
+    </net>
+    <net code="53" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="54" name="Net-(D2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="55" name="Net-(D2-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="56" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="57" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="58" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="59" name="Net-(D1-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="60" name="VBUS">
+      <node ref="C32" pin="1"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="J5" pin="A4"/>
+      <node ref="J5" pin="A9"/>
+      <node ref="R21" pin="2"/>
+      <node ref="J5" pin="B4"/>
+      <node ref="J3" pin="53"/>
+      <node ref="J5" pin="B9"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="61" name="Net-(J3-Pad41)">
+      <node ref="J3" pin="41"/>
+    </net>
+    <net code="62" name="SD_HST0_CMD">
+      <node ref="J4" pin="5"/>
+      <node ref="R32" pin="2"/>
+      <node ref="J3" pin="63"/>
+    </net>
+    <net code="63" name="SD_HST0_D0">
+      <node ref="R38" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J3" pin="40"/>
+    </net>
+    <net code="64" name="SD_HST0_CLK">
+      <node ref="J3" pin="61"/>
+      <node ref="R28" pin="2"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="65" name="/SoM_BW1099/UART_TX">
+      <node ref="J1" pin="8"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="66" name="SD_HST0_CD">
+      <node ref="J4" pin="7"/>
+      <node ref="R34" pin="2"/>
+      <node ref="J3" pin="59"/>
+    </net>
+    <net code="67" name="SD_HST0_D3">
+      <node ref="R41" pin="2"/>
+      <node ref="J4" pin="8"/>
+      <node ref="J3" pin="32"/>
+    </net>
+    <net code="68" name="/SoM_BW1099/UART_RX">
+      <node ref="J3" pin="4"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="69" name="SD_HST0_D1">
+      <node ref="J3" pin="38"/>
+      <node ref="R39" pin="2"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="70" name="SD_HST0_D2">
+      <node ref="J4" pin="6"/>
+      <node ref="R40" pin="2"/>
+      <node ref="J3" pin="36"/>
+    </net>
+    <net code="71" name="/SoM_BW1099/AUX_IO_IRQ">
+      <node ref="J1" pin="3"/>
+      <node ref="J3" pin="69"/>
+    </net>
+    <net code="72" name="_RST">
+      <node ref="R7" pin="1"/>
+      <node ref="J3" pin="39"/>
+      <node ref="B1" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="73" name="USB_RX_N">
+      <node ref="J3" pin="12"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="74" name="USB_RX_P">
+      <node ref="U2" pin="3"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="75" name="USB_TX_N">
+      <node ref="U2" pin="8"/>
+      <node ref="J3" pin="24"/>
+    </net>
+    <net code="76" name="USB_TX_P">
+      <node ref="J3" pin="22"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="77" name="1V8">
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J8" pin="30"/>
+      <node ref="R11" pin="1"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="78" name="SPI_CS_1">
+      <node ref="R6" pin="1"/>
+      <node ref="J3" pin="60"/>
+    </net>
+    <net code="79" name="SPI_CS_0">
+      <node ref="R15" pin="1"/>
+      <node ref="J3" pin="70"/>
+    </net>
+    <net code="80" name="SPI_SIO0">
+      <node ref="J3" pin="62"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="81" name="SPI_SIO1">
+      <node ref="R31" pin="1"/>
+      <node ref="J3" pin="64"/>
+    </net>
+    <net code="82" name="SPI_SIO2">
+      <node ref="J3" pin="66"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="83" name="/SoM_BW1099/2485_PGOOD">
+      <node ref="TP1" pin="1"/>
+      <node ref="J3" pin="37"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="84" name="SPI_SCK">
+      <node ref="J3" pin="74"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="85" name="SPI_SIO3">
+      <node ref="R37" pin="1"/>
+      <node ref="J3" pin="68"/>
+    </net>
+    <net code="86" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D4-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="89" name="I2C3_SCL">
+      <node ref="J3" pin="78"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="90" name="I2C3_SDA">
+      <node ref="J1" pin="5"/>
+      <node ref="J3" pin="80"/>
+    </net>
+    <net code="91" name="Net-(Q5-Pad2)">
+      <node ref="R35" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="94" name="PMID">
+      <node ref="J8" pin="33"/>
+      <node ref="J8" pin="34"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="95" name="Net-(J5-PadB8)">
+      <node ref="J5" pin="B8"/>
+    </net>
+    <net code="96" name="Net-(J5-PadA8)">
+      <node ref="J5" pin="A8"/>
+    </net>
+    <net code="97" name="/USBC&amp;POWER/VBAT">
+      <node ref="J8" pin="32"/>
+      <node ref="J8" pin="31"/>
+    </net>
+    <net code="98" name="Net-(R6-Pad2)">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="99" name="Net-(R7-Pad2)">
+      <node ref="U1" pin="4"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="100" name="Net-(R11-Pad2)">
+      <node ref="U1" pin="6"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="101" name="USB_D_N">
+      <node ref="J5" pin="A7"/>
+      <node ref="J3" pin="18"/>
+      <node ref="J5" pin="B6"/>
+    </net>
+    <net code="102" name="/USBC&amp;POWER/TXC_N">
+      <node ref="C37" pin="2"/>
+      <node ref="J5" pin="B2"/>
+    </net>
+    <net code="103" name="/USBC&amp;POWER/TXB_P">
+      <node ref="C34" pin="2"/>
+      <node ref="J5" pin="A2"/>
+    </net>
+    <net code="104" name="/USBC&amp;POWER/TXB_N">
+      <node ref="C35" pin="2"/>
+      <node ref="J5" pin="A3"/>
+    </net>
+    <net code="105" name="/USBC&amp;POWER/TXC_P">
+      <node ref="C36" pin="2"/>
+      <node ref="J5" pin="B3"/>
+    </net>
+    <net code="106" name="/USBC&amp;POWER/RXB_P">
+      <node ref="J5" pin="B11"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="107" name="/USBC&amp;POWER/RXB_N">
+      <node ref="J5" pin="B10"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="108" name="/USBC&amp;POWER/RXC_P">
+      <node ref="J5" pin="A11"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="109" name="/USBC&amp;POWER/RXC_N">
+      <node ref="U2" pin="14"/>
+      <node ref="J5" pin="A10"/>
+    </net>
+    <net code="110" name="/USBC&amp;POWER/CC1">
+      <node ref="J5" pin="A5"/>
+      <node ref="R23" pin="1"/>
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="111" name="/USBC&amp;POWER/CC2">
+      <node ref="J5" pin="B5"/>
+      <node ref="R24" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="112" name="USB_D_P">
+      <node ref="J3" pin="16"/>
+      <node ref="J5" pin="B7"/>
+      <node ref="J5" pin="A6"/>
+    </net>
+    <net code="113" name="/USBC&amp;POWER/P1.09">
+      <node ref="J8" pin="45"/>
+    </net>
+    <net code="114" name="/USBC&amp;POWER/P1.04">
+      <node ref="J8" pin="46"/>
+    </net>
+    <net code="115" name="/USBC&amp;POWER/P0.25">
+      <node ref="J8" pin="47"/>
+    </net>
+    <net code="116" name="/USBC&amp;POWER/USB_ENB">
+      <node ref="IC1" pin="11"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="117" name="/USBC&amp;POWER/USB_PORT">
+      <node ref="R22" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="118" name="/USBC&amp;POWER/OUT1">
+      <node ref="R23" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="TP21" pin="1"/>
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="119" name="/USBC&amp;POWER/OUT2">
+      <node ref="IC1" pin="8"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="TP20" pin="1"/>
+    </net>
+    <net code="120" name="/USBC&amp;POWER/DIR">
+      <node ref="R18" pin="2"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="121" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="122" name="Net-(J8-Pad21)">
+      <node ref="J8" pin="21"/>
+    </net>
+    <net code="123" name="Net-(J8-Pad22)">
+      <node ref="J8" pin="22"/>
+    </net>
+    <net code="124" name="Net-(J8-Pad23)">
+      <node ref="J8" pin="23"/>
+    </net>
+    <net code="125" name="Net-(J8-Pad24)">
+      <node ref="J8" pin="24"/>
+    </net>
+    <net code="126" name="Net-(J8-Pad25)">
+      <node ref="J8" pin="25"/>
+    </net>
+    <net code="127" name="Net-(J8-Pad26)">
+      <node ref="J8" pin="26"/>
+    </net>
+    <net code="128" name="Net-(J8-Pad27)">
+      <node ref="J8" pin="27"/>
+    </net>
+    <net code="129" name="Net-(J8-Pad28)">
+      <node ref="J8" pin="28"/>
+    </net>
+    <net code="130" name="/USBC&amp;POWER/MOSI">
+      <node ref="J8" pin="37"/>
+    </net>
+    <net code="131" name="/USBC&amp;POWER/MISO">
+      <node ref="J8" pin="38"/>
+    </net>
+    <net code="132" name="/USBC&amp;POWER/P0.29">
+      <node ref="J8" pin="11"/>
+    </net>
+    <net code="133" name="/USBC&amp;POWER/P0.28">
+      <node ref="J8" pin="10"/>
+    </net>
+    <net code="134" name="/USBC&amp;POWER/SCL">
+      <node ref="J8" pin="12"/>
+    </net>
+    <net code="135" name="/USBC&amp;POWER/SDA">
+      <node ref="J8" pin="13"/>
+    </net>
+    <net code="136" name="Net-(J8-Pad16)">
+      <node ref="J8" pin="16"/>
+      <node ref="J8" pin="17"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="137" name="Net-(J8-Pad18)">
+      <node ref="J8" pin="18"/>
+    </net>
+    <net code="138" name="Net-(J8-Pad19)">
+      <node ref="J8" pin="19"/>
+    </net>
+    <net code="139" name="/USBC&amp;POWER/VBUS_DET">
+      <node ref="IC1" pin="4"/>
+      <node ref="R19" pin="1"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="140" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="TP18" pin="1"/>
+    </net>
+    <net code="141" name="Net-(IC1-Pad5)">
+      <node ref="TP19" pin="1"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="142" name="Net-(R17-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="143" name="/USBC&amp;POWER/P1.15">
+      <node ref="R33" pin="2"/>
+      <node ref="J8" pin="43"/>
+    </net>
+    <net code="144" name="/USBC&amp;POWER/P1.11">
+      <node ref="R31" pin="2"/>
+      <node ref="J8" pin="42"/>
+    </net>
+    <net code="145" name="/USBC&amp;POWER/SCLK">
+      <node ref="J8" pin="39"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="146" name="/USBC&amp;POWER/NFC2">
+      <node ref="J8" pin="49"/>
+    </net>
+    <net code="147" name="/USBC&amp;POWER/NFC1">
+      <node ref="J8" pin="50"/>
+    </net>
+    <net code="148" name="/USBC&amp;POWER/P0.31">
+      <node ref="R27" pin="2"/>
+      <node ref="J8" pin="41"/>
+    </net>
+    <net code="149" name="/USBC&amp;POWER/P0.30">
+      <node ref="R15" pin="2"/>
+      <node ref="J8" pin="40"/>
+    </net>
+    <net code="150" name="/USBC&amp;POWER/P1.03">
+      <node ref="R37" pin="2"/>
+      <node ref="J8" pin="44"/>
+    </net>
+    <net code="151" name="/USBC&amp;POWER/P0.04">
+      <node ref="R40" pin="1"/>
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="152" name="/USBC&amp;POWER/P0.03">
+      <node ref="J8" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="153" name="/USBC&amp;POWER/P0.02">
+      <node ref="J8" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="154" name="/USBC&amp;POWER/P0.08">
+      <node ref="J8" pin="5"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="155" name="/USBC&amp;POWER/P0.05">
+      <node ref="J8" pin="3"/>
+      <node ref="R41" pin="1"/>
+    </net>
+    <net code="156" name="/USBC&amp;POWER/P0.11">
+      <node ref="R38" pin="1"/>
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="157" name="/USBC&amp;POWER/TXC_+">
+      <node ref="U2" pin="13"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="158" name="/USBC&amp;POWER/TXC_-">
+      <node ref="U2" pin="12"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="159" name="/USBC&amp;POWER/TXB_-">
+      <node ref="C35" pin="1"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="160" name="/USBC&amp;POWER/P1.14">
+      <node ref="R28" pin="1"/>
+      <node ref="J8" pin="9"/>
+    </net>
+    <net code="161" name="/USBC&amp;POWER/P0.13">
+      <node ref="J8" pin="8"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="162" name="/USBC&amp;POWER/P0.12">
+      <node ref="J8" pin="7"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="163" name="/USBC&amp;POWER/TXB_+">
+      <node ref="C34" pin="1"/>
+      <node ref="U2" pin="17"/>
+    </net>
+  </nets>
+</export>

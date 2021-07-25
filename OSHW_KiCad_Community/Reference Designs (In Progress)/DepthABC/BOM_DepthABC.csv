@@ -1,0 +1,33 @@
+Component Count:,99,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Collated Components:,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Item,Qty,Reference(s),Value,Footprint,Datasheet,Link1,MANUFACTURER,MPN1,Population,STANDARD,Short Description,Substitutes ,Voltage Rating
+1,1,B1,"Off-Mohm, 50mA",depthABC:SW_PTS636_SM43J_SMTR_LFS,~,https://www.digikey.com/en/products/detail/c-k/PTS636-SM43-SMTR-LFS/10071723,C&K,PTS636,Y,~,reset switch,OR EQUIVALENT,~
+2,8,"C1, C2, C3, C4, C32, C33, C38, C39",10uF ,Capacitor_SMD:C_0603_1608Metric,~,https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061,Kemet,C0603C106M8PAC7867,Y,X5R 20%,~,OR EQUIVALENT,6.3V
+3,4,"C34, C35, C36, C37",0.1uF,Capacitor_SMD:C_0603_1608Metric,~,https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094,Kemet,C0603C104K8RACTU,Y,X5R 10%,~,OR EQUIVALENT,10V
+4,3,"CAM1, CAM2, CAM3",Arducam_Module,Luxonis_KiCad_Master:arducam_40mm_34mm,~,~,Arducam,~,NO POP,~,~,~,~
+5,3,"D1, D4, D5",RED,LED_SMD:LED_0805_2012Metric,~,https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531,Kingbright,APT2012SRCPRV,Y,~,2V 0805 20mA test red LED,OR EQUIVALENT,~
+6,2,"D2, D3",YELLOW,LED_SMD:LED_0805_2012Metric,~,https://www.digikey.com/en/products/detail/kingbright/APT2012SYCK-J3-PRV/4753624,Kingbright,APT2012SYCK/J3-PRV,Y,~,2V 0805 20mA test orange LED,OR EQUIVALENT,~
+7,6,"FID1, FID2, FID3, FID4, FID5, FID6",Fiducial,Fiducial:Fiducial_1mm_Mask2mm,~,~,~,~,~,~,~,~,~
+8,4,"H1, H2, H3, H4",MountingHole_M3,MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad,~,~,~,~,NO POP,~,Arducam mounts,~,~
+9,4,"H5, H6, H7, H8",MountingHole_Pad,Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243,~,https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart,Wuerth,9774030243R,Y,~,SoM Mount,~,~
+10,4,"H9, H10, H11, H12",MountingHole_4-40,MountingHole:MountingHole_3mm_Pad,~,~,~,~,NO POP,~,ABC mount,~,~
+11,1,IC1,PTN5150HXMP,Luxonis_KiCad_Master:PTN5150HXMP,http://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf,https://www.digikey.com/en/products/detail/nxp-usa-inc/PTN5150HXMP/5981071,NXP,PTN5150HXMP,Y,~,Usb port control,N,
+12,2,"J1, J4",Conn_02x05_Odd_Even,Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD,~,~,~,~,NO POP,~,2x05 FEMALE 2.54mm pin socket,~,~
+13,1,J2,FAN,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,~,~,~,~,NO POP,~,~,~,~
+14,1,J3,BW1099EMB_SoM,Luxonis_KiCad_Master:DF40HC(3.0)-100DS-0.4V(58),https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en,https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V58?qs=Gufeu08L%2Fl14mOnXtNJDUw%3D%3D,Amphenol,DF40HC(3.0)-100DS-0.4V(58),Y,~,SoM header,N,~
+15,1,J5,USBC 3.1 Vertical,AMPHENOL_10132328-10011LF,,https://www.amphenol-icc.com/usb-1013232810011lf.html?__cf_chl_jschl_tk__=0f5ca71e87e5c21f3558710009ce813cb5029150-1618280928-0-Ae1QLIIZL77w7L0Za4797vDMhHlVdapWk_pPFpeR05FI2lEl93-ukIaj2wtzXQ_tU7C9Blcmn4x_tzPbtZpji2TBBs1oh7gECH1P6N3W4s3PmPp0p6TWnq_LBestk2_yHmoDtoVJRs74rKO1Bc_n0RJpgpNZSglm3wci3mnRDblYi8js1mlgva-H7Pqbj22_Zy8vepA-0e0-VIQN5IUiaRH9njPgdWDKvjoPw3TGdoCLu9Qc4McAIw0eTgiXqqZrHFKF8FDzTJ2XLhYTFZ65MNW8DNWyC269lpWRqdBHEKHk5YzpHW7dqCl56wEaQeXZr7gbIU9bq1xJ2Ygu5FD_TGs42A4CWEipT0p0CWvPFTFAi9WiuuQWPNkshYvOn3QqF_aTQQbLcHV7zuAivF3DP6Kt9vmOdob547ArJEJnslOYIFVV4rrOxiFw_C9KI4Fw0pqsmJSUB_-z58wJcutnFfw,Amphenol,10132328-10011LF,Y,~,~,N,~
+16,3,"J6, J7, J9",26_pin_FFC,Luxonis_KiCad_Master:F32R-26p-FFC,,https://www.mouser.com/ProductDetail/Amphenol-ICC-Aorora/F32R-1A7H1-11026?qs=xZ%2FP%252Ba9zWqYrrDYjP3Iz3Q%3D%3D,Amphenol,F32R-1A7H1-11026,Y,~,DM Series Luxonis FFC,N,~
+17,1,J8,Conn_02x25_Counter_Clockwise,ABC:DF23C-50DS-0.5V(51),~,https://www.mouser.com/ProductDetail/Hirose-Connector/DF23C-50DS-05V51?qs=nSryOFbzj8K%252BlAT%2FH6jJhg%3D%3D,Amphenol,DF23C-50DS-0.5V(51),Y,~,ABC header,N,~
+18,1,MISC1,Layout_Guide_BW1099,Luxonis_KiCad_Master:BW1099_Layout_Guide,~,~,Luxonis,~,NO POP,~,~,~,~
+19,1,MISC2,Layout_Guide_ABC,ABC:ABC-Layout,~,~,Luxonis,~,NO POP,~,~,~,~
+20,5,"Q1, Q2, Q3, Q4, Q5",RK7002B,Package_TO_SOT_SMD:SOT-23,https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf,https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA,ROhm,,Y,~,2.5V Drive Nch FET ESD Protection Diode,W/ APPROVAL,60V 250mA
+21,6,"R1, R2, R3, R4, R30, R36",10,Resistor_SMD:R_0603_1608Metric,~,https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431,ROhm,ESR03EZPF10R0,Y,1%,~,OR EQUIVALENT,1/10W
+22,21,"R5, R6, R7, R9, R10, R11, R12, R13, R14, R15, R27, R28, R31, R32, R33, R34, R37, R38, R39, R40, R41",0R,Resistor_SMD:R_0603_1608Metric,~,https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008,Yageo,RC0603FR-070RL,Y,~,~,OR EQUIVALENT,1/10W 
+23,10,"R8, R16, R17, R18, R20, R22, R23, R24, R25, R26",10k,Resistor_SMD:R_0603_1608Metric,~,https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809,Yageo,RC0603FR-7W10KL,Y,1%,~,OR EQUIVALENT,1/10W 
+24,2,"R19, R21",1.8M,Resistor_SMD:R_0603_1608Metric,~,~,~,~,Y,1%,~,OR EQUIVALENT,1/10W
+25,2,"R29, R35",1k,Resistor_SMD:R_0603_1608Metric,~,https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73S1JTTD1001F/10279992,KOA,SG73S1JTTD1001F,Y,1%,~,OR EQUIVALENT,1/10W
+26,1,U1,2-bit bidirectional level shifter ,Package_SO:TSSOP-8_3x3mm_P0.65mm,http://www.ti.com/lit/ds/symlink/txb0102.pdf,https://www.digikey.com/en/products/detail/nxp-usa-inc/NTB0102DP-Q100H/4289801,NXP,NTB0102DP-Q100H,Y,~,~,OR EQUIVALENT,~
+27,1,U2,CBTL02043A,Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm,https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf,https://www.digikey.com/en/products/detail/nxp-usa-inc/CBTL02043ABQ-115/2619746,NXP,"CBTL02043ABQ,115",Y,~,Usb mux,N,
