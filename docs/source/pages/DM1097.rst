@@ -23,7 +23,7 @@ Key features
 
 * Support for onboard stereo and RGB camera modules
 * Interface for Luxnois DepthAI SoM
-* Interface for Raspberry PI CM4/CM4 Lite
+* Interface for Raspberry PI CM4 - **Wireless, 4GB RAM, 8GB storage** (PN: CM4104008)
 * USB2 interface between CM4 and DepthAI SoM
 * 2x USB2
 * 1x Aux USB2
