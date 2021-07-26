@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/32992551/110514833-f0649100-80c4-11eb-8e2c-6c164f2d9f48.png)
 ![image](https://user-images.githubusercontent.com/32992551/110514872-fce8e980-80c4-11eb-95f7-552f1ff6fdf7.png)
 
-Size comparison to BW1092, DepthAI Pi CM4, and BW1099 below:
+Size comparison to BW1092, DepthAI Pi CM4, and OAK-SOM-IoT below:
 ![image](https://user-images.githubusercontent.com/32992551/110514940-12f6aa00-80c5-11eb-9789-baccb00740ea.png)
 
 # Project Stage
@@ -12,7 +12,7 @@ This design is validated and is now in mass production.  It is ready to be used 
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC_WIFI baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 Wi-Fi interface. 
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) OAK-SOM-IoT DepthAI SoM. The BW1098OBC_WIFI baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 Wi-Fi interface. 
 
 ## Repository structure:
 * `PCB` contains the packaged Altium project files

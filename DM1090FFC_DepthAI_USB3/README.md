@@ -11,7 +11,7 @@ DM1090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/D
 **This project should be used for new projects and as reference for FFC  device kit and replaces both BW1098FFC and DM1098FFC designs.**       
 
 # Overview
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module. Besides that there is also a chance to connect three 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) if [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module is not required.  
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) OAK-SOM DepthAI SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module. Besides that there is also a chance to connect three 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) if [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module is not required.  
 
 The 1090FFC is our updated version from the common issues customers have had with BW1098FFC.  (We will keep selling the 1098FFC, for folks who have that connector type.)
 Improvements/changes:
@@ -37,7 +37,7 @@ In addition IMU over SPI support was also added to the 1090FFC.
 * 2x DM0250TG_R1M1E1 and 1x DM0249_R1M1E1 RGB camera module interface
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
-* Interface for Luxonis BW1099 DepthAI SoM
+* Interface for Luxonis OAK-SOM DepthAI SoM
 * Pads for DepthAI SoM 1.8V SPI
 * Pads for DepthAI SoM 3.3V SDIO 
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
