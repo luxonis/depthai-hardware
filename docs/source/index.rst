@@ -129,8 +129,8 @@ System on Module Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-SoM
-     - OAK-SoM-Pro
+   * - OAK-SOM
+     - OAK-SOM-Pro
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html 
      - .. image:: /_static/images/thumbnails/BW2099.png

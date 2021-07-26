@@ -12,10 +12,10 @@ With this revision the IMU issue is fixed, now connected over SPI.
 # Getting started
 The DM1092 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either the ESP32 or NOR flash on the OAK-SOM-IoT, boot selection is configured on OAK-SOM-IoT with BOOT resistors. 
 
-The reset button resets the Luxonis DepthAI OAK-SOM-IoT SoM only.   
-The 5V LED indicates 5V power is present on the DM1092.   
-The PG LED indicates "power good" from the DepthAI OAK-SOM-IoT SoM.   
-The "RUN" LED indicates that the DepthAI SoM is not reset.  
+The reset button resets the Luxonis DepthAI OAK-SOM-IoT only.
+The 5V LED indicates 5V power is present on the DM1092.
+The PG LED indicates "power good" from the DepthAI OAK-SOM-IoT.
+The "RUN" LED indicates that the DepthAI SoM is not reset.
 
 # Design Revision info
 The design files represent the R0M0E0 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.

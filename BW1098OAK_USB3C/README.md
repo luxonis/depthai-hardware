@@ -8,7 +8,7 @@ This board is used in the DepthAi product known as the OpenCV AI Kit with Depth,
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) OAK-SOM DepthAI SoM. The BW1098OAK baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The BW1098OAK baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
 
 ## Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -20,12 +20,12 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 # Key features
 * Fully compatible with all OAK-D features and enclosure
 * Support for on-board stereo and RGB camera modules
-* Interface for Luxnois OAK-SOM DepthAI SoM
+* Interface for Luxnois OAK-SOM
 * USB 3.1 Gen1 Type-C
 * Power from **5V barrel jack** OR **5V USB3 Type-C**
 * Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 3.3V SDIO 
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO) 
+* Pads for DepthAI SoM 3.3V SDIO
+* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * Design files produced with Altium Designer 20
 
 

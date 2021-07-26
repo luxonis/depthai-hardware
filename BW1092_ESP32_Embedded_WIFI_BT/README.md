@@ -3,14 +3,14 @@
 
 # Overview:
 
-This design is one of two baseboards for the DepthAI: System on Module (SoM) - Embedded Variant ([BWOAK-SOM-IoT](https://shop.luxonis.com/collections/all/products/bw1099emb)).
+This design is one of two baseboards for the DepthAI: System on Module (SoM) - Embedded Variant ([OAK-SOM-IoT](https://shop.luxonis.com/collections/all/products/bw1099emb)).
 
 It is available for purchase [here](https://shop.luxonis.com/collections/all/products/bw1092). For reference design files you should look under DM1092_ESP32_Embedded_WIFI_BT_IMU directory.
 
 To read more on the `why` of this design, see https://github.com/luxonis/depthai-hardware/issues/10 and https://github.com/luxonis/depthai-hardware/issues/9.
 
 This design will serves as a reference for multiple purposes:
- - How to use the BWOAK-SOM-IoT with microcontrollers over SPI
+ - How to use the OAK-SOM-IoT with microcontrollers over SPI
  - How to connect DepthAI as an IoT device to AWS-IoT
  - How to use DepthAI without an OS-capable host processor (e.g. with an embedded microcontroller like the ESP32)
  - How to use DepthAI with WiFi and BT
