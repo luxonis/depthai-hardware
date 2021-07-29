@@ -1,0 +1,54 @@
+.. _bw1093:
+
+OAK-1
+=====
+
+.. image:: /_static/images/BW1093/OAK-1_front.jpg
+
+Overview
+********
+
+The OAK-1 offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to 
+the DepthAI SoM.
+
+Some part of the design cannot be open-sourced because they contain proprietary chip-down vendor information and therefore cannot be shared publicly.
+
+OAK-1 isn’t a standard USB camera. It’s a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board, so that your host 
+is free to do whatever you need it to do.  
+
+Its integrated 12 MegaPixel camera module communicates over an on-board 2.1 Gbps MIPI interface directly to the Myriad X, which ingests this data 
+and performs neural inference on it, returning the results over USB.
+
+Such a data path offloads the host processor from all of this work. In the common use case of object detection from a 12MP image, this means your 
+host is now dealing with a 24 Kbps stream of what the objects are and where they are in the image, instead of a 2.1 Gbps stream of video.  
+So an 87,500 reduction in data your host has to deal with.
+
+Below is an example of running MobileNet-SSD:
+
+* OAK-1 + Raspberry Pi: 50+FPS, 0% RPi CPU Utilization
+* NCS2 + Raspberry Pi: 8FPS, 225% CPU Utilization
+
+Dimensions and Weight
+*********************
+* Height: 53 mm
+* Width: 35 mm
+* Length: 28 mm
+* Weight: 53.1 grams
+
+.. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
+
+Key features
+************
+
+* Support 12MP RGB camera module
+* USB 3.1 Gen1 Type-C data and power
+* USB device power LED indicators
+* AUX 5V connector
+* Access to SoM 1.8V I2C and UART
+
+.. image:: /_static/images/BW1093/OAK-1.jpg
+
+
+
+
+.. include::  /pages/includes/footer-short.rst

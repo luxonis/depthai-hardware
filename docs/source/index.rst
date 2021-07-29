@@ -27,13 +27,13 @@ USB Designs
    :header-rows: 1
 
    * - OAK-D
-     - OAK-1-PCBA
+     - OAK-1
    * - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
      - .. image:: /_static/images/thumbnails/OAK-1.png
-          :target: pages/BK1096.html 
+          :target: pages/BW1093.html 
    * - :ref:`Learn more <bw1098oak>` 
-     - :ref:`Learn more <bk1096>` 
+     - :ref:`Learn more <bw1093>` 
 
 POE Designs
 ***********
@@ -178,7 +178,7 @@ Miscellaneous Designs
    :caption: USB Designs
 
    pages/BW1098OAK.rst
-   pages/BK1096.rst
+   pages/BW1093.rst
 
 .. toctree::
    :maxdepth: 1
