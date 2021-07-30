@@ -46,9 +46,12 @@ Key features
 * AUX 5V connector
 * Access to SoM 1.8V I2C and UART
 
+Mechanical design
+*****************
+
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/Mechanical%20designs/OAK-1>`__
+
 .. image:: /_static/images/BW1093/OAK-1.jpg
-
-
 
 
 .. include::  /pages/includes/footer-short.rst
