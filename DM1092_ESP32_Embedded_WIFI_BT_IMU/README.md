@@ -1,6 +1,6 @@
-# DM1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT [WIP]
+# DM1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT 
 
-![image](To Be Updated)
+![](Images/FULL-ASM_DM1092_R1M1E1.jpg)
 
 
 # Project Stage
@@ -17,8 +17,12 @@ The 5V LED indicates 5V power is present on the DM1092.
 The PG LED indicates "power good" from the DepthAI OAK-SOM-IoT.
 The "RUN" LED indicates that the DepthAI SoM is not reset.
 
+![](Images/ASM_DM1092_R1M1E1.jpg)
+
+![](Images/ASM-SOM_DM1092_R1M1E1.jpg)
+
 # Design Revision info
-The design files represent the R0M0E0 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
+The design files represent the R2M2E2 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 
 # Overview:

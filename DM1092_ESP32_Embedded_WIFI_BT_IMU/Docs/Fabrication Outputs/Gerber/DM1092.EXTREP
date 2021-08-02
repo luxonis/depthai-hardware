@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: DM1092.GBR   18. 12. 2020  17:36:54
+Gerber File Extension Report For: DM1092.GBR   02/08/2021  08:50:16
 ------------------------------------------------------------------------------------------
 
 
@@ -12,8 +12,8 @@ Layer Extension     Layer Description
 .GTL                Layer 1                                 
 .G1                 Layer 2                                 
 .G2                 Layer 3                                 
-.G3                 Layer 5                                 
-.G4                 Layer 4                                 
+.G3                 Layer 4                                 
+.G4                 Layer 5                                 
 .GBL                Layer 6                                 
 .GBS                Bottom Mask                             
 .GBP                Bottom Paste                            

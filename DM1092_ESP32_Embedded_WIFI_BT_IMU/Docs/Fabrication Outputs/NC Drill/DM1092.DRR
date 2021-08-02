@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: DM1092.PcbDoc   18. 12. 2020  17:36:59
+NCDrill File Report For: DM1092.PcbDoc   02/08/2021  08:50:18
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Layer 1 to Layer 6
@@ -10,17 +10,17 @@ EIA File   : DM1092.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.203mm (8mil)                                            Round             483       PTH        0.00mm (0.00inch)
-T2      0.254mm (10mil)                                           Round             21        PTH        0.00mm (0.00inch)
-T3      0.5mm (20mil)                                             Round             16        PTH        0.00mm (0.00inch)
-T4      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
-T5      0.86mm (34mil)                                            Round             2         PTH        0.00mm (0.00inch)
-T6      1.05mm (41mil)                                            Slot              3         PTH        0.00mm (0.00inch)
-T7      2.1mm (83mil)                                             Round             4         PTH        0.00mm (0.00inch)
-T8      3mm (118mil)                                              Round             4         PTH        0.00mm (0.00inch)
+T1      0.203mm (8mil)                                            Round             479       PTH        879.57mm (34.63inch)
+T2      0.254mm (10mil)                                           Round             21        PTH        179.84mm (7.08inch)
+T3      0.5mm (20mil)                                             Round             16        PTH        59.10mm (2.33inch)
+T4      0.6mm (24mil)                                             Slot              4         PTH        42.10mm (1.66inch)
+T5      0.86mm (34mil)                                            Round             2         PTH        2.00mm (0.08inch)
+T6      1.05mm (41mil)                                            Slot              3         PTH        31.32mm (1.23inch)
+T7      2.1mm (83mil)                                             Round             4         PTH        149.40mm (5.88inch)
+T8      3mm (118mil)                                              Round             4         PTH        72.60mm (2.86inch)
 T9      1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
-T10     2mm (79mil)                                               Round             2         NPTH       0.00mm (0.00inch)
+T10     2mm (79mil)                                               Round             2         NPTH       62.60mm (2.46inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              540
+Totals                                                                              536
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00
