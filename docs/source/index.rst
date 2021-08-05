@@ -175,6 +175,13 @@ Miscellaneous Designs
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: Articles
+
+   pages/waterproof.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
    :caption: USB Designs
 
    pages/BW1098OAK.rst
