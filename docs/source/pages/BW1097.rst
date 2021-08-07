@@ -8,7 +8,7 @@ OAK-D-CM3
 Overview
 ********
 
-Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the Luxonis DepthAI SoM to allow 
+Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the :ref:`OAK-SoM <bw1099>` to allow 
 for fully integrated solution for real-time spatial AI.
 
 Board layout & dimensions
@@ -21,7 +21,7 @@ Key features
 ************
 
 * Support for on-board stereo and RGB camera modules
-* Interface for Luxnois DepthAI SoM
+* Interface for OAK-SoM
 * SODIMM for Raspberry PI CM3/CM3+
 * USB2 interface between CM3+ and DepthAI SoM
 * 2x USB2
@@ -47,24 +47,24 @@ The OAK-D-CM3 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI 
 initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not 
 populated by default, but can be added, allowing JTAG access.
 
-The reset button resets the Luxonis DepthAI SoM only. To reset the CM3/CM3+, ground the RUN header via to the GND header via.
+The reset button resets the OAK-SoM only. To reset the CM3/CM3+, ground the RUN header via to the GND header via.
 
 The PWR LED indicates "power good" for the BW1097 on-board PMIC. The ACT LED indicates activity on the CM3/CM3+ device. Other indicator LEDs exist 
 for the two USB2.0 Type A ports and for the 10/100 Ethernet port.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/PCB>`__
 
 3D Models
 *********

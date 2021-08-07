@@ -37,7 +37,7 @@ Key features
 Getting started
 ***************
 
-The OAK-1-PCBA is designed to be powered from the USB Type-C connector. With the :ref:`BW0249 <BW0249>` camera and the :ref:`OAK-SoM <bw1099>` running 
+The OAK-1-PCBA is designed to be powered from the USB Type-C connector. With the :ref:`OAK-FFC-IMX378 <bg0249>` camera and the :ref:`OAK-SoM <bw1099>` running 
 inference, power consumption is typically about 3W (0.6A @ 5V).
 
 The reset button resets the :ref:`OAK-SoM <bw1099>` only.

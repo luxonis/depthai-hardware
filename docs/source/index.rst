@@ -43,7 +43,7 @@ PoE Designs
    :header-rows: 1
      
    * - OAK-D-PoE 
-     - OAK-1-PoOE 
+     - OAK-1-PoE 
      - PoE Board 
    * - .. image:: /_static/images/thumbnails/oak-d-poe.png
           :target: pages/SJ2088POE.html 

@@ -8,9 +8,9 @@ OAK-D-CM4
 Overview
 ********
 
-Based on the :ref:`BW1097 <bw1097>` and Raspberry PI CM4IO board, the OAK-D-CM4 (DM1097) combines a host and the Luxonis DepthAI SoM to allow for a fully integrated 
-solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`BW1097 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit 
-ethernet, and populated with MagJack supporting POE. POE can be used with additional POE Hat.
+Based on the :ref:`OAK-D-CM3 <bw1097>` and Raspberry PI CM4IO board, the OAK-D-CM4 (DM1097) combines a host and the Luxonis DepthAI SoM to allow for a fully integrated 
+solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`OAK-D-CM3 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit 
+ethernet, and populated with MagJack supporting PoE. PoE can be used with additional PoE Hat.
 
 Board Layout and Dimensions
 ***************************

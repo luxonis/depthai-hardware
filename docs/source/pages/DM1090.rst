@@ -8,14 +8,14 @@ OAK-FFC-3P
 Overview
 ********
 
-The OAK-FFC-3P (DM1090FFC) baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. :ref:`DM0250TG <bg0250tg>` (stereo pair) and one 
-:ref:`BG0249 <bg0249>` RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. DM0250TG if DM0249 RGB camera module is not required.
+The OAK-FFC-3P (DM1090FFC) baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair) and one 
+:ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. OAK-FFC-OV9282 if DM0249 RGB camera module is not required.
 
 Please note that only revision R1M1E1 and newer camera modules can be connected to the OAK-FFC-3P. With OAK-FFC-3P we gained support for 22-pin RPi camera
 interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
 which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
-Here's a list of :ref:`compatible ArduCam cameras <OAK-FCC compatible cameras>` with the DM1090FFC. Those cameras have a M12 mount, so you can use
+Here's a list of :ref:`compatible Arducam cameras <arducam-compatible-cameras>` with the OAK-FFC-3P. Those cameras have a M12 mount, so you can use
 different lenses to get **custom FoV** (they have wide and narrow angle M12 lenses).
 
 In addition IMU over SPI support was also added to the OAK-FFC-3P.
@@ -28,14 +28,14 @@ Board Layout and Dimensions
 Key features
 ************
 
-* 3x DM0250TG_R1M1E1 mono camera module interfaces or
-* 2x DM0250TG_R1M1E1 and 1x DM0249_R1M1E1 RGB camera module interface
+* 3x OAK-FFC-OV9282 (DM0250TG_R1M1E1) mono camera module interfaces or
+* 2x OAK-FFC-OV9282 (DM0250TG_R1M1E1) and 1x OAK-FFC-IMX378 (DM0249_R1M1E1) RGB camera module interface
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
-* Interface for Luxnois BW1099 DepthAI SoM
-* Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 3.3V SDIO
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
+* Interface for Luxnois OAK-SoM
+* Pads for OAK-SoM1.8V SPI
+* Pads for OAK-SoM 3.3V SDIO
+* Pads for OAK-SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * 5V Fan OR USB Type-C
 * Design files produced with Altium Designer 20
 
@@ -45,16 +45,16 @@ Getting started
 ***************
 
 The OAK-FFC-3P is powered via USB Type-C or from a 5V, 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the 
-DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended.
+:ref:`OAK-SoM <bw1099>`, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended.
 
-Interfacing with the DepthAI SoM is also possible with OAK-FFC-3P connector pads J3, J4, and J5. These pads are designed for the Amphenol/FCI 
+Interfacing with the OAK-SoM is also possible with OAK-FFC-3P connector pads J3, J4, and J5. These pads are designed for the Amphenol/FCI 
 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout information.
 
-The reset button resets the Luxonis DepthAI SoM only. The boot button overrides boot mode to USB boot if different boot mode is set in NOR Flash 
+The reset button resets the OAK-SoM only. The boot button overrides boot mode to USB boot if different boot mode is set in NOR Flash 
 and `BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__ SoM is used.
 
-The 5V LED indicates 5V power is present on the OAK-FFC-3P. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the 
-DepthAI SoM is not in reset.
+The 5V LED indicates 5V power is present on the OAK-FFC-3P. The PG LED indicates "power good" from the OAK-SoM. The "RUN" LED indicates that the 
+OAK-SoM is not in reset.
 
 Revision info
 *************

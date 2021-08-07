@@ -8,7 +8,7 @@ OAK-D-IOT-40
 Overview
 ********
 
-This design is one of two baseboards for the OAK-SOM-IoT (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
+This design is one of two baseboards for the OAK-SoM-IoT (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
 To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and 
 `here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
 
