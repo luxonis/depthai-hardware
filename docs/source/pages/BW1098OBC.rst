@@ -11,8 +11,8 @@ Overview
 The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and 
 AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/BW1098OBC/BW1098OBC_an.jpg
 .. image:: /_static/images/BW1098OBC/BW1098OBC_dims.jpg
@@ -46,19 +46,19 @@ The reset button resets the Luxonis DepthAI SoM only.
 The 5V LED indicates 5V power is present on the BW1098OBC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates 
 that the DepthAI SoM is not in reset.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/PCB>`__
 
 3D Models
 *********

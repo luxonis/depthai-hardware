@@ -12,8 +12,8 @@ Based on the :ref:`BW1097 <bw1097>` and Raspberry PI CM4IO board, the OAK-D-CM4 
 solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`BW1097 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit 
 ethernet, and populated with MagJack supporting POE. POE can be used with additional POE Hat.
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/DM1097/DM1097_dim.jpg
 .. image:: /_static/images/DM1097/DM1097.jpg
@@ -40,19 +40,19 @@ Key features
 
 .. image:: /_static/images/DM1097/DM1097_side.jpg
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/PCB>`__
 
 3D Models
 *********

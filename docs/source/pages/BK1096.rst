@@ -11,11 +11,11 @@ Overview
 The OAK-1-PCBA (BK1096) baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to 
 the DepthAI SoM.
 
-This is the open-source equivalent of OAK-1 (BW1093, megaAI) which uses the BW1099 SoM (System on Module). The BW1093 itself cannot be open-sourced 
+This is the open-source equivalent of OAK-1 (BW1093, megaAI) which uses the OAK-SoM (BW1099 System on Module). The OAK-1 itself cannot be open-sourced 
 because it contains proprietary chip-down vendor information and therefore cannot be shared publicly.
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/BK1096/BK1096_R0M0E0_cs_annotation.jpg
 
@@ -32,32 +32,31 @@ Key features
 * Access to SoM 1.8V I2C and UART
 * Design files produced with Altium Designer 20
 
-
 .. image:: /_static/images/BK1096/megaAI_front.jpg
 
 Getting started
 ***************
 
-The OAK-1-PCBA is designed to be powered from the USB Type-C connector. With the BW0249 camera and the DepthAI BW2099 SoM running 
+The OAK-1-PCBA is designed to be powered from the USB Type-C connector. With the :ref:`BW0249 <BW0249>` camera and the :ref:`OAK-SoM <bw1099>` running 
 inference, power consumption is typically about 3W (0.6A @ 5V).
 
-The reset button resets the Luxonis DepthAI BW1099 SoM only.
+The reset button resets the :ref:`OAK-SoM <bw1099>` only.
 
 The OUT1 and OUT2 LEDs indicate USB Type-C current mode. See datasheet for TUSB321RWBR Port Control device for more details.
 
-Altium project files
-********************
-
-See `here <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BK1096_OAK-1_Modular/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BK1096_OAK-1_Modular/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BK1096_OAK-1_Modular/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See `here <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/PCB>`__
 
 3D Models
 *********

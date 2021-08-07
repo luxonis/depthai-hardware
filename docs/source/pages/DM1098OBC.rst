@@ -11,8 +11,8 @@ Overview
 The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for 
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 .. image:: /_static/images/DM1098OBC/DM1098OAKW_SIDE.jpg
@@ -49,19 +49,19 @@ LED indicates that the DepthAI SoM is not in reset.
 
 `Here is an example how to connect to the wifi and creates a basic http file server <https://github.com/luxonis/esp32-spi-message-demo/tree/main/jpeg_webserver_demo>`__.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/PCB>`__
 
 3D Models
 *********
