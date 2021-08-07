@@ -1,6 +1,6 @@
 .. _bw2099:
 
-OAK-SOM-Pro
+OAK-SoM-Pro
 ===========
 
 .. image:: /_static/images/BW2099/BW2099.jpg
@@ -8,9 +8,9 @@ OAK-SOM-Pro
 Overview
 ********
 
-The OAK-SOM-Pro is a System on Module (SoM) designed for integration into top-level system with a need for a low-power,
+The OAK-SoM-Pro is a System on Module (SoM) designed for integration into top-level system with a need for a low-power,
 4 Tera Operation Per Second (TOPS) AI vision system. To be used in industrial automation, robotics and security systems.
-The OAK-SOM-Pro interfaces with the system through two 10-gbps-rated 100-pin board-to-board mezzanine connector which carries
+The OAK-SoM-Pro interfaces with the system through two 10-gbps-rated 100-pin board-to-board mezzanine connector which carries
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxillary power port is offered to interface without connetion to a baseboard.
 
