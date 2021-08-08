@@ -10,13 +10,16 @@ This page contains documentation of the open hardware designed by Luxonis.
 
 Documentation for each part includes an overview, getting started guide, images and project files, such as:
 
-* `PCB` - packaged Altium project files
-* `Docs` - project output files
+* `Datasheets` - assembly, schematics and fabrication drawings
+* `Altium Design Files`
 * `3D Models` - generated 3D models of the board
 * `Mechanical` - models of mounts, enclosures, and other mechanical parts
 
-.. note::
-  We have just published our first :ref:`DepthAI Design Guide <design_guide>` that covers camera placement and mechanical stiffness. 
+Guides, tutorials and articles
+******************************
+* :ref:`OAK Design Guide <design_guide>`  
+* :ref:`Powering PoE devices <powering_poe>` 
+* :ref:`Waterproof enclosures <waterproof>`
 
 
 USB Designs
