@@ -1,6 +1,6 @@
 .. _sj2096:
 
-OAK-1-POE
+OAK-1-PoE
 =========
 
 .. image:: /_static/images/SJ2096POE/SJ2096POE.jpg
@@ -8,16 +8,13 @@ OAK-1-POE
 Overview
 ********
 
-The OAK-1-POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-1-POE (SJ2096POE) baseboard has one on-board 
+The OAK-1-PoE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-1-PoE (SJ2096POE) baseboard has one on-board 
 cameras which implement RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host 
-via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-1-POE board exposes boot selection switches, allowing the end 
-user to boot the :ref:`BW2099 <bw2099>` module from USB or the on-board eMMC or NOR flash.
+via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-1-PoE board exposes boot selection switches, allowing the end 
+user to boot the :ref:`OAK-SoM-Pro <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
-.. note::
-  Just getting started with the DepthAI PoE device? You can check out `this tutorial <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
-
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/SJ2096POE/SJ2096POE_dim.jpg
 .. image:: /_static/images/SJ2096POE/SJ2096POE_dim_2.jpg
@@ -26,14 +23,14 @@ Key features
 ************
 
 * Support for on-board stereo and RGB camera modules
-* Interface for Luxonis 2099 SoM
+* Interface for OAK-SoM-Pro
 * USB 3.1 Gen1 Type-C
 * Power-over-Ethernet (PoE) power source
 * 1000BASE-T ethernet for data
-* Header access for 2099 SoM 1.8V Aux Signals (I2C, , Module Reset)
+* Header access for OAK-SoM-Pro 1.8V Aux Signals (I2C, , Module Reset)
 * Micro SD connector for DepthAI SoM 3.3V SDIO
-* On-board PCIe ref clk for BW2099 and PCIe/Ethernet bridge
-* User-selectable BW2099 boot configuration switches
+* On-board PCIe ref clk for OAK-SoM-Pro and PCIe/Ethernet bridge
+* User-selectable OAK-SoM-Pro boot configuration switches
 * Design files produced with Altium Designer 20
 * :ref:`PoE injector <Powering PoE devices>` is required to power the device.
 
@@ -44,30 +41,30 @@ Getting started
     For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
 
     
-The OAK-1-POE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
-Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099, and boot selection is 
-configured with the DIP switch bank near the USB connector. With the :ref:`BW0249 <bg0249>` camera and the DepthAI :ref:`BW2099 <bw2099>` SoM running inference, 
+The OAK-1-PoE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
+Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the OAK-SoM-Pro, and boot selection is 
+configured with the DIP switch bank near the USB connector. With the :ref:`OAK-FFC-IMX378 <bg0249>` camera and the DepthAI :ref:`OAK-SoM-Pro <bw2099>` SoM running inference, 
 power consumption is typically [TBC].
 
-Interfacing with the DepthAI SoM is also possible with :ref:`BW2098POE <bw2096poe>` connector pads J5 and J8, which expose :ref:`BW2099 <bw2099>` auxiliary I/O and 
+Interfacing with the OAK-SoM-Pro is also possible with :ref:`PoE Board <bw2096poe>` connector pads J5 and J8, which expose OAK-SoM-Pro <bw2099> auxiliary I/O and 
 BW2099 Quad SPI, respectively. These headers are Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for 
 pinout information.
 
-The reset button resets the Luxonis DepthAI BW2099 SoM only.
+The reset button resets the OAK-SoM-Pro only.
 The 5V LED indicates 5V power is present on the BW2098POE.
-The PG LED indicates "power good" from the DepthAI BW2099 SoM.
-The "RUN" LED indicates that the DepthAI SoM is not in reset.
+The PG LED indicates "power good" from the OAK-SoM-Pro.
+The "RUN" LED indicates that the OAK-SoM-Pro is not in reset.
 
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 
 57V may exist. Always use electronics handling best practices.**
 
-Altium project files
-********************
+Altium Design Files
+*******************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/PCB>`__
 
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/SJ2096POE_R0M0E0/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/Docs/Assembly%20Outputs>`__

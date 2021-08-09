@@ -12,8 +12,8 @@ The OAK-FFC-IMX378 is a carrier board for the Sunny A12N02A IMX378 camera module
 :ref:`BW1098FFC <bw1098ffc>` baseboards. A 26-pin FFC is used to carry 5V power, 4-lane MIPI, I2C, and other control signals between the OAK-FFC-OV9282 and 
 the controller baseboards.
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/BG0249/BG0249_R0M0E0_diag.jpg
 
@@ -39,19 +39,19 @@ Camera module compatibility is known for the Sunny A12N02A, but not tested for o
 26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 
 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BG0249_DepthAI_RGB_Camera/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BG0249_DepthAI_RGB_Camera/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BG0249_DepthAI_RGB_Camera/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/PCB>`__
 
 3D Models
 *********

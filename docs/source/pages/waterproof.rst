@@ -1,10 +1,12 @@
+.. _waterproof:
+
 Waterproof enclosures
 =====================
 
 OAK-1 and OAK-D enclosures
-*************************
+**************************
 
-OAK-1 and OAK-D enclosures aren't waterproof, since they don't have a `gasket <https://en.wikipedia.org/wiki/Gasket>`__ (only POE enclosures have it, image below).
+OAK-1 and OAK-D enclosures aren't waterproof, since they don't have a `gasket <https://en.wikipedia.org/wiki/Gasket>`__ (only PoE enclosures have it, image below).
 
 IP67 rated PoE enclosures
 *************************

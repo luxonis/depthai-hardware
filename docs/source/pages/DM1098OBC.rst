@@ -11,8 +11,8 @@ Overview
 The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for 
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 .. image:: /_static/images/DM1098OBC/DM1098OAKW_SIDE.jpg
@@ -21,10 +21,10 @@ Key features
 ************
 
 * Support for on-board stereo and RGB camera modules
-* Interface for Luxonis DepthAI SoM
+* Interface for OAK-SoM
 * USB 3.1 Gen1 Type-C
 * Micro USB interface for serial communication with ESP32
-* Pads for DepthAI SoM / ESP32 3.3V SPI (refer to schematic for pinout)
+* Pads for OAK-SoM / ESP32 3.3V SPI (refer to schematic for pinout)
 * Pads for ESP32 3.3V AUX GPIOs (refer to schematic for pinout)
 * QWIIC connector for ESP32 I2C
 * 5V barrel jack input
@@ -42,26 +42,26 @@ a 5.5m x 2.5mm barrel jack or via USB 3.1 Gen1 Type-C
 Interfacing with the DepthAI SoM is also possible with DM1098OBC_WiFi connector pads J5, and J6. These pads are designed for 
 the Molex/53047-0810 or equivalent. Please refer to the schematics for pinout information.
 
-The reset button resets the Luxonis DepthAI SoM only.
+The reset button resets the OAK-SoM only.
 
-The 5V LED indicates 5V power is present on the DM1098OBC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" 
+The 5V LED indicates 5V power is present on the DM1098OBC. The PG LED indicates "power good" from the OAK-SoM. The "RUN" 
 LED indicates that the DepthAI SoM is not in reset.
 
 `Here is an example how to connect to the wifi and creates a basic http file server <https://github.com/luxonis/esp32-spi-message-demo/tree/main/jpeg_webserver_demo>`__.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1098OBC_DepthAI_USB3C_WIFI/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/PCB>`__
 
 3D Models
 *********

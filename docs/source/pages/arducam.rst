@@ -8,11 +8,13 @@ ArduCam Cameras
 Overview
 ********
 
-`ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with DepthAI
-and megaAI. A variety of M12-mount options allow to match lenses in many projects.
+`ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with OAK devices.
+A variety of M12-mount options allow to match lenses in many projects.
 
-:ref:`OAK-FFC <dm1090ffc>` compatible cameras
-*****************************************
+.. _arducam-compatible-cameras:
+
+Arducam compatible cameras
+**************************
 
 - `M12-Mount Global Shutter Grayscale OV9282 <https://www.arducam.com/product/arducam-1mp-ov9282-global-shutter-mono-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 - `M12-Mount Global Shutter Color OV9782 <https://www.arducam.com/product/arducam-1mp-ov9782-global-shutter-color-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
@@ -33,8 +35,6 @@ Replacement cameras for OAK-D/OAK-1
 - Mechanical, Optical, and Electrical equivalent OV9282 module with visible and IR capability `here <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__
 - Global-Shutter Color Camera (OV9782) with same intrinsics as OV9282 grayscale `here <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__
 - C/CS-Mount IMX283 (1" diagonal sensor, which is huge) `here <https://github.com/luxonis/depthai-hardware/issues/30>`__ is in progress.
-
-
 
 
 .. include::  /pages/includes/footer-short.rst

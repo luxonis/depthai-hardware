@@ -10,13 +10,16 @@ This page contains documentation of the open hardware designed by Luxonis.
 
 Documentation for each part includes an overview, getting started guide, images and project files, such as:
 
-* `PCB` - packaged Altium project files
-* `Docs` - project output files
+* `Datasheets` - assembly, schematics and fabrication drawings
+* `Altium Design Files`
 * `3D Models` - generated 3D models of the board
 * `Mechanical` - models of mounts, enclosures, and other mechanical parts
 
-.. note::
-  We have just published our first :ref:`DepthAI Design Guide <design_guide>` that covers camera placement and mechanical stiffness. 
+Guides, tutorials and articles
+******************************
+* :ref:`OAK Design Guide <design_guide>`  
+* :ref:`Powering PoE devices <powering_poe>` 
+* :ref:`Waterproof enclosures <waterproof>`
 
 
 USB Designs
@@ -35,16 +38,16 @@ USB Designs
    * - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bw1093>` 
 
-POE Designs
+PoE Designs
 ***********
      
 .. list-table::
    :widths: 30 30 30
    :header-rows: 1
      
-   * - OAK-D-POE 
-     - OAK-1-POE 
-     - POE Board 
+   * - OAK-D-PoE 
+     - OAK-1-PoE 
+     - PoE Board 
    * - .. image:: /_static/images/thumbnails/oak-d-poe.png
           :target: pages/SJ2088POE.html 
      - .. image:: /_static/images/thumbnails/SJ2096POE.png
@@ -62,8 +65,8 @@ IoT Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-D-IOT-40 (LUX-ESP32)
-     - OAK-D-IOT-75 (OAK-D-WiFi)
+   * - OAK-D-IoT-40 (LUX-ESP32)
+     - OAK-D-IoT-75 (OAK-D-WiFi)
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: pages/DM1092.html 
      - .. image:: /_static/images/thumbnails/DM1098OBC_2.png
@@ -129,8 +132,8 @@ System on Module Designs
    :widths: 50 50
    :header-rows: 1
 
-   * - OAK-SOM
-     - OAK-SOM-Pro
+   * - OAK-SoM
+     - OAK-SoM-Pro
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html 
      - .. image:: /_static/images/thumbnails/BW2099.png
@@ -190,7 +193,7 @@ Miscellaneous Designs
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: POE Designs
+   :caption: PoE Designs
    
    pages/SJ2088POE.rst
    pages/SJ2096POE.rst

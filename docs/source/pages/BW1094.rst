@@ -8,13 +8,13 @@ DepthAI RPi HAT Baseboard
 Overview
 ********
 
-The DepthAI RPi HAT Baseboard (BW1094) baseboard has three FFC interfaces which allow for two :ref:`BG0250TG <bg0250tg>` camera modules (stereo pair) and one 
-:ref:`BG0249 <bg0249>` RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with 
+The DepthAI RPi HAT Baseboard (BW1094) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) and one 
+:ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with 
 the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the DepthAI SoM, 
 parallel to the RST button.
 
-Board layout & dimensions
-*************************
+Board Layout and Dimensions
+***************************
 
 .. image:: /_static/images/BW1094/BW1094_R0M0E0_diag.jpg
 .. image:: /_static/images/BW1094/BW1094_R0M0E0_dims.jpg
@@ -22,8 +22,8 @@ Board layout & dimensions
 Key features
 ************
 
-* 2 BG0250TG mono camera module interfaces
-* 1 BG0249 RGB camera module interface
+* 2 OAK-FFC-OV9282 mono camera module interfaces
+* 1 OAK-FFC-IMX378 RGB camera module interface
 * Pass-thru for standard RPi Model B GPIO header
 * Level-shifted reset (BCM GPIO26)
 * 5V power input via barrel jack or GPIO header
@@ -34,41 +34,41 @@ Key features
 Getting started
 ***************
 
-The stereo mono cameras (:ref:`BG0250TG <bg0250tg>`) can be connected via FFC to connectors J8 and J9 on the top of the board, while the RGB camera 
-module (:ref:`BG0249 <bg0249>`) is connected via FFC to connector J6 on the bottom of the board. These connectors have a Left/Right configuration as 
+The stereo mono cameras (:ref:`OAK-FFC-OV9282 <bg0250tg>`) can be connected via FFC to connectors J8 and J9 on the top of the board, while the RGB camera 
+module (:ref:`OAK-FFC-IMX378 <bg0249>`) is connected via FFC to connector J6 on the bottom of the board. These connectors have a Left/Right configuration as 
 percieved by the subject rather than the camera, so "CAM_L" is the subject's left. These designations are somehwhat arbitrary, however, due to the 
 flexibility in positioning the cameras allowed by the FFC. Note that the RGB FFC connector is a top-contact connector while the mono FFC conectors are 
 bottom-contact. This results in the FFCs and cameras all facing the same direction when mounted.
 
-The BW1094 accepts 5V power from the 5.5mm x 2.5mm barrel jack, or through the Raspberry Pi GPIO header 5V pins. This allows support for standalone 
-use of the BW1094 when it is not mounted as a HAT. When using the BW1094 as a HAT, it is recommended to power the BW1094 from the Raspberry Pi via 
-the 5V GPIO pins. It is also possible to back-power the Raspberry Pi from the BW1094, but this is not recommended. Do not apply power to the BW1094 
+The DepthAI RPi HAT Baseboard accepts 5V power from the 5.5mm x 2.5mm barrel jack, or through the Raspberry Pi GPIO header 5V pins. This allows support for standalone 
+use of the baseboard when it is not mounted as a HAT. When using the DepthAI RPi HAT Baseboard as a HAT, it is recommended to power it from the Raspberry Pi via 
+the 5V GPIO pins. It is also possible to back-power the Raspberry Pi from the DepthAI RPi HAT Baseboard, but this is not recommended. Do not apply power to the BW1094 
 barrel jack and to the Raspberry Pi at the same time.
 
-The Raspberry Pi GPIO header mostly passes through the BW1094 with exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way 
+The Raspberry Pi GPIO header mostly passes through the DepthAI RPi HAT Baseboard with exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way 
 to toggle reset on the DepthAI SoM. Reset is active high when toggled from the Raspberry Pi on BCM GPIO26. The 3.3V Raspberry Pi GPIO line is level 
 shifted with an inverter to 1.8V, which is the standard IO for the DepthAI SoM. DepthAI SoM reset is active-low 1.8V. The reset button on board the 
-BW1094 resets the Luxonis DepthAI SoM only.
+DepthAI RPi HAT Baseboard resets the OAK-SoM only.
 
-Auxiliary 1.8V IO for the DepthAI SoM exist as J10 pads. The unpopulated connector is Amphenol/FCI 20021121-00020T1LF. Quad SPI, UART, I2C, SoM PGOOD, 
+Auxiliary 1.8V IO for the OAK-SoM exist as J10 pads. The unpopulated connector is Amphenol/FCI 20021121-00020T1LF. Quad SPI, UART, I2C, SoM PGOOD, 
 and, SoM WAKEUP are exposed at these pads. NOTE: these are all 1.8V signals and will require appropriate level shifting if connected to the 3.3V GPIO 
 of the Raspberry Pi.
 
-The 2485_PGOOD LED indicates "power good" for the DepthAI SoM. The 5V_PWR LED 5V power is applied to the BW1094.
+The 2485_PGOOD LED indicates "power good" for the OAK-SoM. The 5V_PWR LED 5V power is applied to the DepthAI RPi HAT Baseboard.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium Design Files
+*******************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/PCB>`__
 
 3D Models
 *********

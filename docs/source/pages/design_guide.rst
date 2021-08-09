@@ -1,12 +1,12 @@
 .. _design_guide:
 
-DepthAI Design Guide - Camera Placement and Mechanical Stiffness
-================================================================
+OAK Design Guide - Camera Placement and Mechanical Stiffness
+============================================================
 
 Start with the :code:`why`:
 ***************************
 
-DepthAI models that derive depth information from a stereo pair (or stereo pairs) of cameras do so by feature-matching and triangulation.
+OAK models that derive depth information from a stereo pair (or stereo pairs) of cameras do so by feature-matching and triangulation.
 And the feature matching happens by comparing the features acquired on each row from one camera to the features acquired on the second camera in 
 the same row.
 
