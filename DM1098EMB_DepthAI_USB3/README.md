@@ -24,7 +24,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * `3D Models` contains generated 3D models of the board
 # Key features
 * 2 OAK-FFC-OV9282 mono camera module interfaces
-* 1 DM0249_R0/BG0249 RGB camera module interface
+* 1 OAK-FFC-IMX378 RGB camera module interface
 * 5V power input via 2 pin JST connector
 * USB 3.1 Gen 1 Type-C
 * Connector for DepthAI SoM 3.3V SPI0
