@@ -39,7 +39,7 @@ Dimensions for all USB3 FFC designs are kept the same as for first iteration of 
 
 ![](Images/BW1098FFC_R0M0E0_dims.png)
 
-## Layout BW1098FFC/DM1098FFC vs DM1098EMB:
+## Layout OAK-FFC-3P-OG (BW1098FFC/DM1098FFC) vs DM1098EMB:
 
  
 
