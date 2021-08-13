@@ -15,7 +15,7 @@ DM1098EMB + [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/ma
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099EMB DepthAI SoM. The BW1098EMB baseboard has three FFC interfaces which allow for two [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0) camera modules (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) RGB camera module.
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099EMB DepthAI SoM. The BW1098EMB baseboard has three FFC interfaces which allow for two [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0) camera modules (stereo pair) and one [OAK-FFC-IMX378](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) RGB camera module.
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
