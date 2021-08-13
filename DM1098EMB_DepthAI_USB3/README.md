@@ -45,7 +45,7 @@ Dimensions for all USB3 FFC designs are kept the same as for first iteration of 
 
 ![](Images/DM1098EMBvsBW1098FFC.jpg)
 
-Above picture; Left: DM1098EMB, Right: BW1098FFC
+Above picture; Left: DM1098EMB, Right:  OAK-FFC-3P-OG
 
 The key difference is the power connector - the DM1098EMB does not have a barrel jack, but rather just the JST connector for 5V power which is marked on silk screen as 5V. Both can also be powered over USB3 via a powered hub or a device that can supply USB3 power (5W). 
 
