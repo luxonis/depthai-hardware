@@ -27,7 +27,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * 1 OAK-FFC-IMX378 RGB camera module interface
 * 5V power input via 2 pin JST connector
 * USB 3.1 Gen 1 Type-C
-* Connector for DepthAI SoM 3.3V SPI0
+* Connector for OAK-SoM 3.3V SPI0
 * Connector for DepthAI SoM 3.3V GPIO 
 * Connector for DepthAI SoM 1.8V AUX IOs (I2C, UART, GPIO)
 * Pads for DepthAI SoM aux signals
