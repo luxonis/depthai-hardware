@@ -72,7 +72,7 @@ The 5V LED indicates 5V power is present on the DM1098EMB. The PG LED indicates 
 
 # Camera Usage
 
-This board is compatible with the [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera), connected to the `RGB` FFC port and [BG0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera), connected to the `CAM_L` and/or `CAM_R` port.
+This board is compatible with the [OAK-FFC-IMX378](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera), connected to the `RGB` FFC port and [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera), connected to the `CAM_L` and/or `CAM_R` port.
 This board is also compatible with **R0M0E0 revision** of the [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0), connected to the `RGB` FFC port and [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0), connected to the `CAM_L` and/or `CAM_R` port. 
 
 Please note that this design is compatible only with  DM0249 and DM0250TG **R0M0E0 revision**, as later revisions as **R1M1E1** and up use different 26-pin FFC interface for connecting to USB3 FFC boards like [DM1090FFC ](https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3).
