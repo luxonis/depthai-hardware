@@ -42,19 +42,19 @@ The reset button is not populated by default on the OAK-D, but can be added. Alt
 The 5V LED indicates 5V power is present on the :ref:`BW1098OBC <bw1098obc>`. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" 
 LED indicates that the DepthAI SoM is not in reset.
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/PCB>`__
-
-Project output files
-********************
+Datasheets
+**********
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Schematic%20PDF/Production.PDF>`__
+
+Altium project files
+********************
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/PCB>`__
 
 3D Models
 *********
