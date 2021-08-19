@@ -1,17 +1,17 @@
 # DM1090FFC_R0M0E0 DepthAI USB3 Edition
 
-DM1090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) + [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) with compatible Arducam modules are shown together below:
+DM1090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera) + [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera) with compatible Arducam modules are shown together below:
 
 ![](./Images/DM1090FFC-KIT.jpg)
 
 # Project Stage
 
-**This project is now vetted and currently for sale ([here](https://shop.luxonis.com/collections/all/products/usb3c-ffc-body)).** 
+**This project is now vetted and currently for sale ([here](https://shop.luxonis.com/collections/modular-cameras/products/dm1090ffc)).** 
 
 **This project should be used for new projects and as reference for FFC  device kit and replaces both BW1098FFC and DM1098FFC designs.**       
 
 # Overview
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module. Besides that there is also a chance to connect three 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1) if [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1) RGB camera module is not required.  
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The DM1090FFC baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera) (stereo pair) and one [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera) RGB camera module. Besides that there is also a chance to connect three 2-lane MIPI camera modules i.e. [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera) if [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera) RGB camera module is not required.  
 
 The 1090FFC is our updated version from the common issues customers have had with BW1098FFC.  (We will keep selling the 1098FFC, for folks who have that connector type.)
 Improvements/changes:
@@ -74,7 +74,7 @@ USB designs with FFC camera boards contain 3 different iterations, below is a fl
 
 # Camera Usage
 
-This board is compatible with the  [DM0249_R1M1E1](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R1M1E1), connected to the `RGB` FFC port and [DM0250TG_R1M1E1](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R1M1E1), connected to the `CAM_L` and/or `CAM_R` and/or `RGB`port.
+This board is compatible with the  [DM0249_R1M1E1](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera), connected to the `RGB` FFC port and [DM0250TG_R1M1E1](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera), connected to the `CAM_L` and/or `CAM_R` and/or `RGB`port.
 
 This board support the Raspberry Pi 22-pin camera interface , using the custom 26-pin to 22-pin FFC  from Arducam.
 
