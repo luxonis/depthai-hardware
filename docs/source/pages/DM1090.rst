@@ -8,8 +8,8 @@ OAK-FFC-3P
 Overview
 ********
 
-The OAK-FFC-3P (DM1090FFC) baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair) and one 
-:ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. OAK-FFC-OV9282 if DM0249 RGB camera module is not required.
+The OAK-FFC-3P (DM1090FFC) baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair) and one 4-lane MIPI
+i.e. :ref:`OAK-FFC-IMX378 <bg0249>` (RGB camera module).
 
 Please note that only revision R1M1E1 and newer camera modules can be connected to the OAK-FFC-3P. With OAK-FFC-3P we gained support for 22-pin RPi camera
 interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
@@ -20,6 +20,58 @@ different lenses to get **custom FoV** (they have wide and narrow angle M12 lens
 
 In addition IMU over SPI support was also added to the OAK-FFC-3P.
 
+Supported FFC camera modules
+****************************
+
+.. list-table:: Supported FFC camera modules
+   :header-rows: 1
+
+   * - Sensor
+     - Color/Mono
+     - Resolution
+     - FOV
+     - MIPI lanes
+     - Links
+   * - IMX378
+     - Color
+     - 12 MP
+     - 68.8° HFOV, 81° DFOV
+     - 2*
+     - `Shop <https://shop.luxonis.com/collections/all/products/4k-60-hz-video-modular-color-camera>`__, :ref:`docs <bg0249>`
+   * - OV9282
+     - Mono
+     - 1 MP
+     - 71.8° HFOV, 81° DFOV
+     - 2
+     - `Shop <https://shop.luxonis.com/collections/all/products/oak-ffc-ov9282-pair>`__, :ref:`docs <bg0250tg>`
+   * - IMX477
+     - Color
+     - 12 MP
+     - 75° HFOV
+     - 2*
+     - `Shop <https://shop.luxonis.com/addme>`__
+   * - OV9282
+     - Mono
+     - 1 MP
+     - 75° HFOV
+     - 2
+     - `Shop <https://shop.luxonis.com/addme>`__
+   * - OV9782
+     - Color
+     - 1 MP
+     - 75° HFOV
+     - 2
+     - `Shop <https://shop.luxonis.com/addme>`__
+   * - IMX283
+     - Color
+     - 20 MP
+     - 75° HFOV
+     - 4
+     - `Shop <https://www.arducam.com/product/arducam-20mp-imx283-camera-module-with-m12-mount-lens-and-adapter-board-for-depthai/>`__
+
+.. note::
+  * Means that the sensor supports 4 MIPI lanes, but only 2 lanes are used
+
 Board Layout and Dimensions
 ***************************
 
@@ -28,8 +80,8 @@ Board Layout and Dimensions
 Key features
 ************
 
-* 3x OAK-FFC-OV9282 (DM0250TG_R1M1E1) mono camera module interfaces or
-* 2x OAK-FFC-OV9282 (DM0250TG_R1M1E1) and 1x OAK-FFC-IMX378 (DM0249_R1M1E1) RGB camera module interface
+* 2x 2-lane MIPI 26-pin port
+* 1x 4-lane MIPI 26-pin port
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
 * Interface for Luxnois OAK-SoM
