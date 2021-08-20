@@ -1,0 +1,43 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: DM2097_R0M0E0.GBR   17/08/2021  12:38:34
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                TopPaste                                
+.GTS                Top Mask                                
+.GTL                Top Copper                              
+.G1                 GND 1                                   
+.G2                 PWR                                     
+.G3                 Signal Layer 1                          
+.G4                 GND 2                                   
+.GBL                Bottom Copper                           
+.GBS                Bottom Mask                             
+.GBP                BottomPaste                             
+.GBO                Bottom Overlay                          
+.GM1                Board                                   
+.GM2                Top Assembly                            
+.GM3                Bottom Assembly                         
+.GM10               Assembly Notes                          
+.GM11               Dimensions                              
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM31               Top Component Outline                   
+.GM32               Bottom Component Outline                
+.GKO                KeepOutLayer                            
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.1                  Dielectric 1                            
+.GML                MultiLayer                              
+.2                  Core 2                                  
+.3                  Core 1                                  
+.4                  Dielectric 3                            
+.5                  Dielectric 2                            
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
