@@ -22,7 +22,8 @@ Board Layout and Dimensions
 Key features
 ************
 
-* Support for on-board RGB camera modules
+* Fully compatible with all :ref:`OAK-D <bw1098oak>` features
+* :ref:`IP67 rated <IP67 rated PoE enclosures>` enclosure compatible with standard tripod mount (1/4"-20)
 * Interface for OAK-SoM-Pro
 * USB 3.1 Gen1 Type-C
 * Power-over-Ethernet (PoE) power source

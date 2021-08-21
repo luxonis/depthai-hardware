@@ -23,6 +23,7 @@ Key features
 ************
 
 * Support for on-board stereo and RGB camera modules
+* :ref:`IP67 rated <IP67 rated PoE enclosures>` enclosure compatible with standard tripod mount (1/4"-20)
 * Interface for OAK-SoM-Pro
 * USB 3.1 Gen1 Type-C
 * Power-over-Ethernet (PoE) power source
