@@ -65,5 +65,9 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098O
 
 Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/3D_Models>`__ and `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OBC_DepthAI_USB3C/Mechanical>`__
 
+Brochures
+*********
+
+* `Brochure <https://drive.google.com/open?id=1g0bQDLNnpVC_1-AGaPmC8BaXtGaNNdTR>`__
 
 .. include::  /pages/includes/footer-short.rst

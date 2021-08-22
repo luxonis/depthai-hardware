@@ -75,5 +75,9 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_
 
 Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/3D_Models>`__
 
+Brochures
+*********
+
+* `Brochure <https://drive.google.com/open?id=1QrpV8GXMevqj_ikDJVpaJioXM8axdUEJ>`__
 
 .. include::  /pages/includes/footer-short.rst
