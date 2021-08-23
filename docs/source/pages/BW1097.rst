@@ -74,6 +74,6 @@ Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_D
 Brochures
 *********
 
-* `Brochure <https://drive.google.com/open?id=1QmPQ58NkaxO_Tz1Uzj9LlZcsyZ4Vw7hi>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/BW1097_Datasheet.pdf>`__
 
 .. include::  /pages/includes/footer-short.rst

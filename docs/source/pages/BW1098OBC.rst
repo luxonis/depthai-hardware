@@ -68,6 +68,6 @@ Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OB
 Brochures
 *********
 
-* `Brochure <https://drive.google.com/open?id=1g0bQDLNnpVC_1-AGaPmC8BaXtGaNNdTR>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OBC_DepthAI_USB3C/BW1098OBC_Datasheet.pdf>`__
 
 .. include::  /pages/includes/footer-short.rst
