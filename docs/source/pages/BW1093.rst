@@ -41,6 +41,7 @@ Key features
 ************
 
 * Support :ref:`OAK-FFC-IMX378 <bg0249>` 12MP RGB camera module
+* Enclosure compatible with standard tripod mount (1/4"-20)
 * USB 3.1 Gen1 Type-C data and power
 * USB device power LED indicators
 * AUX 5V connector
