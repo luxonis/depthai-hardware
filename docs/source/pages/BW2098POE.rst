@@ -63,6 +63,7 @@ Datasheets
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW2098POE_PoE_Board/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW2098POE_PoE_Board/Docs/Schematic%20PDF/Production.PDF>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/BW2098POE_Datasheet.pdf>`__
 
 Altium Design Files
 *******************

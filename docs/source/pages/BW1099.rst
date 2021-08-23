@@ -45,4 +45,9 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OA
 
 Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SOM>`__ 
 
+Brochures
+*********
+
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/BW1099_Datasheet.pdf>`__
+
 .. include::  /pages/includes/footer-short.rst
