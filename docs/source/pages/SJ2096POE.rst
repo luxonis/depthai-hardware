@@ -34,6 +34,8 @@ Key features
 * Design files produced with Altium Designer 20
 * :ref:`PoE injector <Powering PoE devices>` is required to power the device.
 
+.. image:: /_static/images/SJ2096POE/OAK-POE_cameras.jpg
+
 Power usage
 ***********
 
