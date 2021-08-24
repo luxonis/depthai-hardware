@@ -35,13 +35,20 @@ Key features
 * Design files produced with Altium Designer 20
 * :ref:`PoE injector <Powering PoE devices>` is required to power the device.
 
+
+
+.. image:: /_static/images/SJ2096POE/OAK-POE_cameras.jpg
+
+
+
 Getting started
+
 ***************
 
 .. note:: 
     For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
 
-    
+
 The OAK-1-PoE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
 Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the OAK-SoM-Pro, and boot selection is 
 configured with the DIP switch bank near the USB connector. With the :ref:`OAK-FFC-IMX378 <bg0249>` camera and the DepthAI :ref:`OAK-SoM-Pro <bw2099>` SoM running inference, 
