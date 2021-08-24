@@ -34,6 +34,17 @@ Key features
 * Design files produced with Altium Designer 20
 * :ref:`PoE injector <Powering PoE devices>` is required to power the device.
 
+Power usage
+***********
+
+Power usage for OAK-D-PoE ranges between 2.00 W (standby) and 5.5 W (max consumption). More information on the power usage is below:
+
+* Standby: 52.7 V, 0.038 A, 2.00 W
+* Normal operation (running python depthai_demo.py): 52.5 V, 0.100 A, 5.25 W
+* Max consumption power (running python depthai_demo.py -s left right color disparity rectified_left depth): 52.4 V, 0.105 A, 5.50 W
+
+.. image:: /_static/images/SJ2088POE/oak-d-poe-power-usage.png
+
 Getting started
 ***************
 
