@@ -41,6 +41,7 @@ Key features
 ************
 
 * Support :ref:`OAK-FFC-IMX378 <bg0249>` 12MP RGB camera module
+* Enclosure compatible with standard tripod mount (1/4"-20)
 * USB 3.1 Gen1 Type-C data and power
 * USB device power LED indicators
 * AUX 5V connector
@@ -53,5 +54,9 @@ Download `here <https://github.com/luxonis/depthai-hardware/tree/master/Mechanic
 
 .. image:: /_static/images/BW1093/OAK-1.jpg
 
+Brochures
+*********
+
+* `Brochure <https://drive.google.com/open?id=1ji3K_Q3XdExdID94rHVSL7MvAV2bwKC9>`__
 
 .. include::  /pages/includes/footer-short.rst

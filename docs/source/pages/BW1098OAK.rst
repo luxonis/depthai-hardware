@@ -14,7 +14,8 @@ and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 Key features
 ************
 
-* Fully compatible with all OAK-D features and enclosure
+* Fully compatible with all OAK-D features
+* Enclosure compatible with standard tripod mount (1/4"-20)
 * Support for on-board stereo and RGB camera modules
 * Interface for Luxnois BW1099 DepthAI SoM
 * USB 3.1 Gen1 Type-C
