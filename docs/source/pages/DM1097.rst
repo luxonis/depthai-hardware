@@ -40,6 +40,16 @@ Key features
 
 .. image:: /_static/images/DM1097/DM1097_side.jpg
 
+Minimal perceiving distance of the camera
+*****************************************
+
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
+
+- Min distance (800P): ~ 80cm
+- Min distance (400P): ~ 40cm
+- Min distance with extended disparity (800P): ~ 40cm
+- Min distance with extended disparity (400P): ~ 19.6cm
+
 Datasheets
 **********
 
