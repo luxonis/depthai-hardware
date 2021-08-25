@@ -38,7 +38,16 @@ Key features
 
 .. image:: /_static/images/SJ2088POE/OAK-POE_cameras.jpg
 
+Power usage
+***********
 
+Power usage for OAK-D-PoE ranges between 2.00 W (standby) and 5.5 W (max consumption). More information on the power usage is below:
+
+* Standby: 2.00 W
+* Normal operation (running :code:`python depthai_demo.py`): 5.25 W
+* Max consumption power (running :code:`python depthai_demo.py -s left right color disparity rectified_left depth`): 5.50 W
+
+.. image:: /_static/images/SJ2088POE/oak-d-poe-power-usage.png
 
 Getting started
 ***************
