@@ -18,6 +18,12 @@ Board Layout and Dimensions
 .. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 .. image:: /_static/images/DM1098OBC/DM1098OAKW_SIDE.jpg
 
+Weight
+******
+
+* PCBA: 50g
+* Total weight (PCBA and enclosure): 89g
+
 Key features
 ************
 
