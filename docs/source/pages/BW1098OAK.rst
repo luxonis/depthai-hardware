@@ -37,15 +37,20 @@ Key features
 .. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
 .. image:: /_static/images/BW1098OAK/oak-d_mono_camera_spec.jpg
 
-Minimal perceiving distance of the camera
-*****************************************
+Minimal and maximal perceiving distances of the camera
+******************************************************
 
 Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
 
+OAK-D has a baseline of 7.5cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
 - Min distance (800P): ~ 70cm
 - Min distance (400P): ~ 35cm
 - Min distance with extended disparity (800P): ~ 35cm
 - Min distance with extended disparity (400P): ~ 19.6cm
+
+On the other hand, maximal perceiving distance is limited by how far away the object detector can detect objects. See the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#maximum-depths-visible-by-depthai>`__ for more information.
+
+Maximal perceiving distance for OAK-D: 38.4 meters
 
 Getting started
 ***************
