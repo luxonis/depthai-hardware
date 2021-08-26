@@ -20,10 +20,19 @@ different lenses to get **custom FoV** (they have wide and narrow angle M12 lens
 
 In addition IMU over SPI support was also added to the OAK-FFC-3P.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/DM1090FFC/DM1090FFC_BOT.jpg
+
+Dimensions and Weight
+*********************
+* Width: 60 mm
+* Height: 40 mm
+* Length: 22 mm (PCBA and heatsink)
+* Weight: 41g
+
+.. image:: /_static/images/DM1090FFC/oak-ffc-3p-dimensions.jpeg
 
 Key features
 ************
