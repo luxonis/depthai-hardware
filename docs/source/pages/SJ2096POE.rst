@@ -13,11 +13,20 @@ cameras which implement RGB vision, piped directly into the DepthAI SoM for dept
 via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-1-PoE board exposes boot selection switches, allowing the end 
 user to boot the :ref:`OAK-SoM-Pro <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/SJ2096POE/SJ2096POE_dim.jpg
 .. image:: /_static/images/SJ2096POE/SJ2096POE_dim_2.jpg
+
+Dimensions and Weight
+*********************
+* Width: 82 mm
+* Height: 114 mm
+* Length: 32 mm
+* Weight: 294g
+
+.. image:: /_static/images/SJ2096POE/oak-1-poe-dimensions.jpeg
 
 Key features
 ************

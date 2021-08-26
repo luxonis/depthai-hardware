@@ -13,11 +13,20 @@ cameras which implement stereo and RGB vision, piped directly into the DepthAI S
 to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther OAK-D-POE board exposes boot selection switches, allowing 
 the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
 .. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
+
+Dimensions and Weight
+*********************
+* Width: 130 mm
+* Height: 101 mm
+* Length: 31 mm
+* Weight: 361g
+
+.. image:: /_static/images/SJ2088POE/oak-d-poe-dimensions.jpeg
 
 Key features
 ************

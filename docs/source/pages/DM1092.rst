@@ -13,6 +13,15 @@ If you are **new to OAK IOT devices, you can check** `Getting started with OAK I
 To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and 
 `here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
 
+Dimensions and Weight
+*********************
+* Width: 60 mm
+* Height: 45 mm
+* Length: 25 mm (including the SoM)
+* Weight: 45.5g
+
+.. image:: /_static/images/DM1092/oak-d-iot-40-dimensions.jpeg
+
 Key features
 ************
 

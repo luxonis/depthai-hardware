@@ -11,6 +11,15 @@ Overview
 The OAK-D baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth 
 and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
+Dimensions and Weight
+*********************
+* Width: 110 mm
+* Height: 55 mm
+* Length: 32 mm
+* Weight: 115g
+
+.. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
+
 Key features
 ************
 
