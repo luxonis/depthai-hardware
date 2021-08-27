@@ -21,8 +21,8 @@ Board Layout and Dimensions
 Weight
 ******
 
-* PCBA: 50g
-* Total weight (PCBA and enclosure): 89g
+* PCBA and SoM: 48.5g
+* Total weight (with enclosure): 89g
 
 Key features
 ************

@@ -15,10 +15,11 @@ To read more on the why of this design, see `here <https://github.com/luxonis/de
 
 Dimensions and Weight
 *********************
+
 * Width: 60 mm
 * Height: 45 mm
 * Length: 25 mm (including the SoM)
-* Weight: 45.5g
+* Weight: 45.5g (total), 20g (PCBA), 25.5g (SoM with heatsink)
 
 .. image:: /_static/images/DM1092/oak-d-iot-40-dimensions.jpeg
 

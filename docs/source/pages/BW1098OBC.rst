@@ -17,6 +17,13 @@ Board Layout and Dimensions
 .. image:: /_static/images/BW1098OBC/BW1098OBC_an.jpg
 .. image:: /_static/images/BW1098OBC/BW1098OBC_dims.jpg
 
+Weight
+******
+
+* PCBA: 17.5g
+* SoM and heatsink: 25.5g
+* Total weight: 43g
+
 Key features
 ************
 
