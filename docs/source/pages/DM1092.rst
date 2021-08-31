@@ -13,6 +13,16 @@ If you are **new to OAK IOT devices, you can check** `Getting started with OAK I
 To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and 
 `here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
 
+Dimensions and Weight
+*********************
+
+* Width: 60 mm
+* Height: 45 mm
+* Length: 25 mm (including the SoM)
+* Weight: 45.5g (total), 20g (PCBA), 25.5g (SoM with heatsink)
+
+.. image:: /_static/images/DM1092/oak-d-iot-40-dimensions.jpeg
+
 Key features
 ************
 
@@ -25,6 +35,21 @@ This design will serve as a reference for multiple purposes:
 * Prototype of DepthAI with an integrated IMU
 
 .. image:: /_static/images/DM1092/DM1092_pcba.jpg
+
+Minimal and maximal perceiving distances of the camera
+******************************************************
+
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
+
+OAK-D-IOT-40 has a baseline of 4cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
+- Min distance (800P): ~ 37cm
+- Min distance (400P): ~ 19.6cm
+- Min distance with extended disparity (800P): ~ 19.6cm
+- Min distance with extended disparity (400P): ~ 19.6cm
+
+On the other hand, maximal perceiving distance is limited by how far away the object detector can detect objects. See the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#maximum-depths-visible-by-depthai>`__ for more information.
+
+Maximal perceiving distance for OAK-D-IoT-40: 21 meters
 
 Getting started
 ***************

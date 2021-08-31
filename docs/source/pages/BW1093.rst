@@ -30,8 +30,8 @@ Below is an example of running MobileNet-SSD:
 
 Dimensions and Weight
 *********************
-* Height: 53 mm
 * Width: 35 mm
+* Height: 53 mm
 * Length: 28 mm
 * Weight: 53.1 grams
 

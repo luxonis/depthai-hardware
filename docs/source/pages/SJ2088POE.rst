@@ -13,11 +13,20 @@ cameras which implement stereo and RGB vision, piped directly into the DepthAI S
 to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther OAK-D-POE board exposes boot selection switches, allowing 
 the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
 .. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
+
+Dimensions and Weight
+*********************
+* Width: 130 mm
+* Height: 101 mm
+* Length: 31 mm
+* Weight: 361g
+
+.. image:: /_static/images/SJ2088POE/oak-d-poe-dimensions.jpeg
 
 Key features
 ************
@@ -37,6 +46,21 @@ Key features
 
 
 .. image:: /_static/images/SJ2088POE/OAK-POE_cameras.jpg
+
+Minimal and maximal perceiving distances of the camera
+******************************************************
+
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
+
+OAK-D-PoE has a baseline of 7.5cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
+- Min distance (800P): ~ 70cm
+- Min distance (400P): ~ 35cm
+- Min distance with extended disparity (800P): ~ 35cm
+- Min distance with extended disparity (400P): ~ 19.6cm
+
+On the other hand, maximal perceiving distance is limited by how far away the object detector can detect objects. See the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#maximum-depths-visible-by-depthai>`__ for more information.
+
+Maximal perceiving distance for OAK-D-PoE: 38.4 meters
 
 Power usage
 ***********

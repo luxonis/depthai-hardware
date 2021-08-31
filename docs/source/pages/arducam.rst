@@ -11,6 +11,12 @@ Overview
 `ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with OAK devices.
 A variety of M12-mount options allow to match lenses in many projects.
 
+Weight
+******
+
+* Stereo camera: 3g (6g in total)
+* Color camera: 4g
+
 .. _arducam-compatible-cameras:
 
 Arducam compatible cameras
