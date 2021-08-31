@@ -10,7 +10,7 @@ Overview
 
 The OAK-FFC-3P-OG (BW1098FFC) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) 
 and one :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. This board can also be used with adapters for the Raspberry Pi HQ Camera, using 
-the :ref: `Raspberry Pi Adapter Board <bw0253>`.
+the :ref:`Raspberry Pi Adapter Board <bw0253>`.
 
 Baseboards and cameras (BW1098FFC + :ref:`OAK-FFC-OV9282 <bg0250tg>` + :ref:`OAK-FFC-IMX378 <bg0249>`) together:
 

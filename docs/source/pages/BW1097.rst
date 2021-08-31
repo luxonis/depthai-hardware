@@ -45,10 +45,16 @@ Minimal perceiving distance of the camera
 
 Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
 
+OAK-D-CM3 has a baseline of 9cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
+
 - Min distance (800P): ~ 80cm
 - Min distance (400P): ~ 40cm
 - Min distance with extended disparity (800P): ~ 40cm
 - Min distance with extended disparity (400P): ~ 19.6cm
+
+On the other hand, maximal perceiving distance is limited by how far away the object detector can detect objects. See the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#maximum-depths-visible-by-depthai>`__ for more information.
+
+Maximal perceiving distance for OAK-D-CM3: 45.9 meters
 
 Getting started
 ***************
