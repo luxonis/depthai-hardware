@@ -39,6 +39,10 @@ Key features
 Getting started
 ***************
 
+.. note:: 
+    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
+
+
 The PoE Board accepts power input either from a 5.5m x 2.1mm barrel jack (5V +/-10%) or from the RJ-45 connector upsteam from the 802.3af, 
 Class 3 PoE circuitry. A jumper near the MIPI FFC connector allows for user selction of the input power source. Booting can be accomplished 
 from either the USB interface or from the eMMC or NOR flash on the :ref:`OAK-SoM-Pro <bw2099>`, and boot selection is configured with the DIP switch bank near 
