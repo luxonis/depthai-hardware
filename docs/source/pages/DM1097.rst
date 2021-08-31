@@ -50,7 +50,7 @@ OAK-D-CM4 has a baseline of 9cm and by varying the resolution and stereo depth m
 - Min distance (800P): ~ 80cm
 - Min distance (400P): ~ 40cm
 - Min distance with extended disparity (800P): ~ 40cm
-- Min distance with extended disparity (400P): ~ 19.6cm
+- Min distance with extended disparity (400P): ~ 20.9cm
 
 Maximal perceiving distance for OAK-D-CM4: 45.9 meters
 

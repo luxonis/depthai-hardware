@@ -43,12 +43,12 @@ Minimal depth perceiving distance of the camera depends on mono camera FOV, reso
 
 Since OAK-FFC-3P-OG has modular mono cameras, it also has a custom baseline (depending on how it is set up). The formulas for minimal depth perceiving distances are:
 
-- Min distance (800P) = 882.5 * baseline / 95
-- Min distance (400P) = 441.25 * baseline / 95
-- Min distance with extended disparity (800P) = 882.5 * baseline / 190
-- Min distance with extended disparity (400P) = max(441.25 * baseline / 190, 19.6)
+- Min distance (800P) = :code:`882.5 * baseline / 95`
+- Min distance (400P) = :code:`441.25 * baseline / 95`
+- Min distance with extended disparity (800P) = :code:`882.5 * baseline / 190`
+- Min distance with extended disparity (400P) = :code:`max(441.25 * baseline / 190, 19.6)`
 
-Maximal perceiving distance for OAK-FFC-3P-OG = baseline/2 * tan((90 - 71.9/1280) * PI/180)
+Maximal perceiving distance for OAK-FFC-3P-OG = :code:`baseline/2 * tan((90 - 71.9/1280) * PI/180)`
 
 For more information about the maximum distance see the Stereo Depth documentation.
 
