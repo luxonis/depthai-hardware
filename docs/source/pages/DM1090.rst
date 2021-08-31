@@ -23,6 +23,8 @@ In addition, IMU (over SPI) sensor was also added to the OAK-FFC-3P.
 Board Layout and Dimensions
 ***************************
 
+.. image:: /_static/images/DM1090FFC/DM1090FFC_R0M0E0_dims.jpg
+
 .. image:: /_static/images/DM1090FFC/DM1090FFC_BOT.jpg
 
 Key features
