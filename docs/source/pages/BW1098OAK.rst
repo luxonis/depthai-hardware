@@ -49,9 +49,9 @@ OAK-D has a baseline of 7.5cm and by varying the resolution and stereo depth mod
 - Min distance with extended disparity (800P): ~ 35cm
 - Min distance with extended disparity (400P): ~ 19.6cm
 
-On the other hand, maximal perceiving distance is limited by how far away the object detector can detect objects. See the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#maximum-depths-visible-by-depthai>`__ for more information.
-
 Maximal perceiving distance for OAK-D: 38.4 meters
+
+For more information about the maximum distance see the Stereo Depth documentation.
 
 Getting started
 ***************
