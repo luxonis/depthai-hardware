@@ -10,7 +10,7 @@ Overview
 
 The OAK-FFC-3P-OG (BW1098FFC) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) 
 and one :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. This board can also be used with adapters for the Raspberry Pi HQ Camera, using 
-the :ref: `Raspberry Pi Adapter Board <bw0253>`.
+the :ref:`Raspberry Pi Adapter Board <bw0253>`.
 
 Baseboards and cameras (BW1098FFC + :ref:`OAK-FFC-OV9282 <bg0250tg>` + :ref:`OAK-FFC-IMX378 <bg0249>`) together:
 
@@ -35,6 +35,22 @@ Key features
 * 5V Fan/Aux header
 * Pads for DepthAI SoM aux signals
 * Design files produced with Altium Designer 20
+
+Minimal perceiving distance of the camera
+*****************************************
+
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
+
+Since OAK-FFC-3P-OG has modular mono cameras, it also has a custom baseline (depending on how it is set up). The formulas for minimal depth perceiving distances are:
+
+- Min distance (800P) = :code:`882.5 * baseline / 95`
+- Min distance (400P) = :code:`441.25 * baseline / 95`
+- Min distance with extended disparity (800P) = :code:`882.5 * baseline / 190`
+- Min distance with extended disparity (400P) = :code:`max(441.25 * baseline / 190, 19.6)`
+
+Maximal perceiving distance for OAK-FFC-3P-OG = :code:`baseline/2 * tan((90 - 71.9/1280) * PI/180)`
+
+For more information about the maximum distance see the Stereo Depth documentation.
 
 Getting started
 ***************
