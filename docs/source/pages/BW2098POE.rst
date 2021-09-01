@@ -14,11 +14,17 @@ channel directly into the Myriad X on the :ref:`OAK-SoM-Pro <bw2099>` (System on
 Finally, the PoE Board exposes boot selection switches, allowing the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` from USB or the on-board eMMC 
 or NOR flash.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/BW2098POE/BW2098POE_an.jpg
+
+Dimensions and Weight
+*********************
+
 .. image:: /_static/images/BW2098POE/BW2098POE_dims.jpg
+
+* Weight: 78g
 
 Key features
 ************

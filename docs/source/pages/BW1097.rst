@@ -11,11 +11,17 @@ Overview
 Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the :ref:`OAK-SoM <bw1099>` to allow 
 for fully integrated solution for real-time spatial AI.
 
-Board layout & dimensions
-*************************
+Board layout
+************
 
 .. image:: /_static/images/BW1097/BW1097_diag.jpg
+
+Dimensions and Weight
+*********************
+
 .. image:: /_static/images/BW1097/BW1097_dims.jpg
+
+* Weight: 101g
 
 Key features
 ************

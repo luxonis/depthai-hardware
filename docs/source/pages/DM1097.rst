@@ -12,11 +12,17 @@ Based on the :ref:`OAK-D-CM3 <bw1097>` and Raspberry PI CM4IO board, the OAK-D-C
 solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`OAK-D-CM3 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit 
 ethernet, and populated with MagJack supporting PoE. PoE can be used with additional PoE Hat.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
+
+.. image:: /_static/images/DM1097/DM1097.jpg
+
+Dimensions and Weight
+*********************
 
 .. image:: /_static/images/DM1097/DM1097_dim.jpg
-.. image:: /_static/images/DM1097/DM1097.jpg
+
+* Weight: 106g
 
 Key features
 ************

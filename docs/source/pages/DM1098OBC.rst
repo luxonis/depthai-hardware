@@ -12,14 +12,17 @@ The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
 If you are **new to OAK IOT devices, you can check** `Getting started with OAK IOT devices <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__ tutorial.
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
-.. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 .. image:: /_static/images/DM1098OBC/DM1098OAKW_SIDE.jpg
 
-Weight
-******
+Dimensions and Weight
+*********************
+
+.. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
+
+Weight:
 
 * PCBA and SoM: 48.5g
 * Total weight (with enclosure): 89g
