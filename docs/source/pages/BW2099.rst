@@ -14,8 +14,10 @@ The OAK-SoM-Pro interfaces with the system through two 10-gbps-rated 100-pin boa
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxillary power port is offered to interface without connetion to a baseboard.
 
-Board Layout and Dimensions
-***************************
+Weight, Board Layout and Dimensions
+***********************************
+
+Weight: 5g
 
 .. image:: /_static/images/BW2099/BW2099_diag.jpg
 .. image:: /_static/images/BW2099/BW2099_dimm.jpg
