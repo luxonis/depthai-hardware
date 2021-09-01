@@ -11,14 +11,17 @@ Overview
 The OAK-D-PCBA baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the :ref:`OAK-SoM <bw1099>` for depth and 
 AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/BW1098OBC/BW1098OBC_an.jpg
+
+Dimensions and Weight
+*********************
+
 .. image:: /_static/images/BW1098OBC/BW1098OBC_dims.jpg
 
-Weight
-******
+Weight:
 
 * PCBA: 17.5g
 * SoM and heatsink: 25.5g
