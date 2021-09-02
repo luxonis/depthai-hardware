@@ -57,7 +57,7 @@ Powering from battery
 *********************
 
 It is recommended to use PoE injectors that meets at least the 802.3af standard. If you are powering your PoE device from a car or solar battery, you are limited
-by its output voltage, which is 12V for standard automotive batteries. In that case you need to find a PoE injector which will input 12V and output at least 48V.
+by its output voltage, which is 12V for standard automotive batteries. In that case you need to find a PoE injector which will input 12V and output the voltage specified by the `802.3af standard <https://en.wikipedia.org/wiki/Power_over_Ethernet>`__.
 
 The following PoE injectors were tested on a 12V input:
 
