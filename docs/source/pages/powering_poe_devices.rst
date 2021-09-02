@@ -48,10 +48,16 @@ Below is a quick list of UniFi switches that have been tested with OAK PoE model
 
 The nice thing about using PoE switches, is then one has a clean, plug-and-play solution. 
 
-If you would like to use their existing non-PoE switch, it is possible to do so using what's called a PoE Injector.
+If you would like to use your existing non-PoE switch, it is possible to do so using what's called a PoE Injector.
 
 PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our DepthAIs). So if you'd prefer to use an existing 
 non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__ injector, which would be used per OAK PoE device.
+
+The following PoE injectors were tested:
+
+- Solis energy PoE-24 HPI-1112: Rated to operate at 12V and worked as expected.
+- Tycon Power TPDIN-1256GD-BT: Rated to operate at 12V and worked as expected.
+- Tycon Power TP-DC-1248GDX2-HP: Rated to operate at 10V to 16V, but only started powering its own LED at 15V, therefore it is unreliable and should be avoided.
 
 Here's an example of connecting multiple DepthAI PoE devices to the UniFi switch:
 
