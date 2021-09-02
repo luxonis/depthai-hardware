@@ -53,8 +53,8 @@ If you would like to use your existing non-PoE switch, it is possible to do so u
 PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our DepthAIs). So if you'd prefer to use an existing 
 non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__ injector, which would be used per OAK PoE device.
 
-Powering from battery
-*********************
+Powering from a battery
+***********************
 
 It is recommended to use PoE injectors that meets at least the 802.3af standard. If you are powering your PoE device from a car or solar battery, you are limited
 by its output voltage, which is 12V for standard automotive batteries. In that case you need to find a PoE injector which will input 12V and output the voltage specified by the `802.3af standard <https://en.wikipedia.org/wiki/Power_over_Ethernet>`__.
