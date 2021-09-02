@@ -22,9 +22,12 @@ Board Layout
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/BW2099/BW2099_dimm.jpg
-
+* Width: 30 mm
+* Height: 45 mm
+* Length: 4 mm
 * Weight: 5g
+
+.. image:: /_static/images/BW2099/BW2099_dimm.jpg
 
 Key features
 ************

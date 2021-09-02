@@ -19,9 +19,12 @@ Board layout
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/BW1097/BW1097_dims.jpg
-
+* Width: 110 mm
+* Height: 60 mm
+* Length: 27 mm
 * Weight: 101g
+
+.. image:: /_static/images/BW1097/BW1097_dims.jpg
 
 Key features
 ************

@@ -24,9 +24,12 @@ Board Layout
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
-
+* Width: 60 mm
+* Height: 40 mm
+* Length: 20.5 mm
 * Weight: 40g
+
+.. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
 
 Key features
 ************
