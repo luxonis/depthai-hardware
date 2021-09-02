@@ -53,11 +53,17 @@ If you would like to use your existing non-PoE switch, it is possible to do so u
 PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our DepthAIs). So if you'd prefer to use an existing 
 non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__ injector, which would be used per OAK PoE device.
 
-The following PoE injectors were tested:
+Powering from battery
+*********************
 
-- Solis energy PoE-24 HPI-1112: Rated to operate at 12V and worked as expected.
-- Tycon Power TPDIN-1256GD-BT: Rated to operate at 12V and worked as expected.
-- Tycon Power TP-DC-1248GDX2-HP: Rated to operate at 10V to 16V, but only started powering its own LED at 15V, therefore it is unreliable and should be avoided.
+It is recommended to use PoE injectors that meets at least the 802.3af standard. If you are powering your PoE device from a car or solar battery, you are limited
+by its output voltage, which is 12V for standard automotive batteries. In that case you need to find a PoE injector which will input 12V and output at least 48V.
+
+The following PoE injectors were tested on a 12V input:
+
+- Solis energy PoE-24 HPI-1112: Input voltage: 12V / 24V DC, works as expected.
+- Tycon Power TPDIN-1256GD-BT: Input voltage: 11 ~ 60V, works as expected.
+- Tycon Power TP-DC-1248GDX2-HP: Input voltage: 10 ~ 15V, only starts powering its own LED at 15V, so it is unreliable, even though the IEEE standard is 802.3af.
 
 Here's an example of connecting multiple DepthAI PoE devices to the UniFi switch:
 
