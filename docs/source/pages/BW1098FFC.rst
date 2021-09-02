@@ -16,10 +16,19 @@ Baseboards and cameras (BW1098FFC + :ref:`OAK-FFC-OV9282 <bg0250tg>` + :ref:`OAK
 
 .. image:: /_static/images/BW1098FFC/with_camera.jpeg
 
-Board Layout and Dimensions
-***************************
+Board Layout
+************
 
 .. image:: /_static/images/BW1098FFC/BW1098FFC_diag.jpg
+
+Dimensions and Weight
+*********************
+
+* Width: 60 mm
+* Height: 40 mm
+* Length: 20.5 mm
+* Weight: 40g
+
 .. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
 
 Key features
