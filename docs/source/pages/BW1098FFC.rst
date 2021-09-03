@@ -59,7 +59,7 @@ Since OAK-FFC-3P-OG has modular mono cameras, it also has a custom baseline (dep
 
 Maximal perceiving distance for OAK-FFC-3P-OG = :code:`baseline/2 * tan((90 - 71.9/1280) * PI/180)`
 
-For more information about the maximum distance see the Stereo Depth documentation.
+For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
 Getting started
 ***************
