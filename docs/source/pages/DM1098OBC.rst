@@ -46,7 +46,7 @@ Key features
 Minimal and maximal perceiving distances of the camera
 ******************************************************
 
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
 
 OAK-D-IOT-75 has a baseline of 7.5cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
 
