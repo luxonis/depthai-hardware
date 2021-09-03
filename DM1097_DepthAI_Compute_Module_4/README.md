@@ -55,4 +55,4 @@ The PWR LED indicates "power good" for the BW1097 on-board PMIC. The CM4 ACT LED
 
 
 # Revision info
-These files represent the R0M0E0 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R2M0E2 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.

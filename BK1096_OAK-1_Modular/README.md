@@ -1,4 +1,4 @@
-# BK1096_OAK-1_Modular
+# BK1096_Modular
 
 ![](../BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
 

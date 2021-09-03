@@ -18,10 +18,12 @@ which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 Here's a list of :ref:`compatible Arducam cameras <arducam-compatible-cameras>` with the OAK-FFC-3P. Those cameras have a M12 mount, so you can use
 different lenses to get **custom FoV** (they have wide and narrow angle M12 lenses).
 
-In addition IMU over SPI support was also added to the OAK-FFC-3P.
+In addition, IMU (over SPI) sensor was also added to the OAK-FFC-3P.
 
 Board Layout
 ************
+
+.. image:: /_static/images/DM1090FFC/DM1090FFC_R0M0E0_dims.jpg
 
 .. image:: /_static/images/DM1090FFC/DM1090FFC_BOT.jpg
 
@@ -80,6 +82,13 @@ and `BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1
 
 The 5V LED indicates 5V power is present on the OAK-FFC-3P. The PG LED indicates "power good" from the OAK-SoM. The "RUN" LED indicates that the 
 OAK-SoM is not in reset.
+
+FFC cables
+**********
+
+For FFC cables we use `Molex series 15166 <https://www.molex.com/molex/search/partSearch?query=15166>`__. Along with the OAK-FFC-3P, we ship
+**26 pin count, same-sided, 152mm** cables (part number `151660281 <https://www.molex.com/molex/products/part-detail/cable/0151660281>`__).
+If you would like to use **shorter/longer FFC cables**, you can get them `here <https://www.molex.com/molex/search/deepSearch?pQuery=q%253D*%253A*%2540fq%253Dcollection%253Aimpulse%2540fq%253Dcollection%253Aimpulse%2540fq%253Dproductseries%253A%252215166%2522%252BOR%252Bengineeringnumber%253A%252215166%2522%2540fq%253Dcategory%253A%2522Cable%2522%2540fq%253Dcircuitsloaded%253A%252226%2522&currentQuery=contactlayouttype%3AA%2B%2528same%2Bside%2529&origin=_l1stv13w>`__.
 
 Revision info
 *************
