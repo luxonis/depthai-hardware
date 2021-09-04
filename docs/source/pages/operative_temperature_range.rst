@@ -23,7 +23,7 @@ Command used for testing
 ************************
 
 We have tested thermals of our devices with max load, and you can achieve that by using the depthai_demo:
-:code:`python3 depthai_demo.py -sub -lrc -hq -rgbr 2160 --report cpu -enc left right color -encout /dev/null`
+:code:`python3 depthai_demo.py -sub -lrc -rgbr 2160 --report cpu -enc color -encout /dev/null`
 
 This command has the maximum power consumption, therefore the devices have the highest heat output.
 
