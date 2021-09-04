@@ -22,11 +22,8 @@ Since devices generate about 45 °C in worst-case, this means the maximum ambien
 Command used for testing
 ************************
 
-We used the following command when thermal testing our devices:
-:code:`python3 test.py -nce 2 -sh 10 -cmx 10 -rgbf 30 -rgbr 2160 -s metaout previewout meta_d2h -v /dev/null`
-
-Since this is Gen1 software, the equivalent Gen2 command should be:
-:code:`python3 depthai_demo.py -sub -lrc -hq -rgbr 2160 -v /dev/null --report cpu`
+We have tested thermals of our devices with max load, and you can achieve that by using the depthai_demo:
+:code:`python3 depthai_demo.py -sub -lrc -hq -rgbr 2160 --report cpu -enc left right color -encout /dev/null`
 
 This command has the maximum power consumption, therefore the devices have the highest heat output.
 
