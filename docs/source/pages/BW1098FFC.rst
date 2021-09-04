@@ -45,10 +45,10 @@ Key features
 * Pads for DepthAI SoM aux signals
 * Design files produced with Altium Designer 20
 
-Minimal perceiving distance of the camera
-*****************************************
+Minimal and maximal perceiving distances of the camera
+******************************************************
 
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__ and `here <https://docs.luxonis.com/en/latest/pages/faq/#id1>`__.
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
 
 Since OAK-FFC-3P-OG has modular mono cameras, it also has a custom baseline (depending on how it is set up). The formulas for minimal depth perceiving distances are:
 
@@ -59,7 +59,7 @@ Since OAK-FFC-3P-OG has modular mono cameras, it also has a custom baseline (dep
 
 Maximal perceiving distance for OAK-FFC-3P-OG = :code:`baseline/2 * tan((90 - 71.9/1280) * PI/180)`
 
-For more information about the maximum distance see the Stereo Depth documentation.
+For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
 Getting started
 ***************

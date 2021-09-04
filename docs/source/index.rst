@@ -20,6 +20,7 @@ Guides, tutorials and articles
 * :ref:`OAK Design Guide <design_guide>`  
 * :ref:`Powering PoE devices <powering_poe>` 
 * :ref:`Waterproof enclosures <waterproof>`
+* :ref:`Operative temperature range <operative_temperature_range>`
 
 
 USB Designs
@@ -181,6 +182,7 @@ Miscellaneous Designs
    :caption: Articles
 
    pages/waterproof.rst
+   pages/operative_temperature_range.rst
 
 .. toctree::
    :maxdepth: 1
