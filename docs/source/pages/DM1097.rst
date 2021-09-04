@@ -20,9 +20,12 @@ Board Layout
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/DM1097/DM1097_dim.jpg
-
+* Width: 110 mm
+* Height: 60 mm
+* Length: 27 mm
 * Weight: 106g
+
+.. image:: /_static/images/DM1097/DM1097_dim.jpg
 
 Key features
 ************
