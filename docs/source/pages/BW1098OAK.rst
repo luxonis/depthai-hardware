@@ -14,8 +14,8 @@ and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 Dimensions and Weight
 *********************
 * Width: 110 mm
-* Height: 55 mm
-* Length: 32 mm
+* Height: 54.5 mm
+* Length: 33 mm
 * Weight: 115g
 
 .. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
