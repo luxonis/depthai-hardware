@@ -61,6 +61,7 @@ by its output voltage, which is 12V for standard automotive batteries. In that c
 
 The following PoE injectors were tested on a 12V input:
 
+- `GPOE-48V-10W <https://www.aliexpress.com/item/32981044221.html>`__: Input voltage: 10-30V, output voltage: 48V, works as expected
 - Solis energy PoE-24 HPI-1112: Input voltage: 12V / 24V DC, works as expected.
 - Tycon Power TPDIN-1256GD-BT: Input voltage: 11 ~ 60V, works as expected.
 - Tycon Power TP-DC-1248GDX2-HP: Input voltage: 10 ~ 15V, only starts powering its own LED at 15V, so it is unreliable, even though the IEEE standard is 802.3af.
