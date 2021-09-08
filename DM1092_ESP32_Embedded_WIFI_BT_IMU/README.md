@@ -19,7 +19,7 @@ The "RUN" LED indicates that the DepthAI SoM is not reset.
 
 ![](Images/ASM_DM1092_R1M1E1.jpg)
 
-![](Images/ASM-SOM_DM1092_R1M1E1.jpg)
+![](Images/ASM-SoM_DM1092_R1M1E1.jpg)
 
 # Design Revision info
 The design files represent the R2M2E2 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
