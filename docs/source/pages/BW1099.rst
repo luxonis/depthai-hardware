@@ -42,17 +42,17 @@ Key features
 Datasheets
 **********
 
-* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SOM/OAK-SOM_Datasheet.pdf>`__
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM_Datasheet.pdf>`__
 
 Altium Design Files
 *******************
 
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SOM>`__
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM>`__
 
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SOM>`__ 
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM>`__ 
 
 Brochures
 *********
