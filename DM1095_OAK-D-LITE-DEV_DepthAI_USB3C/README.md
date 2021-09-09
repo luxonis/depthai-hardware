@@ -23,7 +23,7 @@ More about the "why" are we making this product available and open sourcing you 
 
 # Key features
 * OV7251 (640x480) 
-* IMX214 (12MP)
+* IMX214 (13MP)
 * Support for on-board stereo and RGB camera modules
 * Interface for Luxonis BW1099 DepthAI SoM
 * **USB3 Type-C** power only requires USB3-capable host, or USB2 host that can provide 900mA - for example RPi3 and RPi4 
