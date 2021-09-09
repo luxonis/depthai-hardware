@@ -30,12 +30,12 @@ Below is an example of running MobileNet-SSD:
 
 Dimensions and Weight
 *********************
-* Width: 35 mm
-* Height: 53 mm
-* Length: 28 mm
+* Width: 36 mm
+* Height: 54.5 mm
+* Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
+.. image:: /_static/images/BW1093/oak-1-dimensions.jpeg
 
 Key features
 ************
@@ -46,6 +46,8 @@ Key features
 * USB device power LED indicators
 * AUX 5V connector
 * Access to SoM 1.8V I2C and UART
+
+.. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
 
 Mechanical design
 *****************
