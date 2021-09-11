@@ -26,7 +26,7 @@ Dimensions and Weight
 * Length: 32 mm
 * Weight: 294g
 
-.. image:: /_static/images/SJ2096POE/oak-1-poe-dimensions.jpeg
+.. image:: /_static/images/SJ2096POE/OAK-1-PoE-dimensions.svg
 
 Key features
 ************
@@ -55,7 +55,7 @@ Power usage for OAK-1-PoE ranges between 1.94 W (standby) and 4.56 W (max consum
 * Normal operation (running :code:`python depthai_demo.py`): 4.20 W
 * Max consumption power (running :code:`python depthai_demo.py -s left right color disparity rectified_left depth`): 4.56 W
 
-.. image:: /_static/images/SJ2096POE/oak-1-poe-power-usage.jpeg
+.. image:: /_static/images/SJ2096POE/OAK-1-PoE-power-usage.jpeg
 
 Getting started
 ***************
