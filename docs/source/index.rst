@@ -27,16 +27,20 @@ USB Designs
 ***********
 
 .. list-table::
-   :widths: 50 50
+   :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-D
+   * - OAK-D-Lite
+     - OAK-D
      - OAK-1
-   * - .. image:: /_static/images/thumbnails/BW1098OAK.png
+   * - .. image:: /_static/images/thumbnails/DM9095.png
+          :target: pages/DM9095.html
+     - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
      - .. image:: /_static/images/thumbnails/OAK-1.png
           :target: pages/BW1093.html 
-   * - :ref:`Learn more <bw1098oak>` 
+   * - :ref:`Learn more <dm9095>` 
+     - :ref:`Learn more <bw1098oak>` 
      - :ref:`Learn more <bw1093>` 
 
 PoE Designs
@@ -189,6 +193,7 @@ Miscellaneous Designs
    :hidden:
    :caption: USB Designs
 
+   pages/DM9095.rst
    pages/BW1098OAK.rst
    pages/BW1093.rst
 
