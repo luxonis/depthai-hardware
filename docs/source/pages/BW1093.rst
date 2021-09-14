@@ -35,7 +35,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1093/oak-1-dimensions.jpeg
+.. image:: /_static/images/BW1093/OAK-1-dimensions.svg
 
 Key features
 ************
