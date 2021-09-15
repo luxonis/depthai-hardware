@@ -21,17 +21,16 @@ Key features
 * Object tracking
 * 3D Object Tracking (up to 20 objects with unique ID)
 * 3D Object Localization
-* H.264 & H.265 Encoding (HEVC, 1080P and 4K Video) - A Pi Zero can record 4K/30 FPS videon with this!
+* H.264 & H.265 Encoding (HEVC, 1080P, and 4K Video) - A Pi Zero can record 4K/30 FPS video with this
 * Motion Estimation (allows real-time background subtraction)
-* Feature Tracking (optical and visual inertial navigation)
+* Feature Tracking (optical, and visual inertial navigation)
 * Corner Detection
 * Stereo Depth (including median filtering, tended disparity and subpixel possible for wider dynamic range)
 * Warp/Dewarp - support for additional lenses for fish-eye applications
 * JPEG Encoding
 * MJPEG Encoding for easy web streaming
 
-.. image:: /_static/images/DM9095/lite_camera_spec.png
-.. image:: /_static/images/DM9095/lite_spec.jpg
+.. image:: /_static/images/DM9095/oak_d_lite_en.png
 
 Dimensions and Weight
 *********************
@@ -71,12 +70,7 @@ and after 90 minutes, we received the following temperatures:
 The operative temperature range of the Myriad X VPU (die temperature) is -40 °C to 105 °C. The die temperature can get to about +35°C from the ambient 
 temperature. Note that the stable image temperature of the camera sensor is 0 °C to +50 °C (operating temperature -30 °C to +70 °C).
 
-.. image:: /_static/images/DM9095/DM9095.jpg
-
-3D Models
-*********
-
-[TBA]
+.. image:: /_static/images/DM9095/lite_out.jpg
 
 
 .. include::  /pages/includes/footer-short.rst
