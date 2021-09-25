@@ -6,7 +6,7 @@
 ![image](https://user-images.githubusercontent.com/32992551/108413593-725d4a80-71e8-11eb-9c6a-ea0b242a53fa.png)
 
 # Project Stage
-Hardware design is complete and verified.  The Ethernet port of the depthai ecosystem starts in March and is expected to be feature complete in April.
+Hardware design is complete and verified.  API is complete and feature-partity with USB models and maintained in parity.  These are available for purchase [here](https://shop.luxonis.com/collections/poe) and [here](https://store.opencv.ai/products/oak-d-poe), and for readers in Japan - [here](https://www.switch-science.com/catalog/7410/).
 
 # Overview
 
