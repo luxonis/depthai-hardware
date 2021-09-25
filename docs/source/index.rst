@@ -134,16 +134,20 @@ System on Module Designs
 ************************
 
 .. list-table::
-   :widths: 50 50
+   :widths: 30 30 30
    :header-rows: 1
 
    * - OAK-SoM
+     - OAK-SoM-IoT
      - OAK-SoM-Pro
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html 
+     - .. image:: /_static/images/thumbnails/BW1099EMB.png
+          :target: pages/BW1099EMB.html 
      - .. image:: /_static/images/thumbnails/BW2099.png
           :target: pages/BW2099.html 
    * - :ref:`Learn more <bw1099>` 
+     - :ref:`Learn more <bw1099emb>`
      - :ref:`Learn more <bw2099>`
 
 

@@ -24,7 +24,7 @@ Dimensions and Weight
 
 * Width: 30 mm
 * Height: 40 mm
-* Length: 4.53 mm
+* Length: 4.53 mm (17.5 mm with heatsink)
 * Weight: 4g
 
 .. image:: /_static/images/BW1099/BW1099_dim.jpg
