@@ -1,0 +1,66 @@
+Altium Designer Pick and Place Locations
+E:\hardware\DM0255_R1M1E1\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM0255(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       23/08/21
+Time:       16:31
+Revision:   Not in VersionControl
+Variant:    Production
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"C1","6.7500mm","8.3000mm","180","TopLayer","GRM155R60J475ME87D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 4.7UF 6.3V X5R 0402","4.7uF 0402"
+"C2","3.2000mm","6.5000mm","270","TopLayer","TAJC107K010RNJ","AVX-TAJ-C-2_L","Molded Capacitor, 2-Leads, Body 6.2x3.4mm, IPC High Density","Tantalum Capacitor, Polarized, Tantalum (dry/solid), 10V, 10% +Tol, 10% -Tol, 100uF, Surface Mount, 2312","TAJC107K010RNJ"
+"C3","-4.0000mm","9.5000mm","0","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C4","-6.6000mm","9.7698mm","0","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C5","-1.8500mm","9.5000mm","0","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C6","0.9000mm","10.8000mm","180","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C7","8.4000mm","-1.2000mm","0","TopLayer","GRM188R61A226ME15D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
+"C8","8.8000mm","3.1000mm","180","TopLayer","GRM1555C1H3R3BA01D","CAPC0402(1005)60_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.6mm, IPC High Density","Ceramic Capacitor, Multilayer, Ceramic, 50V, 3.03% +Tol, 3.03% -Tol, C0G, 30ppm/Cel TC, 0.0000033uF, Surface Mount, 0402","3.3pF 0402"
+"C9","-1.8500mm","6.7000mm","0","TopLayer","GRM155R71A104JA01D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C10","-2.2000mm","5.2000mm","0","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C11","13.0000mm","5.3000mm","180","TopLayer","GRM0335C1E330JA01D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 33PF 25V C0G/NP0 0201","33pF 0201"
+"C12","8.4000mm","-2.7000mm","0","TopLayer","GRM188R61A226ME15D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
+"C53","-9.8000mm","0.5000mm","180","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C54","-9.6000mm","5.7000mm","180","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"D1","5.0000mm","-2.0825mm","180","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"D2","2.0000mm","-2.0825mm","180","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"D3","-1.0000mm","-2.1000mm","180","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"D4","6.4000mm","4.5000mm","270","TopLayer","MBRA340T3G","ONSC-SMA-2-403D-02_F_V","Molded, 2-Leads, Body 4.32x2.6mm","Schottky Power Rectifier, 2-Pin SMA, Pb-Free, Tape and Reel","MBRA340T3G"
+"FB1","0.3000mm","8.3000mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FB2","0.3000mm","4.8000mm","270","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FB51","-9.1000mm","8.4000mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FID1","12.4000mm","2.0000mm","180","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID2","-12.2500mm","6.7500mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID3","11.9400mm","-6.1600mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID4","-11.6000mm","-10.5000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"J1","0.2500mm","-5.3250mm","0","TopLayer","F32R-1A7H1-11026","F32R-1A7H1-11026","26pin Molex FFC 0.5mm Bottom","26 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","FLEX CONNECTOR, 0.50MM PITCH, HE"
+"J2","-4.1250mm","8.1250mm","0","BottomLayer","AXE530127","AXE530127","","Narrow Pitch Connector (Board to FPC) 0.4mm","AXE530127"
+"L1","10.8500mm","1.1000mm","180","TopLayer","LQH32MN4R7K23L","FP-LQH32CH_23-MFG","Chip Inductor, 2-Leads, Body 2.40x2.00mm, IPC High Density","Wire Wound Ferrite Inductor for General Circuits 4.7µH ±10% 1.2O 270mA 1210","LQH32MN4R7K23L"
+"MTG1","-12.0000mm","9.9310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"MTG2","12.0000mm","9.9310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"MTG3","-12.0000mm","-2.5690mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"MTG4","12.0000mm","-2.5690mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"R1","-6.5000mm","7.5000mm","180","TopLayer","RC0603FR-0710KL","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 10K OHM 1% 1/10W 0603","10K 0603"
+"R2","12.2000mm","3.0000mm","0","TopLayer","CRCW040290K9FKED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","Fixed Resistor, Metal Glaze/thick Film, 0.063W, 90900ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402","90.9K 0402"
+"R3","10.4000mm","3.1000mm","180","TopLayer","CRCW040235K7FKED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","Fixed Resistor, Metal Glaze/thick Film, 0.063W, 35700ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402","35.7K 0402"
+"R4","12.9822mm","4.5533mm","180","TopLayer","RC0402FR-0740K2L","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 40.2K OHM 1% 1/16W 0402","40.2K 0402"
+"R5","12.9000mm","6.6000mm","270","TopLayer","RC0402FR-0722K1L","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 22.1K OHM 1% 1/16W 0402","22.1K 0402"
+"TP1","-3.8000mm","10.9000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP2","-1.8000mm","10.9000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP3","-7.8000mm","10.9000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP4","-5.8000mm","10.9000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP5","2.0000mm","0.0000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP6","2.0000mm","2.1000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP7","2.0000mm","4.5000mm","90","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP8","6.4000mm","10.9000mm","180","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP50","9.5000mm","0.0000mm","90","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP51","0.0000mm","10.9000mm","180","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP52","-9.6000mm","10.9000mm","180","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP55","2.6000mm","6.9000mm","180","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP56","7.6000mm","0.0000mm","90","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP57","3.4000mm","10.9000mm","90","BottomLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"U1","10.0000mm","5.7000mm","180","TopLayer","LM2623LD","LDA14A","PSON, 14-Leads, Body 4x4mm, Pitch 0.5mm, NSC Recommended","General Purpose, Gated Oscillator Based, DC/DC Boost Converter, 14-pin LLP","LM2623LD"
+"U51","-9.7210mm","3.1250mm","0","TopLayer","TLV70018DCKR","TLV70018DCK","SC70-5 1.1mm","IC REG LINEAR 1.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70018DCK"
