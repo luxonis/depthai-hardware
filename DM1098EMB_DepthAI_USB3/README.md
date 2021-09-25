@@ -1,4 +1,4 @@
-# DM1098EMB DepthAI USB3 Edition (EOL)
+# DM1098EMB DepthAI USB3 Edition
 
 DM1098EMB + [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0) are shown together below:
 ![](Images/DM1098EMB.jpg)
