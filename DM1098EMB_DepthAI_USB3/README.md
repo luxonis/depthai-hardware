@@ -5,11 +5,13 @@ DM1098EMB + [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/ma
 
 
 
-# Project Stage (EOL)
+# Project Stage
 
-**Caution: This design shouldn't be used in a new products or as a reference for new designs, its status is EOL and out of production.**        
+**Caution: This design shouldn't be used in a new products or as a reference for new designs.**        
 
-**If you need a replacement for DM1098EMB which is EOL you should contact Luxonis support and we will send you OAK-FFC-3P-OG (DM1098FFC) or OAK-FFC-3P (DM1090FFC) as a replacement upon agreement, which is updated and more robust design.**   
+**If you need a replacement for DM1098EMB, please contact Luxonis support and we will send you OAK-FFC-3P-OG (DM1098FFC) or OAK-FFC-3P (DM1090FFC) as a replacement upon agreement, which is updated and more robust design.**
+
+**For customers who do need this exact design, we maintain stock and can get you stock.  Reach out to support at luxonis dot com if that is the case.**   
 
 **For new projects FFC reference design OAK-FFC-3P is located [here](https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3) .** 
 
