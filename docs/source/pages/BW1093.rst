@@ -52,9 +52,9 @@ Key features
 Mechanical design
 *****************
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/Mechanical%20designs/OAK-1>`__
+Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1093_USB3C/Mechanical>`__.
 
-.. image:: /_static/images/BW1093/OAK-1.jpg
+.. image:: /_static/images/BW1093/3d-enclosure.png
 
 Brochures
 *********
