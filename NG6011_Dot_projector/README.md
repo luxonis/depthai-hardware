@@ -1,6 +1,6 @@
-# OAK-D-LITE-DEV USB3C Baseboard
+# OAK-D-PRO-W-DEV-DOT accessory board
 
-![](Images/OAK-D-PRO-W-DEV-full-build.png)
+![](Images/Front_crop.bmp)
 
 
 
@@ -10,9 +10,7 @@ This design is still in the development phase. Some errors might be present in t
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW2099 DepthAI SoM. The OAK-D-PRO-W-DEV baseboard has three on-board cameras which implement wide angle stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). Additionally the board implements an IR led for better image capture at night and supports additional two NG6011 boards with dot-projectors. 
-
-More about the "why" are we making this product available and open sourcing you can read in an opened issue [#113.](https://github.com/luxonis/depthai-hardware/issues/113)
+This repository contains open hardware designed by Luxonis, and meant to be used as an addon for the [Luxonis](https://www.luxonis.com/depthai) NG2094_R0M0E0 board. NG6011 board contains a dot-projector from Belago . All the power requirements and drive signals are provided by the host board (NG2094 OAK-D-PRO-W-DEV). 
 
 ## Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -22,21 +20,10 @@ More about the "why" are we making this product available and open sourcing you 
 * `Mechanical` contains models of mounts, enclosures, and other mechanical parts
 
 # Key features
-* OV9782 (1280x800) 
-* OV9282 (1280x800)
-* Support for on-board stereo and RGB camera modules
-* Interface for Luxonis BW2099 DepthAI SoM
-* **USB3 Type-C** power only requires USB3-capable host, or USB2 host that can provide 900mA - for example RPi3 and RPi4 
-* USB 3.1 Gen1 Type-C
-* No enclosure, just the PCBA.
-* Design files produced with Altium Designer 21
+* Belago 1.1 Dot-Patter projector
 
 
 # Board layout & dimensions
-
-![](Images/OAK-D-PRO-W-DEV-back.png)
-
-![](Images/OAK-D-PRO-W-DEV-front.png)
 
 ![](Images/Annotation.png)
 
@@ -46,10 +33,8 @@ More about the "why" are we making this product available and open sourcing you 
 
 # Getting started
 
-The OAK-D-PRO-W-DEV is powered via USB Type-C connector and requires USB3-capable host, or USB2 host that can provide 2A. Alternatively it can be powered via the 5V JST connector (refer to Annotation image under letter H). USB3 5-Gbps speeds are standard for streaming video or data from the device. With cameras and the DepthAI SoM, total power consumption usually stays below the 900mA specification of USB3. 
-
-Reset button resets the BW2099 SoM only. Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the BW2099 SoM, and boot selection is configured with the DIP switch bank  (refer to Annotation image under letter G).   
+The board interfaces via an FFC cable (Molex: WM11365-ND) to the OAK-D-PRO-W-DEV board.
 
 
 # Revision info
-These files represent the NG2094_R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the NG6011_R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.

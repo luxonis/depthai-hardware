@@ -1,0 +1,29 @@
+Altium Designer Pick and Place Locations
+C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for NG6011(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       24/09/21
+Time:       20:13
+Revision:   1637
+Variant:    Production
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"C1","11.8250mm","4.3500mm","0","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C2","15.0000mm","1.2500mm","0","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"C3","12.0000mm","8.2500mm","90","TopLayer","TLJB157M010R0500","RESTL1210(3225)_N","Chip Resistor, Body 3.2x2.5mm, IPC Medium Density","Tantalum Capacitor, Polarized, Tantalum (dry/solid), 10V, 20% +Tol, 20% -Tol, 150uF, Surface Mount, 1210","150uF 1206 10V tantal"
+"C4","15.0000mm","8.2500mm","90","TopLayer","TLJB157M010R0500","RESTL1210(3225)_N","Chip Resistor, Body 3.2x2.5mm, IPC Medium Density","Tantalum Capacitor, Polarized, Tantalum (dry/solid), 10V, 20% +Tol, 20% -Tol, 150uF, Surface Mount, 1210","150uF 1206 10V tantal"
+"C5","19.6500mm","8.8500mm","0","TopLayer","TLJB157M010R0500","RESTL1210(3225)_N","Chip Resistor, Body 3.2x2.5mm, IPC Medium Density","Tantalum Capacitor, Polarized, Tantalum (dry/solid), 10V, 20% +Tol, 20% -Tol, 150uF, Surface Mount, 1210","150uF 1206 10V tantal"
+"C6","11.2500mm","2.8500mm","0","TopLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
+"D1","18.7500mm","5.0000mm","180","TopLayer","Belago1.1 AQAA-20","Belago1.1","SOT23, 6-Leads, Body 2x1.25mm, Pitch 0.65mm","Dot-Pattern Infrared Illuminator for 3D Stereoscopic
+Imaging AQAA-20","BELAGO1.1"
+"FID1","1.5000mm","4.0000mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID2","23.5000mm","9.2000mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"J1","4.0000mm","5.0000mm","90","TopLayer","SFV10R-2STE1HLF","SFV10R-2STE1HLF","CONN FFC TOP 10POS 0.50MM R/A","CONN FFC TOP 10POS 0.50MM R/A","SFV10R-2STE1HLF Top Contact"
+"L1","11.7500mm","1.0000mm","0","TopLayer","DFE252012P-1R0M=P2","DFE252012P-1R0M=P2","Chip Inductor, 2-Leads, Body 2.40x2.00mm, IPC High Density","FIXED IND 1UH 3.2A 42 MOHM SMD","1uH, 3.2A, 20%"
+"R1","17.5000mm","2.2500mm","0","TopLayer","RC0402FR-07300KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 300K OHM 1% 1/16W 0402","300K 0402"
+"R2","19.3250mm","2.2500mm","180","TopLayer","RC0402FR-07360KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","Fixed Resistor, Metal Glaze/thick Film, 0.0625W, 360000ohm, 50V, 1% +/-Tol, 100ppm/Cel, Surface Mount, 0402","360K 0402"
+"R3","5.8500mm","0.5000mm","90","TopLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"U1","14.0000mm","3.7500mm","90","TopLayer","LM3644YFFR","LM3644YFFR","DSBGA 12 (pitch 0.4mm)","LED Driver, 2-Segment, PBGA12","LM3644YFFR"

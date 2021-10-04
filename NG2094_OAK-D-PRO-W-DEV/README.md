@@ -1,4 +1,4 @@
-# OAK-D-LITE-DEV USB3C Baseboard
+# OAK-D-PRO-W-DEV baseboard
 
 ![](Images/OAK-D-PRO-W-DEV-full-build.png)
 

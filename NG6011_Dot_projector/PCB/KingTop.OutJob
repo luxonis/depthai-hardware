@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=KingTop.OutJob
 Description=
-TargetOutputMedium=Assembly Drawing PDF
+TargetOutputMedium=STEP File Output
 VariantName=Production
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Virtual Printer
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print To Microsoft XPS Document Writer
 OutputMedium1_Type=Printer
@@ -60,7 +60,7 @@ PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 Configuration1_Name1=ColumnNameFormat
 Configuration1_Item1=CaptionAsName
 Configuration1_Name2=General
-Configuration1_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1670|FormHeight=1083|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
+Configuration1_Item2=OpenExported=True|AddToProject=False|ReportBOMViolationsInMessages=True|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=False|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=2|FormWidth=1748|FormHeight=1319|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=1|UseDirectApi=False|BomSetName=
 Configuration1_Name3=GroupOrder
 Configuration1_Item3=Manufacturer Part Number 1=True
 Configuration1_Name4=OutputConfigurationParameter1
@@ -68,21 +68,21 @@ Configuration1_Item4=P?
 Configuration1_Name5=PcbDocumentFileName
 Configuration1_Item5=AiPi_Layout.PcbDoc
 Configuration1_Name6=SortOrder
-Configuration1_Item6=Description=Up
+Configuration1_Item6=Designator=Up
 Configuration1_Name7=VisibleOrder
-Configuration1_Item7=Comment=265|Quantity=100|Designator=109|Description=369|Manufacturer 1=100|Manufacturer Part Number 1=204|Footprint=204|DesignItemId=180|LibRef=100
+Configuration1_Item7=Comment=125|Quantity=100|Designator=109|Description=220|Manufacturer 1=100|Manufacturer Part Number 1=204|Footprint=204|DesignItemId=180|LibRef=100
 Configuration1_Name8=VisibleOrder_Base
 Configuration1_Item8=Comment=125|Designator=109|Description=220|Quantity=100|Manufacturer Part Number 1=204|Manufacturer 1=120
 Configuration1_Name9=VisibleOrder_Consolidated
 Configuration1_Item9=Line #=43|Designator=238|Fitted=54|Manufacturer 1=120|Description=710|Comment=254|Supplier 1=65|Supplier Part Number 1=152|Supplier Unit Price 1=116|Supplier Subtotal 1=109|Supplier 2=63|Supplier Part Number 2=132|Supplier Unit Price 2=116|Supplier Subtotal 2=109|Supplier 3=63|Supplier Part Number 3=132|Supplier Unit Price 3=116|Supplier Subtotal 3=109|Supplier 4=63|Supplier Part Number 4=132|Supplier Unit Price 4=116|Supplier Subtotal 4=109|Quantity@Production=98|Price@Production=104|Library Reference=193
 Configuration1_Name10=VisibleOrder_Flat
-Configuration1_Item10=Comment=265|Quantity=100|Designator=109|Description=369|Manufacturer 1=100|Manufacturer Part Number 1=204|Footprint=204|DesignItemId=180|LibRef=100
+Configuration1_Item10=Comment=125|Quantity=100|Designator=109|Description=220|Manufacturer 1=100|Manufacturer Part Number 1=204|Footprint=204|DesignItemId=180|LibRef=100
 OutputType2=PCB 3D Print
 OutputName2=3D_PCB_Top
 OutputCategory2=Documentation
 OutputDocumentPath2=
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=0
@@ -151,7 +151,7 @@ OutputName6=3D_PCB_Bottom
 OutputCategory6=Documentation
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -276,7 +276,7 @@ OutputName9=Assembly Drawing
 OutputCategory9=Documentation
 OutputDocumentPath9=Assembly_Drawing.PCBDwf
 OutputVariantName9=
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=0
@@ -335,7 +335,7 @@ OutputName12=Export STEP
 OutputCategory12=Export
 OutputDocumentPath12=
 OutputVariantName12=
-OutputEnabled12=0
+OutputEnabled12=1
 OutputEnabled12_OutputMedium1=0
 OutputEnabled12_OutputMedium2=0
 OutputEnabled12_OutputMedium3=0
@@ -430,7 +430,7 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=E:\hardware\DM9098_R0M0E0\KingTop_Output_Files\Fabrication Outputs\
+OutputFilePath5=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\KingTop_Output_Files\Fabrication Outputs\
 ReleaseManaged5=0
 OutputBasePath5=KingTop_Output_Files\
 OutputPathMedia5=[Media Name]
@@ -443,7 +443,7 @@ OutputFileNameMulti5=
 UseOutputNameForMulti5=1
 OutputFileNameSpecial5=
 OpenOutput5=0
-OutputFilePath6=E:\hardware\DM9098_R0M0E0\KingTop_Output_Files\Assembly Outputs\
+OutputFilePath6=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\KingTop_Output_Files\Assembly Outputs\
 ReleaseManaged6=0
 OutputBasePath6=KingTop_Output_Files\
 OutputPathMedia6=[Media Name]
@@ -456,7 +456,7 @@ OutputFileNameMulti6=
 UseOutputNameForMulti6=1
 OutputFileNameSpecial6=
 OpenOutput6=0
-OutputFilePath7=E:\hardware\DM9098_R0M0E0\BOM CROSS CHECK\
+OutputFilePath7=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\BOM CROSS CHECK\
 ReleaseManaged7=0
 OutputBasePath7=BOM CROSS CHECK\
 OutputPathMedia7=
@@ -469,7 +469,7 @@ OutputFileNameMulti7==project_title
 UseOutputNameForMulti7=0
 OutputFileNameSpecial7=
 OpenOutput7=1
-OutputFilePath8=E:\hardware\DM9098_R0M0E0\Mechanical 3D\
+OutputFilePath8=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\Mechanical 3D\
 ReleaseManaged8=0
 OutputBasePath8=Mechanical 3D\
 OutputPathMedia8=
@@ -490,7 +490,7 @@ RelativeOutputPath3=C:\Users\BrianLuxonis\Desktop\hardware\BW1099\KingTop_Output
 OpenOutputs3=0
 RelativeOutputPath4=C:\Users\BrianLuxonis\Desktop\hardware\BW1099\KingTop_Output_Files\Assembly Drawing PDF\VariantName.PDF
 OpenOutputs4=0
-RelativeOutputPath5=E:\hardware\DM9098_R0M0E0\KingTop_Output_Files\Fabrication Outputs\
+RelativeOutputPath5=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\KingTop_Output_Files\Fabrication Outputs\
 OpenOutputs5=0
 AddToProject5=0
 TimestampFolder5=0
@@ -500,7 +500,7 @@ OpenGerberOutput5=0
 OpenNCDrillOutput5=0
 OpenIPCOutput5=0
 EnableReload5=0
-RelativeOutputPath6=E:\hardware\DM9098_R0M0E0\KingTop_Output_Files\Assembly Outputs\
+RelativeOutputPath6=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\KingTop_Output_Files\Assembly Outputs\
 OpenOutputs6=0
 AddToProject6=0
 TimestampFolder6=0
@@ -510,7 +510,7 @@ OpenGerberOutput6=0
 OpenNCDrillOutput6=0
 OpenIPCOutput6=0
 EnableReload6=0
-RelativeOutputPath7=E:\hardware\DM9098_R0M0E0\BOM CROSS CHECK\
+RelativeOutputPath7=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\BOM CROSS CHECK\
 OpenOutputs7=1
 AddToProject7=1
 TimestampFolder7=0
@@ -520,7 +520,7 @@ OpenGerberOutput7=0
 OpenNCDrillOutput7=0
 OpenIPCOutput7=0
 EnableReload7=0
-RelativeOutputPath8=E:\hardware\DM9098_R0M0E0\Mechanical 3D\
+RelativeOutputPath8=C:\Luxonis\01 - REPO\SVN-Luxonis\NG6011_R0M0E0\Mechanical 3D\
 OpenOutputs8=1
 AddToProject8=1
 TimestampFolder8=0
