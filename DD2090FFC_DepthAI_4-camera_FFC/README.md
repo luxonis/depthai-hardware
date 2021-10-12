@@ -1,3 +1,5 @@
+
+
 # DD2090FFC DepthAI USB3 Edition (WIP)
 
 DD2090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0) + [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) are shown together below:
@@ -8,7 +10,7 @@ DD2090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/D
 
 
 
-This design is WIP and will be updated when first version of design is finished and sent out for prototyping.
+This design is WIP and will be updated when design is finished and sent out for prototyping.
 
 **FFC reference design DM1090FFC with support for 3 cameras is located [here](https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3) .**   
 
@@ -16,7 +18,7 @@ This design is WIP and will be updated when first version of design is finished 
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The DD1090FFC baseboard has four FFC interfaces which allow for two [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0)  (R1M1E1 or newer) camera modules (stereo pair) and two [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) (R1M1E1 or newer) RGB camera module. 
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The DD2090FFC baseboard has four FFC interfaces which allow for two [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0)  (R1M1E1 or newer) camera modules (stereo pair) and two [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) (R1M1E1 or newer) RGB camera module. 
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -30,6 +32,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * USB 3.1 Gen 1 Type-C
 * IMU support
 * uSD card slot
+* Onboard EEPROM
 * Pads for DepthAI SoM 1.8V SPI
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * PRBS connector (RST, BOOT_SEL, AUX_GPIO, 5V)
@@ -37,9 +40,9 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
-![](Images/DD2090FFC_R0M0E0_w-out _SoM.jpg)
+![DD2090FFC_R1M1E1_TOP](C:\Luxonis\01 - REPO\depthai-hardware\DD2090FFC_DepthAI_4-camera_FFC\Images\DD2090FFC_R1M1E1_TOP.jpg)
 
-![](Images/DD2090FFC_R0M0E0_BOTTOM_dimms.png)
+![](Images/DD2090FFC_R1M1E1_BOTTOM_dimms.jpg)
 
 # Getting started  
 
@@ -53,10 +56,9 @@ The 5V LED indicates 5V power is present on the DD2090FFC. The PG LED indicates 
 
 # Revision info
 
-These files represent the R0M0E0 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history. This design is a WIP and will be updated once received and fully vetted.
+These files represent the R1M1E1 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history. This design is a WIP and will be updated once received and fully vetted.
 
 # Camera Usage
 
 This board is compatible with the  [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0), connected to the `CAMA-4L`and/or `CAMD-4L` FFC port and [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0), connected to the `CAMB_2L` and/or `CAMC_2L` port.
-
 
