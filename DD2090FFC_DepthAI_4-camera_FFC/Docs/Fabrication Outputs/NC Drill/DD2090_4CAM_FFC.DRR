@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DD2090_4CAM_FFC.PcbDoc   30/09/2021  10:58:53
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Layer
+ASCII Plated RoundHoles File : DD2090_4CAM_FFC-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DD2090_4CAM_FFC-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DD2090_4CAM_FFC-SlotHoles-Plated.TXT
+EIA File   : DD2090_4CAM_FFC.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             429       PTH        799.72mm (31.48inch)
+T2      0.254mm (10mil)                                           Round             96        PTH        345.14mm (13.59inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        42.05mm (1.66inch)
+T4      1.05mm (41mil)                                            Slot              3         PTH        31.32mm (1.23inch)
+T5      3mm (118mil)                                              Round             2         PTH        34.23mm (1.35inch)
+T6      1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              535
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: DD2090_4CAM_FFC.GBR   30/09/2021  10:58:50
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Mask                                
+.GTL                Top Copper                              
+.GP1                Layer 1                                 
+.G1                 Layer 2                                 
+.G2                 Layer 3                                 
+.GP2                Layer 4                                 
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Board                                   
+.GM2                Top Assembly                            
+.GM3                Bottom Assembly                         
+.GM4                Fab Notes                               
+.GM5                Dimensions                              
+.GM7                Assembly Notes                          
+.GM9                Mechanical 9                            
+.GM11               Mechanical 11                           
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM31               Top Component Outline                   
+.GM32               Bottom Component Outline                
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GML                Multi-Layer                             
+.4                  Dielectric 3 (1080)                     
+.1                  Dielectric 1 (2116)                     
+.2                  Core                                    
+.3                  Dielectric 2 (2116)                     
+.5                  Dielectric 4 (1080)                     
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
