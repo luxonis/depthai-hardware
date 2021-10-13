@@ -40,7 +40,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
-![DD2090FFC_R1M1E1_TOP](Images\DD2090FFC_R1M1E1_TOP.jpg)
+![](Images/DD2090FFC_R1M1E1_TOP.jpg)
 
 ![](Images/DD2090FFC_R1M1E1_BOTTOM_dimms.jpg)
 
