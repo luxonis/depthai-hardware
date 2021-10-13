@@ -40,7 +40,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Board layout & dimensions
 
-![DD2090FFC_R1M1E1_TOP](C:\Luxonis\01 - REPO\depthai-hardware\DD2090FFC_DepthAI_4-camera_FFC\Images\DD2090FFC_R1M1E1_TOP.jpg)
+![DD2090FFC_R1M1E1_TOP](Images\DD2090FFC_R1M1E1_TOP.jpg)
 
 ![](Images/DD2090FFC_R1M1E1_BOTTOM_dimms.jpg)
 
