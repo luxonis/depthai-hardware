@@ -1,4 +1,4 @@
-# OAK-D-PRO-W-DEV baseboard
+# OAK-D-PRO-W-DEV baseboard (WIP)
 
 ![](Images/OAK-D-PRO-W-DEV-full-build.png)
 
