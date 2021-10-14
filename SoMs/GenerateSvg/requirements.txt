@@ -1,0 +1,3 @@
+docopt
+svgwrite
+wand
