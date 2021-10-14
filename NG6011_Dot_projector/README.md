@@ -1,4 +1,4 @@
-# OAK-D-PRO-W-DEV-DOT accessory board
+# OAK-D-PRO-W-DEV-DOT accessory board (WIP)
 
 ![](Images/Front_crop.bmp)
 
