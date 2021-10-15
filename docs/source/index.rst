@@ -183,6 +183,7 @@ Miscellaneous Designs
     
    pages/design_guide.rst
    pages/powering_poe_devices.rst
+   pages/integrating_depthai_into_products.rst
 
 .. toctree::
    :maxdepth: 1
