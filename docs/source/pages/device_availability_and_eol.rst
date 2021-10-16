@@ -15,10 +15,20 @@ new/better products at the same or lower price as previous products. What this m
 new customers move to the newest products constantly. And only customers who need **exactly**
 the same model (in every way) continue to buy the older models, which allow us to never EOL anything.
 
+Wind down of Intel's RealSense
+******************************
+
+In August of 2021, Intel decided to "wind down" its RealSense products, which means the development of
+product will eventually be stopped. We want to reassure that this has no effect on our Movidius products,
+since that is a different group from RealSense. Furthermore, the Movidius team has gotten integrated into
+some huge areas silently, which has resulted in it having guaranteed production for quite a while.
+This way, we can guarantee the availability of our devices through 2028 and likely well past that.
+More information about this topic `here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
+
 Conclusion
 **********
 
-This system has worked extremely well for Mini Circuits for decades and so far great for us as well.
-This is why we plan to have availability of OAK-D (and all models) indefinitely.
+Never "EOL-ing" anything has worked extremely well for Mini Circuits for decades and so far great for
+us as well. This is why we plan to have availability of all our devices indefinitely.
 
 .. include::  /pages/includes/footer-short.rst
