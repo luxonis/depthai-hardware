@@ -35,7 +35,7 @@ In this version of 0255 carrier board the whole size had to be bigger than other
 ![](Images/DM0255_R1M1E1-TOP.png)
 
 # Getting started  
-The FFC interface is an 0.5mm pitch, 26-pin, and bottom-contact connector, across which travels the 4-lane MIPI, 3.3V, I2C, camera clock, camera reset, and other optional control lines. 3.3V power is regulated and filtered as appropriate to meet the requirements of the MTP006 camera module.  
+The FFC interface is an 0.5mm pitch, 26-pin, and bottom-contact connector, across which travels the 2-lane MIPI, 3.3V, I2C, camera clock, camera reset, and other optional control lines. 3.3V power is regulated and filtered as appropriate to meet the requirements of the MTP006 camera module.  
 
 # Revision info
 These files represent the R1M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
