@@ -1,6 +1,6 @@
 # DM0255 Mono Camera Module
 
-![DM0255](Images/TBD)
+![DM0255](Images/DM0255_front.png)
 
 # Project Stage
 
