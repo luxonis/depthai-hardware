@@ -1,6 +1,6 @@
 # DM0255 Mono Camera Module
 
-![DM0255](Images/TBD)
+![DM0255](Images/DM0255_front.png)
 
 # Project Stage
 
@@ -29,6 +29,8 @@ In this version of 0255 carrier board the whole size had to be bigger than other
 * Design files produced with Altium Designer 21
 
 # Board layout & dimensions
+
+![DM0255_front_dimensions](Images\DM0255_front_dimensions.png)
 
 ![](Images/DM0255_R1M1E1-BOT.png)
 
