@@ -27,6 +27,8 @@ In this version of 0255 carrier board the whole size had to be bigger than other
 
 # Board layout & dimensions
 
+![DM0255_front_dimensions](Images/DM0255_front_dimensions.png)
+
 ![](Images/DM0255_R1M1E1-BOT.png)
 
 ![](Images/DM0255_R1M1E1-TOP.png)
