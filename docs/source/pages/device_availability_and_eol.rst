@@ -11,19 +11,20 @@ How this is accomplished
 ************************
 
 The way Mini Circuits accomplishes this - and we do the same - is to be constantly releasing
-new/better products at the same or lower price as previous products. What this means is all 
-new customers move to the newest products constantly. And only customers who need **exactly**
-the same model (in every way) continue to buy the older models, which allow us to never EOL anything.
+new/better products at a more competitive price point as previous products. This will result in current
+products being "outdated". However we will still offer them - mostly for companies that base their products
+on our products and will continue to buy them.
 
 Wind down of Intel's RealSense
 ******************************
 
 In August of 2021, Intel decided to "wind down" its RealSense products, which means the development of
-product will eventually be stopped. We want to reassure that this has no effect on our Movidius products,
-since that is a different group from RealSense. Furthermore, the Movidius team has gotten integrated into
-some huge areas silently, which has resulted in it having guaranteed production for quite a while.
-This way, we can guarantee the availability of our devices through 2028 and likely well past that.
-More information about this topic `here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
+product will eventually be stopped. We want to reassure you that this has **no effect on our Movidius
+Myriad X (VPU) chip supply**, since that is a different group from RealSense. Furthermore, the Movidius
+team has gotten integrated into some huge areas silently, which has resulted in it having guaranteed
+production for quite a while. This way, we can guarantee the availability of our devices through 2028 and
+likely well past that. More information about this topic
+`here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
 
 Conclusion
 **********
