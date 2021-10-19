@@ -13,13 +13,10 @@ What is SoM
 ***********
 
 SoM stands for System on Module. It is a Printed Circuit Board (PCB) with on-board electronics. All our
-SoM devices have the Movidius Myriad X VPU. It is Intel's VPU (Vision Processing Unit), with 16 powerful
+SoM devices have the Movidius Myriad X VPU. It is Intel's VPU (Vision Processing Unit) with 16 powerful
 SHAVE cores and also features the Neural Compute Engine — a dedicated hardware accelerator for deep neural
 network inference.
-
-All our SoM
-devices have an additional NOR Flash, which can be used as an alternative to the USB boot. 
-
+In addition, all our SoM devices have NOR Flash, which can be used as an alternative to the USB boot. 
 The idea behind our SoMs is they are minimal devices which can also be used standalone - without host computer,
 although USB boot is still available.
 
