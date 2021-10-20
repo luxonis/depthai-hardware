@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM1095_R0M0E1.PcbDoc   19/10/2021  13:12:58
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Layer
+ASCII Plated RoundHoles File : DM1095_R0M0E1-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM1095_R0M0E1-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DM1095_R0M0E1-SlotHoles-Plated.TXT
+EIA File   : DM1095_R0M0E1.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             605       PTH        1143.58mm (45.02inch)
+T2      0.254mm (10mil)                                           Round             16        PTH        144.72mm (5.70inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        42.10mm (1.66inch)
+T4      0.86mm (34mil)                                            Round             2         PTH        2.00mm (0.08inch)
+T5      3mm (118mil)                                              Round             4         PTH        72.60mm (2.86inch)
+T6      2.1mm (83mil)                                             Round             2         NPTH       58.40mm (2.30inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              633
+
+Total Processing Time (hh:mm:ss) : 00:00:00

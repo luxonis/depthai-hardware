@@ -49,4 +49,4 @@ The "RUN" LED indicates that 5V power is present on the OAK-D-LITE-DEV. The  "PG
 
 
 # Revision info
-These files represent the DM1095_R0M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the DM1095_R0M0E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
