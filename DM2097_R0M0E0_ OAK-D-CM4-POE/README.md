@@ -61,7 +61,7 @@ Try to keep the size of the PCB as small as possible.
 
 ![](Images/DM2097_R0M0E0_SIDE.png)
 
-# IP67 Water Sealed
+# IP67 Water Sealed Enclosure
 
 Like other PoE variants, OAK-D-CM4-PoE is IP67 Sealed.  Here it is being tested for hours in 1 meter of water:
 ![image](https://user-images.githubusercontent.com/32992551/131561900-78f76edc-adb1-432c-a593-772e5f3f51df.png)
