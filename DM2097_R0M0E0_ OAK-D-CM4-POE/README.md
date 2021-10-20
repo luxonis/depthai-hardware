@@ -61,9 +61,13 @@ Try to keep the size of the PCB as small as possible.
 
 ![](Images/DM2097_R0M0E0_SIDE.png)
 
+# IP67 Water Sealed
+
+Like other PoE variants, OAK-D-CM4-PoE is IP67 Sealed.  Here it is being tested for hours in 1 meter of water:
+![image](https://user-images.githubusercontent.com/32992551/131561900-78f76edc-adb1-432c-a593-772e5f3f51df.png)
+
 
 # Getting started
-
 
 The OAK-D-CM4-POE accepts power input from any 802.3af, Class 3 PoE circuitry.  So this for example includes any/every POE UniFi Switch (e.g. [US-8-150W](https://www.ui.com/unifi-switching/unifi-switch-8-150w/)) and any other standard POE switch and/or 802.3af POE injector (e.g. [here](https://www.amazon.com/Injector-U-POE-af-802-3af-Supported-Ethernet/dp/B07SH2NM9F/ref=sr_1_3?dchild=1&keywords=ubiquiti+48v+poe+injector&qid=1614832809&sr=8-3)).   Power consumption is typically 8W, leaving ~4.5W available if active lighting is desired additionally over POE/etc.
 
