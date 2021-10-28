@@ -1,4 +1,5 @@
 Sphinx==3.5.3
+sphinx-tabs==1.3.0
 sphinx-rtd-theme==0.5.2
 rtd-redirects==1.1.0
 sphinxcontrib-spelling

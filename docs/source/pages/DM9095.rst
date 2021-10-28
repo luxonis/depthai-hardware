@@ -65,22 +65,28 @@ cannot state the exact cutoff.
 
 You can choose which mode you want, based on the following pros and cons:
 
-Fixed-focus pros:
+.. tabs::
 
-- Handles vibration better. If the camera is under heavy vibration, the lens won't vibrate which would lead to blurry images (drones, robots, on machines, etc.)
-- Better for RGB depth alignment (as the lens does not move)
+    .. tab:: Fixed-Focus
 
-Fixed-focus cons:
+        Pros:
 
-- Objects have to be at least 30cm away to be in focus
+        - Handles vibration better. If the camera is under heavy vibration, the lens won't vibrate which would lead to blurry images (drones, robots, on machines, etc.)
+        - Better for RGB depth alignment (as the lens does not move)
 
-Auto-Focus pros:
+        Cons:
 
-- Can focus on objects dynamically, which is mainly useful for for objects that are within 30cm of OAK-D-Lite.
+        - Objects have to be at least 30cm away to be in focus
+      
+    .. tab:: Auto-Focus
+        
+        Pros:
 
-Auto-Focus cons:
+        - Can focus on objects dynamically, which is mainly useful for objects that are within 30cm of OAK-D-Lite.
 
-- Does not work properly in Heavy-Vibration applications (e.g. drones, bikes w/out suspension, etc.)
+        Cons:
+
+        - Does not work properly in Heavy-Vibration applications (e.g. drones, bikes w/out suspension, etc.)
 
 Dimensions and Weight
 *********************
