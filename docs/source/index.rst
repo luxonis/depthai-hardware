@@ -191,6 +191,7 @@ Miscellaneous Designs
 
    pages/waterproof.rst
    pages/operative_temperature_range.rst
+   pages/device_availability_and_eol.rst
 
 .. toctree::
    :maxdepth: 1
