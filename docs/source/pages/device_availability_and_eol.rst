@@ -22,8 +22,8 @@ In August of 2021, Intel decided to "wind down" its RealSense products, which me
 product will eventually be stopped. We want to reassure you that this has **no effect on our Movidius
 Myriad X (VPU) chip supply**, since that is a different group from RealSense. Furthermore, the Movidius
 team has gotten integrated into some huge areas silently, which has resulted in it having guaranteed
-production for quite a while. This way, we can guarantee the availability of our devices through 2028 and
-likely well past that. More information about this topic
+production for quite a while. This way, we can **guarantee the production of our devices into 2028**
+and likely well past that. More information about this topic
 `here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
 
 Conclusion
