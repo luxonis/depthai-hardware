@@ -39,8 +39,8 @@ OAK-D vs OAK-D-Lite
 OAK-D-Lite is smaller, ligher and uses less power; compared to OAK-D. The main differences are:
 
 - Mono cameras have lower resolution (640x480 instead of 1280x800)
-- There (most likely) won't be an IMU (Inertial measurement unit) on the OAK-D-Lite. Those devices increased in both affordability and availability
-- There is no power jack, as most users just used the USB-C for power delivery.
+- There is no IMU (Inertial measurement unit) on the OAK-D-Lite, as most users don't need it. IMUs are currently hard to come by, so the price increased significantly - and we wanted to lower the price point as much as possible.
+- There is no power jack, as most users just used the USB-C for power delivery, which provides 900mA at 5V and is enough for most use-cases. However some functions (e.g. inference, video encoding) can lead to large current spikes, so there is a chance hosts like RPi won't be able to provide enough power. In that case, you would need to use a power adapter.
 
 Additionally, the more technical differences are the following:
 
@@ -61,20 +61,26 @@ the minimal focus distance:
 
 Specifically, from our tests we deduced that fixed-focus color camera was **sharp after about 50cm** and 
 **blurry at about 30cm**. In between those distances, some pictures were blurry, some not, therefore we
-cannot state the exact cutoff. For referece, here are 2 images shot at 30cm.
+cannot state the exact cutoff.
 
-Fixed-focus (blurry):
+You can choose which mode you want, based on the following pros and cons:
 
-.. image:: /_static/images/DM9095/fixed_focus_blurry.jpeg
+Fixed-focus pros:
 
-Auto-focus (sharp):
+- Handles vibration better. If the camera is under heavy vibration, the lens won't vibrate which would lead to blurry images (drones, robots, on machines, etc.)
+- Better for RGB depth alignment (as the lens does not move)
 
-.. image:: /_static/images/DM9095/auto_focus_sharp.jpeg
+Fixed-focus cons:
 
-You can choose which mode you want, based on your needs:
+- Objects have to be at least 30cm away to be in focus
 
-- Need for short focus distance (less than 50cm): auto-focus color camera
-- Need to operate in high-vibration environments: fixed-focus color camera.
+Auto-Focus pros:
+
+- Can focus on objects dynamically, which is mainly useful for for objects that are within 30cm of OAK-D-Lite.
+
+Auto-Focus cons:
+
+- Does not work properly in Heavy-Vibration applications (e.g. drones, bikes w/out suspension, etc.)
 
 Dimensions and Weight
 *********************
