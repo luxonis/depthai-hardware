@@ -24,6 +24,8 @@ Arducam compatible cameras
 
 - `M12-Mount Global Shutter Grayscale OV9282 <https://www.arducam.com/product/arducam-1mp-ov9282-global-shutter-mono-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 - `M12-Mount Global Shutter Color OV9782 <https://www.arducam.com/product/arducam-1mp-ov9782-global-shutter-color-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
+- `M12-Mount 20MP Color IMX283 <https://www.arducam.com/product/arducam-20mp-imx283-camera-module-with-m12-mount-lens-and-adapter-board-for-depthai/>`__
+- `M12-Mount 12MP Color IMX477 <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-for-depthai-oak-dm1090ffc-b0346/>`__
 
 These two cameras are compatible with the :ref:`OAK-FFC-3P <dm1090ffc>`. And since they have **M12 mount**,
 you can use a variety of **different lenses** (for **custom FoV**), for example:
