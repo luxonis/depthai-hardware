@@ -22,13 +22,15 @@ Weight
 Arducam compatible cameras
 **************************
 
+These cameras are compatible with the :ref:`OAK-FFC-3P <dm1090ffc>`:
+
 - `M12-Mount Global Shutter Grayscale OV9282 <https://www.arducam.com/product/arducam-1mp-ov9282-global-shutter-mono-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 - `M12-Mount Global Shutter Color OV9782 <https://www.arducam.com/product/arducam-1mp-ov9782-global-shutter-color-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 - `M12-Mount 20MP Color IMX283 <https://www.arducam.com/product/arducam-20mp-imx283-camera-module-with-m12-mount-lens-and-adapter-board-for-depthai/>`__
-- `M12-Mount 12MP Color IMX477 <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-for-depthai-oak-dm1090ffc-b0346/>`__
+- `M12-Mount 12.3MP Color IMX477 <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-for-depthai-oak-dm1090ffc-b0346/>`__
+- `Arducam High Quality Camera for RPi, 12.3MP IMX477 <https://www.arducam.com/product/b0240-arducam-imx477-hq-quality-camera/>`__
 
-These four cameras are compatible with the :ref:`OAK-FFC-3P <dm1090ffc>`. And since they have **M12 mount**,
-you can use a variety of **different lenses** (for **custom FoV**), for example:
+Some of these have **M12 mount**, so you can use a variety of **different lenses** (for **custom FoV**), for example:
 
 - Kit of `10 different M12 lenses <https://www.arducam.com/product/m12-mount-camera-lens-kit-arduino-raspberry-pi/>`__ (for testing purposes),
 - `M25156H14 (HFoV: 141°C) <https://www.arducam.com/product/M25156H14/>`__,
