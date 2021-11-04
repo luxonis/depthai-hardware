@@ -43,7 +43,11 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 ![](Images/DM1098OAKW_R0M0E0_Dimensions.jpg)
 
 # Enclosure
-We are working on an enclosure for the OAK-D-IoT. Meanwhile, it's worth noticing excellent cases designed by our community members.
+We are working on an enclosure for the OAK-D-IoT-75.  In fact it is in the process of tooling being finished as of this writing (November 2021).  Once it is done, it will be orderable from shop.luxonis.com, and future OAK-D-IoT-75 will come with enclosures.  Below is a pre-production sample:
+![image](https://user-images.githubusercontent.com/32992551/140240240-d899ba86-bbda-480c-bd99-5082f49bdfdf.png)
+![image](https://user-images.githubusercontent.com/32992551/140240364-c21e00df-2075-4872-92b2-b752a1730164.png)
+
+Meanwhile, it's worth noticing excellent cases designed by our community members.
 * T Kamoi design https://www.thingiverse.com/thing:4876999
 * Thomas Höfler design https://www.thingiverse.com/thing:4880485
 * Xplicator (Gerrit Kolb) design https://www.thingiverse.com/thing:4879233
