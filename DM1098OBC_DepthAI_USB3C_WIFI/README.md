@@ -1,4 +1,4 @@
-# OAK-D-WIFI | DM1098OBC_WiFi DepthAI USB3C Baseboard
+# OAK-D-IoT-75 | DM1098OBC_WiFi DepthAI USB3C Baseboard
 
 ![image](https://user-images.githubusercontent.com/32992551/110514833-f0649100-80c4-11eb-8e2c-6c164f2d9f48.png)
 ![image](https://user-images.githubusercontent.com/32992551/110514872-fce8e980-80c4-11eb-95f7-552f1ff6fdf7.png)
@@ -43,7 +43,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 ![](Images/DM1098OAKW_R0M0E0_Dimensions.jpg)
 
 # Enclosure
-We are working on an enclosure for the OAK-D-WiFi. Meanwhile, it's worth noticing excellent cases designed by our community members.
+We are working on an enclosure for the OAK-D-IoT. Meanwhile, it's worth noticing excellent cases designed by our community members.
 * T Kamoi design https://www.thingiverse.com/thing:4876999
 * Thomas Höfler design https://www.thingiverse.com/thing:4880485
 * Xplicator (Gerrit Kolb) design https://www.thingiverse.com/thing:4879233
