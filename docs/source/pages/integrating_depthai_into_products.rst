@@ -20,8 +20,10 @@ We have 3 types of SoM devices:
 - `OAK-SoM-IoT <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099EMB.html>`__
 - `OAK-SoM-Pro <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2099.html>`__
 
-The main difference between them is NOR flash size (OAK-SoM has 16MB, while the other two have 128MB)
-and boot modes they support, for example OAK-SoM-Pro also supports SD-card and Ethernet (EEPROM) boot.
+The main difference between them is in:
+
+- NOR flash capability, **OAK-SoM does not have NOR flash by default**, while the other two have 1Gbit NOR flash by default (in some iterations 125Mbit is used),
+- Boot modes they support, for example OAK-SoM-Pro also supports SD-card and Ethernet (EEPROM) boot.
 
 OAK-SoM:
 

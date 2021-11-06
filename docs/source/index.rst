@@ -245,6 +245,7 @@ Miscellaneous Designs
    :caption: System on Module
 
    pages/BW1099.rst
+   pages/BW1099EMB.rst
    pages/BW2099.rst
   
 .. toctree::
