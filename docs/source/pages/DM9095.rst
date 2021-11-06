@@ -25,12 +25,68 @@ Key features
 * Motion Estimation (allows real-time background subtraction)
 * Feature Tracking (optical, and visual inertial navigation)
 * Corner Detection
-* Stereo Depth (including median filtering, tended disparity and subpixel possible for wider dynamic range)
+* Stereo Depth (including median filtering, extended disparity and subpixel possible for wider dynamic range)
 * Warp/Dewarp - support for additional lenses for fish-eye applications
 * JPEG Encoding
 * MJPEG Encoding for easy web streaming
 
 .. image:: /_static/images/DM9095/oak_d_lite_en.png
+
+
+OAK-D vs OAK-D-Lite
+*******************
+
+OAK-D-Lite is smaller, ligher and uses less power; compared to OAK-D. The main differences are:
+
+- Mono cameras have lower resolution (640x480 instead of 1280x800)
+- There is no IMU (Inertial measurement unit) on the OAK-D-Lite, as most users don't need it. IMUs are currently hard to come by, so the price increased significantly - and we wanted to lower the price point as much as possible.
+- There is no power jack, as most users just used the USB-C for power delivery, which provides 900mA at 5V and is enough for most use-cases. However some functions (e.g. inference, video encoding) can lead to large current spikes, so there is a chance hosts like RPi won't be able to provide enough power. In that case, you would need to use a power adapter.
+
+Additionally, the more technical differences are the following:
+
+- Myriad X VPU is used directly on the PCB (instead of connecting the SoM to the baseboard - like it is done on OAK-D)
+- In collaboration with ArduCam, we developed custom camera sensor connectors, which are shorter and take up less space
+
+Fixed-focus vs Auto-focus
+*************************
+
+When ordering OAK-D-Lite, you can select whether you want :code:`Fixed-focus` or :code:`Auto-focus` on the 
+color camera, with the **default** option being :code:`Either works for me` (in case any of those options meet
+your needs). Note, this **does not apply to the mono cameras**, as they are already fixed-focus
+(stereo pairs fundamentally need to be fixed-focus). The main difference between those 2 modes is
+the minimal focus distance:
+
+- Auto-focus can clearly focus objects as close as 8cm, while also being able to focus objects at distance.
+- Fixed-focus has a much further-out minimum focus distance.
+
+Specifically, from our tests we deduced that fixed-focus color camera was **sharp after about 50cm** and 
+**blurry at about 30cm**. In between those distances, some pictures were blurry, some not, therefore we
+cannot state the exact cutoff.
+
+You can choose which mode you want, based on the following pros and cons:
+
+.. tabs::
+
+    .. tab:: Fixed-Focus
+
+        **Pros**:
+
+        - Handles vibration better. If the camera is under heavy vibration, the lens won't vibrate which would lead to blurry images (drones, robots, on machines, etc.)
+        - Better for RGB depth alignment (as the lens does not move)
+
+        **Cons**:
+
+        - Objects have to be at least 30cm away to be in focus
+      
+    .. tab:: Auto-Focus
+        
+        **Pros**:
+
+        - Can focus on objects dynamically, which is mainly useful for objects that are within 30cm of OAK-D-Lite.
+
+        **Cons**:
+
+        - Does not work properly in Heavy-Vibration applications (e.g. drones, bikes w/out suspension, etc.)
 
 Dimensions and Weight
 *********************
@@ -42,6 +98,20 @@ Dimensions and Weight
 * Weight: 61 g
 
 .. image:: /_static/images/DM9095/oak-d-lite_dimensions.jpg
+
+Minimal and maximal perceiving distances of the camera
+******************************************************
+
+Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
+
+OAK-D-Lite has a baseline of 7.5cm and by varying the stereo depth mode, we get the following minimal depth perceiving distances:
+
+- Min distance (480P): ~ 35cm
+- Min distance with extended disparity (480P): ~ 19.6cm
+
+Maximal perceiving distance for OAK-D: ~ 19.1 meters
+
+For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
 Power consumption
 *****************
