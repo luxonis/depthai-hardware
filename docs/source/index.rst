@@ -183,6 +183,7 @@ Miscellaneous Designs
     
    pages/design_guide.rst
    pages/powering_poe_devices.rst
+   pages/integrating_depthai_into_products.rst
 
 .. toctree::
    :maxdepth: 1
@@ -245,6 +246,7 @@ Miscellaneous Designs
    :caption: System on Module
 
    pages/BW1099.rst
+   pages/BW1099EMB.rst
    pages/BW2099.rst
   
 .. toctree::
