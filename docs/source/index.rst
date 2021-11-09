@@ -184,6 +184,7 @@ Miscellaneous Designs
    pages/design_guide.rst
    pages/powering_poe_devices.rst
    pages/integrating_depthai_into_products.rst
+   pages/synchronization_between_the_flashlight_and_camera.rst
 
 .. toctree::
    :maxdepth: 1
