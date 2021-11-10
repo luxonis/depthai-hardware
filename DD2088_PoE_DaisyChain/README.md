@@ -2,8 +2,8 @@
 
 ![](Images/oak-d-poe-daisy-dimensions.png)
 
-# Project Stage (WIP)
-Hardware design is WIP and we will be testing it on first prototypes when they are manufactured and delivered to the team. 
+# Project Stage
+Hardware is now fully tested and ready for use. 
 
 # Overview
 
