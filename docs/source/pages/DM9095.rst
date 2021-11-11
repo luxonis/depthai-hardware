@@ -32,6 +32,47 @@ Key features
 
 .. image:: /_static/images/DM9095/oak_d_lite_en.png
 
+Hardware Specifications
+***********************
+
+.. tabs::
+
+    .. tab:: 4K Camera
+
+        **4208x3120 - RGB Auto-Focus**:
+
+        - Aspect Ratio: 1.348:1
+        - Focus Range: 8cm - Infinity
+        - Lens Size: 1/3.1 inch
+        - Effective Focal Length: 3.37mm
+        - Diagonal Field of View: 81.3 degrees
+        - F-Number: 2.2 +-5%
+        - Distortion: < 1%
+        - Image Sensor: Sony IMX214
+
+    .. tab:: Stereo Pair
+        
+        **300,000 depth points up to 10 meters**:
+
+        - Aspect Ratio: 1.333:1
+        - Focus Range: 6.5cm - Infinity
+        - Lens Size: 1/7.5 inch
+        - Effective Focal Length: 1.3mm
+        - Diagonal Field of View: 85.6 degrees
+        - HFOV: 72.9 degrees
+        - VFOV: 57.7 degrees
+        - F-Number: 2.2
+        - Distortion: < 1.5%
+        - Image Sensor: OmniVision OV7251
+
+    .. tab:: Vision Processor
+        
+        **20 Computer Vision Processors**:
+
+        - 16 "Mini-GPU" Vector Processors
+        - 2 Dedicated AI Processors
+        - 1 Dedicated 200FPS Disparity Depth Processor
+        - 4 Trillion Operations Per Second
 
 OAK-D vs OAK-D-Lite
 *******************
