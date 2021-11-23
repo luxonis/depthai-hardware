@@ -1,30 +1,21 @@
-.. Luxonis Docs documentation master file, created by
-   sphinx-quickstart on Sat Nov Apr 10 10:34:56 2021.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 DepthAI Hardware Documentation
 ==============================
 
-This page contains documentation of the open hardware designed by Luxonis.
+Each device's documentation includes an overview, getting started guide, images and project files, such as datasheets, altium design files, 3D models and
+mechanical models.
 
-Documentation for each part includes an overview, getting started guide, images and project files, such as:
+Device feature comparison
+*************************
 
-* `Datasheets` - assembly, schematics and fabrication drawings
-* `Altium Design Files`
-* `3D Models` - generated 3D models of the board
-* `Mechanical` - models of mounts, enclosures, and other mechanical parts
-
-Guides, tutorials and articles
-******************************
-* :ref:`OAK Design Guide <design_guide>`
-* :ref:`Powering PoE devices <powering_poe>`
-* :ref:`Waterproof enclosures <waterproof>`
-* :ref:`Operative temperature range <operative_temperature_range>`
-
+.. image:: /_static/images/device_comparison/chart.png
+     :target: pages/guides/device_comparison.html
 
 USB Designs
 ***********
+
+These are our most popular devices. Brough to market by a successful `KickStarter <https://www.kickstarter.com/projects/opencv/opencv-ai-kit>`__ campaign,
+OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **USB connection** is great for development - it's easy to use and allows up to
+10gbps throughput.
 
 .. list-table::
    :widths: 30 30 30
@@ -46,6 +37,9 @@ USB Designs
 PoE Designs
 ***********
 
+PoE devices are similar to USB devices, but instead of USB, they have **PoE connectivity** and also feature **on-board flash**, so you can run pipelines
+in standalone mode.
+
 .. list-table::
    :widths: 30 30 30
    :header-rows: 1
@@ -66,6 +60,9 @@ PoE Designs
 IoT Designs
 ***********
 
+IoT devices have all the same features as USB devices, but additionally feature **on-board flash** (standalone mode) and on-board **integrated ESP32**,
+connected to the VPU via SPI (more `info <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/#overview>`__).
+
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -81,6 +78,11 @@ IoT Designs
 
 Modular Cameras Designs
 ***********************
+
+Great for prototyping flexibility. Since the **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
+trade - you have to figure out how/where you will mount them, and then once mounted, do a `stereo calibration <https://docs.luxonis.com/en/latest/pages/calibration/>`__.
+This is not a TON of work, but keep this in mind, that it’s not ‘plug and play’ like other options - it’s more for applications that require custom mounting,
+custom baseline, or custom orientation of the cameras.
 
 .. list-table::
    :widths: 30 30 30
@@ -116,6 +118,8 @@ Modular Cameras Designs
 All in One Dev. Kits Designs
 ****************************
 
+These devices are like combining a **Raspberry Pi with an OAK-D** in a compact solution.
+
 .. list-table::
    :widths: 50 50
    :header-rows: 1
@@ -132,6 +136,9 @@ All in One Dev. Kits Designs
 
 System on Module Designs
 ************************
+
+SoM is perfect :ref:`for integrating <Integrating DepthAI into products>` the power of DepthAI into your own products - or to customize one of our
+open-source hardware design as you see fit.
 
 .. list-table::
    :widths: 30 30 30
@@ -154,6 +161,8 @@ System on Module Designs
 Miscellaneous Designs
 *********************
 
+All other hardware designs which usually aren't as popular.
+
 .. list-table::
    :widths: 30 30 30
    :header-rows: 1
@@ -169,7 +178,7 @@ Miscellaneous Designs
           :target: pages/BW1094.html
    * - :ref:`Learn more <bw1098obc>`
      - :ref:`Learn more <bw0253>`
-     - :ref:`Learn more <bw1094>` 
+     - :ref:`Learn more <bw1094>`
 
 
 
@@ -181,19 +190,20 @@ Miscellaneous Designs
    :hidden:
    :caption: Guides
 
-   pages/design_guide.rst
-   pages/powering_poe_devices.rst
-   pages/integrating_depthai_into_products.rst
-   pages/sync_frames.rst
+   pages/guides/design_guide.rst
+   pages/guides/device_comparison.rst
+   pages/guides/integrating_depthai_into_products.rst
+   pages/guides/powering_poe_devices.rst
+   pages/guides/sync_frames.rst
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Articles
 
-   pages/waterproof.rst
-   pages/operative_temperature_range.rst
-   pages/device_availability_and_eol.rst
+   pages/articles/waterproof.rst
+   pages/articles/operative_temperature_range.rst
+   pages/articles/device_availability_and_eol.rst
 
 .. toctree::
    :maxdepth: 1
