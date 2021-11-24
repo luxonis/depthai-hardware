@@ -9,6 +9,7 @@ the **line specific features**.
 **Chart exceptions**:
 
 - :ref:`OAK-D-Lite` does not have an on-board IMU
+- :ref:`OAK FFC <Modular Cameras Designs>` devices **can** have stereo depth features, if you use 2x mono camera. You can also connect only 1 color camera, in which case you won't have stereo depth features.
 
 OAK-D-POE-Pro features
 **********************
