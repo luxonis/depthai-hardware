@@ -1,4 +1,4 @@
-# DM0255 Mono Camera Module
+# DM0255 ToF Module
 
 ![DM0255](Images/DM0255_front.png)
 
