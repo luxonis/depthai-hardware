@@ -1,0 +1,27 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: NG2092.PcbDoc   18/08/2021  22:39:31
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : NG2092-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : NG2092-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : NG2092-SlotHoles-Plated.TXT
+EIA File   : NG2092.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             14        PTH        85.61mm (3.37inch)
+T2      0.203mm (8mil)                                            Round             734       PTH        1245.80mm (49.05inch)
+T3      0.254mm (10mil)                                           Round             8         PTH        56.82mm (2.24inch)
+T4      0.6mm (24mil)                                             Slot              4         PTH        42.10mm (1.66inch)
+T5      0.86mm (34mil)                                            Round             2         PTH        2.00mm (0.08inch)
+T6      1.02mm (40mil)                                            Round             2         PTH        2.54mm (0.10inch)
+T7      1.05mm (41mil)                                            Slot              3         PTH        28.66mm (1.13inch)
+T8      2.75mm (108mil)                                           Round             2         PTH        66.61mm (2.62inch)
+T9      3mm (118mil)                                              Round             2         PTH        34.22mm (1.35inch)
+T10     0.5mm (20mil)                                             Round             6         NPTH       86.64mm (3.41inch)
+T11     1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              778
+
+Total Processing Time (hh:mm:ss) : 00:00:00
