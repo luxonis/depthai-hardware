@@ -4,16 +4,30 @@ Device availability and EOL
 ===========================
 
 We **never** EOL (End of Life) products. We have the same culture as
-`Mini Circuits <https://www.minicircuits.com/quality/product_change_management.html>`__ - 
-who is the top-respected RF component manufacturer in the world, because they never EOL anything.
+`Mini Circuits <https://www.minicircuits.com/quality/product_change_management.html>`__ -
+who is the most respected RF component manufacturer in the world, because they never EOL anything.
 
 How this is accomplished
 ************************
 
 The way Mini Circuits accomplishes this - and we do the same - is to be constantly releasing
 new/better products at a more competitive price point as previous products. This will result in current
-products being "outdated". However we will still offer them - mostly for companies that base their products
-on our products and will continue to buy them.
+products being "outdated".
+
+We realize majority of people will buy the newer, pin-compatible version that is better, faster, cheaper, and generally more efficient.
+However, folks that absolutely need the exact version of an old product will still be able to buy it, as we will always offer it.
+
+**For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is Electrically, Mechanically, and
+fully pin-compatible with the **OAK-SoM-Pro**, but based on Keem Bay (MA2095) instead of the Myriad X (MA2485 or MA2085).
+
+Keem Bay is the next generation of the Myriad X, and has significantly improved features (eg. ~10x AI performance, on-board Linux host...).
+So this same SoM can drop into existing customer designs, and we expect that most customers will switch to Keem Bay SOM.
+Only those who, for some reasons, absolutely want the lower performance version, will continue to buy the lower performance version.
+And as above, what this strategy allows is keeping long-term stock of everything.
+
+And in the worst-case situations where this doesn't work, we do what Mini Circuits does in the situation where the uncontrollable
+happens (eg. warehouse(s) holding these burn to the ground): we make as close-as-possible substitute and work with the customer
+to keep their products going.
 
 Wind down of Intel's RealSense
 ******************************
@@ -23,8 +37,7 @@ product will eventually be stopped. We want to reassure you that this has **no e
 Myriad X (VPU) chip supply**, since that is a different group from RealSense. Furthermore, the Movidius
 team has gotten integrated into some huge areas silently, which has resulted in it having guaranteed
 production for quite a while. This way, we can **guarantee the production of our devices into 2028**
-and likely well past that. More information about this topic
-`here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
+and likely well past that. More information about this topic `here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
 
 Conclusion
 **********

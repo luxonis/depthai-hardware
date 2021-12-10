@@ -1,8 +1,16 @@
 RealSense comparison
 ====================
 
-**TL;DR:** Compared to RealSense stereo cameras, DepthAI platform adds a ton of on-device features (custom AI modes, tracking, scripting,
-encoding etc.) to OAK devices and can be used in embedded applications (:ref:`Embedde use-case`).
+**TL;DR:** Compared to RealSense stereo cameras, DepthAI platform adds a **ton of on-device features** (custom AI modes, tracking, scripting,
+encoding etc.) to OAK devices and can be used in **embedded applications** (:ref:`Embedded use-case`).
+**RealSense is also winding down** and cameras are **out of stock**, more information below.
+
+RealSense availability and EOL
+##############################
+
+In August of 2021, Intel announced it is winding down RealSense Camera Business (`CRN <https://www.crn.com/news/components-peripherals/intel-says-it-s-winding-down-realsense-camera-business>`__, `The Verge <https://www.theverge.com/2021/8/17/22629528/intel-realsense-3d-camera-tech-wind-down-business-product-demos>`__).
+Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK devices are in stock and we never plan to EOL
+any of our devices, more :ref:`info here <device_availability_and_eol>`.
 
 On-device feature comparison
 ############################
@@ -480,3 +488,5 @@ their products with the power of Spatial AI.
 
 :ref:`OAK IoT devices <IoT Designs>` have an ESP32 integrated, which communicates with the VPU via SPI (`Getting started docs <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__).
 These devices also feature onboard flash for the standalone mode.
+
+.. include::  /pages/includes/footer-short.rst
