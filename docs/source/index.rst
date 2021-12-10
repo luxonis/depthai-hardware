@@ -192,6 +192,7 @@ All other hardware designs which usually aren't as popular.
 
    pages/guides/design_guide.rst
    pages/guides/device_comparison.rst
+   pages/guides/realsense_comparison.rst
    pages/guides/integrating_depthai_into_products.rst
    pages/guides/powering_poe_devices.rst
    pages/guides/sync_frames.rst
