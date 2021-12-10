@@ -270,21 +270,21 @@ Features described
 ******************
 
 - **Custom AI models** - You can run any AI/NN model(s) on the device, as long as all layers are supported. You can also choose from **200+ pretrained NN models** from `Open Model Zoo <https://github.com/openvinotoolkit/open_model_zoo>`__ and `DepthAI Model Zoo <https://github.com/luxonis/depthai-model-zoo>`__.
-- **Object detection** - Most popular object detectors have been converted and run on our devices. DepthAI supports on-board decoding of Yolo and MobileNet based NN models.
+- **Object detection** - Most popular object detectors have been converted and run on our devices. DepthAI supports onboard decoding of Yolo and MobileNet based NN models.
 - **Object tracking** - `ObjectTracker <https://docs.luxonis.com/projects/api/en/latest/components/nodes/object_tracker/>`__ node comes with 4 tracker types, and it also supports tracking of objects in 3D space.
-- **On-device scripting** - `Script <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__ node enables users to run custom Python 3.9 scripts that will run on the device, used for managing flow of the pipeline (business logic).
-- **Video/Image encoding** - `VideoEncoder <https://docs.luxonis.com/projects/api/en/latest/components/nodes/video_encoder/>`__ node allows encoding into MJPEG, H265 or H264 formats.
-- **Image Manipulation** - `ImageManip <https://docs.luxonis.com/projects/api/en/latest/components/nodes/image_manip/>`__ node allows users to resize, warp, crop, flip, and thumbnail image frames and do type conversions (YUV420, NV12, RGB etc.)
-- **Skeleton/Hand Tracking** - Detect and track keypoints of a hand or human pose. Geaxgx's demos: `Hand tracker <https://github.com/geaxgx/depthai_hand_tracker>`__, `Blazepose <https://github.com/geaxgx/depthai_blazepose>`__, `Movenet <https://github.com/geaxgx/depthai_movenet>`__.
+- **On-device scripting** - `Script <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__ node enables users to run custom Python 3.9 scripts that will run on the device, used for managing the flow of the pipeline (business logic).
+- **Video/Image encoding** - `VideoEncoder <https://docs.luxonis.com/projects/api/en/latest/components/nodes/video_encoder/>`__ node allows encoding into MJPEG, H265, or H264 formats.
+- **Image Manipulation** - `ImageManip <https://docs.luxonis.com/projects/api/en/latest/components/nodes/image_manip/>`__ node allows users to resize, warp, crop, flip, and thumbnail image frames and do type conversions (YUV420, NV12, RGB, etc.)
+- **Skeleton/Hand Tracking** - Detect and track key points of a hand or human pose. Geaxgx's demos: `Hand tracker <https://github.com/geaxgx/depthai_hand_tracker>`__, `Blazepose <https://github.com/geaxgx/depthai_blazepose>`__, `Movenet <https://github.com/geaxgx/depthai_movenet>`__.
 - **3D Semantic segmentation** - Perceive the world with semantically-labeled pixels. `DeeplabV3 demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_depth>`__.
 - **3D Object Pose Estimation** - MediaPipe's `Objectron <https://google.github.io/mediapipe/solutions/objectron.html>`__ has been converted to run on OAK devices. Video `here <https://youtu.be/C3M_JOtmQCk>`__.
-- **3D Edge Detection** - `EdgeDetector <https://docs.luxonis.com/projects/api/en/latest/components/nodes/edge_detector/>`__ node uses Sobel filter to detect edges. With depth information, you can get pysical position of these edges.
+- **3D Edge Detection** - `EdgeDetector <https://docs.luxonis.com/projects/api/en/latest/components/nodes/edge_detector/>`__ node uses Sobel filter to detect edges. With depth information, you can get physical position of these edges.
 - **Feature Tracking** - `FeatureTracker <https://docs.luxonis.com/projects/api/en/latest/components/nodes/feature_tracker/>`__ node detects and tracks key points (features).
 - **3D Feature Tracking** - With depth information, you can track these features in physical space.
 - **OCR** - Optical character recognition, `demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-ocr>`__.
-- **Face Recognition** - `Demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-recognition>`__, which runs face detection, alignment and face recognition (3 different NN models) on the device simultaneously.
+- **Face Recognition** - `Demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-recognition>`__, which runs face detection, alignment, and face recognition (3 different NN models) on the device simultaneously.
 - **Fiducial Marker localization** - AprilTag detector currently works at ~20FPS, `progress here <https://github.com/luxonis/depthai/issues/133>`__.
-- **Active Stereo** - Using structured lighting. Our Pro devices have on-board IR laser dot projector.
+- **Active Stereo** - Using structured lighting. Our Pro devices have an onboard IR laser dot projector.
 - **Laser Depth (ToF)** - Time of Flight sensor. We currently support Sunny MTP006 pTOF camera.
 - **Neural Assisted Depth** - Work in progress, ticket `here <https://github.com/luxonis/depthai/issues/173>`__.
 - **Encryption** - Not yet addressed.
@@ -468,8 +468,8 @@ Camera specification
      - Yes
 
 
-Embedde use-case
-################
+Embedded use-case
+#################
 
 Unlike RealSense, our platform supports booting from flash (standalone mode) and features a 2-way SPI communication (`SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__, `SPIIn <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ nodes).
 Standalone/on-the-edge mode means that you can flash your application to the device, which means that
@@ -478,5 +478,5 @@ you don't need to have the device connected to a host (RPi/PC/laptop...).
 This allows users to build small, low-powered embedded devices and :ref:`integrate OAK SOM <Integrating DepthAI into products>` to upgrade
 their products with the power of Spatial AI.
 
-:ref:`OAK IOT devices <IoT Designs>` have an ESP32 on-board, which communicates with the VPU via SPI (`Getting started docs <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__).
-These devices also feature on-board flash for the standalone mode.
+:ref:`OAK IoT devices <IoT Designs>` have an ESP32 integrated, which communicates with the VPU via SPI (`Getting started docs <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__).
+These devices also feature onboard flash for the standalone mode.
