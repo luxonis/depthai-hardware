@@ -1,4 +1,4 @@
-# DM0255 ToF Module
+# DM0255 OAK-FFC-pToF
 
 ![DM0255](Images/DM0255_front.png)
 
