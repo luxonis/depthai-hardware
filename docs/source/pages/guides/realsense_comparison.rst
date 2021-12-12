@@ -20,17 +20,17 @@ On-device feature comparison
    :header-rows: 1
 
    * - On-Device Capabilities
-     - OAK-D-Pro
-     - OAK-D
-     - OAK-D-Lite
-     - OAK-ToF
-     - L515
-     - D415
-     - D430-D435
-     - D450-D455
-     - F455
-     - F450
-     - T261-T265
+     - `OAK-D-Pro <https://shop.luxonis.com/products/oak-d-pro>`__
+     - `OAK-D <https://shop.luxonis.com/products/1098obcenclosure>`__
+     - `OAK-D-Lite <https://www.indiegogo.com/projects/opencv-ai-kit-lite/>`__
+     - `OAK-ToF <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__
+     - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
+     - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
+     - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
+     - `D450-D455 <https://www.intelrealsense.com/depth-camera-d455/>`__
+     - `F455 <https://ark.intel.com/content/www/us/en/ark/products/212561/intel-realsense-id-solution-f455.html>`__
+     - `F450 <https://www.intel.com/content/www/us/en/products/sku/212558/intel-realsense-id-solution-f450/specifications.html>`__
+     - `T261-T265 <https://www.intelrealsense.com/tracking-camera-t265/>`__
    * - Custom AI models
      - Yes
      - Yes
@@ -307,17 +307,17 @@ Camera specification
    :header-rows: 1
 
    * - Specification
-     - OAK-D-Pro /-W
-     - OAK-D /-W
-     - OAK-D-Lite
-     - OAK-ToF
-     - L515
-     - D415
-     - D430-D435
-     - D450-D455
-     - F455
-     - F450
-     - T261-T265
+     - `OAK-D-Pro <https://shop.luxonis.com/products/oak-d-pro>`__ / -W
+     - `OAK-D <https://shop.luxonis.com/products/1098obcenclosure>`__ / -W
+     - `OAK-D-Lite <https://www.indiegogo.com/projects/opencv-ai-kit-lite/>`__
+     - `OAK-ToF <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__
+     - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
+     - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
+     - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
+     - `D450-D455 <https://www.intelrealsense.com/depth-camera-d455/>`__
+     - `F455 <https://ark.intel.com/content/www/us/en/ark/products/212561/intel-realsense-id-solution-f455.html>`__
+     - `F450 <https://www.intel.com/content/www/us/en/products/sku/212558/intel-realsense-id-solution-f450/specifications.html>`__
+     - `T261-T265 <https://www.intelrealsense.com/tracking-camera-t265/>`__
    * - Stereo
      - OV9282
      - OV9282
