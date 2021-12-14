@@ -102,16 +102,20 @@ custom baseline, or custom orientation of the cameras.
      - :ref:`Learn more <bg0249>`
 
 .. list-table::
-   :widths: 50 50
+   :widths: 30 30 30
    :header-rows: 1
 
    * - OAK-FFC-OV9282
+     - OAK-FFC-pToF
      - ArduCam Cameras
    * - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html
+     - .. image:: /_static/images/DM0255/DM0255_front.png
+          :target: pages/DM0255.html
      - .. image:: /_static/images/thumbnails/arducam_2.png
           :target: pages/arducam.html
    * - :ref:`Learn more <bg0250tg>`
+     - :ref:`Learn more <dm0255>`
      - :ref:`Learn more <arducam>`
 
 
@@ -241,6 +245,7 @@ All other hardware designs which usually aren't as popular.
    pages/BW1098FFC.rst
    pages/BG0250TG.rst
    pages/BG0249.rst
+   pages/DM0255.rst
    pages/arducam.rst
 
 .. toctree::
