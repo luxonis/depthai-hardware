@@ -32,10 +32,10 @@ On-device feature comparison
      - `F450 <https://www.intel.com/content/www/us/en/products/sku/212558/intel-realsense-id-solution-f450/specifications.html>`__
      - `T261-T265 <https://www.intelrealsense.com/tracking-camera-t265/>`__
    * - Custom AI models
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -44,10 +44,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - Object detection
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -56,10 +56,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - Object tracking
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -68,10 +68,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - On-device scripting
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -80,10 +80,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - Video/Image Encoding
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -92,10 +92,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - Image Manipulation
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -104,22 +104,22 @@ On-device feature comparison
      - ❌
      - ❌
    * - Skeleton/Hand Tracking
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
    * - 3D Semantic segmentation
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -128,10 +128,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - 3D Object Pose Estimation
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -140,10 +140,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - 3D Edge Detection
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -152,22 +152,22 @@ On-device feature comparison
      - ❌
      - ❌
    * - Feature Tracking
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
      - ❌
      - ❌
      - ❌
-     - Yes
+     - ✔️
    * - 3D Feature Tracking
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -176,10 +176,10 @@ On-device feature comparison
      - ❌
      - ❌
    * - OCR
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -188,22 +188,22 @@ On-device feature comparison
      - ❌
      - ❌
    * - Face Recognition
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
      - ❌
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
      - ❌
    * - Fiducial Marker localization
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -212,23 +212,23 @@ On-device feature comparison
      - ❌
      - ❌
    * - Active Stereo
-     - Yes
+     - ✔️
      - ❌
      - ❌
      - \-
      - ❌
-     - Yes
-     - Yes
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
+     - ✔️
      - ❌
    * - Laser Depth (ToF)
      - ❌
      - ❌
      - ❌
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -256,8 +256,8 @@ On-device feature comparison
      - ❌
      - ❌
      - ❌
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
      - ❌
    * - VIO
      - WIP
@@ -270,7 +270,7 @@ On-device feature comparison
      - ❌
      - ❌
      - ❌
-     - Yes
+     - ✔️
 
 
 
@@ -310,7 +310,7 @@ Camera specification
      - `OAK-D-Pro <https://shop.luxonis.com/products/oak-d-pro>`__ / -W
      - `OAK-D <https://shop.luxonis.com/products/1098obcenclosure>`__ / -W
      - `OAK-D-Lite <https://www.indiegogo.com/projects/opencv-ai-kit-lite/>`__
-     - `OAK-ToF <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__
+     - `OAK-FFC-ToF <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__
      - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
      - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
      - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
@@ -318,23 +318,11 @@ Camera specification
      - `F455 <https://ark.intel.com/content/www/us/en/ark/products/212561/intel-realsense-id-solution-f455.html>`__
      - `F450 <https://www.intel.com/content/www/us/en/products/sku/212558/intel-realsense-id-solution-f450/specifications.html>`__
      - `T261-T265 <https://www.intelrealsense.com/tracking-camera-t265/>`__
-   * - Stereo
-     - OV9282
-     - OV9282
-     - OV7251
-     - \-
-     - \-
-     - OV2740
-     - OV9282
-     - OV9782
-     - \-
-     - \-
-     - \-
    * - RGB
      - IMX378
-     - IMX378
+     - IMX378 / OV9782
      - IMX214
-     - IMX378
+     - N/A
      - OV2740
      - OV2740
      - OV2740
@@ -342,35 +330,11 @@ Camera specification
      - N/A
      - N/A
      - \-
-   * - Stereo HFOV
-     - 72 **/** 127
-     - 72 **/** 127
-     - 72
-     - N/A
-     - N/A
-     - 70
-     - 87
-     - 87
-     - 56
-     - 56
-     - 173
-   * - Stereo Shutter
-     - Global
-     - Global
-     - Global
-     - N/A
-     - N/A
-     - Rolling
-     - Global
-     - Global
-     - \-
-     - \-
-     - Global
    * - RGB HFOV
      - 69 **/** 109
      - 69 **/** 109
      - 73.6
-     - 69
+     - N/A
      - 70
      - 69
      - 69
@@ -382,11 +346,23 @@ Camera specification
      - Rolling **/** Global
      - Rolling
      - Rolling
-     - Rolling
+     - N/A
      - Rolling
      - Rolling
      - Rolling
      - Global
+     - N/A
+     - N/A
+     - N/A
+   * - RGB resolution
+     - 12MP
+     - 12MP
+     - 13MP
+     - N/A
+     - 2MP
+     - 2MP
+     - 2MP
+     - 1MP
      - N/A
      - N/A
      - N/A
@@ -402,11 +378,47 @@ Camera specification
      - Active Stereo
      - Active Stereo
      - N/A
+   * - Depth sensor
+     - OV9282
+     - OV9282
+     - OV7251
+     - MTP006
+     - \-
+     - OV2740
+     - OV9282
+     - OV9782
+     - \-
+     - \-
+     - \-
+   * - Stereo Shutter
+     - Global
+     - Global
+     - Global
+     - N/A
+     -
+     - Rolling
+     - Global
+     - Global
+     -
+     -
+     - Global
+   * - Depth HFOV
+     - 72 **/** 127
+     - 72 **/** 127
+     - 72
+     - 60
+     - N/A
+     - 70
+     - 87
+     - 87
+     - 56
+     - 56
+     - 173
    * - Min Depth
      - 20 cm
      - 20 cm
      - 20 cm
-     - \-
+     - N/A
      - 25 cm
      - 45 cm
      - 28 cm
@@ -414,11 +426,11 @@ Camera specification
      - 30 cm
      - 30 cm
      - N/A
-   * - Stereo resolution
+   * - Depth resolution
      - 1280x800
      - 1280x800
      - 640x480
-     - N/A
+     - 224x172
      - N/A
      - 1024x768
      - 1280x720
@@ -426,20 +438,8 @@ Camera specification
      - 
      - 
      - 848x800
-   * - RGB resolution
-     - 12MP
-     - 12MP
-     - 13MP
-     - 12MP
-     - 2MP
-     - 2MP
-     - 2MP
-     - 1MP
-     - N/A
-     - N/A
-     - N/A
    * - IR illumination LED
-     - Yes
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -447,15 +447,15 @@ Camera specification
      - ❌
      - ❌
      - ❌
-     - Yes
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
+     - ✔️
    * - ToF/Laser
      - ❌
      - ❌
      - ❌
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
      - ❌
      - ❌
      - ❌
@@ -463,17 +463,17 @@ Camera specification
      - ❌
      - ❌
    * - IMU
-     - Yes
-     - Yes
+     - ✔️
+     - ✔️
      - ❌
-     - Yes
-     - Yes
+     - N/A
+     - ✔️
      - ❌
-     - Yes/No
-     - Yes
+     - ✔️/❌
+     - ✔️
      - ❌
      - ❌
-     - Yes
+     - ✔️
 
 
 Embedded use-case
