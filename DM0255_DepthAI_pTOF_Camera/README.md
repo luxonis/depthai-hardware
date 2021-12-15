@@ -18,7 +18,7 @@ In this version of 0255 carrier board the whole size had to be bigger than other
 
 # Key features
 * 26 pin 0.5mm FFC interconnect to baseboard
-* 33 pin interface to MTP006 camera module
+* 30 pin interface to MTP006 camera module
 * 2-lane MIPI
 * Aux/Control signals to camera module
 * 3.3V power input via FFC
