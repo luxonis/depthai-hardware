@@ -76,7 +76,7 @@ Files
 *****
 
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM0255_DepthAI_pTOF_Camera/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
-* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM0255_DepthAI_pTOF_Camera/Docs/Assembly%20Outputs`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM0255_DepthAI_pTOF_Camera/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM0255_DepthAI_pTOF_Camera/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM0255_DepthAI_pTOF_Camera/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM0255_DepthAI_pTOF_Camera/Docs/Schematic%20PDF/Production.PDF>`__
