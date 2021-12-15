@@ -44,8 +44,7 @@ Key features
 Getting started
 ***************
 
-The OAK-D-PCBA accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. Optionally, resistors can 
-be configured on the board to allow for power to be provided via USB. With cameras and the DepthAI SoM, total power consumption usually stays 
+The OAK-D-PCBA accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the DepthAI SoM, total power consumption usually stays 
 below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended.
 
 Interfacing with the DepthAI SoM is also possible with OAK-D-PCBA connector pads J4, J5, and J6. These pads are designed for the Amphenol/FCI 
