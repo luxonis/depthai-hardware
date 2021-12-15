@@ -52,7 +52,11 @@ Sensor specifications
    * - TV distortion
      - < 7.3%
 
-.. _dm0255-getting-started:
+Sensor demo
+***********
+
+.. image:: /_static/images/DM0255/demo.gif
+  :target: https://youtu.be/4keVBYIuz6Q
 
 
 Board Layout and Dimensions
