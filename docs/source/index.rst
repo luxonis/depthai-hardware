@@ -23,16 +23,25 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 
    * - OAK-D-Lite
      - OAK-D
-     - OAK-1
+     - OAK-D-Pro
    * - .. image:: /_static/images/thumbnails/DM9095.png
           :target: pages/DM9095.html
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
-     - .. image:: /_static/images/thumbnails/OAK-1.png
-          :target: pages/BW1093.html
+     - .. image:: /_static/images/thumbnails/DM9098.png
+          :target: pages/DM9098.html
    * - :ref:`Learn more <dm9095>`
      - :ref:`Learn more <bw1098oak>`
-     - :ref:`Learn more <bw1093>`
+     - :ref:`Learn more <DM9098>`
+
+.. list-table::
+   :widths: 1
+   :header-rows: 1
+
+   * - OAK-1
+   * - .. image:: /_static/images/thumbnails/OAK-1.png
+          :target: pages/BW1093.html
+   * - :ref:`Learn more <bw1093>`
 
 PoE Designs
 ***********
@@ -110,7 +119,7 @@ custom baseline, or custom orientation of the cameras.
      - ArduCam Cameras
    * - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html
-     - .. image:: /_static/images/DM0255/DM0255_front.png
+     - .. image:: /_static/images/thumbnails/DM0255.png
           :target: pages/DM0255.html
      - .. image:: /_static/images/thumbnails/arducam_2.png
           :target: pages/arducam.html
@@ -217,6 +226,7 @@ All other hardware designs which usually aren't as popular.
 
    pages/DM9095.rst
    pages/BW1098OAK.rst
+   pages/DM9098.rst
    pages/BW1093.rst
 
 .. toctree::
