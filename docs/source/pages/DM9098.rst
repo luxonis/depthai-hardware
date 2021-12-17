@@ -1,0 +1,142 @@
+.. _dm9098:
+
+OAK-D-Pro
+=========
+
+(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__)
+
+.. image:: /_static/images/DM9098/oak-d-pro-front.png
+
+Overview
+********
+
+The OAK-D-Pro is an upgraded version of :ref:`OAK-D`, featuring **IR laser dot projector** (active stereo) and **IR illumination LED** (for
+"night vision"). It's also smaller and lighter than the OAK-D.
+It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
+more information below at *Getting started*.
+
+How it works
+************
+
+OAK-D-Pro doesn't have IR filter on mono cameras (production version will have notch IR filters at 940nm), which allows only visible light and
+IR light from illumination LED/laser dot projector to the camera.
+
+**Laser dot projector** projects many small dots in front of the device, which helps with disparity matching, especially for low-visual-interest surfaces
+(blank surfaces with little to no texture), such as a wall or floor. Technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
+- conventional active stereo vision - as stereo matching is performed on device the same way as on OAK-D (passive stereo).
+
+**Blanket IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
+on frames that are illuminated by the IR LED. Note that color camera doesn't percieve IR light, so you would need to use mono camera stream
+for your AI/CV processes.
+
+Getting started
+***************
+
+To get started with OAK-D-Pro, you first need to install the correct version: checkout to branch :code:`oak-d-pro` in `depthai <https://github.com/luxonis/depthai>`__
+and execute :code:`python3 install_requirements.py`.
+This will install the correct library, so you can execute :code:`depthai_demo.py`. Control panel for configuring IR LED/laser projector should appear,
+as shown on screenshots below.
+
+Sensor specifications
+*********************
+
+.. list-table::
+   :widths: 30 30 30
+   :header-rows: 1
+
+   * - Camera Specs
+     - Color camera
+     - Stereo pair
+   * - Sensor
+     - IMX378
+     - OV9282
+   * - DFOV
+     - 81°
+     - 81°
+   * - HFOV
+     - 69°
+     - 72°
+   * - Resolution
+     - 12MP (4032x3040)
+     - 1MP (1280x800)
+   * - Focus
+     - Auto-Focus: 8cm - ∞
+     - Fixed-Focus: 19.6cm - ∞
+   * - Max Framerate
+     - 60 FPS
+     - 120 FPS
+   * - F-number
+     - 2.0
+     - 2.2
+   * - Lens size
+     - 1/2.3 inch
+     - 1/2.3 inch
+
+Projector specifications
+************************
+
+.. list-table::
+   :widths: 1 1
+   :header-rows: 1
+
+   * - Projector Specs
+     - Value
+   * - Dot projector
+     - Ams Belago1.1 Dot-Pattern Infrared Illuminator
+   * - Number of dots
+     - 4700
+   * - HFOI* 50%
+     - 78 ± 7%
+   * - VFOI* 50%
+     - 61° ± 7%
+   * - VSCEL wavelength
+     - 940nm
+   * - Operating temperature
+     - 0°C to ~80°C
+   * - PDF
+     - `Click here <https://ams.com/documents/20143/4410698/Belago1.1_DS000676_1-00.pdf>`__
+
+*FOI = Field of illumination*. Also note that in datasheet, HFOI and VFOI are switched, that's because we mount the Belago1.1 rotated as we want
+greater horizontal field, to match field of cameras.
+
+Demo
+****
+
+As you can see from :code:`color` frame on screenshots, it's pitch dark in the room, so the only light source is the IR illumination LED/dot projector.
+**Note** that device used in the image was manually calibrated, so **performance is worse** (compared to production/factory calibration).
+
+**Dot projector**
+
+.. image:: /_static/images/DM9098/dot-projector.png
+
+**Illumination LED**
+
+.. image:: /_static/images/DM9098/illumination.jpg
+
+
+Board Layout and Dimensions
+***************************
+
+.. image:: /_static/images/DM9098/oak-d-pro-dimensions.png
+
+3D Models
+*********
+
+Download enclosure step file `here <https://github.com/luxonis/depthai-hardware/tree/master/Mechanical%20designs/OAK-D-Pro>`__.
+
+Laser safety
+************
+
+This product is classified as a Class 1 Laser Product under the EN/IEC 60825-1, Edition 3 (2014) internationally.
+
+- Do not power on the product if any external damage was observed.
+- Do not attempt to open any portion of this laser product.
+- Invisible laser radiation when opened. Avoid direct exposure to the beam.
+- There are no user serviceable parts with this laser product.
+- Modification or service of the stereo module, specifically the infrared projector, may cause the emissions to exceed Class 1.
+- No magnifying optical elements, such as eye loupes and magnifiers, are allowed.
+- Do not try to update camera firmware that is not officially released for specific camera module and revision.
+
+.. image:: /_static/images/DM9098/laser-safety.png
+
+.. include::  /pages/includes/footer-short.rst
