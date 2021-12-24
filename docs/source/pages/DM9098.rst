@@ -113,6 +113,8 @@ As you can see from :code:`color` frame on screenshots, it's pitch dark in the r
 
 .. image:: /_static/images/DM9098/illumination.jpg
 
+Run :code:`python3 depthai_demo.py --show left right depth color` to show 4 streams as in images above.
+
 
 Board Layout and Dimensions
 ***************************
