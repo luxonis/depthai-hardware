@@ -149,8 +149,7 @@ OAK-D-Lite has a baseline of 7.5cm and by varying the stereo depth mode, we get 
 
 - Min distance (480P): ~ 35cm
 - Min distance with extended disparity (480P): ~ 19.6cm
-
-Maximal perceiving distance for OAK-D: ~ 19.1 meters
+- Maximal perceiving distance: ~ 19.1 meters
 
 For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
