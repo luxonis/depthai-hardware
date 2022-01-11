@@ -38,8 +38,10 @@ Some of these have **M12 mount**, so you can use a variety of **different lenses
 - `M2506ZH04 (HFoV: 33°C) <https://www.arducam.com/product/M2506ZH04/>`__,
 - and `others <https://www.arducam.com/product-category/lenses/m12-lens-arducam/>`__
 
-Replacement stereo cameras for OAK-D
+Replacement stereo cameras for OAK-D-PCBA
 ************************************
+
+The cameras below are compatible with the OAK-D-PCBA.  Due to the use of adhesives to affix the cameras in the assembled OAK-D, it is difficult to replace them.  Attempting to remove the cameras can cause damage to both the cameras and the pcb.
 
 - Compact Camera Module (CCM) Fish-Eye OV9282 (for better SLAM) `here <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__
 - Mechanical, Optical, and Electrical equivalent OV9282 module with visible and IR capability `here <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__
