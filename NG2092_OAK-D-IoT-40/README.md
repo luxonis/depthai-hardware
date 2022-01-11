@@ -26,7 +26,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 - 1x IMX378 color camera
 - ESP32 onboard BT and WiFI
 - 6x MEMS microphones
-- 1x Spreaker
+- 1x Speaker
 
 More about the "why" are we making this product available and open sourcing you can read in an opened issue [#91.](https://github.com/luxonis/depthai-hardware/issues/91)
 
