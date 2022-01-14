@@ -61,7 +61,8 @@ See `here <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BK1096_OAK-1_Modular/3D_Models>`__
+
 
 
 .. include::  /pages/includes/footer-short.rst

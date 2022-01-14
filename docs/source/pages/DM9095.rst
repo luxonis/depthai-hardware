@@ -185,7 +185,7 @@ temperature. Note that the stable image temperature of the camera sensor is 0 °
 3D Models
 *********
 
-- Enclosure step model `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C/Mechanical>`__
-- PCBA step model `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9095_OAK-D-LITE_DepthAI_USB3C/Mechanical>`__
 
 .. include::  /pages/includes/footer-short.rst

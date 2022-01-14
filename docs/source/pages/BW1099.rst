@@ -52,7 +52,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OA
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM>`__ 
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM.step>`__
 
 Brochures
 *********

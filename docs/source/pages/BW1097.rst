@@ -94,7 +94,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/3D_Models>`__ and `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Mechanical>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/3D_Models>`__
 
 Brochures
 *********

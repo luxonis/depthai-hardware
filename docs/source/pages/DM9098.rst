@@ -124,7 +124,8 @@ Board Layout and Dimensions
 3D Models
 *********
 
-Download enclosure step file `here <https://github.com/luxonis/depthai-hardware/tree/master/Mechanical%20designs/OAK-D-Pro>`__.
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
+
 
 Laser safety
 ************

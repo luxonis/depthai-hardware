@@ -77,7 +77,7 @@ Power usage for OAK-D-PoE ranges between 2.00 W (standby) and 5.5 W (max consump
 Getting started
 ***************
 
-.. note:: 
+.. note::
     For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
 
 
@@ -117,7 +117,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088P
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board/3D_Models>`__
-
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board/Mechanical>`__
 
 .. include::  /pages/includes/footer-short.rst
