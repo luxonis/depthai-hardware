@@ -98,7 +98,8 @@ Datasheets
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/SJ2096POE_R0M0E0/Mechanical>`__
 
 
 .. include::  /pages/includes/footer-short.rst

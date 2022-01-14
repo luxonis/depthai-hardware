@@ -82,7 +82,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/3D_Models>`__ and `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Mechanical>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/3D_Models>`__
 
 
 .. include::  /pages/includes/footer-short.rst

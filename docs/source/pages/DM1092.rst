@@ -82,7 +82,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/3D_Models>`__
 
 
 .. include::  /pages/includes/footer-short.rst

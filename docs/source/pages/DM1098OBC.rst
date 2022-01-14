@@ -92,7 +92,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098O
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/3D_Models>`__ 
-
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1098OBC_DepthAI_USB3C_WIFI/Mechanical>`__
 
 .. include::  /pages/includes/footer-short.rst

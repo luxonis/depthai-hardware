@@ -56,6 +56,6 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera/3D_Models>`__
 
 .. include::  /pages/includes/footer-short.rst

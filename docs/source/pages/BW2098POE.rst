@@ -83,6 +83,6 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098P
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/3D_Models>`__
 
 .. include::  /pages/includes/footer-short.rst

@@ -85,7 +85,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098O
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/3D_Models>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/3D_Models>`__
 
 
 .. include::  /pages/includes/footer-short.rst

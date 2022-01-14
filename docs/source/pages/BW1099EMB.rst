@@ -50,6 +50,6 @@ See files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OA
 3D Models
 *********
 
-Download `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT/OAK-SoM-IoT.step>`__
 
 .. include::  /pages/includes/footer-short.rst
