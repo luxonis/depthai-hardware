@@ -36,8 +36,8 @@ Getting started
 
 The stereo mono cameras (:ref:`OAK-FFC-OV9282 <bg0250tg>`) can be connected via FFC to connectors J8 and J9 on the top of the board, while the RGB camera 
 module (:ref:`OAK-FFC-IMX378 <bg0249>`) is connected via FFC to connector J6 on the bottom of the board. These connectors have a Left/Right configuration as 
-percieved by the subject rather than the camera, so "CAM_L" is the subject's left. These designations are somehwhat arbitrary, however, due to the 
-flexibility in positioning the cameras allowed by the FFC. Note that the RGB FFC connector is a top-contact connector while the mono FFC conectors are 
+perceived by the subject rather than the camera, so "CAM_L" is the subject's left. These designations are somehwhat arbitrary, however, due to the 
+flexibility in positioning the cameras allowed by the FFC. Note that the RGB FFC connector is a top-contact connector while the mono FFC connectors are 
 bottom-contact. This results in the FFCs and cameras all facing the same direction when mounted.
 
 The DepthAI RPi HAT Baseboard accepts 5V power from the 5.5mm x 2.5mm barrel jack, or through the Raspberry Pi GPIO header 5V pins. This allows support for standalone 

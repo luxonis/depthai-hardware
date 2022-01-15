@@ -19,6 +19,6 @@ PoE enclosures have gaskets which makes them waterproof.
 
 .. image:: /_static/images/waterproof/poe_gasket.jpeg
 
-Here's our testing of the enclosures. The heigth of this drum, which was filled with water, is 1 meter and we were testing these two enclosures over an extended period of time.
+Here's our testing of the enclosures. The height of this drum, which was filled with water, is 1 meter and we were testing these two enclosures over an extended period of time.
 
 .. image:: /_static/images/waterproof/water_test.jpeg

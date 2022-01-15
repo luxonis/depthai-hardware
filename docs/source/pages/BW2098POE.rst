@@ -49,8 +49,8 @@ Getting started
     For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
 
 
-The PoE Board accepts power input either from a 5.5m x 2.1mm barrel jack (5V +/-10%) or from the RJ-45 connector upsteam from the 802.3af, 
-Class 3 PoE circuitry. A jumper near the MIPI FFC connector allows for user selction of the input power source. Booting can be accomplished 
+The PoE Board accepts power input either from a 5.5m x 2.1mm barrel jack (5V +/-10%) or from the RJ-45 connector upstream from the 802.3af, 
+Class 3 PoE circuitry. A jumper near the MIPI FFC connector allows for user selection of the input power source. Booting can be accomplished 
 from either the USB interface or from the eMMC or NOR flash on the :ref:`OAK-SoM-Pro <bw2099>`, and boot selection is configured with the DIP switch bank near 
 the barrel jack connector. With the :ref:`OAK-FFC-IMX378 <bg0249>` camera and the OAK-SoM-Pro running inference, power consumption is typically 3.3W.
 
@@ -62,7 +62,7 @@ The reset button resets the :ref:`OAK-SoM-Pro <bw2099>` only.
 The 5V LED indicates 5V power is present on the PoE Board. The PG LED indicates "power good" from the OAK-SoM-Pro. The "RUN" LED indicates 
 that the OAK-SoM-Pro is not in reset.
 
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 57V may exist. 
+**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 57V may exist. 
 Always use electronics handling best practices.**
 
 Datasheets
