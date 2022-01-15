@@ -78,7 +78,7 @@ The 5V LED indicates 5V power is present on the BW2098POE.
 The PG LED indicates "power good" from the OAK-SoM-Pro.
 The "RUN" LED indicates that the OAK-SoM-Pro is not in reset.
 
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 
+**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 
 57V may exist. Always use electronics handling best practices.**
 
 Altium Design Files

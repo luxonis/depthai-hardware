@@ -11,7 +11,7 @@ Overview
 The OAK-SoM-IoT (BW1099EMB) is a System on a Module (SoM) designed for integration into top-level system with a need for a low-power,
 4 TOPS AI vision system. The OAK-SoM-IoT interfaces with the system through a single 10-GBPS-rated 100 pin board-to-board mezzanine 
 connector which carries all I/O signals as well as 5V input. The on-board SMPS system regulates the 5V input and provides 
-all necessary digital and analog power. An auxillary power port is offered to interface without connetion to a baseboard.
+all necessary digital and analog power. An auxiliary power port is offered to interface without connection to a baseboard.
 
 Board Layout
 ************

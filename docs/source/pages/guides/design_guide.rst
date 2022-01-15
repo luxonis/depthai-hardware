@@ -73,7 +73,7 @@ Move to the :code:`what`:
 
 - Any external entry point for a force or torque (connector, mounting, etc.) should be thought through in the mechanical design of the product - such that this force does not cause a rotation or translation of either camera.
 
-- If mounting M12/C/CS-mount cameras, use use models that can mount screwed down securely.
+- If mounting M12/C/CS-mount cameras, use models that can mount screwed down securely.
  
     - Use nylon threading on the screws so the screw positions do not back-out with vibration/etc.
     - Make sure the lenses are fixed in places with staking or set-screws so they don’t defocus.

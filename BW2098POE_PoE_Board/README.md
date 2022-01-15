@@ -35,7 +35,7 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 ![](../BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_cs_annotation.jpg)
 
 # Getting started
-The BW2098POE accepts power input either from a 5.5m x 2.1mm barrel jack (5V +/-10%) or from the RJ-45 connector upsteam from the 802.3af, Class 3 PoE circuitry. A jumper near the MIPI FFC connector allows for user selction of the input power source. Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the OAK-SOM-PRO, and boot selection is configured with the DIP switch bank near the barrel jack connector. With the BW0249 camera and the DepthAI OAK-SOM-PRO running inference, power consumption is typically 3.3W. 
+The BW2098POE accepts power input either from a 5.5m x 2.1mm barrel jack (5V +/-10%) or from the RJ-45 connector upstream from the 802.3af, Class 3 PoE circuitry. A jumper near the MIPI FFC connector allows for user selection of the input power source. Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the OAK-SOM-PRO, and boot selection is configured with the DIP switch bank near the barrel jack connector. With the BW0249 camera and the DepthAI OAK-SOM-PRO running inference, power consumption is typically 3.3W. 
 
 Interfacing with the DepthAI SoM is also possible with BW2098POE connector pads J5 and J8, which expose OAK-SOM-PRO auxiliary IO and OAK-SOM-PRO Quad SPI, respectively. These headers are [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
 
@@ -43,7 +43,7 @@ The reset button resets the Luxonis DepthAI OAK-SOM-PRO only.
 
 The 5V LED indicates 5V power is present on the BW2098POE. The PG LED indicates "power good" from the DepthAI OAK-SOM-PRO. The "RUN" LED indicates that the DepthAI SoM is not in reset.
 
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials upto and exceeding 57V may exist. Always use electronics handling best practices.** 
+**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 57V may exist. Always use electronics handling best practices.** 
 
 
 # Revision info

@@ -3,8 +3,8 @@
 Integrating DepthAI into products
 =================================
 
-Difficulity of integrating DepthAI into products
-************************************************
+Difficulty of integrating DepthAI into products
+***********************************************
 
 When designing our platform from the grounds up, we always thought of user integration and made is as simple
 as possible to integrate it into other products. 
