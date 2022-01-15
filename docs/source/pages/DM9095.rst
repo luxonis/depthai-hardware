@@ -29,6 +29,10 @@ Key features
 * Warp/Dewarp - support for additional lenses for fish-eye applications
 * JPEG Encoding
 * MJPEG Encoding for easy web streaming
+* Compatible with most of OAK-D features
+* Enclosure compatible with standard tripod mount (1/4"-20)
+* Support for on-board stereo and RGB camera modules
+* USB 3.1 Gen1 Type-C
 
 .. image:: /_static/images/DM9095/oak_d_lite_en.png
 
