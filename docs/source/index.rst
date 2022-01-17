@@ -80,7 +80,7 @@ connected to the VPU via SPI (`more info <https://docs.luxonis.com/en/latest/pag
      - OAK-D-IoT-75 (OAK-D-WiFi)
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: pages/DM1092.html
-     - .. image:: /_static/images/thumbnails/DM1098OBC_2.png
+     - .. image:: /_static/images/thumbnails/DM1098OBC.png
           :target: pages/DM1098OBC.html
    * - :ref:`Learn more <dm1092>`
      - :ref:`Learn more <dm1098obc>`

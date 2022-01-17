@@ -3,7 +3,7 @@
 OAK-D-IOT-75
 ============
 
-.. image:: /_static/images/DM1098OBC/DM1098OBC.jpg
+.. image:: /_static/images/DM1098OBC/IOT-75.JPG
 
 Overview
 ********
@@ -12,17 +12,14 @@ The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
 If you are **new to OAK IOT devices, you can check** `Getting started with OAK IOT devices <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__ tutorial.
 
-Board Layout
-************
-
-.. image:: /_static/images/DM1098OBC/DM1098OAKW_SIDE.jpg
-
 Dimensions and Weight
 *********************
 
+.. image:: /_static/images/DM1098OBC/IOT-75-enc.svg
+
 .. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 
-Weight:
+**Weight:**
 
 * PCBA and SoM: 48.5g
 * Total weight (with enclosure): 89g
@@ -40,8 +37,6 @@ Key features
 * 5V barrel jack input
 * Support for 5V fan
 * Design files produced with Altium Designer 20
-
-.. image:: /_static/images/DM1098OBC/DM1098OBC_top.jpg
 
 Minimal and maximal perceiving distances of the camera
 ******************************************************
