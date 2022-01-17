@@ -1,4 +1,4 @@
-# OAK-D-IoT-40 baseboard (WIP)
+# OAK-D-IoT-40 Series 2 baseboard (WIP)
 
 <img src="Images/OAK-D-IoT-40-Front.jpg" style="zoom:20%;" />
 
