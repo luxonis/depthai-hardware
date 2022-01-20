@@ -86,6 +86,6 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098O
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/3D_Models>`__
-
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Mechanical>`__
 
 .. include::  /pages/includes/footer-short.rst
