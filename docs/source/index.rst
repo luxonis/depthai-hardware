@@ -134,17 +134,21 @@ All in One Dev. Kits Designs
 These devices are like combining a **Raspberry Pi with an OAK-D** in a compact solution.
 
 .. list-table::
-   :widths: 50 50
+   :widths: 1 1 1
    :header-rows: 1
 
    * - OAK-D-CM3
      - OAK-D-CM4
+     - OAK-D CM4 PoE
    * - .. image:: /_static/images/thumbnails/BW1097.png
           :target: pages/BW1097.html
      - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097.html
+     - .. image:: /_static/images/thumbnails/DM2097.png
+          :target: pages/DM2097.html
    * - :ref:`Learn more <bw1097>`
      - :ref:`Learn more <dm1097>`
+     - :ref:`Learn more <dm2097>`
 
 
 System on Module Designs
