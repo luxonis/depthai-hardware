@@ -294,7 +294,7 @@ Camera specification
      - `T261-T265 <https://www.intelrealsense.com/tracking-camera-t265/>`__
    * - RGB
      - IMX378
-     - IMX378 / OV9782
+     - IMX378/OV9782
      - IMX214
      - N/A
      - OV2740
@@ -412,7 +412,7 @@ Camera specification
      - 
      - 
      - 848x800
-   * - IR illumination LED
+   * - IR LED
      - ✔️
      - ❌
      - ❌
