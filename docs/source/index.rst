@@ -184,27 +184,18 @@ All other hardware designs which usually aren't as popular.
    :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-D-PCBA
+   * - PoE Board
      - RPi Adapter Camera
      - RPi HAT Baseboard
-   * - .. image:: /_static/images/thumbnails/BW1098OBC.png
-          :target: pages/BW1098OBC.html
+   * - .. image:: /_static/images/thumbnails/BW2098POE.png
+          :target: pages/BW2098POE.html
      - .. image:: /_static/images/thumbnails/BW0253.jpg
           :target: pages/BW0253.html
      - .. image:: /_static/images/thumbnails/BW1094.png
           :target: pages/BW1094.html
-   * - :ref:`Learn more <bw1098obc>`
+   * - :ref:`Learn more <bw2096poe>`
      - :ref:`Learn more <bw0253>`
      - :ref:`Learn more <bw1094>`
-
-.. list-table::
-   :widths: 1
-   :header-rows: 1
-
-   * - PoE Board
-   * - .. image:: /_static/images/thumbnails/BW2098POE.png
-          :target: pages/BW2098POE.html
-   * - :ref:`Learn more <bw2096poe>`
 
 .. include::  /pages/includes/footer-long.rst
 
@@ -276,6 +267,7 @@ All other hardware designs which usually aren't as popular.
 
    pages/BW1097.rst
    pages/DM1097.rst
+   pages/DM2097.rst
 
 .. toctree::
    :maxdepth: 1
@@ -291,7 +283,6 @@ All other hardware designs which usually aren't as popular.
    :hidden:
    :caption: Miscellaneous Designs
 
-   pages/BW1098OBC.rst
    pages/BW0253.rst
    pages/BW1094.rst
    pages/BW2098POE.rst

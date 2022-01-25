@@ -9,3 +9,24 @@ OAK-D CM4 PoE
 (`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-cm4-poe>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
 
 .. image:: /_static/images/DM2097/cm4-poe.jpg
+
+Overview
+********
+
+The OAK-D CM4 PoE is an upgraded version of :ref:`OAK-D CM4`, as PoE is used both for power delivery and communication (for RPi CM4),
+plus in comes in a IP67 rated enclosure. The enclosure is about the size as the :ref:`OAK-D-POE`.
+The color camera is also close to the right camera, so RGB-depth alignment isn't needed in most cases,
+which reduces system load.
+
+Sensor specifications
+*********************
+
+.. include:: /pages/includes/imx378_ov9282.rst
+
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Mechanical>`__
+
+.. include::  /pages/includes/footer-short.rst

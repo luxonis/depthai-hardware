@@ -1,0 +1,22 @@
+.. list-table::
+   :widths: 30 30
+   :header-rows: 1
+
+   * - Camera Specs
+     - Color camera
+   * - Sensor
+     - IMX378
+   * - DFOV
+     - 81°
+   * - HFOV
+     - 69°
+   * - Resolution
+     - 12MP (4032x3040)
+   * - Focus
+     - Auto-Focus: 8cm - ∞
+   * - Max Framerate
+     - 60 FPS
+   * - F-number
+     - 2.0
+   * - Lens size
+     - 1/2.3 inch
