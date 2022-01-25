@@ -1,12 +1,12 @@
 
 
-# DD2090FFC DepthAI USB3 Edition (WIP)
+# DD2090FFC DepthAI USB3 Edition 
 
 DD2090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera) + [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera) are shown together below:
 
 ![](./Images/DD2090FFC_R0M0E0.jpg)
 
-# Project Stage (WIP)
+# Project Stage 
 
 
 
@@ -35,8 +35,8 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * Onboard EEPROM
 * Pads for DepthAI SoM 1.8V SPI
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
-* PRBS connector (RST, BOOT_SEL, AUX_GPIO, 5V)
-* Design files produced with Altium Designer 20
+* PSRBS connector (5V, STROBE, RST, BOOT_SEL, AUX_GPIO, FSIN_4LANE)
+* Design files produced with Altium Designer 22
 
 # Board layout & dimensions
 
@@ -56,7 +56,7 @@ The 5V LED indicates 5V power is present on the DD2090FFC. The PG LED indicates 
 
 # Revision info
 
-These files represent the R1M1E1 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history. This design is a WIP and will be updated once received and fully vetted.
+These files represent the R2M1E2 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history. This design is a WIP and will be updated once received and fully vetted.
 
 # Camera Usage
 
