@@ -33,11 +33,11 @@ Sensor specifications
    Board Layout and Dimensions
    ***************************
 
+3D Models
+*********
 
-   3D Models
-   *********
-
-   - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9097_OAK-D-Pro-PoE/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9097_OAK-D-Pro-PoE/Mechanical>`__
 
 
 .. include:: /pages/includes/laser-safety.rst

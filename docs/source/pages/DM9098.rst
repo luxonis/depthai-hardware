@@ -33,6 +33,7 @@ Board Layout and Dimensions
 3D Models
 *********
 
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
 
 
