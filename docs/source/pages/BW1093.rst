@@ -14,7 +14,7 @@ the :ref:`OAK-SoM <bw1099>`.
 Some part of the design cannot be open-sourced because they contain proprietary chip-down vendor information and therefore cannot be shared publicly.
 
 OAK-1 isn’t a standard USB camera. It’s a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board, so that your host 
-is free to do whatever you need it to do.  
+is free to do whatever you need it to do.
 
 Its integrated 12 MegaPixel camera module communicates over an on-board 2.1 Gbps MIPI interface directly to the Myriad X, which ingests this data 
 and performs neural inference on it, returning the results over USB.
@@ -47,7 +47,10 @@ Key features
 * AUX 5V connector
 * Access to SoM 1.8V I2C and UART
 
-.. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
+Sensor specifications
+*********************
+
+.. include:: /pages/includes/imx378.rst
 
 3D models
 *********

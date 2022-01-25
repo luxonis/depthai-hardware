@@ -3,7 +3,10 @@
 OAK-FFC-pToF
 ===========
 
-(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__)
+.. role:: raw-html(raw)
+   :format: html
+
+(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
 
 .. image:: /_static/images/DM0255/DM0255_front.png
 

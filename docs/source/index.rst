@@ -53,18 +53,18 @@ in standalone mode.
    :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-D-PoE
-     - OAK-1-PoE
-     - PoE Board
-   * - .. image:: /_static/images/thumbnails/oak-d-poe.png
-          :target: pages/SJ2088POE.html
-     - .. image:: /_static/images/thumbnails/SJ2096POE.png
+   * - OAK-1-PoE
+     - OAK-D-PoE
+     - OAK-D Pro PoE
+   * - .. image:: /_static/images/thumbnails/SJ2096POE.png
           :target: pages/SJ2096POE.html
-     - .. image:: /_static/images/thumbnails/BW2098POE.png
-          :target: pages/BW2098POE.html
-   * - :ref:`Learn more <sj2088poe>`
-     - :ref:`Learn more <sj2096>`
-     - :ref:`Learn more <bw2096poe>`
+     - .. image:: /_static/images/thumbnails/oak-d-poe.png
+          :target: pages/SJ2088POE.html
+     - .. image:: /_static/images/thumbnails/NG9097.png
+          :target: pages/NG9097.html
+   * - :ref:`Learn more <sj2096>`
+     - :ref:`Learn more <sj2088poe>`
+     - :ref:`Learn more <ng9097>`
 
 IoT Designs
 ***********
@@ -134,17 +134,21 @@ All in One Dev. Kits Designs
 These devices are like combining a **Raspberry Pi with an OAK-D** in a compact solution.
 
 .. list-table::
-   :widths: 50 50
+   :widths: 1 1 1
    :header-rows: 1
 
    * - OAK-D-CM3
      - OAK-D-CM4
+     - OAK-D CM4 PoE
    * - .. image:: /_static/images/thumbnails/BW1097.png
           :target: pages/BW1097.html
      - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097.html
+     - .. image:: /_static/images/thumbnails/DM2097.png
+          :target: pages/DM2097.html
    * - :ref:`Learn more <bw1097>`
      - :ref:`Learn more <dm1097>`
+     - :ref:`Learn more <dm2097>`
 
 
 System on Module Designs
@@ -180,20 +184,18 @@ All other hardware designs which usually aren't as popular.
    :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-D-PCBA
+   * - PoE Board
      - RPi Adapter Camera
      - RPi HAT Baseboard
-   * - .. image:: /_static/images/thumbnails/BW1098OBC.png
-          :target: pages/BW1098OBC.html
+   * - .. image:: /_static/images/thumbnails/BW2098POE.png
+          :target: pages/BW2098POE.html
      - .. image:: /_static/images/thumbnails/BW0253.jpg
           :target: pages/BW0253.html
      - .. image:: /_static/images/thumbnails/BW1094.png
           :target: pages/BW1094.html
-   * - :ref:`Learn more <bw1098obc>`
+   * - :ref:`Learn more <bw2096poe>`
      - :ref:`Learn more <bw0253>`
      - :ref:`Learn more <bw1094>`
-
-
 
 .. include::  /pages/includes/footer-long.rst
 
@@ -234,10 +236,9 @@ All other hardware designs which usually aren't as popular.
    :hidden:
    :caption: PoE Designs
 
-   pages/SJ2088POE.rst
    pages/SJ2096POE.rst
-   pages/BW2098POE.rst
-
+   pages/SJ2088POE.rst
+   pages/NG9097.rst
 
 .. toctree::
    :maxdepth: 1
@@ -266,6 +267,7 @@ All other hardware designs which usually aren't as popular.
 
    pages/BW1097.rst
    pages/DM1097.rst
+   pages/DM2097.rst
 
 .. toctree::
    :maxdepth: 1
@@ -281,7 +283,6 @@ All other hardware designs which usually aren't as popular.
    :hidden:
    :caption: Miscellaneous Designs
 
-   pages/BW1098OBC.rst
    pages/BW0253.rst
    pages/BW1094.rst
-
+   pages/BW2098POE.rst
