@@ -42,9 +42,9 @@ Here is an example of a baseboard without the SOM:
 
 .. image:: /_static/images/baseboard.jpeg
 
-And here is the OAK-D-IoT-75, which is a baseboard with on-board cameras and ESP32:
+And here is the :ref:`OAK-D-IoT-40`, which is a baseboard with on-board cameras and ESP32:
 
-.. image:: /_static/images/DM1098OBC/DM1098OBC.jpg
+.. image:: /_static/images/DM1092/DM1092_back.jpg
 
 NOR Flash and Powering
 **********************

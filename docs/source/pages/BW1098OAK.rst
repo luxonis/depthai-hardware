@@ -11,15 +11,6 @@ Overview
 The OAK-D baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth 
 and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
-Dimensions and Weight
-*********************
-* Width: 110 mm
-* Height: 54.5 mm
-* Length: 33 mm
-* Weight: 115g
-
-.. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
-
 Key features
 ************
 
@@ -34,8 +25,32 @@ Key features
 * Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * Design files produced with Altium Designer 20
 
-.. image:: /_static/images/BW1098OAK/oak-d_color_camera_spec.jpg
-.. image:: /_static/images/BW1098OAK/oak-d_mono_camera_spec.jpg
+Sensor specifications
+*********************
+
+.. include:: /pages/includes/imx378_ov9282.rst
+
+Dimensions and Weight
+*********************
+
+.. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
+
+**Weight:**
+
+* OAK-D: 115g
+* PCBA: 17.5g
+* SoM with heatsink: 25.5g
+
+OAK-D PCBA
+**********
+
+In the past we also sold OAK-D PCBA, which is essentailly an OAK-D without an enclosure
+and instead has a heatsink. This could still be useful for some applications where
+size/weight is really critical (eg. drones), and PCBA also exposes some additional connectors.
+
+.. image:: /_static/images/BW1098OAK/BW1098OBC_an.jpg
+
+.. image:: /_static/images/BW1098OAK/BW1098OBC_dims.jpg
 
 Minimal and maximal perceiving distances of the camera
 ******************************************************
@@ -65,7 +80,7 @@ Interfacing with the DepthAI SoM is also possible with OAK-D connector pads J4, 
 
 The reset button is not populated by default on the OAK-D, but can be added. Alternativey, the BW1099 SoM can be reset by shorting RST to ground.
 
-The 5V LED indicates 5V power is present on the :ref:`BW1098OBC <bw1098obc>`. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" 
+The 5V LED indicates 5V power is present on the PCBA. The PG LED indicates "power good" from the DepthAI SoM. The "RUN"
 LED indicates that the DepthAI SoM is not in reset.
 
 Datasheets
@@ -85,7 +100,7 @@ See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098O
 3D Models
 *********
 
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/3D_Models>`__
+- Board (PCBA) STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Mechanical>`__
 
 .. include::  /pages/includes/footer-short.rst
