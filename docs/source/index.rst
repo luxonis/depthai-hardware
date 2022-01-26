@@ -22,26 +22,30 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
    :header-rows: 1
 
    * - OAK-D-Lite
-     - OAK-D
-     - OAK-D-Pro
+     - OAK-D S2
+     - OAK-D Pro
    * - .. image:: /_static/images/thumbnails/DM9095.png
           :target: pages/DM9095.html
-     - .. image:: /_static/images/thumbnails/BW1098OAK.png
-          :target: pages/BW1098OAK.html
-     - .. image:: /_static/images/thumbnails/DM9098.png
-          :target: pages/DM9098.html
+     - .. image:: /_static/images/thumbnails/DM9098s2.png
+          :target: pages/DM9098s2.html
+     - .. image:: /_static/images/thumbnails/DM9098pro.png
+          :target: pages/DM9098pro.html
    * - :ref:`Learn more <dm9095>`
-     - :ref:`Learn more <bw1098oak>`
-     - :ref:`Learn more <DM9098>`
+     - :ref:`Learn more <dm9098s2>`
+     - :ref:`Learn more <dm9098pro>`
 
 .. list-table::
-   :widths: 1
+   :widths: 1 1
    :header-rows: 1
 
    * - OAK-1
+     - OAK-D
    * - .. image:: /_static/images/thumbnails/OAK-1.png
           :target: pages/BW1093.html
+     - .. image:: /_static/images/thumbnails/BW1098OAK.png
+          :target: pages/BW1098OAK.html
    * - :ref:`Learn more <bw1093>`
+     - :ref:`Learn more <bw1098oak>`
 
 PoE Designs
 ***********
@@ -227,9 +231,10 @@ All other hardware designs which usually aren't as popular.
    :caption: USB Designs
 
    pages/DM9095.rst
-   pages/BW1098OAK.rst
-   pages/DM9098.rst
+   pages/DM9098s2.rst
+   pages/DM9098pro.rst
    pages/BW1093.rst
+   pages/BW1098OAK.rst
 
 .. toctree::
    :maxdepth: 1

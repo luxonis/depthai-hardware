@@ -1,0 +1,36 @@
+.. _dm9098s2:
+
+OAK-D S2
+========
+
+.. role:: raw-html(raw)
+   :format: html
+
+(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-s2>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
+
+.. image:: /_static/images/DM9098/oak-d-s2.jpg
+
+Overview
+********
+
+The **OAK-D S2** is a revised version of the :ref:`OAK-D`. The only difference is that
+OAK-D S2 has a smaller enclosure and is therefore lighter.
+
+Sensor specifications
+*********************
+
+.. include:: /pages/includes/imx378_ov9282.rst
+
+Board Layout and Dimensions
+***************************
+
+.. image:: /_static/images/DM9098/oak-d-s2_dimansions.png
+
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-S2/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-S2/Mechanical>`__
+
+
+.. include::  /pages/includes/footer-short.rst

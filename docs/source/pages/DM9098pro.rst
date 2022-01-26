@@ -1,4 +1,4 @@
-.. _dm9098:
+.. _dm9098pro:
 
 OAK-D-Pro
 =========
@@ -13,10 +13,10 @@ OAK-D-Pro
 Overview
 ********
 
-The OAK-D-Pro is an upgraded version of :ref:`OAK-D`, featuring **IR laser dot projector** (active stereo) and **IR illumination LED** (for
+The OAK-D-Pro is an upgraded version of :ref:`OAK-D`, featuring an **IR laser dot projector** (active stereo) and **IR illumination LED** (for
 "night vision"). It's also smaller and lighter than the OAK-D.
-It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
-more information below at *Getting started*.
+It's currently in the **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
+more information can be found below at *Getting started*.
 
 Sensor specifications
 *********************
