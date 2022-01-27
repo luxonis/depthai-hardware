@@ -1,0 +1,23 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM6010_R2M2E2.PcbDoc   11/10/2021  08:23:45
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Layer 1 to Layer 4
+ASCII Plated RoundHoles File : DM6010_R2M2E2-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM6010_R2M2E2-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DM6010_R2M2E2-SlotHoles-Plated.TXT
+ASCII Plated RectHoles File : DM6010_R2M2E2-RectHoles-Plated.TXT
+EIA File   : DM6010_R2M2E2.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             60        PTH        79.67mm (3.14inch)
+T2      0.5mm (20mil)                                             Slot              4         PTH        63.00mm (2.48inch)
+T3      0.5mm (20mil)                                             Rectangle         5         PTH        36.38mm (1.43inch)
+T4      0.7mm (28mil)                                             Slot              8         PTH        86.13mm (3.39inch)
+T5      0.75mm (30mil)                                            Round             2         NPTH       7.84mm (0.31inch)
+T6      1.5mm (59mil)                                             Round             2         NPTH       11.14mm (0.44inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              81
+
+Total Processing Time (hh:mm:ss) : 00:00:00
