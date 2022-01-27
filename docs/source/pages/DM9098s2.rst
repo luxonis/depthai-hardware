@@ -13,8 +13,9 @@ OAK-D S2
 Overview
 ********
 
-The **OAK-D S2** is a revised version of the :ref:`OAK-D`. The only difference is that
-OAK-D S2 has a smaller enclosure and is therefore lighter.
+The **OAK-D S2** is the series 2 of the :ref:`OAK-D`. The main difference is that
+OAK-D S2 has a smaller enclosure and is therefore lighter. OAK-D S2 also doesn't have a barrel jack
+for supplying power, so it only has a USB-C connector for both power and communication.
 
 Sensor specifications
 *********************
