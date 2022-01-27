@@ -1,15 +1,15 @@
 How it works
 ************
 
-This OAK model doesn't have IR filter on mono cameras (production version will have notch IR filters at 940nm), which allows only visible light and
+This OAK model doesn't have an IR filter on mono cameras (the production version will have notch IR filters at 940nm), which allows only visible light and
 IR light from illumination LED/laser dot projector to the camera.
 
 **Laser dot projector** projects many small dots in front of the device, which helps with disparity matching, especially for low-visual-interest surfaces
-(blank surfaces with little to no texture), such as a wall or floor. Technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
-- conventional active stereo vision - as stereo matching is performed on device the same way as on OAK-D (passive stereo).
+(blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
+- conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
 
 **Blanket IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
-on frames that are illuminated by the IR LED. Note that color camera doesn't percieve IR light, so you would need to use mono camera stream
+on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
 for your AI/CV processes.
 
 Getting started
