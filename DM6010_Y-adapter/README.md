@@ -32,9 +32,9 @@ This comes handy especially when any of the OAK products which only have a singl
 
 Y-adapter was made with intention that the overall enclosed size would be as minimal as possible. 
 
-Dimensions are represented below:    (SVG file will be added soon)
+Dimensions are represented below:
 
-![](Images/.png)
+![](Images/Y-adapter_SVG.png)
 
 ## Layout OAK-FFC-3P-OG (BW1098FFC/DM1098FFC) vs DM1098EMB:
 
