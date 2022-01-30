@@ -215,6 +215,7 @@ All other hardware designs which usually aren't as popular.
    pages/guides/integrating_depthai_into_products.rst
    pages/guides/powering_poe_devices.rst
    pages/guides/sync_frames.rst
+   pages/guides/raspberrypi.rst
 
 .. toctree::
    :maxdepth: 1
