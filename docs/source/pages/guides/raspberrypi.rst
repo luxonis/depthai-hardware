@@ -9,7 +9,7 @@ Depthai library has **prebuilt wheels** for RPi on `piwheels <https://www.piwhee
 Using pre-configured RPi OS image
 *********************************
 
-We provide Raspberry Pi OS images that have **depthai and all it's dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
+We provide Raspberry Pi OS images that have **depthai and all its dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
 
 - **KS_Rpi_OS_Full** - Uses RPi Full OS, has pre-installed depthai and `CEP <https://github.com/cortictechnology/cep>`__. **Required hardware**: 32 GB uSD card or larger, RPi 4 with 4 GB RAM. This image was flashed on uSD cards that were sent to KickStarter backers
 - **OAK_CM4_POE** - Uses RPi OS (default one), has pre-installed depthai. **Required hardware**: 8 GB uSD card or larger. This image is flashed on uSD cards that get sent with `OAK-D-CM3 <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html>`__, `OAK-D-CM4 <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html>`__, `OAK-D CM4 PoE <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html>`__
@@ -18,23 +18,21 @@ Flashing uSD card
 -----------------
 
 #. Download the RPi image from Google Drive (link above). Download `Balena Etcher <https://www.balena.io/etcher/>`__ program. You can also use RPi Imager, but we have noticed that sometimes there are issues.
-#. Open Balena Etcher. If you have downloaded *.AppImage*, you might need to right click on it and click *Run* to start the program.
+#. Open Balena Etcher. If you have downloaded *.AppImage*, you might need to right-click on it and click *Run* to start the program.
 #. Click on the **Flash from file** and select the *.zip* image you have previously downloaded
 #. Select the target uSD card
 #. Click **Flash!** and wait until it's finished.
-#. After flashing is complete, safely remove the uSD card, insert it into RPi and power the RPi
-#. ???
-#. Profit!
+#. After flashing is complete, safely remove the uSD card, insert it into RPi, and power the RPi
 
 SSH into the RPi
 ################
 
-If you are using pre-configured RPi OS image, SSH server is already enabled, otherwise
+If you are using a pre-configured RPi OS image, SSH server is already enabled, otherwise
 you need to create file :code:`ssh` inside this **boot** volume, so SSH server will be enabled on startup (`tutorial here <https://desertbot.io/blog/ssh-into-pi-zero-over-usb>`__).
 
 .. image:: /_static/images/hosts/boot_volume.png
 
-If you have RPi with **WiFi connectivity**, you can can set the WiFi SSID/Password
+If you have RPi with **WiFi connectivity**, you can set the WiFi SSID/Password
 by creating (and editing) :code:`wpa_supplicant.conf` inside the **boot** volume (`tutorial here <https://raspberrytips.com/raspberry-pi-wifi-setup/>`__).
 
 After connecting RPi via ethernet/WiFi to the same LAN as your computer, you can SSH into the RPi with the command below. If RPi and computer are not in the same LAN, you will have to
@@ -57,7 +55,7 @@ When you SSH into the RPi for the first time, it will warn you about authenticit
 
 type :code:`yes` to continue.
 
-After this command, you will need to provide password. **Default RPi OS password is** :code:`raspberry`. You should change it.
+After this command, you will need to provide the password. The **default RPi OS password is** :code:`raspberry`. You should change it.
 
 After SSH was successful, let's try running an example app :code:`python depthai-python/examples/MobileNet/rgb_mobilenet.py`
 
@@ -72,13 +70,13 @@ connectivity (RPI Zero W, which costs ~$10). It consumes about 0.5W.
 
 .. image:: /_static/images/hosts/rpi_zero.png
 
-**RPi Zero is sufficient for streaming metadata** (NN results), low resolution encoded videos, or light computing. If you intend to stream
+**RPi Zero is sufficient for streaming metadata** (NN results), low-resolution encoded videos, or light computing. If you intend to stream
 high-res videos, perform heavy computing (eg. with OpenCV) or post-processing, RPi Zero won't be the best choice for host computer.
 
 Connect OAK camera to a RPI Zero
 --------------------------------
 
-RPI Zero has one micro USB connector for paripherals. You can use your standard USB-C (to USB-A) cable, but you will need **OTG connector/cable**
+RPI Zero has one micro USB connector for peripherals. You can use your standard USB-C (to USB-A) cable, but you will need **OTG connector/cable**
 to connect an OAK device to the RPI Zero.
 
 .. image:: /_static/images/hosts/rpi_zero_otg.png
