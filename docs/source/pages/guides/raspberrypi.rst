@@ -7,7 +7,7 @@ and then install the `library <https://docs.luxonis.com/projects/api/en/latest/i
 Depthai library has **prebuilt wheels** for RPi on `piwheels <https://www.piwheels.org/project/depthai/>`__.
 
 Using pre-configured RPi OS image
-*********************************
+#################################
 
 We provide Raspberry Pi OS images that have **depthai and all its dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
 
@@ -17,7 +17,7 @@ We provide Raspberry Pi OS images that have **depthai and all its dependencies p
 Steps taken to create these images and changelog can be found `here <https://docs.google.com/document/d/1c4JhIY2ulcgaaycUBOsAbUI1EJ_7Zx4ux4alaxFc_ts/edit?usp=sharing>`__.
 
 Flashing uSD card
------------------
+*****************
 
 #. Download the RPi image from Google Drive (link above). Download `Balena Etcher <https://www.balena.io/etcher/>`__ program. You can also use RPi Imager, but we have noticed that sometimes there are issues.
 #. Open Balena Etcher. If you have downloaded *.AppImage*, you might need to right-click on it and click *Run* to start the program.
@@ -25,6 +25,18 @@ Flashing uSD card
 #. Select the target uSD card
 #. Click **Flash!** and wait until it's finished.
 #. After flashing is complete, safely remove the uSD card, insert it into RPi, and power the RPi
+
+Powering OAK from RPi
+#####################
+
+On `their documentation <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements>`__ it states
+that Raspberry Pi 2 or later models can supply up to 1.2A through USB port. Even at maximum workload, OAK devices draw
+less than 1A, which means that **you can power OAK device directly from RPi via USB-C cable, except if**:
+
+- You have additional USB devices connected to a RPi USB port that draw too much current. In total, RPi can supply 1.2A, so if all USB devices draw more than 1.2A, brownout will occure.
+- You have **Pro** version of OAK device that has IR laser dot projector and IR illumination LED, which additionally draw up to 0.25A.
+
+You can externally power your OAK device either with **barrel jack** (on older devices), or with a **Y-adapter**.
 
 SSH into the RPi
 ################
@@ -64,7 +76,7 @@ After SSH was successful, let's try running an example app :code:`python depthai
 .. image:: /_static/images/hosts/works.png
 
 Raspberry Pi Zero
-*****************
+#################
 
 `Raspberry Pi Zero <https://www.raspberrypi.com/products/raspberry-pi-zero/>`__ is a great single-board computer (SBC) in terms of price per
 performance - you can get one for ~$5. It has 512MB RAM, 1GHz single-core CPU and optionally on-board Bluetooth and WiFi
@@ -76,7 +88,7 @@ connectivity (RPI Zero W, which costs ~$10). It consumes about 0.5W.
 high-res videos, perform heavy computing (eg. with OpenCV) or post-processing, RPi Zero won't be the best choice for host computer.
 
 Connect OAK camera to a RPI Zero
---------------------------------
+********************************
 
 RPI Zero has one micro USB connector for peripherals. You can use your standard USB-C (to USB-A) cable, but you will need **OTG connector/cable**
 to connect an OAK device to the RPI Zero.
