@@ -29,8 +29,10 @@ Sensor specifications
 
 .. include:: /pages/includes/pro.rst
 
-Board Layout and Dimensions
-***************************
+Dimensions and Weight
+*********************
+
+**Weight:** 184g
 
 .. image:: /_static/images/NG9097/dimensions.png
 

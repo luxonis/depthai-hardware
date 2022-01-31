@@ -25,8 +25,10 @@ Sensor specifications
 
 .. include:: /pages/includes/pro.rst
 
-Board Layout and Dimensions
-***************************
+Dimensions and Weight
+*********************
+
+**Weight:** 91g
 
 .. image:: /_static/images/DM9098/oak-d-pro-dimensions.png
 

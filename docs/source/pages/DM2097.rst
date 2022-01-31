@@ -23,8 +23,10 @@ Sensor specifications
 
 .. include:: /pages/includes/imx378_ov9282.rst
 
-Board Layout and Dimensions
-***************************
+Dimensions and Weight
+*********************
+
+**Weight:** 318g
 
 .. image:: /_static/images/DM2097/dimensions.png
 

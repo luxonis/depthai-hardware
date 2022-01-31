@@ -55,7 +55,7 @@ Hardware Specifications
         - Image Sensor: Sony IMX214
 
     .. tab:: Stereo Pair
-        
+
         **300,000 depth points up to 10 meters**:
 
         - Aspect Ratio: 1.333:1
@@ -70,7 +70,7 @@ Hardware Specifications
         - Image Sensor: OmniVision OV7251
 
     .. tab:: Vision Processor
-        
+
         **20 Computer Vision Processors**:
 
         - 16 "Mini-GPU" Vector Processors
@@ -122,9 +122,9 @@ You can choose which mode you want, based on the following pros and cons:
         **Cons**:
 
         - Objects have to be at least 30cm away to be in focus
-      
+
     .. tab:: Auto-Focus
-        
+
         **Pros**:
 
         - Can focus on objects dynamically, which is mainly useful for objects that are within 30cm of OAK-D-Lite.

@@ -22,8 +22,10 @@ Sensor specifications
 
 .. include:: /pages/includes/imx378_ov9282.rst
 
-Board Layout and Dimensions
-***************************
+Dimensions and Weight
+*********************
+
+**Weight:** 91g
 
 .. image:: /_static/images/DM9098/oak-d-s2_dimansions.png
 
