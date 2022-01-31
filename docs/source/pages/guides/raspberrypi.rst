@@ -29,14 +29,14 @@ Flashing uSD card
 Powering OAK from RPi
 #####################
 
-On `their documentation <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements>`__ it states
-that Raspberry Pi 2 or later models can supply up to 1.2A through USB port. Even at maximum workload, OAK devices draw
-less than 1A, which means that **you can power OAK device directly from RPi via USB-C cable, except if**:
+On `RPi documentation <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements>`__, it states
+that Raspberry Pi 2 or later models can supply up to 1.2A through a USB port. Even at maximum workload, OAK devices draw
+less than 1A, which means that **you can power an OAK device directly from RPi via USB-C cable, except if**:
 
-- You have additional USB devices connected to a RPi USB port that draw too much current. In total, RPi can supply 1.2A, so if all USB devices draw more than 1.2A, brownout will occure.
-- You have **Pro** version of OAK device that has IR laser dot projector and IR illumination LED, which additionally draw up to 0.25A.
+- You have additional USB devices connected to a RPi USB port that draw too much current. In total, RPi can supply 1.2A, so if all USB devices draw more than 1.2A, brownout will occur.
+- You have the **Pro** version of the OAK device that has IR laser dot projector and IR illumination LED, which additionally draw up to 0.25A.
 
-You can externally power your OAK device either with **barrel jack** (on older devices), or with a **Y-adapter**.
+You can externally power your OAK device either via **barrel jack** (on older devices), or with a **Y-adapter**.
 
 SSH into the RPi
 ################
