@@ -2,14 +2,14 @@ RealSense comparison
 ====================
 
 **TL;DR:** Compared to RealSense stereo cameras, DepthAI platform adds a **ton of on-device features** (custom AI modes, tracking, scripting,
-encoding etc.) to OAK devices and can be used in **embedded applications** (:ref:`Embedded use-case`).
+encoding etc.) to OAK cameras and can be used in **embedded applications** (:ref:`Embedded use-case`).
 **RealSense is also winding down** and cameras are **out of stock**, more information below.
 
 RealSense availability and EOL
 ##############################
 
 In August of 2021, Intel announced it is winding down RealSense Camera Business (`CRN <https://www.crn.com/news/components-peripherals/intel-says-it-s-winding-down-realsense-camera-business>`__, `The Verge <https://www.theverge.com/2021/8/17/22629528/intel-realsense-3d-camera-tech-wind-down-business-product-demos>`__).
-Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK devices are in stock and we never plan to EOL
+Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK cameras are in stock and we never plan to EOL
 any of our devices, more :ref:`info here <device_availability_and_eol>`.
 
 On-device feature comparison
@@ -261,7 +261,7 @@ Features described
 - **Image Manipulation** - `ImageManip <https://docs.luxonis.com/projects/api/en/latest/components/nodes/image_manip/>`__ node allows users to resize, warp, crop, flip, and thumbnail image frames and do type conversions (YUV420, NV12, RGB, etc.)
 - **Skeleton/Hand Tracking** - Detect and track key points of a hand or human pose. Geaxgx's demos: `Hand tracker <https://github.com/geaxgx/depthai_hand_tracker>`__, `Blazepose <https://github.com/geaxgx/depthai_blazepose>`__, `Movenet <https://github.com/geaxgx/depthai_movenet>`__.
 - **3D Semantic segmentation** - Perceive the world with semantically-labeled pixels. `DeeplabV3 demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-deeplabv3_depth>`__.
-- **3D Object Pose Estimation** - MediaPipe's `Objectron <https://google.github.io/mediapipe/solutions/objectron.html>`__ has been converted to run on OAK devices. Video `here <https://youtu.be/C3M_JOtmQCk>`__.
+- **3D Object Pose Estimation** - MediaPipe's `Objectron <https://google.github.io/mediapipe/solutions/objectron.html>`__ has been converted to run on OAK cameras. Video `here <https://youtu.be/C3M_JOtmQCk>`__.
 - **3D Edge Detection** - `EdgeDetector <https://docs.luxonis.com/projects/api/en/latest/components/nodes/edge_detector/>`__ node uses Sobel filter to detect edges. With depth information, you can get physical position of these edges.
 - **Feature Tracking** - `FeatureTracker <https://docs.luxonis.com/projects/api/en/latest/components/nodes/feature_tracker/>`__ node detects and tracks key points (features).
 - **3D Feature Tracking** - With depth information, you can track these features in physical space.

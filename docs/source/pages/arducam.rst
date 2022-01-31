@@ -8,7 +8,7 @@ ArduCam Cameras
 Overview
 ********
 
-`ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with OAK devices.
+`ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with OAK cameras.
 A variety of M12-mount options allow to match lenses in many projects.
 
 Weight
