@@ -216,6 +216,7 @@ All other hardware designs which usually aren't as popular.
    pages/guides/powering_poe_devices.rst
    pages/guides/sync_frames.rst
    pages/guides/raspberrypi.rst
+   pages/guides/af_ff.rst
 
 .. toctree::
    :maxdepth: 1
