@@ -226,6 +226,7 @@ All other hardware designs which usually aren't as popular.
    pages/articles/waterproof.rst
    pages/articles/operative_temperature_range.rst
    pages/articles/device_availability_and_eol.rst
+   pages/articles/supported_sensors.rst
 
 .. toctree::
    :maxdepth: 1
