@@ -7,7 +7,7 @@ Overview
 ********
 
 Y-adapter is used to **supply power to OAK cameras** through USB-C connector. Note that in most cases, host computer is
-able to provide enough current (<1A) and you don't need a Y-adapter. **Y-adapter is only needed** in cases where host is not able
+able to provide enough current (>1A) and you don't need a Y-adapter. **Y-adapter is only needed** in cases where host is not able
 to provide enough current:
 
 - For **Pro** versions (:ref:`OAK-D-Pro`), where IR LED and dot projector can draw up to 1A alone
