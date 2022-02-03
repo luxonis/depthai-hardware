@@ -182,10 +182,17 @@ open-source hardware design as you see fit.
 Miscellaneous Designs
 *********************
 
-All other hardware designs which usually aren't as popular.
+All other hardware products.
 
 .. list-table::
-   :widths: 30 30 30
+   :header-rows: 1
+
+   * - Y-adapter
+   * - .. image:: /_static/images/thumbnails/DM6010.png
+          :target: pages/DM6010.html
+   * - :ref:`Learn more <Y-adapter>`
+
+.. list-table::
    :header-rows: 1
 
    * - PoE Board
@@ -291,6 +298,7 @@ All other hardware designs which usually aren't as popular.
    :hidden:
    :caption: Miscellaneous Designs
 
+   pages/DM6010.rst
    pages/BW0253.rst
    pages/BW1094.rst
    pages/BW2098POE.rst
