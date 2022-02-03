@@ -40,6 +40,8 @@ Projector specifications
    * - VSCEL wavelength
      - 940nm
    * - Operating temperature
+     - 10°C to ~60°C
+   * - Temperature absolute limits
      - 0°C to ~80°C
    * - PDF
      - `Click here <https://ams.com/documents/20143/4410698/Belago1.1_DS000676_1-00.pdf>`__
