@@ -28,7 +28,7 @@ Dimensions and Weight
 
 **Weight:** 5g
 
-.. image:: /_static/images/DM6010/dimensions.png
+.. image:: /_static/images/DM6010/y-adapter-dimensions.png
 
 Altium project files
 ********************
