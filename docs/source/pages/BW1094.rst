@@ -13,6 +13,8 @@ The DepthAI RPi HAT Baseboard (BW1094) baseboard has three FFC interfaces which 
 the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the DepthAI SoM, 
 parallel to the RST button.
 
+.. include:: /pages/includes/mx_inside.rst
+
 Board Layout and Dimensions
 ***************************
 

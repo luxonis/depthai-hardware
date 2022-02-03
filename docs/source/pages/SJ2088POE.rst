@@ -13,11 +13,15 @@ cameras which implement stereo and RGB vision, piped directly into the DepthAI S
 to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. Ther OAK-D-POE board exposes boot selection switches, allowing 
 the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` module from USB or the on-board eMMC or NOR flash.
 
-Board Layout
-************
+Hardware specifications
+***********************
 
-.. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
-.. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
+.. include:: /pages/includes/poe_connectivity.rst
+
+.. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
 
 Dimensions and Weight
 *********************
@@ -28,40 +32,13 @@ Dimensions and Weight
 
 .. image:: /_static/images/SJ2088POE/OAK-D-PoE-dimensions.svg
 
-Key features
+.. include:: /pages/includes/depth_75_800P.rst
+
+Board Layout
 ************
 
-* Fully compatible with all :ref:`OAK-D <bw1098oak>` features
-* :ref:`IP67 rated <IP67 rated PoE enclosures>` enclosure compatible with standard tripod mount (1/4"-20)
-* Interface for OAK-SoM-Pro
-* USB 3.1 Gen1 Type-C
-* Power-over-Ethernet (PoE) power source
-* 1000BASE-T ethernet for data
-* Header access for OAK-SoM-Pro 1.8V Aux Signals (I2C, , Module Reset)
-* Micro SD connector for DepthAI SoM 3.3V SDIO
-* On-board PCIe ref clk for OAK-SoM-Pro and PCIe/Ethernet bridge
-* User-selectable OAK-SoM-Pro boot configuration switches
-* Design files produced with Altium Designer 20
-* :ref:`PoE injector <Powering PoE devices>` is required to power the device.
-
-
-.. image:: /_static/images/SJ2088POE/OAK-POE_cameras.jpg
-
-Minimal and maximal perceiving distances of the camera
-******************************************************
-
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-OAK-D-PoE has a baseline of 7.5cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
-
-- Min distance (800P): ~ 70cm
-- Min distance (400P): ~ 35cm
-- Min distance with extended disparity (800P): ~ 35cm
-- Min distance with extended disparity (400P): ~ 19.6cm
-
-Maximal perceiving distance for OAK-D-PoE: 38.4 meters
-
-For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
+.. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
+.. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
 
 Power usage
 ***********
@@ -79,11 +56,6 @@ Getting started
 
 .. note::
     For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
-
-
-The OAK-D-POE accepts power input from any 802.3af, Class 3 PoE circuitry. So this for example includes any/every PoE UniFi Switch 
-(e.g. US-8-150W) and any other standard POE switch and/or 802.3af PoE injector. Power consumption is typically 5W, 
-leaving ~7.5W available if active lighting is desired additionally over PoE/etc.
 
 If an outdoor rated PoE switch is needed, one option is the EP-S16.
 

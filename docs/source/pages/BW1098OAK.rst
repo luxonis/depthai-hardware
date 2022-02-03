@@ -11,35 +11,23 @@ Overview
 The OAK-D baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth 
 and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
-Key features
-************
+Hardware specifications
+***********************
 
-* Fully compatible with all OAK-D features
-* Enclosure compatible with standard tripod mount (1/4"-20)
-* Support for on-board stereo and RGB camera modules
-* Interface for Luxnois BW1099 DepthAI SoM
-* USB 3.1 Gen1 Type-C
-* Power from 5V barrel jack OR 5V USB3 Type-C
-* Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 3.3V SDIO
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
-* Design files produced with Altium Designer 20
-
-Sensor specifications
-*********************
+.. include:: /pages/includes/usb_connectivity.rst
 
 .. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
 
 Dimensions and Weight
 *********************
 
 .. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
 
-**Weight:**
+**Weight:** 115g total, OAK-D-PCBA 43g
 
-* OAK-D: 115g
-* PCBA: 17.5g
-* SoM with heatsink: 25.5g
+.. include:: /pages/includes/depth_75_800P.rst
 
 OAK-D PCBA
 **********
@@ -51,22 +39,6 @@ size/weight is really critical (eg. drones), and PCBA also exposes some addition
 .. image:: /_static/images/BW1098OAK/BW1098OBC_an.jpg
 
 .. image:: /_static/images/BW1098OAK/BW1098OBC_dims.jpg
-
-Minimal and maximal perceiving distances of the camera
-******************************************************
-
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-OAK-D has a baseline of 7.5cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
-
-- Min distance (800P): ~ 70cm
-- Min distance (400P): ~ 35cm
-- Min distance with extended disparity (800P): ~ 35cm
-- Min distance with extended disparity (400P): ~ 19.6cm
-
-Maximal perceiving distance for OAK-D: 38.4 meters
-
-For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
 Getting started
 ***************

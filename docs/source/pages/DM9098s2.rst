@@ -17,10 +17,14 @@ The **OAK-D S2** is the series 2 of the :ref:`OAK-D`. The main difference is tha
 OAK-D S2 has a smaller enclosure and is therefore lighter. OAK-D S2 also doesn't have a barrel jack
 for supplying power, so it only has a USB-C connector for both power and communication.
 
-Sensor specifications
-*********************
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/usb_connectivity.rst
 
 .. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
 
 Dimensions and Weight
 *********************
@@ -28,6 +32,8 @@ Dimensions and Weight
 **Weight:** 91g
 
 .. image:: /_static/images/DM9098/oak-d-s2_dimansions.png
+
+.. include:: /pages/includes/depth_75_800P.rst
 
 3D Models
 *********

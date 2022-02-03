@@ -28,6 +28,13 @@ Below is an example of running MobileNet-SSD:
 * OAK-1 + Raspberry Pi: 50+FPS, 0% RPi CPU Utilization
 * NCS2 + Raspberry Pi: 8FPS, 225% CPU Utilization
 
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/imx378.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
 Dimensions and Weight
 *********************
 * Width: 36 mm
@@ -46,11 +53,6 @@ Key features
 * USB device power LED indicators
 * AUX 5V connector
 * Access to SoM 1.8V I2C and UART
-
-Sensor specifications
-*********************
-
-.. include:: /pages/includes/imx378.rst
 
 3D models
 *********

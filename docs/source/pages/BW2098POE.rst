@@ -14,6 +14,8 @@ channel directly into the Myriad X on the :ref:`OAK-SoM-Pro <bw2099>` (System on
 Finally, the PoE Board exposes boot selection switches, allowing the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` from USB or the on-board eMMC 
 or NOR flash.
 
+.. include:: /pages/includes/mx_inside.rst
+
 Board Layout
 ************
 

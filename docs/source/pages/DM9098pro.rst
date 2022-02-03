@@ -18,12 +18,16 @@ The OAK-D-Pro is an upgraded version of :ref:`OAK-D`, featuring an **IR laser do
 It's currently in the **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
 more information can be found below at *Getting started*.
 
-Sensor specifications
-*********************
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/usb_connectivity.rst
 
 .. include:: /pages/includes/imx378_ov9282.rst
 
 .. include:: /pages/includes/pro.rst
+
+.. include:: /pages/includes/mx_inside.rst
 
 Dimensions and Weight
 *********************
@@ -31,6 +35,8 @@ Dimensions and Weight
 **Weight:** 91g
 
 .. image:: /_static/images/DM9098/oak-d-pro-dimensions.png
+
+.. include:: /pages/includes/depth_75_800P.rst
 
 3D Models
 *********

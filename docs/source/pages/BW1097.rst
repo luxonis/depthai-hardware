@@ -11,10 +11,14 @@ Overview
 Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the :ref:`OAK-SoM <bw1099>` to allow 
 for fully integrated solution for real-time spatial AI.
 
-Board layout
-************
+Hardware specifications
+***********************
 
-.. image:: /_static/images/BW1097/BW1097_diag.jpg
+.. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
+.. include:: /pages/includes/depth_90_800P.rst
 
 Dimensions and Weight
 *********************
@@ -26,44 +30,12 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1097/BW1097_dims.jpg
 
-Key features
+Board layout
 ************
 
-* Support for on-board stereo and RGB camera modules
-* Interface for OAK-SoM
-* SODIMM for Raspberry PI CM3/CM3+
-* USB2 interface between CM3+ and DepthAI SoM
-* 2x USB2
-* 1x Aux USB2
-* 10/100 Ethernet
-* Raspberry PI CSI/DSI support
-* Raspberry PI USB boot option
-* CM3+ JTAG header
-* Standard 40-pin header for CMIO/CM3+
-* HDMI output
-* 5V barrel jack input
-* Support for 5V fan
-* TRS Audio output
-* microSD card support
-* Design files produced with Altium Designer 20
+.. image:: /_static/images/BW1097/BW1097_diag.jpg
 
 .. image:: /_static/images/BW1097/BW1097.jpg
-
-Minimal and maximal perceiving distances of the camera
-******************************************************
-
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-OAK-D-CM3 has a baseline of 9cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
-
-- Min distance (800P): ~ 80cm
-- Min distance (400P): ~ 40cm
-- Min distance with extended disparity (800P): ~ 40cm
-- Min distance with extended disparity (400P): ~ 20.9cm
-
-Maximal perceiving distance for OAK-D-CM3: 45.9 meters
-
-For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
 Getting started
 ***************
