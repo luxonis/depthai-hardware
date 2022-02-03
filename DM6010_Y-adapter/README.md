@@ -1,16 +1,13 @@
 # Y-adapter
 
 
-![](Images/Y-adapter_front.png)
-
-
+![](https://docs.luxonis.com/projects/hardware/en/latest/_images/Y-adapter_front.png)
 
 # Project Stage
 
 **Product is fully vetted and is series production.**
 
 **It will be soon available on Luxonis web shop, for now it is available only as a Kickstarter add-on, as it was introduced because of OAK-D Lite existence.**        
-
 
 
 This repository contains open hardware designed by Luxonis, for a product that is meant to be used as an accessory providing an option to supply the  OAK products with an external USB wall charger. 
@@ -34,7 +31,7 @@ Y-adapter was made with intention that the overall enclosed size would be as min
 
 Dimensions are represented below:
 
-![](Images/Y-adapter_SVG.png)
+![](https://docs.luxonis.com/projects/hardware/en/latest/_images/y-adapter-dimensions.png)
 
 ## Layout OAK-FFC-3P-OG (BW1098FFC/DM1098FFC) vs DM1098EMB:
 

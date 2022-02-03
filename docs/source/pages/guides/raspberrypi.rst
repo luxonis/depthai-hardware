@@ -36,7 +36,7 @@ less than 1A, which means that **you can power an OAK camera directly from RPi v
 - You have additional USB devices connected to a RPi USB port that draw too much current. In total, RPi can supply 1.2A, so if all USB devices draw more than 1.2A, brownout will occur.
 - You have the **Pro** version of the OAK camera that has IR laser dot projector and IR illumination LED, which additionally draw up to 0.25A.
 
-You can externally power your OAK camera either via **barrel jack** (on older devices), or with a **Y-adapter**.
+You can externally power your OAK camera either via **barrel jack** (on older devices), or with a :ref:`Y-adapter`.
 
 SSH into the RPi
 ################
@@ -100,6 +100,6 @@ and right connector (`Aliexpress <https://www.aliexpress.com/item/10050018948323
 
 .. image:: /_static/images/hosts/zero_oak_d.png
 
-From our testing, RPi Zero was able to provide enough power to the OAK-D without an external power supply (either power jack or Y-adapter).
+From our testing, RPi Zero was able to provide enough power to the OAK-D without an external power supply (either power jack or :ref:`Y-adapter`).
 
 .. include::  /pages/includes/footer-short.rst
