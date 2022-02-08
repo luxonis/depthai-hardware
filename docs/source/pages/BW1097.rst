@@ -8,6 +8,9 @@ OAK-D-CM3
 Overview
 ********
 
+.. warning::
+    We recommend using the :ref:`OAK-D-CM4`, the latest model, unless you are sure you need this one.
+
 Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the :ref:`OAK-SoM <bw1099>` to allow 
 for fully integrated solution for real-time spatial AI.
 
