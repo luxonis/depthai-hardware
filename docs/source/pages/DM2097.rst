@@ -13,15 +13,19 @@ OAK-D CM4 PoE
 Overview
 ********
 
-The OAK-D CM4 PoE is an upgraded version of :ref:`OAK-D-CM4`, as PoE is used both for power delivery and communication (for RPi CM4),
+The **OAK-D CM4 PoE** is an upgraded version of :ref:`OAK-D-CM4`, as PoE is used both for power delivery and communication (for RPi CM4),
 plus in comes in a IP67 rated enclosure. The enclosure is about the size as the :ref:`OAK-D-POE`.
 The color camera is also close to the right camera, so RGB-depth alignment isn't needed in most cases,
 which reduces system load.
 
-Sensor specifications
-*********************
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/poe_connectivity.rst
 
 .. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
 
 Dimensions and Weight
 *********************
@@ -29,6 +33,8 @@ Dimensions and Weight
 **Weight:** 318g
 
 .. image:: /_static/images/DM2097/dimensions.png
+
+.. include:: /pages/includes/depth_90_800P.rst
 
 3D Models
 *********

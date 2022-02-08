@@ -3,80 +3,28 @@
 OAK-D-Lite
 ==========
 
-OAK-D-Lite takes the affordability idea and pushes it one step forward. By having the same SpatialAI functionality as OAK-D with a smaller weight and 
+.. image:: /_static/images/DM9095/indiegogo_banner.jpeg
+           :target: https://www.indiegogo.com/projects/opencv-ai-kit-lite
+
+OAK-D-Lite takes the affordability idea and pushes it one step forward. By having the same SpatialAI functionality as OAK-D with a smaller weight and
 form factor, it gives you the opportunity to create all sorts of projects.
 
 It is meant to be used by anyone, anywhere. The Swiss Army Knife of Computer Vision.
 
-Preorder here: `OAK-D-Lite Indiegogo Campaign Page <https://www.indiegogo.com/projects/opencv-ai-kit-lite#/>`__ or click on the image below.
-
-.. image:: /_static/images/DM9095/indiegogo_banner.jpeg
-           :target: https://www.indiegogo.com/projects/opencv-ai-kit-lite
+Preorder here: `OAK-D-Lite Indiegogo Campaign Page <https://www.indiegogo.com/projects/opencv-ai-kit-lite#/>`__ or click on the image above.
 
 
-Key features
-************
-
-* Neural Inference (object detection, image classification, semantic segmentation, pose estimation)
-* Object tracking
-* 3D Object Tracking (up to 20 objects with unique ID)
-* 3D Object Localization
-* H.264 & H.265 Encoding (HEVC, 1080P, and 4K Video) - A Pi Zero can record 4K/30 FPS video with this
-* Motion Estimation (allows real-time background subtraction)
-* Feature Tracking (optical, and visual inertial navigation)
-* Corner Detection
-* Stereo Depth (including median filtering, extended disparity and subpixel possible for wider dynamic range)
-* Warp/Dewarp - support for additional lenses for fish-eye applications
-* JPEG Encoding
-* MJPEG Encoding for easy web streaming
-* Compatible with most of OAK-D features
-* Enclosure compatible with standard tripod mount (1/4"-20)
-* Support for on-board stereo and RGB camera modules
-* USB 3.1 Gen1 Type-C
 
 .. image:: /_static/images/DM9095/oak_d_lite_en.png
 
 Hardware Specifications
 ***********************
 
-.. tabs::
+.. include:: /pages/includes/usb_connectivity.rst
 
-    .. tab:: 4K Camera
+.. include:: /pages/includes/imx214_ov7251.rst
 
-        **4208x3120 - RGB Auto-Focus**:
-
-        - Aspect Ratio: 1.348:1
-        - Focus Range: 8cm - Infinity
-        - Lens Size: 1/3.1 inch
-        - Effective Focal Length: 3.37mm
-        - Diagonal Field of View: 81.3 degrees
-        - F-Number: 2.2 +-5%
-        - Distortion: < 1%
-        - Image Sensor: Sony IMX214
-
-    .. tab:: Stereo Pair
-
-        **300,000 depth points up to 10 meters**:
-
-        - Aspect Ratio: 1.333:1
-        - Focus Range: 6.5cm - Infinity
-        - Lens Size: 1/7.5 inch
-        - Effective Focal Length: 1.3mm
-        - Diagonal Field of View: 85.6 degrees
-        - HFOV: 72.9 degrees
-        - VFOV: 57.7 degrees
-        - F-Number: 2.2
-        - Distortion: < 1.5%
-        - Image Sensor: OmniVision OV7251
-
-    .. tab:: Vision Processor
-
-        **20 Computer Vision Processors**:
-
-        - 16 "Mini-GPU" Vector Processors
-        - 2 Dedicated AI Processors
-        - 1 Dedicated 200FPS Disparity Depth Processor
-        - 4 Trillion Operations Per Second
+.. include:: /pages/includes/mx_inside.rst
 
 OAK-D vs OAK-D-Lite
 *******************
@@ -95,43 +43,9 @@ Additionally, the more technical differences are the following:
 Fixed-focus vs Auto-focus
 *************************
 
-When ordering OAK-D-Lite, you can select whether you want :code:`Fixed-focus` or :code:`Auto-focus` on the 
-color camera, with the **default** option being :code:`Either works for me` (in case any of those options meet
-your needs). Note, this **does not apply to the mono cameras**, as they are already fixed-focus
-(stereo pairs fundamentally need to be fixed-focus). The main difference between those 2 modes is
-the minimal focus distance:
-
-- Auto-focus can clearly focus objects as close as 8cm, while also being able to focus objects at distance.
-- Fixed-focus has a much further-out minimum focus distance.
-
-Specifically, from our tests we deduced that fixed-focus color camera was **sharp after about 50cm** and 
-**blurry at about 30cm**. In between those distances, some pictures were blurry, some not, therefore we
-cannot state the exact cutoff.
-
-You can choose which mode you want, based on the following pros and cons:
-
-.. tabs::
-
-    .. tab:: Fixed-Focus
-
-        **Pros**:
-
-        - Handles vibration better. If the camera is under heavy vibration, the lens won't vibrate which would lead to blurry images (drones, robots, on machines, etc.)
-        - Better for RGB depth alignment (as the lens does not move)
-
-        **Cons**:
-
-        - Objects have to be at least 30cm away to be in focus
-
-    .. tab:: Auto-Focus
-
-        **Pros**:
-
-        - Can focus on objects dynamically, which is mainly useful for objects that are within 30cm of OAK-D-Lite.
-
-        **Cons**:
-
-        - Does not work properly in Heavy-Vibration applications (e.g. drones, bikes w/out suspension, etc.)
+When ordering the OAK-D-Lite, you can select whether you want :code:`Fixed-focus` (FF) or :code:`Auto-focus` (AF) **on the
+color camera**. You should select FF if you are mounting OAK camera to something that vibrates. You should select AF when
+you need things closer than ~50cm to be in focus. More information can be found at :ref:`Auto-Focus vs Fixed-Focus`.
 
 Dimensions and Weight
 *********************
@@ -144,18 +58,7 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM9095/oak-d-lite_dimensions.jpg
 
-Minimal and maximal perceiving distances of the camera
-******************************************************
-
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-OAK-D-Lite has a baseline of 7.5cm and by varying the stereo depth mode, we get the following minimal depth perceiving distances:
-
-- Min distance (480P): ~ 35cm
-- Min distance with extended disparity (480P): ~ 19.6cm
-- Maximal perceiving distance: ~ 19.1 meters
-
-For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
+.. include:: /pages/includes/depth_75_480P.rst
 
 Power consumption
 *****************

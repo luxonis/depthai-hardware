@@ -22,12 +22,16 @@ It also has industrial **M12 PoE connector** (instead of RJ45) and additionally 
 It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
 more information below at *Getting started*.
 
-Sensor specifications
-*********************
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/poe_connectivity.rst
 
 .. include:: /pages/includes/imx378_ov9282.rst
 
 .. include:: /pages/includes/pro.rst
+
+.. include:: /pages/includes/mx_inside.rst
 
 Dimensions and Weight
 *********************
@@ -35,6 +39,8 @@ Dimensions and Weight
 **Weight:** 184g
 
 .. image:: /_static/images/NG9097/dimensions.png
+
+.. include:: /pages/includes/depth_75_800P.rst
 
 3D Models
 *********

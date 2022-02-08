@@ -8,14 +8,18 @@ OAK-D-CM4
 Overview
 ********
 
-Based on the :ref:`OAK-D-CM3 <bw1097>` and Raspberry PI CM4IO board, the OAK-D-CM4 (DM1097) combines a host and the Luxonis DepthAI SoM to allow for a fully integrated 
-solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`OAK-D-CM3 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit 
+Based on the :ref:`OAK-D-CM3 <bw1097>` and Raspberry PI CM4IO board, the **OAK-D-CM4** (DM1097) combines a host and the Luxonis DepthAI SoM to allow for a fully integrated
+solution for real-time spatial AI. The biggest difference in DM1097 and :ref:`OAK-D-CM3 <bw1097>` architecture is that DM1097 integrates CM4 module, has gigabit
 ethernet, and populated with MagJack supporting PoE. PoE can be used with additional PoE Hat.
 
-Board Layout
-************
+Hardware specifications
+***********************
 
-.. image:: /_static/images/DM1097/DM1097.jpg
+.. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
+.. include:: /pages/includes/depth_90_800P.rst
 
 Dimensions and Weight
 *********************
@@ -27,43 +31,12 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM1097/DM1097_dim.jpg
 
-Key features
+Board Layout
 ************
 
-* Support for onboard stereo and RGB camera modules
-* Interface for Luxnois DepthAI SoM
-* Interface for Raspberry PI CM4 - **Wireless, 4GB RAM, 8GB storage** (PN: CM4104008)
-* USB2 interface between CM4 and DepthAI SoM
-* 2x USB2
-* 1x Aux USB2
-* Gigabit Ethernet connected directly to CM4
-* Raspberry PI CSI/DSI support
-* Raspberry PI USB boot option
-* Standard 40-pin header for CMIO/CM4
-* HDMI output
-* 5V barrel jack input
-* Support for 5V fan
-* TRS Audio output
-* microSD card support
-* Design files produced with Altium Designer 20
+.. image:: /_static/images/DM1097/DM1097.jpg
 
 .. image:: /_static/images/DM1097/DM1097_side.jpg
-
-Minimal and maximal perceiving distances of the camera
-******************************************************
-
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-OAK-D-CM4 has a baseline of 9cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
-
-- Min distance (800P): ~ 80cm
-- Min distance (400P): ~ 40cm
-- Min distance with extended disparity (800P): ~ 40cm
-- Min distance with extended disparity (400P): ~ 20.9cm
-
-Maximal perceiving distance for OAK-D-CM4: 45.9 meters
-
-For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
 
 Datasheets
 **********

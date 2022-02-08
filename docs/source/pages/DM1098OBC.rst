@@ -12,47 +12,25 @@ The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
 If you are **new to OAK IOT devices, you can check** `Getting started with OAK IOT devices <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__ tutorial.
 
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/usb_connectivity.rst
+
+.. include:: /pages/includes/imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
 Dimensions and Weight
 *********************
+
+**Weight:** 89g total (with enclosure), 49g PCBA & SOM only
 
 .. image:: /_static/images/DM1098OBC/IOT-75-enc.svg
 
 .. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
 
-**Weight:**
-
-* PCBA and SoM: 48.5g
-* Total weight (with enclosure): 89g
-
-Key features
-************
-
-* Support for on-board stereo and RGB camera modules
-* Interface for OAK-SoM
-* USB 3.1 Gen1 Type-C
-* Micro USB interface for serial communication with ESP32
-* Pads for OAK-SoM / ESP32 3.3V SPI (refer to schematic for pinout)
-* Pads for ESP32 3.3V AUX GPIOs (refer to schematic for pinout)
-* QWIIC connector for ESP32 I2C
-* 5V barrel jack input
-* Support for 5V fan
-* Design files produced with Altium Designer 20
-
-Minimal and maximal perceiving distances of the camera
-******************************************************
-
-Minimal depth perceiving distance of the camera depends on mono camera FOV, resolution, baseline and stereo depth mode, more info is available on the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-OAK-D-IOT-75 has a baseline of 7.5cm and by varying the resolution and stereo depth mode, we get the following minimal depth perceiving distances:
-
-- Min distance (800P): ~ 70cm
-- Min distance (400P): ~ 35cm
-- Min distance with extended disparity (800P): ~ 35cm
-- Min distance with extended disparity (400P): ~ 19.6cm
-
-Maximal perceiving distance for OAK-D-IOT-75: 38.4 meters
-
-For more information about the maximum distance see the `Stereo Depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__.
+.. include:: /pages/includes/depth_75_800P.rst
 
 Getting started
 ***************

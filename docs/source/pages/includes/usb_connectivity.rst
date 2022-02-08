@@ -1,0 +1,1 @@
+This OAK camera uses USB-C cable for communication and power. It supports both USB2 and USB3 (5gbps / 10gbps).

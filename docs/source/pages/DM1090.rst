@@ -20,6 +20,8 @@ different lenses to get **custom FoV** (they have wide and narrow angle M12 lens
 
 In addition, IMU (over SPI) sensor was also added to the OAK-FFC-3P.
 
+.. include:: /pages/includes/mx_inside.rst
+
 Board Layout
 ************
 

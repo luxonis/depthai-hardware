@@ -36,7 +36,8 @@ Key features
 * 2 x 2-lane MIPI channels
 * 2 x 4-lane MIPI channels (for multiple camera inputs)
 * USB 3.1 Gen 2
-* Multiple Boot Modes supported: NOR, eMMC, USB, Ethernet (EEPROM) 
+* Multiple Boot Modes supported: NOR, USB, Ethernet (EEPROM), or eMMC
+* eMMC is not populated by default but could be with Factory Special Order (send us an e-mail)
 * SD-card supported
 * Design files produced with Altium Designer 20
 
