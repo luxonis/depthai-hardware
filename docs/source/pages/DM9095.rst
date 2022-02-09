@@ -3,16 +3,10 @@
 OAK-D-Lite
 ==========
 
-.. image:: /_static/images/DM9095/indiegogo_banner.jpeg
-           :target: https://www.indiegogo.com/projects/opencv-ai-kit-lite
-
 OAK-D-Lite takes the affordability idea and pushes it one step forward. By having the same SpatialAI functionality as OAK-D with a smaller weight and
 form factor, it gives you the opportunity to create all sorts of projects.
 
 It is meant to be used by anyone, anywhere. The Swiss Army Knife of Computer Vision.
-
-Preorder here: `OAK-D-Lite Indiegogo Campaign Page <https://www.indiegogo.com/projects/opencv-ai-kit-lite#/>`__ or click on the image above.
-
 
 
 .. image:: /_static/images/DM9095/oak_d_lite_en.png
