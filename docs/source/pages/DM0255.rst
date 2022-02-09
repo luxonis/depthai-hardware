@@ -20,16 +20,21 @@ more information below at *Getting started*.
 Getting started
 ***************
 
-To get started with OAK-FFC-pToF, you first need to install the correct version: checkout to branch :code:`tof_rgb_mono` in depthai-python, execute
+To get started with OAK-FFC-pToF, you first need to install the correct version: checkout to branch :code:`tof_rgb_mono` in depthai-python and execute
 :code:`python3 examples/install_requirements.py`.
-After installing the library, you can run the `demo here <https://github.com/luxonis/depthai-experiments/tree/tmp_tof_test/tof_test>`__. Note that you
-don't need to install requirements.txt, as you have already installed the correct version of the library.
+After installing the library, you can run the `cam_test.py <https://github.com/luxonis/depthai-python/blob/tof_rgb_mono/tests/cam_test.py>`__
+demo by executing :code:`python3 tests/cam_test.py`.
+
+It shows colorized depth by default, and you can add :code:`-tofcm` argument for the pixels to show a value in centimeters
+(capped to 255). This allows you to easily check depth from an OpenCV window, as it's displayed in the bottom-left corner when hovering with the mouse.
+
+The :code:`out` output of the ToF node sends `ImgFrame <https://docs.luxonis.com/projects/api/en/latest/components/messages/img_frame/>`__
+message of 224x172 size, and the data type is U16 - depth in millimeters.
 
 Sensor specifications
 *********************
 
 .. list-table::
-   :widths: 1 1
    :header-rows: 1
 
    * - Specs
