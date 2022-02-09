@@ -16,14 +16,13 @@ On-device feature comparison
 ############################
 
 .. list-table::
-   :widths: 1 1 1 1 1 1 1 1 1 1 1 1
    :header-rows: 1
 
    * - On-Device Capabilities
-     - `OAK-D-Pro <https://shop.luxonis.com/products/oak-d-pro>`__
-     - `OAK-D <https://shop.luxonis.com/products/1098obcenclosure>`__
-     - `OAK-D-Lite <https://www.indiegogo.com/projects/opencv-ai-kit-lite/>`__
-     - `OAK-ToF <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__
+     - :ref:`dm9098pro`
+     - :ref:`bw1098oak`
+     - :ref:`dm9095`
+     - :ref:`dm0255`
      - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
      - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
      - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
@@ -277,14 +276,13 @@ Camera specification
 ####################
 
 .. list-table::
-   :widths: 1 1 1 1 1 1 1 1 1 1 1 1
    :header-rows: 1
 
    * - Specification
-     - `OAK-D-Pro <https://shop.luxonis.com/products/oak-d-pro>`__ / -W
-     - `OAK-D <https://shop.luxonis.com/products/1098obcenclosure>`__ / -W
-     - `OAK-D-Lite <https://www.indiegogo.com/projects/opencv-ai-kit-lite/>`__
-     - `OAK-FFC-ToF <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-tof>`__
+     - :ref:`dm9098pro` / -W
+     - :ref:`bw1098oak` / -W
+     - :ref:`dm9095`
+     - :ref:`dm0255`
      - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
      - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
      - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
