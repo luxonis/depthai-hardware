@@ -74,4 +74,12 @@ of Auto-Focus (AF) or Fixed-Focus (FF) is purely for the Color Camera
 on your OAK camera, which needs to have bigger optics because color is less sensitive to light.  These bigger optics are
 what result in the trade-offs below between vibration tolerance and close-in clarity.
 
+Recognizing AF/FF camera
+************************
+
+If you aren't sure whether the OAK in front of you has Auto-Focus or Fixed-Focus color camera, you can recognize it by the
+silver metal ring on the auto-focus mechanicsm, as shown on the image below.
+
+.. image:: /_static/images/guides/AF_FF_recognize.jpg
+
 .. include::  /pages/includes/footer-short.rst
