@@ -10,7 +10,7 @@ Y-adapter is used to **supply power to OAK cameras** through USB-C connector. No
 able to provide enough current (>1A) and you don't need a Y-adapter. **Y-adapter is only needed** in cases where host is not able
 to provide enough current:
 
-- For **Pro** versions (:ref:`OAK-D-Pro`), where IR LED and dot projector can draw up to 1A alone
+- For **Pro** versions (:ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`), where IR LED and dot projector can draw up to 1A alone
 - In case you are using small SBC like :ref:`Raspberry Pi <OAK & Raspberry Pi>`, and OAK camera isn't the only USB device that's drawing power
 
 Older (pre-2022) versions of OAK cameras have power barrel jack for supplying power (instead of the Y-adapter), while

@@ -29,7 +29,7 @@ demonstrates the difference between these two signals:
     Currently, the FSIN I/O isn't enabled, but we're adding support for it `here <https://github.com/luxonis/depthai-python/pull/365>`__  and `here <https://github.com/luxonis/depthai-core/pull/210/commits/2211302>`__.
 
 For syncing with external LED flash, we suggest using **STROBE**, as you can directly connect it to the LED driver signal. We have done this
-on the `OAK-D-Pro <https://github.com/luxonis/depthai-hardware/issues/114>`__ and `OAK-D-POE-Pro <https://github.com/luxonis/depthai-hardware/issues/142>`__,
+on the :ref:`dm9098pro` and :ref:`ng9097`,
 which have on-board illumination IR LED and IR laser dot projector.
 
 Connecting FSIN/STROBE
