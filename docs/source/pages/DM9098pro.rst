@@ -6,7 +6,7 @@ OAK-D-Pro
 .. role:: raw-html(raw)
    :format: html
 
-(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
+(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__) 
 
 .. image:: /_static/images/DM9098/oak-d-pro-front.png
 
