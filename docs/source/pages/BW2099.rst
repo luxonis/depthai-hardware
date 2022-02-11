@@ -46,14 +46,15 @@ Datasheets
 
 * `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro_Datasheet.pdf>`__
 
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
+
 Altium Design Files
 *******************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro>`__
 
-3D Models
-*********
-
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
 
 .. include::  /pages/includes/footer-short.rst

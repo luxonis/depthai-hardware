@@ -40,18 +40,20 @@ Key features
 * Boot Modes supported: USB, NOR (128MB)
 * Design files produced with Altium Designer 20
 
-Datasheets
-**********
-* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT/OAK-SoM-IoT_Datasheet.pdf>`__
+Datasheet
+*********
+
+- `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT/OAK-SoM-IoT_Datasheet.pdf>`__
+
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT/OAK-SoM-IoT.step>`__
 
 Altium Design Files
 *******************
 
 See files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT>`__
 
-3D Models
-*********
-
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-IoT/OAK-SoM-IoT.step>`__
 
 .. include::  /pages/includes/footer-short.rst

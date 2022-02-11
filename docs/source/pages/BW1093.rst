@@ -54,6 +54,12 @@ Key features
 * AUX 5V connector
 * Access to SoM 1.8V I2C and UART
 
+Brochures
+*********
+
+* `Brochure <https://drive.google.com/open?id=1ji3K_Q3XdExdID94rHVSL7MvAV2bwKC9>`__
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/BW1093_USB3C/Datasheet/OAK-1_Datasheet.pdf>`__
+
 3D models
 *********
 
@@ -61,10 +67,5 @@ Key features
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/BW1093_USB3C/Mechanical/OAK-1-enclosure.step>`__
 
 .. image:: /_static/images/BW1093/3d-enclosure.png
-
-Brochures
-*********
-
-* `Brochure <https://drive.google.com/open?id=1ji3K_Q3XdExdID94rHVSL7MvAV2bwKC9>`__
 
 .. include::  /pages/includes/footer-short.rst

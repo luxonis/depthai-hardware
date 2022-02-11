@@ -102,24 +102,22 @@ USB designs with FFC camera boards contain 3 different iterations, below is a fl
 .. note::
   The first two revisions (**BW1092FFC** and **DM1098FFC**) were also named **F1**, and the newest revision (**DM1090FFC**) is named **F2**.
 
-Datasheets
-**********
+3D Models
+*********
 
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3/3D_Models>`__
+
+Files
+*****
+
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3/PCB>`__
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1090FFC_DepthAI_USB3/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1090FFC_DepthAI_USB3/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1090FFC_DepthAI_USB3/Docs/Schematic%20PDF/Production.PDF>`__
 
-Altium Design Files
-*******************
 
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3/PCB>`__
-
-3D Models
-*********
-
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3/3D_Models>`__
 
 
 .. include::  /pages/includes/footer-short.rst

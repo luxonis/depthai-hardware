@@ -38,6 +38,11 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_800P.rst
 
+Datasheet
+*********
+
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/DM9098_OAK-D-Pro/Datasheet/OAK-D-Pro_Datasheet.pdf>`__
+
 3D Models
 *********
 

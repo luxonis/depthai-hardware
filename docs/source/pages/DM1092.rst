@@ -47,24 +47,20 @@ the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is confi
 
 .. image:: /_static/images/DM1092/DM1092_back.jpg
 
-Datasheets
-**********
+3D Models
+*********
 
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/3D_Models>`__
+
+Files
+*****
+
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB>`__
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/Docs/Schematic%20PDF/Production.PDF>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/PCB>`__
-
-3D Models
-*********
-
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1092_ESP32_Embedded_WIFI_BT_IMU/3D_Models>`__
 
 
 .. include::  /pages/includes/footer-short.rst

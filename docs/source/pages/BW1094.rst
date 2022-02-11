@@ -58,28 +58,25 @@ of the Raspberry Pi.
 
 The 2485_PGOOD LED indicates "power good" for the OAK-SoM. The 5V_PWR LED 5V power is applied to the DepthAI RPi HAT Baseboard.
 
-Datasheets
-**********
+Brochures
+*********
 
-* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
-* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/Docs/Assembly%20Outputs>`__
-* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
-* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/Docs/Fabrication%20Outputs>`__
-* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Schematic%20PDF/Production.PDF>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/PCB>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/BW1094_Datasheet.pdf>`__
 
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/3D_Models>`__
 
-Brochures
-*********
+Files
+*****
 
-* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/BW1094_Datasheet.pdf>`__
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1094_DepthAI_HAT/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1094_DepthAI_HAT/Docs/Schematic%20PDF/Production.PDF>`__
+
 
 .. include::  /pages/includes/footer-short.rst
