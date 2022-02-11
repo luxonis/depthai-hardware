@@ -1,4 +1,6 @@
-# DM1090FFC_R0M0E0 DepthAI USB3 Edition
+# DM1090FFC: OAK-FFC-3P
+
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1090.html)
 
 DM1090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera) + [DM0249](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera) with compatible Arducam modules are shown together below:
 

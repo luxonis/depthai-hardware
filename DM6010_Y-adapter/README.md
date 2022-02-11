@@ -1,5 +1,6 @@
 # Y-adapter
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM6010.html)
 
 ![](https://docs.luxonis.com/projects/hardware/en/latest/_images/Y-adapter_front.png)
 

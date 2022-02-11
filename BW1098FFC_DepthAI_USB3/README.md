@@ -1,4 +1,6 @@
-# BW1098FFC DepthAI USB3 Edition (EOL)
+# BW1098FFC: OAK-FFC-3P-OG (EOL)
+
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098FFC.html)
 
 BW1098FFC + [BW0250TG](https://github.com/luxonis/depthai-hardware/tree/master/BG0250TG_DepthAI_Mono_Camera) + [BG0249](https://github.com/luxonis/depthai-hardware/tree/master/BG0249_DepthAI_RGB_Camera) are shown together below:
 ![](https://i.imgur.com/LXjLpzX.jpg)

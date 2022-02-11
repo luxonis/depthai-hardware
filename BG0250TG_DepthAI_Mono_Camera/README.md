@@ -1,5 +1,7 @@
 # BG0250TG_R0M0E0 Mono Camera Module
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BG0250TG.html)
+
 ![](Images/BG0250TG_R0M0E0_front.png)
 
 # Overview

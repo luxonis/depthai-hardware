@@ -1,4 +1,4 @@
-# OAK-D
+# BW1098: OAK-D
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OAK.html)
 

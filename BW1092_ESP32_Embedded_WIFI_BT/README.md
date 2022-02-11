@@ -1,5 +1,6 @@
-# BW1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT
+# BW1092: OAK-D-IoT-40
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1092.html)
 
 # Overview:
 

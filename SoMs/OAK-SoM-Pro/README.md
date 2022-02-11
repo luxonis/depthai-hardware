@@ -1,4 +1,6 @@
-OAK-SoM-Pro
+# OAK-SoM-Pro
+
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2099.html)
 
 CONTENTS:
 

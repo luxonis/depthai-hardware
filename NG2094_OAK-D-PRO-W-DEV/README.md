@@ -2,8 +2,6 @@
 
 ![](Images/OAK-D-PRO-W-DEV-full-build.png)
 
-
-
 # Project Stage
 
 This design is still in the development phase. Some errors might be present in the design or documentation. 
