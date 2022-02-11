@@ -52,28 +52,24 @@ The reset button resets the OAK-SoM only. To reset the CM3/CM3+, ground the RUN 
 The PWR LED indicates "power good" for the BW1097 on-board PMIC. The ACT LED indicates activity on the CM3/CM3+ device. Other indicator LEDs exist 
 for the two USB2.0 Type A ports and for the 10/100 Ethernet port.
 
-Datasheets
-**********
+Brochures
+*********
 
-* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
-* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Outputs>`__
-* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
-* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Outputs>`__
-* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Schematic%20PDF/Production.PDF>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/PCB>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/BW1097_Datasheet.pdf>`__
 
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/3D_Models>`__
 
-Brochures
-*********
+Files
+*****
 
-* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/BW1097_Datasheet.pdf>`__
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1097_DepthAI_Compute_Module/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1097_DepthAI_Compute_Module/Docs/Schematic%20PDF/Production.PDF>`__
 
 .. include::  /pages/includes/footer-short.rst

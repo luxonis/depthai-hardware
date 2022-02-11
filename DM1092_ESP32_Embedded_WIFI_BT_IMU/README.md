@@ -1,11 +1,8 @@
-# DM1092: Embedded DepthAI Reference Design with Onboard ESP32 for WiFi and BT 
+# DM1092: OAK-D IoT 40
 
 ![](Images/FULL-ASM_DM1092_R1M1E1.jpg)
 
-
 # Project Stage
-**Caution: This project is still under development. We are currently in process of getting our board prototyped and tested.** 
-           **We are proactively making our design available for our uses to plan and provide us with design feedback.** 
 
 With this revision the IMU issue is fixed, now connected over SPI. 
 

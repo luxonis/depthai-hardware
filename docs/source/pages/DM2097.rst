@@ -36,10 +36,25 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_90_800P.rst
 
+Datasheet
+*********
+
+- `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/DM2097_OAK-D-CM4-POE/Datasheet/OAK-D-CM4-POE_Datasheet.pdf>`__
+
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Mechanical>`__
+
+Files
+*****
+
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Docs/Assembly%20Drawing%20PDF/>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Docs/Fabrication%20Drawing%20PDF/>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/tree/master/DM2097_OAK-D-CM4-POE/Docs/Schematic%20PDF/>`__
 
 .. include::  /pages/includes/footer-short.rst

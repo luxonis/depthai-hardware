@@ -67,24 +67,25 @@ that the OAK-SoM-Pro is not in reset.
 **Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 57V may exist. 
 Always use electronics handling best practices.**
 
-Datasheets
-**********
+Datasheet
+*********
 
+- `Datasheet <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/BW2098POE_Datasheet.pdf>`__
+
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/3D_Models>`__
+
+Files
+*****
+
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/PCB>`__
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW2098POE_PoE_Board/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW2098POE_PoE_Board/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW2098POE_PoE_Board/Docs/Schematic%20PDF/Production.PDF>`__
 * `Brochure <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/BW2098POE_Datasheet.pdf>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/PCB>`__
-
-3D Models
-*********
-
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board/3D_Models>`__
 
 .. include::  /pages/includes/footer-short.rst

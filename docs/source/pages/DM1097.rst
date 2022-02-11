@@ -38,24 +38,20 @@ Board Layout
 
 .. image:: /_static/images/DM1097/DM1097_side.jpg
 
-Datasheets
-**********
+3D Models
+*********
 
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/3D_Models>`__
+
+Files
+*****
+
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/PCB>`__
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
 * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/Docs/Fabrication%20Outputs>`__
 * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM1097_DepthAI_Compute_Module_4/Docs/Schematic%20PDF/Production.PDF>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/PCB>`__
-
-3D Models
-*********
-
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4/3D_Models>`__
 
 
 .. include::  /pages/includes/footer-short.rst

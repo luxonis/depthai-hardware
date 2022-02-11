@@ -2,8 +2,6 @@
 
 ![](Images/OAK-D-LITE-DEV_cover.jpg)
 
-
-
 # Project Stage
 
 This design is now vetted and documents revision updated with corrections. 

@@ -27,7 +27,7 @@ OAK-D-Lite is smaller, lighter and uses less power; compared to OAK-D. The main 
 
 - Mono cameras have lower resolution (640x480 instead of 1280x800)
 - There is no IMU (Inertial measurement unit) on the OAK-D-Lite, as most users don't need it. IMUs are currently hard to come by, so the price increased significantly - and we wanted to lower the price point as much as possible.
-- There is no power jack, as most users just used the USB-C for power delivery, which provides 900mA at 5V and is enough for most use-cases. However some functions (e.g. inference, video encoding) can lead to large current spikes, so there is a chance hosts like RPi won't be able to provide enough power. In that case, you would need to use a power adapter.
+- There is no power jack, as most users just used the USB-C for power delivery, which provides 900mA at 5V and is enough for most use-cases. However some functions (e.g. inference, video encoding) can lead to large current spikes, so there is a chance hosts like RPi won't be able to provide enough power. In that case, you should use :ref:`Y-adapter`.
 
 Additionally, the more technical differences are the following:
 
@@ -82,6 +82,11 @@ The operating temperature range of the Myriad X VPU (die temperature) is -40 °C
 temperature. Note that the stable image temperature of the camera sensor is 0 °C to +50 °C (operating temperature -30 °C to +70 °C).
 
 .. image:: /_static/images/DM9095/lite_out.jpg
+
+Datasheet
+*********
+
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/DM9095_OAK-D-LITE_DepthAI_USB3C/Datasheet/OAK-D-Lite_Datasheet.pdf>`__
 
 3D Models
 *********

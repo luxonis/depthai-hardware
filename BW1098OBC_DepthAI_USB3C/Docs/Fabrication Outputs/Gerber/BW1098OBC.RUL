@@ -1,6 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\David\Documents\depthai-hardware\BW1098OBC_DepthAI_USB3C\PCB\BW1098OBC.PcbDoc
-RuleKind=Clearance|RuleName=DIFF_PAIR_GND|Scope=Board|Minimum=15.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.00
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=3.94
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

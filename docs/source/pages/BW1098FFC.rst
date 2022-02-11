@@ -80,28 +80,24 @@ The reset button resets the OAK-SoM only.
 The 5V LED indicates 5V power is present on the OAK-FFC-3P-OG. The PG LED indicates "power good" from the OAK-SoM. The "RUN" LED indicates 
 that the OAK-SoM is not in reset.
 
-Datasheets
-**********
+Brochures
+*********
 
-* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
-* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/Docs/Assembly%20Outputs>`__
-* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
-* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/Docs/Fabrication%20Outputs>`__
-* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/Docs/Schematic%20PDF/Production.PDF>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/PCB>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/BW1098FFC_Datasheet.pdf>`__
 
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/3D_Models>`__
 
-Brochures
-*********
+Files
+*****
 
-* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/BW1098FFC_Datasheet.pdf>`__
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098FFC_DepthAI_USB3/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098FFC_DepthAI_USB3/Docs/Schematic%20PDF/Production.PDF>`__
 
 .. include::  /pages/includes/footer-short.rst

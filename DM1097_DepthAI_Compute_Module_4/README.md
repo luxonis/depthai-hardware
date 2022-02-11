@@ -1,4 +1,4 @@
-# DM1097_R0M0E0 DepthAI for Compute module 4
+# DM1097: OAK-D-CM4
 
 ![image](https://user-images.githubusercontent.com/32992551/109263101-edfa6100-77bf-11eb-85ef-037fe24e9975.png)
 ![image](https://user-images.githubusercontent.com/32992551/112017081-e5f9bc80-8af2-11eb-90ef-16f673ed294c.png)
@@ -7,9 +7,9 @@
 This design is now vetted and currently for sale ([here](https://shop.luxonis.com/collections/all/products/depthai-rpi-compute-module-4-edition)).
 
 # Overview
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html) and the [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000). 
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html) and the [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000).
 
-Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis DepthAI SoM to allow for a fully integrated solution for real-time spatial AI. 
+Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis DepthAI SoM to allow for a fully integrated solution for real-time spatial AI.
 The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrates CM4 module, has gigabit ethernet, and populated with MagJack supporting POE. POE can be used with additional POE Hat.
 
 # Repository structure:
@@ -17,7 +17,7 @@ The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrat
 * `Docs` contains project output files
 * `Images` contains graphics for readme and reference
 * `3D Models` contains generated 3D models of the board
-* `Mechanical` contains models of mounts, enclosures, and other mechanical parts 
+* `Mechanical` contains models of mounts, enclosures, and other mechanical parts
 
 # Key features
 * Support for onboard stereo and RGB camera modules

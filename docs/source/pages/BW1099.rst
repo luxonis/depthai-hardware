@@ -39,24 +39,22 @@ Key features
 * Boot Modes supported: USB, NOR (optional)
 * Design files produced with Altium Designer 20
 
-Datasheets
-**********
+Brochures
+*********
 
 * `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM_Datasheet.pdf>`__
-
-Altium Design Files
-*******************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/BW1099_Brochure.pdf>`__
 
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM.step>`__
 
-Brochures
-*********
+Altium Design Files
+*******************
 
-* `Brochure <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/BW1099_Brochure.pdf>`__
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM>`__
+
+
 
 .. include::  /pages/includes/footer-short.rst

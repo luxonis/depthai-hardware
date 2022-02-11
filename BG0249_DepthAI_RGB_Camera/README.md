@@ -1,5 +1,7 @@
 # BG0249_R1M1E1 RGB Camera Module
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BG0249.html)
+
 ![](Images/BG0249_R0M0E0_front.png)
 
 # Overview

@@ -30,15 +30,20 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM6010/y-adapter-dimensions.png
 
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/PCB>`__
-
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Mechanical>`__
+
+Files
+*****
+
+- `Altium Project Files <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Schematic%20PDF/Production.PDF>`__
 
 .. include::  /pages/includes/footer-short.rst

@@ -1,7 +1,8 @@
 # BW2098POE PoE Board
 
-![image](https://user-images.githubusercontent.com/32992551/92193781-604c4300-ee26-11ea-994e-14f5983bfefa.png)
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2098POE.html)
 
+![image](https://user-images.githubusercontent.com/32992551/92193781-604c4300-ee26-11ea-994e-14f5983bfefa.png)
 
 # Overview
 

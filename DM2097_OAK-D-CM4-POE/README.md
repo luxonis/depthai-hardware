@@ -1,5 +1,7 @@
 # OAK-D-CM4-POE DepthAI for Compute module 4
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html)
+
 ![image](https://user-images.githubusercontent.com/32992551/136113702-559d0aa4-a39c-41e7-86e7-905b373d8323.png)
 ![image](https://user-images.githubusercontent.com/32992551/135191716-e1d49fb1-23c2-4d9d-b4d4-d0f440e31a3f.png)
 ![](Images/DM2097_R0M0E0_FRONT.png)

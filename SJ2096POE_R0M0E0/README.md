@@ -1,4 +1,6 @@
-# SJ2096POE LDC-1-POE Board in IP67 Enclosure
+# SJ2096POE: OAK-1-PoE
+
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/SJ2096POE.html)
 
 ![IMG_3041](https://user-images.githubusercontent.com/32992551/109261978-fce01400-77bd-11eb-8895-2a5083a61013.JPG)
 ![image](https://user-images.githubusercontent.com/32992551/109262197-58aa9d00-77be-11eb-9d58-88723eb1eef3.png)

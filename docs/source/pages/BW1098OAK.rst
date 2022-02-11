@@ -55,24 +55,26 @@ The reset button is not populated by default on the OAK-D, but can be added. Alt
 The 5V LED indicates 5V power is present on the PCBA. The PG LED indicates "power good" from the DepthAI SoM. The "RUN"
 LED indicates that the DepthAI SoM is not in reset.
 
-Datasheets
-**********
+Brochures
+*********
 
-* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
-* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Assembly%20Outputs>`__
-* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
-* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Fabrication%20Outputs>`__
-* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Schematic%20PDF/Production.PDF>`__
-
-Altium project files
-********************
-
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/PCB>`__
+* `Brochure <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Datasheet/OAK-D_brochure.pdf>`__
+* `Datasheet <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Datasheet/OAK-D_Datasheet.pdf>`__
 
 3D Models
 *********
 
 - Board (PCBA) STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Mechanical>`__
+
+Files
+*****
+
+* `Altium project files <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BW1098OAK_USB3C/Docs/Schematic%20PDF/Production.PDF>`__
 
 .. include::  /pages/includes/footer-short.rst

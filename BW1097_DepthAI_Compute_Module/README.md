@@ -1,5 +1,7 @@
 # BW1097_R2M2E3 DepthAI for CM3+
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html)
+
 ![](../BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png)
 
 # Overview

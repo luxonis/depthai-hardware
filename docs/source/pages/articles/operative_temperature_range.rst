@@ -51,7 +51,7 @@ Results of our tests
 
 All devices were tested in an ambient temperature of 18°C to 20°C.
 
-Test on the `OAK-D-PCBA <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OBC.html>`__ - rear thermal plate with black anodizing and Laird HD320 TIM:
+Test on the `OAK-D-PCBA <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OAK.html#oak-d-pcba>`__ - rear thermal plate with black anodizing and Laird HD320 TIM:
 
 * Heatsink max temperature: 43°C
 * Die max temperature: 60°C
