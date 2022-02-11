@@ -23,7 +23,7 @@ Hardware Specifications
 OAK-D vs OAK-D-Lite
 *******************
 
-OAK-D-Lite is smaller, ligher and uses less power; compared to OAK-D. The main differences are:
+OAK-D-Lite is smaller, lighter and uses less power; compared to OAK-D. The main differences are:
 
 - Mono cameras have lower resolution (640x480 instead of 1280x800)
 - There is no IMU (Inertial measurement unit) on the OAK-D-Lite, as most users don't need it. IMUs are currently hard to come by, so the price increased significantly - and we wanted to lower the price point as much as possible.
