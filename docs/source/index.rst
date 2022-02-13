@@ -64,7 +64,7 @@ in standalone mode.
           :target: pages/SJ2096POE.html
      - .. image:: /_static/images/thumbnails/oak-d-poe.png
           :target: pages/SJ2088POE.html
-     - .. image:: /_static/images/thumbnails/NG9097.png
+     - .. image:: /_static/images/thumbnails/pro-poe.png
           :target: pages/NG9097.html
    * - :ref:`Learn more <sj2096>`
      - :ref:`Learn more <sj2088poe>`
@@ -148,7 +148,7 @@ These devices are like combining a **Raspberry Pi with an OAK-D** in a compact s
           :target: pages/BW1097.html
      - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097.html
-     - .. image:: /_static/images/thumbnails/DM2097.png
+     - .. image:: /_static/images/thumbnails/cm4-poe.png
           :target: pages/DM2097.html
    * - :ref:`Learn more <bw1097>`
      - :ref:`Learn more <dm1097>`
