@@ -8,7 +8,7 @@ OAK-D CM4 PoE
 
 (`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-cm4-poe>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
 
-.. image:: /_static/images/DM2097/cm4-poe.jpg
+.. image:: /_static/images/DM2097/cm4-poe.png
 
 Overview
 ********
@@ -33,6 +33,8 @@ Dimensions and Weight
 **Weight:** 318g
 
 .. image:: /_static/images/DM2097/dimensions.png
+
+.. image:: /_static/images/DM2097/cm4-poe-back.png
 
 .. include:: /pages/includes/depth_90_800P.rst
 
