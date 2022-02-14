@@ -33,7 +33,7 @@ Key features
 Getting started
 ***************
 
-Camera module compatibility is known for the Arducam OV9282 and previously used Sunny TG161B and AN01V32, but not tested for other modules. The FFC interface is an 0.5mm pitch, 
+Camera module compatibility is known for the Arducam PY010 OV9282 and previously used Sunny TG161B and AN01V32, but not tested for other modules. The FFC interface is an 0.5mm pitch, 
 20-pin, and bottom-contact connector, across which travels the 2-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control 
 lines. 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and OV9282.
 
