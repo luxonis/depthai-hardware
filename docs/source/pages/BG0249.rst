@@ -3,14 +3,14 @@
 OAK-FFC-IMX378
 ==============
 
-.. image:: /_static/images/BG0249/BG0249_R0M0E0_front.jpg
+.. image:: /_static/images/BG0249/imx378.jpg
 
 Overview
 ********
 
-The OAK-FFC-IMX378 is a carrier board for the Sunny A12N02A IMX378 camera module, and is designed to be compatible with the :ref:`DepthAI RPi HAT Baseboard <bw1094>` and 
+The OAK-FFC-IMX378 is a carrier board for the Arducam PY011 IMX378 camera module, and is designed to be compatible with the :ref:`DepthAI RPi HAT Baseboard <bw1094>` and 
 :ref:`OAK-FFC-3P-OG <bw1098ffc>` baseboards. A 26-pin FFC is used to carry 5V power, 4-lane MIPI, I2C, and other control signals between the OAK-FFC-OV9282 and 
-the controller baseboards.
+the controller baseboards. We previously used Sunny A12N02A camera module.
 
 Board Layout and Dimensions
 ***************************
@@ -30,12 +30,12 @@ Key features
 * On-board power generation for camera module
 * Design files produced with Altium Designer 20
 
-.. image:: /_static/images/BG0249/BG0249_sq.jpg
+.. image:: /_static/images/BG0249/imx378_coin.jpg
 
 Getting started
 ***************
 
-Camera module compatibility is known for the Sunny A12N02A, but not tested for other modules. The FFC connector is an 0.5mm pitch, 
+Camera module compatibility is known for the Arducam PY011 IMX378 module (and previously used Sunny A12N02A), but not tested for other modules. The FFC connector is an 0.5mm pitch, 
 26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 
 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.
 

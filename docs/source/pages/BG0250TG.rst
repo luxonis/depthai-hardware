@@ -3,14 +3,14 @@
 OAK-FFC-OV9282
 ==============
 
-.. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_front.jpg
+.. image:: /_static/images/BG0250TG/ov9282.jpg
 
 Overview
 ********
 
-The OAK-FFC-OV9282 is a carrier board for the Sunny TG161B or AN01V32 OV9282 camera module, and is designed to be compatible with the :ref:`DepthAI RPi HAT Baseboard <bw1094>` and 
+The OAK-FFC-OV9282 is a carrier board for the Arducam OV9282 camera module, and is designed to be compatible with the :ref:`DepthAI RPi HAT Baseboard <bw1094>` and 
 :ref:`OAK-FFC-3P-OG <bw1098ffc>` baseboards. A 20-pin FFC is used to carry 5V power, 2-lane MIPI, I2C, and other control signals between the OAK-FFC-OV9282 and the 
-controller baseboards. A single OAK-FFC-OV9282 is typically paired with another to create a stereo camera pair.
+controller baseboards. A single OAK-FFC-OV9282 is typically paired with another to create a stereo camera pair. We previously used Sunny TG161B or AN01V32 OV9282 camera module.
 
 Board Layout and Dimensions
 ***************************
@@ -33,7 +33,7 @@ Key features
 Getting started
 ***************
 
-Camera module compatibility is known for the Sunny TG161B and AN01V32, but not tested for other modules. The FFC interface is an 0.5mm pitch, 
+Camera module compatibility is known for the Arducam OV9282 and previously used Sunny TG161B and AN01V32, but not tested for other modules. The FFC interface is an 0.5mm pitch, 
 20-pin, and bottom-contact connector, across which travels the 2-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control 
 lines. 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and OV9282.
 
