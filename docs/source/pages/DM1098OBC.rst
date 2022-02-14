@@ -3,7 +3,7 @@
 OAK-D-IOT-75
 ============
 
-.. image:: /_static/images/DM1098OBC/IOT-75.JPG
+.. image:: /_static/images/DM1098OBC/IOT-75.png
 
 Overview
 ********

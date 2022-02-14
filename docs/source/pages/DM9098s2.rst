@@ -8,7 +8,7 @@ OAK-D S2
 
 (`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-s2>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
 
-.. image:: /_static/images/DM9098/oak-d-s2.jpg
+.. image:: /_static/images/DM9098/oak-d-s2.png
 
 Overview
 ********

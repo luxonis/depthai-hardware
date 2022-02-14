@@ -3,7 +3,7 @@
 OAK-SoM-Pro
 ===========
 
-.. image:: /_static/images/BW2099/BW2099.jpg
+.. image:: /_static/images/BW2099/BW2099.png
 
 Overview
 ********

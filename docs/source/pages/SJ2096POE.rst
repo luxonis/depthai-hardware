@@ -3,7 +3,7 @@
 OAK-1-PoE
 =========
 
-.. image:: /_static/images/SJ2096POE/SJ2096POE.jpg
+.. image:: /_static/images/SJ2096POE/SJ2096POE.png
 
 Overview
 ********

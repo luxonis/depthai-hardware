@@ -3,7 +3,7 @@
 OAK-D
 =====
 
-.. image:: /_static/images/BW1098OAK/BW1098oak.jpg
+.. image:: /_static/images/BW1098OAK/BW1098oak.png
 
 Overview
 ********

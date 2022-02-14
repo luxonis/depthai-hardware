@@ -3,7 +3,7 @@
 OAK-FFC-3P-OG
 =============
 
-.. image:: /_static/images/BW1098FFC/BW1098FFC_front.jpg
+.. image:: /_static/images/BW1098FFC/BW1098FFC_front.png
 
 Overview
 ********

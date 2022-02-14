@@ -3,7 +3,7 @@
 OAK-D-CM3
 =========
 
-.. image:: /_static/images/BW1097/BW1097_sq.jpg
+.. image:: /_static/images/BW1097/BW1097-front.png
 
 Overview
 ********

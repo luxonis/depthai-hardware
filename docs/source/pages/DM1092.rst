@@ -3,7 +3,7 @@
 OAK-D-IOT-40
 ============
 
-.. image:: /_static/images/DM1092/DM1092.jpg
+.. image:: /_static/images/DM1092/DM1092.png
 
 Overview
 ********

@@ -3,7 +3,7 @@
 OAK-FFC-3P
 ==========
 
-.. image:: /_static/images/DM1090FFC/DM1090FFC_up.jpg
+.. image:: /_static/images/DM1090FFC/DM1090FFC_up.png
 
 Overview
 ********
