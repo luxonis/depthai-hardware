@@ -39,7 +39,7 @@ Some of these have **M12 mount**, so you can use a variety of **different lenses
 - and `others <https://www.arducam.com/product-category/lenses/m12-lens-arducam/>`__
 
 Replacement stereo cameras for OAK-D-PCBA
-************************************
+*****************************************
 
 The cameras below are compatible with the OAK-D-PCBA.  Due to the use of adhesives to affix the cameras in the assembled OAK-D, it is difficult to replace them.  Attempting to remove the cameras can cause damage to both the cameras and the pcb.
 
