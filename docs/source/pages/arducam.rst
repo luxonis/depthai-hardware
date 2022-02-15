@@ -42,7 +42,8 @@ Replacement stereo cameras for OAK-D-PCBA
 *****************************************
 
 The cameras below are compatible with the OAK-D-PCBA.  Due to the use of adhesives to affix the cameras in the assembled OAK-D, it is difficult to replace them.  Attempting to remove the cameras can cause damage to both the cameras and the pcb.
-
+The best and easiest way to remove the old Compact Camera Modules from the PCBA is to apply a small amount of IPA around the CCM to soften the permanent glue. 
+After that a scalpel or any other similar tool should be used slicing the camera off of the PCB (cutting the glue in between the CCM and PCB). 
 - Compact Camera Module (CCM) Fish-Eye OV9282 (for better SLAM) `here <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__
 - Mechanical, Optical, and Electrical equivalent OV9282 module with visible and IR capability `here <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__
 - Global-Shutter Color Camera (OV9782) with same intrinsics as OV9282 grayscale `here <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__
