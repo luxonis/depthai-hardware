@@ -202,7 +202,7 @@ All other hardware products.
           :target: pages/BW2098POE.html
      - .. image:: /_static/images/thumbnails/BW0253.jpg
           :target: pages/BW0253.html
-     - .. image:: /_static/images/thumbnails/BW1094.png
+     - .. image:: /_static/images/thumbnails/rpi_hat.png
           :target: pages/BW1094.html
    * - :ref:`Learn more <bw2096poe>`
      - :ref:`Learn more <bw0253>`
