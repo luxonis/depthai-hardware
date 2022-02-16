@@ -3,7 +3,7 @@
 OAK-1
 =====
 
-.. image:: /_static/images/BW1093/OAK-1_front.jpg
+.. image:: /_static/images/BW1093/OAK-1_front.png
 
 Overview
 ********

@@ -3,7 +3,7 @@
 OAK-D-CM4
 =========
 
-.. image:: /_static/images/DM1097/DM1097_up.jpg
+.. image:: /_static/images/DM1097/DM1097_up.png
 
 Overview
 ********

@@ -7,12 +7,17 @@ Difficulty of integrating DepthAI into products
 ***********************************************
 
 When designing our platform from the grounds up, we always thought of user integration and made is as simple
-as possible to integrate it into other products. 
+as possible to integrate it into other products.
 
 What is SoM
 ***********
 
-OAK SoM (System on Module) is a small form-factor PCB that features a powerful `Myriad X <https://newsroom.intel.com/wp-content/uploads/sites/11/2017/08/movidius-myriad-xvpu-product-brief.pdf>`__ VPU (Vision Processing Unit) by Intel. The VPU has 16 powerful SHAVE cores and also features the Neural Compute Engine — a dedicated hardware accelerator for deep neural network inference. In addition, OAK-SoM-IoT and OAK-SoM-Pro have NOR Flash, which can be used as an alternative to the USB boot. The idea of SoM is that customer can take and build their own device with it, since SoM is very complex, 12 layer PCB. That way our SoM devices serve as an abstraction layer. They can also be used standalone - without host computer, although not all devices support that use-case.
+OAK SoM (System on Module) is a small form-factor PCB that features a powerful `Myriad X <https://newsroom.intel.com/wp-content/uploads/sites/11/2017/08/movidius-myriad-xvpu-product-brief.pdf>`__
+VPU (Vision Processing Unit). The VPU has 16 powerful SHAVE cores and also features the Neural Compute Engine — a dedicated
+hardware accelerator for deep neural network inference. In addition, OAK-SoM-IoT and OAK-SoM-Pro have NOR Flash, which can be
+used as an alternative to the USB boot. The idea of SoM is that customer can take and build their own device with it, since
+SoM is very complex, 12 layer PCB. That way our SoM devices serve as an abstraction layer. They can also be used
+standalone - without host computer, although not all devices support that use-case.
 
 We have 3 types of SoM devices:
 
@@ -51,7 +56,9 @@ NOR Flash and Powering
 
 The OAK-SoM-IoT and OAK-SoM-Pro have the QSPI NOR Flash, which is capable of quick random access location and is used to store and run code. This is the key factor to support the standalone use case.
 
-Power consumption can vary depening on the application. A stereo vision application running Mobilenet-SSD V2 at 30 FPS typically consumes about 2.5 W, but more computationally heavy applications can consume up to 5 W. Most of this power is consumed by the Intel Movidius Myriad X VPU.
+Power consumption can vary depening on the application. A stereo vision application running Mobilenet-SSD V2 at 30 FPS
+typically consumes about 2.5 W, but more computationally heavy applications can consume up to 5 W. Most of this power
+is consumed by the Myriad X VPU.
 
 For more information, see the respective datasheet on our GitHub hardawre repository
 (`OAK-SoM Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM_Datasheet.pdf>`__.

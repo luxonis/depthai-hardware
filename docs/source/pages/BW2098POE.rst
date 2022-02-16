@@ -3,7 +3,7 @@
 PoE Board
 =========
 
-.. image:: /_static/images/BW2098POE/BW2098POE_up.jpg
+.. image:: /_static/images/BW2098POE/BW2098POE_up.png
 
 Overview
 ********

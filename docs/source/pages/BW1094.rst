@@ -3,7 +3,7 @@
 DepthAI RPi HAT Baseboard
 =========================
 
-.. image:: /_static/images/BW1094/BW1094_R0M0E0_front.jpg
+.. image:: /_static/images/BW1094/rpi_hat_cameras.png
 
 Overview
 ********
@@ -32,6 +32,8 @@ Key features
 * USB 3.1 Gen 1 Type-C
 * 5V Fan/Aux header
 * Design files produced with Altium Designer 20
+
+.. image:: /_static/images/BW1094/rpi_hat_side.png
 
 Getting started
 ***************
