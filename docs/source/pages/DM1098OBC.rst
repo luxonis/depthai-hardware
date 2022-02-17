@@ -10,9 +10,9 @@ OAK-D-IOT-75
 Overview
 ********
 
-The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for 
+The OAK-D-IoT-75 baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for
 depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or via ESP32 WiFi interface.
-If you are **new to OAK IOT devices, you can check** `Getting started with OAK IOT devices <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/>`__ tutorial.
+If you are **new to OAK IOT devices, you can check** :ref:`Getting started with OAK IOT devices` tutorial.
 
 Hardware specifications
 ***********************

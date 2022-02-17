@@ -74,7 +74,7 @@ IoT Designs
 ***********
 
 IoT devices have all the same features as USB devices, but additionally feature **on-board flash** (standalone mode) and on-board **integrated ESP32**,
-connected to the VPU via SPI (`more info <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-iot/#overview>`__).
+connected to the VPU via SPI (:ref:`more info <Getting started with OAK IoT devices>`).
 
 .. list-table::
    :widths: 50 50

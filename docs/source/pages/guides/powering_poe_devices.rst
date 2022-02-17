@@ -4,13 +4,13 @@ Powering PoE devices
 ====================
 
 We currently have two Power-over-Ethernet (PoE) devices:
- - :ref:`OAK-D-PoE <sj2088poe>` and 
+ - :ref:`OAK-D-PoE <sj2088poe>` and
  - :ref:`OAK-1-PoE <sj2096>`
 
 If you are new to Power over Ethernet (POE), welcome; POE is extremely convenient.  POE allows a single Cat5e (or higher) Ethernet cable to be used to 
 both power a device and give it connectivity at 1,000mbps (1gbps) full-duplex at up to 100 meters (328 feet).
 
-In this tutorial, we will go through the suggested hardware to use with Luxonis PoE devices.  
+In this tutorial, we will go through the suggested hardware to use with Luxonis PoE devices.
 
 The recommended way to use PoE devices (such as Luxonis' OAK PoE models) is with a PoE Ethernet Switch. Alternatively, if you already have a non-PoE 
 switch that you have installed, you can use a PoE injector in conjunction with this switch.  But using a PoE Ethernet Switch is advised, as these give 
@@ -33,10 +33,10 @@ PoE Switches range in all sorts of sizes, power capacities, and port numbers.  T
 Any 802.3af PoE switch can deliver 12.95W per port, which is actually substantially higher than the max power that OAK PoE models require (which is under 6.25W). 
 So OAK PoE devices work with all standards-compliant PoE switches, including:
 
-- 802.3af - 12.95W per port
-- 802.3at - 25.5W per port
-- 802.3bt/3 - 51W per port
-- 802.3bt/4 - 71W per port
+- **802.3af** - 12.95W per port
+- **802.3at** - 25.5W per port
+- **802.3bt/3** - 51W per port
+- **802.3bt/4** - 71W per port
 
 Below is a quick list of UniFi switches that have been tested with OAK PoE models, starting with the smallest switch and moving to the larger models:
 
@@ -46,12 +46,15 @@ Below is a quick list of UniFi switches that have been tested with OAK PoE model
 - US-24-250W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifiswitch-24-250w>`__). 24 802.3at ports; 24 OAK PoE devices.
 - US-48-500W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifiswitch-48-500w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1DQbB_-SavDwFeTIwSPKAT5PlYriHSGuRoP-jYay-zGfwhE7IPVoq4aAicjEALw_wcB>`__).  48 802.3at ports, 48 OAK PoE devices.
 
-The nice thing about using PoE switches, is then one has a clean, plug-and-play solution. 
+The nice thing about using PoE switches, is then one has a clean, plug-and-play solution.
 
 If you would like to use your existing non-PoE switch, it is possible to do so using what's called a PoE Injector.
 
-PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our DepthAIs). So if you'd prefer to use an existing 
-non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__ injector, which would be used per OAK PoE device.
+PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our OAKs). So if you'd prefer to use an existing
+non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__
+injector, which would be used per OAK PoE device.
+
+If an outdoor rated PoE switch is needed, one option is the `EP-S16 <https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-s16>`__.
 
 Powering from a battery
 ***********************

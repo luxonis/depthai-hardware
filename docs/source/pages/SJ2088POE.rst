@@ -53,24 +53,7 @@ Power usage for OAK-D-PoE ranges between 2.00 W (standby) and 5.5 W (max consump
 
 .. image:: /_static/images/SJ2088POE/OAK-D-PoE-power-usage.jpeg
 
-Getting started
-***************
-
-.. note::
-    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
-
-If an outdoor rated PoE switch is needed, one option is the EP-S16.
-
-Interfacing with the OAK-SoM-Pro is also possible with :ref:`PoE board <bw2096poe>` connector pads J5 which expose :ref:`OAK-SoM-Pro <bw2099>` auxiliary I/O. This header 
-is Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout information.
-
-The reset button resets the OAK-SoM-Pro only.
-The 5V LED indicates 5V power is present on the PoE Board.
-The PG LED indicates "power good" from the OAK-SoM-Pro.
-The "RUN" LED indicates that the OAK-SoM-Pro is not in reset.
-
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 
-57V may exist. Always use electronics handling best practices.**
+.. include:: /pages/includes/poe_s1_getting_started.rst
 
 .. image:: /_static/images/SJ2088POE/oak-d-poe.png
 
