@@ -11,7 +11,7 @@ Overview
 ********
 
 This design is one of two baseboards for the OAK-SoM-IoT (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
-If you are **new to OAK IOT devices, you can check** :ref:`Getting started with OAK IOT devices>` tutorial.
+If you are **new to OAK IOT devices, you can check** :ref:`Getting started with OAK IoT devices` tutorial.
 To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and
 `here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
 

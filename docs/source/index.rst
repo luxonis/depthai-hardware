@@ -51,7 +51,7 @@ PoE Designs
 ***********
 
 PoE devices are similar to USB devices, but instead of USB, they have **PoE connectivity** and also feature **on-board flash**, so you can run pipelines
-in standalone mode.
+in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__.
 
 .. list-table::
    :widths: 30 30 30
@@ -73,8 +73,8 @@ in standalone mode.
 IoT Designs
 ***********
 
-IoT devices have all the same features as USB devices, but additionally feature **on-board flash** (standalone mode) and on-board **integrated ESP32**,
-connected to the VPU via SPI (:ref:`more info <Getting started with OAK IoT devices>`).
+IoT devices have all the same features as USB devices, but additionally feature **on-board flash** (`standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__)
+and on-board **integrated ESP32**, connected to the VPU via SPI (:ref:`more info <Getting started with OAK IoT devices>`).
 
 .. list-table::
    :widths: 50 50
@@ -216,10 +216,12 @@ All other hardware products.
    :hidden:
    :caption: Guides
 
-   pages/guides/design_guide.rst
    pages/guides/device_comparison.rst
    pages/guides/realsense_comparison.rst
+   pages/guides/getting-started-with-iot.rst
+   pages/guides/getting-started-with-poe.rst
    pages/guides/integrating_depthai_into_products.rst
+   OAK Design Guide <pages/guides/design_guide.rst>
    pages/guides/powering_poe_devices.rst
    pages/guides/sync_frames.rst
    pages/guides/raspberrypi.rst

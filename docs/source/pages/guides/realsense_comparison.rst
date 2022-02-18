@@ -451,9 +451,10 @@ Camera specification
 Embedded use-case
 #################
 
-Unlike RealSense, our platform supports booting from flash (standalone mode) and features a 2-way SPI communication (`SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__, `SPIIn <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ nodes).
+Unlike RealSense, our platform supports booting from flash (`standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__)
+and features a 2-way SPI communication (`SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__, `SPIIn <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ nodes).
 Standalone/on-the-edge mode means that you can flash your application to the device, which means that
-you don't need to have the device connected to a host (RPi/PC/laptop...).
+you don't need to have the device connected to a host (RPi/PC/laptop...), more `information here <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__.
 
 This allows users to build small, low-powered embedded devices and :ref:`integrate OAK SOM <Integrating DepthAI into products>` to upgrade
 their products with the power of Spatial AI.

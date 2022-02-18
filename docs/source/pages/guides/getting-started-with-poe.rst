@@ -20,7 +20,7 @@ Step by step tutorial
 #. Make sure you have **depthai version 2.7.0.0** or newer. You can update your depthai python package with :code:`python3 -m pip install depthai>=2.7.0.0`
 #. Now you can run any `code sample <https://docs.luxonis.com/projects/api/en/latest/tutorials/code_samples/>`__ / `depthai experiment <https://github.com/luxonis/depthai-experiments>`__ / `depthai_demo <https://github.com/luxonis/depthai>`__ as you would when connecting a OAK device with a USB-C cable!
 
-.. image:: /_static/images/tutorials/poe/poe-working.jpeg
+.. image:: /_static/images/guides/poe-working.jpeg
 
 *After these steps, the depthai_demo is working on the OAK-D-POE!*
 
@@ -145,16 +145,17 @@ Factory reset
 #############
 
 In case you can ping the device but can't connect to it in any way (search for the device, specifying IP), you should do a factory
-reset as the device might have been soft-bricked. This usually happens with older bootloader versions.
+reset as the device might have been **soft-bricked**. This usually happens with older bootloader versions. Note that only
+OAK-D-PoE and OAK-1-PoE have USB-C connector, OAK-D Pro PoE has USB connectivity via M8 connector.
 
 #. Open the enclosure of your OAK POE camera
 #. Locate the USB-C connector and boot DIP switch
 #. Change DIP switch to 0x16 (switches 2,4,5 are up, others are down, as on the image below) for USB communication
 #. Connect OAK POE camera via USB-C cable to the computer
-#. Run the script below to factory reset the camera
+#. Run the (first) `Factory Reset script <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/#factory-reset>`__
 #. Change DIP switch back to 0x3 (switches 5,6 up, others down) for POE communication
 #. Close back the enclosure, make sure the gasket is in the correct place (for waterproofing)
 
-.. image:: 
+.. image:: https://user-images.githubusercontent.com/18037362/154482196-6bf06e15-60c2-4a01-95b9-a2a0ae92ecb3.png
 
 .. include::  /pages/includes/footer-short.rst

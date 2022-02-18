@@ -17,7 +17,8 @@ VPU (Vision Processing Unit). The VPU has 16 powerful SHAVE cores and also featu
 hardware accelerator for deep neural network inference. In addition, OAK-SoM-IoT and OAK-SoM-Pro have NOR Flash, which can be
 used as an alternative to the USB boot. The idea of SoM is that customer can take and build their own device with it, since
 SoM is very complex, 12 layer PCB. That way our SoM devices serve as an abstraction layer. They can also be used
-standalone - without host computer, although not all devices support that use-case.
+in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__ - without a host
+computer, although not all devices support that use-case.
 
 We have 3 types of SoM devices:
 
@@ -54,7 +55,9 @@ And here is the :ref:`OAK-D-IoT-40`, which is a baseboard with on-board cameras 
 NOR Flash and Powering
 **********************
 
-The OAK-SoM-IoT and OAK-SoM-Pro have the QSPI NOR Flash, which is capable of quick random access location and is used to store and run code. This is the key factor to support the standalone use case.
+The OAK-SoM-IoT and OAK-SoM-Pro have the QSPI NOR Flash, which is capable of quick random access location and is used to store
+and run code. This is the key factor to support the `standalone <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__
+use case.
 
 Power consumption can vary depening on the application. A stereo vision application running Mobilenet-SSD V2 at 30 FPS
 typically consumes about 2.5 W, but more computationally heavy applications can consume up to 5 W. Most of this power
