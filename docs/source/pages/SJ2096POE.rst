@@ -3,6 +3,8 @@
 OAK-1-PoE
 =========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/poe/products/oak-1-poe`__
+
 .. image:: /_static/images/SJ2096POE/SJ2096POE.png
 
 Overview

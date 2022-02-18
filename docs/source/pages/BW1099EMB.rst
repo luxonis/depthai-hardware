@@ -3,6 +3,8 @@
 OAK-SoM-IoT
 ===========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/system-on-module-som/products/oak-som-iot-5-pcs>`__
+
 .. image:: /_static/images/BW1099EMB/BW1099EMB.png
 
 Overview

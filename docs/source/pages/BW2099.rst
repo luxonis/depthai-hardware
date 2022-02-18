@@ -3,6 +3,8 @@
 OAK-SoM-Pro
 ===========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/system-on-module-som/products/oak-som-pro-5-pcs>`__
+
 .. image:: /_static/images/BW2099/BW2099.png
 
 Overview

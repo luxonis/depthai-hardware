@@ -3,6 +3,8 @@
 RaspberryPi Adapter Camera
 ==========================
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/rpi-hq-camera-imx477-adapter-kit>`__
+
 .. image:: /_static/images/BW0253/BW0253_sq.jpg
 
 Overview

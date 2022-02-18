@@ -3,6 +3,8 @@
 OAK-D-IOT-75
 ============
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/iot/products/oak-d-iot-75>`__
+
 .. image:: /_static/images/DM1098OBC/IOT-75.png
 
 Overview

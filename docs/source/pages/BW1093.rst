@@ -3,6 +3,8 @@
 OAK-1
 =====
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/megaai-kit>`__
+
 .. image:: /_static/images/BW1093/OAK-1_front.png
 
 Overview

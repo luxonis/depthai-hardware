@@ -3,6 +3,8 @@
 OAK-FFC-3P
 ==========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/modular-cameras/products/dm1090ffc>`__
+
 .. image:: /_static/images/DM1090FFC/DM1090FFC_up.png
 
 Overview
