@@ -3,6 +3,8 @@
 OAK-D
 =====
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/1098obcenclosure>`__
+
 .. image:: /_static/images/BW1098OAK/BW1098oak.png
 
 Overview

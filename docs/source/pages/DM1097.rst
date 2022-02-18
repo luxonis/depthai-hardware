@@ -3,6 +3,8 @@
 OAK-D-CM4
 =========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/all-in-one-dev-kits/products/depthai-rpi-compute-module-4-edition>`__
+
 .. image:: /_static/images/DM1097/DM1097_up.png
 
 Overview

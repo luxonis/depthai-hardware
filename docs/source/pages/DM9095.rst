@@ -3,13 +3,17 @@
 OAK-D-Lite
 ==========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-lite-1>`__
+
+.. image:: /_static/images/DM9095/oak_d_lite_en.png
+
+Overview
+********
+
 OAK-D-Lite takes the affordability idea and pushes it one step forward. By having the same SpatialAI functionality as OAK-D with a smaller weight and
 form factor, it gives you the opportunity to create all sorts of projects.
 
 It is meant to be used by anyone, anywhere. The Swiss Army Knife of Computer Vision.
-
-
-.. image:: /_static/images/DM9095/oak_d_lite_en.png
 
 Hardware Specifications
 ***********************

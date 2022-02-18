@@ -3,6 +3,8 @@
 OAK-D-PoE
 =========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/poe/products/oak-d-poe`__
+
 .. image:: /_static/images/SJ2088POE/oak-d-poe_2.png
 
 Overview

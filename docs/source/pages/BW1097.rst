@@ -3,6 +3,8 @@
 OAK-D-CM3
 =========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/all-in-one-dev-kits/products/depthai-rpi-compute-module-edition>`__
+
 .. image:: /_static/images/BW1097/BW1097-front.png
 
 Overview

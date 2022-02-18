@@ -3,6 +3,8 @@
 DepthAI RPi HAT Baseboard
 =========================
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/depthai-rpi-hat>`__
+
 .. image:: /_static/images/BW1094/rpi_hat_cameras.png
 
 Overview
