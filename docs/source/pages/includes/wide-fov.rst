@@ -1,5 +1,4 @@
-.. list-table::
-   :widths: 1 1 1
+.. list-table:: Wide FOV lenses
    :header-rows: 1
 
    * - FOV
