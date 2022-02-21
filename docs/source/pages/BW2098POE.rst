@@ -3,6 +3,8 @@
 PoE Board
 =========
 
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/depthai-usb3-edition>`__
+
 .. image:: /_static/images/BW2098POE/BW2098POE_up.png
 
 Overview

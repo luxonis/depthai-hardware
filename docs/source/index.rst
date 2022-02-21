@@ -236,6 +236,12 @@ All other hardware products.
    pages/articles/supported_sensors.rst
 
 .. toctree::
+     :caption: Series
+
+     pages/articles/oak-s2.rst
+     pages/articles/oak-s3.rst
+
+.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: USB Designs
