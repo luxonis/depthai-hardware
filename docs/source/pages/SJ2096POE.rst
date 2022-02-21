@@ -50,29 +50,7 @@ Power usage for OAK-1-PoE ranges between 1.94 W (standby) and 4.56 W (max consum
 
 .. image:: /_static/images/SJ2096POE/OAK-1-PoE-power-usage.jpeg
 
-Getting started
-***************
-
-.. note::
-    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
-
-
-The OAK-1-PoE accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power from USB C connector. 
-Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the OAK-SoM-Pro, and boot selection is 
-configured with the DIP switch bank near the USB connector. With the :ref:`OAK-FFC-IMX378 <bg0249>` camera and the DepthAI :ref:`OAK-SoM-Pro <bw2099>` SoM running inference, 
-power consumption is typically [TBC].
-
-Interfacing with the OAK-SoM-Pro is also possible with :ref:`PoE Board <bw2096poe>` connector pads J5 and J8, which expose OAK-SoM-Pro <bw2099> auxiliary I/O and 
-BW2099 Quad SPI, respectively. These headers are Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for 
-pinout information.
-
-The reset button resets the OAK-SoM-Pro only.
-The 5V LED indicates 5V power is present on the BW2098POE.
-The PG LED indicates "power good" from the OAK-SoM-Pro.
-The "RUN" LED indicates that the OAK-SoM-Pro is not in reset.
-
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 
-57V may exist. Always use electronics handling best practices.**
+.. include:: /pages/includes/poe_s1_getting_started.rst
 
 Datasheet
 *********
