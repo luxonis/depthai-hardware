@@ -48,6 +48,3 @@ It's also important to say that Keem Bay only supports INT8 datatype. They provi
 so converting the model won't be any different from converting the model for Myriad X (which supports FP16).
 
 .. include::  /pages/includes/footer-short.rst
-
-
-

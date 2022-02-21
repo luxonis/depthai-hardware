@@ -156,6 +156,6 @@ OAK-D-PoE and OAK-1-PoE have USB-C connector, OAK-D Pro PoE has USB connectivity
 #. Change DIP switch back to 0x3 (switches 5,6 up, others down) for POE communication
 #. Close back the enclosure, make sure the gasket is in the correct place (for waterproofing)
 
-.. image:: https://user-images.githubusercontent.com/18037362/154482196-6bf06e15-60c2-4a01-95b9-a2a0ae92ecb3.png
+.. image:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
 
 .. include::  /pages/includes/footer-short.rst

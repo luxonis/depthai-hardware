@@ -18,37 +18,13 @@ github repository.
 Overview
 ########
 
-.. code-block::
-
-                  OAK device                        ┌─────┐
-  ┌───────────────────────────────────────────────┐     │  ◎  │
-  │                                               │     │     │
-  │                ┌───────────────────ESP32───┐  │  BT |     |
-  │                │                           │--│◄───►|     |
-  │                │   (Your ESP32 firmware)   │  │     └─────┘
-  │                │                           │  │         ┌──────────┐
-  │                │---------------------------│  │         │          │
-  │                │     depthai-spi-api       │--│◄───────►├──────────┤
-  │                └───────▲───────────────────┘  │  WiFi   │  Server  │
-  │                        │                      │         ├──────────┤
-  │                        │SPI                   │         │          │
-  │      Right             │                      │         └──────────┘
-  │       ┌───┐   ┌───┬────▼───┬─MyriadX(VPU)──┐  │
-  │       │ ◯ │--►|   │        │               │  │            Host
-  │ ┌───┐ └───┘   │   │ SpiOut │     ┌─────────┤  │        ┌───────────┐
-  │ │ ◯ │--------►|   └────────┘     │         │  │        │           │
-  │ └───┘ ┌───┐   │                  │ XLinkIn │  │  XLink │           │
-  │Color  │ ◯ |--►| (Your pipeline)  │ XLinkOut│--│◄──────►│           │
-  │       └───┘   │                  │         │  │        └────┬─┬────┘
-  │        Left   └──────────────────┴─────────┘  │             │ │
-  │                                               │           ──┴─┴──
-  └───────────────────────────────────────────────┘
+.. image:: /_static/images/guides/iot-diagram.png
 
 Overview explained:
 
-- `MyriadX <https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html>`__ is the VPU on the OAK camera, where you can run your pipeline
-- MyriadX is connected to the host (eg. PC)
-- MyriadX can communicate `Messages <https://docs.luxonis.com/projects/api/en/latest/components/messages/>`__ with the ESP32 via SPI (using `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__ / `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ node)
+- `Myriad X <https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html>`__ is the VPU on the OAK camera, where you can run your pipeline
+- Myriad X is connected to the host (eg. PC)
+- Myriad X can communicate `Messages <https://docs.luxonis.com/projects/api/en/latest/components/messages/>`__ with the ESP32 via SPI (using `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__ / `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ node)
 - ESP32 can receive these messages using the `depthai-spi-api <https://github.com/luxonis/depthai-spi-api>`__ library (which is an `ESP-IDF <https://github.com/espressif/esp-idf>`__ component).
 - On ESP32 you can run post-processing of the messages and optionally send the results to a server (if connected to a WiFi network) or to a Bluetooth device (eg. a smartphone)
 

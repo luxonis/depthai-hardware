@@ -28,7 +28,7 @@ for your AI/CV processes.
 .. image:: /_static/images/guides/night-vision.png
     :alt: Night vision mode (right)
 
-Left: no illumination, Right: LED illumination LED set to ~400mA
+Left: no illumination, Right: IR illumination LED set to ~400mA
 
 Production Pro version of the OAK camera will have notch IR filters at 940nm, which allows only visible light and
 IR light from illumination LED/laser dot projector to the camera.
