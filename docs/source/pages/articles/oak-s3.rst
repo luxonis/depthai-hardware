@@ -36,8 +36,6 @@ as the previous version (eg. OAK-D, OAK-D-Lite) - to connect it via USB to your 
 an application. With on-board computing capability, programs/apps will be able to do full model decoding on the device
 itself, which would allow DepthAI apps to be more flexible and have lower latency.
 
-Our plan is to have DepthAI apps runnable as docker containers, and one could even run (part of) ROS on the ARM cores.
-
 AI performance boost
 ####################
 
