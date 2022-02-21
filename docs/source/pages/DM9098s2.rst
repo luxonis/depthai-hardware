@@ -3,10 +3,7 @@
 OAK-D S2
 ========
 
-.. role:: raw-html(raw)
-   :format: html
-
-(`shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-s2>`__) - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-s2>`__
 
 .. image:: /_static/images/DM9098/oak-d-s2.png
 
