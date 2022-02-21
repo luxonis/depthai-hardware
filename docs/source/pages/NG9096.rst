@@ -1,0 +1,53 @@
+.. _ng9096:
+
+OAK-1 Lite
+==========
+
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/oak-1-lite>`__
+
+.. image:: /_static/images/NG9096/oak-1-lite.jpg
+
+Overview
+********
+
+**OAK-1-Lite** takes the affordability idea and pushes it one step forward. By having the same AI and CV functionalities as
+:ref:`OAK-1` while being more affordable, it gives you the opportunity to create all sorts of projects.
+
+OAK-1-Lite isn’t a standard USB camera. It’s a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board,
+so that your host is free to do whatever you need it to do.
+
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/imx214.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
+
+OAK-1 vs OAK-1-Lite
+*******************
+
+The only difference between these two models is the color camera sensor; OAK-1-Lite uses IMX214 while :ref:`OAK-1` uses a higher
+quality color camera - IMX378. Otherwise OAK-1-Lite uses the same PCBA and enclosure as the OAK-1.
+
+Dimensions and Weight
+*********************
+* Width: 36 mm
+* Height: 54.5 mm
+* Length: 27.8 mm
+* Weight: 53.1 grams
+
+.. image:: /_static/images/NG9096/oak-1-lite-back.jpg
+
+Datasheet
+*********
+
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9096_OAK-1-Lite/Datasheet/OAK-1-Lite_Datasheet.pdf>`__
+
+3D models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9096_OAK-1-Lite/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9096_OAK-1-Lite/Mechanical>`__
+
+.. include::  /pages/includes/footer-short.rst

@@ -5,7 +5,7 @@ OAK-D Pro
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro-front.png
+.. image:: /_static/images/DM9098/oak-d-pro.jpg
 
 Overview
 ********
@@ -35,6 +35,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_800P.rst
 
+.. image:: /_static/images/DM9098/oak-d-pro-bottom.jpg
+
 Datasheet
 *********
 
@@ -46,6 +48,7 @@ Datasheet
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
 
+.. image:: /_static/images/DM9098/oak-d-pro-bacj.jpg
 
 .. include:: /pages/includes/laser-safety.rst
 
