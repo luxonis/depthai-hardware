@@ -39,9 +39,8 @@ itself, which would allow DepthAI apps to be more flexible and have lower latenc
 AI performance boost
 ####################
 
-We haven't done any testing ourselves, but in the `datasheet <https://www.arrow.com/ais/intel/wp-content/uploads/sites/6/2021/04/Keem-Bay-One-pager_Draft_NA_External_Feb-26.pdf>`__
-it's mentioned that Keem Bay has >10x DL inference performance compared to Myriad X.
-The actual number really depends on the AI model you are using. Some models might only have 2x performance boost while others could
+We haven't done any testing ourselves, but based on Intel's testing, Keem Bay has >10x DL inference performance compared to Myriad X.
+The actual number really depends on the AI model you are using. Some models might only have 3.5x performance boost while others could
 have 20x performance boost compared to Myriad X performance.
 
 It's also important to say that Keem Bay only supports INT8 datatype. They provide tools for quantization of models as well,
