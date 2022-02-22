@@ -33,9 +33,9 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM9098/oak-d-pro-dimensions.png
 
-.. include:: /pages/includes/depth_75_800P.rst
-
 .. image:: /_static/images/DM9098/oak-d-pro-bottom.jpg
+
+.. include:: /pages/includes/depth_75_800P.rst
 
 Datasheet
 *********
@@ -48,7 +48,7 @@ Datasheet
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro-bacj.jpg
+.. image:: /_static/images/DM9098/oak-d-pro-back.jpg
 
 .. include:: /pages/includes/laser-safety.rst
 
