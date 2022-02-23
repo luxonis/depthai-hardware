@@ -5,7 +5,7 @@ OAK-1 Lite
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/oak-1-lite>`__
 
-.. image:: /_static/images/NG9096/oak-1-lite.jpg
+.. image:: /_static/images/NG9096/oak-1-lite_coin.jpg
 
 Overview
 ********
@@ -37,7 +37,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/NG9096/oak-1-lite-back.jpg
+.. image:: /_static/images/NG9096/oak-1-lite_back.jpg
 
 Datasheet
 *********
