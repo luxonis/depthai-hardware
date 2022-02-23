@@ -18,10 +18,9 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 10gbps throughput.
 
 .. list-table::
-   :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-D-Lite
+   * - OAK-D Lite
      - OAK-D S2
      - OAK-D Pro
    * - .. image:: /_static/images/thumbnails/DM9095.png
@@ -35,16 +34,19 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
      - :ref:`Learn more <dm9098pro>`
 
 .. list-table::
-   :widths: 1 1
    :header-rows: 1
 
-   * - OAK-1
+   * - OAK-1 Lite
+     - OAK-1
      - OAK-D
-   * - .. image:: /_static/images/thumbnails/OAK-1.png
+   * - .. image:: /_static/images/thumbnails/oak-1-lite.png
+          :target: pages/NG9096.html
+     - .. image:: /_static/images/thumbnails/OAK-1.png
           :target: pages/BW1093.html
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
-   * - :ref:`Learn more <bw1093>`
+   * - :ref:`Learn more <ng9096>`
+     - :ref:`Learn more <bw1093>`
      - :ref:`Learn more <bw1098oak>`
 
 PoE Designs
@@ -251,6 +253,7 @@ All other hardware products.
    pages/DM9095.rst
    pages/DM9098s2.rst
    pages/DM9098pro.rst
+   pages/NG9096.rst
    pages/BW1093.rst
    pages/BW1098OAK.rst
 
