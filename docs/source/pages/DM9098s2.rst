@@ -10,16 +10,16 @@ OAK-D S2
 Overview
 ********
 
-The **OAK-D S2** is the series 2 of the :ref:`OAK-D`. The main difference is that
+The **OAK-D S2** is the :ref:`Series 2 <OAK series 2>` version of the :ref:`OAK-D`. The main difference is that
 OAK-D S2 has a smaller enclosure and is therefore lighter. OAK-D S2 also doesn't have a barrel jack
-for supplying power, so it only has a USB-C connector for both power and communication.
+for supplying power, it only has a USB-C connector for both power and communication.
 
 Hardware specifications
 ***********************
 
 .. include:: /pages/includes/usb_connectivity.rst
 
-.. include:: /pages/includes/imx378_ov9282.rst
+.. include:: /pages/includes/s2_imx378_ov9282.rst
 
 .. include:: /pages/includes/mx_inside.rst
 

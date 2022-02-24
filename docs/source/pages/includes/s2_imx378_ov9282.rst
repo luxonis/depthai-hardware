@@ -1,0 +1,45 @@
+.. list-table:: Sensor specifications
+   :header-rows: 1
+
+   * - Camera Specs
+     - Color camera
+     - Stereo pair
+   * - Sensor
+     - IMX378
+     - OV9282
+   * - FOV
+     - D: 81° / H: 69° / V: 55°
+     - D: 81° / H: 72° / V: 49°
+   * - Wide FOV
+     - D: 120° / H: 108° / V: 93°
+     - D: 150° / H: 127° / V: 79.5°
+   * - Wide FOV depth (rectified)
+     -
+     - D: 106° / H: 97° / V: 70°
+   * - Resolution
+     - 12MP (4032x3040)
+     - 1MP (1280x800)
+   * - Focus
+     - Auto-Focus: 8cm - ∞
+     - Fixed-Focus: 19.6cm - ∞
+   * - Max Framerate
+     - 60 FPS
+     - 120 FPS
+   * - F-number
+     - 2.0
+     - 2.2
+   * - Lens size
+     - 1/2.3 inch
+     - 1/2.3 inch
+
+This OAK camera also has **Wide FOV** version and the FOV values are written in the table above. There's another
+row (*rectified*), as the rectification process (needed for depth perception) crops the mono frame and therefore reduces
+depth FOV.
+
+Wide FOV
+********
+
+.. image:: /_static/images/guides/fov-vs-wfov.png
+    :alt: Wide FOV lenses (right)
+
+Left: normal FOV, Right: Wide FOV

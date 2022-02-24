@@ -1,0 +1,51 @@
+.. _ng9097s2:
+
+OAK-D S2 PoE
+============
+
+.. role:: raw-html(raw)
+   :format: html
+
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro-poe>`__ - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
+
+.. image:: /_static/images/NG9097/s2-poe.png
+
+Overview
+********
+
+The **OAK-D S2 PoE** is the :ref:`Series 2 <OAK series 2>` version of the :ref:`OAK-D-PoE`. The main difference is that
+the OAK-D S2 PoE has a smaller enclosure and is therefore lighter.
+
+It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
+**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and 2 other auxiliary IOs, capable of UART, I2C or GPIO.
+
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/poe_connectivity.rst
+
+.. include:: /pages/includes/s2_imx378_ov9282.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
+Dimensions and Weight
+*********************
+
+**Weight:** 184g
+
+.. image:: /_static/images/NG9097/dimensions-s2-poe.png
+
+.. include:: /pages/includes/depth_75_800P.rst
+
+Datasheet
+*********
+
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9097_OAK-D-S2-PoE/Datasheet/OAK-D-S2-PoE_Datasheet.pdf>`__
+
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9097_OAK-D-S2-PoE/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9097_OAK-D-S2-PoE/Mechanical>`__
+
+.. include::  /pages/includes/footer-short.rst

@@ -6,11 +6,19 @@ This allows devices to be smaller and consequently lighter.
 
 .. image:: /_static/images/guides/series2.png
 
-The S2 OAK devices will have these permutations:
+The S2 OAK devices will have **these permutations**:
 
 - **USB or PoE** connectivity
 - the **Pro version** has on-board IR laser dot projector for active stereo and IR illumination LED for night vision
 - the **Wide FOV version** has wide FOV lenses, increasing DFOV from ~85° to ~150°
+
+
+OAK S2 cameras (selectable FOV per model):
+
+- :ref:`OAK-D S2`
+- :ref:`OAK-D Pro`
+- :ref:`OAK-D S2 PoE`
+- :ref:`OAK-D Pro PoE`
 
 Pro version
 ###########

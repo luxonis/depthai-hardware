@@ -56,21 +56,28 @@ PoE devices are similar to USB devices, but instead of USB, they have **PoE conn
 in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__.
 
 .. list-table::
-   :widths: 30 30 30
    :header-rows: 1
 
    * - OAK-1-PoE
-     - OAK-D-PoE
+     - OAK-D S2 PoE
      - OAK-D Pro PoE
    * - .. image:: /_static/images/thumbnails/SJ2096POE.png
           :target: pages/SJ2096POE.html
-     - .. image:: /_static/images/thumbnails/oak-d-poe.png
-          :target: pages/SJ2088POE.html
+     - .. image:: /_static/images/thumbnails/s2-poe.png
+          :target: pages/NG9097s2.html
      - .. image:: /_static/images/thumbnails/pro-poe.png
-          :target: pages/NG9097.html
+          :target: pages/NG9097pro.html
    * - :ref:`Learn more <sj2096>`
-     - :ref:`Learn more <sj2088poe>`
-     - :ref:`Learn more <ng9097>`
+     - :ref:`Learn more <ng9097s2>`
+     - :ref:`Learn more <ng9097pro>`
+
+.. list-table::
+   :header-rows: 1
+
+   * - OAK-D-PoE
+   * - .. image:: /_static/images/thumbnails/oak-d-poe.png
+          :target: pages/SJ2088POE.html
+   * - :ref:`Learn more <sj2088poe>`
 
 IoT Designs
 ***********
@@ -264,7 +271,8 @@ All other hardware products.
 
    pages/SJ2096POE.rst
    pages/SJ2088POE.rst
-   pages/NG9097.rst
+   pages/NG9097s2.rst
+   pages/NG9097pro.rst
 
 .. toctree::
    :maxdepth: 1
