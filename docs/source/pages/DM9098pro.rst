@@ -11,16 +11,19 @@ Overview
 ********
 
 The **OAK-D Pro** is an upgraded version of :ref:`OAK-D`, featuring an **IR laser dot projector** (active stereo) and **IR illumination LED** (for
-"night vision"). It's also smaller and lighter than the OAK-D.
-It's currently in the **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
-more information can be found below at *Getting started*.
+"night vision"). OAK-D Pro is from :ref:`Series 2 of OAK cameras <OAK series 2>`. It's smaller and lighter than the OAK-D.
+
+Compared to the :ref:`OAK-D S2`, the only difference is dot projector/illumination LED (:ref:`Pro aspect <Pro version>` of the version),
+otherwise PCB and enclosure are the same.
+
+Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 
 Hardware specifications
 ***********************
 
 .. include:: /pages/includes/usb_connectivity.rst
 
-.. include:: /pages/includes/imx378_ov9282.rst
+.. include:: /pages/includes/s2_imx378_ov9282.rst
 
 .. include:: /pages/includes/pro.rst
 

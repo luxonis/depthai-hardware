@@ -1,4 +1,4 @@
-.. _ng9097:
+.. _ng9097pro:
 
 OAK-D Pro PoE
 =============
@@ -27,7 +27,7 @@ Hardware specifications
 
 .. include:: /pages/includes/poe_connectivity.rst
 
-.. include:: /pages/includes/imx378_ov9282.rst
+.. include:: /pages/includes/s2_imx378_ov9282.rst
 
 .. include:: /pages/includes/pro.rst
 

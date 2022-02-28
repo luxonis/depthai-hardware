@@ -6,11 +6,19 @@ This allows devices to be smaller and consequently lighter.
 
 .. image:: /_static/images/guides/series2.png
 
-The S2 OAK devices will have these permutations:
+The S2 OAK devices will have **these permutations**:
 
 - **USB or PoE** connectivity
 - the **Pro version** has on-board IR laser dot projector for active stereo and IR illumination LED for night vision
 - the **Wide FOV version** has wide FOV lenses, increasing DFOV from ~85° to ~150°
+
+
+OAK S2 cameras (selectable FOV per model):
+
+- :ref:`OAK-D S2`
+- :ref:`OAK-D Pro`
+- :ref:`OAK-D S2 PoE`
+- :ref:`OAK-D Pro PoE`
 
 Pro version
 ###########
@@ -20,6 +28,10 @@ Pro version of OAK cameras have on-board **IR laser dot projector** for active s
 **Laser dot projector** projects many small dots in front of the device, which helps with disparity matching, especially for low-visual-interest surfaces
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
 - conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
+
+.. image:: /_static/images/guides/active-stereo.png
+
+Above: IR laser dot projector turned off, Below: IR laser dot projector set to ~200mA
 
 **Blanket IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
 on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
