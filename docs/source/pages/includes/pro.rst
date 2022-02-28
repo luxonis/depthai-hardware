@@ -8,17 +8,34 @@ IR light from illumination LED/laser dot projector to the camera.
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
 - conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
 
+On the image below there's a blank wall with no texture. Without the dot projector, (passive) depth perception is poor.
+With dot projector set to ~200mA the (active) depth perception looks much better. If you look closely at the bottom
+left frame, you can see little dots all around the wall.
+
+.. image:: /_static/images/guides/active-stereo.png
+
 **Blanket IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
 on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
 for your AI/CV processes.
 
+.. image:: /_static/images/guides/night-vision.png
+    :alt: Night vision mode (right)
+
 Getting started
 ***************
 
-To get started with this OAK model, you first need to install the correct version: checkout to branch :code:`oak-d-pro` in `depthai <https://github.com/luxonis/depthai>`__
-and execute :code:`python3 install_requirements.py`.
-This will install the correct library, so you can execute :code:`depthai_demo.py`. Control panel for configuring IR LED/laser projector should appear,
-as shown on screenshots below.
+To get started with this OAK model, you first need to install **depthai library version 2.15 or above**. You can set IR laser
+dot projector and illumination LED via the API as below.
+
+.. code-block:: python
+
+  with dai.Device(pipeline) as device:
+    device.setIrLaserDotProjectorBrightness(100) # in mA, 0..1200
+    device.setIrFloodLightBrightness(0) # in mA, 0..1500
+
+You can set these two parameters in **DepthAI Demo** in the *Depth* tab:
+
+.. image:: /_static/images/guides/pro-conf.png
 
 Projector specifications
 ************************
@@ -48,19 +65,3 @@ Projector specifications
 
 *FOI = Field of illumination*. Also note that in datasheet, HFOI and VFOI are switched, that's because we mount the Belago1.1 rotated as we want
 greater horizontal field, to match field of cameras.
-
-Demo
-****
-
-As you can see from :code:`color` frame on screenshots, it's pitch dark in the room, so the only light source is the IR illumination LED/dot projector.
-**Note** that device used in the image was manually calibrated, so **performance is worse** (compared to production/factory calibration).
-
-**Dot projector**
-
-.. image:: /_static/images/DM9098/dot-projector.png
-
-**Illumination LED**
-
-.. image:: /_static/images/DM9098/illumination.jpg
-
-Run :code:`python3 depthai_demo.py --show left right depth color` to show 4 streams as in images above.

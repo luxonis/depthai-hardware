@@ -29,6 +29,10 @@ Pro version of OAK cameras have on-board **IR laser dot projector** for active s
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
 - conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
 
+.. image:: /_static/images/guides/active-stereo.png
+
+Above: IR laser dot projector turned off, Below: IR laser dot projector set to ~200mA
+
 **Blanket IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
 on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
 for your AI/CV processes.
