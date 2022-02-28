@@ -1,7 +1,7 @@
-OAK series 3
+OAK Series 3
 ============
 
-Series 3 (S3) of OAK devices will have onboard the next, 3rd generation of VPU, called **Keem Bay**.
+**Series 3 (S3)** of OAK devices will have onboard the next, 3rd generation of VPU, called **Keem Bay**.
 Compared to previous generation of VPU, Myriad X, these are the main differences:
 
 - Integrated **quad-core ARM A53** running YOCTO Linux

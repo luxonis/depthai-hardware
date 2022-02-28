@@ -1,4 +1,4 @@
-OAK series 2
+OAK Series 2
 ============
 
 **Series 2 (S2)** of OAK devices have the VPU (Myriad X) directly on-board (chip-down design), instead of on the :ref:`SoM <System on Module Designs>`.
