@@ -21,3 +21,5 @@
      - 3.37mm
    * - Distortion
      - < 1%
+   * - Pixel size
+     - 1.12µm x 1.12µm

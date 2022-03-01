@@ -17,3 +17,5 @@
      - 2.0
    * - Lens size
      - 1/2.3 inch
+   * - Pixel size
+     - 1.55µm x 1.55µm
