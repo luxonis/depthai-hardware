@@ -2,7 +2,7 @@ Getting started
 ***************
 
 .. note::
-    For more information on how to start with POE devices, check our guide `Getting started with PoE <https://docs.luxonis.com/en/latest/pages/tutorials/getting-started-with-poe/>`__.
+    For more information on how to start with POE devices, check our guide :ref:`Getting started with OAK PoE devices`.
 
 This OAK PoE camera accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power through the on-board
 USB C connector - which is not expsed through the enclsoure, so enclosure needs to be removed.
