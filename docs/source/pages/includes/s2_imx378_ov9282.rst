@@ -30,7 +30,10 @@
      - 2.2
    * - Lens size
      - 1/2.3 inch
-     - 1/2.3 inch
+     - 1/4 inch
+   * - Pixel size
+     - 1.55µm x 1.55µm
+     - 3µm x3µm
 
 This OAK camera also has **Wide FOV** version and the FOV values are written in the table above. There's another
 row (*rectified*), as the rectification process (needed for depth perception) crops the mono frame and therefore reduces
