@@ -138,3 +138,77 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - rolling
      - 2592x1944
      -
+
+Already built CCMs
+##################
+
+Here's the list of already built Compact Camera Modules (CCMs) by `Arducam <https://www.arducam.com/>`__.
+MOQ for having a different CCM on an OAK camera is 100 units. Please send an email to support@luxonis.com if that's of interest.
+
+NFOV = Normal FOV, WFOV = Wide FOV. NoIR = No IR filter, IR = IR filter. FF = Fixed-Focus, AF = Auto-Focus.
+
+Sunny style long FPC
+--------------------
+
+* IMX378
+
+  * WFOV (DFOV 120°)
+  * NFOV AF
+  * NFOV FF
+
+* OV9282
+
+  * NFOV FF NoIR
+  * NFOV FF IR
+  * WFOV FF NoIR
+
+* OV9782
+
+  * WFOV FF IR
+
+* OV7251
+
+  * NFOV FF IR
+
+Arducam short FPC
+-----------------
+
+* IMX378
+
+  * NFOV AF
+  * NFOV FF
+  * WFOV FF
+
+* IMX214
+
+  * NFOV AF
+  * NFOV FF
+  * WFOW
+
+* OV9282 (notch filter is WIP instead of NoIR)
+
+  * WFOV FF NoIR
+  * WFOV FF IR
+  * NFOV FF NoIR
+  * NFOV FF IR
+
+* OV9782
+
+  * WFOV FF IR
+  * NFOV FF IR
+
+* IMX477
+
+  * AF (short FPC M12, haven't yet received samples)
+
+Arducam longer FPC
+------------------
+
+* AR0234
+
+  * AF (Motorized Focus)
+
+* IMX477
+
+  * AF (Motorized Focus)
+  * M12 FF
