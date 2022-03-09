@@ -143,7 +143,8 @@ Already built CCMs
 ##################
 
 Here's the list of already built Compact Camera Modules (CCMs) by `Arducam <https://www.arducam.com/>`__.
-MOQ for having a different CCM on an OAK camera is 100 units. Please send an email to support@luxonis.com if that's of interest.
+MOQ for OAK camera product with a custom configuration of CCMs from the listed below is 50 units. Please send an
+email to support@luxonis.com if that's of interest.
 
 NFOV = Normal FOV, WFOV = Wide FOV. NoIR = No IR filter, IR = IR filter. FF = Fixed-Focus, AF = Auto-Focus.
 
