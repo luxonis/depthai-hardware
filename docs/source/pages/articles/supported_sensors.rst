@@ -82,7 +82,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - Initially tested
      - rolling
      - 8000x6000
-     - Currently work with binning mode 4000x3000
+     - Currently works in binning mode 4000x3000
    * - IMX334
      - Not tested
      - rolling
