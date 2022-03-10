@@ -78,6 +78,11 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - rolling
      - 4056x3040
      - Initially tested, similar to IMX477
+   * - IMX586
+     - Initially tested
+     - rolling
+     - 8000x6000
+     - Currently works in binning mode 4000x3000
    * - IMX334
      - Not tested
      - rolling
