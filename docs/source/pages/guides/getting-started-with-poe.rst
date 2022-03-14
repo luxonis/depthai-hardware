@@ -141,6 +141,9 @@ can manually specify the IP address of the POE device.
                 return 0;
             }
 
+Note that if OAK is already running flashed pipeline, you need to change device info XLink state to :code:`X_LINK_FLASH_BOOTED`
+in order to reach flash booted OAK camera.
+
 Factory reset
 #############
 
