@@ -46,4 +46,44 @@ have 20x performance boost compared to Myriad X performance.
 It's also important to say that Keem Bay only supports INT8 datatype. They provide tools for quantization of models as well,
 so converting the model won't be any different from converting the model for Myriad X (which supports FP16).
 
+Keem Bay specifications
+#######################
+
+.. list-table:: Hardware specifications
+   :header-rows: 0
+
+   * - nominal VPU clock
+     - 500 MHz
+   * - ResNet-50 performance
+     - 240 inferences per second
+   * - AI TOPS
+     - 3.0 TOPS
+   * - SHAVE processors
+     - 12
+   * - Computer Vision
+     - CV/Warp acceleration at 1.0 GB/s. 6DOF motion mask support
+   * - Stereo depth
+     - 720P resolution at 180 FPS
+   * - Video CODEC
+     - 4K75 (encode), 4k60 (decode). Decoding max 10 channels of 1080P/30FPS
+   * - Imaging
+     - ISP, Max 6 cameras, 500 MP/s HDR, TNF, 3A, ULL. 4K/60FPS support
+   * - Interfaces
+     - 2x PCIe Gen4, USB 3.1/2, SPI, MIPI, SLVS, I3C, I2S
+   * - Operating temperature
+     - -40°C to 105°C (same as Myriad X)
+   * - RAM support
+     - 2x 32-bit DRAM at 1600-2133 MHz
+
+ResNet-50 performance was measured with INT8 quantization with (max) native optimizations and with weight sparsity at 50%.
+
+Native media support
+--------------------
+
+- GStreamer framework
+- OpenCV (or G-API) for computer vision
+- Video Acceleration API / Intel Media SDK for encoding and decoding
+
+Users will have full access to Keem Bay and will be able to also use libraries/frameworks above.
+
 .. include::  /pages/includes/footer-short.rst
