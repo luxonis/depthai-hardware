@@ -27,9 +27,9 @@ We also started porting the DepthAI library to the new ecosystem (Keem Bay).
 Quad-core ARM
 #############
 
-Having a Quad-core ARM A53 1.5GHz (Running Yocto 2.71, Linux Kernel 5.3) integrated into the VPU
-is similar to having Myriad X + Raspberry Pi 3B+ (quad-core A53 1.4GHz), which can make final projects and
-products more compact.
+Having a Quad-core ARM A53 1.5GHz with Neon technology and floating point extensions (running Yocto 2.71, Linux Kernel 5.3)
+integrated into the VPU is similar to having Myriad X + Raspberry Pi 3B+ (quad-core A53 1.4GHz), which can make final
+projects and products more compact.
 
 Users will have full access to the Yocto OS (via SSH), and it will also be possible to use the S3 OAK cameras
 as the previous version (eg. OAK-D, OAK-D-Lite) - to connect it via USB to your computer, and just start
@@ -43,8 +43,11 @@ We haven't done any testing ourselves, but based on Intel's testing, Keem Bay ha
 The actual number really depends on the AI model you are using. Some models might only have 3.5x performance boost while others could
 have 20x performance boost compared to Myriad X performance.
 
-It's also important to say that Keem Bay only supports INT8 datatype. They provide tools for quantization of models as well,
-so converting the model won't be any different from converting the model for Myriad X (which supports FP16).
+Keem Bay supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
+model won't be any different from converting the model for Myriad X (which supports FP16).
+
+Keem Bay has 20 DPU (Data Processing Units) integrated which are capable of delivering 5120 TOPS (INT8) or 1.28 TFLOPS (FP16).
+It supports Sparse acceleration and compression increasing effective TOP's by 2x to 20TOPS and effective FPS performance by 2x+.
 
 Keem Bay specifications
 #######################
@@ -64,12 +67,14 @@ Keem Bay specifications
      - CV/Warp acceleration at 1.0 GB/s. 6DOF motion mask support
    * - Stereo depth
      - 720P resolution at 180 FPS
-   * - Video CODEC
-     - 4K75 (encode), 4k60 (decode). Decoding max 10 channels of 1080P/30FPS
+   * - Video encoding
+     - Max 4K 75PFS. H.264, H.265 and JPEG codecs
+   * - Video decoding
+     - Max 4K 60FPS, max 10 channels of 1080P/30FPS. H.264, H.265 and JPEG codecs
    * - Imaging
      - ISP, Max 6 cameras, 500 MP/s HDR, TNF, 3A, ULL. 4K/60FPS support
    * - Interfaces
-     - 2x PCIe Gen4, USB 3.1/2, SPI, MIPI, SLVS, I3C, I2S
+     - Multiple I2C, Quad-SPI, I2S, UART, PCIe Gen4 interfaces, USB 3.1/2, 1GB ethernet, many GPIOs
    * - Operating temperature
      - -40°C to 105°C (same as Myriad X)
    * - RAM support
