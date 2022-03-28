@@ -4,11 +4,13 @@ DepthAI Hardware Documentation
 Each device's documentation includes an overview, getting started guide, images and project files, such as datasheets, altium design files, 3D models and
 mechanical models.
 
-Device feature comparison
-*************************
+Device name guide
+*****************
 
-.. image:: /_static/images/device_comparison/chart.png
-     :target: pages/guides/device_comparison.html
+.. image:: /_static/images/device-comparison/device-naming.png
+     :target: pages/guides/device-comparison.html
+
+More information can be found at :ref:`Device comparison` guide.
 
 USB Designs
 ***********
