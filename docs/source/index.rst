@@ -7,8 +7,10 @@ mechanical models.
 Device feature comparison
 *************************
 
-.. image:: /_static/images/device_comparison/chart.png
-     :target: pages/guides/device_comparison.html
+.. image:: /_static/images/device-comparison/device-naming.png
+     :target: pages/guides/device-comparison.html
+
+More information can be found at :ref:`Device comparison` guide.
 
 USB Designs
 ***********
