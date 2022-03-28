@@ -158,19 +158,17 @@ Sunny style long FPC
 
 * IMX378
 
-  * WFOV (DFOV 120°)
-  * NFOV AF
-  * NFOV FF
+  * WFOV FF - 108° HFOV, 93° VFOV
+  * NFOV (AF/FF) - 69° HFOV, 55° VFOV
 
 * OV9282
 
-  * NFOV FF NoIR
-  * NFOV FF IR
-  * WFOV FF NoIR
+  * NFOV FF (IR/`NoIR <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__) - 72° HFOV, 49° VFOV
+  * WFOV FF NoIR (`shop <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__) - 127° HFOV, 79.5° VFOV
 
 * OV9782
 
-  * WFOV FF IR
+  * WFOV FF IR (`shop <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__) - 127° HFOV, 79.5° VFOV
 
 * OV7251
 
@@ -181,26 +179,22 @@ Arducam short FPC
 
 * IMX378
 
-  * NFOV AF
-  * NFOV FF
-  * WFOV FF
+  * NFOV (AF/FF) - 69° HFOV, 55° VFOV
+  * WFOV FF - 108° HFOV, 93° VFOV
 
 * IMX214
 
-  * NFOV AF
-  * NFOV FF
-  * WFOW
+  * NFOV (AF/FF)
+  * WFOV FF
 
 * OV9282 (notch filter is WIP instead of NoIR)
 
-  * WFOV FF NoIR
-  * WFOV FF IR
-  * NFOV FF NoIR
-  * NFOV FF IR
+  * WFOV FF (NoIR/IR) - 127° HFOV, 79.5° VFOV
+  * NFOV FF (NoIR/IR) - 72° HFOV, 49° VFOV
 
 * OV9782
 
-  * WFOV FF IR
+  * WFOV FF IR - 127° HFOV, 79.5° VFOV
   * NFOV FF IR
 
 * IMX477

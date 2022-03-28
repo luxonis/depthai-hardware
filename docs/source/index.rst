@@ -227,7 +227,7 @@ All other hardware products.
    :hidden:
    :caption: Guides
 
-   pages/guides/device_comparison.rst
+   pages/guides/device-comparison.rst
    pages/guides/realsense_comparison.rst
    pages/guides/getting-started-with-iot.rst
    pages/guides/getting-started-with-poe.rst
