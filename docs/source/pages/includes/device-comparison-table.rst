@@ -16,16 +16,16 @@
     <table id="comparison">
         <tr>
             <th>OAK model</th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#oak-features">AI, CV, tracking, encoding…</a></th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#spatial-data">Spatial data</a></th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#poe-connectivity-ip67-rating">PoE, IP67</a></th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#active-stereo-perception-and-night-vision">Active stereo, night vision</a></th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#standalone-mode-support">Standalone mode</a></th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#coprocessor">Coprocessor</a></th>
-            <th><a href="/projects/hardware/en/latest/pages/guides/device_comparison.html#camera-options">Cameras</a></th>
+            <th><a href="device-comparison.html#oak-features">AI, CV, tracking, encoding…</a></th>
+            <th><a href="device-comparison.html#spatial-data">Spatial data</a></th>
+            <th><a href="device-comparison.html#poe-connectivity-ip67-rating">PoE, IP67</a></th>
+            <th><a href="device-comparison.html#active-stereo-perception-and-night-vision">Active stereo, night vision</a></th>
+            <th><a href="device-comparison.html#standalone-mode-support">Standalone mode</a></th>
+            <th><a href="device-comparison.html#coprocessor">Coprocessor</a></th>
+            <th><a href="device-comparison.html#camera-options">Cameras</a></th>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/BW1093.html">OAK-1</a><br><a href="projects/hardware/en/latest/pages/NG9096.html">OAK-1 Lite</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1093.html">OAK-1</a><br><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9096.html">OAK-1 Lite</a></b></td>
             <td>✔️</td>
             <td></td>
             <td></td>
@@ -35,7 +35,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/BW1098OAK.html">OAK-D</a><br><a href="projects/hardware/en/latest/pages/DM9095.html">OAK-D Lite</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OAK.html">OAK-D</a><br><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9095.html">OAK-D Lite</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td></td>
@@ -45,7 +45,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/DM9098s2.html">OAK-D S2</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098s2.html">OAK-D S2</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td></td>
@@ -55,7 +55,7 @@
             <td>Wide FOV option</td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/DM9098pro.html">OAK-D Pro</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM9098pro.html">OAK-D Pro</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td></td>
@@ -65,7 +65,7 @@
             <td>Wide FOV option</td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/SJ2096POE.html">OAK-1-PoE</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/SJ2096POE.html">OAK-1-PoE</a></b></td>
             <td>✔️</td>
             <td></td>
             <td>✔️</td>
@@ -75,7 +75,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/SJ2088POE.html">OAK-D-PoE</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/SJ2088POE.html">OAK-D-PoE</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td>✔️</td>
@@ -85,7 +85,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/NG9097s2.html">OAK-D S2 PoE</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9097s2.html">OAK-D S2 PoE</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td>✔️</td>
@@ -95,7 +95,7 @@
             <td>Wide FOV option</td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/NG9097pro.html">OAK-D Pro PoE</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9097pro.html">OAK-D Pro PoE</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td>✔️</td>
@@ -105,7 +105,7 @@
             <td>Wide FOV option</td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/DM1092.html">OAK-D-IoT-40</a>  <a href="projects/hardware/en/latest/pages/DM1098OBC.html">OAK-D-IoT-75</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1092.html">OAK-D-IoT-40</a>  <a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1098OBC.html">OAK-D-IoT-75</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td></td>
@@ -115,7 +115,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/BW1097.html">OAK-D-CM3</a>  <a href="projects/hardware/en/latest/pages/DM1097.html">OAK-D-CM4</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html">OAK-D-CM3</a>  <a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html">OAK-D-CM4</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td></td>
@@ -125,7 +125,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/DM2097.html">OAK-D CM4 PoE</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html">OAK-D CM4 PoE</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td>✔️</td>
@@ -135,7 +135,7 @@
             <td></td>
         </tr>
         <tr>
-            <td><b><a href="projects/hardware/en/latest/pages/DM1090.html">OAK-FFC-3P</a>  <a href="projects/hardware/en/latest/pages/BW1098FFC.html">OAK-FFC-3P-OG</a></b></td>
+            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1090.html">OAK-FFC-3P</a>  <a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098FFC.html">OAK-FFC-3P-OG</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
             <td></td>
