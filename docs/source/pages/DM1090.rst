@@ -10,17 +10,23 @@ OAK-FFC-3P
 Overview
 ********
 
-The OAK-FFC-3P (DM1090FFC) baseboard has three FFC interfaces which allow for two 2-lane MIPI camera modules i.e. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair) and one 
-:ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. There is also a chance to connect three 2-lane MIPI camera modules i.e. OAK-FFC-OV9282 if DM0249 RGB camera module is not required.
+The **OAK-FFC-3P** (DM1090FFC) baseboard has **3 FFC interfaces** which allows for:
 
-Please note that only revision R1M1E1 and newer camera modules can be connected to the OAK-FFC-3P. With OAK-FFC-3P we gained support for 22-pin RPi camera
-interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
+- **Two 2-lane MIPI** camera modules, eg. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair)
+- **One 4-lane MIPI** camera modules, eg. :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module, or additional :ref:`OAK-FFC-OV9282 <bg0250tg>` if RGB camera module is not required
+
+.. note::
+  If you would need 4 FFC interfaces, see :ref:`OAK-FFC-4P`.
+
+Please note that only revision R1M1E1 and newer camera modules can be connected to this OAK FFC board.
+
+This board is also compatible with RPi camera interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
 which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
-Here's a list of :ref:`compatible Arducam cameras <arducam-compatible-cameras>` with the OAK-FFC-3P. Those cameras have a M12 mount, so you can use
-different lenses to get **custom FoV** (they have wide and narrow angle M12 lenses).
+To see which cameras are compatible with this OAK FFC board, see the guide here: :ref:`compatible Arducam cameras <arducam-compatible-cameras>`.
+Those cameras have a M12 mount, so you can use different lenses to get **custom FoV** (they have wide and narrow angle M12 lenses).
 
-In addition, IMU (over SPI) sensor was also added to the OAK-FFC-3P.
+In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include:: /pages/includes/mx_inside.rst
 
@@ -36,7 +42,7 @@ Dimensions and Weight
 * Width: 60 mm
 * Height: 40 mm
 * Length: 22 mm (PCBA and heatsink)
-* Weight: 41g
+* Weight: 41g (PCBA and heatsink)
 
 .. image:: /_static/images/DM1090FFC/oak-ffc-3p-dimensions.jpeg
 
