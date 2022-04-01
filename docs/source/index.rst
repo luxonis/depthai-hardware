@@ -109,38 +109,36 @@ This is not a TON of work, but keep this in mind, that it’s not ‘plug and pl
 custom baseline, or custom orientation of the cameras.
 
 .. list-table::
-   :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-FFC-3P
+   * - OAK-FFC-4P
+     - OAK-FFC-3P
      - OAK-FFC-3P-OG
-     - OAK-FFC-IMX378
-   * - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
+   * - .. image:: /_static/images/thumbnails/FFC-4P.png
+          :target: pages/DD2090.html
+     - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
           :target: pages/DM1090.html
      - .. image:: /_static/images/thumbnails/bw1098_new.png
           :target: pages/BW1098FFC.html
-     - .. image:: /_static/images/thumbnails/BG0249.png
-          :target: pages/BG0249.html
-   * - :ref:`Learn more <dm1090ffc>`
+   * - :ref:`Learn more <dd2090ffc>`
+     - :ref:`Learn more <dm1090ffc>`
      - :ref:`Learn more <bw1098ffc>`
-     - :ref:`Learn more <bg0249>`
 
 .. list-table::
-   :widths: 30 30 30
    :header-rows: 1
 
-   * - OAK-FFC-OV9282
+   * - OAK-FFC-IMX378
+     - OAK-FFC-OV9282
      - OAK-FFC-pToF
-     - ArduCam Cameras
-   * - .. image:: /_static/images/thumbnails/BG0250TG.png
+   * - .. image:: /_static/images/thumbnails/BG0249.png
+          :target: pages/BG0249.html
+     - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html
      - .. image:: /_static/images/thumbnails/DM0255.png
           :target: pages/DM0255.html
-     - .. image:: /_static/images/thumbnails/arducam_2.png
-          :target: pages/arducam.html
-   * - :ref:`Learn more <bg0250tg>`
+   * - :ref:`Learn more <bg0249>`
+     - :ref:`Learn more <bg0250tg>`
      - :ref:`Learn more <dm0255>`
-     - :ref:`Learn more <arducam>`
 
 
 All in One Dev. Kits Designs
@@ -199,9 +197,13 @@ All other hardware products.
    :header-rows: 1
 
    * - Y-adapter
+     - ArduCam Cameras
    * - .. image:: /_static/images/thumbnails/DM6010.png
           :target: pages/DM6010.html
+     - .. image:: /_static/images/thumbnails/arducam_2.png
+          :target: pages/arducam.html
    * - :ref:`Learn more <Y-adapter>`
+     - :ref:`Learn more <arducam>`
 
 .. list-table::
    :header-rows: 1
@@ -289,6 +291,7 @@ All other hardware products.
    :hidden:
    :caption: Modular Cameras
 
+   pages/DD2090.rst
    pages/DM1090.rst
    pages/BW1098FFC.rst
    pages/BG0250TG.rst
