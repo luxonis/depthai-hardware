@@ -13,8 +13,9 @@ OAK-FFC-pToF
 Overview
 ********
 
-The OAK-FFC-pToF is a carrier board for the Sunny MTP006 pTOF camera module, and is designed to be compatible with :ref:`OAK-FFC-3P <dm1090ffc>`
-and OAK-FFC-4P. It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this FFC module,
+The **OAK-FFC-pToF** is a carrier board for the **Sunny MTP006 pTOF** camera module, and is designed to be compatible with
+:ref:`OAK-FFC-3P`, :ref:`OAK-FFC-4P`, and :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>` baseboards.
+It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this FFC module,
 more information below at *Getting started*.
 
 Getting started
