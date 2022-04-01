@@ -1,11 +1,17 @@
 # DepthAI Open Source Hardware
-This repository contains Luxonis open sourced baseboards, including the DepthAI OpenCV AI Kits, and contains Altium design files, documentation, and pictures. This repository is for anyone interested in developing with the DepthAI SoM or anyone interested in understanding more about the embedded hardware that powers DepthAI. An open source, community KiCad folder is also available for sharing KiCad based designs and components. 
+
+[![Discord](https://img.shields.io/discord/790680891252932659?label=Discord)](https://discord.gg/luxonis)
+[![Forum](https://img.shields.io/badge/Forum-discuss-orange)](https://discuss.luxonis.com/)
+[![Docs](https://img.shields.io/badge/Docs-DepthAI_Hardware-yellow)](https://docs.luxonis.com/projects/hardware)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+This repository contains Luxonis open sourced baseboards, including the DepthAI OpenCV AI Kits, and contains Altium design files, documentation, and pictures. This repository is for anyone interested in developing with the DepthAI SoM or anyone interested in understanding more about the embedded hardware that powers DepthAI. An open source, community KiCad folder is also available for sharing KiCad based designs and components.
 
 # POE Designs
 
 ## [OAK-D-POE | SJ2088POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board)
 
-This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW1098OBC/BW1098OAK, but with POE instead of USB.  So 3 onboard cameras (1x onboard IMX378 12MP autofocus color camera, 2x global shutter grayscale for stereo depth), with the stereo baseline being 7.5cm (just like BW1098OBC/BW1098OAK/OAK-D).  
+This board is the basis for the OAK-D-POE.  And it is the equivalent of the BW1098OBC/BW1098OAK, but with POE instead of USB.  So 3 onboard cameras (1x onboard IMX378 12MP autofocus color camera, 2x global shutter grayscale for stereo depth), with the stereo baseline being 7.5cm (just like BW1098OBC/BW1098OAK/OAK-D).
 
 ![IMG_3045](https://user-images.githubusercontent.com/32992551/109262631-1cc40780-77bf-11eb-9263-034dd1b55ad4.JPG)
 
