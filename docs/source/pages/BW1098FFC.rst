@@ -45,11 +45,11 @@ Key features
 * 1 OAK-FFC-IMX378 RGB camera module interface
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
-* Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 3.3V SDIO
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
+* Pads for OAK-SoM 1.8V SPI
+* Pads for OAK-SoM 3.3V SDIO
+* Pads for OAK-SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * 5V Fan/Aux header
-* Pads for DepthAI SoM aux signals
+* Pads for OAK-SoM aux signals
 * Design files produced with Altium Designer 20
 
 Minimal and maximal perceiving distances of the camera
@@ -74,7 +74,7 @@ Getting started
 The OAK-FFC-3P-OG accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and 
 the :ref:`OAK-SoM <bw1099>`, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended.
 
-Interfacing with the OAK-SoM is also possible with OAK-FFC-3P-OG connector pads J3, J4, and J5. These pads are designed for the Amphenol/FCI 
+Interfacing with the :ref:`OAK-SoM` is also possible with OAK-FFC-3P-OG connector pads J3, J4, and J5. These pads are designed for the Amphenol/FCI 
 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout information.
 
 The reset button resets the OAK-SoM only.

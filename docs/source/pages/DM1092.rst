@@ -10,10 +10,12 @@ OAK-D-IOT-40
 Overview
 ********
 
-This design is one of two baseboards for the OAK-SoM-IoT (`BW1099EMB <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/BW1099EMB/R1M0E1>`__).
-If you are **new to OAK IOT devices, you can check** :ref:`Getting started with OAK IoT devices` tutorial.
-To read more on the why of this design, see `here <https://github.com/luxonis/depthai-hardware/issues/10>`__ and
-`here <https://github.com/luxonis/depthai-hardware/issues/9>`__.
+The **OAK-D-IoT-40** baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the
+:ref:`OAK-SoM-IoT` for depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or
+via ESP32 WiFi interface. If you are **new to OAK IOT devices, you can check** :ref:`Getting started with OAK IOT devices` tutorial.
+
+This design is one of two baseboards for the :ref:`OAK-SoM-IoT`, the other one being :ref:`OAK-D-IOT-75`. The only differnece
+is the the stereo baseline distance and the shape/size of the OAK camera.
 
 Hardware specifications
 ***********************
@@ -42,10 +44,10 @@ Getting started
 The OAK-D-IoT-40 accepts power input from 5V barrel jack and it can also accept power from USB C connector. Booting can be accomplished from either 
 the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is configured on BW1099EMB with BOOT resistors.
 
-* The reset button resets the Luxonis DepthAI :ref:`BW1099EMB <bw1099>` SoM only.
+* The reset button resets the :ref:`OAK-SoM-IoT` only.
 * The 5V LED indicates 5V power is present on the DM1092.
-* The PG LED indicates "power good" from the DepthAI :ref:`BW1099EMB <bw1099>` SoM.
-* The "RUN" LED indicates that the DepthAI SoM is not reset.
+* The PG LED indicates "power good" from the OAK-SoM-IoT.
+* The "RUN" LED indicates that the OAK-SoM-IoT is not reset.
 
 .. image:: /_static/images/DM1092/DM1092_back.jpg
 

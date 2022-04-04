@@ -1,0 +1,51 @@
+.. _dm3399:
+
+OAK-SoM-Max
+===========
+
+.. image:: /_static/images/SOM-Max/front.png
+
+Overview
+********
+
+**OAK-SoM-Max** has on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+and **quadcore ARM CPU**. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level system with
+a need for a low-power, high performance, real-time AI and depth perception.
+
+The OAK-SoM-Max interfaces with the system through three 10-gbps-rated 100-pin board-to-board mezzanine connector which
+carries all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary
+digital and analog power.
+
+.. include:: /pages/includes/som-pro-kb-vs-max.rst
+
+Board Layout
+************
+
+.. image:: /_static/images/SOM-Max/pinout.png
+
+
+Dimensions and Weight
+*********************
+
+* Width: 40 mm
+* Height: 40 mm
+* Length: 4 mm
+* Weight: 5g
+
+Key features
+************
+
+* :ref:`Keem Bay VPU <OAK Series 3>`
+* Interfaces with the system through three 10-gbps-rated 100-pin connectors (DF40C-100DP-0.4V(51))
+* 6 x 2-lane MIPI RX lines
+* 2 x 2-lane and 1x 4-lane MIPI TX lines
+* USB 3.1 Gen 2
+* Design files produced with Altium Designer 20
+
+Files
+*****
+
+See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Max>`__
+
+
+.. include::  /pages/includes/footer-short.rst

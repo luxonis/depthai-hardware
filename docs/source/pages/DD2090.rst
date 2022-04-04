@@ -41,10 +41,10 @@ Key features
 * 2x 4-Lane MIPI interface
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
-* Interface for Luxnois OAK-SoM
-* Pads for OAK-SoM1.8V SPI
-* Pads for OAK-SoM 3.3V SDIO
-* Pads for OAK-SoM 1.8V Aux Signals (I2C, UART, GPIO)
+* Interface for Luxnois :ref:`OAK-SoM-Pro`
+* Pads for OAK-SoM-Pro 1.8V SPI
+* Pads for OAK-SoM-Pro 3.3V SDIO
+* Pads for OAK-SoM-Pro 1.8V Aux Signals (I2C, UART, GPIO)
 * 5V Fan OR USB Type-C
 * Design files produced with Altium Designer 20
 
