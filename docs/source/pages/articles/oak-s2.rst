@@ -48,7 +48,8 @@ IR light from illumination LED/laser dot projector to the camera.
 Wide FOV
 ########
 
-Wide FOV (indicated as **W** in the camera name) version will have wide FOV lenses on all 3 cameras.
+Wide FOV (indicated as **W** in the camera name) version will have wide FOV lenses on all 3 cameras. Wide FOV lenses
+can only be fixed-focus.
 
 .. image:: /_static/images/guides/fov-vs-wfov.png
     :alt: Wide FOV lenses (right)
@@ -65,8 +66,8 @@ Smaller and ligher devices
 
 :ref:`OAK-D S2` is ~20% lighter than :ref:`OAK-D`. OAK-D POE S2 is 50% lighter than :ref:`OAK-D-POE`.
 
-.. image:: /_static/images/guides/oak-d_s1_vs_s2.png
+.. image:: /_static/images/guides/s1_vs_s2.png
 
-Left: :ref:`OAK-D`, Right: :ref:`OAK-D S2`
+Back: :ref:`OAK-D-PoE`, Front: :ref:`OAK-D S2 PoE` (Wide FOV)
 
 .. include::  /pages/includes/footer-short.rst

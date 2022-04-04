@@ -46,3 +46,6 @@ Wide FOV
     :alt: Wide FOV lenses (right)
 
 Left: normal FOV, Right: Wide FOV
+
+Wide FOV lenses can only be fixed-focus. For the color camera, you can select either 120° DFOV IMX378 (12MP, Fixed-Focus),
+or 150° DFOV color OV9782 (1MP, Fixed-Focus).
