@@ -1,10 +1,6 @@
 Getting started with OAK PoE devices
 ====================================
 
-We currently have two Power-over-Ethernet (PoE) devices:
- - :ref:`OAK-D-PoE` and
- - :ref:`OAK-1-PoE`
-
 PoE allows a single Cat5e (or higher) Ethernet cable to be used to both power a device and give it connectivity
 at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
 
@@ -30,10 +26,18 @@ How it works
 When your program tried to create the device (:code:`with dai.Device(pipeline) as device:`),
 the library will search for available devices that are connected either by USB port or on the LAN.
 It searches for PoE devices on the same network (eg. LAN) and communicates over TCP protocol.
-That way PoE devices work in same manner as USB devices. As with theUSB-C connection, you can specify
+That way PoE devices work in same manner as USB devices. As with the USB-C connection, you can specify
 the Mx ID to specify to which DepthAI PoE device you would want to connect to
 (`more info here <https://docs.luxonis.com/projects/api/en/latest/tutorials/multiple/>`__).
 
+PoE enclosure
+#############
+
+PoE enclosures are :ref:`IP67 rated <Waterproof enclosures>`, so they are dustproof and waterproof. Make sure that the
+**GORE vent isn't blocked** when you install the camera (especially outside), as it can lead to **moisture fogging up
+in front of cameras** (on the inside of the front cover).
+
+.. image:: /_static/images/guides/vent.png
 
 PoE Troubleshooting
 ###################
@@ -45,7 +49,7 @@ PoE Troubleshooting
 
 - **Ports and Firewall**
     UDP Device discovery is handled on port :code:`11491`, and TCP XLink connection is handled on port :code:`11490`.
-    
+
     On Ubuntu by default the firewall is disabled, so you shouldn't have any issues. You can check this though by executing the following command:
 
     .. code-block:: bash
