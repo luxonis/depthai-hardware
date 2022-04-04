@@ -22,7 +22,7 @@ Weight
 Arducam compatible cameras
 **************************
 
-These cameras are compatible with the :ref:`OAK-FFC-3P <dm1090ffc>`:
+These cameras are compatible with :ref:`OAK-FFC-3P <dm1090ffc>`, :ref:`OAK-FFC-4P`, and :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>`:
 
 - `M12-Mount Global Shutter Grayscale OV9282 <https://www.arducam.com/product/arducam-1mp-ov9282-global-shutter-mono-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
 - `M12-Mount Global Shutter Color OV9782 <https://www.arducam.com/product/arducam-1mp-ov9782-global-shutter-color-mipi-camera-module-22pin-for-depthai-oak-dm1090ffc/>`__
