@@ -16,6 +16,21 @@ The OAK-SoM interfaces with the system through a single 10-gbps-rated 100-pin bo
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxiliary power port is offered to interface without connection to a baseboard.
 
+Devices that use OAK-SoM
+************************
+
+All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
+are interested in integrating DepthAI (via SoM) into your product, see :ref:`documentation here <integrating_depthai_into_products>`.
+
+- :ref:`OAK-D`
+- :ref:`OAK-FFC-3P`
+- :ref:`OAK-FFC-3P-OG`
+- :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>`
+- :ref:`OAK-D-CM3`
+- :ref:`OAK-D-CM4`
+
+.. include:: /pages/includes/mx_inside.rst
+
 Board Layout
 ************
 

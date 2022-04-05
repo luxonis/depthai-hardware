@@ -15,6 +15,15 @@ The OAK-SoM-IoT (BW1099EMB) is a System on a Module (SoM) designed for integrati
 connector which carries all I/O signals as well as 5V input. The on-board SMPS system regulates the 5V input and provides 
 all necessary digital and analog power. An auxiliary power port is offered to interface without connection to a baseboard.
 
+Devices that use OAK-SoM-IoT
+****************************
+
+All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
+are interested in integrating DepthAI (via SoM) into your product, see :ref:`documentation here <integrating_depthai_into_products>`.
+
+- :ref:`OAK-D-IoT-40`
+- :ref:`OAK-D-IoT-75`
+
 .. include:: /pages/includes/mx_inside.rst
 
 Board Layout

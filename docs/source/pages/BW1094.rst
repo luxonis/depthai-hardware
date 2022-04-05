@@ -12,7 +12,7 @@ Overview
 
 The DepthAI RPi HAT Baseboard (BW1094) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) and one 
 :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with 
-the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the DepthAI SoM, 
+the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the :ref:`OAK-SoM`,
 parallel to the RST button.
 
 .. include:: /pages/includes/mx_inside.rst
@@ -52,8 +52,8 @@ the 5V GPIO pins. It is also possible to back-power the Raspberry Pi from the De
 barrel jack and to the Raspberry Pi at the same time.
 
 The Raspberry Pi GPIO header mostly passes through the DepthAI RPi HAT Baseboard with exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way
-to toggle reset on the DepthAI SoM. Reset is active high when toggled from the Raspberry Pi on BCM GPIO26. The 3.3V Raspberry Pi GPIO line is level
-shifted with an inverter to 1.8V, which is the standard IO for the DepthAI SoM. DepthAI SoM reset is active-low 1.8V. The reset button on board the
+to toggle reset on the :ref:`OAK-SoM`. Reset is active high when toggled from the Raspberry Pi on BCM GPIO26. The 3.3V Raspberry Pi GPIO line is level
+shifted with an inverter to 1.8V, which is the standard IO for the OAK-SoM. OAK-SoM reset is active-low 1.8V. The reset button on board the
 DepthAI RPi HAT Baseboard resets the OAK-SoM only.
 
 Auxiliary 1.8V IO for the OAK-SoM exist as J10 pads. The unpopulated connector is Amphenol/FCI 20021121-00020T1LF. Quad SPI, UART, I2C, SoM PGOOD,

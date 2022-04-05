@@ -170,8 +170,7 @@ System on Module Designs
 SoM is perfect :ref:`for integrating <Integrating DepthAI into products>` the power of DepthAI into your own products - or to customize one of our
 open-source hardware design as you see fit.
 
-.. list-table::
-   :widths: 30 30 30
+.. list-table:: SoMs with Myriad X VPU on-board
    :header-rows: 1
 
    * - OAK-SoM
@@ -187,6 +186,18 @@ open-source hardware design as you see fit.
      - :ref:`Learn more <bw1099emb>`
      - :ref:`Learn more <bw2099>`
 
+
+.. list-table:: SoMs with next-generation :ref:`Keem Bay VPU <OAK Series 3>` on-board
+   :header-rows: 1
+
+   * - OAK-SoM-Pro-KB
+     - OAK-SoM-Max
+   * - .. image:: /_static/images/thumbnails/dm2399.png
+          :target: pages/DM2399.html
+     - .. image:: /_static/images/thumbnails/dm3399.png
+          :target: pages/DM3399.html
+   * - :ref:`Learn more <dm2399>`
+     - :ref:`Learn more <dm3399>`
 
 Miscellaneous Designs
 *********************
@@ -316,6 +327,8 @@ All other hardware products.
    pages/BW1099.rst
    pages/BW1099EMB.rst
    pages/BW2099.rst
+   pages/DM2399.rst
+   pages/DM3399.rst
 
 .. toctree::
    :maxdepth: 1
