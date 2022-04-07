@@ -50,7 +50,7 @@ have 20x performance boost compared to Myriad X performance.
 Keem Bay supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
 model won't be any different from converting the model for Myriad X (which supports FP16).
 
-Keem Bay has 20 DPU (Data Processing Units) integrated which are capable of delivering 5120 TOPS (INT8) or 1.28 TFLOPS (FP16).
+Keem Bay has 20 DPU (Data Processing Units) integrated which are capable of delivering 5.12 TOPS (INT8) or 1.28 TFLOPS (FP16).
 It supports Sparse acceleration and compression increasing effective TOP's by 2x to 20TOPS and effective FPS performance by 2x+.
 
 Keem Bay specifications
@@ -72,7 +72,7 @@ Keem Bay specifications
    * - Stereo depth
      - 720P resolution at 180 FPS
    * - Video encoding
-     - Max 4K 75PFS. H.264, H.265 and JPEG codecs
+     - Max 4K 75FPS. H.264, H.265 and JPEG codecs
    * - Video decoding
      - Max 4K 60FPS, max 10 channels of 1080P/30FPS. H.264, H.265 and JPEG codecs
    * - Imaging
