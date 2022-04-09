@@ -51,13 +51,10 @@ Wide FOV
 Wide FOV (indicated as **W** in the camera name) version will have wide FOV lenses on all 3 cameras. Wide FOV lenses
 can only be fixed-focus.
 
-.. image:: /_static/images/guides/fov-vs-wfov.png
+.. image:: /_static/images/guides/nfov-vs-wfov.png
     :alt: Wide FOV lenses (right)
 
-Left: normal FOV, Right: Wide FOV
-
-Note that image above looks a bit "faded", as initial camera sensors don't have IR filter. Production version will have
-IR notch filter inside the CCM, which should eliminate this effect.
+Left: IMX378 AF (12MP), Right: OV9782 color FF (1MP)
 
 .. include:: /pages/includes/wide-fov.rst
 
