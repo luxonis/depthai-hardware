@@ -41,7 +41,7 @@ Key features
 * 2x 4-Lane MIPI interface
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
-* Interface for Luxnois :ref:`OAK-SoM-Pro`
+* Interface for Luxonis :ref:`OAK-SoM-Pro`
 * Pads for OAK-SoM-Pro 1.8V SPI
 * Pads for OAK-SoM-Pro 3.3V SDIO
 * Pads for OAK-SoM-Pro 1.8V Aux Signals (I2C, UART, GPIO)
