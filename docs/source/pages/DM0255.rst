@@ -51,7 +51,7 @@ Sensor specifications
    * - VFOV
      - 44.0° ± 5%
    * - VSCEL wavelength
-     - 850nm
+     - 940nm
    * - Operating temperature
      - -20°C to ~85°C
    * - EFL
