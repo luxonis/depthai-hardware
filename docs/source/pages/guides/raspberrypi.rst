@@ -80,6 +80,53 @@ Known image limitations
 
 #. On **OAK_CM4_POE**, WiFi is disabled by default. That's because we added second uSD card support by default (for storage purposes) and we believe it uses the same interface. To enable WiFi (and disable 2nd uSD card support), you can edit :code:`/boot/config.txt` and comment out the line :code:`dtoverlay=sdhost,poll_once=off` at the end of the file. After rebooting, the WiFi should be enabled.
 
+Flashing an image to the eMMC
+#############################
+
+:ref:`OAK-D-CM4` and :ref:`OAK-D CM4 PoE` have Raspberry Pi Compute module 4 (CM4) on-board. Most OAK-D-CM4 batches
+have CM4 with an eMMC memory on there, and most OAK-D CM4 PoE boards have CM4 Lite, which doesn't have eMMC memory,
+but instead boots from the uSD card. It's straight forward how to flash an image to the uSD card, and here we will
+go through the process of flashing an image to the eMMC that's on the CM4.
+
+Here's an OAK-D-CM4, which has CM4 with **eMMC memory that is indicated by the red arrow**. CM4 Lite versions won't
+have this chip in that location.
+
+.. image:: /_static/images/rpi/cm4-emmc.png
+
+To flash an image to the CM4 eMMC, we first need to enable USB_BOOT with the header pin. By default, connector is
+on the 2 header pins that are indicated as :code:`DIS` (disabled), so we have to move the connector to the :code:`EN`
+pins (enabled).
+
+.. image:: /_static/images/rpi/usb-boot.png
+
+After switching the connector, we can connect a micro-USB cable from our computer to the micro-USB connector that's
+also indicated by the red box above.
+
+Next, we need to **enable RPi USB boot**. I have followed the `tutorial here <https://github.com/raspberrypi/usbboot>`__.
+After building the program and running it, you should see something similar:
+
+.. code-block:: bash
+
+    /Documents/usbboot$ sudo ./rpiboot
+    RPIBOOT: build-date Apr 21 2022 version 20220315~121405 445356e1
+    Waiting for BCM2835/6/7/2711...
+    Loading embedded: bootcode4.bin
+    Sending bootcode.bin
+    Successful read 4 bytes
+    Waiting for BCM2835/6/7/2711...
+    Loading embedded: bootcode4.bin
+    Second stage boot server
+    Loading embedded: start4.elf
+    File read: start4.elf
+    Second stage boot server done
+
+After the boot is done, you should see the eMMC memory inside `Raspberry Pi Imager <https://www.raspberrypi.com/software/>`__
+or `Balena Etcher <https://www.balena.io/etcher/>`__ (what I have used, screenshot below), so you can **easily flash
+desired image to the eMMC**. After flashing is complete, make sure to disable the USB boot (by switching the connector
+again) and restart the device. It should boot from the newly flashed image!
+
+.. image:: /_static/images/rpi/etcher.png
+
 Raspberry Pi Zero
 #################
 
