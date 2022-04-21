@@ -1,6 +1,6 @@
 # NG9097: OAK-D Pro PoE
 
-[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9097.html)
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9097pro.html)
 
 ![OAK-D Pro PoE](https://docs.luxonis.com/projects/hardware/en/latest/_images/pro-poe1.png)
 

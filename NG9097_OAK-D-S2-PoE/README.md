@@ -1,5 +1,7 @@
 # NG9097: OAK-D PoE S2
 
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9097s2.html)
+
 ![OAK-D PoE S2](https://docs.luxonis.com/projects/hardware/en/latest/_images/s2-poe1.png)
 
 # Overview
