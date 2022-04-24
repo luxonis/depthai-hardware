@@ -42,7 +42,7 @@ depth FOV.
 Wide FOV
 ********
 
-.. image:: /_static/images/guides/fov-vs-wfov.png
+.. image:: /_static/images/guides/nfov-vs-wfov.png
     :alt: Wide FOV lenses (right)
 
 Left: normal FOV, Right: Wide FOV
