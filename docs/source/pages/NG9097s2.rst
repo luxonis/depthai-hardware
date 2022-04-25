@@ -28,6 +28,8 @@ Hardware specifications
 
 .. include:: /pages/includes/mx_inside.rst
 
+.. include:: /pages/includes/m8_connector.rst
+
 Dimensions and Weight
 *********************
 
