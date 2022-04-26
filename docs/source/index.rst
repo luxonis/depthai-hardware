@@ -17,7 +17,7 @@ USB Designs
 
 These are our most popular devices. Brought to market by a successful `KickStarter <https://www.kickstarter.com/projects/opencv/opencv-ai-kit>`__ campaign,
 OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **USB connection** is great for development - it's easy to use and allows up to
-10gbps throughput.
+10Gbps throughput.
 
 .. list-table::
    :header-rows: 1

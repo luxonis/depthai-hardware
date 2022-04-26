@@ -8,7 +8,7 @@ We currently have two Power-over-Ethernet (PoE) devices:
  - :ref:`OAK-1-PoE <sj2096>`
 
 If you are new to Power over Ethernet (POE), welcome; POE is extremely convenient.  POE allows a single Cat5e (or higher) Ethernet cable to be used to 
-both power a device and give it connectivity at 1,000mbps (1gbps) full-duplex at up to 100 meters (328 feet).
+both power a device and give it connectivity at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
 
 In this tutorial, we will go through the suggested hardware to use with Luxonis PoE devices.
 
@@ -20,14 +20,14 @@ General specification
 *********************
 
 - PoE Standard: **802.3af**
-- Data transfer rate: **1 GBps (1000BASE-T)**
+- Data transfer rate: **1 Gbps (1000BASE-T)**
 - Device power consumption: **average ~4W**, **max 6.25W**
 
 PoE Switch or Injector
 **********************
 
 The advised way to use DepthAI OAK PoE models is with a PoE switch.  We have a penchant for UniFi switches*, so we recommend these below, but any 802.3af 
-(or higher, such as 802.3at, 802.3bt, etc. can power and work with the OAK PoE models.  
+(or higher, such as 802.3at, 802.3bt, etc. can power and work with the OAK PoE models.
 
 PoE Switches range in all sorts of sizes, power capacities, and port numbers.  The OAK PoE devices work with the lowest-power PoE standard, 802.3af.  
 Any 802.3af PoE switch can deliver 12.95W per port, which is actually substantially higher than the max power that OAK PoE models require (which is under 6.25W). 
