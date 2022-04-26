@@ -27,7 +27,7 @@ Hardware specifications
 
 .. include:: /pages/includes/poe_connectivity.rst
 
-.. include:: /pages/includes/s2_imx378_ov9282.rst
+.. include:: /pages/includes/s2_sensors.rst
 
 .. include:: /pages/includes/pro.rst
 

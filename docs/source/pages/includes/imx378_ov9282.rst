@@ -27,4 +27,4 @@
      - 1/4 inch
    * - Pixel size
      - 1.55µm x 1.55µm
-     - 3µm x3µm
+     - 3µm x 3µm
