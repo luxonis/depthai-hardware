@@ -44,6 +44,10 @@ Sensor specifications
      - Sunny MTP006
    * - Resolution
      - 224x172
+   * - Depth range
+     - 20cm - 4m
+   * - Depth accuracy
+     - 20cm-40cm: Error below 2%, 40cm-4m: Error below 1%
    * - DFOV
      - 70.7° ± 5%
    * - HFOV
