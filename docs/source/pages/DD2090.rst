@@ -34,6 +34,8 @@ Dimensions and Weight
 * Length: 22 mm (PCBA and heatsink)
 * Weight: 41g (PCBA and heatsink)
 
+.. image:: /_static/images/FFC-4P/OAK-FFC-4P_dimensions.png
+
 Key features
 ************
 
