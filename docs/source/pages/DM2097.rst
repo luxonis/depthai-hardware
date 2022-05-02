@@ -15,7 +15,7 @@ Overview
 
 The **OAK-D CM4 PoE** is an upgraded version of :ref:`OAK-D-CM4`, as PoE is used both for power delivery and communication
 for the Rasbperry Pi `Compute Module 4 <https://www.raspberrypi.com/products/compute-module-4/?variant=raspberry-pi-cm4001000>`__,
-plus in comes in a IP67 rated enclosure. The enclosure is about the size as the :ref:`OAK-D-POE`.
+plus it comes in a IP67 rated enclosure. The enclosure is about the size as the :ref:`OAK-D-POE`.
 The color camera is also close to the right camera, so RGB-depth alignment isn't needed in most cases, which reduces system load.
 
 The OAK-D CM4 PoE combines a host (RPi CM4) and the :ref:`OAK-SoM-Pro` to allow for a fully standalone and integrated solution
