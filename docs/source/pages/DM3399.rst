@@ -36,6 +36,7 @@ Key features
 ************
 
 * :ref:`Keem Bay VPU <OAK Series 3>`
+* 4 GB RAM (2x16GBit)
 * Interfaces with the system through three 10-Gbps-rated 100-pin connectors (DF40C-100DP-0.4V(51))
 * 6 x 2-lane MIPI RX lines
 * 2 x 2-lane and 1x 4-lane MIPI TX lines

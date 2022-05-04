@@ -21,6 +21,8 @@ Series 3 roadmap
 This might be a bit optimistic roadmap due to supply chain issues, but we will hopefully stick to this roadmap.
 Initial S3 OAK cameras will have 2GB of RAM onboard and will use the 3400VE Keem Bay.
 
+:ref:`OAK-SoM-Max` will have 4GB RAM while :ref:`OAK-SoM-Pro-KB` will have 2GB RAM.
+
 **2022 Updates**
 
 - **February**: we manufactured the initial batch of :ref:`OAK-SoM-Pro-KB` (Keem Bay VPU onboard). We also started porting the DepthAI library to the new ecosystem (Keem Bay).
