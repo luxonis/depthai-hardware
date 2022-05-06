@@ -14,6 +14,11 @@ The **OAK-FFC-IMX378** is a carrier board for the Arducam PY011 IMX378 camera mo
 :ref:`OAK-FFC-3P`, :ref:`OAK-FFC-4P`, and :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>` baseboards. A 26-pin FFC is used
 to carry 5V power, 4-lane MIPI, I2C, and other control signals between the this camera module and the controller baseboard.
 
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/imx378.rst
+
 Board Layout and Dimensions
 ***************************
 

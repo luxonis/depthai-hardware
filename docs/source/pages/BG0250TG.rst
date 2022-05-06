@@ -16,6 +16,11 @@ to carry 5V power, 2-lane MIPI, I2C, and other control signals between ththis ca
 
 People typically use a pair (2) of OAK-FFC-OV9282 to create a stereo camera pair. We previously used Sunny TG161B or AN01V32 OV9282 camera module.
 
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/ov9282.rst
+
 Board Layout and Dimensions
 ***************************
 
