@@ -78,7 +78,7 @@ After SSH was successful, let's try running an example app :code:`python depthai
 Known image limitations
 #######################
 
-#. On **OAK_CM4_POE**, WiFi is disabled by default. That's because we added second uSD card support by default (for storage purposes) and we believe it uses the same interface. To enable WiFi (and disable 2nd uSD card support), you can edit :code:`/boot/config.txt` and comment out the line :code:`dtoverlay=sdhost,poll_once=off` at the end of the file. After rebooting, the WiFi should be enabled.
+#. On **OAK_CM4_POE**, since image **V8**, second uSD card support is disabled. That's because if uSD card support is enabled (for storage purposes), WiFi connectivity is disabled. To enable 2nd uSD card support (and disable WiFi connectivity), you can edit :code:`/boot/config.txt` and uncomment the line :code:`dtoverlay=sdhost,poll_once=off` at the end of the file, then reboot the system.
 
 Flashing an image to the eMMC
 #############################
