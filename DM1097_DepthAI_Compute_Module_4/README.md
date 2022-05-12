@@ -9,7 +9,7 @@ This design is now vetted and currently for sale ([here](https://shop.luxonis.co
 # Overview
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html) and the [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000).
 
-Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis DepthAI SoM to allow for a fully integrated solution for real-time spatial AI.
+Based on the BW1097 and Raspberry PI CM4IO board, the DM1097 combines a host and the Luxonis OAK SoM to allow for a fully integrated solution for real-time spatial AI.
 The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrates CM4 module, has gigabit ethernet, and populated with MagJack supporting POE. POE can be used with additional POE Hat.
 
 # Repository structure:
@@ -21,9 +21,9 @@ The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrat
 
 # Key features
 * Support for onboard stereo and RGB camera modules
-* Interface for Luxnois DepthAI SoM
+* Interface for Luxnois OAK SoM
 * Interface for Raspberry PI CM4/CM4 Lite
-* USB2 interface between CM4 and DepthAI SoM
+* USB2 interface between CM4 and OAK SoM
 * 2x USB2
 * 1x Aux USB2
 * Gigabit Ethernet connected directly to CM4
@@ -47,7 +47,7 @@ The biggest difference in DM1097 and BW1097 architecture is that DM1097 integrat
 # Getting started
 The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows an initial flash of eMMC on CM4. Alternatively, the microSD slot can be used with a bootable system image. 
 
-The reset button resets the Luxonis DepthAI SoM only. To reset the CM4/CM4 Lite, ground the `RUN` header via to the `GND` header via. To shutdown Bluetooth/WiFi, the `BT/WIFI_DISABLE` header can be used with `GND` on the center pin. To protect writing to EEPROM, gound `WP` header via to the `GND` header via. 
+The reset button resets the Luxonis OAK SoM only. To reset the CM4/CM4 Lite, ground the `RUN` header via to the `GND` header via. To shutdown Bluetooth/WiFi, the `BT/WIFI_DISABLE` header can be used with `GND` on the center pin. To protect writing to EEPROM, gound `WP` header via to the `GND` header via. 
 
 All those headers are not populated by default but can be added allowing those features. 
 

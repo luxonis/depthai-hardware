@@ -69,7 +69,7 @@ The following PoE injectors were tested on a 12V input:
 - Tycon Power TPDIN-1256GD-BT: Input voltage: 11 ~ 60V, works as expected.
 - Tycon Power TP-DC-1248GDX2-HP: Input voltage: 10 ~ 15V, only starts powering its own LED at 15V, so it is unreliable, even though the IEEE standard is 802.3af.
 
-Here's an example of connecting multiple DepthAI PoE devices to the UniFi switch:
+Here's an example of connecting multiple OAK PoE cameras to the UniFi switch:
 
 .. image:: /_static/images/poe/poe-switch.jpeg
 

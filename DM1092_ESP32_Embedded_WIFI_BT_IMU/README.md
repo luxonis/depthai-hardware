@@ -12,7 +12,7 @@ The DM1092 accepts power input from 5V barrel jack and it can also accept power 
 The reset button resets the Luxonis DepthAI OAK-SOM-IoT only.
 The 5V LED indicates 5V power is present on the DM1092.
 The PG LED indicates "power good" from the DepthAI OAK-SOM-IoT.
-The "RUN" LED indicates that the DepthAI SoM is not reset.
+The "RUN" LED indicates that the OAK SoM is not reset.
 
 ![](Images/ASM_DM1092_R1M1E1.jpg)
 

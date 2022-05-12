@@ -5,7 +5,7 @@
 [![Docs](https://img.shields.io/badge/Docs-DepthAI_Hardware-yellow)](https://docs.luxonis.com/projects/hardware)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains Luxonis open sourced baseboards, including the DepthAI OpenCV AI Kits, and contains Altium design files, documentation, and pictures. This repository is for anyone interested in developing with the DepthAI SoM or anyone interested in understanding more about the embedded hardware that powers DepthAI. An open source, community KiCad folder is also available for sharing KiCad based designs and components.
+This repository contains Luxonis open sourced baseboards, including the DepthAI OpenCV AI Kits, and contains Altium design files, documentation, and pictures. This repository is for anyone interested in developing with the OAK SoM or anyone interested in understanding more about the embedded hardware that powers DepthAI. An open source, community KiCad folder is also available for sharing KiCad based designs and components.
 
 # POE Designs
 
@@ -26,7 +26,7 @@ This is the basis for OAK-1-POE.  It is the equivalent of the BK1096_OAK, with w
 This design is in progress.  When complete it will support the DepthAI API over Ethernet, and some additional features like direct RTSP streaming.
 
 ## [BW2098POE](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board)
-The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW2099 DepthAI SoM. The BW2098POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 5V barrel jack. The Luxonis BW0249 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 channel directly into the Myriad X on the BW2099 module for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). Finally, the BW2098POE board exposes boot selection switches, allowing the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
+The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/master/BW2098POE_PoE_Board) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW2099 OAK SoM. The BW2098POE baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a 5V barrel jack. The Luxonis BW0249 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 channel directly into the Myriad X on the BW2099 module for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). Finally, the BW2098POE board exposes boot selection switches, allowing the end user to boot the BW2099 module from USB or the on-board eMMC or NOR flash.
 
 ![](BW2098POE_PoE_Board/Images/BW2098POE_R1M1E1_front.jpg)
 
@@ -34,12 +34,12 @@ The [BW2098POE repository](https://github.com/luxonis/depthai-hardware/tree/mast
 
 ## [DM1097](https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4#dm1097_r0m0e0-depthai-for-compute-module-4)
 The [DM1097](https://github.com/luxonis/depthai-hardware/tree/master/DM1097_DepthAI_Compute_Module_4#dm1097_r0m0e0-depthai-for-compute-module-4) contains the design files for DepthAI with an integrated/onboard [Raspberry Pi Compute Module 4](https://www.raspberrypi.org/products/compute-module-4/?variant=raspberry-pi-cm4001000).
-The DM1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. It is effectively the same as the BW1097, below, but with a Pi 4 computer module instead of a Pi 3 compute module.
+The DM1097 combines a host and the Luxonis OAK SoM to allow for fully integrated solution for real-time spatial AI. It is effectively the same as the BW1097, below, but with a Pi 4 computer module instead of a Pi 3 compute module.
 
 ![image](https://user-images.githubusercontent.com/32992551/109263101-edfa6100-77bf-11eb-85ef-037fe24e9975.png)
 
 ## [BW1097](BW1097_DepthAI_Compute_Module)
-The [BW1097 repository](/BW1097_DepthAI_Compute_Module) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and the [Raspberry Pi Compute Module 3+](https://www.raspberrypi.org/products/compute-module-3-plus/). Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. 
+The [BW1097 repository](/BW1097_DepthAI_Compute_Module) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 OAK SoM and the [Raspberry Pi Compute Module 3+](https://www.raspberrypi.org/products/compute-module-3-plus/). Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis OAK SoM to allow for fully integrated solution for real-time spatial AI. 
 
 ![](BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png)
 
@@ -64,7 +64,7 @@ This board is used in the depthai product known as the OpenCV AI Kit with Depth,
 ![image](https://user-images.githubusercontent.com/32992551/109374027-aaf7c680-786f-11eb-9e96-90e9928d161c.png)
 
 ## [BW1098OBC](BW1098OBC_DepthAI_USB3C)
-The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BW1098OBC baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
+The [BW1098OBC repository](BW1098OBC_DepthAI_USB3C) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 OAK SoM. The BW1098OBC baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the OAK SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C). 
 
 ![](BW1098OBC_DepthAI_USB3C/Images/BW1098OBC_R1M0E1_front.png)
 
@@ -86,19 +86,19 @@ More information about each design can be found in corresponding repositories.
 
 ## [DM1090FFC](DM1090FFC_DepthAI_USB3)
 
-The [DM1090FFC repository](DM1090FFC_DepthAI_USB3) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two [DM0250TG](DM0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [DM0249](DM0249_DepthAI_RGB_Camera) RGB camera module.
+The [DM1090FFC repository](DM1090FFC_DepthAI_USB3) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 OAK SoM. The DM1090FFC baseboard has three FFC interfaces which allow for two [DM0250TG](DM0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [DM0249](DM0249_DepthAI_RGB_Camera) RGB camera module.
 Besides Luxonis camera modules, several Arducam CCMs can be connected to [DM1090FFC](DM1090FFC_DepthAI_USB3). 
 Please note that only revision R1 and above (R1M1E1) ([DM0250TG](DM0250TG_DepthAI_Mono_Camera) and [DM0249](DM0249_DepthAI_RGB_Camera)) cameras with 26-pin FFC connectors can be connected to [DM1090FFC](DM1090FFC_DepthAI_USB3). 
 
 ![](DM1090FFC_DepthAI_USB3/Images/DM1090FFC-KIT.jpg)
 
 ## [BW1094](BW1094_DepthAI_HAT)
-The [BW1094 repository](BW1094_DepthAI_HAT) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM and as a HAT for the [RPi "B" models](https://www.raspberrypi.org/products/). The BW1094 baseboard has three FFC interfaces which allow for two [BG0250TG](BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](BG0249_DepthAI_RGB_Camera) RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with the exception of the 5V pins, GND pins, and [BCM GPIO26 (pin 37)](https://www.raspberrypi.org/documentation/usage/gpio/), which is used as a way for the Raspberry Pi to reset the DepthAI SoM, parallel to the RST button.  
+The [BW1094 repository](BW1094_DepthAI_HAT) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 OAK SoM and as a HAT for the [RPi "B" models](https://www.raspberrypi.org/products/). The BW1094 baseboard has three FFC interfaces which allow for two [BG0250TG](BG0250TG_DepthAI_Mono_Camera) camera modules (stereo pair) and one [BG0249](BG0249_DepthAI_RGB_Camera) RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with the exception of the 5V pins, GND pins, and [BCM GPIO26 (pin 37)](https://www.raspberrypi.org/documentation/usage/gpio/), which is used as a way for the Raspberry Pi to reset the OAK SoM, parallel to the RST button.  
 
 ![](BW1094_DepthAI_HAT/Images/BW1094_R0M0E0_front.png)
 
 ## [BK1096](BK1096_OAK-1_Modular)
-The [BK1096 repository](/BK1096_OAK-1_Modular) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 DepthAI SoM. The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the DepthAI SoM. 
+The [BK1096 repository](/BK1096_OAK-1_Modular) contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) BW1099 OAK SoM. The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the OAK SoM. 
 
 ![](BK1096_OAK-1_Modular/Images/BK1096_R0M0E0_front.jpg)
 

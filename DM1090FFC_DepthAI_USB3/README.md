@@ -40,9 +40,9 @@ In addition IMU over SPI support was also added to the 1090FFC.
 * 5V power input via barrel jack
 * USB 3.1 Gen 1 Type-C
 * Interface for Luxonis OAK-SOM
-* Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 3.3V SDIO 
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
+* Pads for OAK SoM 1.8V SPI
+* Pads for OAK SoM 3.3V SDIO 
+* Pads for OAK SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * 5V Fan OR USB Type-C 
 * Design files produced with Altium Designer 20
 
@@ -56,13 +56,13 @@ In addition IMU over SPI support was also added to the 1090FFC.
 
 # Getting started  
 
-The DM1090FFC  is powered via USB Type-C or from a 5V, 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
+The DM1090FFC  is powered via USB Type-C or from a 5V, 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the OAK SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
 
-Interfacing with the DepthAI SoM is also possible with DM1090FFC connector pads J3, J4, and J5. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information. 
+Interfacing with the OAK SoM is also possible with DM1090FFC connector pads J3, J4, and J5. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information. 
 
-The reset button resets the Luxonis DepthAI SoM only. The boot button overrides boot mode to USB boot if different boot mode is set in NOR Flash and 1099EMB SoM is used.
+The reset button resets the Luxonis OAK SoM only. The boot button overrides boot mode to USB boot if different boot mode is set in NOR Flash and 1099EMB SoM is used.
 
-The 5V LED indicates 5V power is present on the DM1090FFC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the DepthAI SoM is not in reset.
+The 5V LED indicates 5V power is present on the DM1090FFC. The PG LED indicates "power good" from the OAK SoM. The "RUN" LED indicates that the OAK SoM is not in reset.
 
 # Revision info
 

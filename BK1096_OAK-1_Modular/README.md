@@ -4,7 +4,7 @@
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the DepthAI SoM.
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The BK1096 baseboard offers a quick and simple way to add USB3 Type-C device power and connectivity, and a single 12MP RGB camera module to the OAK SoM.
 
 This is the open-source equivalent of BW1093 (OAK-1, megaAI), using the OAK-SOM (System on Module).  The BW1093 itself cannot be open-sourced because it contains  proprietary chip-down vendor information and therefore cannot be shared publicly.
 

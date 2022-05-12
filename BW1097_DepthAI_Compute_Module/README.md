@@ -7,7 +7,7 @@
 # Overview
 This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com/depthai) [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html) and the [Raspberry Pi Compute Module 3+](https://www.raspberrypi.org/products/compute-module-3-plus/). 
 
-Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis DepthAI SoM to allow for fully integrated solution for real-time spatial AI. 
+Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis OAK SoM to allow for fully integrated solution for real-time spatial AI. 
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -18,9 +18,9 @@ Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis
 
 # Key features
 * Support for on-board stereo and RGB camera modules
-* Interface for Luxnois DepthAI SoM
+* Interface for Luxnois OAK SoM
 * SODIMM for Raspberry PI CM3/CM3+
-* USB2 interface between CM3+ and DepthAI SoM
+* USB2 interface between CM3+ and OAK SoM
 * 2x USB2
 * 1x Aux USB2
 * 10/100 Ethernet
@@ -45,7 +45,7 @@ Based on the Raspberry PI CMIO board, the BW1097 combines a host and the Luxonis
 # Getting started
 The BW1097 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not populated by default, but can be added, allowing JTAG access. 
 
-The reset button resets the Luxonis DepthAI SoM only. To reset the CM3/CM3+, ground the `RUN` header via to the `GND` header via.
+The reset button resets the Luxonis OAK SoM only. To reset the CM3/CM3+, ground the `RUN` header via to the `GND` header via.
 
 The PWR LED indicates "power good" for the BW1097 on-board PMIC. The ACT LED indicates activity on the CM3/CM3+ device. Other indicator LEDs exist for the two USB2.0 Type A ports and for the 10/100 Ethernet port. 
 

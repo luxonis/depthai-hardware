@@ -6,7 +6,7 @@
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The BW1098OAK baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [OAK-SOM](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html). The BW1098OAK baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the OAK SoM for depth and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
 ## Repository structure:
 * `3D Models` contains generated 3D models of the board
@@ -22,19 +22,19 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * Interface for Luxnois OAK-SOM
 * USB 3.1 Gen1 Type-C
 * Power from **5V barrel jack** OR **5V USB3 Type-C**
-* Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 3.3V SDIO
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
+* Pads for OAK SoM 1.8V SPI
+* Pads for OAK SoM 3.3V SDIO
+* Pads for OAK SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * Design files produced with Altium Designer 20
 
 # Getting started
-The BW1098OAK is powered via USB Type-C or from a 5V, 5.5m x 2.5mm barrel jack. USB3 5Gbps speeds are standard for streaming video or data from the device. With cameras and the DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
+The BW1098OAK is powered via USB Type-C or from a 5V, 5.5m x 2.5mm barrel jack. USB3 5Gbps speeds are standard for streaming video or data from the device. With cameras and the OAK SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
 
-Interfacing with the DepthAI SoM is also possible with BW1098OAK connector pads J4, J5, and J6. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
+Interfacing with the OAK SoM is also possible with BW1098OAK connector pads J4, J5, and J6. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information.
 
 The reset button is not populated by default on the BW1098OAK, but can be added. Alternativey, the OAK-SOM can be reset by shorting RST to ground.
 
-The 5V LED indicates 5V power is present on the BW1098OBC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the DepthAI SoM is not in reset.
+The 5V LED indicates 5V power is present on the BW1098OBC. The PG LED indicates "power good" from the OAK SoM. The "RUN" LED indicates that the OAK SoM is not in reset.
 
 
 # Revision info

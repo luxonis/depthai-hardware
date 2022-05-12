@@ -17,7 +17,7 @@ DM1098EMB + [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/ma
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com) BW1099EMB DepthAI SoM. The BW1098EMB baseboard has three FFC interfaces which allow for two [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0) camera modules (stereo pair) and one [OAK-FFC-IMX378](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) RGB camera module.
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://www.luxonis.com) BW1099EMB OAK SoM. The BW1098EMB baseboard has three FFC interfaces which allow for two [OAK-FFC-OV9282](https://github.com/luxonis/depthai-hardware/tree/master/DM0250TG_DepthAI_Mono_Camera/R0M0E0) camera modules (stereo pair) and one [OAK-FFC-IMX378](https://github.com/luxonis/depthai-hardware/tree/master/DM0249_DepthAI_RGB_Camera/R0M0E0) RGB camera module.
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -30,9 +30,9 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * 5V power input via 2 pin JST connector
 * USB 3.1 Gen 1 Type-C
 * Connector for OAK-SoM 3.3V SPI0
-* Connector for DepthAI SoM 3.3V GPIO 
-* Connector for DepthAI SoM 1.8V AUX IOs (I2C, UART, GPIO)
-* Pads for DepthAI SoM aux signals
+* Connector for OAK SoM 3.3V GPIO 
+* Connector for OAK SoM 1.8V AUX IOs (I2C, UART, GPIO)
+* Pads for OAK SoM aux signals
 * Design files produced with Altium Designer 20
 
 # Board layout & dimensions
@@ -61,14 +61,14 @@ For detailed mechanical properties you can find 3D CAD model in [3D_Models](http
 
 # Getting started  
 
-The DM1098FFC accepts 5V (+/-10%) from a 2-pin JST connector and , and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
+The DM1098FFC accepts 5V (+/-10%) from a 2-pin JST connector and , and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the OAK SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
 
-Interfacing with the DepthAI SoM is also possible with 8pin 1.25mm Molex Picoblade connectors. Connectors used are the [Molex 53047-0810](https://www.molex.com/molex/products/part-detail/pcb_headers/0530470810), mating connectors and cable assemblies can be found on the link, we would normally ship the following cable assembly if bought as Kit: [Molex 151340802](https://www.molex.com/molex/products/part-detail/cable_assemblies/0151340802) . 
+Interfacing with the OAK SoM is also possible with 8pin 1.25mm Molex Picoblade connectors. Connectors used are the [Molex 53047-0810](https://www.molex.com/molex/products/part-detail/pcb_headers/0530470810), mating connectors and cable assemblies can be found on the link, we would normally ship the following cable assembly if bought as Kit: [Molex 151340802](https://www.molex.com/molex/products/part-detail/cable_assemblies/0151340802) . 
 Please refer to the schematics for pinout information. 
 
-The reset button resets the Luxonis DepthAI SoM only, and the BOOT button forces USB boot for recovery mode in case DepthAI NOR flash boot header is corrupted during development.  
+The reset button resets the Luxonis OAK SoM only, and the BOOT button forces USB boot for recovery mode in case DepthAI NOR flash boot header is corrupted during development.  
 
-The 5V LED indicates 5V power is present on the DM1098EMB. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the DepthAI SoM is not in reset.
+The 5V LED indicates 5V power is present on the DM1098EMB. The PG LED indicates "power good" from the OAK SoM. The "RUN" LED indicates that the OAK SoM is not in reset.
 
 
 

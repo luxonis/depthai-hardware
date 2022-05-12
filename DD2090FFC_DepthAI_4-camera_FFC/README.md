@@ -33,8 +33,8 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * IMU support
 * uSD card slot
 * Onboard EEPROM
-* Pads for DepthAI SoM 1.8V SPI
-* Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
+* Pads for OAK SoM 1.8V SPI
+* Pads for OAK SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * PSRBS connector (5V, STROBE, RST, BOOT_SEL, AUX_GPIO, FSIN_4LANE)
 * Design files produced with Altium Designer 22
 
@@ -46,13 +46,13 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 
 # Getting started  
 
-The DD2090FFC accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the DepthAI SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
+The DD2090FFC accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C. With cameras and the OAK SoM, total power consumption usually stays below the 900ma specification of USB 3, but Type-C power of 1.5A or greater is recommended. 
 
-Interfacing with the DepthAI SoM is also possible with DD2090FFC connector pads J4, and J5. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information. 
+Interfacing with the OAK SoM is also possible with DD2090FFC connector pads J4, and J5. These pads are designed for the [Amphenol/FCI 20021121-00010T1LF](https://octopart.com/20021121-00010t1lf-amphenol+icc+%2F+fci-93112650?r=sp) or equivalent. Please refer to the schematics for pinout information. 
 
-The reset button resets the Luxonis DepthAI SoM only. 
+The reset button resets the Luxonis OAK SoM only. 
 
-The 5V LED indicates 5V power is present on the DD2090FFC. The PG LED indicates "power good" from the DepthAI SoM. The "RUN" LED indicates that the DepthAI SoM is not in reset.
+The 5V LED indicates 5V power is present on the DD2090FFC. The PG LED indicates "power good" from the OAK SoM. The "RUN" LED indicates that the OAK SoM is not in reset.
 
 # Revision info
 

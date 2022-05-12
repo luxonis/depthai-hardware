@@ -10,7 +10,7 @@ OAK-D
 Overview
 ********
 
-The OAK-D baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the DepthAI SoM for depth 
+The OAK-D baseboard has three on-board cameras which implement stereo and RGB vision, piped directly into the OAK SoM for depth 
 and AI processing. The data is then output to a host via USB 3.1 Gen1 (Type-C).
 
 Hardware specifications

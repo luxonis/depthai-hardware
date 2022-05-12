@@ -40,7 +40,7 @@ Key features
 * 1000BASE-T ethernet
 * Header access for OAK-SoM-Pro 1.8V SPI
 * Header access for OAK-SoM-Pro 1.8V Aux Signals (I2C, UART, GPIO)
-* Micro SD connector for DepthAI SoM 3.3V SDIO
+* Micro SD connector for OAK SoM 3.3V SDIO
 * On-board PCIe ref clk for OAK-SoM-Pro and PCIe/Ethernet bridge
 * User-selectable OAK-SoM-Pro boot configuration switches
 * Design files produced with Altium Designer 20

@@ -20,7 +20,7 @@ This is the first revision and some errors were found in the design:
 
 # Overview
 
-This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2099.html?highlight=som%20pro) BW2099 DepthAI SoM. The OAK-D-IoT-40 baseboard features the following:
+This repository contains open hardware designed by Luxonis, and meant to be used as a baseboard for the [Luxonis](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2099.html?highlight=som%20pro) BW2099 OAK SoM. The OAK-D-IoT-40 baseboard features the following:
 
 - 2x OV9282 depth cameras
 - 1x IMX378 color camera
@@ -52,7 +52,7 @@ More about the "why" are we making this product available and open sourcing you 
 
 # Getting started
 
-The OAK-D-IoT-40 is powered via USB Type-C connector and requires USB3-capable host, or USB2 host that can provide 2A. Alternatively it can be powered via the 2.1mm barrel jack connector (refer to Annotation image under letter I). USB3 5-Gbps speeds are standard for streaming video or data from the device. With cameras and the DepthAI SoM, total power consumption usually stays below the 900mA specification of USB3. 
+The OAK-D-IoT-40 is powered via USB Type-C connector and requires USB3-capable host, or USB2 host that can provide 2A. Alternatively it can be powered via the 2.1mm barrel jack connector (refer to Annotation image under letter I). USB3 5-Gbps speeds are standard for streaming video or data from the device. With cameras and the OAK SoM, total power consumption usually stays below the 900mA specification of USB3. 
 
 
 # Revision info
