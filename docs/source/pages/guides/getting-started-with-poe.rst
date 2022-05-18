@@ -26,8 +26,8 @@ How it works
 When your app creates the device object (:code:`with dai.Device(pipeline) as device:`),
 the library will search for available devices that are connected either by USB port or are on the LAN.
 It searches for PoE devices (UDP broadcast) on the same network and communicates with the device using TCP protocol.
-That way OAK PoE cameras work in same manner as USB devices. As with the USB-C connection, you can specify
-the Mx ID to specify to which DepthAI PoE device you would want to connect to
+That way OAK PoE cameras work in same manner as USB cameras. As with the USB-C connection, you can specify
+the Mx ID to specify to which OAK PoE camera you would want to connect to
 (`more info here <https://docs.luxonis.com/projects/api/en/latest/tutorials/multiple/>`__).
 
 PoE enclosure
