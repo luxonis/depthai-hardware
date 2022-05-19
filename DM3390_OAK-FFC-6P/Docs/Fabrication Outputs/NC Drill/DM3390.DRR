@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM3390.PcbDoc   16/05/2022  15:05:58
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Layer
+ASCII Plated RoundHoles File : DM3390-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM3390-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DM3390-SlotHoles-Plated.TXT
+EIA File   : DM3390.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             824       PTH        1506.67mm (59.32inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        42.05mm (1.66inch)
+T3      1.05mm (41mil)                                            Slot              3         PTH        32.34mm (1.27inch)
+T4      3mm (118mil)                                              Round             4         PTH        102.00mm (4.02inch)
+T5      1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              836
+
+Total Processing Time (hh:mm:ss) : 00:00:00
