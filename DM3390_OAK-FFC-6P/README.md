@@ -1,4 +1,4 @@
-# OAK-FFC-6P
+# OAK-FFC-6P (WIP not vetted)
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/***.html) (TBD)
 
