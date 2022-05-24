@@ -6,7 +6,7 @@ OAK-D CM4 PoE
 .. role:: raw-html(raw)
    :format: html
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-cm4-poe>`__ - :raw-html:`<font color="red"><b>Currently in Beta stage</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-cm4-poe>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
 
 .. image:: /_static/images/DM2097/cm4-poe.png
 

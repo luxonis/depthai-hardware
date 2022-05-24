@@ -1,0 +1,46 @@
+.. _dm9098w:
+
+OAK-D W
+=======
+
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-w>`__
+
+.. image:: /_static/images/DM9098/oak-d-w.jpg
+
+Overview
+********
+
+The **OAK-D W** is a **Wide Field of View** (FoV) version of the :ref:`OAK-D S2`.
+
+Hardware specifications
+***********************
+
+.. include:: /pages/includes/usb_connectivity.rst
+
+.. include:: /pages/includes/s2_w_sensors.rst
+
+.. include:: /pages/includes/mx_inside.rst
+
+Dimensions and Weight
+*********************
+
+**Weight:** 91g
+
+.. image:: /_static/images/DM9098/oak-d-s2_dimansions.png
+
+.. include:: /pages/includes/depth_75_W.rst
+
+..
+    Datasheet
+    *********
+
+    * `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/DM9098_OAK-D-S2/Datasheet/OAK-D-S2_Datasheet.pdf>`__
+
+3D Models
+*********
+
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-S2/3D_Models>`__
+- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-S2/Mechanical>`__
+
+
+.. include::  /pages/includes/footer-short.rst
