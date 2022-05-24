@@ -263,6 +263,7 @@ All other hardware products.
 
 .. toctree::
      :caption: Series
+     :hidden:
 
      pages/articles/oak-s2.rst
      pages/articles/oak-s3.rst

@@ -158,7 +158,6 @@ Sunny style long FPC
 
 * IMX378
 
-  * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
   * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
 
 * OV9282
@@ -180,7 +179,7 @@ Arducam short FPC
 * IMX378
 
   * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
-  * WFOV FF - 108° HFOV, 93° VFOV
+  * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
 
 * IMX214
 
