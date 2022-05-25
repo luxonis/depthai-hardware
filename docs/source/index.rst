@@ -89,25 +89,6 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
    * - :ref:`Learn more <sj2096>`
      - :ref:`Learn more <sj2088poe>`
 
-IoT Designs
-***********
-
-IoT devices have all the same features as USB devices, but additionally feature **on-board flash** (`standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__)
-and on-board **integrated ESP32**, connected to the VPU via SPI (:ref:`more info <Getting started with OAK IoT devices>`).
-
-.. list-table::
-   :widths: 50 50
-   :header-rows: 1
-
-   * - OAK-D-IoT-40 (LUX-ESP32)
-     - OAK-D-IoT-75 (OAK-D-WiFi)
-   * - .. image:: /_static/images/thumbnails/DM1092.png
-          :target: pages/DM1092.html
-     - .. image:: /_static/images/thumbnails/DM1098OBC.png
-          :target: pages/DM1098OBC.html
-   * - :ref:`Learn more <dm1092>`
-     - :ref:`Learn more <dm1098obc>`
-
 Modular Cameras Designs
 ***********************
 
@@ -210,35 +191,24 @@ open-source hardware design as you see fit.
 Miscellaneous Designs
 *********************
 
-All other hardware products.
-
 .. list-table::
    :header-rows: 1
 
    * - Y-adapter
      - ArduCam Cameras
+     - PoE Board
    * - .. image:: /_static/images/thumbnails/DM6010.png
           :target: pages/DM6010.html
      - .. image:: /_static/images/thumbnails/arducam_2.png
           :target: pages/arducam.html
+     - .. image:: /_static/images/thumbnails/BW2098POE.png
+          :target: pages/BW2098POE.html
    * - :ref:`Learn more <Y-adapter>`
      - :ref:`Learn more <arducam>`
+     - :ref:`Learn more <bw2096poe>`
 
-.. list-table::
-   :header-rows: 1
 
-   * - PoE Board
-     - RPi Adapter Camera
-     - RPi HAT Baseboard
-   * - .. image:: /_static/images/thumbnails/BW2098POE.png
-          :target: pages/BW2098POE.html
-     - .. image:: /_static/images/thumbnails/BW0253.jpg
-          :target: pages/BW0253.html
-     - .. image:: /_static/images/thumbnails/rpi_hat.png
-          :target: pages/BW1094.html
-   * - :ref:`Learn more <bw2096poe>`
-     - :ref:`Learn more <bw0253>`
-     - :ref:`Learn more <bw1094>`
+**Other models** can be found :ref:`here <Other models>`.
 
 .. include::  /pages/includes/footer-long.rst
 
@@ -250,7 +220,6 @@ All other hardware products.
 
    pages/guides/device-comparison.rst
    pages/guides/realsense_comparison.rst
-   pages/guides/getting-started-with-iot.rst
    pages/guides/getting-started-with-poe.rst
    pages/guides/integrating_depthai_into_products.rst
    OAK Design Guide <pages/guides/design_guide.rst>
@@ -275,78 +244,3 @@ All other hardware products.
 
      pages/articles/oak-s2.rst
      pages/articles/oak-s3.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: USB Designs
-
-   pages/DM9095.rst
-   pages/DM9098s2.rst
-   pages/DM9098w.rst
-   pages/DM9098pro.rst
-   pages/NG9096.rst
-   pages/BW1093.rst
-   pages/BW1098OAK.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: PoE Designs
-
-   pages/SJ2096POE.rst
-   pages/SJ2088POE.rst
-   pages/NG9097s2.rst
-   pages/NG9097w.rst
-   pages/NG9097pro.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: IoT Design
-
-   pages/DM1092.rst
-   pages/DM1098OBC.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Modular Cameras
-
-   pages/DD2090.rst
-   pages/DM1090.rst
-   pages/BW1098FFC.rst
-   pages/BG0250TG.rst
-   pages/BG0249.rst
-   pages/DM0255.rst
-   pages/arducam.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: All In One Dev. Kits
-
-   pages/BW1097.rst
-   pages/DM1097.rst
-   pages/DM2097.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: System on Module
-
-   pages/BW1099.rst
-   pages/BW1099EMB.rst
-   pages/BW2099.rst
-   pages/DM2399.rst
-   pages/DM3399.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Miscellaneous Designs
-
-   pages/DM6010.rst
-   pages/BW0253.rst
-   pages/BW1094.rst
-   pages/BW2098POE.rst

@@ -105,16 +105,6 @@
             <td>Wide FOV option</td>
         </tr>
         <tr>
-            <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1092.html">OAK-D-IoT-40</a>  <a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1098OBC.html">OAK-D-IoT-75</a></b></td>
-            <td>✔️</td>
-            <td>✔️</td>
-            <td></td>
-            <td></td>
-            <td>✔️</td>
-            <td>ESP32</td>
-            <td></td>
-        </tr>
-        <tr>
             <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html">OAK-D-CM3</a>  <a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html">OAK-D-CM4</a></b></td>
             <td>✔️</td>
             <td>✔️</td>
