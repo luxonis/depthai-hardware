@@ -39,7 +39,7 @@ Active Stereo perception and Night Vision
 Standalone mode support
 #######################
 
-**OAK IoT** and **OAK PoE** models have on-board flash memory, so they can run in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__,
+**OAK PoE** and OAK IoT models have on-board flash memory, so they can run in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__,
 which means they don't need to be connected to a host computer to operate.
 
 **OAK CM** models have on-board Raspberry Pi Compute Module, which is technically the host computer of the `OAK SoM <https://docs.luxonis.com/projects/hardware/en/latest/#system-on-module-designs>`__,
@@ -48,10 +48,9 @@ but the device still runs on its own.
 Coprocessor
 ###########
 
-**OAK IoT** models have on-board `ESP32 <https://www.espressif.com/en/products/socs/esp32>`__ coprocessor, which provides
-IoT WiFi and Bluetooth connectivity to the device. For more information you can refer to :ref:`Getting started with OAK IoT devices` guide.
-
 **OAK CM** models have on-board Raspberry Pi Compute Module, either CM3 or CM4.
+
+Upcoming :ref:`OAK Series 3` will have onboard quadcore ARM with Yocto.
 
 Camera options
 ##############

@@ -459,7 +459,4 @@ you don't need to have the device connected to a host (RPi/PC/laptop...), more `
 This allows users to build small, low-powered embedded devices and :ref:`integrate OAK SOM <Integrating DepthAI into products>` to upgrade
 their products with the power of Spatial AI.
 
-:ref:`OAK IoT devices <IoT Designs>` have an ESP32 integrated, which communicates with the VPU via SPI (:ref:`Getting started docs <Getting started with OAK IoT devices>`).
-These devices also feature onboard flash for the standalone mode.
-
 .. include::  /pages/includes/footer-short.rst
