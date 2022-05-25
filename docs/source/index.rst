@@ -22,32 +22,36 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D Lite
-     - OAK-D S2
+   * - OAK-D S2
+     - OAK-D W
      - OAK-D Pro
-   * - .. image:: /_static/images/thumbnails/DM9095.png
-          :target: pages/DM9095.html
-     - .. image:: /_static/images/thumbnails/DM9098s2.png
+   * - .. image:: /_static/images/thumbnails/DM9098s2.png
           :target: pages/DM9098s2.html
+     - .. image:: /_static/images/thumbnails/oak-d-w.png
+          :target: pages/DM9098w.html
      - .. image:: /_static/images/thumbnails/DM9098pro.png
           :target: pages/DM9098pro.html
-   * - :ref:`Learn more <dm9095>`
-     - :ref:`Learn more <dm9098s2>`
+   * - :ref:`Learn more <dm9098s2>`
+     - :ref:`Learn more <dm9098w>`
      - :ref:`Learn more <dm9098pro>`
 
 .. list-table::
    :header-rows: 1
 
-   * - OAK-1 Lite
+   * - OAK-D Lite
+     - OAK-1 Lite
      - OAK-1
      - OAK-D
-   * - .. image:: /_static/images/thumbnails/oak-1-lite.png
+   * - .. image:: /_static/images/thumbnails/DM9095.png
+          :target: pages/DM9095.html
+     - .. image:: /_static/images/thumbnails/oak-1-lite.png
           :target: pages/NG9096.html
      - .. image:: /_static/images/thumbnails/OAK-1.png
           :target: pages/BW1093.html
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
-   * - :ref:`Learn more <ng9096>`
+   * - :ref:`Learn more <dm9095>`
+     - :ref:`Learn more <ng9096>`
      - :ref:`Learn more <bw1093>`
      - :ref:`Learn more <bw1098oak>`
 
@@ -60,26 +64,30 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 .. list-table::
    :header-rows: 1
 
-   * - OAK-1-PoE
-     - OAK-D S2 PoE
+   * - OAK-D S2 PoE
+     - OAK-D W PoE
      - OAK-D Pro PoE
-   * - .. image:: /_static/images/thumbnails/SJ2096POE.png
-          :target: pages/SJ2096POE.html
-     - .. image:: /_static/images/thumbnails/s2-poe.png
+   * - .. image:: /_static/images/thumbnails/s2-poe.png
           :target: pages/NG9097s2.html
+     - .. image:: /_static/images/thumbnails/oak-d-w-poe.png
+          :target: pages/NG9097w.html
      - .. image:: /_static/images/thumbnails/pro-poe.png
           :target: pages/NG9097pro.html
-   * - :ref:`Learn more <sj2096>`
-     - :ref:`Learn more <ng9097s2>`
+   * - :ref:`Learn more <ng9097s2>`
+     - :ref:`Learn more <ng9097w>`
      - :ref:`Learn more <ng9097pro>`
 
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D-PoE
-   * - .. image:: /_static/images/thumbnails/oak-d-poe.png
+   * - OAK-1-PoE
+     - OAK-D-PoE
+   * - .. image:: /_static/images/thumbnails/oak-1-poe.png
+          :target: pages/SJ2096POE.html
+     - .. image:: /_static/images/thumbnails/oak-d-poe.png
           :target: pages/SJ2088POE.html
-   * - :ref:`Learn more <sj2088poe>`
+   * - :ref:`Learn more <sj2096>`
+     - :ref:`Learn more <sj2088poe>`
 
 IoT Designs
 ***********
@@ -275,6 +283,7 @@ All other hardware products.
 
    pages/DM9095.rst
    pages/DM9098s2.rst
+   pages/DM9098w.rst
    pages/DM9098pro.rst
    pages/NG9096.rst
    pages/BW1093.rst
@@ -288,6 +297,7 @@ All other hardware products.
    pages/SJ2096POE.rst
    pages/SJ2088POE.rst
    pages/NG9097s2.rst
+   pages/NG9097w.rst
    pages/NG9097pro.rst
 
 .. toctree::
