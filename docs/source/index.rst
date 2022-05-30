@@ -272,14 +272,6 @@ Miscellaneous Designs
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: IoT Design
-
-   pages/DM1092.rst
-   pages/DM1098OBC.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: Modular Cameras
 
    pages/DD2090.rst
