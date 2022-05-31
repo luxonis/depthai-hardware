@@ -1,0 +1,54 @@
+IMX378
+======
+
+Sony's IMX378 is a 12MP (4056x3040) rolling shutter color camera. It's used in almost all of our products
+(:ref:`OAK-D`, :ref:`OAK-D S2` :ref:`OAK-D Pro`, :ref:`OAK-D-PoE`, :ref:`OAK-D S2 PoE`, etc.)
+as the color camera.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_12_MP
+     - 4056x3040
+     - 30 FPS
+   * - THE_4_K
+     - 3840 x 2160
+     - 30 FPS
+   * - THE_1080_P
+     - 1920x1080
+     - 60 FPS
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- :ref:`OAK-FFC-IMX378`
+
+.. figure:: /_static/images/sensors/imx378/imx378-FFC-boards.jpg
+
+  From left to right: :ref:`OAK-FFC-IMX378`, :ref:`OAK-FFC-IMX378` (Arducam short FPC), OAK-FFC-IMX378-W
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Sunny style long FPC:
+
+    * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
+* Arducam short FPC:
+
+    * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
+    * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
+
+On the image above (OAK FFC board) you can see all 3 different IMX378 CCMs.
+
+Additional images
+#################
+
+.. figure:: /_static/images/sensors/imx378/imx378w-oak-d-w.jpg
+
+  From left to right: Arducam short FPC WFOV (120° DFOV) IMX378 on the :ref:`OAK-D W`
+
+.. include::  /pages/includes/footer-short.rst

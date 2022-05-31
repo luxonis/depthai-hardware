@@ -3,6 +3,13 @@
 Supported sensors
 =================
 
+.. toctree::
+  :hidden:
+  :glob:
+  :maxdepth: 0
+
+  sensors/*
+
 DepthAI firmware has to have sensor configuration in order to support the given camera sensor. Currently, we support sensor
 configurations out-of-the-box (in firmware) for the camera sensors listed below. It's possible to use a different camera
 sensor, but you need to provide sensor configuration yourself.
@@ -23,12 +30,12 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - Shutter
      - Resolution
      - Notes
-   * - IMX378
+   * - :ref:`IMX378`
      - Fully integrated
      - rolling
      - 4056x3040
      - Used in most OAK cameras
-   * - OV9282
+   * - :ref:`OV9282`
      - Fully integrated
      - global
      - 1280x800
@@ -43,7 +50,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - global
      - 640x480
      - OV7251 used in :ref:`OAK-D-Lite` as stereo pair
-   * - IMX477
+   * - :ref:`IMX477`
      - Fully integrated
      - rolling
      - 4056x3040
@@ -145,7 +152,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      -
 
 Already built CCMs
-##################
+==================
 
 Here's the list of already built Compact Camera Modules (CCMs) by `Arducam <https://www.arducam.com/>`__.
 MOQ for OAK camera product with a custom configuration of CCMs from the listed below is 50 units. Please send an
@@ -156,19 +163,16 @@ NFOV = Normal FOV, WFOV = Wide FOV. NoIR = No IR filter, IR = IR filter. FF = Fi
 Sunny style long FPC
 --------------------
 
-* IMX378
+* :ref:`IMX378`
 
   * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
-
-* OV9282
+* :ref:`OV9282`
 
   * NFOV FF (IR/`NoIR <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__) - 81° DFOV, 72° HFOV, 49° VFOV
   * WFOV FF NoIR (`shop <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__) - 150° DFOV, 127° HFOV, 79.5° VFOV
-
 * OV9782
 
   * WFOV FF IR (`shop <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__) - 150° DFOV, 127° HFOV, 79.5° VFOV
-
 * OV7251
 
   * NFOV FF IR
@@ -176,27 +180,23 @@ Sunny style long FPC
 Arducam short FPC
 -----------------
 
-* IMX378
+* :ref:`IMX378`
 
   * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
   * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
-
 * IMX214
 
   * NFOV (AF/FF)
   * WFOV FF
-
-* OV9282 (notch filter is WIP instead of NoIR)
+* :ref:`OV9282` (notch filter is WIP instead of NoIR)
 
   * WFOV FF (NoIR/IR) - 150° DFOV, 127° HFOV, 79.5° VFOV
   * NFOV FF (NoIR/IR) - 81° DFOV, 72° HFOV, 49° VFOV
-
 * OV9782
 
   * WFOV FF IR - 150° DFOV, 127° HFOV, 79.5° VFOV
   * NFOV FF IR
-
-* IMX477
+* :ref:`IMX477`
 
   * AF (short FPC M12, haven't yet received samples)
 
@@ -206,8 +206,9 @@ Arducam longer FPC
 * AR0234
 
   * AF (Motorized Focus)
-
-* IMX477
+* :ref:`IMX477
 
   * AF (Motorized Focus)
   * M12 FF
+
+.. include::  /pages/includes/footer-short.rst
