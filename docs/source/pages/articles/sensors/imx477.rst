@@ -1,7 +1,7 @@
 IMX477
 ======
 
-Sony's IMX477 is a 12MP (4056x3040) rolling shutter color camera.
+Sony's IMX477 is a 12MP (4056x3040) rolling shutter color image sensor.
 
 Supported resolutions
 #####################

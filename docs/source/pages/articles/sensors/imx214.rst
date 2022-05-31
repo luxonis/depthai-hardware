@@ -1,7 +1,7 @@
 IMX214
 ======
 
-Sony's IMX214 is a 13MP (4208x3120) rolling shutter color camera. It's used as the color camera in OAK Lite variants;
+Sony's IMX214 is a 13MP (4208x3120) rolling shutter color image sensor. It's used as the color camera in OAK Lite variants;
 :ref:`OAK-D-Lite` and :ref:`OAK-1 Lite`.
 
 Supported resolutions

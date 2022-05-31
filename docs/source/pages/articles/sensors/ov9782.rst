@@ -1,0 +1,46 @@
+OV9782
+======
+
+`OMNIVISION's OV9782 <https://www.ovt.com/sensor/ov9782/>`__ is a 1MP (1280x800) global shutter color image sensor.
+It's **optionally** integrated into :ref:`OAK Series 2` Wide FOV cameras; :ref:`OAK-D W`, :ref:`OAK-D W PoE` as the
+150° DFOV color camera.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_800_P
+     - 1280x800
+     - 60 FPS
+   * - THE_720_P
+     - 1280x720
+     - 60 FPS
+   * - THE_400_P
+     - 640x400
+     - 120 FPS
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- `OAK-FFC-OV9782 with M12-Mount <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9782-22-pin>`__
+- OAK-FFC-OV9782 (WIP)
+
+.. figure:: /_static/images/sensors/ov9782/ov9782-FFC-boards.jpg
+
+  OAK-FFC-OV9782
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Sunny style long FPC:
+
+  * NFOV FF IR (`shop <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__) - 89.5° DFOV, 80° HFOV, 55° VFOV
+* Arducam short FPC:
+
+  * WFOV FF IR - 150° DFOV, 127° HFOV, 79.5° VFOV
+  * NFOV FF IR - 89.5° DFOV, 80° HFOV, 55° VFOV
+
+.. include::  /pages/includes/footer-short.rst

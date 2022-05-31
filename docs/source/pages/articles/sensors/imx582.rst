@@ -1,7 +1,7 @@
 IMX582
 ======
 
-Sony's IMX582 is a 48MP (8000x6000) rolling shutter color camera. It's the highest resolution sensor that depthai
+Sony's IMX582 is a 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
 currnetly supports.
 
 Supported resolutions

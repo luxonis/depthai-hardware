@@ -21,7 +21,7 @@ Sensor specifications
           - global
         * - FOV (D/H/V)
           - 81°/69°/55°
-          - 82°/72°/50°
+          - 89.5°/80°/55°
         * - Resolution
           - 12MP (4032x3040)
           - 1MP (1280x800)

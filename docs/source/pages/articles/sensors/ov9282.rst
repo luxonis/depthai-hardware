@@ -1,7 +1,7 @@
 OV9282
 ======
 
-`OMNIVISION's OV9282 <https://www.ovt.com/sensor/ov9282/>`__ is a 1MP (1280x800) global shutter grayscale camera.
+`OMNIVISION's OV9282 <https://www.ovt.com/sensor/ov9282/>`__ is a 1MP (1280x800) global shutter grayscale image sensor.
 It's used in almost all of our products (:ref:`OAK-D`, :ref:`OAK-D S2` :ref:`OAK-D Pro`, :ref:`OAK-D-PoE`, :ref:`OAK-D S2 PoE`, etc.)
 as the stereo camera pair.
 
@@ -37,12 +37,16 @@ Supported resolutions
 
 * Sunny style long FPC:
 
-  * NFOV FF (IR/`NoIR <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__) - 81° DFOV, 72° HFOV, 49° VFOV
+  * NFOV FF (IR/`NoIR <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__)
   * WFOV FF NoIR (`shop <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__) - 150° DFOV, 127° HFOV, 79.5° VFOV
 * Arducam short FPC:
 
   * WFOV FF (NoIR/IR) - 150° DFOV, 127° HFOV, 79.5° VFOV
-  * NFOV FF (NoIR/IR) - 81° DFOV, 72° HFOV, 49° VFOV
+  * NFOV FF (NoIR/IR) - 89.5° DFOV, 80° HFOV, 55° VFOV
+
+.. note::
+  Series 1 OAK-D cameras (:ref:`OAK-D`, :ref:`OAK-D-PoE`, :ref:`OAK-D-CM3`, etc.) have Sunny's long FPC NFOV IR OV9282
+  CCMs onboard, which have a bit narrower FOV - 81° DFOV, 72° HFOV, 49° VFOV.
 
 
 .. figure:: /_static/images/sensors/ov9282/ov9282-CCMs.jpg
