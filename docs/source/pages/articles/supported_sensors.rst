@@ -40,12 +40,12 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - global
      - 1280x800
      - Used in most OAK-D cameras
-   * - IMX214
+   * - :ref:`IMX214`
      - Fully integrated
      - rolling
      - 4208x3120
      - Used in :ref:`OAK-D-Lite` as color camera
-   * - OV7750 / OV7251
+   * - OV7750 / :ref:`OV7251`
      - Fully integrated
      - global
      - 640x480
@@ -173,7 +173,7 @@ Sunny style long FPC
 * OV9782
 
   * WFOV FF IR (`shop <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__) - 150° DFOV, 127° HFOV, 79.5° VFOV
-* OV7251
+* :ref:`OV7251`
 
   * NFOV FF IR
 
@@ -184,7 +184,7 @@ Arducam short FPC
 
   * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
   * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
-* IMX214
+* :ref:`IMX214`
 
   * NFOV (AF/FF)
   * WFOV FF

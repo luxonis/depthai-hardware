@@ -1,0 +1,52 @@
+IMX214
+======
+
+Sony's IMX214 is a 13MP (4208x3120) rolling shutter color camera. It's used as the color camera in OAK Lite variants;
+:ref:`OAK-D-Lite` and :ref:`OAK-1 Lite`.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_13_MP
+     - 4208x3120
+     - 30 FPS
+   * - THE_12_MP
+     - 4056x3040
+     - 30 FPS
+   * - THE_4_K
+     - 3840 x 2160
+     - 30 FPS
+   * - THE_1080_P
+     - 1920x1080
+     - 35 FPS
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- OAK-FFC-IM214 AF
+- OAK-FFC-IM214 FF
+
+.. figure:: /_static/images/sensors/imx214/imx214-FFC-boards.jpg
+
+  From left to right: OAK-FFC-214 FF, OAK-FFC-214 AF
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Arducam short FPC:
+
+    * NFOV (AF/FF)
+    * WFOV FF
+
+Additional images
+#################
+
+.. figure:: /_static/images/sensors/imx214/imx214-oak-d-lite.jpg
+
+  From left to right: Arducam short FPC NFOV FF IMX214 on the :ref:`OAK-D-Lite`
+
+.. include::  /pages/includes/footer-short.rst
