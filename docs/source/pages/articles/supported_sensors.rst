@@ -65,7 +65,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - global
      - 1280x800
      - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9782-22-pin>`__
-   * - AR0234
+   * - :ref:`AR0234`
      - Fully integrated
      - global
      - 1920x1200
@@ -198,7 +198,7 @@ Arducam short FPC
   * NFOV FF IR
 * :ref:`IMX477`
 
-  * AF (short FPC M12, haven't yet received samples)
+  * AF (short FPC M12-Mount, haven't yet received samples)
 * :ref:`IMX582`
 
   * AF - 82° DFOV, 68° HFOV, 55° VFOV
@@ -206,12 +206,12 @@ Arducam short FPC
 Arducam longer FPC
 ------------------
 
-* AR0234
+* :ref:`AR0234`
 
-  * AF (Motorized Focus)
+  * M12-Mount AF (Motorized Focus)
 * :ref:`IMX477`
 
   * AF (Motorized Focus)
-  * M12 FF
+  * M12-Mount FF
 
 .. include::  /pages/includes/footer-short.rst

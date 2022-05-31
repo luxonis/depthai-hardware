@@ -1,0 +1,37 @@
+AR0234
+======
+
+`ON Semiconductor's AR0234 <https://www.onsemi.com/products/sensors/image-sensors/ar0234cs>`__ is a 2.3MP (1920x1200)
+global shutter color camera.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_1200_P
+     - 1920x1200
+     - /
+
+.. include::  /pages/articles/sensors/includes/multi-cam-support.rst
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- OAK-FFC-AR0234-M12 (WIP)
+
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Arducam longer FPC:
+
+  * M12-Mount AF (Motorized Focus)
+
+.. figure:: /_static/images/sensors/ar0234/ar0234-ccms.jpg
+
+  Arducam longer FPC M12-Mount AF AR0234. From left to right: `1/2.5" M12 Mount <https://www.arducam.com/product/m2016zh01-2/>`__, `1/2.3" M12 Mount <https://www.arducam.com/product/arducam-50-degree-1-2-3-m12-lens-with-lens-adapter-for-raspberry-pi-high-quality-cameraarducam-50-degree-1-2-3-m12-lens-with-lens-adapter-for-raspberry-pi-high-quality-camera/>`__, `1/2.8" M12 Mount <https://www.arducam.com/product/arducam-12mm-m12-lens-m2512zh03-for-usb-camera1-2-7-1-2-8%e2%80%b3-1-2-9%e2%80%b3-ln065/>`__
+
+.. include::  /pages/includes/footer-short.rst
