@@ -42,6 +42,10 @@ Key features
 * 2 x 2-lane and 1x 4-lane MIPI TX lines
 * USB 3.1 Gen 2
 * Design files produced with Altium Designer 20
+* Voltage levels: All I2C busses are 1.8V
+* Pull-up resistors: 2.2k pull-up resistors located on SoM
+* Min/max data rates: Keembay supports the following, all on I2C busses: 1) Standard Mode (100kHz), 2) Fast Mode (400kHz), 3) Fast Mode Plus (1MHz), and 4) High Speed Mode (3.4MHz)
+* I2C0 bus devices: RTC circuit (address 0xD2) and EEPROM (address 0x50)
 
 Files
 *****
