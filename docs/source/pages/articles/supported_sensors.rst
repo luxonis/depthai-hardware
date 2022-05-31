@@ -85,11 +85,11 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - rolling
      - 4056x3040
      - Initially tested, similar to IMX477
-   * - IMX586
+   * - IMX586 / :ref:`IMX582`
      - Initially tested
      - rolling
      - 8000x6000
-     - Currently works in binning mode 4000x3000
+     - 5312x6000 supported
    * - IMX334
      - Not tested
      - rolling
@@ -199,6 +199,9 @@ Arducam short FPC
 * :ref:`IMX477`
 
   * AF (short FPC M12, haven't yet received samples)
+* :ref:`IMX582`
+
+  * AF - 82° DFOV, 68° HFOV, 55° VFOV
 
 Arducam longer FPC
 ------------------
@@ -206,7 +209,7 @@ Arducam longer FPC
 * AR0234
 
   * AF (Motorized Focus)
-* :ref:`IMX477
+* :ref:`IMX477`
 
   * AF (Motorized Focus)
   * M12 FF

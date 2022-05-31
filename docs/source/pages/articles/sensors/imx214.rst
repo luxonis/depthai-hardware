@@ -28,8 +28,8 @@ Supported resolutions
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
-- OAK-FFC-IM214 AF
-- OAK-FFC-IM214 FF
+- OAK-FFC-IMX214 AF
+- OAK-FFC-IMX214 FF
 
 .. figure:: /_static/images/sensors/imx214/imx214-FFC-boards.jpg
 
