@@ -23,3 +23,6 @@ OAK SoM differences
 - **Size**
     - **Pro-KB**: 30mm x 45mm
     - **Max**: 40mm x 40mm
+    
+    
+ - **Voltages**
