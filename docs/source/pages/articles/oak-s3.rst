@@ -25,8 +25,10 @@ Initial S3 OAK cameras will have 2GB of RAM onboard and will use the 3400VE Keem
 
 **2022 Updates**
 
-- **February**: we manufactured the initial batch of :ref:`OAK-SoM-Pro-KB` (Keem Bay VPU onboard). We also started porting the DepthAI library to the new ecosystem (Keem Bay).
-- **March**: we designed :ref:`OAK-SoM-Max` and started porting DepthAI stack.
+- **February**: We manufactured the initial batch of :ref:`OAK-SoM-Pro-KB` (Keem Bay VPU onboard). We also started porting the DepthAI library to the new ecosystem (Keem Bay).
+- **March**: We designed :ref:`OAK-SoM-Max` and started porting DepthAI stack.
+- **May**: We received initial :ref:`OAK-SoM-Max` boards and designed OAK-FFC-6P which will use OAK-SoM-Max.
+- **July**: [Planned] HW bringup of OAK-FFC-6P. New batch of OAK-SoM-Pro-KBs.
 
 For **updates on the progress of Keem Bay / OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 
