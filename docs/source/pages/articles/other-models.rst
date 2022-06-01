@@ -17,9 +17,9 @@ and on-board **integrated ESP32**, connected to the VPU via SPI (:ref:`more info
    * - OAK-D-IoT-40
      - OAK-D-IoT-75
    * - .. image:: /_static/images/thumbnails/DM1092.png
-          :target: pages/DM1092.html
+          :target: ../DM1092.html
      - .. image:: /_static/images/thumbnails/DM1098OBC.png
-          :target: pages/DM1098OBC.html
+          :target: ../DM1098OBC.html
    * - :ref:`Learn more <dm1092>`
      - :ref:`Learn more <dm1098obc>`
 
@@ -32,9 +32,9 @@ Others
    * - RPi Adapter Camera
      - RPi HAT Baseboard
    * - .. image:: /_static/images/thumbnails/BW0253.jpg
-          :target: pages/BW0253.html
+          :target: ../BW0253.html
      - .. image:: /_static/images/thumbnails/rpi_hat.png
-          :target: pages/BW1094.html
+          :target: ../BW1094.html
    * - :ref:`Learn more <bw0253>`
      - :ref:`Learn more <bw1094>`
 
