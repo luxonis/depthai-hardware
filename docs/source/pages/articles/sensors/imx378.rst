@@ -39,8 +39,9 @@ Supported resolutions
     * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
 * Arducam short FPC:
 
-    * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
-    * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
+    * NFOV AF (PY004) - 78° DFOV, 66° HFOV, 54° VFOV, EFL: 4.81, F. NO: 1.8±5%, Distortion: < 1%, Lens Size: 1/2.3"
+    * NFOV FF (PY052) - 82° DFOV, 69° HFOV, 55° VFOV, EFL: 4.74, F. NO: 1.8±5%, Distortion: < 1.5%, Lens Size: 1/2.3"
+    * WFOV FF (PY060) - 120° DFOV, 108° HFOV, 93° VFOV, EFL: 2.75, F. NO: 2.8±5%, Distortion: < -14.6%, Lens Size: 1/2.3"
 
 On the image above (OAK FFC board) you can see all 3 different IMX378 CCMs.
 

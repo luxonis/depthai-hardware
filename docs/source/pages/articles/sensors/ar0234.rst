@@ -28,7 +28,7 @@ Supported resolutions
 
 * Arducam longer FPC:
 
-  * M12-Mount AF (Motorized Focus)
+  * M12-Mount AF (PY056) - Motorized Focus
 
 .. figure:: /_static/images/sensors/ar0234/ar0234-ccms.jpg
 
