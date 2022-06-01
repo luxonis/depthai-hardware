@@ -1,0 +1,43 @@
+OV7251
+======
+
+`OMNIVISION's OV7251 <https://www.ovt.com/sensor/ov7251/>`__ is a 480P (640x480) global shutter grayscale image sensor.
+It's used in :ref:`OAK-D-Lite` as the stereo camera pair.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_480_P
+     - 640x480
+     - 99 FPS
+   * - THE_400_P
+     - 640x400
+     - 117 FPS
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- OAK-FFC-OV7251 (WIP)
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Sunny style long FPC:
+
+  * NFOV FF (PY013) - 86° DFOV, 73° HFOV, 58° VFOV, EFL: 1.24, F. NO: 2.0±5%, Distortion: < 1.5%, Lens Size: 1/7" - on all :ref:`OAK-D-Lite` cameras
+* Arducam short FPC:
+
+  * WFOV FF (PY030) - 166° DFOV, 163° HFOV, 157° VFOV, EFL: 0.83, F. NO: 2.0±5%, Distortion: < -36.67%, Lens Size: 1/7.5"
+
+Additional images
+#################
+
+.. figure:: /_static/images/sensors/ov7251/ov7251-oak-d-lite.jpg
+
+  Sunny style long FPC NFOV FF IR on the :ref:`OAK-D-Lite`
+
+.. include::  /pages/includes/footer-short.rst

@@ -5,8 +5,8 @@
      - Color camera
      - Stereo pair
    * - Sensor
-     - IMX378
-     - OV9282
+     - :ref:`IMX378`
+     - :ref:`OV9282`
    * - DFOV / HFOV / VFOV
      - 81° / 69° / 55°
      - 82° / 72° / 50°

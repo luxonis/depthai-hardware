@@ -1,0 +1,57 @@
+IMX582
+======
+
+Sony's IMX582 is a 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
+currnetly supports.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_13_MP
+     - 5312x6000
+     - /
+
+Currently full resolution is center cropped to 5312x6000 (due to current ISP width limit). We are working on
+implementing split processing for the full 8000 width.
+So current image is much narrower HFOV than the camera actually is (see image below), just because of this current
+limitation on linewidth.
+
+To use IMX582, checkout `depthai-python <https://github.com/luxonis/depthai-python>`__ to the ``tmp_imx582_48mp``
+branch, and install the library by running ``python3 examples/install_requirements.py``. You can quikcly evaluate
+the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 13mp``.
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- OAK-FFC-IMX582
+
+.. figure:: /_static/images/sensors/imx582/imx582-ffc.jpg
+
+  OAK-FFC-IMX582 (AF, NFOV)
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Arducam short FPC:
+
+  * NFOV AF (PY080) - 82° DFOV, 68° HFOV, 55° VFOV, EFL: 4.74, F. NO: 1.79±5%, Distortion: < 1.5%, Lens Size: 1/2"
+
+.. figure:: /_static/images/sensors/imx582/imx582-ccm.jpg
+
+  Arducam short FPC NFOV AF IMX582
+
+Additional images
+#################
+
+.. figure:: /_static/images/sensors/imx582/car-license-plate-70m.png
+  :target: https://photos.app.goo.gl/qdm7QRLUEh1FrDyP6
+
+  Car license plate at 70m. Click on this image for the full resolution image on Google Photos. Use scroll wheel
+  to zoom into the picture, red cars license plate should be visible.
+
+
+.. include::  /pages/includes/footer-short.rst

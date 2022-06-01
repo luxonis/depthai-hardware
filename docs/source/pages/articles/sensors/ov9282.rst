@@ -1,0 +1,69 @@
+OV9282
+======
+
+`OMNIVISION's OV9282 <https://www.ovt.com/sensor/ov9282/>`__ is a 1MP (1280x800) global shutter grayscale image sensor.
+It's used in almost all of our products (:ref:`OAK-D`, :ref:`OAK-D S2` :ref:`OAK-D Pro`, :ref:`OAK-D-PoE`, :ref:`OAK-D S2 PoE`, etc.)
+as the stereo camera pair.
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+   * - THE_800_P
+     - 1280x800
+     - 60 FPS
+   * - THE_720_P
+     - 1280x720
+     - 60 FPS
+   * - THE_400_P
+     - 640x400
+     - 120 FPS
+
+.. include::  /pages/articles/sensors/includes/ffc-section.rst
+
+- :ref:`OAK-FFC-OV9282`
+- `OAK-FFC-OV9282 with M12-Mount <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9282-22-pin>`__
+
+.. figure:: /_static/images/sensors/ov9282/ov9282-FFC-boards.jpg
+
+  From left to right: `OAK-FFC-OV9282 with M12-Mount <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9282-22-pin>`__, :ref:`OAK-FFC-OV9282`, OAK-FFC-OV9282-W
+
+.. include::  /pages/articles/sensors/includes/ccm-section.rst
+
+* Sunny style long FPC:
+
+  * NFOV FF (IR/`NoIR <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__)
+  * WFOV FF NoIR (`shop <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__) - 150° DFOV, 127° HFOV, 79.5° VFOV
+* Arducam short FPC:
+
+  * NFOV FF (PY003) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Distortion: < 1%, Lens Size: 1/4"
+  * NFOV FF Notch filter 940nm (PY091) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Distortion: < 1%, Lens Size: 1/4"
+  * WFOV FF (PY059) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+  * WFOV FF NoIR (PY075WN) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+  * WFOV FF Notch filter 940nm (PY097W) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+.. note::
+  Series 1 OAK-D cameras (:ref:`OAK-D`, :ref:`OAK-D-PoE`, :ref:`OAK-D-CM3`, etc.) have Sunny's long FPC NFOV IR OV9282
+  CCMs onboard, which have a bit narrower FOV - 81° DFOV, 72° HFOV, 49° VFOV.
+
+
+.. figure:: /_static/images/sensors/ov9282/ov9282-CCMs.jpg
+
+  From left to right: Sunny style long FPC WFOV, Sunny style long FPC NFOV, Arducam short FPC NFOV
+
+Additional images
+#################
+
+.. figure:: /_static/images/sensors/ov9282/ov9282-oak-d.jpg
+
+  Sunny style long FPC NFOV OV9282 on the :ref:`OAK-D`
+
+.. figure:: /_static/images/sensors/ov9282/ov9282w-oak-d-w.jpg
+
+  Arducam short FPC WFOV OV9282 (150° DFOV) on the :ref:`OAK-D W`
+
+.. include::  /pages/includes/footer-short.rst

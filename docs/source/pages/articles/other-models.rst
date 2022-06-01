@@ -38,4 +38,4 @@ Others
    * - :ref:`Learn more <bw0253>`
      - :ref:`Learn more <bw1094>`
 
-.. include::  /pages/includes/footer-long.rst
+.. include::  /pages/includes/footer-short.rst

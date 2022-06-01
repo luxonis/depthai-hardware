@@ -15,8 +15,8 @@ Sensor specifications
           - Color camera
           - Stereo pair
         * - Sensor
-          - IMX378
-          - OV9282
+          - :ref:`IMX378`
+          - :ref:`OV9282`
         * - Shutter
           - rolling
           - global
@@ -69,8 +69,8 @@ Sensor specifications
           - Color camera
           - Stereo pair
         * - Sensor
-          - OV9782
-          - OV9282
+          - :ref:`OV9782`
+          - :ref:`OV9282`
         * - Shutter
           - global
           - global
