@@ -60,7 +60,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - global
      - 1280x800
      -
-   * - OV9782
+   * - :ref:`OV9782`
      - Fully integrated
      - global
      - 1280x800

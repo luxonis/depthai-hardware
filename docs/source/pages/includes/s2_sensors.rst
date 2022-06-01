@@ -14,13 +14,13 @@ Sensor specifications
           - Color camera
           - Stereo pair
         * - Sensor
-          - IMX378
-          - OV9282
+          - :ref:`IMX378`
+          - :ref:`OV9282`
         * - Shutter
           - rolling
           - global
         * - FOV (D/H/V)
-          - 81°/69°/55°
+          - 78°/66°/54
           - 89.5°/80°/55°
         * - Resolution
           - 12MP (4032x3040)
@@ -54,8 +54,8 @@ Sensor specifications
           - Color camera
           - Stereo pair
         * - Sensor
-          - IMX378
-          - OV9282
+          - :ref:`IMX378`
+          - :ref:`OV9282`
         * - Shutter
           - rolling
           - global

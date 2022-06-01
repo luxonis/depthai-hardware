@@ -4,7 +4,7 @@
    * - Camera Specs
      - Color camera
    * - Sensor
-     - IMX378
+     - :ref:`IMX378`
    * - DFOV / HFOV / VFOV
      - 81° / 69° / 55°
    * - Resolution
