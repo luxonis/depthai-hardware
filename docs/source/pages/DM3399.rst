@@ -3,7 +3,7 @@
 OAK-SoM-Max
 ===========
 
-.. image:: /_static/images/SOM-Max/front.png
+.. image:: /_static/images/SOM-Max/OAK-SoM-MAX-white_background.jpg
 
 Overview
 ********
