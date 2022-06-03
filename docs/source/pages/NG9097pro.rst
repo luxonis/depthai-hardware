@@ -40,7 +40,7 @@ Dimensions and Weight
 
 **Weight:** 184g
 
-.. image:: /_static/images/NG9097/dimensions.png
+.. image:: /_static/images/NG9097/dimensions-pro.png
 
 .. image:: /_static/images/NG9097/pro-poe-back.png
 

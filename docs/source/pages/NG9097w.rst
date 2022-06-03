@@ -34,7 +34,7 @@ Dimensions and Weight
 
 **Weight:** 184g
 
-.. image:: /_static/images/NG9097/dimensions-s2-poe.png
+.. image:: /_static/images/NG9097/dimensions.png
 
 .. include:: /pages/includes/depth_75_W.rst
 

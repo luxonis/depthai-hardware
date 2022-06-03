@@ -26,7 +26,7 @@ Dimensions and Weight
 
 **Weight:** 91g
 
-.. image:: /_static/images/DM9098/oak-d-s2_dimansions.png
+.. image:: /_static/images/DM9098/dimensions.png
 
 .. include:: /pages/includes/depth_75_W.rst
 

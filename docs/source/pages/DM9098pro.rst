@@ -34,7 +34,7 @@ Dimensions and Weight
 
 **Weight:** 91g
 
-.. image:: /_static/images/DM9098/oak-d-pro-dimensions.png
+.. image:: /_static/images/DM9098/dimensions-pro.png
 
 .. include:: /pages/includes/depth_75_800P.rst
 
