@@ -51,7 +51,7 @@ The nice thing about using PoE switches, is then one has a clean, plug-and-play 
 If you would like to use your existing non-PoE switch, it is possible to do so using what's called a PoE Injector.
 
 PoE injector injects power to the ethernet cable, so it can power various PoE devices (eg. our OAKs). So if you'd prefer to use an existing
-non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B07JCB5XWF/>`__
+non-PoE switch (e.g. one included in an ISP router/modem/switch combo) you can do so with a PoE injector like this `TP-Link <https://www.amazon.com/gp/product/B001PS9E5I>`__
 injector, which would be used per OAK PoE device.
 
 If an outdoor rated PoE switch is needed, one option is the `EP-S16 <https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-s16>`__.
