@@ -86,7 +86,7 @@ Cables with boots often will not fit in these water-sealing glands (since they a
 installations).  So if you are installing outdoors, it is recommended to either use a no-boot pre-made cable, or us the "professional" technique of 
 making the cable to length, or find a cable with a small boot that fits in the gland (some do). It is also worth noting that if installing outside, 
 it is necessary to use a shielded Ethernet cable, otherwise wind/rain/hail/etc. will build up a static charge on the data wires in the cable, and 
-eventually destroy the PoE switch, the OAK PoE device, or both.  
+eventually destroy the PoE switch, the OAK PoE device, or both.
 
 For the custom-length cable route, you can use `TOUGHCable PRO cable <https://www.amazon.com/Ubiquiti-Networks-TOUGHCable-Shielded-Ethernet/dp/B008L143VW>`__
 together with `TOUGHCable connectors <https://www.amazon.com/Ubiquiti-TOUGHCable-RJ45-Connectors-Piece/dp/B009XE6JY0>`__.  Our team has used this 
@@ -96,3 +96,21 @@ combination extensively in the past for outdoor installations. (A crimping too, 
   **We recommend using Cat5e ethernet cable**, as the newer ones are bigger and might not fit properly in the IP67 gland.
 
 *Note that we are not connected with any of these products linked, we just have had good experience with them, and some of us may or may not have worked on the UniFi team in the past.*
+
+Powering from USB
+*****************
+
+In case you don't have a PoE injector or PoE switch nearby, and would like to use your OAK PoE camera, you have 2 options:
+
+#. Connect the camera via USB-C so it works like OAK-D (USB-C for power and communication). You need to changethe  DIP switch to 0x16 (as on the :ref:`image here <Factory reset>`).
+#. Power the camera via USB-C while still communicating with it through ethernet as in the image below. You need to set static IP on your computer.
+
+.. figure:: /_static/images/poe/oak-poe-usb-power.jpg
+
+  Powering OAK-D-POE via USB-C connector
+
+In case you go with 2nd option, you would need to set your computer's static IP. By default, the camera will have a static
+IP ``169.254.1.222``. So you would need to set your Ethernet adapter to static IP eg. ``169.254.1.10`` and netmask
+``255.255.0.0`` in order for the OAK PoE camera to be in the same LAN and to be searchable by the depthai library.
+
+.. include::  /pages/includes/footer-short.rst
