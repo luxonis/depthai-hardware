@@ -65,7 +65,7 @@ Brochures
 3D models
 *********
 
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/BW1093_USB3C/Mechanical/OAK-1-pcb.step>`__
+- Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1093_USB3C/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/BW1093_USB3C/Mechanical/OAK-1-enclosure.step>`__
 
 .. image:: /_static/images/BW1093/3d-enclosure.png
