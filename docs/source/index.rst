@@ -25,15 +25,19 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
    * - OAK-D S2
      - OAK-D W
      - OAK-D Pro
+     - OAK-D Pro W
    * - .. image:: /_static/images/thumbnails/DM9098s2.png
           :target: pages/DM9098s2.html
      - .. image:: /_static/images/thumbnails/oak-d-w.png
           :target: pages/DM9098w.html
      - .. image:: /_static/images/thumbnails/DM9098pro.png
           :target: pages/DM9098pro.html
+     - .. image:: /_static/images/thumbnails/oak-d-pro-w.png
+          :target: pages/DM9098prow.html
    * - :ref:`Learn more <dm9098s2>`
      - :ref:`Learn more <dm9098w>`
      - :ref:`Learn more <dm9098pro>`
+     - :ref:`Learn more <dm9098prow>`
 
 .. list-table::
    :header-rows: 1
@@ -254,6 +258,7 @@ Miscellaneous Designs
    pages/DM9098s2.rst
    pages/DM9098w.rst
    pages/DM9098pro.rst
+   pages/DM9098prow.rst
    pages/NG9096.rst
    pages/BW1093.rst
    pages/BW1098OAK.rst
