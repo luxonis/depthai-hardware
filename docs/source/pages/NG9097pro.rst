@@ -14,7 +14,7 @@ Overview
 ********
 
 The **OAK-D Pro PoE** is an upgraded version of :ref:`OAK-D-PoE`, featuring **IR laser dot projector** (active stereo) and **IR illumination LED** (for
-"night vision"). It's also smaller and lighter than the OAK-D-PoE.
+night-vision). It's also smaller and lighter than the OAK-D-PoE.
 
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
 **M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and 2 other auxiliary IOs, capable of UART, I2C or GPIO.

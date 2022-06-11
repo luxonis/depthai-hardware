@@ -1,20 +1,22 @@
-.. _dm9098pro:
+.. _dm9098prow:
 
-OAK-D Pro
-=========
+OAK-D Pro W
+===========
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/oak-d-pro-w>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro.jpg
+.. image:: /_static/images/DM9098/oak-d-pro-w.png
 
 Overview
 ********
 
-The **OAK-D Pro** is an upgraded version of :ref:`OAK-D`, featuring an **IR laser dot projector** (active stereo) and **IR illumination LED** (for
-night-vision). OAK-D Pro is from the :ref:`Series 2 of OAK cameras <OAK series 2>`. It's smaller and lighter than the OAK-D.
+The **OAK-D Pro W** has **Wide Field of View (FOV) cameras** and features an **IR laser dot projector** (active stereo) and **IR illumination LED** (for
+night-vision). The OAK-D Pro W is from the :ref:`Series 2 of OAK cameras <OAK series 2>`.
 
-Compared to the :ref:`OAK-D S2`, the only difference is the dot projector/illumination LED (:ref:`Pro aspect <Pro version>` of the version).
-Otherwise, the PCB and enclosure are the same.
+Compared to the :ref:`OAK-D S2`, the only differences are:
+
+- IR laser dot projector and IR illumination LED (:ref:`Pro aspect <Pro version>` of the version)
+- Wide FOV cameras (:ref:`W aspect <Wide FOV>` of the version)
 
 Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 
@@ -23,7 +25,7 @@ Hardware specifications
 
 .. include:: /pages/includes/usb_connectivity.rst
 
-.. include:: /pages/includes/s2_sensors.rst
+.. include:: /pages/includes/s2_w_sensors.rst
 
 .. include:: /pages/includes/pro.rst
 
@@ -41,15 +43,13 @@ Dimensions and Weight
 Datasheet
 *********
 
-* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/DM9098_OAK-D-Pro/Datasheet/OAK-D-Pro_Datasheet.pdf>`__
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/DM9098_OAK-D-Pro/Datasheet>`__
 
 3D Models
 *********
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
-
-.. image:: /_static/images/DM9098/pro_back.jpg
 
 .. include:: /pages/includes/laser-safety.rst
 
