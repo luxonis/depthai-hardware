@@ -11,10 +11,10 @@ Overview
 ********
 
 The **OAK-D Pro** is an upgraded version of :ref:`OAK-D`, featuring an **IR laser dot projector** (active stereo) and **IR illumination LED** (for
-night-vision). OAK-D Pro is from :ref:`Series 2 of OAK cameras <OAK series 2>`. It's smaller and lighter than the OAK-D.
+night-vision). OAK-D Pro is from the :ref:`Series 2 of OAK cameras <OAK series 2>`. It's smaller and lighter than the OAK-D.
 
-Compared to the :ref:`OAK-D S2`, the only difference is dot projector/illumination LED (:ref:`Pro aspect <Pro version>` of the version),
-otherwise PCB and enclosure are the same.
+Compared to the :ref:`OAK-D S2`, the only difference is the dot projector/illumination LED (:ref:`Pro aspect <Pro version>` of the version).
+Otherwise, the PCB and enclosure are the same.
 
 Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 

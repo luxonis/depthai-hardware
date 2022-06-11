@@ -11,7 +11,7 @@ Overview
 ********
 
 The **OAK-D Pro W** has **Wide Field of View (FOV) cameras** and features an **IR laser dot projector** (active stereo) and **IR illumination LED** (for
-night-vision). OAK-D Pro W is from :ref:`Series 2 of OAK cameras <OAK series 2>`.
+night-vision). The OAK-D Pro W is from the :ref:`Series 2 of OAK cameras <OAK series 2>`.
 
 Compared to the :ref:`OAK-D S2`, the only differences are:
 
