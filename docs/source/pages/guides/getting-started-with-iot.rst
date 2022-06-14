@@ -63,6 +63,6 @@ How to get started with the development
 #. Install the **ESP-IDF**, `instructions here <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#installation-step-by-step>`__.
 #. After setting up the `environmental variables <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html#step-4-set-up-the-environment-variables>`__, you can build any demo from the `esp32-spi-message-demo <https://github.com/luxonis/esp32-spi-message-demo>`__ repository with :code:`idf.py build`.
 #. After building, you can flash your ESP32 using :code:`idf.py -p PORT flash monitor` (replace :code:`PORT` with the ESP32 port, eg. :code:`/dev/ttyUSB0`). You might need to change the permission of the port with :code:`sudo chmod 777 PORT` so idf.py can access it.
-#. After flashing the ESP32, you can start the pipeline. If you have used a demo ESP32 code, you should run the corresponding python script from `gen2-spi demos <https://github.com/luxonis/depthai-experiments/tree/master/gen2-spi>`__.
+#. After flashing the ESP32, you can start the pipeline. If you have used a demo ESP32 code, you should run the corresponding python script that's inside the demo folder.
 
 .. include::  /pages/includes/footer-short.rst
