@@ -38,7 +38,13 @@ the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 13mp``.
 
 * Arducam short FPC:
 
-  * NFOV AF (PY080) - 82° DFOV, 68° HFOV, 55° VFOV, EFL: 4.74, F. NO: 1.79±5%, Distortion: < 1.5%, Lens Size: 1/2"
+  * NFOV - 82° DFOV, 68° HFOV, 55° VFOV, EFL: 4.74, F. NO: 1.79±5%, Distortion: < 1.5%, Lens Size: 1/2"
+
+    * AF: PY080
+    * AF NoIR: PY101
+    * AF IR notch filter (IR650+940): PY102
+    * FF: PY106 (Focus: 50cm+)
+  * WFOV FF (PY080) - 120° DFOV, 96° HFOV, 89° VFOV, EFL: 2.75, F. NO: 2.8±5%, Distortion: < -14.6%, Lens Size: 1/2", Focus: 50cm+
 
 .. figure:: /_static/images/sensors/imx582/imx582-ccm.jpg
 
