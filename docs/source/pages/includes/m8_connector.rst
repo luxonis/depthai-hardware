@@ -35,3 +35,5 @@ Auxiliary M8 connector
      - Ground.
 
 Cameras also include an M8 connector cap for waterproofing in case the M8 connector wouldn't be used.
+
+.. image:: /_static/images/guides/m8-isolated-circiut.png
