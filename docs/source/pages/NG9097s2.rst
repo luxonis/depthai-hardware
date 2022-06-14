@@ -17,7 +17,7 @@ The **OAK-D S2 PoE** is the :ref:`Series 2 <OAK series 2>` version of the :ref:`
 the OAK-D S2 PoE has a smaller enclosure and is therefore lighter.
 
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
-**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and 2 other auxiliary IOs, capable of UART, I2C or GPIO.
+**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
 Hardware specifications
 ***********************

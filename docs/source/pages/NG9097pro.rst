@@ -17,7 +17,7 @@ The **OAK-D Pro PoE** is an upgraded version of :ref:`OAK-D-PoE`, featuring **IR
 night-vision). It's also smaller and lighter than the OAK-D-PoE.
 
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
-**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and 2 other auxiliary IOs, capable of UART, I2C or GPIO.
+**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
 It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
 more information below at *Getting started*.

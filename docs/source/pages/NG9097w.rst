@@ -16,7 +16,7 @@ Overview
 The **OAK-D W PoE** is a **Wide Field of View** (FoV) version of the :ref:`OAK-D S2 PoE`.
 
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
-**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and 2 other auxiliary IOs, capable of UART, I2C or GPIO.
+**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
 Hardware specifications
 ***********************
