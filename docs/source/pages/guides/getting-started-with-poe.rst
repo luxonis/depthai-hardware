@@ -103,10 +103,9 @@ can manually specify the IP address of the POE device.
             xoutRgb.setStreamName("rgb")
             camRgb.preview.link(xoutRgb.input)
 
-            device_info = dai.DeviceInfo()
+            device_info = dai.DeviceInfo("169.254.1.222")
             device_info.state = dai.XLinkDeviceState.X_LINK_BOOTLOADER
-            device_info.desc.protocol = dai.XLinkProtocol.X_LINK_TCP_IP
-            device_info.desc.name = "169.254.1.222"
+            device_info.protocol = dai.XLinkProtocol.X_LINK_TCP_IP
 
             with dai.Device(pipeline, device_info) as device:
                 qRgb = device.getOutputQueue(name="rgb", maxSize=4, blocking=False)
@@ -129,10 +128,9 @@ can manually specify the IP address of the POE device.
                 xoutRgb->setStreamName("rgb");
                 camRgb->preview.link(xoutRgb->input);
 
-                auto deviceInfo = dai::DeviceInfo();
+                auto deviceInfo = dai::DeviceInfo("169.254.1.222");
                 deviceInfo.state = X_LINK_BOOTLOADER;
-                deviceInfo.desc.protocol = X_LINK_TCP_IP;
-                strcpy(deviceInfo.desc.name, "169.254.1.222");
+                deviceInfo.protocol = X_LINK_TCP_IP;
 
                 dai::Device device(pipeline, deviceInfo);
 
