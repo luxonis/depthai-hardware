@@ -69,7 +69,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - Fully integrated
      - global
      - 1920x1200
-     -
+     - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/ar0234>`__
    * - IMX283
      - Initially tested
      - rolling
@@ -209,7 +209,7 @@ Arducam longer FPC
 
 * :ref:`AR0234`
 
-  * M12-Mount AF (Motorized Focus)
+  * M12-Mount FF
 * :ref:`IMX477`
 
   * AF (Motorized Focus)
