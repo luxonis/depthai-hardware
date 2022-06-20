@@ -42,13 +42,19 @@ in front of cameras** (on the inside of the front cover).
 PoE Troubleshooting
 ###################
 
+- **I can ping the OAK PoE camera, but can't connect to it**
+    depthai library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
+    :ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <ootloader/#device-manager>`__
+    to check that) and that you are using **depthai version 2.16.0.0 or newer**. That's because there were `XLink device search improvements <https://github.com/luxonis/depthai-python/releases/tag/v2.16.0.0>`__
+    added on 2.16.0.0.
+
 - **DHCP and Static IP**
     By default, PoE devices will try to pull an IP address from DHCP. If a DHCP server isn't available on the network,
-    devices will fall back to static IP :code:`169.254.1.222`.  In this static fall-back case, your computer will need to be in the same range. This can
-    be achieved by setting a static IP on your computer (e.g. with static IP: :code:`169.254.1.10` and netmask: :code:`255.255.0.0`).
+    devices will fall back to static IP ``169.254.1.222``.  In this static fall-back case, your computer will need to be in the same range. This can
+    be achieved by setting a static IP on your computer (e.g. with static IP: ``169.254.1.10`` and netmask: ``255.255.0.0``).
 
 - **Ports and Firewall**
-    UDP Device discovery is handled on port :code:`11491`, and TCP XLink connection is handled on port :code:`11490`.
+    UDP Device discovery is handled on port ``11491``, and TCP XLink connection is handled on port ``11490``.
 
     On Ubuntu by default the firewall is disabled, so you shouldn't have any issues. You can check this though by executing the following command:
 
