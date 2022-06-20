@@ -11,12 +11,6 @@ Overview
 `ArduCam <https://www.arducam.com/product-category/opencv-ai-kit/>`__ has built a series of M12-capable and C/CS-capable camera boards that work with OAK cameras.
 A variety of M12-mount options allow to match lenses in many projects.
 
-Weight
-******
-
-* Stereo camera: 3g (6g in total)
-* Color camera: 4g
-
 .. _arducam-compatible-cameras:
 
 Arducam compatible cameras
@@ -37,6 +31,21 @@ Some of these have **M12 mount**, so you can use a variety of **different lenses
 - `M40180H10 (HFoV: 100°C) <https://www.arducam.com/product/M40180H10/>`__,
 - `M2506ZH04 (HFoV: 33°C) <https://www.arducam.com/product/M2506ZH04/>`__,
 - and `others <https://www.arducam.com/product-category/lenses/m12-lens-arducam/>`__
+
+M12 selectable FOV
+******************
+
+Tests were done using 2x `OAK-FFC-IMX477-M12 <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-imx477>`__ and two
+different M12 lenses: `20° FOV <https://www.arducam.com/product/arducam-telephoto-20-degree-1-2-3-m12-mount-with-lens-adapter-for-raspberry-pi-high-quality-camera/>`__
+and `190° FOV <https://www.arducam.com/product/arducam-190-degrees-lens-for-hq-camera-ln074/>`__ one.
+
+.. figure:: /_static/images/arducam/m12-lens-compare.jpeg
+
+    Side-by-side comparison of narrow and wide FOV M12 lenses on OAK-FFC-IMX477-M12
+
+.. figure:: /_static/images/arducam/lens-test-setup.jpeg
+
+    Test setup from birds view
 
 Replacement stereo cameras for OAK-D-PCBA
 *****************************************
