@@ -33,8 +33,6 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 Board Layout
 ************
 
-.. image:: /_static/images/DM1090FFC/DM1090FFC_R0M0E0_dims.jpg
-
 .. image:: /_static/images/DM1090FFC/DM1090FFC_BOT.jpg
 
 Dimensions and Weight
