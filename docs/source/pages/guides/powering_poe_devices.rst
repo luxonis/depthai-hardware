@@ -16,6 +16,8 @@ The recommended way to use PoE devices (such as Luxonis' OAK PoE models) is with
 switch that you have installed, you can use a PoE injector in conjunction with this switch.  But using a PoE Ethernet Switch is advised, as these give 
 you better control, the install is cleaner, and insights like power use and control such as remote device power-down are possible with a PoE Switch.
 
+Our OAK PoE cameras support both **PoE Mode A** and **PoE Mode B** (more information `here <https://planetechusa.com/power-over-ethernet-poe-demystifying-mode-a-and-mode-b/>`__).
+
 General specification
 *********************
 
