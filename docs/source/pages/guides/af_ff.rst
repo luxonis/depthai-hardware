@@ -83,3 +83,8 @@ silver metal ring on the auto-focus mechanism, as shown in the image below.
 .. image:: /_static/images/guides/AF_FF_recognize.jpg
 
 .. include::  /pages/includes/footer-short.rst
+
+AF/FF Availabilty
+*****************
+
+Auto-focus and fixed-focus center color camera options are available standard for all OAK models. The one exception is the OAK-D, which doesn't offer a fixed-focus option standard, however a fixed-focus camera can be swapped in custom on request. In this case however, it will likely make more sense to simply select a different OAK. Visit our `store <https://shop.luxonis.com/>` to see our full range of options.
