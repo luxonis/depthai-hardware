@@ -44,7 +44,7 @@ PoE Troubleshooting
 
 - **I can ping the OAK PoE camera, but can't connect to it**
     depthai library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
-    :ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <ootloader/#device-manager>`__
+    :ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <https://docs.luxonis.com/projects/api/en/latest/components/bootloader/#device-manager>`__
     to check that) and that you are using **depthai version 2.16.0.0 or newer**. That's because there were `XLink device search improvements <https://github.com/luxonis/depthai-python/releases/tag/v2.16.0.0>`__
     added on 2.16.0.0.
 
