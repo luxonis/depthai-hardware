@@ -1,28 +1,28 @@
 .. _dm2399:
 
-OAK-SoM-Pro-KB
+OAK-SoM-Pro-S3
 ==============
 
-.. image:: /_static/images/SOM-Pro-KB/board-back.png
+.. image:: /_static/images/SOM-Pro-S3/OAK-SoM-Pro-S3.jpg
 
 Overview
 ********
 
-**OAK-SoM-Pro-KB** has on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+**OAK-SoM-Pro-S3** has on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
 and **quadcore ARM CPU**. It was designed to have the same dimensions and pintout as the :ref:`OAK-SoM-Pro`, so it can easily
 replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <Devices that use OAK-SoM-Pro>`).
 
 It was primarily designed for evaluation and backwards compatibility.
 For new products, we would suggest using :ref:`OAK-SoM-Max` (differences :ref:`here <OAK-SoM-Pro-KB vs OAK-SoM-Max>`).
 
-The OAK-SoM-Pro-KB is a System on Module (SoM) designed for integration into top-level system with
+The OAK-SoM-Pro-S3 is a System on Module (SoM) designed for integration into top-level system with
 a need for a low-power, high performance, real-time AI and depth perception.
 
-The OAK-SoM-Pro-KB interfaces with the system through two 10-Gbps-rated 100-pin board-to-board mezzanine connector which
+The OAK-SoM-Pro-S3 interfaces with the system through two 10-Gbps-rated 100-pin board-to-board mezzanine connector which
 carries all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary
 digital and analog power. An auxiliary power port is offered to interface without connection to a baseboard.
 
-.. include:: /pages/includes/som-pro-kb-vs-max.rst
+.. include:: /pages/includes/som-pro-s3-vs-max.rst
 
 Board Layout
 ************
@@ -50,9 +50,9 @@ Key features
 * SD-card supported
 * Design files produced with Altium Designer 20
 
-.. image:: /_static/images/SOM-Pro-KB/on-FFC-4P.png
+.. image:: /_static/images/SOM-Pro-S3/on-FFC-4P.png
 
-**OAK-SoM-Pro-KB** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
+**OAK-SoM-Pro-S3** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
 
 Files
 *****
