@@ -13,7 +13,7 @@ We also plan to keep **backward compatibility** - so pipelines written for Myria
 Series 3 roadmap
 ################
 
-- **2022 Q1**: Hardware bring-up and testing of :ref:`OAK-SoM-Pro-KB`.
+- **2022 Q1**: Hardware bring-up and testing of :ref:`OAK-SoM-Pro-S3`.
 - **2022 Q2**: Porting of DepthAI stack to Keem Bay. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Keem Bay evaluation tests.
 - **2022 Q3**: Beta release of initial OAK devices with integrated Keem Bay. Software/firmware is getting more feature-complete and more stable.
 - **2022 Q4**: Official release of OAK S3 device(s).
@@ -21,14 +21,14 @@ Series 3 roadmap
 This might be a bit optimistic roadmap due to supply chain issues, but we will hopefully stick to this roadmap.
 Initial S3 OAK cameras will have 2GB of RAM onboard and will use the 3400VE Keem Bay.
 
-:ref:`OAK-SoM-Max` will have 4GB RAM while :ref:`OAK-SoM-Pro-KB` will have 2GB RAM.
+:ref:`OAK-SoM-Max` will have 4GB RAM while :ref:`OAK-SoM-Pro-S3` will have 2GB RAM.
 
 **2022 Updates**
 
-- **February**: We manufactured the initial batch of :ref:`OAK-SoM-Pro-KB` (Keem Bay VPU onboard). We also started porting the DepthAI library to the new ecosystem (Keem Bay).
+- **February**: We manufactured the initial batch of :ref:`OAK-SoM-Pro-S3` (Keem Bay VPU onboard). We also started porting the DepthAI library to the new ecosystem (Keem Bay).
 - **March**: We designed :ref:`OAK-SoM-Max` and started porting DepthAI stack.
 - **May**: We received initial :ref:`OAK-SoM-Max` boards and designed OAK-FFC-6P which will use OAK-SoM-Max.
-- **July**: [Planned] HW bringup of OAK-FFC-6P. New batch of OAK-SoM-Pro-KBs.
+- **July**: [Planned] HW bringup of OAK-FFC-6P. New batch of OAK-SoM-Pro-S3s.
 
 For **updates on the progress of Keem Bay / OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 

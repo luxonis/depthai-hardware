@@ -183,7 +183,7 @@ open-source hardware design as you see fit.
 .. list-table:: SoMs with next-generation :ref:`Keem Bay VPU <OAK Series 3>` on-board
    :header-rows: 1
 
-   * - OAK-SoM-Pro-KB
+   * - OAK-SoM-Pro-S3
      - OAK-SoM-Max
    * - .. image:: /_static/images/thumbnails/dm2399.png
           :target: pages/DM2399.html

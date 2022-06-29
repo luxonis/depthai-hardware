@@ -13,7 +13,7 @@ and **quadcore ARM CPU**. It was designed to have the same dimensions and pintou
 replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <Devices that use OAK-SoM-Pro>`).
 
 It was primarily designed for evaluation and backwards compatibility.
-For new products, we would suggest using :ref:`OAK-SoM-Max` (differences :ref:`here <OAK-SoM-Pro-KB vs OAK-SoM-Max>`).
+For new products, we would suggest using :ref:`OAK-SoM-Max` (differences :ref:`here <OAK-SoM-Pro-S3 vs OAK-SoM-Max>`).
 
 The OAK-SoM-Pro-S3 is a System on Module (SoM) designed for integration into top-level system with
 a need for a low-power, high performance, real-time AI and depth perception.
