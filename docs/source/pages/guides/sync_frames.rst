@@ -35,10 +35,10 @@ which have on-board illumination IR LED and IR laser dot projector.
 Connecting FSIN/STROBE
 **********************
 
-The upcoming `OAK-D-Pro-PoE <https://github.com/luxonis/depthai-hardware/issues/142>`__ will have M8 I/O connector, which will also include
+All `OAK S2 PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ will have an M8 I/O connector, which will also include
 FSIN (frame sync) and STROBE (for driving a flash) signals.
 
-If you won't be using the OAK-D-Pro-PoE, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-POE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
+If you won't be using the OAK S2 PoE, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-POE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
 
 .. image:: https://user-images.githubusercontent.com/18037362/142761081-83742829-2527-4277-ad31-a8da500e1039.png
 
