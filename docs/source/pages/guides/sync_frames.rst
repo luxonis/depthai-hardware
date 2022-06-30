@@ -38,7 +38,7 @@ Connecting FSIN/STROBE
 All `Series 2 OAK PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ will have an M8 I/O connector, which will also include
 FSIN (frame sync) and STROBE (for driving a flash) signals.
 
-If you won't be using the OAK S2 PoE, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-POE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
+If you won't be using the Series 2 OAK PoE model, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-POE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
 
 .. image:: https://user-images.githubusercontent.com/18037362/142761081-83742829-2527-4277-ad31-a8da500e1039.png
 
