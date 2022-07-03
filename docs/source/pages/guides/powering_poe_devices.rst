@@ -3,9 +3,13 @@
 Powering PoE devices
 ====================
 
-We currently have two Power-over-Ethernet (PoE) devices:
- - :ref:`OAK-D-PoE <sj2088poe>` and
+We currently have these Power-over-Ethernet (PoE) cameras:
+ - :ref:`OAK-D-PoE <sj2088poe>`
  - :ref:`OAK-1-PoE <sj2096>`
+ - :ref:`OAK-D S2 PoE <NG9097s2>`
+ - :ref:`OAK-D W PoE <NG9097w>`
+ - :ref:`OAK-D Pro PoE <NG9097pro>` and
+ - :ref:`OAK-D Pro W PoE <NG9097pro>`
 
 If you are new to Power over Ethernet (POE), welcome; POE is extremely convenient.  POE allows a single Cat5e (or higher) Ethernet cable to be used to 
 both power a device and give it connectivity at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
