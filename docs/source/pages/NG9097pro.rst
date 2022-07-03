@@ -19,13 +19,10 @@ night-vision). It's also smaller and lighter than the OAK-D-PoE.
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
 **M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
-It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this device,
-more information below at *Getting started*.
-
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/poe_connectivity.rst
+.. include:: /pages/includes/poe_connectivity-s2.rst
 
 .. include:: /pages/includes/s2_sensors.rst
 
