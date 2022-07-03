@@ -1,0 +1,95 @@
+.. _dm3390:
+
+OAK-FFC-6P
+==========
+
+`Keem Bay kit with OAK-FFC-6P <https://shop.luxonis.com/products/keembay-oak-ffc-6p-with-oak-som-max-kit>`__
+
+.. image:: /_static/images/FFC-6P/top.png
+
+Overview
+********
+
+The **OAK-FFC-6P** baseboard has **6 FFC interfaces** which allows for **six 2-lane MIPI** camera modules. It is the
+first device from :ref:`OAK Series 3` (Keem Bay VPU) and uses the :ref:`OAK-SoM-Max`.
+
+This board is also compatible with RPi camera interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
+which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
+
+To see which cameras are compatible with this OAK FFC board, see the guide here: :ref:`compatible Arducam cameras <arducam-compatible-cameras>`.
+Those cameras have a M12 mount, so you can use different lenses to get **custom FoV** (they have wide and narrow angle M12 lenses).
+
+In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
+
+.. include:: /pages/includes/kb_inside.rst
+
+.. TODO: add dimensions/weight
+    Dimensions and Weight
+    *********************
+    * Width: 62 mm
+    * Height: 38 mm
+    * Length: 22 mm (PCBA and heatsink)
+    * Weight: 41g (PCBA and heatsink)
+
+.. image:: /_static/images/FFC-6P/bottom.png
+
+Key features
+************
+
+- 6x 2-line MIPI camera interfaces (all of the CCMs supported in DepthAI can run on 2-lane MIPI, most of them also in full resolution)
+- :ref:`OAK-SoM-Max` connected to the baseboard
+- 5V power input via barrel jack
+- USB 3.1 Gen 1 Type-C
+- IMU support (BMI270 by default, footprint for BNO086)
+- uSD card slot
+- Onboard EEPROM
+- Pads for DepthAI SoM 1.8V SPI
+- Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
+- PSRBS connector (5V, STROBE, RST, BOOT_SEL, FSIN_ALL, FSIN_STEREO)
+- 1025 coin battery holder
+- Design files produced with Altium Designer 22
+
+.. include:: /pages/includes/ffc-depth-perception.rst
+
+Getting started
+***************
+
+The OAK-FFC-6P accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C.
+With cameras and the :ref:`OAK-SoM-Max`, total power consumption usually stays below the 1.5 A specification, Type-C power
+of 1.5 A or greater is recommended.
+
+Interfacing with the :ref:`OAK-SoM-Max` is also possible with OAK-FFC-6P connector pads QSPI, and AUX. These pads
+are designed for the Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout
+information.
+
+The reset button soft resets the Luxonis DepthAI SoM only, SYS-RST button resets the power system of the DepthAI
+and PWR button is a GPIO button that can be used to turn off/on the SoM. BOOT button is meant to be used only for
+recovery purposes changing GPIO boot mode to eMMC recovery when the button is held on system power up.
+
+The PG LED indicates 5V power is present and all outputs of the DC-DC converters are inside the specified nominal
+voltages. The LED1 indicates "BOOT" status of the DepthAI SoM. The LED2 is an "CONNECT" status LED which indicates
+that the OAK-SoM-Max is connected to the network/device.
+
+FFC cables
+**********
+
+For FFC cables we use `Molex series 15166 <https://www.molex.com/molex/search/partSearch?query=15166>`__. Along with the OAK FFC board, we ship
+**26 pin count, same-sided, 152mm** cables (part number `151660281 <https://www.molex.com/molex/products/part-detail/cable/0151660281>`__).
+If you would like to use **shorter/longer FFC cables**, you can get them `here <https://www.molex.com/molex/search/deepSearch?pQuery=q%253D*%253A*%2540fq%253Dcollection%253Aimpulse%2540fq%253Dcollection%253Aimpulse%2540fq%253Dproductseries%253A%252215166%2522%252BOR%252Bengineeringnumber%253A%252215166%2522%2540fq%253Dcategory%253A%2522Cable%2522%2540fq%253Dcircuitsloaded%253A%252226%2522&currentQuery=contactlayouttype%3AA%2B%2528same%2Bside%2529&origin=_l1stv13w>`__.
+
+3D Models
+*********
+
+- Board (PCBA) STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM3390_OAK-FFC-6P/3D_Models>`__
+
+Files
+*****
+
+* `Altium Design Files <https://github.com/luxonis/depthai-hardware/tree/master/DM3390_OAK-FFC-6P/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM3390_OAK-FFC-6P/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM3390_OAK-FFC-6P/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM3390_OAK-FFC-6P/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM3390_OAK-FFC-6P/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM3390_OAK-FFC-6P/Docs/Schematic%20PDF/Production.PDF>`__
+
+.. include::  /pages/includes/footer-short.rst
