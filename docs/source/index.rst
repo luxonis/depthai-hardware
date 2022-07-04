@@ -108,18 +108,18 @@ custom baseline, or custom orientation of the cameras.
 .. list-table::
    :header-rows: 1
 
-   * - OAK-FFC-4P
+   * - OAK-FFC-6P
+     - OAK-FFC-4P
      - OAK-FFC-3P
-     - OAK-FFC-3P-OG
-   * - .. image:: /_static/images/thumbnails/FFC-4P.png
+   * - .. image:: /_static/images/thumbnails/FFC-6P.png
+          :target: pages/DM3390.html
+     - .. image:: /_static/images/thumbnails/FFC-4P.png
           :target: pages/DD2090.html
      - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
           :target: pages/DM1090.html
-     - .. image:: /_static/images/thumbnails/bw1098_new.png
-          :target: pages/BW1098FFC.html
-   * - :ref:`Learn more <dd2090ffc>`
+   * - :ref:`Learn more <dm3390>`
+     - :ref:`Learn more <dd2090ffc>`
      - :ref:`Learn more <dm1090ffc>`
-     - :ref:`Learn more <bw1098ffc>`
 
 .. list-table::
    :header-rows: 1
@@ -284,9 +284,9 @@ Miscellaneous Designs
    :hidden:
    :caption: Modular Cameras
 
+   pages/DM3390.rst
    pages/DD2090.rst
    pages/DM1090.rst
-   pages/BW1098FFC.rst
    pages/BG0250TG.rst
    pages/BG0249.rst
    pages/DM0255.rst

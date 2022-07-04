@@ -31,11 +31,15 @@ Others
 
    * - RPi Adapter Camera
      - RPi HAT Baseboard
+     - OAK-FFC-3P-OG
    * - .. image:: /_static/images/thumbnails/BW0253.jpg
           :target: ../BW0253.html
      - .. image:: /_static/images/thumbnails/rpi_hat.png
           :target: ../BW1094.html
+     - .. image:: /_static/images/thumbnails/bw1098_new.png
+          :target: pages/BW1098FFC.html
    * - :ref:`Learn more <bw0253>`
      - :ref:`Learn more <bw1094>`
+     - :ref:`Learn more <bw1098ffc>`
 
 .. include::  /pages/includes/footer-short.rst
