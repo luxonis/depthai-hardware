@@ -21,7 +21,7 @@ It also has industrial **M12 PoE connector** (instead of RJ45) and additionally 
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/poe_connectivity.rst
+.. include:: /pages/includes/poe_connectivity-s2.rst
 
 .. include:: /pages/includes/s2_w_sensors.rst
 
