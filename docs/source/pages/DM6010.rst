@@ -1,7 +1,9 @@
 Y-adapter
 =========
 
-.. image:: /_static/images/DM6010/Y-adapter_front.png
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/y-adapter-store>`__
+
+.. image:: /_static/images/DM6010/front.png
 
 Overview
 ********
@@ -23,12 +25,14 @@ Getting started
 #. Connect USB wall charger to the Y-adapter's USB-C power port via USB-C cable
 #. Insert Y-adapter to the OAK device via USB-C connector
 
+.. image:: /_static/images/DM6010/Y_Adapter_5.jpg
+
 Dimensions and Weight
 *********************
 
 **Weight:** 5g
 
-.. image:: /_static/images/DM6010/y-adapter-dimensions.png
+.. image:: /_static/images/DM6010/y-adapter-dimensions.jpeg
 
 3D Models
 *********
@@ -39,7 +43,7 @@ Dimensions and Weight
 Files
 *****
 
-- `Altium Project Files <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/PCB>`__
+* `Altium Project Files <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/PCB>`__
 * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
 * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Assembly%20Outputs>`__
 * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/tree/master/DM6010_Y-adapter/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__

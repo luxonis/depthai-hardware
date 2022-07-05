@@ -205,7 +205,7 @@ Miscellaneous Designs
    * - Y-adapter
      - ArduCam Cameras
      - PoE Board
-   * - .. image:: /_static/images/thumbnails/DM6010.png
+   * - .. image:: /_static/images/thumbnails/Y-Adapter.png
           :target: pages/DM6010.html
      - .. image:: /_static/images/thumbnails/arducam_2.png
           :target: pages/arducam.html
