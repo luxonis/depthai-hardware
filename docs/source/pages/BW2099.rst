@@ -5,34 +5,74 @@ OAK-SoM-Pro
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/system-on-module-som/products/oak-som-pro-5-pcs>`__
 
-.. image:: /_static/images/BW2099/BW2099.png
+.. figure:: /_static/images/SOM-PRO/som-pros-front.jpg
+
+    **left**: OAK-SoM-Pro Keem Bay, **right**: OAK-SoM-Pro Myriad X
 
 Overview
 ********
 
-The **OAK-SoM-Pro** is a System on Module (SoM) designed for integration into top-level system with a need for a low-power,
-4 Tera Operation Per Second (TOPS) AI vision system. To be used in industrial automation, robotics and security systems.
+The **OAK-SoM-Pro** is a System on Module (SoM) designed for integration into top-level system with
+a need for a low-power, high performance, real-time AI and depth perception. To be used in industrial automation, robotics and security systems.
 The OAK-SoM-Pro interfaces with the system through two 10-Gbps-rated 100-pin board-to-board mezzanine connector which carries
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxiliary power port is offered to interface without connection to a baseboard.
 
-Devices that use OAK-SoM-Pro
-****************************
+**OAK-SoM-Pro comes in two variants**: Myriad X (Gen2 Movidius VPU) based and :ref:`Keem Bay <OAK Series 3>` (Gen3 Movidius VPU) based SoM.
+:ref:`Keem Bay` provides ~10x AI performance, quadcore ARM CPU, and enchanced stereo depth perception compared to Myriad X.
 
-All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
-are interested in integrating DepthAI (via SoM) into your product, see :ref:`documentation here <integrating_depthai_into_products>`.
+OAK-SoM-Pro Keem Bay was designed to be a drop-in replacement for OAK cameras that use
+OAK-SoM-Pro Myriad X (list below).
 
-- :ref:`OAK-1-PoE`
-- :ref:`OAK-D-PoE`
-- :ref:`OAK-FFC-4P`
-- :ref:`OAK-D CM4 PoE`
 
-.. include:: /pages/includes/mx_inside.rst
+.. tabs::
+
+    .. tab:: OAK-SoM-Pro Myriad X (BW2099)
+
+        .. image:: /_static/images/SOM-PRO/BW2099.png
+        
+        **Devices that use OAK-SoM-Pro MX**
+
+        All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
+        are interested in integrating DepthAI (via SoM) into your product, see :ref:`documentation here <integrating_depthai_into_products>`.
+
+        - :ref:`OAK-1-PoE`
+        - :ref:`OAK-D-PoE`
+        - :ref:`OAK-FFC-4P`
+        - :ref:`OAK-D CM4 PoE`
+
+        **Myriad X inside**
+
+        .. include:: /pages/includes/mx_inside.rst
+
+    .. tab:: OAK-SoM-Pro Keem Bay (DM2399)
+
+        .. image:: /_static/images/SOM-PRO/board-back.png
+
+        **OAK-SoM-Pro KB** has an on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+        and **quadcore ARM CPU**. It was designed to have the same dimensions and pintout as the :ref:`OAK-SoM-Pro`, so it can easily
+        replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <Devices that use OAK-SoM-Pro>`).
+
+        It was primarily designed for evaluation and backwards compatibility.
+        For new products, we would suggest using :ref:`OAK-SoM-Max` (differences below).
+
+        **Keem Bay inside**
+
+        .. include:: /pages/includes/kb_inside.rst
+
+        **OAK-SoM-Pro Keem Bay vs OAK-SoM-Max**
+
+        .. include:: /pages/includes/som-pro-kb-vs-max.rst
+
+        .. figure:: /_static/images/SOM-PRO/on-FFC-4P.png
+
+            **OAK-SoM-Pro KB** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
+
 
 Board Layout
 ************
 
-.. image:: /_static/images/BW2099/BW2099_diag.jpg
+.. image:: /_static/images/SOM-PRO/BW2099_diag.jpg
 
 Dimensions and Weight
 *********************
@@ -42,19 +82,24 @@ Dimensions and Weight
 * Length: 4 mm
 * Weight: 5g
 
-.. image:: /_static/images/BW2099/BW2099_dimm.jpg
+.. image:: /_static/images/SOM-PRO/oak-som-pro-dimensions.jpeg
 
 Key features
 ************
 
+* :ref:`Keem Bay VPU <OAK Series 3>` (Series 3) **unique features**:  2 GB RAM (16GBit)
+* Myriad X **unique features**:  512 MB RAM (4GBit)
 * Interfaces with the system through two 10-Gbps-rated 100-pin connectors (DF40C-100DP-0.4V(51))
 * 2 x 2-lane MIPI channels
 * 2 x 4-lane MIPI channels (for multiple camera inputs)
 * USB 3.1 Gen 2
 * Multiple Boot Modes supported: NOR, USB, Ethernet (EEPROM), or eMMC
-* eMMC is not populated by default but could be with Factory Special Order (send us an e-mail)
 * SD-card supported
 * Design files produced with Altium Designer 20
+
+.. figure:: /_static/images/SOM-PRO/som-pros-back.jpeg
+
+    **left**: OAK-SoM-Pro Keem Bay, **right**: OAK-SoM-Pro Myriad X  
 
 Datasheets
 **********
@@ -64,12 +109,14 @@ Datasheets
 3D Models
 *********
 
-- Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
+- Myriad X board STEP `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
+- Keem Bay board STEP `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro-KB/DM2399_R1M0E1_AllComponents.step>`__
 
 Altium Design Files
 *******************
 
-See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro>`__
+- Myriad X `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro>`__
+- Keem Bay `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro-KB>`__
 
 
 .. include::  /pages/includes/footer-short.rst

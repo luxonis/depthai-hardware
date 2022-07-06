@@ -1,7 +1,7 @@
 Keem Bay inside
 ***************
 
-This OAK camera has on-board :ref:`Keem Bay VPU <Keem Bay specifications>`. Main features:
+This OAK device has on-board :ref:`Keem Bay VPU <Keem Bay specifications>`. Main features:
 
 - **3.0 TOPS** for AI - around 10x AI boost compared to Myriad X
 - **Imaging**: ISP, max 6 cameras, 500 MP/s HDR, 3A
