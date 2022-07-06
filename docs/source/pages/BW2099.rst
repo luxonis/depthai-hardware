@@ -60,7 +60,7 @@ OAK-SoM-Pro Myriad X (list below).
 
         .. include:: /pages/includes/kb_inside.rst
 
-        **OAK-SoM-Pro Keem Bay vs OAK-SoM-Max**
+        **OAK-SoM-Pro KB vs OAK-SoM-Max**
 
         .. include:: /pages/includes/som-pro-kb-vs-max.rst
 
