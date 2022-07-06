@@ -30,6 +30,22 @@ That way OAK PoE cameras work in same manner as USB cameras. As with the USB-C c
 the Mx ID to specify to which OAK PoE camera you would want to connect to
 (`more info here <https://docs.luxonis.com/projects/api/en/latest/tutorials/multiple/>`__).
 
+Video streaming with OAK
+########################
+
+Because OAK PoE camera is connected to the internet, it can stream video feed directly to a computer. Here are two
+video streaming demos that use Script node (**OAK PoE camera is needed**), and can be run in `Standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__:
+
+- `TCP streaming <https://github.com/luxonis/depthai-experiments/tree/master/gen2-poe-tcp-streaming>`__ using Script node - either TCP server or client
+- `MJPEG streaming with HTTP server <https://docs.luxonis.com/projects/api/en/latest/samples/Script/script_mjpeg_server/#script-mjpeg-server>`__ using Script node
+
+Below are some demos which stream video feed from OAK camera **via XLink to the host computer** and then stream it from
+the host computer to another computer/server, which **can also work with any other OAK camera** (eg. USB line):
+
+- `WebRTC streaming <https://github.com/luxonis/depthai-experiments/tree/master/gen2-webrtc-streaming>`__
+- `MJPEG streaming <https://github.com/luxonis/depthai-experiments/tree/master/gen2-mjpeg-streaming>`__
+- `RTSP streaming <https://github.com/luxonis/depthai-experiments/tree/master/gen2-rtsp-streaming>`__
+
 PoE enclosure
 #############
 
