@@ -16,12 +16,16 @@ and on-board **integrated ESP32**, connected to the VPU via SPI (:ref:`more info
 
    * - OAK-D-IoT-40
      - OAK-D-IoT-75
+     - OAK-SoM-IoT
    * - .. image:: /_static/images/thumbnails/DM1092.png
           :target: ../DM1092.html
      - .. image:: /_static/images/thumbnails/DM1098OBC.png
           :target: ../DM1098OBC.html
+     - .. image:: /_static/images/thumbnails/BW1099EMB.png
+          :target: pages/BW1099EMB.html
    * - :ref:`Learn more <dm1092>`
      - :ref:`Learn more <dm1098obc>`
+     - :ref:`Learn more <bw1099emb>`
 
 Others
 ******
