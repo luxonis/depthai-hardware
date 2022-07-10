@@ -15,6 +15,9 @@ The DepthAI RPi HAT Baseboard (BW1094) baseboard has three FFC interfaces which 
 the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the :ref:`OAK-SoM`,
 parallel to the RST button.
 
+To see **which cameras are compatible with this OAK FFC baseboard**, see the guide here: :ref:`OAK FFC camera modules`.
+Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can use different lenses to get **custom FoV** (with :ref:`wide or narrow FOV M12 lenses <M12 selectable FOV>`).
+
 .. include:: /pages/includes/mx_inside.rst
 
 Board Layout and Dimensions

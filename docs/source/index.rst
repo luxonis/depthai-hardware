@@ -100,7 +100,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 Modular Cameras Designs
 ***********************
 
-Great for prototyping flexibility. Since the **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
+Great for prototyping flexibility. Since **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
 trade - you have to figure out how/where you will mount them, and then once mounted, do a `stereo calibration <https://docs.luxonis.com/en/latest/pages/calibration/>`__.
 This is not a TON of work, but keep this in mind, that it’s not ‘plug and play’ like other options - it’s more for applications that require custom mounting,
 custom baseline, or custom orientation of the cameras.
@@ -190,7 +190,7 @@ Miscellaneous Designs
    :header-rows: 1
 
    * - Y-adapter
-     - ArduCam Cameras
+     - FFC Camera modules
      - PoE Board
    * - .. image:: /_static/images/thumbnails/Y-Adapter.png
           :target: pages/DM6010.html
