@@ -86,6 +86,14 @@ PoE Troubleshooting
       sudo ufw allow 11490/tcp
       sudo ufw allow 11491/udp
 
+    We have noticed that the above rules don't always work as expected, and it's sometimes necessary to run the command
+    below. For production environment, you would want to set **static IP** on your OAK POE camera, otherwise it could
+    change and you would need to re-set the firewall rules.
+
+    .. code-block:: bash
+
+        ufw allow from [OAK_POE_IP]
+
 - **VPN connection**
     VPN connectivity could also disrupt the connection with the PoE device (as your computer may be searching only the remote network for the device, so would be unable to discover it on the local network), so we suggest turning the VPN off when using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoveragle while VPN connectivity is active.
 

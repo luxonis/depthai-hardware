@@ -17,7 +17,7 @@ The **OAK-FFC-4P** (DD2090FFC) baseboard has **4 FFC interfaces** which allows f
 
 Please note that only revision R1M1E1 and newer camera modules can be connected to this OAK FFC board.
 
-To see which cameras are compatible with this OAK FFC baseboard, see the guide here: :ref:`OAK FFC camera modules`.
+To see **which cameras are compatible with this OAK FFC baseboard**, see the guide here: :ref:`OAK FFC camera modules`.
 Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can use different lenses to get **custom FoV** (with :ref:`wide or narrow FOV M12 lenses <M12 selectable FOV>`).
 
 This board is also compatible with RPi camera interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
