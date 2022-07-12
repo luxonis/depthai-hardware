@@ -13,7 +13,7 @@ We also plan to keep **backward compatibility** - so pipelines written for Myria
 Series 3 roadmap
 ################
 
-- **2022 Q1**: Hardware bring-up and testing of :ref:`OAK-SoM-Pro-KB`.
+- **2022 Q1**: Hardware bring-up and testing of :ref:`OAK-SoM-Pro Keem Bay<OAK-SoM-Pro>`.
 - **2022 Q2**: Porting of DepthAI stack to Keem Bay. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Keem Bay evaluation tests.
 - **2022 Q3**: Beta release of initial OAK devices with integrated Keem Bay. Software/firmware is getting more feature-complete and more stable.
 - **2022 Q4**: Official release of OAK S3 device(s).
