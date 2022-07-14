@@ -14,6 +14,8 @@ The **OAK-D S2** is the :ref:`Series 2 <OAK series 2>` version of the :ref:`OAK-
 OAK-D S2 has a smaller enclosure and is therefore lighter. OAK-D S2 also doesn't have a barrel jack
 for supplying power, it only has a USB-C connector for both power and communication.
 
+Looking for the **Wide FOV** OAK-D S2? You can find it :ref:`here <dm9098w>`.
+
 Hardware specifications
 ***********************
 

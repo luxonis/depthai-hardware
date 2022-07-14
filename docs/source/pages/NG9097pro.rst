@@ -19,6 +19,8 @@ night-vision). It's also smaller and lighter than the OAK-D-PoE.
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
 **M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
+Looking for the **Wide FOV** OAK-D Pro PoE? You can find it :ref:`here <ng9097prow>`.
+
 Hardware specifications
 ***********************
 

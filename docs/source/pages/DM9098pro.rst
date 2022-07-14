@@ -18,6 +18,8 @@ Otherwise, the PCB and enclosure are the same.
 
 Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 
+Looking for the **Wide FOV** OAK-D Pro? You can find it :ref:`here <dm9098prow>`.
+
 Hardware specifications
 ***********************
 

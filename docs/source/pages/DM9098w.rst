@@ -12,6 +12,8 @@ Overview
 
 The **OAK-D W** is a **Wide Field of View** (FoV) version of the :ref:`OAK-D S2`.
 
+Looking for the **Normal FOV** OAK-D S2? You can find it :ref:`here <dm9098s2>`.
+
 Hardware specifications
 ***********************
 

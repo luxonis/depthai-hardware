@@ -20,6 +20,8 @@ Compared to the :ref:`OAK-D S2`, the only differences are:
 
 Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 
+Looking for the **Normal FOV** OAK-D Pro? You can find it :ref:`here <dm9098pro>`.
+
 Hardware specifications
 ***********************
 

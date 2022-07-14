@@ -19,6 +19,8 @@ the OAK-D S2 PoE has a smaller enclosure and is therefore lighter.
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
 **M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
+Looking for the **Wide FOV** OAK-D S2 PoE? You can find it :ref:`here <ng9097w>`.
+
 Hardware specifications
 ***********************
 

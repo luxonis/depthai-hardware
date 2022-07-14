@@ -24,6 +24,8 @@ Compared to the :ref:`OAK-D S2 PoE`, the only differences are:
 It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features an
 **M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
+Looking for the **Normal FOV** OAK-D Pro PoE? You can find it :ref:`here <ng9097pro>`.
+
 Hardware specifications
 ***********************
 
