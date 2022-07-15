@@ -11,8 +11,8 @@ Using pre-configured RPi OS image
 
 We provide Raspberry Pi OS images that have **depthai and all its dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
 
-- **KS_Rpi_OS_Full** - Uses RPi Full OS, has pre-installed depthai and `CEP <https://github.com/cortictechnology/cep>`__. **Required hardware**: 32 GB uSD card or larger, RPi 4 with 4 GB RAM. This image was flashed on uSD cards that were sent to KickStarter backers
-- **OAK_CM4_POE** - Uses RPi OS (default one), has pre-installed depthai. **Required hardware**: 8 GB uSD card or larger. This image is flashed on uSD cards that get sent with `OAK-D-CM3 <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html>`__, `OAK-D-CM4 <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html>`__, `OAK-D CM4 PoE <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html>`__. To enable 2nd uSD card, see workaround :ref:`here <Known image limitations>`.
+- **OAK_CM4_POE** - Uses RPi OS (default one), has pre-installed depthai. Required hardware: 8 GB uSD card or larger. This image is flashed on uSD cards that get sent with `OAK-D-CM3 <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html>`__, `OAK-D-CM4 <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html>`__, `OAK-D CM4 PoE <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html>`__. To enable 2nd uSD card, see workaround :ref:`here <Known image limitations>`. We recommend that users **use this image for all OAK cameras.**
+- **KS_Rpi_OS_Full** - Uses RPi Full OS, has pre-installed depthai and `CEP <https://github.com/cortictechnology/cep>`__. Required hardware: 32 GB uSD card or larger, RPi 4 with 4 GB RAM. This image was flashed on uSD cards that were sent to KickStarter backers. **Only use this image if you want CEP platform!**
 
 Steps taken to create these images and changelog can be found `here <https://docs.google.com/document/d/1c4JhIY2ulcgaaycUBOsAbUI1EJ_7Zx4ux4alaxFc_ts/edit?usp=sharing>`__.
 

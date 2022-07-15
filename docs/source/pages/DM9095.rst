@@ -79,13 +79,13 @@ We have tested OAK-D-Lite with the following command which should inflict the hi
 
 and after 90 minutes, we received the following temperatures:
 
-* Enclosure: 56.3 °C
+* Enclosure: 55.7 °C (thermal image below)
 * MyriadX: 73.53 °C
 
 The operating temperature range of the Myriad X VPU (die temperature) is -40 °C to 105 °C. The die temperature can get to about +35°C from the ambient 
 temperature. Note that the stable image temperature of the camera sensor is 0 °C to +50 °C (operating temperature -30 °C to +70 °C).
 
-.. image:: /_static/images/DM9095/lite_out.jpg
+.. image:: /_static/images/DM9095/oak-d-lite-thermals.jpg
 
 Datasheet
 *********
