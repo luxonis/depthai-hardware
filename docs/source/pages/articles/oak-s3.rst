@@ -47,7 +47,7 @@ itself, which would allow DepthAI apps to be more flexible and have lower latenc
 SLAM / VIO
 ----------
 
-Since Series 3 OAK cameras will have on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <<https://docs.luxonis.com/en/latest/pages/slam_oak/>`__>`__
+Since Series 3 OAK cameras will have on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <https://docs.luxonis.com/en/latest/pages/slam_oak/>`__
 on the OAK camera itself. Users will have full access to the ARM and will be also able to run any other (custom) software stack.
 
 AI performance boost
