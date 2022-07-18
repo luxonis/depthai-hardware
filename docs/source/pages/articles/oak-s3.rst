@@ -44,6 +44,12 @@ as the previous version (eg. OAK-D, OAK-D-Lite) - to connect it via USB to your 
 an application. With on-board computing capability, programs/apps will be able to do full model decoding on the device
 itself, which would allow DepthAI apps to be more flexible and have lower latency.
 
+SLAM / VIO
+----------
+
+Since Series 3 OAK cameras will have on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <<https://docs.luxonis.com/en/latest/pages/slam_oak/>`__>`__
+on the OAK camera itself. Users will have full access to the ARM and will be also able to run any other (custom) software stack.
+
 AI performance boost
 ####################
 
