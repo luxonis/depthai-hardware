@@ -27,7 +27,7 @@ OAK-SoM-Pro Myriad X (list below).
 
 .. tabs::
 
-    .. tab:: OAK-SoM-Pro Myriad X (BW2099)
+    .. tab:: OAK-SoM-Pro (Myriad X, BW2099)
 
         .. image:: /_static/images/SOM-PRO/BW2099.png
         
@@ -45,12 +45,12 @@ OAK-SoM-Pro Myriad X (list below).
 
         .. include:: /pages/includes/mx_inside.rst
 
-    .. tab:: OAK-SoM-Pro Keem Bay (DM2399)
+    .. tab:: OAK-SoM-Pro S3 (Keem Bay, DM2399)
 
         .. image:: /_static/images/SOM-PRO/board-back.png
 
-        **OAK-SoM-Pro KB** has an on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
-        and **quadcore ARM CPU**. It was designed to have the same dimensions and pintout as the :ref:`OAK-SoM-Pro`, so it can easily
+        **OAK-SoM-Pro S3** has an on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+        and **quadcore ARM CPU**. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
         replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <Devices that use OAK-SoM-Pro>`).
 
         It was primarily designed for evaluation and backwards compatibility.
@@ -60,13 +60,13 @@ OAK-SoM-Pro Myriad X (list below).
 
         .. include:: /pages/includes/kb_inside.rst
 
-        **OAK-SoM-Pro KB vs OAK-SoM-Max**
+        **OAK-SoM-Pro S3 vs OAK-SoM-Max**
 
         .. include:: /pages/includes/som-pro-kb-vs-max.rst
 
         .. figure:: /_static/images/SOM-PRO/on-FFC-4P.png
 
-            **OAK-SoM-Pro KB** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
+            **OAK-SoM-Pro S3** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
 
 
 Board Layout
