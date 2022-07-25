@@ -11,7 +11,6 @@ IoT devices have all the same features as USB devices, but additionally feature 
 and on-board **integrated ESP32**, connected to the VPU via SPI (:ref:`more info <Getting started with OAK IoT devices>`).
 
 .. list-table::
-   :widths: 50 50
    :header-rows: 1
 
    * - OAK-D-IoT-40

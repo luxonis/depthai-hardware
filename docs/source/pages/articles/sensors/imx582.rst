@@ -12,15 +12,22 @@ Supported resolutions
 
    * - Name
      - Resolution
-     - Max FPS
-   * - THE_13_MP
+     - Notes
+   * - THE_12_MP
+     - 4000x3000
+     - Full FOV, super-pixel / quad-bayer binning
+   * - THE_4_K
+     - 3840x2160
+     - Cropped from THE_12_MP
+   * - THE_48_MP
      - 5312x6000
-     - /
+     - Full resolution, currently width is cropped
 
-Currently full resolution is center cropped to 5312x6000 (due to current ISP width limit). We are working on
+
+Currently full resolution (THE_48_MP) is center cropped to 5312x6000 (due to current ISP width limit). We are working on
 implementing split processing for the full 8000 width.
-So current image is much narrower HFOV than the camera actually is (see image below), just because of this current
-limitation on linewidth.
+So at the moment the image at full resolution (THE_48_MP) has narrower HFOV than the camera actually is (see image below),
+just because of this limitation on linewidth.
 
 To use IMX582, checkout `depthai-python <https://github.com/luxonis/depthai-python>`__ to the ``tmp_imx582_48mp``
 branch, and install the library by running ``python3 examples/install_requirements.py``. You can quikcly evaluate
