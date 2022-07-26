@@ -108,18 +108,18 @@ custom baseline, or custom orientation of the cameras.
 .. list-table::
    :header-rows: 1
 
-   * - OAK-FFC-6P
+   * - OAK-FFC-3P
      - OAK-FFC-4P
-     - OAK-FFC-3P
-   * - .. image:: /_static/images/thumbnails/FFC-6P.png
-          :target: pages/DM3390.html
+     - OAK-FFC-6P
+   * - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
+          :target: pages/DM1090.html
      - .. image:: /_static/images/thumbnails/FFC-4P.png
           :target: pages/DD2090.html
-     - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
-          :target: pages/DM1090.html
-   * - :ref:`Learn more <dm3390>`
+     - .. image:: /_static/images/thumbnails/FFC-6P.png
+          :target: pages/DM3390.html
+   * - :ref:`Learn more <dm1090ffc>`
      - :ref:`Learn more <dd2090ffc>`
-     - :ref:`Learn more <dm1090ffc>`
+     - :ref:`Learn more <dm3390>`
 
 .. list-table::
    :header-rows: 1
