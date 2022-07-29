@@ -3,6 +3,9 @@
 OAK-D-IOT-75
 ============
 
+.. warning::
+    OAK IoT series is now **community supported only**, and is **provided as-is**. This means we most likely **won't update it** and **we don't provide support** for it (Discord, forums, email...).
+
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/iot/products/oak-d-iot-75>`__
 
 .. image:: /_static/images/DM1098OBC/IOT-75.png
