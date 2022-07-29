@@ -57,6 +57,8 @@ the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 13mp``.
 
   Arducam short FPC NFOV AF IMX582
 
+.. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
+
 Additional images
 #################
 
