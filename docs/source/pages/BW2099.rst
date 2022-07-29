@@ -97,7 +97,7 @@ Key features
 * SD-card supported
 * Design files produced with Altium Designer 20
 
-.. figure:: /_static/images/SOM-PRO/som-pros-back.jpeg
+.. figure:: /_static/images/SOM-PRO/som_pros_up.png
 
     **left**: OAK-SoM-Pro Keem Bay, **right**: OAK-SoM-Pro Myriad X  
 
