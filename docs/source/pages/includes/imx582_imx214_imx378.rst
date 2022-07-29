@@ -1,6 +1,0 @@
-Image quality comparison between IMX582, IMX378, and IMX214
-===========================================================
-
-Here's an image comparison 
-
-**8x digital zoom**. 

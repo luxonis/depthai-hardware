@@ -45,6 +45,8 @@ Supported resolutions
 
 On the image above (OAK FFC board) you can see all 3 different IMX378 CCMs.
 
+.. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
+
 Additional images
 #################
 
