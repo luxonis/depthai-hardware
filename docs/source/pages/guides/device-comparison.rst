@@ -22,7 +22,7 @@ Spatial Data
 devices to perform `Spatial AI <https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai>`__ tasks, like providing
 3D spatial coordinates (XYZ) of detected objects and features, or providing class for each depth point.
 
-**OAK-FFC family** can also perceive depth **if** :ref:`ToF sensor <OAK-FFC-pToF>` or :ref:`stereo camera pair <OAK-FFC-OV9282>`
+**OAK-FFC family** can also perceive depth **if** stereo camera pair (eg. :ref:`OAK-FFC-OV9282` pair)
 are attached to the FFC board.
 
 PoE connectivity, IP67 rating

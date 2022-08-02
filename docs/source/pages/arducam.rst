@@ -89,10 +89,6 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - Rolling
      - 12.3MP
      - Color, CS mount lens
-   * - :ref:`OAK-FFC-pToF`
-     - N/A
-     - 224x172
-     - TOF - High accuracy depth
 
 M12 mount lenses
 ****************
