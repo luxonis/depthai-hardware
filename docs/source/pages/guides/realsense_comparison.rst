@@ -22,7 +22,6 @@ On-device feature comparison
      - :ref:`dm9098pro`
      - :ref:`bw1098oak`
      - :ref:`dm9095`
-     - :ref:`dm0255`
      - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
      - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
      - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
@@ -31,7 +30,6 @@ On-device feature comparison
      - `F450 <https://www.intel.com/content/www/us/en/products/sku/212558/intel-realsense-id-solution-f450/specifications.html>`__
      - `T261-T265 <https://www.intelrealsense.com/tracking-camera-t265/>`__
    * - Custom AI models
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -46,7 +44,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -55,7 +52,6 @@ On-device feature comparison
      - ❌
      - ❌
    * - Object tracking
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -70,7 +66,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -79,7 +74,6 @@ On-device feature comparison
      - ❌
      - ❌
    * - Video/Image Encoding
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -94,7 +88,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -103,7 +96,6 @@ On-device feature comparison
      - ❌
      - ❌
    * - Skeleton/Hand Tracking
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -118,7 +110,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -127,7 +118,6 @@ On-device feature comparison
      - ❌
      - ❌
    * - 3D Object Pose Estimation
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -142,7 +132,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -151,7 +140,6 @@ On-device feature comparison
      - ❌
      - ❌
    * - Feature Tracking
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -166,7 +154,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -175,7 +162,6 @@ On-device feature comparison
      - ❌
      - ❌
    * - OCR
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -190,7 +176,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ✔️
      - ❌
      - ❌
      - ❌
@@ -199,7 +184,6 @@ On-device feature comparison
      - ✔️
      - ❌
    * - Fiducial Marker localization
-     - ✔️
      - ✔️
      - ✔️
      - ✔️
@@ -215,7 +199,6 @@ On-device feature comparison
      - WIP
      - WIP
      - \-
-     - \-
      - ❌
      - ❌
      - ❌
@@ -230,12 +213,10 @@ On-device feature comparison
      - ❌
      - ❌
      - ❌
-     - ❌
      - ✔️
      - ✔️
      - ❌
    * - VIO
-     - WIP
      - WIP
      - WIP
      - WIP
@@ -282,7 +263,6 @@ Camera specification
      - :ref:`dm9098pro` / -W
      - :ref:`bw1098oak` / -W
      - :ref:`dm9095`
-     - :ref:`dm0255`
      - `L515 <https://www.intelrealsense.com/lidar-camera-l515/>`__
      - `D415 <https://www.intelrealsense.com/depth-camera-d415/>`__
      - `D430-D435 <https://www.intel.com/content/www/us/en/products/sku/98320/intel-realsense-depth-module-d430/specifications.html>`__
@@ -294,7 +274,6 @@ Camera specification
      - IMX378
      - IMX378/OV9782
      - IMX214
-     - N/A
      - OV2740
      - OV2740
      - OV2740
@@ -306,7 +285,6 @@ Camera specification
      - 69 **/** 109
      - 69 **/** 109
      - 73.6
-     - N/A
      - 70
      - 69
      - 69
@@ -318,7 +296,6 @@ Camera specification
      - Rolling **/** Global
      - Rolling
      - Rolling
-     - N/A
      - Rolling
      - Rolling
      - Rolling
@@ -330,7 +307,6 @@ Camera specification
      - 12MP
      - 12MP
      - 13MP
-     - N/A
      - 2MP
      - 2MP
      - 2MP
@@ -342,7 +318,6 @@ Camera specification
      - Active Stereo
      - Passive Stereo
      - Passive Stereo
-     - ToF
      - Laser
      - Active Stereo
      - Active Stereo
@@ -354,7 +329,6 @@ Camera specification
      - OV9282
      - OV9282
      - OV7251
-     - MTP006
      - \-
      - OV2740
      - OV9282
@@ -366,7 +340,6 @@ Camera specification
      - Global
      - Global
      - Global
-     - N/A
      -
      - Rolling
      - Global
@@ -378,7 +351,6 @@ Camera specification
      - 72 **/** 127
      - 72 **/** 127
      - 72
-     - 60
      - N/A
      - 70
      - 87
@@ -390,7 +362,6 @@ Camera specification
      - 20 cm
      - 20 cm
      - 20 cm
-     - N/A
      - 25 cm
      - 45 cm
      - 28 cm
@@ -402,7 +373,6 @@ Camera specification
      - 1280x800
      - 1280x800
      - 640x480
-     - 224x172
      - N/A
      - 1024x768
      - 1280x720
@@ -418,7 +388,6 @@ Camera specification
      - ❌
      - ❌
      - ❌
-     - ❌
      - ✔️
      - ✔️
      - ✔️
@@ -426,7 +395,6 @@ Camera specification
      - ❌
      - ❌
      - ❌
-     - ✔️
      - ✔️
      - ❌
      - ❌
@@ -438,7 +406,6 @@ Camera specification
      - ✔️
      - ✔️
      - ❌
-     - N/A
      - ✔️
      - ❌
      - ✔️/❌
