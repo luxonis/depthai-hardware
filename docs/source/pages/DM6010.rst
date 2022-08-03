@@ -1,7 +1,7 @@
 Y-adapter
 =========
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/products/y-adapter-store>`__
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/accessories/products/oak-y-adapter>`__
 
 .. image:: /_static/images/DM6010/front.png
 
