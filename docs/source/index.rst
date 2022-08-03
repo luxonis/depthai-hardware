@@ -126,12 +126,16 @@ custom baseline, or custom orientation of the cameras.
 
    * - OAK-FFC-IMX378
      - OAK-FFC-OV9282
+     - OAK-FFC-ToF-VGA
    * - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249.html
      - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html
+     - .. image:: /_static/images/thumbnails/DM0256.png
+          :target: pages/DM0256.html
    * - :ref:`Learn more <bg0249>`
      - :ref:`Learn more <bg0250tg>`
+     - :ref:`Learn more <dm0256>`
 
 
 All in One Dev. Kits Designs
@@ -272,6 +276,7 @@ Miscellaneous Designs
    pages/DM1090.rst
    pages/BG0250TG.rst
    pages/BG0249.rst
+   pages/DM0255.rst
    pages/arducam.rst
 
 .. toctree::
