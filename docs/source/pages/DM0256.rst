@@ -1,0 +1,86 @@
+.. _dm0256:
+
+OAK-FFC-ToF-VGA
+===============
+
+.. image:: /_static/images/DM0256/dm0256-front.png
+
+Overview
+********
+
+The **OAK-FFC-ToF-VGA** is a carrier board for a VGA resolution ToF (Time-of-Flight) camera sensor.
+
+This FFC camera board and is designed to be compatible with :ref:`OAK-FFC-3P`, :ref:`OAK-FFC-4P`, and
+:ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>` baseboards.
+
+..
+  It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this FFC module,
+  more information below at *Getting started*.
+
+Timeline
+********
+
+- We have manufactured the first OAK-FFC-ToF-VGA carrier boards in July 2022.
+- We plan to **fully support this sensor** in depthai in **Q1/Q2 of 2023**.
+- To get **updates on ToF development** feel free to **subscribe to the ToF** topic on our `email updates <https://share-eu1.hsforms.com/12tS8TEe5Ro2ry31dVhv_6Qf2chh>`__
+
+Sensor specifications
+*********************
+
+.. list-table::
+   :header-rows: 1
+
+   * - Specs
+     - Value
+   * - Resolution
+     - 640x480 (VGA)
+   * - Depth range
+     - 20cm - 5m
+   * - Depth accuracy
+     - <1% indoors, <2% outdoors
+   * - Depth precision
+     - <0.1%
+   * - Optical format
+     - 1/3.2"
+   * - Pixel size
+     - 7 µm
+   * - VSCEL wavelength
+     - 940nm
+   * - Max framerate:
+     - 60 FPS (4-tap)
+   * - Output interface:
+     - 2-lane MIPI
+   * - Operating temperature
+     - -20°C to 70°C
+
+..
+  TODO: find these values
+      * - DFOV
+        - 70.7° ± 5%
+      * - HFOV
+        - 55.9° ± 5%
+      * - VFOV
+        - 44.0° ± 5%
+      * - EFL
+        - 2.85mm ± 5%
+      * - F Number
+        - 1.1
+      * - TV distortion
+        - < 7.3%
+
+.. image:: /_static/images/DM0256/dm0256-back.png
+
+..
+  Key features
+  ************
+
+  - 26 pin 0.5mm FFC interconnect to baseboard
+  - 30 pin interface to MTP006 camera module
+  - 2-lane MIPI
+  - Aux/Control signals to camera module
+  - 3.3V power input via FFC
+  - On-board power generation for camera module
+  - Design files produced with Altium Designer 21
+  - FFC connector 0.5mm pitch,
+
+.. include::  /pages/includes/footer-short.rst
