@@ -18,15 +18,15 @@ A) Handling High Vibrations
 
 **Fixed-Focus (FF) is best here**. Fixed-Focus is best for handling high-vibration environments.
 
+Auto Focus uses an electromagnet to move a magnet that is mounted to a free-moving lens.
+So in high-vibrations, the vibrations are stronger than the electromagnetic force - and the lens vibrates all over the
+place - causing blurry/weird/”jello” images/video.
+
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
         <iframe src="https://www.youtube.com/embed/jpnsTsCGbQk" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
-
-Auto Focus uses an electromagnet to move a magnet that is mounted to a free-moving lens.
-So in high-vibrations, the vibrations are stronger than the electromagnetic force - and the lens vibrates all over the
-place - causing blurry/weird/”jello” images/video.
 
 Examples of high-vibration installations include mounted to a:
 
