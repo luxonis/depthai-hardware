@@ -14,7 +14,7 @@ Based off of the :ref:`OAK-D-CM3 <bw1097>` and Raspberry PI CM4IO board, the OAK
 :ref:`OAK-SoM` to allow for a fully standalone and integrated solution for real-time `Spatial AI <https://docs.luxonis.com/en/latest/pages/spatial-ai/>`__.
 
 The biggest difference between OAK-D-CM4 and :ref:`OAK-D-CM3 <bw1097>` architecture is that OAK-D-CM4 integrates a CM4 module,
-has gigabit ethernet, and is populated with MagJack supporting PoE. PoE can be used with additional PoE Hat. CM4 modules also include WiFi.
+has gigabit ethernet, and is populated with MagJack supporting PoE. PoE can be used with additional PoE Hat. CM4 modules also have WiFi and Bluetooth connectivity.
 
 Most OAK-D-CM4 devices have eMMC memory on-board. If you would like to flash a new image to it, follow the :ref:`tutorial here <Flashing an image to the eMMC>`.
 
