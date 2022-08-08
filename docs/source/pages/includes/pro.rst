@@ -8,13 +8,16 @@ IR light from illumination LED/laser dot projector to the camera.
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
 - conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
 
+.. note::
+  **Laser dot projector and flood LED are disabled by default!** That's because most people would prefer intentionally enabling the laser dot projector when they are wearing eye safety gear.
+
 On the image below there's a blank wall with no texture. Without the dot projector, (passive) depth perception is poor.
 With dot projector set to ~200mA the (active) depth perception looks much better. If you look closely at the bottom
 left frame, you can see little dots all around the wall.
 
 .. image:: /_static/images/guides/active-stereo.png
 
-**Blanket IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
+**Flood IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
 on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
 for your AI/CV processes.
 
