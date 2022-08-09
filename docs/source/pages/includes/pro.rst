@@ -12,7 +12,7 @@ IR light from illumination LED/laser dot projector to the camera.
   **Laser dot projector and flood LED are disabled by default!** That's because most people would prefer intentionally enabling the laser dot projector when they are wearing eye safety gear.
 
 On the image below there's a blank wall with no texture. Without the dot projector, (passive) depth perception is poor.
-With dot projector set to ~200mA the (active) depth perception looks much better. If you look closely at the bottom
+With the dot projector set to ~200mA, the (active) depth perception looks much better. If you look closely at the bottom
 left frame, you can see little dots all around the wall.
 
 .. image:: /_static/images/guides/active-stereo.png
