@@ -6,7 +6,7 @@ IR light from illumination LED/laser dot projector to the camera.
 
 **Laser dot projector** projects many small dots in front of the device, which helps with disparity matching, especially for low-visual-interest surfaces
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
-- conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
+- conventional Active Stereo Vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
 
 .. note::
   **Laser dot projector and flood LED are disabled by default!** That's because most people would prefer intentionally enabling the laser dot projector when they are wearing eye safety gear.
