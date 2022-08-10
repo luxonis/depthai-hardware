@@ -1,7 +1,9 @@
-IMX582
-======
+.. _LCM48:
 
-Sony's IMX582 is a 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
+Luxonis Proprietary 48MP Camera Module
+======================================
+
+This is a proprietary 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
 currnetly supports.
 
 Supported resolutions
@@ -29,17 +31,17 @@ implementing split processing for the full 8000 width.
 So at the moment the image at full resolution (THE_48_MP) has narrower HFOV than the camera actually is (see image below),
 just because of this limitation on linewidth.
 
-To use IMX582, checkout `depthai-python <https://github.com/luxonis/depthai-python>`__ to the ``multi_cam_support``
+To use the LCM48, checkout `depthai-python <https://github.com/luxonis/depthai-python>`__ to the ``multi_cam_support``
 branch, and install the library by running ``python3 examples/install_requirements.py``. You can quikcly evaluate
-the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 13mp``.
+the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 48mp``.
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
-- OAK-FFC-IMX582
+- OAK-FFC-LCM48
 
-.. figure:: /_static/images/sensors/imx582/imx582-ffc.jpg
+.. figure:: /_static/images/sensors/LCM48/48mp-ffc.jpg
 
-  OAK-FFC-IMX582 (AF, NFOV)
+  OAK-FFC-LCM48 (AF, NFOV)
 
 .. include::  /pages/articles/sensors/includes/ccm-section.rst
 
@@ -53,16 +55,16 @@ the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 13mp``.
     * FF: PY106 (Focus: 50cm+)
   * WFOV FF (PY080) - 120° DFOV, 96° HFOV, 89° VFOV, EFL: 2.75, F. NO: 2.8±5%, Distortion: < -14.6%, Lens Size: 1/2", Focus: 50cm+
 
-.. figure:: /_static/images/sensors/imx582/imx582-ccm.jpg
+.. figure:: /_static/images/sensors/LCM48/lcm48.jpg
 
-  Arducam short FPC NFOV AF IMX582
+  Arducam short FPC NFOV AF LCM48
 
 .. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
 
 Additional images
 #################
 
-.. figure:: /_static/images/sensors/imx582/car-license-plate-70m.png
+.. figure:: /_static/images/sensors/LCM48/car-license-plate-70m.png
   :target: https://drive.google.com/file/d/1EuWfGcxb7PVfs38xCuyuj_hzVAN5eH8z
 
   Car license plate at 70m. Click on this image for the full resolution image on Google Drive. We suggest downloading

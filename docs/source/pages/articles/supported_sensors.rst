@@ -85,7 +85,7 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - rolling
      - 4056x3040
      - Initially tested, similar to IMX477
-   * - IMX586 / :ref:`IMX582`
+   * - :ref:`LCM48 <LCM48>`
      - Initially tested
      - rolling
      - 8000x6000
@@ -199,7 +199,7 @@ Arducam short FPC
 * :ref:`IMX477`
 
   * AF (short FPC M12-Mount, haven't yet received samples)
-* :ref:`IMX582`
+* :ref:`LCM48 <LCM48>`
 
   * AF/FF/NoIR/NotchIR - 82° DFOV, 68° HFOV, 55° VFOV
   * FF Wide FOV - 120° DFOV, 96° HFOV, 89° VFOV
