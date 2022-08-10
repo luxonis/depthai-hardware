@@ -107,4 +107,14 @@ Native media support
 
 Users will have full access to Keem Bay and will be able to also use libraries/frameworks above.
 
+Enhanced Stereo Depth on S3 OAKs
+################################
+
+**Series 3 OAK devices feature CNN-based calculation of pixel descriptors**, compared to census transform that's being used in
+previous OAK series.
+
+We plan on doing **depth accuracy benchmark tests** on **static images** and comparing S3 and older series of OAK **in
+August of 2022**.
+
+
 .. include::  /pages/includes/footer-short.rst
