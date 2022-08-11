@@ -12,6 +12,13 @@ In August of 2021, Intel announced it is winding down RealSense Camera Business 
 Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK cameras are in stock and we never plan to EOL
 any of our devices, more :ref:`info here <device_availability_and_eol>`.
 
+
+Depth comparison
+################
+
+We haven't done any (quantitative) tests ourselves, but a third party (a customer) sent us their OAK evaluation results, comparing
+:ref:`OAK-D-Pro` with RealSense D435i.
+
 On-device feature comparison
 ############################
 
