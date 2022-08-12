@@ -1,6 +1,8 @@
 Auxiliary M8 connector
 ----------------------
 
+M8 aux connector has 8pin female A-coded connector. M12 ethernet has 8pin female X-coded connector.
+
 .. image:: /_static/images/poe/m8-connector.jpeg
 
 .. list-table::
