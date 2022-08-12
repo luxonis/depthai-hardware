@@ -41,7 +41,7 @@ the stereo baseline distance** or use a different image sensor (we support :ref:
 :ref:`OAK FFC line <Modular Cameras Designs>` is great for prototyping, as it allows users to use different camera sensors/optics
 and place them at an ideal stereo baseline distance for their application.
 
-Below is a long-range disparity depth visualized over a color frame. Customer used narrow FOV M12 lenses
+Below is a long-range disparity depth visualized over a color frame. This customer used narrow FOV M12 lenses
 with wide stereo baseline distance (25cm) to achieve such results with our platform.
 
 .. image:: https://user-images.githubusercontent.com/18037362/184261853-7d447b7d-1ff9-4c8d-871c-eb230591eae1.png
