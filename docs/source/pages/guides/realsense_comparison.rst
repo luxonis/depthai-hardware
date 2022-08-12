@@ -35,7 +35,7 @@ Custom stereo depth perception
 ##############################
 
 Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SOM <System on Module Designs>`
-are opensource so you could easily redesign the board (see :ref:`Integrating DepthAI into products`), for example to **change
+are open-source so you can easily redesign the board (see :ref:`Integrating DepthAI into products`), for example to **change
 the stereo baseline distance** or use a different image sensor (we support :ref:`a bunch of different sensors <Supported sensors>`).
 
 With :ref:`OAK FFC line <Modular Cameras Designs>` is great for prototyping, as it allows users to use different camera sensors/optics
