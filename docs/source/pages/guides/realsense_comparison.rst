@@ -12,6 +12,44 @@ In August of 2021, Intel announced it is winding down RealSense Camera Business 
 Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK cameras are in stock and we never plan to EOL
 any of our devices, more :ref:`info here <device_availability_and_eol>`.
 
+
+Depth comparison
+################
+
+We haven't done any (quantitative) tests ourselves, but a third party (a customer) sent us their OAK evaluation results,
+comparing :ref:`OAK-D-Pro` with RealSense D435i.
+
+.. figure:: https://user-images.githubusercontent.com/18037362/184259447-8984e083-05fe-4130-86ef-bfa5ec8bf112.png
+  
+  Laser dot projector disabled (passive stereo)
+
+.. figure:: https://user-images.githubusercontent.com/18037362/184259825-e19f0631-4325-424a-8d39-2060923b31fe.png
+  
+  Laser dot projector enabled (active stereo)
+
+.. figure:: https://user-images.githubusercontent.com/18037362/184262380-9ad26b2f-0b31-439d-b887-5c89a2ad67bb.png
+  
+  Target (color image). Table and wall are featureless surfaces.
+
+Custom stereo depth perception
+##############################
+
+Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SOM <System on Module Designs>`
+are open-source so you can easily redesign the board (see :ref:`Integrating DepthAI into products`), for example to **change
+the stereo baseline distance** or use a different image sensor (we support :ref:`a bunch of different sensors <Supported sensors>`).
+
+:ref:`OAK FFC line <Modular Cameras Designs>` is great for prototyping, as it allows users to use different camera sensors/optics
+and place them at an ideal stereo baseline distance for their application.
+
+Below is a long-range disparity depth visualized over a color frame. This customer used narrow FOV M12 lenses
+with wide stereo baseline distance (25cm) to achieve such results with our platform.
+
+.. image:: https://user-images.githubusercontent.com/18037362/184261853-7d447b7d-1ff9-4c8d-871c-eb230591eae1.png
+
+See `stereo depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__
+on max depth perception calculations based on camera intrinsics/baseline distance.
+
+
 On-device feature comparison
 ############################
 

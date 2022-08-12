@@ -100,7 +100,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 Modular Cameras Designs
 ***********************
 
-Great for prototyping flexibility. Since **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
+**OAK FFC line** is great for prototyping flexibility. Since **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
 trade - you have to figure out how/where you will mount them, and then once mounted, do a `stereo calibration <https://docs.luxonis.com/en/latest/pages/calibration/>`__.
 This is not a TON of work, but keep this in mind, that it’s not ‘plug and play’ like other options - it’s more for applications that require custom mounting,
 custom baseline, or custom orientation of the cameras.
