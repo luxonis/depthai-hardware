@@ -34,7 +34,7 @@ comparing :ref:`OAK-D-Pro` with RealSense D435i.
 Custom stereo depth perception
 ##############################
 
-Our platform was built from ground up with the idea of being **customizable**. All our products based on :ref:`OAK SOM <System on Module Designs>`
+Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SOM <System on Module Designs>`
 are opensource so you could easily redesign the board (see :ref:`Integrating DepthAI into products`), for example to **change
 the stereo baseline distance** or use a different image sensor (we support :ref:`a bunch of different sensors <Supported sensors>`).
 
