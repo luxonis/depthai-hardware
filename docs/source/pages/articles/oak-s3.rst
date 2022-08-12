@@ -1,38 +1,36 @@
 OAK Series 3
 ============
 
-**Series 3 (S3)** of OAK devices will have onboard the next, 3rd generation of VPU, called **Keem Bay**.
-Compared to previous generation of VPU, Myriad X, these are the main differences:
+**Series 3 (S3)** of OAK devices will have onboard the new Series 3 Robotic Vision Processor (RVP).
+Compared to the previous generation of VPU, Myriad X, these are the main differences with the Series 3 RVP:
 
 - Integrated **quad-core ARM A53** running YOCTO Linux
 - At least **5x AI inference performance**
 - Enhanced **stereo depth** perception
 
-We also plan to keep **backward compatibility** - so pipelines written for Myriad X would still work on the new Keem Bay VPU.
+We also plan to keep **backward compatibility** - so pipelines written for Myriad X will still work on the Series 3 RVP.
 
 Series 3 roadmap
 ################
 
-- **2022 Q1**: Hardware bring-up and testing of :ref:`OAK-SoM-Pro Keem Bay <OAK-SoM-Pro>`.
-- **2022 Q2**: Porting of DepthAI stack to Keem Bay. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Keem Bay evaluation tests.
-- **2022 Q3**: Beta release of initial OAK devices with integrated Keem Bay. Software/firmware is getting more feature-complete and more stable.
+- **2022 Q1**: Hardware bring-up and testing.
+- **2022 Q2**: Porting of DepthAI stack to Series 3 RVP. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Evaluation testing.
+- **2022 Q3**: Beta release of initial OAK devices with integrated Series 3 RVP. Software/firmware is getting more feature-complete and more stable.
 - **2022 Q4**: Official release of OAK S3 device(s).
 
-This might be a bit optimistic roadmap due to supply chain issues, but we will hopefully stick to this roadmap.
-Initial S3 OAK cameras will have 2GB of RAM onboard and will use the 3400VE Keem Bay.
-
-:ref:`OAK-SoM-Max` will have 4GB RAM while :ref:`OAK-SoM-Pro Keem Bay <OAK-SoM-Pro>` will have 2GB RAM.
+This might be a bit of an optimistic roadmap due to supply chain issues, but we will do everything possible to meet it.
+Initial S3 OAK cameras will have 2GB of RAM on board and will use the 3400VE Series 3 RVP.
 
 **2022 Updates**
 
-- **February**: We manufactured the initial batch of :ref:`OAK-SoM-Pro Keem Bay <OAK-SoM-Pro>` (Keem Bay VPU onboard). We also started porting the DepthAI library to the new ecosystem (Keem Bay).
+- **February**: We manufactured the initial batch of SoM with Series 3 RVP on board. We also started porting the DepthAI library to the new ecosystem.
 - **March**: We designed :ref:`OAK-SoM-Max` and started porting DepthAI stack.
 - **May**: We received initial :ref:`OAK-SoM-Max` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
 - **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-KBs.
 - **July**: New OS for KB - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
 - **August [Planned]**: DepthAI alpha release, hopefully with stereo pipeline. SDK so you can compile your programs for the quadcore ARM (via docker).
 
-For **updates on the progress of Keem Bay / OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
+For **updates on the progress of OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 
 Quad-core ARM
 #############
@@ -55,18 +53,18 @@ on the OAK camera itself. Users will have full access to the ARM and will be als
 AI performance boost
 ####################
 
-We haven't done any testing ourselves, but based on Intel's testing, Keem Bay has >10x DL inference performance compared to Myriad X.
+We haven't done any testing ourselves, but based on Intel's testing, the Series 3 RVP has >10x DL inference performance compared to Myriad X.
 The actual number really depends on the AI model you are using. Some models might only have 3.5x performance boost while others could
 have 20x performance boost compared to Myriad X performance.
 
-Keem Bay supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
+Series 3 RVP supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
 model won't be any different from converting the model for Myriad X (which supports FP16).
 
-Keem Bay has 20 DPU (Data Processing Units) integrated which are capable of delivering 5.12 TOPS (INT8) or 1.28 TFLOPS (FP16).
+Series 3 RVP has 20 DPU (Data Processing Units) integrated which are capable of delivering 5.12 TOPS (INT8) or 1.28 TFLOPS (FP16).
 It supports Sparse acceleration and compression increasing effective TOP's by 2x to 20TOPS and effective FPS performance by 2x+.
 
-Keem Bay specifications
-#######################
+Series 3 RVP Specifications
+###########################
 
 .. list-table:: Hardware specifications
    :header-rows: 0
@@ -105,7 +103,7 @@ Native media support
 - OpenCV (or G-API) for computer vision
 - Video Acceleration API / Intel Media SDK for encoding and decoding
 
-Users will have full access to Keem Bay and will be able to also use libraries/frameworks above.
+Users will have full access to the Series 3 RVP and will be able to also use libraries/frameworks above.
 
 Enhanced Stereo Depth on S3 OAKs
 ################################
