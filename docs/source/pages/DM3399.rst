@@ -8,7 +8,7 @@ OAK-SoM-Max
 Overview
 ********
 
-**OAK-SoM-Max** has on-board :ref:`Keem Bay VPU <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+**OAK-SoM-Max** has on-board :ref:`Series 3 Robotic Vision Processor (RVP) <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
 and **quadcore ARM CPU**. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level system with
 a need for a low-power, high performance, real-time AI and depth perception.
 
