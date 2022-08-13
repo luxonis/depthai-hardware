@@ -21,8 +21,8 @@ Sensor specifications
           - rolling
           - global
         * - FOV (D/H/V)
-          - 120°/108°/93°
-          - 150°/127°/79.5°
+          - 120°/95°/70°
+          - 150°/128°/80°
         * - Rectified Depth FOV
           -
           - 106°/97°/70°
@@ -30,8 +30,8 @@ Sensor specifications
           - 12MP (4032x3040)
           - 1MP (1280x800)
         * - Focus
-          - FF: 50cm - ∞
-          - FF: 19.6cm - ∞
+          - FF: 60cm - ∞
+          - FF: 18cm - ∞
         * - Max Framerate
           - 60 FPS
           - 120 FPS
