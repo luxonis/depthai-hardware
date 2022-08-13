@@ -1,9 +1,9 @@
-Keem Bay inside
-***************
+RVP3 inside
+***********
 
-This OAK device has on-board :ref:`Keem Bay VPU <Keem Bay specifications>`. Main features:
+This OAK device has on-board :ref:`RPV3 <RVP3 Specifications>`. Main features:
 
-- **3.0 TOPS** for AI - around 10x AI boost compared to Myriad X
+- **3.0 TOPS** for AI - around 10x AI boost compared to Myriad X (previous version of processor)
 - **Imaging**: ISP, max 6 cameras, 500 MP/s HDR, 3A
 - **Run any AI model**, even custom architectured/built ones - models need to `be converted <https://docs.luxonis.com/en/latest/pages/model_conversion/>`__.
 - **Encoding/Decoding**: H.264, H.265, MJPEG - 4K/30FPS, 1080P/60FPS

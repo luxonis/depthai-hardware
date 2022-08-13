@@ -1,4 +1,4 @@
-# OAK-SoM-Pro-KB
+# OAK-SoM-Pro-S3
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2399.html)
 

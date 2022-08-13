@@ -18,10 +18,11 @@ We realize majority of people will buy the newer, pin-compatible version that is
 However, folks that absolutely need the exact version of an old product will still be able to buy it, as we will always offer it.
 
 **For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is Electrically, Mechanically, and
-fully pin-compatible with the **OAK-SoM-Pro**, but based on Keem Bay (MA2095) instead of the Myriad X (MA2485 or MA2085).
+fully pin-compatible with the **OAK-SoM-Pro**, but based on :ref:`RVP3 <RVP3 Specifications>` instead of the
+Myriad X (MA2485 or MA2085).
 
-Keem Bay is the next generation of the Myriad X, and has significantly improved features (eg. ~10x AI performance, on-board Linux host...).
-So this same SoM can drop into existing customer designs, and we expect that most customers will switch to Keem Bay SOM.
+:ref:`OAK Series 3` has significantly improved features (eg. ~10x AI performance, on-board Linux host...).
+So this same SoM can drop into existing customer designs, and we expect that most customers will switch to RVP3 based SOM.
 Only those who, for some reasons, absolutely want the lower performance version, will continue to buy the lower performance version.
 And as above, what this strategy allows is keeping long-term stock of everything.
 

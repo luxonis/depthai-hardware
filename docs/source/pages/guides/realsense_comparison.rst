@@ -17,7 +17,7 @@ Depth comparison
 ################
 
 We haven't done any (quantitative) tests ourselves, but a third party (a customer) sent us their OAK evaluation results,
-comparing :ref:`OAK-D-Pro` with RealSense D435i.
+comparing :ref:`OAK-D Pro` with RealSense D435i.
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184259447-8984e083-05fe-4130-86ef-bfa5ec8bf112.png
   
@@ -288,7 +288,7 @@ Features described
 - **Fiducial Marker localization** - AprilTag detector currently works at ~20FPS, `progress here <https://github.com/luxonis/depthai/issues/133>`__.
 - **Neural Assisted Depth** - Work in progress, ticket `here <https://github.com/luxonis/depthai/issues/173>`__.
 - **Encryption** - Not yet addressed.
-- **VIO** - Work in progress on Keem Bay, on :ref:`OAK Series 3` cameras.
+- **VIO** - Work in progress on RVP3, on :ref:`OAK Series 3` cameras.
 
 
 Camera specification

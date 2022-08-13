@@ -7,7 +7,7 @@ OAK-SoM-Pro
 
 .. figure:: /_static/images/SOM-PRO/som-pros-front.jpg
 
-    **left**: OAK-SoM-Pro Series 3 RVP, **right**: OAK-SoM-Pro Myriad X
+    **left**: OAK-SoM-Pro-S3 (RVP3), **right**: OAK-SoM-Pro (Myriad X)
 
 Overview
 ********
@@ -18,11 +18,11 @@ The OAK-SoM-Pro interfaces with the system through two 10-Gbps-rated 100-pin boa
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxiliary power port is offered to interface without connection to a baseboard.
 
-**OAK-SoM-Pro comes in two variants**: Myriad X (Gen2 Movidius VPU) based and :ref:`Series 3 Robotic Vision Processor (RVP) <OAK Series 3>` (Gen3 Movidius VPU) based SoM.
-:ref:`Series 3 RVP` provides ~10x AI performance, quadcore ARM CPU, and enchanced stereo depth perception compared to Myriad X.
+**OAK-SoM-Pro comes in two variants**: Myriad X based and :ref:`Series 3 Robotic Vision Processor (RVP3) <RVP3 Specifications>` based SoM.
+:ref:`RVP3 <RVP3 Specifications>` provides ~10x AI performance, quadcore ARM CPU, and enchanced stereo depth perception compared to Myriad X.
 
-OAK-SoM-Pro Series 3 RVP was designed to be a drop-in replacement for OAK cameras that use
-OAK-SoM-Pro Myriad X (list below).
+OAK-SoM-Pro-S3 (RVP3) was designed to be a drop-in replacement for OAK cameras that use
+OAK-SoM-Pro (Myriad X) (list below).
 
 
 .. tabs::
@@ -45,28 +45,28 @@ OAK-SoM-Pro Myriad X (list below).
 
         .. include:: /pages/includes/mx_inside.rst
 
-    .. tab:: OAK-SoM-Pro S3 (Series 3 RVP, DM2399)
+    .. tab:: OAK-SoM-Pro-S3 (RVP3, DM2399)
 
         .. image:: /_static/images/SOM-PRO/board-back.png
 
-        **OAK-SoM-Pro S3** has an on-board :ref:`Series 3 RVP <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+        **OAK-SoM-Pro-S3** has an on-board :ref:`RVP3 <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
         and **quadcore ARM CPU**. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
-        replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <Devices that use OAK-SoM-Pro>`).
+        replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <OAK-SoM-Pro>`).
 
         It was primarily designed for evaluation and backwards compatibility.
         For new products, we would suggest using :ref:`OAK-SoM-Max` (differences below).
 
-        **Series 3 RVP inside**
+        **RVP3 inside**
 
-        .. include:: /pages/includes/kb_inside.rst
+        .. include:: /pages/includes/rvp3_inside.rst
 
-        **OAK-SoM-Pro S3 vs OAK-SoM-Max**
+        **OAK-SoM-Pro-S3 vs OAK-SoM-Max**
 
-        .. include:: /pages/includes/som-pro-kb-vs-max.rst
+        .. include:: /pages/includes/som-pro-s3-vs-max.rst
 
         .. figure:: /_static/images/SOM-PRO/on-FFC-4P.png
 
-            **OAK-SoM-Pro S3** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
+            **OAK-SoM-Pro-S3** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
 
 
 Board Layout
@@ -87,7 +87,7 @@ Dimensions and Weight
 Key features
 ************
 
-* :ref:`Series 3 RVP <OAK Series 3>` (Series 3) **unique features**:  2 GB RAM (16GBit)
+* :ref:`RVP3 <OAK Series 3>` (Series 3) **unique features**:  2 GB RAM (16GBit)
 * Myriad X **unique features**:  512 MB RAM (4GBit)
 * Interfaces with the system through two 10-Gbps-rated 100-pin connectors (DF40C-100DP-0.4V(51))
 * 2 x 2-lane MIPI channels
@@ -99,7 +99,7 @@ Key features
 
 .. figure:: /_static/images/SOM-PRO/som_pros_up.png
 
-    **left**: OAK-SoM-Pro Keem Bay, **right**: OAK-SoM-Pro Myriad X  
+    **left**: OAK-SoM-Pro-S3, **right**: OAK-SoM-Pro Myriad X  
 
 Datasheets
 **********
@@ -109,14 +109,14 @@ Datasheets
 3D Models
 *********
 
-- Myriad X board STEP `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
-- Series 3 RVP STEP `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro-KB/DM2399_R1M0E1_AllComponents.step>`__
+- OAK-SoM-Pro board STEP `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
+- OAK-SoM-Pro-S3 `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro-S3/DM2399_R1M0E1_AllComponents.step>`__
 
 Altium Design Files
 *******************
 
-- Myriad X `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro>`__
-- Series 3 RVP `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro-KB>`__
+- OAK-SoM-Pro `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro>`__
+- OAK-SoM-Pro-S3 `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro-S3>`__
 
 
 .. include::  /pages/includes/footer-short.rst
