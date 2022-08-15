@@ -3,7 +3,7 @@
 OAK-FFC-6P
 ==========
 
-`OAK-FFC-6P kit <https://shop.luxonis.com/products/keembay-oak-ffc-6p-with-oak-som-max-kit>`__
+`OAK-FFC-6P kit <https://shop.luxonis.com/products/oak-ffc-6p-with-oak-som-max-kit>`__
 
 .. image:: /_static/images/FFC-6P/top.png
 
