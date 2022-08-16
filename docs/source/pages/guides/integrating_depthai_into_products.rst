@@ -6,18 +6,18 @@ Integrating DepthAI into products
 Difficulty of integrating DepthAI into products
 ***********************************************
 
-When designing our platform from the grounds up, we always thought of user integration and made is as simple
-as possible to integrate it into other products.
+When designing the DepthAI platform we always made effots to consider long term integration needs, with the goal of making it as simple
+as possible to integrate into other products.
 
-What is SoM
-***********
+What is the OAK System on Module (SoM)?
+***************************************
 
-OAK SoM (System on Module) is a small form-factor PCB that features a powerful `Myriad X <https://newsroom.intel.com/wp-content/uploads/sites/11/2017/08/movidius-myriad-xvpu-product-brief.pdf>`__
-VPU (Vision Processing Unit). The VPU has 16 powerful SHAVE cores and also features the Neural Compute Engine — a dedicated
+The OAK SoM is a small form-factor PCB that features a powerful `Myriad X <https://newsroom.intel.com/wp-content/uploads/sites/11/2017/08/movidius-myriad-xvpu-product-brief.pdf>`__
+VPU (Vision Processing Unit). The VPU has 16 powerful SHAVE cores and also features the Neural Compute Engine, which is a dedicated
 hardware accelerator for deep neural network inference. In addition, OAK-SoM-IoT and OAK-SoM-Pro have NOR Flash, which can be
-used as an alternative to the USB boot. The idea of SoM is that customer can take and build their own device with it, since
-SoM is very complex, 12 layer PCB. That way our SoM devices serve as an abstraction layer. They can also be used
-in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__ - without a host
+used as an alternative to the USB boot. The idea of SoM is that customer can use it to build their own device, since
+SoM is a very complex, 12 layer PCB. That way our SoM devices serve as an abstraction layer. They can also be used
+in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__ without a host
 computer, although not all devices support that use-case.
 
 We have 3 types of SoM devices:
@@ -38,13 +38,13 @@ OAK-SoM:
 Baseboards
 **********
 
-Just as our `software <https://github.com/luxonis/depthai-experiments>`__ and our `library <https://github.com/luxonis/depthai-core>`__,
+Just like our `software <https://github.com/luxonis/depthai-experiments>`__ and our `library <https://github.com/luxonis/depthai-core>`__,
 our `hardware <https://github.com/luxonis/depthai-hardware>`__ is opensource too. That way it is not just a black
-box, you can see how our devices (PCB) are designed and you can change them however you like. Even high-school
-students designed their own baseboard by modifying existing opensource design. Most of complexity is on the SOM,
+box. It allows you to see how our devices (PCB) are designed and change them however you like. Even high-school
+students were able to design their own baseboard by modifying existing opensource designs. Most of the complexity is on the SoM,
 so the baseboard can be a 2-layer PCB.
 
-Here is an example of a baseboard without the SOM:
+Here is an example of a baseboard without the SoM:
 
 .. image:: /_static/images/baseboard.jpeg
 

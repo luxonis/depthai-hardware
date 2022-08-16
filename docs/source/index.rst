@@ -1,7 +1,7 @@
 DepthAI Hardware Documentation
 ==============================
 
-Each device's documentation includes an overview, getting started guide, images and project files, such as datasheets, altium design files, 3D models and
+Each device's documentation includes an overview, getting started guide, images and project files (such as datasheets), Altium design files, 3D models, and
 mechanical models.
 
 Device name guide
@@ -62,7 +62,7 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 PoE Designs
 ***********
 
-PoE devices are similar to USB devices, but instead of USB, they have **PoE connectivity** and also feature **on-board flash**, so you can run pipelines
+PoE devices are similar to USB devices, but instead of USB they have **PoE connectivity** and also feature **on-board flash**, so you can run pipelines
 in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__.
 
 .. list-table::
@@ -97,12 +97,12 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
      - :ref:`Learn more <ng9097w>`
      - :ref:`Learn more <ng9097prow>`
 
-Modular Cameras Designs
-***********************
+Modular Camera Designs
+**********************
 
-**OAK FFC line** is great for prototyping flexibility. Since **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
-trade - you have to figure out how/where you will mount them, and then once mounted, do a `stereo calibration <https://docs.luxonis.com/en/latest/pages/calibration/>`__.
-This is not a TON of work, but keep this in mind, that it’s not ‘plug and play’ like other options - it’s more for applications that require custom mounting,
+The **OAK FFC line** is great for prototyping flexibility. Since **cameras are modular**, you can place them at **various stereo baselines**. This flexibility comes with a
+trade: you have to figure out how/where you will mount them, and then once mounted, perform a `stereo calibration <https://docs.luxonis.com/en/latest/pages/calibration/>`__.
+This is not a TON of work, so keep in mind that these aren't "plug and play" like other options. Instead, they are more for applications that require custom mounting,
 custom baseline, or custom orientation of the cameras.
 
 .. list-table::
@@ -138,8 +138,8 @@ custom baseline, or custom orientation of the cameras.
      - :ref:`Learn more <dm0256>`
 
 
-All in One Dev. Kits Designs
-****************************
+All in One Dev. Kit Designs
+***************************
 
 These devices are like combining a **Raspberry Pi with an OAK-D** in a compact solution.
 
@@ -161,11 +161,11 @@ These devices are like combining a **Raspberry Pi with an OAK-D** in a compact s
      - :ref:`Learn more <dm2097>`
 
 
-System on Module Designs
-************************
+System on Module (SoM) Designs
+******************************
 
-SoM is perfect :ref:`for integrating <Integrating DepthAI into products>` the power of DepthAI into your own products - or to customize one of our
-open-source hardware design as you see fit.
+A SoM is perfect :ref:`for integrating <Integrating DepthAI into products>` the power of DepthAI into your own products, or to customize one of our
+open-source hardware designs as you see fit.
 
 .. list-table::
    :header-rows: 1
