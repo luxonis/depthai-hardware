@@ -21,7 +21,7 @@ and on-board **integrated ESP32**, connected to the VPU via SPI (:ref:`more info
      - .. image:: /_static/images/thumbnails/DM1098OBC.png
           :target: ../DM1098OBC.html
      - .. image:: /_static/images/thumbnails/BW1099EMB.png
-          :target: pages/BW1099EMB.html
+          :target: ../BW1099EMB.html
    * - :ref:`Learn more <dm1092>`
      - :ref:`Learn more <dm1098obc>`
      - :ref:`Learn more <bw1099emb>`
@@ -40,7 +40,7 @@ Others
      - .. image:: /_static/images/thumbnails/rpi_hat.png
           :target: ../BW1094.html
      - .. image:: /_static/images/thumbnails/bw1098_new.png
-          :target: pages/BW1098FFC.html
+          :target: ../BW1098FFC.html
    * - :ref:`Learn more <bw0253>`
      - :ref:`Learn more <bw1094>`
      - :ref:`Learn more <bw1098ffc>`
