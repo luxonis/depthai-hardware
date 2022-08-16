@@ -12,9 +12,9 @@ Step by step tutorial
 #####################
 
 #. You will need a PoE switch or Injector **to power the PoE device**. `Click here for the full tutorial <https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/powering_poe_devices.html>`__. After powering the device, LED should start blinking, as on the GIF above.
-#. Connect your computer to the same `LAN <https://en.wikipedia.org/wiki/Local_area_network>`__ as the PoE device
-#. Make sure you have **depthai version 2.7.0.0** or newer. You can update your depthai python package with :code:`python3 -m pip install depthai>=2.7.0.0`
-#. Now you can run any `code sample <https://docs.luxonis.com/projects/api/en/latest/tutorials/code_samples/>`__ / `depthai experiment <https://github.com/luxonis/depthai-experiments>`__ / `depthai_demo <https://github.com/luxonis/depthai>`__ as you would when connecting a OAK device with a USB-C cable!
+#. Connect your computer to the same `LAN <https://en.wikipedia.org/wiki/Local_area_network>`__ as the PoE device.
+#. Make sure you have **DepthAI version 2.7.0.0** or newer. You can update your DepthAI python package with :code:`python3 -m pip install depthai>=2.7.0.0`
+#. Now you can run any `code sample <https://docs.luxonis.com/projects/api/en/latest/tutorials/code_samples/>`__ / `depthai experiment <https://github.com/luxonis/depthai-experiments>`__ / `depthai_demo <https://github.com/luxonis/depthai>`__ as you would when connecting an OAK device with a USB-C cable!
 
 .. image:: /_static/images/guides/poe-working.jpeg
 
@@ -26,14 +26,14 @@ How it works
 When your app creates the device object (:code:`with dai.Device(pipeline) as device:`),
 the library will search for available devices that are connected either by USB port or are on the LAN.
 It searches for PoE devices (UDP broadcast) on the same network and communicates with the device using TCP protocol.
-That way OAK PoE cameras work in same manner as USB cameras. As with the USB-C connection, you can specify
-the Mx ID to specify to which OAK PoE camera you would want to connect to
+That way OAK PoE cameras work in the same manner as USB cameras. As with the USB-C connection, you can specify
+the Mx ID to specify to which OAK PoE camera you want to connect to
 (`more info here <https://docs.luxonis.com/projects/api/en/latest/tutorials/multiple/>`__).
 
 Video streaming with OAK
 ########################
 
-Because OAK PoE camera is connected to the internet, it can stream video feed directly to a computer. Here are two
+Because an OAK PoE camera is connected to the internet, it can stream video feed directly to a computer. Here are two
 video streaming demos that use Script node (**OAK PoE camera is needed**), and can be run in `Standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__:
 
 - `TCP streaming <https://github.com/luxonis/depthai-experiments/tree/master/gen2-poe-tcp-streaming>`__ using Script node - either TCP server or client
@@ -59,7 +59,7 @@ PoE Troubleshooting
 ###################
 
 - **I can ping the OAK PoE camera, but can't connect to it**
-    depthai library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
+    The DepthAI library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
     :ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <https://docs.luxonis.com/projects/api/en/latest/components/bootloader/#device-manager>`__
     to check that) and that you are using **depthai version 2.16.0.0 or newer**. That's because there were `XLink device search improvements <https://github.com/luxonis/depthai-python/releases/tag/v2.16.0.0>`__
     added on 2.16.0.0.
@@ -87,7 +87,7 @@ PoE Troubleshooting
       sudo ufw allow 11491/udp
 
     We have noticed that the above rules don't always work as expected, and it's sometimes necessary to run the command
-    below. For production environment, you would want to set **static IP** on your OAK POE camera, otherwise it could
+    below. For production environment, you would want to set **static IP** on your OAK PoE camera, otherwise it could
     change and you would need to re-set the firewall rules.
 
     .. code-block:: bash
@@ -98,11 +98,11 @@ PoE Troubleshooting
     VPN connectivity could also disrupt the connection with the PoE device (as your computer may be searching only the remote network for the device, so would be unable to discover it on the local network), so we suggest turning the VPN off when using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoveragle while VPN connectivity is active.
 
 - **Connected to the same LAN via 2 interfaces (WiFi/ethernet)**
-    We have seen that in some rare circumstances when your host computer is connected to the same LAN, it can happen that device discovery finds the same POE device twice, so it will print the IP address of that device 2 times. In some rare occasions this can lead to an error (we have seen this when using multiple devices) on initialization; `RuntimeError: Failed to find device after booting, error message: X_LINK_DEVICE_NOT_FOUND`.  We will try to fix this bug as soon as possible.
+    We have seen that in some rare circumstances when your host computer is connected to the same LAN, it can happen that device discovery finds the same PoE device twice, so it will print the IP address of that device two times. In some rare occasions this can lead to an error (we have seen this when using multiple devices) on initialization; `RuntimeError: Failed to find device after booting, error message: X_LINK_DEVICE_NOT_FOUND`.  We will try to fix this bug as soon as possible.
     **Workaround solution: disconnect from one of the interfaces; so disconnecting (from the) WiFi should resolve this issue.**
 
 - **Insufficient power supply**
-    If your PoE device does not work, or in some rare cases, it works for a period of time and then suddenly stops working, there might be an issue with your PoE switch. For example when the power budget per port seems to be sufficient, but the overall power budget for the switch is being exceeded due to demands from devices on other ports.
+    If your PoE device does not work, or in some rare cases, it works for a period of time and then suddenly stops working, there might be an issue with your PoE switch. For example, when the power budget per port seems to be sufficient, but the overall power budget for the switch is being exceeded due to demands from devices on other ports.
     It is worth checking the specifications of your PoE switch / injector with respect to its overall power budget.
 
 - **"Special" network equipment** 
@@ -138,13 +138,13 @@ PoE Troubleshooting
 Flash static IP
 ###############
 
-You can flash static/dynamic IP of an OAK-POE device, `demo here <https://docs.luxonis.com/projects/api/en/latest/samples/bootloader/poe_set_ip/>`__. You can also specify DNS and MAC address, but that's not included into this demo.
+You can flash static/dynamic IP of an OAK-PoE device, `demo here <https://docs.luxonis.com/projects/api/en/latest/samples/bootloader/poe_set_ip/>`__. You can also specify DNS and MAC address, but that's not included into this demo.
 
 Manually specify device IP
 ##########################
 
 In case you are able to :code:`ping` the device but the autodiscovery doesn't work (eg. device itself isn't in the same LAN), you
-can manually specify the IP address of the POE device.
+can manually specify the IP address of the PoE device.
 
 .. tabs::
 
@@ -211,15 +211,15 @@ Factory reset
 
 In case you can ping the device but can't connect to it in any way (search for the device, specifying IP), you should do a factory
 reset as the device might have been **soft-bricked**. This usually happens with older bootloader versions. Note that only
-OAK-D-PoE and OAK-1-PoE have USB-C connector, OAK-D Pro PoE has USB connectivity via M8 connector.
+OAK-D-PoE and OAK-1-PoE have a USB-C connector, while OAK-D Pro PoE has USB connectivity via M8 connector.
 
-#. Open the enclosure of your OAK POE camera
-#. Locate the USB-C connector and boot DIP switch
-#. Change DIP switch to 0x16 (switches 2,4,5 are up, others are down, as on the image below) for USB communication
-#. Connect OAK POE camera via USB-C cable to the computer
-#. Run the (first) `Factory Reset script <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/#factory-reset>`__
-#. Change DIP switch back to 0x3 (switches 5,6 up, others down) for POE communication
-#. Close back the enclosure, make sure the gasket is in the correct place (for waterproofing)
+#. Open the enclosure of your OAK PoE camera.
+#. Locate the USB-C connector and boot DIP switch.
+#. Change DIP switch to 0x16 (switches 2,4,5 are up, others are down, as on the image below) for USB communication.
+#. Connect OAK PoE camera via USB-C cable to the computer.
+#. Run the (first) `Factory Reset script <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/#factory-reset>`__.
+#. Change DIP switch back to 0x3 (switches 5,6 up, others down) for PoE communication.
+#. Close back the enclosure, making sure the gasket is in the correct place (for waterproofing).
 
 .. image:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
 

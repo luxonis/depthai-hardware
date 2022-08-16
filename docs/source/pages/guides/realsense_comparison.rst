@@ -1,14 +1,14 @@
 RealSense comparison
 ====================
 
-**TL;DR:** Compared to RealSense stereo cameras, DepthAI platform adds a **ton of on-device features** (custom AI modes, tracking, scripting,
+**TL;DR:** Compared to RealSense stereo cameras, the DepthAI platform adds a **ton of on-device features** (custom AI modes, tracking, scripting,
 encoding etc.) to OAK cameras and can be used in **embedded applications** (:ref:`Embedded use-case`).
 **RealSense is also winding down** and cameras are **out of stock**, more information below.
 
 RealSense availability and EOL
 ##############################
 
-In August of 2021, Intel announced it is winding down RealSense Camera Business (`CRN <https://www.crn.com/news/components-peripherals/intel-says-it-s-winding-down-realsense-camera-business>`__, `The Verge <https://www.theverge.com/2021/8/17/22629528/intel-realsense-3d-camera-tech-wind-down-business-product-demos>`__).
+In August of 2021, Intel announced it is winding down their RealSense Camera Business (`CRN <https://www.crn.com/news/components-peripherals/intel-says-it-s-winding-down-realsense-camera-business>`__, `The Verge <https://www.theverge.com/2021/8/17/22629528/intel-realsense-3d-camera-tech-wind-down-business-product-demos>`__).
 Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK cameras are in stock and we never plan to EOL
 any of our devices, more :ref:`info here <device_availability_and_eol>`.
 
@@ -34,7 +34,7 @@ comparing :ref:`OAK-D Pro` with RealSense D435i.
 Custom stereo depth perception
 ##############################
 
-Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SOM <System on Module Designs>`
+Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SoM <System on Module Designs>`
 are open-source so you can easily redesign the board (see :ref:`Integrating DepthAI into products`), for example to **change
 the stereo baseline distance** or use a different image sensor (we support :ref:`a bunch of different sensors <Supported sensors>`).
 
@@ -144,7 +144,7 @@ On-device feature comparison
      - ❌
      - ❌
      - ❌
-   * - 3D Semantic segmentation
+   * - 3D Semantic Segmentation
      - ✔️
      - ✔️
      - ✔️
@@ -461,7 +461,7 @@ and features a 2-way SPI communication (`SPIOut <https://docs.luxonis.com/projec
 Standalone/on-the-edge mode means that you can flash your application to the device, which means that
 you don't need to have the device connected to a host (RPi/PC/laptop...), more `information here <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__.
 
-This allows users to build small, low-powered embedded devices and :ref:`integrate OAK SOM <Integrating DepthAI into products>` to upgrade
+This allows users to build small, low-powered, embedded devices and :ref:`integrate OAK SoM <Integrating DepthAI into products>` to upgrade
 their products with the power of Spatial AI.
 
 .. include::  /pages/includes/footer-short.rst

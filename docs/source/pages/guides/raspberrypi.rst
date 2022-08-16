@@ -1,18 +1,18 @@
 OAK & Raspberry Pi
 ==================
 
-Our devices can also be connected to small SBCs like a Raspberry Pi (RPi). To install `depthai <https://github.com/luxonis/depthai-python>`__
+Our devices can also be connected to small SBCs like a Raspberry Pi (RPi). To install `DepthAI <https://github.com/luxonis/depthai-python>`__
 on a RPi, you should install `dependencies <https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os>`__
 and then install the `library <https://docs.luxonis.com/projects/api/en/latest/install/#install-from-pypi>`__ with :code:`pip`.
-Depthai library has **prebuilt wheels** for RPi on `piwheels <https://www.piwheels.org/project/depthai/>`__.
+DepthAI library has **prebuilt wheels** for RPi on `piwheels <https://www.piwheels.org/project/depthai/>`__.
 
 Using pre-configured RPi OS image
 #################################
 
-We provide Raspberry Pi OS images that have **depthai and all its dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
+We provide Raspberry Pi OS images that have **DepthAI and all its dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
 
-- **OAK_CM4_POE** - Uses RPi OS (default one), has pre-installed depthai. Required hardware: 8 GB uSD card or larger. This image is flashed on uSD cards that get sent with `OAK-D-CM3 <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html>`__, `OAK-D-CM4 <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html>`__, `OAK-D CM4 PoE <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html>`__. To enable 2nd uSD card, see workaround :ref:`here <Known image limitations>`. We recommend that users **use this image for all OAK cameras.**
-- **KS_Rpi_OS_Full** - Uses RPi Full OS, has pre-installed depthai and `CEP <https://github.com/cortictechnology/cep>`__. Required hardware: 32 GB uSD card or larger, RPi 4 with 4 GB RAM. This image was flashed on uSD cards that were sent to KickStarter backers. **Only use this image if you want CEP platform!**
+- **OAK_CM4_POE** - Uses RPi OS (default one), has pre-installed DepthAI. Required hardware: 8 GB uSD card or larger. This image is flashed on uSD cards that get sent with `OAK-D-CM3 <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html>`__, `OAK-D-CM4 <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1097.html>`__, `OAK-D CM4 PoE <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM2097.html>`__. To enable 2nd uSD card, see workaround :ref:`here <Known image limitations>`. We recommend that users **use this image for all OAK cameras.**
+- **KS_Rpi_OS_Full** - Uses RPi Full OS, has pre-installed DepthAI and `CEP <https://github.com/cortictechnology/cep>`__. Required hardware: 32 GB uSD card or larger, RPi 4 with 4 GB RAM. This image was flashed on uSD cards that were sent to KickStarter backers. **Only use this image if you want CEP platform!**
 
 Steps taken to create these images and changelog can be found `here <https://docs.google.com/document/d/1c4JhIY2ulcgaaycUBOsAbUI1EJ_7Zx4ux4alaxFc_ts/edit?usp=sharing>`__.
 
@@ -21,8 +21,8 @@ Flashing uSD card
 
 #. Download the RPi image from Google Drive (link above). Download `Balena Etcher <https://www.balena.io/etcher/>`__ program. You can also use RPi Imager, but we have noticed that sometimes there are issues.
 #. Open Balena Etcher. If you have downloaded *.AppImage*, you might need to right-click on it and click *Run* to start the program.
-#. Click on the **Flash from file** and select the *.zip* image you have previously downloaded
-#. Select the target uSD card
+#. Click on the **Flash from file** and select the *.zip* image you have previously downloaded.
+#. Select the target uSD card.
 #. Click **Flash!** and wait until it's finished.
 #. After flashing is complete, safely remove the uSD card, insert it into RPi, and power the RPi
 
@@ -78,7 +78,7 @@ After SSH was successful, let's try running an example app :code:`python depthai
 Known image limitations
 #######################
 
-#. On **OAK_CM4_POE**, since image **V8**, second uSD card support is disabled. That's because if uSD card support is enabled (for storage purposes), WiFi connectivity is disabled. To enable 2nd uSD card support (and disable WiFi connectivity), you can edit :code:`/boot/config.txt` and uncomment the line :code:`dtoverlay=sdhost,poll_once=off` at the end of the file, then reboot the system.
+#. On **OAK_CM4_PoE**, since image **V8**, second uSD card support is disabled. That's because if uSD card support is enabled (for storage purposes), WiFi connectivity is disabled. To enable 2nd uSD card support (and disable WiFi connectivity), you can edit :code:`/boot/config.txt` and uncomment the line :code:`dtoverlay=sdhost,poll_once=off` at the end of the file, then reboot the system.
 
 Flashing an image to the eMMC
 #############################
@@ -102,7 +102,7 @@ pins (enabled).
 After switching the connector, we can connect a micro-USB cable from our computer to the micro-USB connector that's
 also indicated by the red box above. The OAK device (CM4, to be specific) also has to be powered via 5V barrel jack.
 
-After connecting both the micro-USB and power, we need to **enable RPi USB boot**. I have followed the
+After connecting both the micro-USB and power, we need to **enable RPi USB boot**. We have followed the
 `tutorial here <https://github.com/raspberrypi/usbboot>`__. After building the program and running it,
 you should see something similar:
 
@@ -122,7 +122,7 @@ you should see something similar:
     Second stage boot server done
 
 After the boot is done, you should see the eMMC memory inside `Raspberry Pi Imager <https://www.raspberrypi.com/software/>`__
-or `Balena Etcher <https://www.balena.io/etcher/>`__ (what I have used, screenshot below), so you can **easily flash
+or `Balena Etcher <https://www.balena.io/etcher/>`__ (what we have used, screenshot below), so you can **easily flash
 desired image to the eMMC**. After flashing is complete, make sure to disable the USB boot (by switching the connector
 again) and restart the device. It should boot from the newly flashed image!
 
@@ -132,13 +132,13 @@ Raspberry Pi Zero
 #################
 
 `Raspberry Pi Zero <https://www.raspberrypi.com/products/raspberry-pi-zero/>`__ is a great single-board computer (SBC) in terms of price per
-performance - you can get one for ~$5. It has 512MB RAM, 1GHz single-core CPU and optionally on-board Bluetooth and WiFi
-connectivity (RPI Zero W, which costs ~$10). It consumes about 0.5W.
+performance. You can get one for about $5. It has 512MB RAM, 1GHz single-core CPU, and optional on-board Bluetooth and WiFi
+connectivity (RPI Zero W, which costs about $10). It consumes about 0.5W.
 
 .. image:: /_static/images/hosts/rpi_zero.png
 
 **RPi Zero is sufficient for streaming metadata** (NN results), low-resolution encoded videos, or light computing. If you intend to stream
-high-res videos, perform heavy computing (eg. with OpenCV) or post-processing, RPi Zero won't be the best choice for host computer.
+high-res videos, perform heavy computing (e.g. with OpenCV) or post-processing, RPi Zero won't be the best choice for host computer.
 
 Connect OAK camera to a RPI Zero
 ********************************
@@ -148,7 +148,7 @@ to connect an OAK camera to the RPI Zero.
 
 .. image:: /_static/images/hosts/rpi_zero_otg.png
 
-All of the above options work. We are not connected/affiliated with these companies, but here's where I got the left connector (`Aliexpress <https://www.aliexpress.com/item/1005001873492004.html?spm=a2g0o.productlist.0.0.4259778c8zzJWk&algo_pvid=108d8130-3b53-4e3b-98ab-e025d519330d&algo_exp_id=108d8130-3b53-4e3b-98ab-e025d519330d-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000022480660847%22%7D>`__),
+All of the above options work. We are not connected/affiliated with these companies, but here's where we got the left connector (`Aliexpress <https://www.aliexpress.com/item/1005001873492004.html?spm=a2g0o.productlist.0.0.4259778c8zzJWk&algo_pvid=108d8130-3b53-4e3b-98ab-e025d519330d&algo_exp_id=108d8130-3b53-4e3b-98ab-e025d519330d-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000022480660847%22%7D>`__),
 and right connector (`Aliexpress <https://www.aliexpress.com/item/1005001894832301.html?spm=a2g0o.productlist.0.0.4259778c8zzJWk&algo_pvid=108d8130-3b53-4e3b-98ab-e025d519330d&algo_exp_id=108d8130-3b53-4e3b-98ab-e025d519330d-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000018040382364%22%7D>`__).
 
 .. image:: /_static/images/hosts/zero_oak_d.png

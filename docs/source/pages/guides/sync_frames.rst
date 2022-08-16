@@ -4,7 +4,7 @@ Synchronizing frames externally
 ===============================
 
 This tutorial will explain how one can trigger frame capture externally, which allows precise synchronization across multiple devices and
-potentially with other hardware, eg. flash LED or IMU.
+potentially with other hardware, e.g. flash LED or IMU.
 
 This can be done by either **FSIN** or **STROBE** signal. Here's an example of the global shutter sensor timings, which
 demonstrates the difference between these two signals:
@@ -38,7 +38,7 @@ Connecting FSIN/STROBE
 All `Series 2 OAK PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ will have an M8 I/O connector, which will also include
 FSIN (frame sync) and STROBE (for driving a flash) signals.
 
-If you won't be using the Series 2 OAK PoE model, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-POE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
+If you won't be using the Series 2 OAK PoE model, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-PoE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
 
 .. image:: https://user-images.githubusercontent.com/18037362/142761081-83742829-2527-4277-ad31-a8da500e1039.png
 
@@ -51,9 +51,9 @@ Through firmware sync, we're monitoring for drift and aligning the capture times
 Start-of-Frame event. The Left/Right global shutter cameras are driven by the same clock, started by broadcast write on I2C, so no
 drift will happen over time, even when running freely without a sync. With the above functionality it would be also possible to
 configure FSIN as an output on one sensor, and an input to the other sensor. The RGB rolling shutter has a slight difference in clocking/frame-time,
-so when we detect a small drift, we're modifying the frame time (number of lines) for the next frame by a small amount to compensate.
+so when we detect a small drift, we're modifying the frame-time (number of lines) for the next frame by a small amount to compensate.
 
-All 3 cameras are soft-synced by default using the above method, as long as they are configured with the same FPS (default is 30).
+All three cameras are soft-synced by default using the above method, as long as they are configured with the same FPS (default is 30).
 
 Triggering the FSIN
 *******************
