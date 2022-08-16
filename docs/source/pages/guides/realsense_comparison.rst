@@ -34,11 +34,11 @@ comparing :ref:`OAK-D Pro` with RealSense D435i.
 Custom stereo depth perception
 ##############################
 
-Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SoM <System on Module Designs>`
+Our platform was built from the ground up with the idea of being **customizable**. All of our products based on :ref:`OAK SoM <System on Module (SoM) Designs>`
 are open-source so you can easily redesign the board (see :ref:`Integrating DepthAI into products`), for example to **change
 the stereo baseline distance** or use a different image sensor (we support :ref:`a bunch of different sensors <Supported sensors>`).
 
-:ref:`OAK FFC line <Modular Cameras Designs>` is great for prototyping, as it allows users to use different camera sensors/optics
+:ref:`OAK FFC line <Modular Camera Designs>` is great for prototyping, as it allows users to use different camera sensors/optics
 and place them at an ideal stereo baseline distance for their application.
 
 Below is a long-range disparity depth visualized over a color frame. This customer used narrow FOV M12 lenses
