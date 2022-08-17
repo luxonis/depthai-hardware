@@ -3,13 +3,13 @@ OAK Series 3
 
 **Series 3 (S3)** of OAK devices will have onboard the new **Series 3 Robotic Vision Processor (RVP3)**.
 Compared to the previous series of OAK cameras (with different processor - Myriad X), these are the main
-differences with the RVP3:
+differences with the Series 3:
 
 - Integrated **quad-core ARM A53** running YOCTO Linux
 - At least **5x AI inference performance**
 - Enhanced **stereo depth** perception
 
-We also plan to keep **backward compatibility** - so pipelines written for Myriad X will still work on the RVP3.
+We also plan to keep **backward compatibility** - so pipelines written for Myriad X will still work on the Series 3 devices.
 
 Series 3 roadmap
 ################
@@ -40,16 +40,22 @@ Having a Quad-core ARM A53 1.5GHz with Neon technology and floating point extens
 integrated into the VPU is similar to having Myriad X + Raspberry Pi 3B+ (quad-core A53 1.4GHz), which can make final
 projects and products more compact.
 
-Users will have full access to the Yocto OS (via SSH), and it will also be possible to use the S3 OAK cameras
-as the previous version (eg. OAK-D, OAK-D-Lite) - to connect it via USB to your computer, and just start
-an application. With on-board computing capability, programs/apps will be able to do full model decoding on the device
-itself, which would allow DepthAI apps to be more flexible and have lower latency.
+Custom applications
+-------------------
+
+Users will be able to **execute custom containerized apps** on the **ARM processor on the S3 devices via Robothub**.
+These containerized apps will also be able to interface with GPIOs and communication interfaces (I2C, UART...), so customers
+will be able to eg. read from **custom sensor**, or communicate with a microprocessor directly from the :ref:`S3 SoM <System on Module (SoM) Designs>`.
+
+It will also be possible to use the S3 OAK cameras as the previous version (eg. OAK-D, OAK-D-Lite); to connect it via the USB
+to your computer, and just start an application. With on-board computing capability, programs/apps will be able to do
+full model decoding on the device itself, which would allow DepthAI apps to be more flexible and have lower latency.
 
 SLAM / VIO
 ----------
 
 Since Series 3 OAK cameras will have on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <https://docs.luxonis.com/en/latest/pages/slam_oak/>`__
-on the OAK camera itself. Users will have full access to the ARM and will be also able to run any other (custom) software stack.
+on the OAK camera itself.
 
 AI performance boost
 ####################
@@ -104,7 +110,7 @@ Native media support
 - OpenCV (or G-API) for computer vision
 - Video Acceleration API / Intel Media SDK for encoding and decoding
 
-Users will have full access to the RVP3 and will be able to also use libraries/frameworks above.
+Users will be able to also use libraries/frameworks above in their :ref:`Custom applications`.
 
 Enhanced Stereo Depth on RVP3
 #############################
