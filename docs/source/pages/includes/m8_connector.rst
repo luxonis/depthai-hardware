@@ -28,7 +28,7 @@ M8 aux connector has 8pin female A-coded connector. M12 ethernet has 8pin female
      - This pin is used for sourcing 5V power to accessory devices connected to the M8 connector. If trying to boot the device in USB boot mode, this pin can also sink current.
    * - 6
      - Strobe ISO
-     - Isolated Strobe output signal for cameras
+     - Isolated Strobe output signal for cameras (Open Collector)
    * - 7
      - Isolated GND
      - Isolated ground for Strobe/FSYNC
