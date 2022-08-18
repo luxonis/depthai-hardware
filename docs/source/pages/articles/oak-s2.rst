@@ -13,12 +13,12 @@ The S2 OAK devices will have **these permutations**:
 - the **Wide FOV version** has wide FOV lenses, increasing DFOV from ~85° to ~150°
 
 
-OAK S2 cameras (selectable FOV per model):
+**OAK S2 cameras:**
 
-- :ref:`OAK-D S2`
-- :ref:`OAK-D Pro`
-- :ref:`OAK-D S2 PoE`
-- :ref:`OAK-D Pro PoE`
+- :ref:`OAK-D S2` / :ref:`OAK-D W`
+- :ref:`OAK-D Pro` / :ref:`OAK-D Pro W`
+- :ref:`OAK-D S2 PoE` / :ref:`OAK-D W PoE`
+- :ref:`OAK-D Pro PoE` / :ref:`OAK-D Pro W PoE`
 
 Pro version
 ###########
