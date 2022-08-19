@@ -1,22 +1,22 @@
 OAK Series 3
 ============
 
-**Series 3 (S3)** of OAK devices will have onboard the new **Series 3 Robotic Vision Processor (RVP3)**.
-Compared to the previous series of OAK cameras (with different processor - Myriad X), these are the main
+**Series 3 (S3)** of OAK devices will have onboard the new **Robotic Vision Core 3** (:ref:`RVC3`).
+Compared to the previous series of OAK cameras that were using :ref:`RVC2`, these are the main
 differences with the Series 3:
 
 - Integrated **quad-core ARM A53** running YOCTO Linux
 - At least **5x AI inference performance**
 - Enhanced **stereo depth** perception
 
-We also plan to keep **backward compatibility** - so pipelines written for Myriad X will still work on the Series 3 devices.
+We also plan to keep **backward compatibility** - so pipelines written for :ref:`RVC2` will still work on the Series 3 devices.
 
 Series 3 roadmap
 ################
 
 - **2022 Q1**: Hardware bring-up and testing.
-- **2022 Q2**: Porting of DepthAI stack to RVP3. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Evaluation testing.
-- **2022 Q3**: Beta release of initial OAK devices with integrated RVP3. Software/firmware is getting more feature-complete and more stable.
+- **2022 Q2**: Porting of DepthAI stack to :ref:`RVC3`. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Evaluation testing.
+- **2022 Q3**: Beta release of initial OAK devices with integrated :ref:`RVC3`. Software/firmware is getting more feature-complete and more stable.
 - **2022 Q4**: Official release of OAK S3 device(s).
 
 This might be a bit of an optimistic roadmap due to supply chain issues, but we will do everything possible to meet it.
@@ -24,11 +24,11 @@ Initial S3 OAK cameras will have 2GB of RAM on board.
 
 **2022 Updates**
 
-- **February**: We manufactured the initial batch of SoM with RVP3 on board. We also started porting the DepthAI library to the new ecosystem.
+- **February**: We manufactured the initial batch of SoM with :ref:`RVC3` on board. We also started porting the DepthAI library to the new ecosystem.
 - **March**: We designed :ref:`OAK-SoM-Max` and started porting DepthAI stack.
 - **May**: We received initial :ref:`OAK-SoM-Max` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
 - **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-S3.
-- **July**: New OS for RVP3 - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
+- **July**: New OS for :ref:`RVC3` - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
 - **August [Planned]**: DepthAI alpha release, hopefully with stereo pipeline. SDK so you can compile your programs for the quadcore ARM (via docker).
 
 For **updates on the progress of OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
@@ -37,7 +37,7 @@ Quad-core ARM
 #############
 
 Having a Quad-core ARM A53 1.5GHz with Neon technology and floating point extensions (running Yocto 2.71, Linux Kernel 5.3)
-integrated into the VPU is similar to having Myriad X + Raspberry Pi 3B+ (quad-core A53 1.4GHz), which can make final
+integrated into the VPU is similar to having :ref:`RVC2` + Raspberry Pi 3B+ (quad-core A53 1.4GHz), which can make final
 projects and products more compact.
 
 Custom applications
@@ -60,18 +60,18 @@ on the OAK camera itself.
 AI performance boost
 ####################
 
-We haven't done any testing ourselves, but based on Intel's testing, the RVP3 has >10x DL inference performance compared to Myriad X.
+We haven't done any testing ourselves, but based on Intel's testing, the :ref:`RVC3` has >10x DL inference performance compared to :ref:`RVC2`.
 The actual number really depends on the AI model you are using. Some models might only have 3.5x performance boost while others could
-have 20x performance boost compared to Myriad X performance.
+have 20x performance boost compared to :ref:`RVC2` performance.
 
-RVP3 supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
-model won't be any different from converting the model for Myriad X (which supports FP16).
+RVC3 supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
+model won't be any different from converting the model for :ref:`RVC2` (which supports FP16).
 
-RVP3 has 20 DPU (Data Processing Units) integrated which are capable of delivering 5.12 TOPS (INT8) or 1.28 TFLOPS (FP16).
+RVC3 has 20 DPU (Data Processing Units) integrated which are capable of delivering 5.12 TOPS (INT8) or 1.28 TFLOPS (FP16).
 It supports Sparse acceleration and compression increasing effective TOP's by 2x to 20TOPS and effective FPS performance by 2x+.
 
-RVP3 Specifications
-###########################
+RVC3 Specifications
+###################
 
 .. list-table:: Hardware specifications
    :header-rows: 0
@@ -97,7 +97,7 @@ RVP3 Specifications
    * - Interfaces
      - Multiple I2C, Quad-SPI, I2S, UART, PCIe Gen4 interfaces, USB 3.1/2, 1GB ethernet, many GPIOs
    * - Operating temperature
-     - -40°C to 105°C (same as Myriad X)
+     - -40°C to 105°C (same as :ref:`RVC2`)
    * - RAM support
      - 2x 32-bit DRAM at 1600-2133 MHz
 
@@ -112,7 +112,7 @@ Native media support
 
 Users will be able to also use libraries/frameworks above in their :ref:`Custom applications`.
 
-Enhanced Stereo Depth on RVP3
+Enhanced Stereo Depth on RVC3
 #############################
 
 **Series 3 OAK devices feature CNN-based calculation of pixel descriptors**, compared to census transform that's being used in

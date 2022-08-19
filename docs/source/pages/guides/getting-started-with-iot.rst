@@ -22,9 +22,9 @@ Overview
 
 Overview explained:
 
-- `Myriad X <https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x.html>`__ is the VPU on the OAK camera, where you can run your pipeline
-- Myriad X is connected to the host (eg. PC)
-- Myriad X can communicate `Messages <https://docs.luxonis.com/projects/api/en/latest/components/messages/>`__ with the ESP32 via SPI (using `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__ / `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ node)
+- :ref:`RVC2` is the SoC+circuitry on the OAK camera, where you can run your pipeline
+- :ref:`RVC2` is connected to the host (eg. PC)
+- :ref:`RVC2` can communicate `Messages <https://docs.luxonis.com/projects/api/en/latest/components/messages/>`__ with the ESP32 via SPI (using `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__ / `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ node)
 - ESP32 can receive these messages using the `depthai-spi-api <https://github.com/luxonis/depthai-spi-api>`__ library (which is an `ESP-IDF <https://github.com/espressif/esp-idf>`__ component).
 - On ESP32 you can run post-processing of the messages and optionally send the results to a server (if connected to a WiFi network) or to a Bluetooth device (eg. a smartphone)
 

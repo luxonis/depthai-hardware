@@ -18,11 +18,10 @@ We realize majority of people will buy the newer, pin-compatible version that is
 However, folks that absolutely need the exact version of an old product will still be able to buy it, as we will always offer it.
 
 **For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is Electrically, Mechanically, and
-fully pin-compatible with the **OAK-SoM-Pro**, but based on :ref:`RVP3 <RVP3 Specifications>` instead of the
-Myriad X (MA2485 or MA2085).
+fully pin-compatible with the **OAK-SoM-Pro**, but based on :ref:`RVC3` instead of the :ref:`RVC2`.
 
 :ref:`OAK Series 3` has significantly improved features (eg. ~10x AI performance, on-board Linux host...).
-So this same SoM can drop into existing customer designs, and we expect that most customers will switch to RVP3 based SOM.
+So this same SoM can drop into existing customer designs, and we expect that most customers will switch to :ref:`RVC3` based SOM.
 Only those who, for some reasons, absolutely want the lower performance version, will continue to buy the lower performance version.
 And as above, what this strategy allows is keeping long-term stock of everything.
 
@@ -34,10 +33,10 @@ Wind down of Intel's RealSense
 ******************************
 
 In August of 2021, Intel decided to "wind down" its RealSense products, which means the development of
-product will eventually be stopped. We want to reassure you that this has **no effect on our Movidius
-Myriad X (VPU) chip supply**, since that is a different group from RealSense. Furthermore, the Movidius
-team has gotten integrated into some huge areas silently, which has resulted in it having guaranteed
-production for quite a while. This way, we can **guarantee the production of our devices into 2028**
+product will eventually be stopped. Since Myriad X are integrated into our :ref:`RVC2`, we want to reassure
+you that this has **no effect on our Movidius Myriad X SoC supply**, since that is a different group from
+RealSense. Furthermore, the Movidius team has gotten integrated into some huge areas silently, which has resulted
+in it having guaranteed production for quite a while. This way, we can **guarantee the production of our devices into 2028**
 and likely well past that. More information about this topic `here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
 
 Conclusion

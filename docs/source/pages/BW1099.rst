@@ -29,7 +29,7 @@ are interested in integrating DepthAI (via SoM) into your product, see :ref:`doc
 - :ref:`OAK-D-CM3`
 - :ref:`OAK-D-CM4`
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Board Layout
 ************

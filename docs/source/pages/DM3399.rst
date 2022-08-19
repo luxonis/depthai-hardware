@@ -8,8 +8,8 @@ OAK-SoM-Max
 Overview
 ********
 
-**OAK-SoM-Max** has on-board :ref:`Series 3 Robotic Vision Processor (RVP3) <OAK Series 3>`, which has **much greater AI performance**
-compared to Myriad X, and **quadcore ARM CPU**. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level system with
+**OAK-SoM-Max** has on-board :ref:`RVC3`, which has **much greater AI performance**
+compared to :ref:`RVC2`, and **quadcore ARM CPU**. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level system with
 a need for a low-power, high performance, real-time AI and depth perception.
 
 The OAK-SoM-Max interfaces with the system through three 10-Gbps-rated 100-pin board-to-board mezzanine connector which
@@ -43,7 +43,7 @@ Dimensions and Weight
 Key features
 ************
 
-* :ref:`RVP3 <OAK Series 3>`
+* :ref:`RVC3`
 * 4 GB RAM (2x16GBit)
 * Interfaces with the system through three 10-Gbps-rated 100-pin connectors (DF40C-100DP-0.4V(51))
 * 6 x 2-lane MIPI RX lines
@@ -52,7 +52,7 @@ Key features
 * Design files produced with Altium Designer 20
 * Voltage levels: All I2C busses are 1.8V
 * Pull-up resistors: 2.2k pull-up resistors located on SoM
-* Min/max data rates: RVP3 supports the following, all on I2C busses: 1) Standard Mode (100kHz), 2) Fast Mode (400kHz), 3) Fast Mode Plus (1MHz), and 4) High Speed Mode (3.4MHz)
+* Min/max data rates: :ref:`RVC3` supports the following, all on I2C busses: 1) Standard Mode (100kHz), 2) Fast Mode (400kHz), 3) Fast Mode Plus (1MHz), and 4) High Speed Mode (3.4MHz)
 * I2C0 bus devices: RTC circuit (address 0xD2) and EEPROM (address 0x50)
 
 Files

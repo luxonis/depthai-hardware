@@ -22,7 +22,7 @@ Hardware Specifications
 
 .. include:: /pages/includes/imx214_ov7251.rst
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 OAK-D vs OAK-D-Lite
 *******************
@@ -35,7 +35,7 @@ OAK-D-Lite is smaller, lighter and uses less power; compared to OAK-D. The main 
 
 Additionally, the more technical differences are the following:
 
-- Myriad X VPU is used directly on the PCB (instead of connecting the SoM to the baseboard - like it is done on OAK-D)
+- :ref:`RVC2` chip-down design, instead of connecting the :ref:`OAK-SoM`` to the baseboard (like it is done on OAK-D)
 - In collaboration with ArduCam, we developed custom camera sensor connectors, which are shorter and take up less space
 
 Fixed-focus vs Auto-focus
@@ -80,9 +80,9 @@ We have tested OAK-D-Lite with the following command which should inflict the hi
 and after 90 minutes, we received the following temperatures:
 
 * Enclosure: 55.7 °C (thermal image below)
-* MyriadX: 73.53 °C
+* :ref:`RVC2`: 73.53 °C
 
-The operating temperature range of the Myriad X VPU (die temperature) is -40 °C to 105 °C. The die temperature can get to about +35°C from the ambient 
+The operating temperature range of the :ref:`RVC2` (die temperature) is -40 °C to 105 °C. The die temperature can get to about +35°C from the ambient 
 temperature. Note that the stable image temperature of the camera sensor is 0 °C to +50 °C (operating temperature -30 °C to +70 °C).
 
 .. image:: /_static/images/DM9095/oak-d-lite-thermals.jpg

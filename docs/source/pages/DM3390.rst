@@ -21,7 +21,7 @@ which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
 In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
-.. include:: /pages/includes/rvp3_inside.rst
+.. include:: /pages/rvc/includes/rvc3_inside.rst
 
 .. TODO: add dimensions/weight
     Dimensions and Weight

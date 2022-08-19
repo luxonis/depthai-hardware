@@ -21,7 +21,7 @@ Baseboards and cameras (BW1098FFC + :ref:`OAK-FFC-OV9282 <bg0250tg>` + :ref:`OAK
 
 .. image:: /_static/images/BW1098FFC/with_camera.jpeg
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Board Layout
 ************
