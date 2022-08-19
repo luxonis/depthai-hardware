@@ -15,7 +15,7 @@ RVC2 encapsulates two main components:
 RVC2 Performance
 ****************
 
-.. include:: /pages/rvc/includes/rvc2_inside.rst
+.. include:: /pages/rvc/includes/rvc2_features.rst
 
 Power consumption
 *****************

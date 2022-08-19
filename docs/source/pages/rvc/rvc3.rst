@@ -15,7 +15,7 @@ RVC3 encapsulates three main components:
 RVC3 Performance
 ****************
 
-.. include:: /pages/rvc/includes/rvc3_inside.rst
+.. include:: /pages/rvc/includes/rvc3_features.rst
 
 Power consumption
 *****************
