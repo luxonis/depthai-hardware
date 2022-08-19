@@ -31,7 +31,7 @@ Board outline is the same as for older versions of FFC **C**amera **B**oard **A*
 Board layout designed in Altium designer can be found in the PCB subfolder.  
 
 # Getting started  
-The 0.5mm pitch, 26-pin 15cm long FFC is included with each camera that is sold by Luxonis or any of its legal distributors. We are using on all our Modular camera boards a bottom-contact connector. The correct connection can be seen on below photos, please note the blue section on the FPC for correct orientation: 
+The 0.5mm pitch, 26-pin 15cm long FFC is included with each camera that is sold by Luxonis or any of its legal distributors. We are using a bottom-contact connector on all our Modular camera boards. The correct connection can be seen on below photos, please note the blue section on the FPC for correct orientation: 
 
  ![](Images/FFC_orientation.jpeg)
 
