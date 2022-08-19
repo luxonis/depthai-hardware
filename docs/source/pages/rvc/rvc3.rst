@@ -7,9 +7,9 @@ Robotics Vision Core 3
 
 RVC3 encapsulates three main components:
 
-- DepthAI feautres that are fine-tuned for the particular SoC
-- A performant SoC and all it's support circuitry (HS PCB layout, power delivery network, efficient heat dissipation, etc.)
-- Out-of-the-box connectivity with Robothub, our cloud platform, which allows for an end-to-end integration of the perception stack.
+- **DepthAI feautres** that are fine-tuned for the particular SoC
+- A **performant SoC** and all it's support circuitry (HS PCB layout, power delivery network, efficient heat dissipation, etc.)
+- Out-of-the-box **connectivity with Robothub**, our cloud platform, which allows for an end-to-end integration of the perception stack.
 
 
 RVC3 Performance
