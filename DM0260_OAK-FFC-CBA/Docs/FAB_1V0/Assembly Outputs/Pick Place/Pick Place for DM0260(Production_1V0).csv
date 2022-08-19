@@ -1,0 +1,66 @@
+Altium Designer Pick and Place Locations
+C:\A365\DM0260\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM0260(Production_1V0).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       19/08/22
+Time:       17:27
+Revision:   fc1c10a9f9e6b87be10ea7366624ede251ce6ec8
+Variant:    Production_1V0
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"C1","-4.5700mm","7.2800mm","90","TopLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
+"C2","-5.3500mm","7.1500mm","90","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C3","6.2400mm","10.0016mm","270","BottomLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
+"C4","5.3000mm","9.8500mm","270","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C5","-6.2500mm","10.0016mm","270","BottomLayer","GRM033R61A104KE15D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 0.1UF 10V X5R 0201","0.1uF 0201"
+"C6","-6.5500mm","10.1500mm","270","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C18","-0.8000mm","11.5000mm","180","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C19","-4.6500mm","12.6500mm","270","TopLayer","GRM188R61A226ME15D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
+"C21","7.5950mm","3.7350mm","270","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C22","7.5900mm","5.9075mm","90","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C24","-8.9000mm","7.2500mm","90","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"C25","-8.9000mm","5.1000mm","270","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
+"D1","4.7500mm","-0.8825mm","180","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"D2","1.7500mm","-0.8825mm","180","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"D3","-1.2500mm","-0.8825mm","180","TopLayer","TPD4E02B04DQAR","TPD4E02B04DQAR","TPD4E02B04DQAR","TVS DIODE 3.6V 8.8V 10USON 8.8V (Typ) Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount 10-USON (2.5x1)","TPD4E02B04DQAR"
+"FB1","-5.1000mm","9.8000mm","270","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FB2","7.4500mm","8.9000mm","180","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FB3","-7.2500mm","7.2500mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
+"FID1","-5.5000mm","-7.5000mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID2","10.3000mm","6.8000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID3","-10.2000mm","-7.2000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID4","10.6000mm","-3.5000mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"J1","0.0000mm","-4.6760mm","0","TopLayer","F32R-1A7H1-11026","F32R-1A7H1-11026","26pin Molex FFC 0.5mm Bottom","26 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","FLEX CONNECTOR, 0.50MM PITCH, HE"
+"J2","0.0122mm","9.8593mm","0","BottomLayer","FH26W-33S-0.3SHW(60)","AC-PY004-IMX378","connector: FH26W-33S-0.3SHW","FFC/FPC Connector, 33 Contact(s), 1 Row(s), Female, Right Angle, Surface Mount Terminal","FH26W-33S-0.3SHW(60)"
+"L1","-2.8500mm","12.6500mm","270","TopLayer","DFE252012P-1R0M=P2","DFE252012P-1R0M=P2","Chip Inductor, 2-Leads, Body 2.40x2.00mm, IPC High Density","FIXED IND 1UH 3.2A 42 MOHM SMD","1uH, 3.2A, 20%"
+"MTG1","-10.5000mm","12.5310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"MTG2","10.5000mm","12.5310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"MTG3","-10.5000mm","0.0310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"MTG4","10.5000mm","0.0310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
+"R1","3.8000mm","12.0500mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R2","0.8500mm","11.5000mm","180","TopLayer","CRCW040253K6FKED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 53.6K OHM 1% 1/16W 0402","53.6k 0402"
+"R3","-1.9500mm","1.3500mm","180","TopLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R4","2.9000mm","12.5000mm","0","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_L","Chip Resistor, Body 1.6x0.8mm, IPC High Density","RES SMD 0.0R OHM 1% 1/10W 0603","0R 0603"
+"R6","4.5000mm","13.3000mm","90","TopLayer","CRCW040233K0FKED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 33K OHM 1% 1/16W 0402","33K 0402"
+"R7","4.5000mm","11.7000mm","270","TopLayer","RC0402FR-0740K2L","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 40.2K OHM 1% 1/16W 0402","40.2K 0402"
+"R8","-3.8500mm","12.0500mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"TP1","7.5000mm","13.0000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP2","7.5000mm","11.0000mm","90","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP3","-7.2000mm","-0.7000mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP4","-7.3000mm","1.3500mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP5","-3.5000mm","0.5000mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP6","-3.5000mm","2.5000mm","90","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP7","-6.0000mm","4.3000mm","270","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP8","7.3000mm","10.8000mm","0","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP9","-7.9000mm","9.8000mm","0","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP10","7.3000mm","12.3000mm","90","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP11","-10.3000mm","9.8000mm","90","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP12","-4.5000mm","4.3000mm","90","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP13","9.1327mm","2.2000mm","90","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"TP14","7.5950mm","2.2579mm","90","TopLayer","","TP100_150_NS","1mm dia pad, 1.5mm clearance, no silk screen","","TP100_150_NS"
+"U1","-0.1000mm","13.0500mm","180","TopLayer","TLV62080DSGR","TLV62080DSG","WSON-8, 2.1mm x 2.1mm x 0.8mm","IC REG BUCK ADJ 1.2A SYNC 8WSON","TLV62080DSG"
+"U2","9.5500mm","5.1500mm","0","TopLayer","TLV70018DCKR","TLV70018DCK","SC70-5 1.1mm","IC REG LINEAR 1.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70018DCK"
+"U3","-10.8500mm","6.1000mm","180","TopLayer","TLV70028DCKT","TLV70028DCK","SC70-5 1.1mm","IC REG LINEAR 2.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70028DCK"
