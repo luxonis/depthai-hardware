@@ -7,7 +7,7 @@
 # Overview
 This repository contains open hardware designed by Luxonis. The DM0260 is a carrier board for the ArduCam camera modules, and is designed to be compatible with all [Modular Cameras](https://docs.luxonis.com/projects/hardware/en/latest/#modular-camera-designs) which are OAK-FFC-3P, OAK-FFC-4P and OAK-FFC-6P (more to come).
 
-The advantage of this new OAK-FFC-CBA design is that it can support various Compact Camera Modules from Arducam which are interfacing over standard 33-pin camera FPC. Supported cameras are listed [here](https://docs.luxonis.com/projects/hardware/en/latest/pages/arducam.html#ffc-camera-modules) but you must exclude ones with M12 lens mount which are not officially supported due to different FPC lengths and mechanical restrictions as result of that.    
+The advantage of this new OAK-FFC-CBA design is that it can support various Compact Camera Modules from Arducam which are interfacing over standard 33-pin camera FPC. Supported cameras are listed [here](https://docs.luxonis.com/projects/hardware/en/latest/pages/arducam.html#ffc-camera-modules) but you must exclude those with an M12 lens mount, which are not officially supported due to different FPC lengths and mechanical restrictions resulting from the mount.    
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
