@@ -17,8 +17,8 @@ RVC3 Performance
 
 .. include:: /pages/rvc/includes/rvc3_inside.rst
 
-Power requirements
-******************
+Power consumption
+*****************
 
 The RVC3 itself has a maximum power consumption of about 8W, which is mainly consumed by the SoC, Movidius Keem Bay, that
 is integrated inside the RVC3.
