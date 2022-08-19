@@ -20,7 +20,7 @@ RVC2 Performance
 Power requirements
 ******************
 
-The RVC3 itself has a maximum power consumption of about 4.5W, which is mainly consumed by the SoC, Movidius Myriad X, that
-is integrated inside the RVC3.
+The RVC2 itself has a maximum power consumption of about 4.5W, which is mainly consumed by the SoC, Movidius Myriad X, that
+is integrated inside the RVC2.
 
 .. include::  /pages/includes/footer-short.rst
