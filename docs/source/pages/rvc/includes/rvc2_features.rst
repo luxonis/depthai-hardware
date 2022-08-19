@@ -1,8 +1,3 @@
-Myriad X inside
-***************
-
-This OAK device has on-board **Myriad X** VPU (`product pdf <https://newsroom.intel.com/wp-content/uploads/sites/11/2017/08/movidius-myriad-xvpu-product-brief.pdf>`__). Main features:
-
 - **4 TOPS** of processing power (1.4 TOPS for AI)
 - **Run any AI model**, even custom architectured/built ones - models need to `be converted <https://docs.luxonis.com/en/latest/pages/model_conversion/>`__.
 - **Encoding**: H.264, H.265, MJPEG - 4K/30FPS, 1080P/60FPS

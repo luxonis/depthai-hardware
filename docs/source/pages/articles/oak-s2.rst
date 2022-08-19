@@ -1,17 +1,16 @@
 OAK Series 2
 ============
 
-**Series 2 (S2)** of OAK devices have the VPU (Myriad X) directly on-board (chip-down design), instead of on the :ref:`SoM <System on Module Designs>`.
-This allows devices to be smaller and consequently lighter.
-
-.. image:: /_static/images/guides/series2.png
-
 The S2 OAK devices will have **these permutations**:
 
 - **USB or PoE** connectivity
 - the **Pro version** has on-board IR laser dot projector for active stereo and IR illumination LED for night vision
 - the **Wide FOV version** has wide FOV lenses, increasing DFOV from ~85° to ~150°
 
+.. image:: /_static/images/guides/series2.png
+
+**Series 2 (S2)** of OAK devices have :ref:`RVC2` chip-down design, instead of on the :ref:`SoM <System on Module Designs>`.
+This allows devices to be smaller and consequently lighter.
 
 **OAK S2 cameras:**
 

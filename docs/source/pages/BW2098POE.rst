@@ -12,11 +12,11 @@ Overview
 
 The POE Board offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a  5V barrel jack. 
 The Luxonis :ref:`OAK-FFC-IMX378 <bg0249>` 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 
-channel directly into the Myriad X on the :ref:`OAK-SoM-Pro <bw2099>` (System on Module) for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). 
+channel directly into the :ref:`RVC2` on the :ref:`OAK-SoM-Pro <bw2099>` (System on Module) for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). 
 Finally, the PoE Board exposes boot selection switches, allowing the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` from USB or the on-board eMMC 
 or NOR flash.
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Board Layout
 ************

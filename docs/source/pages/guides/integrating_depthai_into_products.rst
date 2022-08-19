@@ -12,8 +12,8 @@ as possible to integrate into other products.
 What is the OAK System on Module (SoM)?
 ***************************************
 
-The OAK SoM is a small form-factor PCB that features a powerful `Myriad X <https://newsroom.intel.com/wp-content/uploads/sites/11/2017/08/movidius-myriad-xvpu-product-brief.pdf>`__
-VPU (Vision Processing Unit). The VPU has 16 powerful SHAVE cores and also features the Neural Compute Engine, which is a dedicated
+The OAK SoM is a small form-factor PCB that features a powerful :ref:`RVC2`. The :ref:`RVC2` has 16 powerful SHAVE cores
+and also features the Neural Compute Engine, which is a dedicated
 hardware accelerator for deep neural network inference. In addition, OAK-SoM-IoT and OAK-SoM-Pro have NOR Flash, which can be
 used as an alternative to the USB boot. The idea of SoM is that customer can use it to build their own device, since
 SoM is a very complex, 12 layer PCB. That way our SoM devices serve as an abstraction layer. They can also be used
@@ -61,7 +61,7 @@ use case.
 
 Power consumption can vary depening on the application. A stereo vision application running Mobilenet-SSD V2 at 30 FPS
 typically consumes about 2.5 W, but more computationally heavy applications can consume up to 5 W. Most of this power
-is consumed by the Myriad X VPU.
+is consumed by the :ref:`RVC2`.
 
 For more information, see the respective datasheet on our GitHub hardawre repository
 (`OAK-SoM Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM_Datasheet.pdf>`__.

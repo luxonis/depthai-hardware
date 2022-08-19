@@ -23,7 +23,7 @@ Hardware specifications
 
 .. include:: /pages/includes/s2_sensors.rst
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Dimensions and Weight
 *********************

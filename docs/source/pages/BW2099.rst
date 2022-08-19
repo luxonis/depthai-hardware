@@ -7,7 +7,7 @@ OAK-SoM-Pro
 
 .. figure:: /_static/images/SOM-PRO/som-pros-front.jpg
 
-    **left**: OAK-SoM-Pro-S3 (RVP3), **right**: OAK-SoM-Pro (Myriad X)
+    **left**: OAK-SoM-Pro-S3 (RVC3), **right**: OAK-SoM-Pro (RVC2)
 
 Overview
 ********
@@ -18,16 +18,16 @@ The OAK-SoM-Pro interfaces with the system through two 10-Gbps-rated 100-pin boa
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxiliary power port is offered to interface without connection to a baseboard.
 
-**OAK-SoM-Pro comes in two variants**: Myriad X based and :ref:`Series 3 Robotic Vision Processor (RVP3) <RVP3 Specifications>` based SoM.
-:ref:`RVP3 <RVP3 Specifications>` provides ~10x AI performance, quadcore ARM CPU, and enchanced stereo depth perception compared to Myriad X.
+**OAK-SoM-Pro comes in two variants**: :ref:`RVC2` based and :ref:`RVC3` based SoM.
+:ref:`RVC3` provides ~10x AI performance, quadcore ARM CPU, and enchanced stereo depth perception compared to the :ref:`RVC2`.
 
-OAK-SoM-Pro-S3 (RVP3) was designed to be a drop-in replacement for OAK cameras that use
-OAK-SoM-Pro (Myriad X) (list below).
+OAK-SoM-Pro-S3 (:ref:`RVC3`) was designed to be a drop-in replacement for OAK cameras that use
+OAK-SoM-Pro (:ref:`RVC2`) (list below).
 
 
 .. tabs::
 
-    .. tab:: OAK-SoM-Pro (Myriad X, BW2099)
+    .. tab:: OAK-SoM-Pro (RVC2, BW2099)
 
         .. image:: /_static/images/SOM-PRO/BW2099.png
         
@@ -41,24 +41,24 @@ OAK-SoM-Pro (Myriad X) (list below).
         - :ref:`OAK-FFC-4P`
         - :ref:`OAK-D CM4 PoE`
 
-        **Myriad X inside**
+        :ref:`RVC2` inside:
 
-        .. include:: /pages/includes/mx_inside.rst
+        .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-    .. tab:: OAK-SoM-Pro-S3 (RVP3, DM2399)
+    .. tab:: OAK-SoM-Pro-S3 (RVC3, DM2399)
 
         .. image:: /_static/images/SOM-PRO/board-back.png
 
-        **OAK-SoM-Pro-S3** has an on-board :ref:`RVP3 <OAK Series 3>`, which has **much greater AI performance** compared to Myriad X,
+        **OAK-SoM-Pro-S3** has an on-board :ref:`RVC3`, which has **much greater AI performance** compared to :ref:`RVC2`,
         and **quadcore ARM CPU**. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
         replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <OAK-SoM-Pro>`).
 
         It was primarily designed for evaluation and backwards compatibility.
         For new products, we would suggest using :ref:`OAK-SoM-Max` (differences below).
 
-        **RVP3 inside**
+        **RVC3 inside**
 
-        .. include:: /pages/includes/rvp3_inside.rst
+        .. include:: /pages/rvc/includes/rvc3_inside.rst
 
         **OAK-SoM-Pro-S3 vs OAK-SoM-Max**
 
@@ -87,8 +87,8 @@ Dimensions and Weight
 Key features
 ************
 
-* :ref:`RVP3 <OAK Series 3>` (Series 3) **unique features**:  2 GB RAM (16GBit)
-* Myriad X **unique features**:  512 MB RAM (4GBit)
+* :ref:`RVC3` **unique features**:  2 GB RAM (16GBit)
+* :ref:`RVC2` **unique features**:  512 MB RAM (4GBit)
 * Interfaces with the system through two 10-Gbps-rated 100-pin connectors (DF40C-100DP-0.4V(51))
 * 2 x 2-lane MIPI channels
 * 2 x 4-lane MIPI channels (for multiple camera inputs)
@@ -99,7 +99,7 @@ Key features
 
 .. figure:: /_static/images/SOM-PRO/som_pros_up.png
 
-    **left**: OAK-SoM-Pro-S3, **right**: OAK-SoM-Pro Myriad X  
+    **left**: OAK-SoM-Pro-S3 (RVC3), **right**: OAK-SoM-Pro (RVC2)
 
 Datasheets
 **********

@@ -288,7 +288,7 @@ Features described
 - **Fiducial Marker localization** - AprilTag detector currently works at ~20FPS, `progress here <https://github.com/luxonis/depthai/issues/133>`__.
 - **Neural Assisted Depth** - Work in progress, ticket `here <https://github.com/luxonis/depthai/issues/173>`__.
 - **Encryption** - Not yet addressed.
-- **VIO** - Work in progress on RVP3, on :ref:`OAK Series 3` cameras.
+- **VIO** - Work in progress on :ref:`RVC3`, on :ref:`OAK Series 3` cameras.
 
 
 Camera specification

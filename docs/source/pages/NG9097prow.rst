@@ -35,7 +35,7 @@ Hardware specifications
 
 .. include:: /pages/includes/pro.rst
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 .. include:: /pages/includes/m8_connector.rst
 

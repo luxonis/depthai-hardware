@@ -58,7 +58,7 @@ All three cameras are soft-synced by default using the above method, as long as 
 Triggering the FSIN
 *******************
 
-External camera triggering of the FSIN will be possible, either by Myriad X with `GPIOs in Script node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/#interfacing-with-gpios>`__,
+External camera triggering of the FSIN will be possible, either by :ref:`RVC2` with `GPIOs in Script node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/#interfacing-with-gpios>`__,
 or an external source. A basic implementation already exists on `this <https://github.com/luxonis/depthai-python/tree/multi_cam_support>`__
 branch, but for the global shutter `OV9282/OV9782 only <https://github.com/luxonis/depthai-core/blob/2211302/include/depthai/pipeline/datatype/CameraControl.hpp#L61-L68>`__
 at the moment. In this case the exposure starts very shortly after the rising edge on FSIN, so we could have external circuitry driving the STROBE

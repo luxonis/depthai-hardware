@@ -241,6 +241,13 @@ Miscellaneous Designs
      pages/articles/oak-s3.rst
 
 .. toctree::
+     :caption: Robotics Vision Core
+     :hidden:
+
+     pages/rvc/rvc2.rst
+     pages/rvc/rvc3.rst
+
+.. toctree::
    :maxdepth: 1
    :hidden:
    :caption: USB Designs
@@ -276,7 +283,6 @@ Miscellaneous Designs
    pages/DM1090.rst
    pages/BG0250TG.rst
    pages/BG0249.rst
-   pages/DM0255.rst
    pages/arducam.rst
 
 .. toctree::
@@ -295,7 +301,6 @@ Miscellaneous Designs
 
    pages/BW1099.rst
    pages/BW2099.rst
-   pages/DM2399.rst
    pages/DM3399.rst
 
 .. toctree::

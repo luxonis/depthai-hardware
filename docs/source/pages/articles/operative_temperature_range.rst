@@ -6,8 +6,7 @@ Operative temperature range
 VPU temperature range
 *********************
 
-The visual processing unit - VPU (MyriadX) - is rated for industrial use and has operating
-temperature of -40°C to 105°C (as seen `here <https://ark.intel.com/content/www/us/en/ark/products/125926/intel-movidius-myriad-x-vision-processing-unit-4gb.html#tab-blade-1-0-4>`__),
+The :ref:`RVC2` is rated for industrial use and has operating temperature of -40°C to 105°C,
 while other components have a higher temperature range.
 
 General use case

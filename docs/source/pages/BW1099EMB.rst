@@ -24,7 +24,7 @@ are interested in integrating DepthAI (via SoM) into your product, see :ref:`doc
 - :ref:`OAK-D-IoT-40`
 - :ref:`OAK-D-IoT-75`
 
-.. include:: /pages/includes/mx_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Board Layout
 ************
