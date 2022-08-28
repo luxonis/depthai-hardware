@@ -3,6 +3,15 @@
 Integrating DepthAI into products
 =================================
 
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+    OAK Design Guide <design_guide.rst>
+
+This guide serves as a introduction on how one can integrate DepthAI (Spatial AI platform) into
+their own custom products. When designing the PCB, please also see :ref:`OAK Design Guide <design_guide>`.
+
 Difficulty of integrating DepthAI into products
 ***********************************************
 
@@ -22,9 +31,9 @@ computer, although not all devices support that use-case.
 
 We have 3 types of SoM devices:
 
-- `OAK-SoM <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099.html>`__
-- `OAK-SoM-IoT <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1099EMB.html>`__
-- `OAK-SoM-Pro <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2099.html>`__
+- :ref:`OAK-SoM`
+- :ref:`OAK-SoM-Pro`
+- :ref:`OAK-SoM-Max`
 
 The main difference between them is in:
 
