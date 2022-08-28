@@ -209,22 +209,22 @@ Miscellaneous Designs
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :hidden:
    :caption: Guides
 
    pages/guides/device-comparison.rst
    pages/guides/realsense_comparison.rst
    pages/guides/getting-started-with-poe.rst
-   pages/guides/integrating_depthai_into_products.rst
-   OAK Design Guide <pages/guides/design_guide.rst>
    pages/guides/powering_poe_devices.rst
+   pages/guides/calibration.rst
+   pages/guides/integrating_depthai_into_products.rst
    pages/guides/sync_frames.rst
    pages/guides/raspberrypi.rst
    pages/guides/af_ff.rst
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :hidden:
    :caption: Articles
 
