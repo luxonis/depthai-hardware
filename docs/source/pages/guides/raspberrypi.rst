@@ -155,4 +155,22 @@ and right connector (`Aliexpress <https://www.aliexpress.com/item/10050018948323
 
 From our testing, RPi Zero was able to provide enough power to the OAK-D without an external power supply (either power jack or :ref:`Y-adapter`).
 
+RPi Troubleshooting
+###################
+
+RPi Locking Up / OAK crashing on RPi
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The Raspberry Pi has a max limit of 1.2A across all its USB ports, and OAK cameras can take up to 1A (at max power, usually closer to 500mA).
+
+So if you are seeing lockups, it could be that you are over this 1.2A limit as a result of the total power of the USB devices drawing from the Pi.  Using a powered hub can prevent this, or powering fewer other things off of the Pi over USB.
+
+This may also manifest in OAK randomly crashing on the Pi.  This can become particularly often if OAK is configured
+to do many things at once.  This is becoming increasingly likely as we enable DepthAI to do more and more things at
+once - and thereby increase the maximum power that OAK can pull.  It is seeming like the peak power (current) spikes
+from OAK can go over what the Pi can handle, causing OAK to brown-out and return an error.
+
+So if you are experiencing issues with DepthAI stability on Raspberry, try powering OAK camera via a power-supply and/or a powered USB hub to see if the error goes away.
+
+
 .. include::  /pages/includes/footer-short.rst
