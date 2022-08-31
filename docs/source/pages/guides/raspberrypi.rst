@@ -173,4 +173,16 @@ from OAK can go over what the Pi can handle, causing OAK to brown-out and return
 So if you are experiencing issues with DepthAI stability on Raspberry, try powering OAK camera via a power-supply and/or a powered USB hub to see if the error goes away.
 
 
+SSH-ing without X11 forwarding
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If you SSH into your RPi without ``-x`` argument and try to display a frame (eg. ``cv2.imshow()``), you will likely get an error like below:
+
+- ``(-2:Unspecified error) Can't initialize GTK backend in function 'cvInitSystem'``
+- ``qt.qpa.xcb: could not connect to display. qt.qpa.plugin: Could not load the Qt platform plugin "xcb".``
+- ``This application failed to start because no Qt platform plugin could be initialized.``
+
+The solution is to use X11 forwarding when SSHing to the RPi, see :ref:`SSH into the RPi`.
+
+
 .. include::  /pages/includes/footer-short.rst
