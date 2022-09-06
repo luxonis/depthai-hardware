@@ -59,6 +59,10 @@ Sensor specifications
 
     .. tab:: Wide FOV OV9782
 
+      .. note::
+
+        You can order this OAK camera with 150° DFOV OV9782 color camera as a **custom order**. Please **contact** orders@luxonis.com before purchasing.
+
       For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
       (1MP) color camera.
 
