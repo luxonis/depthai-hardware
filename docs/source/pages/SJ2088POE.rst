@@ -10,9 +10,9 @@ OAK-D-PoE
 Overview
 ********
 
-The **OAK-D-PoE** baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-D-POE baseboard has three
-on-board cameras which implement stereo and RGB vision, piped directly into the :ref:`OAK-SoM-Pro <bw2099>` for depth and AI
-processing. The data is then output to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-D-POE
+The **OAK-D-PoE** baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-D-PoE baseboard has three
+on-board cameras which provide stereo and RGB vision, piped directly into the :ref:`OAK-SoM-Pro <bw2099>` for depth and AI
+processing. The data is then output to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-D-PoE
 board exposes boot selection switches, allowing the end user to boot the OAK-SoM-Pro module from USB or the on-board eMMC or
 NOR flash.
 
@@ -26,18 +26,18 @@ Hardware specifications
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 * Width: 130 mm
 * Height: 101 mm
 * Length: 31 mm
-* Weight: 361g
+* Weight: 361 
 
 .. image:: /_static/images/SJ2088POE/OAK-D-PoE-dimensions.svg
 
 .. include:: /pages/includes/depth_75_800P.rst
 
-Board Layout
+Board layout
 ************
 
 .. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg

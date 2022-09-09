@@ -8,29 +8,29 @@ Y-adapter
 Overview
 ********
 
-Y-adapter is used to **supply power to OAK cameras** through USB-C connector. Note that in most cases, host computer is
-able to provide enough current (>1A) and you don't need a Y-adapter. **Y-adapter is only needed** in cases where host is not able
+The Y-adapter is used to **supply power to OAK cameras** through a USB-C connector. Note that in most cases, the host computer is
+able to provide enough current (>1A) and you don't need a Y-adapter. The **Y-adapter is only needed** in cases where the host is not able
 to provide enough current:
 
-- For **Pro** versions (:ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`), where IR LED and dot projector can draw up to 1A alone
-- In case you are using small SBC like :ref:`Raspberry Pi <OAK & Raspberry Pi>`, and OAK camera isn't the only USB device that's drawing power
+- For **Pro** versions (:ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`), where IR LED and dot projector can draw up to 1A alone.
+- In case you are using a small SBC like :ref:`Raspberry Pi <OAK & Raspberry Pi>`, and the OAK camera isn't the only USB device that's drawing power.
 
-Older (pre-2022) versions of OAK cameras have power barrel jack for supplying power (instead of the Y-adapter), while
-newer OAK cameras only have USB-C connector - which is why we engineered the Y-adapter.
+Older (pre-2022) versions of OAK cameras have a power barrel jack for supplying power (instead of the Y-adapter), while
+newer OAK cameras only have a USB-C connector, which is why we engineered the Y-adapter.
 
 Getting started
 ***************
 
-#. Connect host computer to the Y-adapter's USB-C data port via USB-C cable
-#. Connect USB wall charger to the Y-adapter's USB-C power port via USB-C cable
-#. Insert Y-adapter to the OAK device via USB-C connector
+#. Connect host computer to the Y-adapter's USB-C data port via USB-C cable.
+#. Connect USB wall charger to the Y-adapter's USB-C power port via USB-C cable.
+#. Insert Y-adapter to the OAK device via USB-C connector.
 
 .. image:: /_static/images/DM6010/Y_Adapter_5.jpg
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 5g
+**Weight:** 5 g
 
 .. image:: /_static/images/DM6010/y-adapter-dimensions.jpeg
 

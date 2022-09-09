@@ -15,10 +15,10 @@ night-vision). The OAK-D Pro W is from the :ref:`Series 2 of OAK cameras <OAK se
 
 Compared to the :ref:`OAK-D S2`, the only differences are:
 
-- IR laser dot projector and IR illumination LED (:ref:`Pro aspect <Pro version>` of the version)
-- Wide FOV cameras (:ref:`W aspect <Wide FOV>` of the version)
+- IR laser dot projector and IR illumination LED (:ref:`Pro aspect <Pro version>` of the version).
+- Wide FOV cameras (:ref:`W aspect <Wide FOV>` of the version).
 
-Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
+Due to the large power consumption of the dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 
 Looking for the **Normal FOV** OAK-D Pro? You can find it :ref:`here <dm9098pro>`.
 
@@ -33,10 +33,10 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 91g
+**Weight:** 91 g
 
 .. image:: /_static/images/DM9098/dimensions-pro.png
 

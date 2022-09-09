@@ -10,9 +10,9 @@ OAK-D S2
 Overview
 ********
 
-The **OAK-D S2** is the :ref:`Series 2 <OAK series 2>` version of the :ref:`OAK-D`. The main difference is that
-OAK-D S2 has a smaller enclosure and is therefore lighter. OAK-D S2 also doesn't have a barrel jack
-for supplying power, it only has a USB-C connector for both power and communication.
+The **OAK-D S2** is the :ref:`Series 2 <OAK series 2>` version of the :ref:`OAK-D`. Compared to its predecessor, the
+OAK-D S2 has a smaller enclosure and is lighter weight. OAK-D S2 also doesn't have a barrel jack
+for supplying power, and exclusively uses a USB-C connector for both power and communication.
 
 Looking for the **Wide FOV** OAK-D S2? You can find it :ref:`here <dm9098w>`.
 
@@ -25,10 +25,10 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 91g
+**Weight:** 91 g
 
 .. image:: /_static/images/DM9098/dimensions.png
 

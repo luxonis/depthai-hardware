@@ -30,10 +30,10 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 318g
+**Weight:** 318 g
 
 .. image:: /_static/images/DM2097/dimensions.png
 

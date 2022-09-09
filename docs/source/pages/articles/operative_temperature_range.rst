@@ -6,7 +6,7 @@ Operative temperature range
 VPU temperature range
 *********************
 
-The :ref:`RVC2` is rated for industrial use and has operating temperature of -40°C to 105°C,
+The :ref:`RVC2` is rated for industrial use and has an operating temperature of -40°C to 105°C,
 while other components have a higher temperature range.
 
 General use case
@@ -25,12 +25,12 @@ Min temperature
 ---------------
 
 While an OAK camera would work below 0°C, a valid concern here is the **condensation** on the components with cycling the
-temperature - if the device isn't :ref:`waterproof <waterproof>`. Worst case would be turning the cameras on and completely
-off several times week or even a day. This would cause condensation on the components and because of that, the stress on
-components would be bigger. Solution would be to spray PCBAs with a conformal coating to protect the components against humidity.
+temperature - if the device isn't :ref:`waterproof <waterproof>`. The worst case would be turning the cameras on and completely
+off several times per week or even per day. This would cause condensation on the components and, because of that, the stress on
+components would be bigger. A solution would be to spray PCBAs with a conformal coating to protect the components against humidity.
 
 **Pro versions** (:ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`) have on-board IR laser dot projector that has an operating temperature range
-of 10°C - 60°C (abolute limit 0°C - 80°C). If you would like to use Pro devices below 0°C, we would suggest to first run the
+of 10°C - 60°C (abolute limit 0°C - 80°C). If you would like to use Pro devices below 0°C we suggest to first run the
 device (without projector) for a few minutes so the device heats up, which would also heat up the laser projector, hopefully
 above 10°C.
 
@@ -42,7 +42,7 @@ We have tested thermals of our devices with max load, and you can achieve that b
 
 This command has the maximum power consumption, therefore the devices have the highest heat output.
 
-Note the framerate of the RGB camera is set to 30 (:code:`-rgbf 30`). If it would be set any higher, it would be bottlenecked
+Note the framerate of the RGB camera is set to 30 (:code:`-rgbf 30`). If it is set any higher it would be bottlenecked
 by the neural network.
 
 Results of our tests

@@ -31,10 +31,10 @@ Hardware specifications
 
 .. include:: /pages/includes/m8_connector.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 184g
+**Weight:** 184 g
 
 .. image:: /_static/images/NG9097/dimensions.png
 

@@ -22,19 +22,19 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
 .. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
 
-**Weight:** 115g total, OAK-D-PCBA 43g
+**Weight:** 115 g total, OAK-D-PCBA 43 g
 
 .. include:: /pages/includes/depth_75_800P.rst
 
 OAK-D PCBA
 **********
 
-In the past we also sold OAK-D PCBA, which is essentailly an OAK-D without an enclosure
+In the past we also sold the OAK-D PCBA, which is essentailly an OAK-D without an enclosure,
 and instead has a heatsink. This could still be useful for some applications where
 size/weight is really critical (eg. drones), and PCBA also exposes some additional connectors.
 

@@ -19,7 +19,7 @@ Hardware specifications
 
 .. include:: /pages/includes/imx378.rst
 
-Board Layout and Dimensions
+Board layout and dimensions
 ***************************
 
 .. image:: /_static/images/BG0249/BG0249_R0M0E0_diag.jpg

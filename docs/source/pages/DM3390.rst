@@ -19,7 +19,7 @@ Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can us
 This board is also compatible with RPi camera interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
 which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
-In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
+In addition, an IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include:: /pages/rvc/includes/rvc3_inside.rst
 
@@ -36,18 +36,18 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 Key features
 ************
 
-- 6x 2-line MIPI camera interfaces (all of the CCMs supported in DepthAI can run on 2-lane MIPI, most of them also in full resolution)
-- :ref:`OAK-SoM-Max` connected to the baseboard
-- 5V power input via barrel jack
-- USB 3.1 Gen 1 Type-C
-- IMU support (BMI270 by default, footprint for BNO086)
-- uSD card slot
-- Onboard EEPROM
-- Pads for DepthAI SoM 1.8V SPI
-- Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO)
-- PSRBS connector (5V, STROBE, RST, BOOT_SEL, FSIN_ALL, FSIN_STEREO)
-- 1025 coin battery holder
-- Design files produced with Altium Designer 22
+- 6x 2-line MIPI camera interfaces (all of the CCMs supported in DepthAI can run on 2-lane MIPI, most of them also in full resolution).
+- :ref:`OAK-SoM-Max` connected to the baseboard.
+- 5V power input via barrel jack.
+- USB 3.1 Gen 1 Type-C.
+- IMU support (BMI270 by default, footprint for BNO086).
+- uSD card slot.
+- Onboard EEPROM.
+- Pads for DepthAI SoM 1.8V SPI.
+- Pads for DepthAI SoM 1.8V Aux Signals (I2C, UART, GPIO).
+- PSRBS connector (5V, STROBE, RST, BOOT_SEL, FSIN_ALL, FSIN_STEREO).
+- 1025 coin battery holder.
+- Design files produced with Altium Designer 22.
 
 .. include:: /pages/includes/ffc-depth-perception.rst
 
@@ -55,7 +55,7 @@ Getting started
 ***************
 
 The OAK-FFC-6P accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C.
-With cameras and the :ref:`OAK-SoM-Max`, total power consumption usually stays below the 1.5 A specification, Type-C power
+With cameras and the :ref:`OAK-SoM-Max`, the total power consumption usually stays below the 1.5 A specification. Type-C power
 of 1.5 A or greater is recommended.
 
 Interfacing with the :ref:`OAK-SoM-Max` is also possible with OAK-FFC-6P connector pads QSPI, and AUX. These pads

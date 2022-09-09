@@ -23,11 +23,11 @@ Here's the list of our current OAK FFC baseboards:
 - :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>`
 
 
-FFC Camera modules
+FFC camera modules
 ******************
 
 Here's the list of already built OAK FFC camera modules, which you can easily connect to any :ref:`OAK FFC baseboard <OAK FFC baseboards>`
-with a flat flexible cable. We are working towards offering OAK FFC camera module for :ref:`all supported CCMs <Already built CCMs>`.
+with a flat flexible cable. We are working towards offering an OAK FFC camera module for :ref:`all supported CCMs <Already built CCMs>`.
 Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-3P-OG`.
 
 .. list-table::
@@ -120,7 +120,7 @@ ArduCam replacement cameras for OAK-D
 *************************************
 
 The cameras below are compatible with the :ref:`OAK-D`. Due to the use of adhesives to affix the cameras in the
-assembled OAK-D, it is difficult to replace them.  Attempting to remove the cameras can cause damage to both the
+assembled OAK-D, it is difficult to replace them. Attempting to remove the cameras can cause damage to both the
 cameras and the PCB.
 
 The best and easiest way to remove the old Compact Camera Modules (CCM) from the PCBA is to apply a small amount

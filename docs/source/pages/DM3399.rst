@@ -9,8 +9,8 @@ Overview
 ********
 
 **OAK-SoM-Max** has on-board :ref:`RVC3`, which has **much greater AI performance**
-compared to :ref:`RVC2`, and **quadcore ARM CPU**. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level system with
-a need for a low-power, high performance, real-time AI and depth perception.
+compared to :ref:`RVC2`, and **quadcore ARM CPU**. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level systems with
+a need for a low power, high performance, real-time AI, and depth perception.
 
 The OAK-SoM-Max interfaces with the system through three 10-Gbps-rated 100-pin board-to-board mezzanine connector which
 carries all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary
@@ -26,19 +26,19 @@ into your product, see :ref:`documentation here <integrating_depthai_into_produc
 
 .. include:: /pages/includes/som-pro-s3-vs-max.rst
 
-Board Layout
+Board layout
 ************
 
 .. image:: /_static/images/SOM-Max/pinout.png
 
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
 * Width: 40 mm
 * Height: 40 mm
 * Length: 4 mm
-* Weight: 5g
+* Weight: 5 g
 
 Key features
 ************

@@ -27,23 +27,23 @@ Hardware Specifications
 OAK-D vs OAK-D-Lite
 *******************
 
-OAK-D-Lite is smaller, lighter and uses less power; compared to OAK-D. The main differences are:
+Compared to OAK-D, the OAK-D-Lite is smaller, lighter, and uses less power. Following are the main differences:
 
-- Mono cameras have lower resolution (640x480 instead of 1280x800)
-- There is no IMU (Inertial measurement unit) on the OAK-D-Lite, as most users don't need it. IMUs are currently hard to come by, so the price increased significantly - and we wanted to lower the price point as much as possible.
-- There is no power jack, as most users just used the USB-C for power delivery, which provides 900mA at 5V and is enough for most use-cases. However some functions (e.g. inference, video encoding) can lead to large current spikes, so there is a chance hosts like RPi won't be able to provide enough power. In that case, you should use :ref:`Y-adapter`.
+- Mono cameras have lower resolution (640x480 instead of 1280x800).
+- There is no IMU (Inertial Measurement Unit) on the OAK-D-Lite, as most users don't need it. IMUs are currently hard to come by, meaning that single component increases price significantly, and we wanted to lower the price point as much as possible.
+- There is no power jack, as most users just use the USB-C for power delivery, which provides 900mA at 5V and is enough for most use-cases. However, some functions (e.g. inference, video encoding) can lead to large current spikes, so there is a chance hosts like RPi won't be able to provide enough power. In that case, you should use :ref:`Y-adapter`.
 
 Additionally, the more technical differences are the following:
 
-- :ref:`RVC2` chip-down design, instead of connecting the :ref:`OAK-SoM`` to the baseboard (like it is done on OAK-D)
-- In collaboration with ArduCam, we developed custom camera sensor connectors, which are shorter and take up less space
+- :ref:`RVC2` chip-down design, instead of connecting the :ref:`OAK-SoM`` to the baseboard (like it is done on OAK-D).
+- In collaboration with ArduCam, we developed custom camera sensor connectors, which are shorter and take up less space.
 
 Fixed-focus vs Auto-focus
 *************************
 
 When ordering the OAK-D-Lite, you can select whether you want :code:`Fixed-focus` (FF) or :code:`Auto-focus` (AF) **on the
-color camera**. You should select FF if you are mounting OAK camera to something that vibrates. You should select AF when
-you need things closer than ~50cm to be in focus. More information can be found at :ref:`Auto-Focus vs Fixed-Focus`.
+color camera**. You should select FF if you are mounting the camera to something that vibrates. You should select AF when
+you need things closer than ~50 cm to be in focus. More information can be found at :ref:`Auto-Focus vs Fixed-Focus`.
 
 Dimensions and Weight
 *********************

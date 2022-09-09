@@ -13,7 +13,7 @@ Overview
 ********
 
 The **OAK-SoM-Pro** is a System on Module (SoM) designed for integration into top-level systems with
-a need for a low-power, high performance, real-time AI, and depth perception. It is ideal for use in industrial automation, robotics, and security systems.
+a need for low power, high performance, real-time AI, and depth perception. It is ideal for use in industrial automation, robotics, and security systems.
 The OAK-SoM-Pro interfaces with the system through two 10-Gbps-rated 100-pin board-to-board mezzanine connector which carries
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxiliary power port is offered to interface without connection to a baseboard.
@@ -33,7 +33,7 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
         
         **Devices that use OAK-SoM-Pro MX**
 
-        All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
+        All devices that have SoM on-board are also open-source. You could redesign them, for example, to change stereo baseline. If you
         are interested in integrating DepthAI (via SoM) into your product, see :ref:`documentation here <integrating_depthai_into_products>`.
 
         - :ref:`OAK-1-PoE`
@@ -69,18 +69,18 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
             **OAK-SoM-Pro-S3** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
 
 
-Board Layout
+Board layout
 ************
 
 .. image:: /_static/images/SOM-PRO/BW2099_diag.jpg
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
 * Width: 30 mm
 * Height: 45 mm
 * Length: 4 mm
-* Weight: 5g
+* Weight: 5 g
 
 .. image:: /_static/images/SOM-PRO/oak-som-pro-dimensions.jpeg
 
@@ -112,7 +112,7 @@ Datasheets
 - OAK-SoM-Pro board STEP `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro/OAK-SoM-Pro.step>`__
 - OAK-SoM-Pro-S3 `files here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM-Pro-S3/DM2399_R1M0E1_AllComponents.step>`__
 
-Altium Design Files
+Altium Design files
 *******************
 
 - OAK-SoM-Pro `files here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM-Pro>`__

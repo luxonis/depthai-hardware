@@ -16,8 +16,8 @@ Overview
 The **OAK-D Pro PoE** is an upgraded version of :ref:`OAK-D-PoE`, featuring **IR laser dot projector** (active stereo) and **IR illumination LED** (for
 night-vision). It's also smaller and lighter than the OAK-D-PoE.
 
-It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features
-**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
+It also has an industrial **M12 PoE connector** (instead of RJ45) and additionally features
+**M8 connector for IO connectivity**. It has USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
 Looking for the **Wide FOV** OAK-D Pro PoE? You can find it :ref:`here <ng9097prow>`.
 
@@ -34,10 +34,10 @@ Hardware specifications
 
 .. include:: /pages/includes/m8_connector.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 184g
+**Weight:** 184 g
 
 .. image:: /_static/images/NG9097/dimensions-pro.png
 

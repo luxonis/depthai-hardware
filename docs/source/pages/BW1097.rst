@@ -14,7 +14,7 @@ Overview
     We recommend using the :ref:`OAK-D-CM4`, the latest model, unless you are sure you need this one.
 
 Based on the Raspberry PI CMIO board, the OAK-D-CM3 (BW1097) combines a host and the :ref:`OAK-SoM <bw1099>` to allow 
-for fully integrated solution for real-time spatial AI.
+for fully integrated solution for real-time `Spatial AI <https://docs.luxonis.com/en/latest/pages/spatial-ai/>`__.
 
 Hardware specifications
 ***********************
@@ -25,13 +25,13 @@ Hardware specifications
 
 .. include:: /pages/includes/depth_90_800P.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
 * Width: 110 mm
 * Height: 60 mm
 * Length: 27 mm
-* Weight: 101g
+* Weight: 101 g
 
 .. image:: /_static/images/BW1097/BW1097_dims.jpg
 
@@ -46,7 +46,7 @@ Getting started
 ***************
 
 The OAK-D-CM3 accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack. Raspberry PI USB boot can be accessed by setting a header jumper, which allows 
-initial flash of eMMC on CM3/CM3+. Alternatively the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not 
+initial flash of eMMC on CM3/CM3+. Alternatively, the microSD slot can be used with a bootable system image. The Raspberry PI JTAG header is not 
 populated by default, but can be added, allowing JTAG access.
 
 The reset button resets the OAK-SoM only. To reset the CM3/CM3+, ground the RUN header via to the GND header via.

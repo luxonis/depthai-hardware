@@ -12,8 +12,8 @@ Overview
 
 The **OAK-FFC-4P** (DD2090FFC) baseboard has **4 FFC interfaces** which allows for:
 
-- **Two 2-lane MIPI** camera modules, eg. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair)
-- **Two 4-lane MIPI** camera modules, eg. :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module, or additional :ref:`OAK-FFC-OV9282 <bg0250tg>` if RGB camera module is not required
+- **Two 2-lane MIPI** camera modules, eg. :ref:`OAK-FFC-OV9282 <bg0250tg>` (stereo pair).
+- **Two 4-lane MIPI** camera modules, eg. :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module, or additional :ref:`OAK-FFC-OV9282 <bg0250tg>` if RGB camera module is not required.
 
 Please note that only revision R1M1E1 and newer camera modules can be connected to this OAK FFC board.
 
@@ -23,16 +23,16 @@ Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can us
 This board uses :ref:`OAK-SoM-Pro` and is also compatible with RPi camera interface. For that you will need a `FFC from Arducam <https://www.arducam.com/product/arducam-12mp-imx477-mini-high-quality-camera-with-m12-mount-lens-and-adapter-board-for-depthai/>`__,
 which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
-In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
+In addition, an IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 * Width: 62 mm
 * Height: 38 mm
 * Length: 22 mm (PCBA and heatsink)
-* Weight: 41g (PCBA and heatsink)
+* Weight: 41 g (PCBA and heatsink)
 
 .. image:: /_static/images/FFC-4P/OAK-FFC-4P_dimensions.png
 

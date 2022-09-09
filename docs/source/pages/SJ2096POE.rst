@@ -11,7 +11,7 @@ Overview
 ********
 
 The **OAK-1-PoE** baseboard offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds. The OAK-1-PoE (SJ2096POE)
-baseboard has one on-board cameras which implement RGB vision, piped directly into the :ref:`OAK-SoM-Pro` for depth and AI
+baseboard has one on-board camera which provides RGB vision, piped directly into the :ref:`OAK-SoM-Pro` for depth and AI
 processing. The data is then output to a host via USB 3.1 Gen1 (Type-C) or via 1000BASE-T ethernet connection. The OAK-1-PoE
 board exposes boot selection switches, allowing the end user to boot the OAK-SoM-Pro module from USB or the on-board eMMC or
 NOR flash.
@@ -25,16 +25,16 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 * Width: 82 mm
 * Height: 114 mm
 * Length: 32 mm
-* Weight: 294g
+* Weight: 294 g
 
 .. image:: /_static/images/SJ2096POE/OAK-1-PoE-dimensions.svg
 
-Board Layout
+Board layout
 ************
 
 .. image:: /_static/images/SJ2096POE/SJ2096POE_dim.jpg

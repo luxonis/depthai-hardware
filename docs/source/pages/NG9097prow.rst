@@ -18,11 +18,11 @@ night-vision). The OAK-D Pro W PoE is from the :ref:`Series 2 of OAK cameras <OA
 
 Compared to the :ref:`OAK-D S2 PoE`, the only differences are:
 
-- IR laser dot projector and IR illumination LED (:ref:`Pro aspect <Pro version>` of the version)
-- Wide FOV cameras (:ref:`W aspect <Wide FOV>` of the version)
+- IR laser dot projector and IR illumination LED (:ref:`Pro aspect <Pro version>` of the version).
+- Wide FOV cameras (:ref:`W aspect <Wide FOV>` of the version).
 
-It also has industrial **M12 PoE connector** (instead of RJ45) and additionally features an
-**M8 connector for IO connectivity**; USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
+It also has an industrial **M12 PoE connector** (instead of RJ45) and additionally features an
+**M8 connector for IO connectivity**. It has USB2 (D+, D-), camera IOs (FSIN, STROBE), power, and one auxiliary GPIO.
 
 Looking for the **Normal FOV** OAK-D Pro PoE? You can find it :ref:`here <ng9097pro>`.
 
@@ -39,10 +39,10 @@ Hardware specifications
 
 .. include:: /pages/includes/m8_connector.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
-**Weight:** 184g
+**Weight:** 184 g
 
 .. image:: /_static/images/NG9097/dimensions-pro.png
 

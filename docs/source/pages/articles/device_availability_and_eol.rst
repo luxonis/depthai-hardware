@@ -5,7 +5,7 @@ Device availability and EOL
 
 We **never** EOL (End of Life) products. We have the same culture as
 `Mini Circuits <https://www.minicircuits.com/quality/product_change_management.html>`__ -
-who is the most respected RF component manufacturer in the world, because they never EOL anything.
+who is the most respected RF component manufacturer in the world, in part because they never EOL anything.
 
 How this is accomplished
 ************************
@@ -14,19 +14,19 @@ The way Mini Circuits accomplishes this - and we do the same - is to be constant
 new/better products at a more competitive price point as previous products. This will result in current
 products being "outdated".
 
-We realize majority of people will buy the newer, pin-compatible version that is better, faster, cheaper, and generally more efficient.
-However, folks that absolutely need the exact version of an old product will still be able to buy it, as we will always offer it.
+We realize the majority of people will buy the newer, pin-compatible versions that are better, faster, cheaper, and generally more efficient.
+However, people that absolutely need the exact version of an old product will still be able to buy it, because we will always offer it.
 
-**For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is Electrically, Mechanically, and
+**For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is electrically, mechanically, and
 fully pin-compatible with the **OAK-SoM-Pro**, but based on :ref:`RVC3` instead of the :ref:`RVC2`.
 
-:ref:`OAK Series 3` has significantly improved features (eg. ~10x AI performance, on-board Linux host...).
-So this same SoM can drop into existing customer designs, and we expect that most customers will switch to :ref:`RVC3` based SOM.
-Only those who, for some reasons, absolutely want the lower performance version, will continue to buy the lower performance version.
+:ref:`OAK Series 3` has significantly improved features (e.g. ~10x AI performance, on-board Linux host, and more).
+So, this same SoM can drop into existing customer designs, and we expect that most customers will switch to a :ref:`RVC3` based SoM.
+Only those who absolutely need the lower performance version will continue to buy it.
 And as above, what this strategy allows is keeping long-term stock of everything.
 
 And in the worst-case situations where this doesn't work, we do what Mini Circuits does in the situation where the uncontrollable
-happens (eg. warehouse(s) holding these burn to the ground): we make as close-as-possible substitute and work with the customer
+happens (e.g. warehouse(s) holding these burn to the ground): we make an as-close-as-possible substitute and work with the customer
 to keep their products going.
 
 Wind down of Intel's RealSense

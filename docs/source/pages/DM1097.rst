@@ -27,17 +27,17 @@ Hardware specifications
 
 .. include:: /pages/includes/depth_90_800P.rst
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
 * Width: 110 mm
 * Height: 60 mm
 * Length: 27 mm
-* Weight: 106g
+* Weight: 106 g
 
 .. image:: /_static/images/DM1097/DM1097_dim.jpg
 
-Board Layout
+Board layout
 ************
 
 .. image:: /_static/images/DM1097/DM1097.jpg

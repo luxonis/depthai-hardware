@@ -10,16 +10,16 @@ OAK-SoM
 Overview
 ********
 
-The OAK-SoM (BW1099) is a System on Module (SoM) designed for integration into top-level system with a need for a low-power,
-4 Tera Operation Per Second (TOPS) AI vision system. To be used in industrial automation, robotics and security systems.
-The OAK-SoM interfaces with the system through a single 10-Gbps-rated 100-pin board-to-board mezzanine connector which carries
+The OAK-SoM (BW1099) is a System on Module (SoM) designed for integration into a top-level system with a need for low-power and
+4 Tera Operation Per Second (TOPS) AI vision. It is ideal for use in industrial automation, robotics, and security systems.
+The OAK-SoM interfaces with the system through a single 10-Gbps-rated 100-pin board-to-board mezzanine connector, which carries
 all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary digital and analog power.
 An auxiliary power port is offered to interface without connection to a baseboard.
 
 Devices that use OAK-SoM
 ************************
 
-All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
+All devices that have SoM on-board are also open-source. You could redesign them, for example, to change the stereo baseline. If you
 are interested in integrating DepthAI (via SoM) into your product, see :ref:`documentation here <integrating_depthai_into_products>`.
 
 - :ref:`OAK-D`
@@ -31,18 +31,18 @@ are interested in integrating DepthAI (via SoM) into your product, see :ref:`doc
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-Board Layout
+Board layout
 ************
 
 .. image:: /_static/images/BW1099/BW1099_diag.jpg
 
-Dimensions and Weight
+Dimensions and weight
 *********************
 
 * Width: 30 mm
 * Height: 40 mm
 * Length: 4.53 mm (17.5 mm with heatsink)
-* Weight: 4g
+* Weight: 4 g
 
 .. image:: /_static/images/BW1099/BW1099_dim.jpg
 
@@ -67,7 +67,7 @@ Brochures
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/SoMs/OAK-SoM/OAK-SoM.step>`__
 
-Altium Design Files
+Altium Design files
 *******************
 
 See files `here <https://github.com/luxonis/depthai-hardware/tree/master/SoMs/OAK-SoM>`__
