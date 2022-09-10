@@ -186,8 +186,8 @@ Arducam short FPC
   * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
 * :ref:`IMX214`
 
-  * NFOV (AF/FF)
-  * WFOV FF
+  * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 54° VFOV
+  * WFOV FF - 117° DFOV, 105° HFOV, 88° VFOV
 * :ref:`OV9282` (notch filter is WIP instead of NoIR)
 
   * WFOV FF (NoIR/IR) - 150° DFOV, 127° HFOV, 79.5° VFOV
