@@ -13,7 +13,7 @@ Left: [VESA_ADAPTER_Bottom](./VESA_ADAPTER_Bottom.step), Right: [VESA_ADAPTER_to
 
 ## OAK Modular Cameras
 
-These are still Work-in-Progress, and we are waiting for them to print to evaluate the models.
+![image](https://user-images.githubusercontent.com/18037362/190448635-d8485b80-6ebf-4ba0-b3c3-ef36fd561ead.png)
 
 - `OAK_FCC_ADAPTER` allows you to attach [OAK FFC camera modules](https://docs.luxonis.com/projects/hardware/en/latest/pages/arducam.html) to the T-slot profile (larger Arducam camera modules and also smaller Luxonis camera modules)
 - `OAK_FCC_Board_ADAPTER` allows you to attach [OAK-FFC-3P](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1090.html) or [OAK-FFC-4P](https://docs.luxonis.com/projects/hardware/en/latest/pages/DD2090.html) to the T-slot profile.
