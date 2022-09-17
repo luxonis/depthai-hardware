@@ -29,7 +29,8 @@ Initial S3 OAK cameras will have 2GB of RAM on board.
 - **May**: We received initial :ref:`OAK-SoM-Max` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
 - **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-S3.
 - **July**: New OS for :ref:`RVC3` - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
-- **August [Planned]**: DepthAI alpha release, hopefully with stereo pipeline. SDK so you can compile your programs for the quadcore ARM (via docker).
+- **August**: DepthAI initial release for RVC3 (stereo support, NN support, logging support), initial support for :ref:`LCM48 <LCM48>`, PCIe WiFi card support, OTA updates
+- **September [Planned]**: HDR support, support for :ref:`IMX214`, full support for :ref:`LCM48 <LCM48>`, LuxOS restructure and initial release
 
 For **updates on the progress of OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 
