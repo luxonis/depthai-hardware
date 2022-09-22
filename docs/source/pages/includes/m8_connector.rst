@@ -13,7 +13,7 @@ M8 aux connector has 8pin female A-coded connector. M12 ethernet has 8pin female
      - Additional information
    * - 1
      - AUX GPIO 3V3
-     - 3V3 auxiliary GPIO. Pull this pin high with 10k resistor at startup for **USB boot**.
+     - 3V3 auxiliary GPIO **52**. Pull this pin high with 10k resistor at startup for **USB boot**.
    * - 2
      - FSYNC ISO
      - Isolated Frame synchronization input signal for cameras
