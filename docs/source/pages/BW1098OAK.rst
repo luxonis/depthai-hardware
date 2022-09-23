@@ -25,7 +25,7 @@ Hardware specifications
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/BW1098OAK/oak-d-dimensions.jpeg
+.. image:: /_static/images/BW1098OAK/oak-d-dimensions.png
 
 **Weight:** 115g total, OAK-D-PCBA 43g
 
