@@ -12,6 +12,7 @@ Step by step tutorial
 #####################
 
 #. You will need a PoE switch or Injector **to power the PoE device**. `Click here for the full tutorial <https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/powering_poe_devices.html>`__. After powering the device, LED should start blinking, as on the GIF above.
+#. Make sure to properly **tighten** the connector - either **ethernet gland** on S1 or **M12 connector** on :ref:`S2 OAK devices <OAK Series 2>` - to make a **good seal**.
 #. Connect your computer to the same `LAN <https://en.wikipedia.org/wiki/Local_area_network>`__ as the PoE device.
 #. Make sure you have **DepthAI version 2.7.0.0** or newer. You can update your DepthAI python package with :code:`python3 -m pip install depthai>=2.7.0.0`
 #. Now you can run any `code sample <https://docs.luxonis.com/projects/api/en/latest/tutorials/code_samples/>`__ / `depthai experiment <https://github.com/luxonis/depthai-experiments>`__ / `depthai_demo <https://github.com/luxonis/depthai>`__ as you would when connecting an OAK device with a USB-C cable!
