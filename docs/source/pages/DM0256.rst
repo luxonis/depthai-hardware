@@ -11,7 +11,7 @@ Overview
 The **OAK-FFC-ToF-VGA** is a carrier board for a VGA resolution ToF (Time-of-Flight) camera sensor.
 
 This FFC camera board and is designed to be compatible with :ref:`OAK-FFC-3P`, :ref:`OAK-FFC-4P`, and
-:ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>` baseboards.
+:ref:`OAK-FFC RPi HAT <bw1094>` baseboards.
 
 ..
   It's currenty in **beta stage** so you have to use a custom version of the depthai library to communicate with this FFC module,

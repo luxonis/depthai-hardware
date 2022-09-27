@@ -25,7 +25,7 @@ are interested in integrating DepthAI (via SoM) into your product, see :ref:`doc
 - :ref:`OAK-D`
 - :ref:`OAK-FFC-3P`
 - :ref:`OAK-FFC-3P-OG`
-- :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>`
+- :ref:`OAK-FFC RPi HAT <bw1094>`
 - :ref:`OAK-D-CM3`
 - :ref:`OAK-D-CM4`
 

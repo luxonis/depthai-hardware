@@ -1,7 +1,7 @@
 .. _bw1094:
 
-DepthAI RPi HAT Baseboard
-=========================
+OAK-FFC RPi HAT
+===============
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/depthai-rpi-hat>`__
 
@@ -10,8 +10,8 @@ DepthAI RPi HAT Baseboard
 Overview
 ********
 
-The DepthAI RPi HAT Baseboard (BW1094) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) and one 
-:ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with 
+The **OAK-FFC RPi HAT** (BW1094) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) and one
+:ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with
 the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the :ref:`OAK-SoM`,
 parallel to the RST button.
 
@@ -49,21 +49,21 @@ perceived by the subject rather than the camera, so "CAM_L" is the subject's lef
 flexibility in positioning the cameras allowed by the FFC. Note that the RGB FFC connector is a top-contact connector while the mono FFC connectors are
 bottom-contact. This results in the FFCs and cameras all facing the same direction when mounted.
 
-The DepthAI RPi HAT Baseboard accepts 5V power from the 5.5mm x 2.5mm barrel jack, or through the Raspberry Pi GPIO header 5V pins. This allows support for `standalone <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__
-use of the baseboard when it is not mounted as a HAT. When using the DepthAI RPi HAT Baseboard as a HAT, it is recommended to power it from the Raspberry Pi via
-the 5V GPIO pins. It is also possible to back-power the Raspberry Pi from the DepthAI RPi HAT Baseboard, but this is not recommended. Do not apply power to the BW1094
+This OAK baseboard accepts 5V power from the 5.5mm x 2.5mm barrel jack, or through the Raspberry Pi GPIO header 5V pins. This allows support for `standalone <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__
+use of the baseboard when it is not mounted as a HAT. When using this device it is recommended to power it from the Raspberry Pi via
+the 5V GPIO pins. It is also possible to back-power the Raspberry Pi from this device, but this is not recommended. Do not apply power to the BW1094
 barrel jack and to the Raspberry Pi at the same time.
 
-The Raspberry Pi GPIO header mostly passes through the DepthAI RPi HAT Baseboard with exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way
+The Raspberry Pi GPIO header mostly passes through the OAK-FFC RPi Hat with exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way
 to toggle reset on the :ref:`OAK-SoM`. Reset is active high when toggled from the Raspberry Pi on BCM GPIO26. The 3.3V Raspberry Pi GPIO line is level
 shifted with an inverter to 1.8V, which is the standard IO for the OAK-SoM. OAK-SoM reset is active-low 1.8V. The reset button on board the
-DepthAI RPi HAT Baseboard resets the OAK-SoM only.
+this device resets the OAK-SoM only.
 
 Auxiliary 1.8V IO for the OAK-SoM exist as J10 pads. The unpopulated connector is Amphenol/FCI 20021121-00020T1LF. Quad SPI, UART, I2C, SoM PGOOD,
 and, SoM WAKEUP are exposed at these pads. NOTE: these are all 1.8V signals and will require appropriate level shifting if connected to the 3.3V GPIO
 of the Raspberry Pi.
 
-The 2485_PGOOD LED indicates "power good" for the OAK-SoM. The 5V_PWR LED 5V power is applied to the DepthAI RPi HAT Baseboard.
+The 2485_PGOOD LED indicates "power good" for the OAK-SoM. The 5V_PWR LED 5V power is applied to the OAK-FFC RPi Hat.
 
 Brochures
 *********
