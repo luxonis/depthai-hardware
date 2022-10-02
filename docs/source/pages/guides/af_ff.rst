@@ -4,7 +4,7 @@ Auto-Focus vs Fixed-Focus
 TL;DR
 *****
 
-**Select Fixed-Focus (FF)**, if you are planning on mounting your OAK camera to something with heavy vibration (like a drone).
+**Select Fixed-Focus (FF)**, if you are planning on mounting your OAK camera to something with vibration (like a drone).
 
 **Select Auto-Focus (AF)** if you absolutely need things closer than ~50 cm to be perfectly in focus.
 
@@ -55,7 +55,15 @@ Pros and Cons Summary
 *********************
 
 **Auto-Focus (AF) pros:**
-Can focus on objects dynamically, which is mainly useful for objects within 50 cm of OAK camera.
+Can focus on objects dynamically, which is mainly useful for objects within 50 cm of OAK camera. You can also **set the focus manually
+for AF camera** (which disables auto-focus feature), either in runtime (`example here <https://docs.luxonis.com/projects/api/en/latest/samples/ColorCamera/rgb_camera_control/#rgb-camera-control>`__ -
+use ``,`` and ``.`` to change focus) or when initializing the pipeline:
+
+.. code-block:: python
+
+    pipeline = dai.Pipeline()
+    rgbCam = pipeline.create(dai.node.ColorCamera)
+    rgbCam.initialControl.setManualFocus(100) # 0..255
 
 **Auto-Focus (AF) cons:**
 Does not work properly in heavy-vibration applications (e.g., drones, lawn mowers, bikes w/out suspension, etc.)
@@ -87,4 +95,7 @@ silver metal ring on the Auto-Focus mechanism, as shown in the image below.
 AF/FF Availabilty
 *****************
 
-Auto-Focus and Fixed-Focus center color camera options are available standard for all OAK models. The one exception is the OAK-D, which doesn't offer a Fixed-Focus option standard, however a Fixed-Focus camera can be swapped in custom on request. In this case however, it will likely make more sense to simply select a different OAK. Visit our `store <https://shop.luxonis.com/>`_ to see our full range of options.
+Auto-Focus and Fixed-Focus center color camera options are available standard for all OAK models. The one exception is
+the OAK-D, which doesn't offer a Fixed-Focus option standard, however a Fixed-Focus camera can be swapped in custom on request.
+In this case however, it will likely make more sense to simply select a different OAK. Visit our `store <https://shop.luxonis.com/>`_
+to see our full range of options.

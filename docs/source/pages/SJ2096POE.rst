@@ -49,7 +49,6 @@ Power usage for OAK-1-PoE ranges between 1.94 W (standby) and 4.56 W (max consum
 * Normal operation (running :code:`python depthai_demo.py`): 4.20 W
 * Max consumption power (running :code:`python depthai_demo.py -s left right color disparity rectified_left depth`): 4.56 W
 
-
 .. include:: /pages/includes/poe_s1_getting_started.rst
 
 Datasheet
