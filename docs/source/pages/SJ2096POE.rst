@@ -43,13 +43,11 @@ Board Layout
 Power usage
 ***********
 
-Power usage for OAK-1-PoE ranges between 1.94 W (standby) and 4.56 W (max consumption). More information on the power usage is below:
+Power usage for OAK-1-PoE ranges between 1.94 W (standby) and 4.56 W (max consumption). More information on the power usage is below (`photo here <https://docs.luxonis.com/projects/hardware/en/latest/_images/OAK-1-PoE-power-usage.jpeg>`__):
 
 * Standby: 1.94 W
 * Normal operation (running :code:`python depthai_demo.py`): 4.20 W
 * Max consumption power (running :code:`python depthai_demo.py -s left right color disparity rectified_left depth`): 4.56 W
-
-.. image:: /_static/images/SJ2096POE/OAK-1-PoE-power-usage.jpeg
 
 .. include:: /pages/includes/poe_s1_getting_started.rst
 

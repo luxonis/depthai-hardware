@@ -20,7 +20,7 @@ Here's the list of our current OAK FFC baseboards:
 - :ref:`OAK-FFC-6P`
 - :ref:`OAK-FFC-4P`
 - :ref:`OAK-FFC-3P <dm1090ffc>`
-- :ref:`DepthAI RPi HAT <DepthAI RPi HAT Baseboard>`
+- :ref:`OAK-FFC RPi HAT <bw1094>`
 
 
 FFC Camera modules

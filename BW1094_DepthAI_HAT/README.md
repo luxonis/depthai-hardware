@@ -1,4 +1,4 @@
-# BW1094_R1M1E1 RPi HAT Baseboard
+# BW1094_R1M1E1 OAK-FFC RPi HAT Baseboard
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1094.html)
 

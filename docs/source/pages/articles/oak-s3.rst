@@ -1,8 +1,8 @@
 OAK Series 3
 ============
 
-**Series 3 (S3)** of OAK devices will have onboard the new **Robotic Vision Core 3** (:ref:`RVC3`).
-Compared to the previous series of OAK cameras that were using :ref:`RVC2`, these are the main
+**Series 3 (S3)** of OAK devices will have onboard the new **Robotic Vision Core 3** (:ref:`RVC3 <RVC3>`).
+Compared to the previous series of OAK cameras that were using :ref:`RVC2 <RVC2>`, these are the main
 differences with the Series 3:
 
 - Integrated **quad-core ARM A53** running YOCTO Linux
