@@ -10,7 +10,7 @@ OAK-FFC RPi HAT
 Overview
 ********
 
-The **OAK-FFC RPi HAT** (BW1094) baseboard has three FFC interfaces which allow for two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) and one
+The **OAK-FFC RPi HAT** (BW1094) baseboard has three FFC interfaces which allow connecting two :ref:`OAK-FFC-OV9282 <bg0250tg>` camera modules (stereo pair) and one
 :ref:`OAK-FFC-IMX378 <bg0249>` RGB camera module. The GPIO interface from the Raspberry Pi Model B variants is passed through the BW1094 with
 the exception of the 5V pins, GND pins, and BCM GPIO26 (pin 37), which is used as a way for the Raspberry Pi to reset the :ref:`OAK-SoM`,
 parallel to the RST button.
