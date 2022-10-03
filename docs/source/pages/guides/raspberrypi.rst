@@ -31,12 +31,13 @@ Powering OAK from RPi
 
 On `RPi documentation <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements>`__, it states
 that Raspberry Pi 2 or later models can supply up to 1.2A through a USB port. Even at maximum workload, OAK cameras draw
-less than 1A, which means that **you can power an OAK camera directly from RPi via USB-C cable, except if**:
+less than 1A, which means that you could power an OAK camera directly from RPi via USB-C cable, except if:
 
 - You have additional USB devices connected to a RPi USB port that draw too much current. In total, RPi can supply 1.2A, so if all USB devices draw more than 1.2A, brownout will occur.
 - You have the **Pro** version of the OAK camera that has IR laser dot projector and IR illumination LED, which additionally draw up to 0.25A.
 
-You can externally power your OAK camera either via **barrel jack** (on older devices), or with a :ref:`Y-adapter`.
+We still **recommend externally powering your OAK camera** either via **barrel jack** (on older devices), or with a :ref:`Y-adapter`. The reason is that
+there OAK have current spikes (especially when using Video Encoder and running AI inference), which can lead to brownout.
 
 SSH into the RPi
 ################
