@@ -39,3 +39,6 @@ M8 aux connector has 8pin female A-coded connector. M12 ethernet has 8pin female
 Cameras also include an M8 connector cap for waterproofing in case the M8 connector wouldn't be used.
 
 .. image:: /_static/images/guides/m8-isolated-circiut.png
+
+**External triggering**: Sensors require 1V8 rising edge on FSYNC for the trigger event. We are using optocoupler and ESD protection diode, so the input trigger voltage can be up to 24V
+and trigger logic is reversed, so trigger event happens at 0V on FSYNC line.
