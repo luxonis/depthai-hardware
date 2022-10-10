@@ -35,7 +35,7 @@ OAK-D-Lite is smaller, lighter and uses less power; compared to OAK-D. The main 
 
 Additionally, the more technical differences are the following:
 
-- :ref:`RVC2` chip-down design, instead of connecting the :ref:`OAK-SoM`` to the baseboard (like it is done on OAK-D)
+- :ref:`RVC2` chip-down design, instead of connecting the :ref:`OAK-SoM` to the baseboard (like it is done on OAK-D)
 - In collaboration with ArduCam, we developed custom camera sensor connectors, which are shorter and take up less space
 
 Fixed-focus vs Auto-focus
