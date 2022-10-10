@@ -11,9 +11,12 @@ OAK-1 and OAK-D enclosures aren't waterproof, since they don't have a `gasket <h
 IP67 rated PoE enclosures
 *************************
 
-PoE devices (:ref:`OAK-D-POE <sj2088poe>` and :ref:`OAK-1-POE <sj2096>`) are shipped with an **IP67** rated enclosure. `IP code <https://en.wikipedia.org/wiki/IP_Code>`__
+**Series 1** PoE devices (:ref:`OAK-D-POE <sj2088poe>` and :ref:`OAK-1-POE <sj2096>`) are shipped with an **IP67** rated enclosure. `IP code <https://en.wikipedia.org/wiki/IP_Code>`__
 tells you whether a device is dustproof and/or waterproof. IP67 means that the device is **protected from total dust ingress** and that
 it's **protected from water immersion between 15 centimeters and 1 meter in depth.** 
+
+Initial **Series 2** PoE devices (:ref:`OAK-D S2 PoE`/:ref:`W <OAK-D W PoE>` and :ref:`OAK-D Pro PoE`/:ref:`W <OAK-D W Pro PoE>`)
+have **IP65 rated enclosure**. **Future batches** will have **IP67** rated enclosure.
 
 PoE enclosures have gaskets which makes them waterproof.
 
