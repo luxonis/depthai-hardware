@@ -20,9 +20,6 @@ Supported resolutions
    * - THE_720_P
      - 1280x720
      - 60 FPS
-   * - THE_400_P
-     - 640x400
-     - 120 FPS
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
