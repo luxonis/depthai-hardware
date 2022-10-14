@@ -19,45 +19,60 @@ These are our most popular devices. Brought to market by a successful `KickStart
 OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **USB connection** is great for development - it's easy to use and allows up to
 10Gbps throughput.
 
-.. list-table::
-   :header-rows: 1
-
-   * - OAK-D S2
-     - OAK-D W
-     - OAK-D Pro
-     - OAK-D Pro W
-   * - .. image:: /_static/images/thumbnails/DM9098s2.png
-          :target: pages/DM9098s2.html
-     - .. image:: /_static/images/thumbnails/oak-d-w.png
-          :target: pages/DM9098w.html
-     - .. image:: /_static/images/thumbnails/DM9098pro.png
-          :target: pages/DM9098pro.html
-     - .. image:: /_static/images/thumbnails/oak-d-pro-w.png
-          :target: pages/DM9098prow.html
-   * - :ref:`Learn more <dm9098s2>`
-     - :ref:`Learn more <dm9098w>`
-     - :ref:`Learn more <dm9098pro>`
-     - :ref:`Learn more <dm9098prow>`
 
 .. list-table::
    :header-rows: 1
 
    * - OAK-D Lite
-     - OAK-1 Lite
-     - OAK-1
      - OAK-D
+     - OAK-D S2
+     - OAK-D Pro
    * - .. image:: /_static/images/thumbnails/DM9095.png
           :target: pages/DM9095.html
-     - .. image:: /_static/images/thumbnails/oak-1-lite.png
-          :target: pages/NG9096.html
-     - .. image:: /_static/images/thumbnails/OAK-1.png
-          :target: pages/BW1093.html
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
+     - .. image:: /_static/images/thumbnails/DM9098s2.png
+          :target: pages/DM9098s2.html
+     - .. image:: /_static/images/thumbnails/DM9098pro.png
+          :target: pages/DM9098pro.html
    * - :ref:`Learn more <dm9095>`
-     - :ref:`Learn more <ng9096>`
-     - :ref:`Learn more <bw1093>`
      - :ref:`Learn more <bw1098oak>`
+     - :ref:`Learn more <dm9098s2>`
+     - :ref:`Learn more <dm9098pro>`
+
+
+.. list-table:: Wide Field of View USB devices
+   :header-rows: 1
+
+   * - OAK-1 W
+     - OAK-D W
+     - OAK-D Pro W
+   * - .. image:: /_static/images/thumbnails/oak-1-w.png
+          :target: pages/NG9096w.html
+     - .. image:: /_static/images/thumbnails/oak-d-w.png
+          :target: pages/DM9098w.html
+     - .. image:: /_static/images/thumbnails/oak-d-pro-w.png
+          :target: pages/DM9098prow.html
+   * - :ref:`Learn more <ng9096w>`
+     - :ref:`Learn more <dm9098w>`
+     - :ref:`Learn more <dm9098prow>`
+
+
+.. list-table::
+   :header-rows: 1
+
+   * - OAK-1 Lite
+     - OAK-1
+     - OAK-1 Max
+   * - .. image:: /_static/images/thumbnails/oak-1-lite.png
+          :target: pages/NG9096.html
+     - .. image:: /_static/images/thumbnails/oak-1.png
+          :target: pages/BW1093.html
+     - .. image:: /_static/images/thumbnails/oak-1-max.png
+          :target: pages/NG9096max.html
+   * - :ref:`Learn more <ng9096>`
+     - :ref:`Learn more <bw1093>`
+     - :ref:`Learn more <ng9096max>`
 
 PoE Designs
 ***********
@@ -126,15 +141,19 @@ custom baseline, or custom orientation of the cameras.
 
    * - OAK-FFC-IMX378
      - OAK-FFC-OV9282
+     - OAK-FFC-48MP
      - OAK-FFC-ToF-VGA
    * - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249.html
      - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html
+     - .. image:: /_static/images/thumbnails/oak-ffc-48mp.png
+          :target: pages/DM0260lcm48.html
      - .. image:: /_static/images/thumbnails/DM0256.png
           :target: pages/DM0256.html
    * - :ref:`Learn more <bg0249>`
      - :ref:`Learn more <bg0250tg>`
+     - :ref:`Learn more <dm0260lcm48>`
      - :ref:`Learn more <dm0256>`
 
 
@@ -144,7 +163,6 @@ All in One Dev. Kit Designs
 These devices are like combining a **Raspberry Pi with an OAK-D** in a compact solution.
 
 .. list-table::
-   :widths: 1 1 1
    :header-rows: 1
 
    * - OAK-D-CM3
@@ -170,7 +188,7 @@ open-source hardware designs as you see fit.
 .. list-table::
    :header-rows: 1
 
-   * - OAK-SoM     
+   * - OAK-SoM
      - OAK-SoM-Pro
      - OAK-SoM-Max
    * - .. image:: /_static/images/thumbnails/BW1099.png
@@ -258,6 +276,8 @@ Miscellaneous Designs
    pages/DM9098pro.rst
    pages/DM9098prow.rst
    pages/NG9096.rst
+   pages/NG9096w.rst
+   pages/NG9096max.rst
    pages/BW1093.rst
    pages/BW1098OAK.rst
 
@@ -283,6 +303,7 @@ Miscellaneous Designs
    pages/DM1090.rst
    pages/BG0250TG.rst
    pages/BG0249.rst
+   pages/DM0260lcm48.rst
    pages/arducam.rst
 
 .. toctree::

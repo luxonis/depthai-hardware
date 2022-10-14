@@ -5,7 +5,7 @@ OAK-1
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/megaai-kit>`__
 
-.. image:: /_static/images/BW1093/OAK-1_front.png
+.. image:: /_static/images/BW1093/oak-1.png
 
 Overview
 ********
@@ -44,7 +44,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1093/OAK-1-dimensions.svg
+.. image:: /_static/images/BW1093/oak-1-assembly.png
 
 Key features
 ************

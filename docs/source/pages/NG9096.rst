@@ -37,7 +37,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/NG9096/oak-1-lite_back.jpg
+.. image:: /_static/images/BW1093/oak-1-assembly.png
 
 Datasheet
 *********
