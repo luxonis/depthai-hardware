@@ -91,8 +91,8 @@ Sensor specifications
           - FF: 19.6cm - ∞
           - FF: 19.6cm - ∞
         * - Max Framerate
-          - 120 FPS
-          - 120 FPS
+          - 60 FPS (800P)
+          - 120 FPS (400P)
         * - Pixel size
           - 3µm x 3µm
           - 3µm x 3µm
