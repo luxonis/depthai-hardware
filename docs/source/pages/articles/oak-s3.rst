@@ -5,9 +5,9 @@ OAK Series 3
 Compared to the previous series of OAK cameras that were using :ref:`RVC2 <RVC2>`, these are the main
 differences with the Series 3:
 
-- Integrated **quad-core ARM A53** running YOCTO Linux
-- At least **5x AI inference performance**
-- Enhanced **stereo depth** perception
+- Integrated **quad-core ARM A53** running YOCTO Linux (:ref:`details <Quad-core ARM>`)
+- Enhanced **stereo depth** perception (:ref:`details <Enhanced Stereo Depth on RVC3>`)
+- NN **INT8 quantization** support (:ref:`details <NN quantization>`)
 
 We also plan to keep **backward compatibility** - so pipelines written for :ref:`RVC2` will still work on the Series 3 devices.
 
@@ -56,20 +56,26 @@ SLAM / VIO
 ----------
 
 Since Series 3 OAK cameras will have on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <https://docs.luxonis.com/en/latest/pages/slam_oak/>`__
-on the OAK camera itself.
+on the OAK camera itself. Sparse SLAM will be supported on-device, for dense SLAM additional host computing might be required (TBD).
 
-AI performance boost
-####################
+Enhanced Stereo Depth on RVC3
+#############################
 
-We haven't done any testing ourselves, but based on Intel's testing, the :ref:`RVC3` has >10x DL inference performance compared to :ref:`RVC2`.
-The actual number really depends on the AI model you are using. Some models might only have 3.5x performance boost while others could
-have 20x performance boost compared to :ref:`RVC2` performance.
+**Series 3 OAK devices feature CNN-based calculation of pixel descriptors**, compared to census transform that's being used in
+previous OAK series.
 
-RVC3 supports **FP16 and INT8** datatype. They provide tools for quantization of models as well, so converting the
-model won't be any different from converting the model for :ref:`RVC2` (which supports FP16).
+We plan on doing **depth accuracy benchmark tests** on **static images** and comparing S3 and older series of OAK **in
+August of 2022**.
+
+NN quantization
+###############
+
+RVC3 supports **FP16 and INT8** datatype. OpenVINO provides tools for quantization of models as well, so converting the
+model won't be any different from converting the model for :ref:`RVC2` (which supports only FP16).
+
+INT8 quantization improves inference performance of some neural model layers.
 
 RVC3 has 20 DPU (Data Processing Units) integrated which are capable of delivering 5.12 TOPS (INT8) or 1.28 TFLOPS (FP16).
-It supports Sparse acceleration and compression increasing effective TOP's by 2x to 20TOPS and effective FPS performance by 2x+.
 
 RVC3 Specifications
 ###################
@@ -112,15 +118,5 @@ Native media support
 - Video Acceleration API / Intel Media SDK for encoding and decoding
 
 Users will be able to also use libraries/frameworks above in their :ref:`Custom applications`.
-
-Enhanced Stereo Depth on RVC3
-#############################
-
-**Series 3 OAK devices feature CNN-based calculation of pixel descriptors**, compared to census transform that's being used in
-previous OAK series.
-
-We plan on doing **depth accuracy benchmark tests** on **static images** and comparing S3 and older series of OAK **in
-August of 2022**.
-
 
 .. include::  /pages/includes/footer-short.rst

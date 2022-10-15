@@ -1,4 +1,4 @@
-- **3.0 TOPS** for AI - around 10x AI boost compared to Myriad X (previous version of processor)
+- **3.0 TOPS** for **AI**
 - **Imaging**: ISP, max 6 cameras, 500 MP/s HDR, 3A
 - **Run any AI model**, even custom architectured/built ones - models need to `be converted <https://docs.luxonis.com/en/latest/pages/model_conversion/>`__.
 - **Encoding**: H.264, H.265, MJPEG - 4K/75FPS, **Decoding**: 4K/60FPS
