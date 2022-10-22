@@ -270,16 +270,17 @@ Miscellaneous Designs
    :hidden:
    :caption: USB Designs
 
-   pages/DM9095.rst
-   pages/DM9098s2.rst
-   pages/DM9098w.rst
    pages/DM9098pro.rst
    pages/DM9098prow.rst
-   pages/NG9096.rst
+   pages/DM9098s2.rst
+   pages/DM9098w.rst
+   pages/BW1098OAK.rst
+   pages/DM9095.rst
+   pages/BW1093.rst
    pages/NG9096w.rst
    pages/NG9096max.rst
-   pages/BW1093.rst
-   pages/BW1098OAK.rst
+   pages/NG9096.rst
+   pages/NG9096litew.rst
 
 .. toctree::
    :maxdepth: 1
