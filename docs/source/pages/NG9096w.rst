@@ -5,7 +5,7 @@ OAK-1 W
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-1-w>`__
 
-.. image:: /_static/images/NG9096/oak-1-w.png
+.. image:: /_static/images/NG9096/OAK-1-w.png
 
 Overview
 ********
