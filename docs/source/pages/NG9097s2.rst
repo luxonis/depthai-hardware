@@ -41,6 +41,11 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_800P.rst
 
+Operational Temperature
+***********************
+
+This device is rated to withstand temperatures within the range of -33° C - 55° C. Use in temperatures outside of this range may result in device failure.
+
 Datasheet
 *********
 
