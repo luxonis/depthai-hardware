@@ -49,8 +49,7 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
 
         .. image:: /_static/images/SOM-PRO/board-back.png
 
-        **OAK-SoM-Pro-S3** has an on-board :ref:`RVC3`, which has **much greater AI performance** compared to :ref:`RVC2`,
-        and **quadcore ARM CPU**. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
+        **OAK-SoM-Pro-S3** has an :ref:`RVC3` and **quadcore ARM CPU** on board. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
         replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <OAK-SoM-Pro>`).
 
         It was primarily designed for evaluation and backwards compatibility.
