@@ -44,16 +44,20 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 .. list-table:: Wide Field of View USB devices
    :header-rows: 1
 
-   * - OAK-1 W
+   * - OAK-1 Lite W
+     - OAK-1 W
      - OAK-D W
      - OAK-D Pro W
-   * - .. image:: /_static/images/thumbnails/oak-1-w.png
-          :target: pages/NG9096w.html
+   * - .. image:: /_static/images/thumbnails/oak-1-lite-w.png
+          :target: pages/NG9096litew.html
+     - .. image:: /_static/images/thumbnails/oak-1-w.png
+          :target: pages/NG9096w.html     
      - .. image:: /_static/images/thumbnails/oak-d-w.png
           :target: pages/DM9098w.html
      - .. image:: /_static/images/thumbnails/oak-d-pro-w.png
           :target: pages/DM9098prow.html
-   * - :ref:`Learn more <ng9096w>`
+   * - :ref:`Learn more <ng9096litew>`
+     - :ref:`Learn more <ng9096w>`
      - :ref:`Learn more <dm9098w>`
      - :ref:`Learn more <dm9098prow>`
 
@@ -270,16 +274,17 @@ Miscellaneous Designs
    :hidden:
    :caption: USB Designs
 
-   pages/DM9095.rst
-   pages/DM9098s2.rst
-   pages/DM9098w.rst
    pages/DM9098pro.rst
    pages/DM9098prow.rst
-   pages/NG9096.rst
+   pages/DM9098s2.rst
+   pages/DM9098w.rst
+   pages/BW1098OAK.rst
+   pages/DM9095.rst
+   pages/BW1093.rst
    pages/NG9096w.rst
    pages/NG9096max.rst
-   pages/BW1093.rst
-   pages/BW1098OAK.rst
+   pages/NG9096.rst
+   pages/NG9096litew.rst
 
 .. toctree::
    :maxdepth: 1
