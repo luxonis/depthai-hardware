@@ -46,11 +46,12 @@ So OAK PoE devices work with all standards-compliant PoE switches, including:
 
 Below is a quick list of UniFi switches that have been tested with OAK PoE models, starting with the smallest switch and moving to the larger models:
 
-- US-8-60W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-60w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1CqyJdc4DEDE4mjlpSgxuKxGE2QrmUY4N7CRlCBatOrsjd7V8RG17kaAi4PEALw_wcB>`__). This switch has 4x 802.3af ports, so can power up to 4x OAK PoE devices
-- US-8-150W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-8-150w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1DhfxWteXVfMS3Lk3y1N3jaxIItdLimljE1Y-AGa_2aQuF96h6bTFIaAqa_EALw_wcB>`__).  This switch has 8x 802.3at ports, so it can power up to 8x OAK PoE devices.
-- US-16-150W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-16-150w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1BGnUy93AYvz_Q9mRTlDp0DBQurdSAP6C5Jt-gMfgjirsKUF7NF40saAjT1EALw_wcB>`__).  16x 802.3at ports, so it can power up to 16x OAK PoE devices.
-- US-24-250W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifiswitch-24-250w>`__). 24 802.3at ports; 24 OAK PoE devices.
-- US-48-500W (`here <https://store.ui.com/collections/unifi-network-switching/products/unifiswitch-48-500w?gclid=Cj0KCQjw8vqGBhC_ARIsADMSd1DQbB_-SavDwFeTIwSPKAT5PlYriHSGuRoP-jYay-zGfwhE7IPVoq4aAicjEALw_wcB>`__).  48 802.3at ports, 48 OAK PoE devices.
+- USW-Lite-8-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-lite-8-poe>`__). This switch has 4 GbE RJ45 ports,  including 4 PoE+ ports.
+- USW-Lite-16-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-lite-16-poe>`__).  This switch has 16 GbE RJ45 ports, including 8 PoE+ ports.
+- USW-16-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-16-poe>`__).  This switch has 16 GbE RJ45 ports, including 8 PoE+ ports, and 2 1G SFP ports.
+- USW-24-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-24-poe>`__).This switch has 24 GbE RJ45 ports, including 16 PoE+ ports, and 2 1G SFP ports.
+- USW-48-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-48-poe>`__).  This switch has 48 GbE RJ45 ports, including 32 PoE+ ports, and 4 1G SFP ports.
+
 
 The nice thing about using PoE switches is they provide a clean, plug-and-play solution.
 
