@@ -10,10 +10,10 @@ OAK-1 Lite W
 Overview
 ********
 
-**OAK-1-Lite W** features a **Wide FOV** color sensor and takes the affordability idea and pushes it one step forward. By having the same AI and CV functionalities as
+**OAK-1 Lite W** features a **Wide FOV** color sensor and takes the affordability idea and pushes it one step forward. By having the same AI and CV functionalities as
 :ref:`ng9096w` while being more affordable, it gives you the opportunity to create all sorts of projects.
 
-OAK-1-Lite W is not a standard USB camera. It is a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board,
+OAK-1 Lite W is not a standard USB camera. It is a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board,
 so that your host is free to do whatever you need it to do.
 
 Hardware specifications

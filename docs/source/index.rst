@@ -44,22 +44,22 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 .. list-table:: Wide Field of View USB devices
    :header-rows: 1
 
-   * - OAK-1 W
-     - OAK-1-Lite W
+   * - OAK-1 Lite W
+     - OAK-1 W
      - OAK-D W
      - OAK-D Pro W
-   * - .. image:: /_static/images/thumbnails/oak-1-w.png
-          :target: pages/NG9096w.html
-     - .. image:: /_static/images/thumbnails/oak-1-lite-w.png
-          :target: pages/NG9096litew.html     
+   * - .. image:: /_static/images/thumbnails/oak-1-lite-w.png
+          :target: pages/NG9096litew.html
+     - .. image:: /_static/images/thumbnails/oak-1-w.png
+          :target: pages/NG9096w.html     
      - .. image:: /_static/images/thumbnails/oak-d-w.png
           :target: pages/DM9098w.html
      - .. image:: /_static/images/thumbnails/oak-d-pro-w.png
           :target: pages/DM9098prow.html
-   * - :ref:`Learn more <ng9096w>`
+   * - :ref:`Learn more <ng9096litew>`
+     - :ref:`Learn more <ng9096w>`
      - :ref:`Learn more <dm9098w>`
      - :ref:`Learn more <dm9098prow>`
-     - :ref:`Learn more <ng9096litew>`
 
 
 .. list-table::
