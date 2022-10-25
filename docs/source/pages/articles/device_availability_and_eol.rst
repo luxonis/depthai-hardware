@@ -20,8 +20,6 @@ However, folks that absolutely need the exact version of an old product will sti
 **For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is Electrically, Mechanically, and
 fully pin-compatible with the **OAK-SoM-Pro**, but based on :ref:`RVC3` instead of the :ref:`RVC2`.
 
-:ref:`OAK Series 3` has significantly improved features (eg. ~10x AI performance, on-board Linux host...).
-So this same SoM can drop into existing customer designs, and we expect that most customers will switch to :ref:`RVC3` based SOM.
 Only those who, for some reasons, absolutely want the lower performance version, will continue to buy the lower performance version.
 And as above, what this strategy allows is keeping long-term stock of everything.
 
