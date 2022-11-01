@@ -46,7 +46,7 @@ So OAK PoE devices work with all standards-compliant PoE switches, including:
 
 Below is a quick list of UniFi switches that have been tested with OAK PoE models, starting with the smallest switch and moving to the larger models:
 
-- USW-Lite-8-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-lite-8-poe>`__). This switch has 4 GbE RJ45 ports,  including 4 PoE+ ports.
+- USW-Lite-8-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/unifi-switch-lite-8-poe>`__). This switch has 8 GbE RJ45 ports,  including 4 PoE+ ports.
 - USW-Lite-16-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-lite-16-poe>`__).  This switch has 16 GbE RJ45 ports, including 8 PoE+ ports.
 - USW-16-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-16-poe>`__).  This switch has 16 GbE RJ45 ports, including 8 PoE+ ports, and 2 1G SFP ports.
 - USW-24-PoE (`here <https://store.ui.com/collections/unifi-network-switching/products/usw-24-poe>`__).This switch has 24 GbE RJ45 ports, including 16 PoE+ ports, and 2 1G SFP ports.
