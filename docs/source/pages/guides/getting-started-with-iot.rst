@@ -6,9 +6,6 @@ Getting started with OAK IoT devices
   and `OAK-D-IoT-40 <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1092.html>`__, which both have an ESP32 on
   the board.
 
-.. note::
-  Having ESP32 on the device doesn't mean users will be able to program the device without the USB-C connection (easily).
-
 Code examples
 #############
 
@@ -27,6 +24,8 @@ Overview explained:
 - :ref:`RVC2` can communicate `Messages <https://docs.luxonis.com/projects/api/en/latest/components/messages/>`__ with the ESP32 via SPI (using `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__ / `SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ node)
 - ESP32 can receive these messages using the `depthai-spi-api <https://github.com/luxonis/depthai-spi-api>`__ library (which is an `ESP-IDF <https://github.com/espressif/esp-idf>`__ component).
 - On ESP32 you can run post-processing of the messages and optionally send the results to a server (if connected to a WiFi network) or to a Bluetooth device (eg. a smartphone)
+
+Usually, developers would develop their solution with the device connected via USB-C, and use potentially use OTA updates via ESP32 in production.
 
 Limitations
 ###########
