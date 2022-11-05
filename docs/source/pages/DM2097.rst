@@ -21,6 +21,21 @@ The color camera is also close to the right camera, so RGB-depth alignment isn't
 The OAK-D CM4 PoE combines a host (RPi CM4) and the :ref:`OAK-SoM-Pro` to allow for a fully standalone and integrated solution
 for real-time `Spatial AI <https://docs.luxonis.com/en/latest/pages/spatial-ai/>`__.
 
+PoE for RPi, not OAK
+####################
+
+.. note::
+   Even though this device supports PoE, it doesn't behave like an :ref:`OAK POE devices <PoE Designs>`!
+
+You could look at this device exactly like having an **Raspberry Pi 4 with an OAK-D** connected to it (via USB), **and** having a
+**PoE hat** on the RPi.
+
+Development works in the same way - user has to SSH/VNC into the RPi (:ref:`see here <SSH into the RPi>`), and then execute
+the scripts/apps on the RPi which connect to "the OAK" (OAK SOM). RPi CM4 is connected via USB3 (on PCB) to the :ref:`OAK-SoM-Pro`.
+
+So **users** that have this device **shouldn't follow** :ref:`Getting started with OAK PoE devices` guide, even though this device
+has ``PoE`` in the name.
+
 Hardware specifications
 ***********************
 
