@@ -214,14 +214,26 @@ In case you can ping the device but can't connect to it in any way (search for t
 reset as the device might have been **soft-bricked**. This usually happens with older bootloader versions. Note that only
 OAK-D-PoE and OAK-1-PoE have a USB-C connector, while OAK-D Pro PoE has USB connectivity via M8 connector.
 
-#. Open the enclosure of your OAK PoE camera.
-#. Locate the USB-C connector and boot DIP switch.
-#. Change DIP switch to 0x16 (switches 2,4,5 are up, others are down, as on the image below) for USB communication.
-#. Connect OAK PoE camera via USB-C cable to the computer.
-#. Run the (first) `Factory Reset script <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/#factory-reset>`__.
-#. Change DIP switch back to 0x3 (switches 5,6 up, others down) for PoE communication.
-#. Close back the enclosure, making sure the gasket is in the correct place (for waterproofing).
+.. tabs::
 
-.. image:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
+    .. tab:: Series 1 PoE devices
+
+        Steps below apply for :ref:`OAK-D-PoE` and :ref:`OAK-1-PoE` devices.
+
+        #. Open the enclosure of your OAK PoE camera.
+        #. Locate the USB-C connector and boot DIP switch.
+        #. Change DIP switch to 0x16 (switches 2,4,5 are up, others are down, as on the image below) for USB communication.
+        #. Connect OAK PoE camera via USB-C cable to the computer.
+        #. Run the (first) `Factory Reset script <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/#factory-reset>`__.
+        #. Change DIP switch back to 0x3 (switches 5,6 up, others down) for PoE communication.
+        #. Close back the enclosure, making sure the gasket is in the correct place (for waterproofing).
+
+        .. image:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
+
+    .. tab:: Series 2 PoE devices
+
+        `This document <https://docs.google.com/document/d/1oV1ssYHyfbCARB9TeYGheaNw4iaaeyfaRxNgibDgOUA/edit#>`__
+        describes how to perform factory reset for :ref:`OAK Series 2` PoE devices. Note that you will need
+        an **OAK Programming board**.
 
 .. include::  /pages/includes/footer-short.rst
