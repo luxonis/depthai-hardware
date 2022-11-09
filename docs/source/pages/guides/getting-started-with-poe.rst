@@ -232,7 +232,7 @@ OAK-D-PoE and OAK-1-PoE have a USB-C connector, while OAK-D Pro PoE has USB conn
 
     .. tab:: Series 2 PoE devices
 
-        `This document <https://docs.google.com/document/d/1oV1ssYHyfbCARB9TeYGheaNw4iaaeyfaRxNgibDgOUA/edit#>`__
+        `This document <https://docs.google.com/document/d/18dZTet675kyUgOFyHNrDG5-CQexw7G1SYdvEjDlzpYE/edit>`__
         describes how to perform factory reset for :ref:`OAK Series 2` PoE devices. Note that you will need
         an **OAK Programming board**.
 
