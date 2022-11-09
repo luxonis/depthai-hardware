@@ -19,7 +19,7 @@ all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V in
 An auxiliary power port is offered to interface without connection to a baseboard.
 
 **OAK-SoM-Pro comes in two variants**: :ref:`RVC2` based and :ref:`RVC3` based SoM.
-:ref:`RVC3` provides quadcore ARM CPU, and enchanced stereo depth perception compared to the :ref:`RVC2`.
+:ref:`RVC3` provides quadcore ARM CPU, INT8 quantization, and enchanced stereo depth perception compared to the :ref:`RVC2`.
 
 OAK-SoM-Pro-S3 (:ref:`RVC3`) was designed to be a drop-in replacement for OAK cameras that use
 OAK-SoM-Pro (:ref:`RVC2`) (list below).
