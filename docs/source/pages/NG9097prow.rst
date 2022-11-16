@@ -3,10 +3,7 @@
 OAK-D Pro W PoE
 ===============
 
-.. role:: raw-html(raw)
-   :format: html
-
-`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-pro-w-poe>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-pro-w-poe>`__
 
 .. image:: /_static/images/NG9097/pro-w-poe.png
 
