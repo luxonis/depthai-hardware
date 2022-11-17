@@ -15,9 +15,10 @@ Series 3 roadmap
 ################
 
 - **2022 Q1**: Hardware bring-up and testing.
-- **2022 Q2**: Porting of DepthAI stack to :ref:`RVC3`. Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Evaluation testing.
-- **2022 Q3**: Beta release of initial OAK devices with integrated :ref:`RVC3`. Software/firmware is getting more feature-complete and more stable.
-- **2022 Q4**: Official release of OAK S3 device(s).
+- **2022 Q2**: Porting of DepthAI stack to :ref:`RVC3`.
+- **2022 Q3**: Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Evaluation testing.
+- **2022 Q4**: Beta release of initial OAK devices with integrated :ref:`RVC3`. Software/firmware is getting more feature-complete and more stable.
+- **2023 Q2**: Official release of OAK S3 device(s).
 
 This might be a bit of an optimistic roadmap due to supply chain issues, but we will do everything possible to meet it.
 Initial S3 OAK cameras will have 2GB of RAM on board.
