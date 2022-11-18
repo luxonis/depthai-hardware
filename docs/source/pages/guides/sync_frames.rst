@@ -8,20 +8,56 @@ There are 2 way to synchronize messages from different sensors (frames, IMU pack
 - :ref:`Hardware syncing <Synchronizing frames externally>` (multi-sensor sub-ms accuracy, hardware trigger)
 - `Software syncing <https://docs.luxonis.com/projects/api/en/latest/tutorials/message_syncing/>`__ (based on timestamp/sequence numbers)
 
-Synchronizing frames externally
-*******************************
-
 This documentation page focuses on **hardware syncing**, which allows precise synchronization across multiple
 camera sensors and potentially with other hardware, e.g. flash LED, external IMU, or other cameras.
 
-This can be done by either **FSIN** or **STROBE** signal (seen above).
-Currently, the FSIN I/O is on a different branch `here <https://github.com/luxonis/depthai-python/pull/365>`__ .
+FSYNC signal
+------------
 
-For syncing with external LED flash, we suggest using **STROBE**, as you can directly connect it to the LED driver signal. We have done this
-on the :ref:`dm9098pro` and :ref:`ng9097pro`, which have on-board illumination IR LED and IR laser dot projector.
+**FSYNC/FSIN** (frame sync) signal is a pulse that is driven high at the start of each frame capture. Its length is not proportional
+to the exposure time. It can be either **input or output**. It operates in **1.8V** logic.
+
+On stereo cameras (OAK-D*) we want stereo camera pair (monochrome cameras) to be perfectly in sync, so one
+camera sensor (eg. left) has FSYNC set to INPUT, while the other camera sensor (eg. right)
+has FSYNC set to OUTPUT. In such configuration the right camera drives left camera.
+
+.. note::
+
+    At the moment, only OV9282/OV9782 can output FSYNC signal, while IMX378/477/577/etc should also have the
+    capability, but isn't yet supported (so these can not drive FSYNC signal, only be driven by it).
+    AR0234 has input-only FSYNC trigger.
+
+Synchronizing frames externally
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If we would like to drive cameras with an outside signal, we would need to set FSIN as INPUT for camera sensors.
+
+All `Series 2 OAK PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ have an M8 I/O connector
+which exposes FSIN signal (and also STROBE). So you could connect a signal generator to an M8 connector and all 3
+camera sensors would capture a frame based on the signal generator triggers.
+
+.. code-block:: python
+
+    # Example: we have 3 cameras on ports A,B, and C
+    cam_A.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
+    cam_B.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
+    cam_C.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
+
+You can also control FSIN line via GPIO from within `Script node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__,
+see example here.
+
+STROBE signal
+-------------
+
+**STROBE signal** is an **output** from the image sensor, and is active (high) during the exposure of the image sensor.
+It would be used to eg. drive an external LED lighting for illumination - so lighting would only be active during exposure
+times, instead constantly on, which would decrease power consumption and heating of the lighting.
+
+We have used STROBE signal on :ref:`Pro version` of OAK cameras (which have on-board illumination IR LED and IR laser dot
+projector) to drive the laser/LED.
 
 Frame capture graphs
-====================
+--------------------
 
 Frame timestamp is assigned to the frame at the MIPI SoF (start of frame) event, when the sensor starts streaming the frame
 (MIPI readout).
@@ -85,25 +121,6 @@ For A&D ports, you need to explicitly enable hardware syncing:
     cam_A.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.OUTPUT)
     cam_D.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
 
-And to get all 4 cameras synced together:
-
-.. code-block:: python
-
-    cam_B.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
-    cam_C.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
-
-    # AND importantly to tie the FSIN signals of A+D and B+C pairs, by setting a GPIO:
-    # OAK-FFC-4P requires driving GPIO6 high (FSIN_MODE_SELECT) to connect together
-    # the A+D FSIN group (4-lane pair) with the B+C group (2-lane pair)
-    config = dai.Device.Config()
-    config.board.gpio[6] = dai.BoardConfig.GPIO(dai.BoardConfig.GPIO.OUTPUT,
-                                                dai.BoardConfig.GPIO.Level.HIGH)
-
-    with dai.Device(config) as device:
-        device.startPipeline(pipeline)
-
-Additional info can be found in `this forum discussion <https://discuss.luxonis.com/d/934-ffc-4p-hardware-synchronization/3>`__.
-
 Arducam FFC camera syncing
 --------------------------
 
@@ -116,24 +133,60 @@ the camera module's FSIN header pin, or connect all FSIN header pins together, a
 .. image:: https://user-images.githubusercontent.com/18037362/196110419-27639d8f-ea88-4945-8fa0-99fa91061f07.jpg
 
 Connecting FSIN/STROBE
-======================
+----------------------
 
-All `Series 2 OAK PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ have an M8 I/O connector 
-which exposes FSIN (frame sync) and STROBE (for driving a flash) signals.
+As mentioned, all `Series 2 OAK PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ have an M8 I/O connector
+with FSYNC/STROBE signal. But if you won't be using these, you will likely need to solder a wire to the PCB on your device. Most PCB designs
+are open-source (on `depthai-hardware <https://github.com/luxonis/depthai-hardware>`__ repository), so you can easily check where FSIN/STROBE
+signals are on the PCB.
 
-If you won't be using the Series 2 OAK PoE model, you will need to solder a wire to the PCB on your device. Here's an example of STROBE trace on the `OAK-D-PoE <https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board>`__:
+OAK-FFC-4P FSIN
+^^^^^^^^^^^^^^^
 
-.. image:: https://user-images.githubusercontent.com/18037362/142761081-83742829-2527-4277-ad31-a8da500e1039.png
+.. image:: https://user-images.githubusercontent.com/18037362/202100246-53ed754f-e2b3-450f-8deb-538589ab07fb.png
 
-Connecting a small wire to the test pad TP18 would allow you to externally drive the STROBE signal.
+As shown on image above, on :ref:`OAK-FFC-4P` you can enable connection of ``FSIN_4LANE`` and ``FSIN_2LANE`` with the MXIO6.
+The script below will sync together all 4 cameras that are connected to the OAK-FFC-4P.
 
-Triggering the FSIN
-===================
+.. code-block:: python
 
-External camera triggering of the FSIN will be possible, either by :ref:`RVC2` with `GPIOs in Script node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/#interfacing-with-gpios>`__,
-or an external source. In this case the exposure starts very shortly after the rising edge on FSIN, so we could have external circuitry driving the STROBE
-around the same time. You may need to ensure low-latency for the network communication (e.g no other traffic at the moment), or just enable
-the flash at the same time you send the capture trigger command over network, and keep it active for a time of configured camera exposure + some delta.
+    # CAM_A will drive FSIN signal for all other cameras:
+    cam_A.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT) # 4LANE
+    cam_B.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.OUTPUT) # 2LANE
+    cam_C.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT) # 2LANE
+    cam_D.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT) # 4LANE
 
+    # AND importantly to tie the FSIN signals of A+D and B+C pairs, by setting a GPIO:
+    # OAK-FFC-4P requires driving MXIO6 high (FSIN_MODE_SELECT) to connect together
+    # the A+D FSIN group (4-lane pair) with the B+C group (2-lane pair)
+    config = dai.Device.Config()
+    config.board.gpio[6] = dai.BoardConfig.GPIO(dai.BoardConfig.GPIO.OUTPUT,
+                                                dai.BoardConfig.GPIO.Level.HIGH)
+
+    with dai.Device(config) as device:
+        device.startPipeline(pipeline)
+
+Additional info can be found in `this forum discussion <https://discuss.luxonis.com/d/934-ffc-4p-hardware-synchronization/3>`__.
+
+Series 2 USB OAKs
+^^^^^^^^^^^^^^^^^
+
+FSIN lines on DM9098 board (:ref:`OAK-D S2`, :ref:`OAK-D W`, :ref:`OAK-D Pro`, :ref:`OAK-D Pro W`):
+
+.. image:: https://user-images.githubusercontent.com/18037362/202097546-af3f3035-b4a3-4be2-8136-d37c2ee9d622.png
+
+USB OAK-1* FSIN
+^^^^^^^^^^^^^^^
+
+FSIN test pad on NG9093 board (:ref:`OAK-1`, :ref:`OAK-1 W`, :ref:`OAK-1 Lite`, :ref:`OAK-1 Lite W`, :ref:`OAK-1 Max`):
+
+.. image:: https://user-images.githubusercontent.com/18037362/202103792-45ed20b4-4345-4af0-a266-1e2b0eb88d07.png
+
+OAK-D-Lite FSIN
+^^^^^^^^^^^^^^^
+
+.. image:: https://user-images.githubusercontent.com/18037362/202106310-e3cbbaa8-2b22-41ae-95b7-ce06465bfbdc.png
+
+Note that stereo camera pair and color cameras aren't connected together.
 
 .. include::  /pages/includes/footer-short.rst
