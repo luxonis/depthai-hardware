@@ -44,7 +44,7 @@ camera sensors would capture a frame based on the signal generator triggers.
     cam_C.initialControl.setFrameSyncMode(dai.CameraControl.FrameSyncMode.INPUT)
 
 You can also control FSIN line via GPIO from within `Script node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__,
-see example here.
+see example `here <https://gist.github.com/Erol444/a9189a8215371ff9f4cf4472960e1d66>`__.
 
 STROBE signal
 -------------
