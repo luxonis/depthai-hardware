@@ -67,7 +67,7 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
 
    * - OAK-1 Lite
      - OAK-1
-     - OAK-1 Max
+     - OAK-1 MAX
    * - .. image:: /_static/images/thumbnails/oak-1-lite.png
           :target: pages/NG9096.html
      - .. image:: /_static/images/thumbnails/oak-1.png
