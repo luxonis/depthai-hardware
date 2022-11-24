@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: DM2080.PcbDoc   24. 11. 2022  16:28:20
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Layer
+ASCII Plated RoundHoles File : DM2080-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : DM2080-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : DM2080-SlotHoles-Plated.TXT
+EIA File   : DM2080.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             471       PTH        785.97mm (30.94inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        42.05mm (1.66inch)
+T3      1.1mm (43mil)                                             Round             4         PTH        7.62mm (0.30inch)
+T4      3mm (118mil)                                              Round             2         PTH        34.22mm (1.35inch)
+T5      1.8mm (71mil)                                             Round             2         NPTH       50.70mm (2.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              483
+
+Total Processing Time (hh:mm:ss) : 00:00:00
