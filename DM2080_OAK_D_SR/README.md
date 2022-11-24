@@ -15,7 +15,7 @@ This repository contains open hardware designed by Luxonis. This device uses OAK
 * 2 x NFOV Cameras (near field of view with fixed focus)
 * Design files produced with Altium Designer 22
 # Board layout & dimensions
-OAK-FFC-6P was made with intention that the overall size of the board would be as minimal as possible. 
+OAK-D-SR was made with intention that the overall size of the board would be as minimal as possible. 
 
 Dimensions are represented below:
 
