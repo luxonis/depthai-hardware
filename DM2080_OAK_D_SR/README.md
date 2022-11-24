@@ -1,7 +1,6 @@
 # OAK-D-SR
 ![OAK-D-SR_FRONT](https://user-images.githubusercontent.com/118981341/203855236-77692ace-aa8d-4fb9-a1a0-e09ba30b427e.png)
 
-
 # Project Stage
 
 This repository contains open hardware designed by Luxonis. This device uses OAK-SoM-Pro.
@@ -19,7 +18,8 @@ This repository contains open hardware designed by Luxonis. This device uses OAK
 OAK-FFC-6P was made with intention that the overall size of the board would be as minimal as possible. 
 
 Dimensions are represented below:
-![OAK-D-SR_TOP](https://user-images.githubusercontent.com/118981341/203855262-8d42e11c-3f62-4346-8376-650d5be029f6.png)
+
+![OAK-D-SR_DIMENSIONS](https://user-images.githubusercontent.com/118981341/203859854-37c5d949-d82a-4896-96af-765904665ebc.png)
 
 ![OAK-D-SR_BOTTOM](https://user-images.githubusercontent.com/118981341/203855309-baec10c6-445b-4164-9684-a99a4719f979.png)
 
