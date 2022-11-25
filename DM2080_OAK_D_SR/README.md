@@ -1,9 +1,9 @@
 # OAK-D-SR
-![OAK-D-SR_FRONT](https://user-images.githubusercontent.com/118981341/203855236-77692ace-aa8d-4fb9-a1a0-e09ba30b427e.png)
+![](Images/OAK-D-SR_1.jpg)
 
 # Project Stage
 
-This repository contains hardware designed by Luxonis. This camera is perfect for applications that require close-in depth and detail, such as quality control or automated manufacturing, and will prove especially valuable for mounting on robots or picking arms. The OAK-D-SR leverages our OAK-SoM-Pro to make a compact overall design. The use of the SoM reduces the overall design's scale, making it easier to mount or fit in various robotic processes. The design is also open-sourced, allowing for all necessary modifications.
+This repository contains hardware designed by Luxonis. This camera is perfect for applications that require close-in depth and detail, such as quality control or automated manufacturing, and will prove especially valuable for mounting on robots or picking arms. The OAK-D-SR leverages our OAK-SoM-Pro to make a compact overall design. The use of the SoM reduces the overall design's scale, making it easier to mount or fit in various robotic processes. The design is also open-sourced, allowing for all necessary modifications. You can preorder OAK-D-SR on Luxonis [Early access](https://shop.luxonis.com/collections/early-access) store [here](https://shop.luxonis.com/collections/early-access/products/oak-d-sr).
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -25,7 +25,7 @@ This repository contains hardware designed by Luxonis. This camera is perfect fo
 # Board layout & dimensions
 OAK-D-SR was made with intention that the overall size of the board would be as minimal as possible. 
 
-Dimensions are represented below:
+Dimensions are represented below (renders including all components, some may not be populated in production variant):
 
 ![OAK-D-SR_DIMENSIONS](https://user-images.githubusercontent.com/118981341/203859854-37c5d949-d82a-4896-96af-765904665ebc.png)
 
@@ -34,7 +34,6 @@ Dimensions are represented below:
 # Revision info
 
 These files represent the R1M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
-
 
 
 
