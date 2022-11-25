@@ -106,7 +106,7 @@ PoE Troubleshooting
     If your PoE device does not work, or in some rare cases, it works for a period of time and then suddenly stops working, there might be an issue with your PoE switch. For example, when the power budget per port seems to be sufficient, but the overall power budget for the switch is being exceeded due to demands from devices on other ports.
     It is worth checking the specifications of your PoE switch / injector with respect to its overall power budget.
 
-- **"Special" network equipment** 
+- **"Special" network equipment**
 
     We have noticed that with certain network equipment, our 15 seconds **timeouts for connecting** to the
     POE deviceare insufficient, and **need to be increased**. You can increase these by using
@@ -135,6 +135,11 @@ PoE Troubleshooting
                 set DEPTHAI_WATCHDOG_INITIAL_DELAY=60000
                 set DEPTHAI_BOOTUP_TIMEOUT=60000
                 python3 script.py
+
+- **Network interface controller settings**
+
+    Some default NIC settings on Linux might not be ideal for communication with OAK POE cameras, which can result
+    in slow FPS, high latency, and/or high OAK CPU usage.
 
 Flash static IP
 ###############
