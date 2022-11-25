@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: DM2080.GBR   24. 11. 2022  16:28:16
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Mask                                
+.GTL                Top Copper                              
+.G1                 Layer 1                                 
+.G2                 Layer 2                                 
+.G3                 Layer 3                                 
+.G4                 Layer 4                                 
+.GBL                Bottom Layer                            
+.GBS                Bottom Solder                           
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Board                                   
+.GM2                Top Assembly                            
+.GM3                Bottom Assembly                         
+.GM5                Dimensions                              
+.GM6                Top Component Center                    
+.GM7                Assembly Notes                          
+.GM8                Bottom Component Center                 
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM31               Top Body                                
+.GM32               Bottom Body                             
+.GM32767            Route Guide                             
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.2                  Dielectric 3 (1080)                     
+.GML                Multi-Layer                             
+.1                  Core                                    
+.3                  Dielectric 1 (2116)                     
+.4                  Dielectric 2 (2116)                     
+.5                  Dielectric 4 (1080)                     
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
