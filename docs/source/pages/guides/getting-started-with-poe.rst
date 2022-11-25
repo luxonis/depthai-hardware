@@ -59,87 +59,116 @@ in front of cameras** (on the inside of the front cover).
 PoE Troubleshooting
 ###################
 
-- **I can ping the OAK PoE camera, but can't connect to it**
-    The DepthAI library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
-    :ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <https://docs.luxonis.com/projects/api/en/latest/components/bootloader/#device-manager>`__
-    to check that) and that you are using **depthai version 2.16.0.0 or newer**. That's because there were `XLink device search improvements <https://github.com/luxonis/depthai-python/releases/tag/v2.16.0.0>`__
-    added on 2.16.0.0.
+I can ping the OAK PoE camera, but can't connect to it
+""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-- **DHCP and Static IP**
-    By default, PoE devices will try to pull an IP address from DHCP. If a DHCP server isn't available on the network,
-    devices will fall back to static IP ``169.254.1.222``.  In this static fall-back case, your computer will need to be in the same range. This can
-    be achieved by setting a static IP on your computer (e.g. with static IP: ``169.254.1.10`` and netmask: ``255.255.0.0``).
+The DepthAI library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
+:ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <https://docs.luxonis.com/projects/api/en/latest/components/bootloader/#device-manager>`__
+to check that) and that you are using **depthai version 2.16.0.0 or newer**. That's because there were `XLink device search improvements <https://github.com/luxonis/depthai-python/releases/tag/v2.16.0.0>`__
+added on 2.16.0.0.
 
-- **Ports and Firewall**
-    UDP Device discovery is handled on port ``11491``, and TCP XLink connection is handled on port ``11490``.
+DHCP and Static IP
+""""""""""""""""""
 
-    On Ubuntu by default the firewall is disabled, so you shouldn't have any issues. You can check this though by executing the following command:
+By default, PoE devices will try to pull an IP address from DHCP. If a DHCP server isn't available on the network,
+devices will fall back to static IP ``169.254.1.222``.  In this static fall-back case, your computer will need to be in the same range. This can
+be achieved by setting a static IP on your computer (e.g. with static IP: ``169.254.1.10`` and netmask: ``255.255.0.0``).
 
-    .. code-block:: bash
+Ports and Firewall
+""""""""""""""""""
 
-      > sudo ufw status
-      Status: inactive
+UDP Device discovery is handled on port ``11491``, and TCP XLink connection is handled on port ``11490``.
 
-    If you have your firewall enabled, you might need to allow these two ports:
+On Ubuntu by default the firewall is disabled, so you shouldn't have any issues. You can check this though by executing the following command:
 
-    .. code-block:: bash
+.. code-block:: bash
 
-      sudo ufw allow 11490/tcp
-      sudo ufw allow 11491/udp
+    > sudo ufw status
+    Status: inactive
 
-    We have noticed that the above rules don't always work as expected, and it's sometimes necessary to run the command
-    below. For production environment, you would want to set **static IP** on your OAK PoE camera, otherwise it could
-    change and you would need to re-set the firewall rules.
+If you have your firewall enabled, you might need to allow these two ports:
 
-    .. code-block:: bash
+.. code-block:: bash
 
-        ufw allow from [OAK_POE_IP]
+    sudo ufw allow 11490/tcp
+    sudo ufw allow 11491/udp
 
-- **VPN connection**
-    VPN connectivity could also disrupt the connection with the PoE device (as your computer may be searching only the remote network for the device, so would be unable to discover it on the local network), so we suggest turning the VPN off when using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoveragle while VPN connectivity is active.
+We have noticed that the above rules don't always work as expected, and it's sometimes necessary to run the command
+below. For production environment, you would want to set **static IP** on your OAK PoE camera, otherwise it could
+change and you would need to re-set the firewall rules.
 
-- **Connected to the same LAN via 2 interfaces (WiFi/ethernet)**
-    We have seen that in some rare circumstances when your host computer is connected to the same LAN, it can happen that device discovery finds the same PoE device twice, so it will print the IP address of that device two times. In some rare occasions this can lead to an error (we have seen this when using multiple devices) on initialization; `RuntimeError: Failed to find device after booting, error message: X_LINK_DEVICE_NOT_FOUND`.  We will try to fix this bug as soon as possible.
-    **Workaround solution: disconnect from one of the interfaces; so disconnecting (from the) WiFi should resolve this issue.**
+.. code-block:: bash
 
-- **Insufficient power supply**
-    If your PoE device does not work, or in some rare cases, it works for a period of time and then suddenly stops working, there might be an issue with your PoE switch. For example, when the power budget per port seems to be sufficient, but the overall power budget for the switch is being exceeded due to demands from devices on other ports.
-    It is worth checking the specifications of your PoE switch / injector with respect to its overall power budget.
+    ufw allow from [OAK_POE_IP]
 
-- **"Special" network equipment**
+VPN connection
+""""""""""""""
 
-    We have noticed that with certain network equipment, our 15 seconds **timeouts for connecting** to the
-    POE deviceare insufficient, and **need to be increased**. You can increase these by using
-    environmental variables (values in miliseconds).
+VPN connectivity could also disrupt the connection with the PoE device (as your computer may be searching only the remote
+network for the device, so would be unable to discover it on the local network), so we suggest turning the VPN off when
+using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoveragle
+while VPN connectivity is active.
 
-    .. tabs::
+Connected to the same LAN via 2 interfaces (WiFi/ethernet)
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-        .. tab:: Linux/MacOS
+We have seen that in some rare circumstances when your host computer is connected to the same LAN, it can happen that device
+discovery finds the same PoE device twice, so it will print the IP address of that device two times. In some rare occasions
+this can lead to an error (we have seen this when using multiple devices) on initialization;
+`RuntimeError: Failed to find device after booting, error message: X_LINK_DEVICE_NOT_FOUND`.  We will try to fix this
+bug as soon as possible.
+**Workaround solution: disconnect from one of the interfaces; so disconnecting (from the) WiFi should resolve this issue.**
 
-            .. code-block:: bash
+Insufficient power supply
+"""""""""""""""""""""""""
 
-                DEPTHAI_WATCHDOG_INITIAL_DELAY=60000 DEPTHAI_BOOTUP_TIMEOUT=60000 python3 script.py
+If your PoE device does not work, or in some rare cases, it works for a period of time and then suddenly stops working,
+there might be an issue with your PoE switch. For example, when the power budget per port seems to be sufficient, but
+the overall power budget for the switch is being exceeded due to demands from devices on other ports.
+It is worth checking the specifications of your PoE switch / injector with respect to its overall power budget.
 
-        .. tab:: Windows PowerShell
+"Special" network equipment
+"""""""""""""""""""""""""""
 
-            .. code-block:: bash
+We have noticed that with certain network equipment, our 15 seconds **timeouts for connecting** to the
+POE deviceare insufficient, and **need to be increased**. You can increase these by using
+environmental variables (values in miliseconds).
 
-                $env:DEPTHAI_WATCHDOG_INITIAL_DELAY=60000
-                $env:DEPTHAI_BOOTUP_TIMEOUT=60000
-                python3 script.py
+.. tabs::
 
-        .. tab:: Windows CMD
+    .. tab:: Linux/MacOS
 
-            .. code-block:: bash
+        .. code-block:: bash
 
-                set DEPTHAI_WATCHDOG_INITIAL_DELAY=60000
-                set DEPTHAI_BOOTUP_TIMEOUT=60000
-                python3 script.py
+            DEPTHAI_WATCHDOG_INITIAL_DELAY=60000 DEPTHAI_BOOTUP_TIMEOUT=60000 python3 script.py
 
-- **Network interface controller settings**
+    .. tab:: Windows PowerShell
 
-    Some default NIC settings on Linux might not be ideal for communication with OAK POE cameras, which can result
-    in slow FPS, high latency, and/or high OAK CPU usage.
+        .. code-block:: bash
+
+            $env:DEPTHAI_WATCHDOG_INITIAL_DELAY=60000
+            $env:DEPTHAI_BOOTUP_TIMEOUT=60000
+            python3 script.py
+
+    .. tab:: Windows CMD
+
+        .. code-block:: bash
+
+            set DEPTHAI_WATCHDOG_INITIAL_DELAY=60000
+            set DEPTHAI_BOOTUP_TIMEOUT=60000
+            python3 script.py
+
+Network interface controller settings
+"""""""""""""""""""""""""""""""""""""
+
+Some default NIC settings on Linux might not be ideal for communication with OAK POE cameras, which can result
+in slow FPS, high latency, and/or high OAK CPU usage. You can use **ethtool** to configure these settings.
+
+.. figure:: https://user-images.githubusercontent.com/18037362/203933518-67a0af6c-e421-44ee-8cc5-1cae21bbb959.png
+
+    ethtool settings that provided better performance for us
+
+In one case configuring ``sudo ethtool -C NAME rx-usecs 1022`` (where NAME was enp59s0f1) improved FPS from 12 to 20.
 
 Flash static IP
 ###############
