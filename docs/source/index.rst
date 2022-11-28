@@ -194,7 +194,7 @@ open-source hardware designs as you see fit.
 
    * - OAK-SoM
      - OAK-SoM-Pro
-     - OAK-SoM-Max
+     - OAK-SoM-MAX
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html
      - .. image:: /_static/images/thumbnails/oak-som-pro.png
