@@ -1,6 +1,6 @@
 .. _dm3399:
 
-OAK-SoM-Max
+OAK-SoM-MAX
 ===========
 
 .. image:: /_static/images/SOM-Max/OAK-SoM-MAX-white_background.jpg
@@ -8,10 +8,10 @@ OAK-SoM-Max
 Overview
 ********
 
-**OAK-SoM-Max** has :ref:`RVC3`, and **quadcore ARM CPU** on board. The OAK-SoM-Max is a System on Module (SoM) designed for integration into top-level system with
+**OAK-SoM-MAX** has :ref:`RVC3`, and **quadcore ARM CPU** on board. The OAK-SoM-MAX is a System on Module (SoM) designed for integration into top-level system with
 a need for a low-power, high performance, real-time AI and depth perception.
 
-The OAK-SoM-Max interfaces with the system through three 10-Gbps-rated 100-pin board-to-board mezzanine connector which
+The OAK-SoM-MAX interfaces with the system through three 10-Gbps-rated 100-pin board-to-board mezzanine connector which
 carries all signal I/O as well as 5v input. The on-board SMPS system regulates the 5V input and provides all necessary
 digital and analog power.
 
@@ -26,14 +26,14 @@ into your product, see :ref:`documentation here <integrating_depthai_into_produc
 .. include:: /pages/includes/som-pro-s3-vs-max.rst
 
 
-OAK-SoM-Max variants
+OAK-SoM-MAX variants
 ********************
 
 We offer 3 variants of the OAK-SoM-Max which expose a different configuration of MIPI connectivity:
 
-- **OAK-SoM-Max** - 6x 2-lane MIPI. This is the default configuration
-- **OAK-SoM-Max-1** - 4x 2-lane MIPI, 1x 4-lane MIPI. RX0+RX1 are merged into a single 4-lane MIPI
-- **OAK-SoM-Max-2** - 2x 2-lane MIPI, 2x 4-lane MIPI. RX0+RX1 and RX4+RX5 are merged into 4-lane MIPI
+- **OAK-SoM-MAX** - 6x 2-lane MIPI. This is the default configuration
+- **OAK-SoM-MAX-1** - 4x 2-lane MIPI, 1x 4-lane MIPI. RX0+RX1 are merged into a single 4-lane MIPI
+- **OAK-SoM-MAX-2** - 2x 2-lane MIPI, 2x 4-lane MIPI. RX0+RX1 and RX4+RX5 are merged into 4-lane MIPI
 
 Board Layout
 ************
