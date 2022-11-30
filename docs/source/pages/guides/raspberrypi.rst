@@ -94,9 +94,9 @@ have this chip in that location.
 
 .. image:: /_static/images/rpi/cm4-emmc.png
 
-To flash an image to the CM4 eMMC, we first need to enable USB_BOOT with the header pin. By default, connector is
-on the 2 header pins that are indicated as :code:`DIS` (disabled), so we have to move the connector to the :code:`EN`
-pins (enabled).
+To flash an image to the CM4 eMMC (`official RPi guide <https://www.raspberrypi.com/documentation/computers/compute-module.html#flashing-the-compute-module-emmc>`__),
+first need to enable USB_BOOT with the header pin. By default, connector is on the 2 header pins that are indicated as
+``DIS`` (disabled), so we have to move the connector to the :code:`EN` pins (enabled).
 
 .. image:: /_static/images/rpi/usb-boot.png
 
