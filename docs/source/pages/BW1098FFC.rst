@@ -3,7 +3,7 @@
 OAK-FFC-3P-OG
 =============
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/products/depthai-usb3-edition>`__
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-3p-og>`__
 
 .. image:: /_static/images/BW1098FFC/BW1098FFC_front.png
 
