@@ -8,7 +8,7 @@ are built on top of the RVC2.
 
 RVC2 encapsulates two main components:
 
-- **DepthAI feautres** that are fine-tuned for the particular SoC
+- **DepthAI features** that are fine-tuned for the particular SoC
 - A **performant SoC** and all it's support circuitry (HS PCB layout, power delivery network, efficient heat dissipation, etc.)
 
 

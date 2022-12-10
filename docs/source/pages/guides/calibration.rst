@@ -159,7 +159,7 @@ Left and right video streams are displayed, each containing a polygon overlay.
 
 Hold up the printed charuco board (or laptop with the image displayed on the screen) so that the whole of the calibration board is displayed within both video streams.
 
-Match the orientation of the overlayed polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
+Match the orientation of the overlaid polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
 not need to match the polygon exactly, but it is important to use the polygon as a guideline for angling and location relative to the camera.
 There are 13 required polygon positions.
 

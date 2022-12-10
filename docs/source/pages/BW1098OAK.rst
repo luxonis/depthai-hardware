@@ -34,7 +34,7 @@ Dimensions and Weight
 OAK-D PCBA
 **********
 
-In the past we also sold OAK-D PCBA, which is essentailly an OAK-D without an enclosure
+In the past we also sold OAK-D PCBA, which is essentially an OAK-D without an enclosure
 and instead has a heatsink. This could still be useful for some applications where
 size/weight is really critical (eg. drones), and PCBA also exposes some additional connectors.
 

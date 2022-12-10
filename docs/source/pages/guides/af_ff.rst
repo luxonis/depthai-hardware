@@ -92,8 +92,8 @@ silver metal ring on the Auto-Focus mechanism, as shown in the image below.
 
 .. include::  /pages/includes/footer-short.rst
 
-AF/FF Availabilty
-*****************
+AF/FF Availability
+******************
 
 Auto-Focus and Fixed-Focus center color camera options are available standard for all OAK models. The one exception is
 the OAK-D, which doesn't offer a Fixed-Focus option standard, however a Fixed-Focus camera can be swapped in custom on request.

@@ -15,7 +15,7 @@ their own custom products. When designing the PCB, please also see :ref:`OAK Des
 Difficulty of integrating DepthAI into products
 ***********************************************
 
-When designing the DepthAI platform we always made effots to consider long term integration needs, with the goal of making it as simple
+When designing the DepthAI platform we always made efforts to consider long term integration needs, with the goal of making it as simple
 as possible to integrate into other products.
 
 What is the OAK System on Module (SoM)?
@@ -68,7 +68,7 @@ The OAK-SoM-IoT and OAK-SoM-Pro have the QSPI NOR Flash, which is capable of qui
 and run code. This is the key factor to support the `standalone <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__
 use case.
 
-Power consumption can vary depening on the application. A stereo vision application running Mobilenet-SSD V2 at 30 FPS
+Power consumption can vary depending on the application. A stereo vision application running Mobilenet-SSD V2 at 30 FPS
 typically consumes about 2.5 W, but more computationally heavy applications can consume up to 5 W. Most of this power
 is consumed by the :ref:`RVC2`.
 

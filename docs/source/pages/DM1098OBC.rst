@@ -17,7 +17,7 @@ The **OAK-D-IoT-75** baseboard has three on-board cameras which implement stereo
 :ref:`OAK-SoM-IoT` for depth and AI processing. The data can be then output to a host via USB 3.1 Gen1 (Type-C) or
 via ESP32 WiFi interface. If you are **new to OAK IOT devices, you can check** :ref:`Getting started with OAK IOT devices` tutorial.
 
-This design is one of two baseboards for the :ref:`OAK-SoM-IoT`, the other one being :ref:`OAK-D-IOT-40`. The only differnece
+This design is one of two baseboards for the :ref:`OAK-SoM-IoT`, the other one being :ref:`OAK-D-IOT-40`. The only difference
 is the the stereo baseline distance and the shape/size of the OAK camera.
 
 Hardware specifications

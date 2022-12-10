@@ -5,7 +5,7 @@ Getting started
     For more information on how to start with POE devices, check our guide :ref:`Getting started with OAK PoE devices`.
 
 This OAK PoE camera accepts power input from he 802.3af, Class 3 PoE circuitry. It can also accect power through the on-board
-USB C connector - which is not expsed through the enclsoure, so enclosure needs to be removed.
+USB C connector - which is not exposed through the enclosure, so enclosure needs to be removed.
 
 Booting can be accomplished from either the USB interface or from the eMMC or NOR flash on the OAK-SoM-Pro, and boot selection is 
 configured with the DIP switch bank near the USB connector.
