@@ -21,7 +21,6 @@ Series 3 roadmap
 - **2023 Q2**: Official release of OAK S3 device(s).
 
 This might be a bit of an optimistic roadmap due to supply chain issues, but we will do everything possible to meet it.
-Initial S3 OAK cameras will have 2GB of RAM on board.
 
 **2022 Updates**
 
@@ -31,7 +30,9 @@ Initial S3 OAK cameras will have 2GB of RAM on board.
 - **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-S3.
 - **July**: New OS for :ref:`RVC3` - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
 - **August**: DepthAI initial release for RVC3 (stereo support, NN support, logging support), initial support for :ref:`LCM48 <LCM48>`, PCIe WiFi card support, OTA updates
-- **September [Planned]**: HDR support, support for :ref:`IMX214`, full support for :ref:`LCM48 <LCM48>`, LuxOS restructure and initial release
+- **September**: HDR support, support for :ref:`IMX214`, full support for :ref:`LCM48 <LCM48>`, LuxOS restructure and initial release
+- **October**: LuxOS flashing/updating and signing, EdgeDetector, Warp and Spatial nodes, dot projector & LED support (I2C)
+- **November**: on ``rvc3_support`` branch majority of the DepthAI nodes are already supported, except FeatureTracker, ObjectTracker, Script node and some features (eg. RGB-depth alignment).
 
 For **updates on the progress of OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 

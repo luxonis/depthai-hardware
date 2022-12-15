@@ -18,8 +18,8 @@ OAK SoM differences
     - **Pro-S3** has 2x 4-lane and 2x 2-lane MIPI RX lines.
     - **Max** has 6x 2-lane MIPI RX and 2x 2-lane, 1x 4-lane MIPI TX lines.
 - **RAM**
-    - **Pro-S3** has 1x DDR RAM due to size/shape constraints, even though :ref:`RVC3` supports dual channel RAM.
-    - **Max** has 2x DDR RAM on-board, which provides maximum performance, as :ref:`RVC3` supports dual channel RAM.
+    - **Pro-S3** has 1x 2GB DDR RAM due to size/shape constraints, even though :ref:`RVC3` supports dual channel RAM.
+    - **Max** has 2x 2GB DDR RAM on-board, which provides maximum performance, as :ref:`RVC3` supports dual channel RAM.
 - **Size**
     - **Pro-S3**: 30mm x 45mm
     - **Max**: 40mm x 40mm
