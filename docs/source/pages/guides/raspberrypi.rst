@@ -1,5 +1,5 @@
 OAK & Raspberry Pi
-==================
+##################
 
 Our devices can also be connected to small SBCs like a Raspberry Pi (RPi). To install `DepthAI <https://github.com/luxonis/depthai-python>`__
 on a RPi, you should install `dependencies <https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os>`__
@@ -7,7 +7,7 @@ and then install the `library <https://docs.luxonis.com/projects/api/en/latest/i
 DepthAI library has **prebuilt wheels** for RPi on `piwheels <https://www.piwheels.org/project/depthai/>`__.
 
 Using pre-configured RPi OS image
-#################################
+*********************************
 
 We provide Raspberry Pi OS images that have **DepthAI and all its dependencies pre-installed**. **Images are** `available here <https://drive.google.com/drive/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5?usp=sharing>`__.
 
@@ -17,7 +17,7 @@ We provide Raspberry Pi OS images that have **DepthAI and all its dependencies p
 Steps taken to create these images and changelog can be found `here <https://docs.google.com/document/d/1c4JhIY2ulcgaaycUBOsAbUI1EJ_7Zx4ux4alaxFc_ts/edit?usp=sharing>`__.
 
 Flashing uSD card
-*****************
+=================
 
 #. Download the RPi image from Google Drive (link above). Download `Balena Etcher <https://www.balena.io/etcher/>`__ program. You can also use RPi Imager, but we have noticed that sometimes there are issues.
 #. Open Balena Etcher. If you have downloaded *.AppImage*, you might need to right-click on it and click *Run* to start the program.
@@ -27,7 +27,7 @@ Flashing uSD card
 #. After flashing is complete, safely remove the uSD card, insert it into RPi, and power the RPi
 
 Powering OAK from RPi
-#####################
+*********************
 
 On `RPi documentation <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements>`__, it states
 that Raspberry Pi 2 or later models can supply up to 1.2A through a USB port. Even at maximum workload, OAK cameras draw
@@ -40,7 +40,7 @@ We still **recommend externally powering your OAK camera** either via **barrel j
 there OAK have current spikes (especially when using Video Encoder and running AI inference), which can lead to brownout.
 
 SSH into the RPi
-################
+****************
 
 If you are using a pre-configured RPi OS image, SSH server is already enabled, otherwise
 you need to create file :code:`ssh` inside this **boot** volume, so SSH server will be enabled on startup (`tutorial here <https://desertbot.io/blog/ssh-into-pi-zero-over-usb>`__).
@@ -77,12 +77,12 @@ After SSH was successful, let's try running an example app :code:`python depthai
 .. image:: /_static/images/hosts/works.png
 
 Known image limitations
-#######################
+***********************
 
 #. On **OAK_CM4_PoE**, since image **V8**, second uSD card support is disabled. That's because if uSD card support is enabled (for storage purposes), WiFi connectivity is disabled. To enable 2nd uSD card support (and disable WiFi connectivity), you can edit :code:`/boot/config.txt` and uncomment the line :code:`dtoverlay=sdhost,poll_once=off` at the end of the file, then reboot the system.
 
 Flashing an image to the eMMC
-#############################
+*****************************
 
 :ref:`OAK-D-CM4` and :ref:`OAK-D CM4 PoE` have Raspberry Pi Compute module 4 (CM4) on-board. Most OAK-D-CM4 batches
 have CM4 with an eMMC memory on there, and most OAK-D CM4 PoE boards have CM4 Lite, which doesn't have eMMC memory,
@@ -130,7 +130,7 @@ again) and restart the device. It should boot from the newly flashed image!
 .. image:: /_static/images/rpi/etcher.png
 
 Raspberry Pi Zero
-#################
+*****************
 
 `Raspberry Pi Zero <https://www.raspberrypi.com/products/raspberry-pi-zero/>`__ is a great single-board computer (SBC) in terms of price per
 performance. You can get one for about $5. It has 512MB RAM, 1GHz single-core CPU, and optional on-board Bluetooth and WiFi
@@ -142,7 +142,7 @@ connectivity (RPI Zero W, which costs about $10). It consumes about 0.5W.
 high-res videos, perform heavy computing (e.g. with OpenCV) or post-processing, RPi Zero won't be the best choice for host computer.
 
 Connect OAK camera to a RPI Zero
-********************************
+================================
 
 RPI Zero has one micro USB connector for peripherals. You can use your standard USB-C (to USB-A) cable, but you will need **OTG connector/cable**
 to connect an OAK camera to the RPI Zero.
@@ -157,10 +157,10 @@ and right connector (`Aliexpress <https://www.aliexpress.com/item/10050018948323
 From our testing, RPi Zero was able to provide enough power to the OAK-D without an external power supply (either power jack or :ref:`Y-adapter`).
 
 RPi Troubleshooting
-###################
+*******************
 
 RPi Locking Up / OAK crashing on RPi
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+====================================
 
 The Raspberry Pi has a max limit of 1.2A across all its USB ports, and OAK cameras can take up to 1A (at max power, usually closer to 500mA).
 
@@ -175,7 +175,7 @@ So if you are experiencing issues with DepthAI stability on Raspberry, try power
 
 
 SSH-ing without X11 forwarding
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==============================
 
 If you SSH into your RPi without ``-x`` argument and try to display a frame (eg. ``cv2.imshow()``), you will likely get an error like below:
 

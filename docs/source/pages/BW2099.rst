@@ -30,7 +30,7 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
     .. tab:: OAK-SoM-Pro (RVC2, BW2099)
 
         .. image:: /_static/images/SOM-PRO/BW2099.png
-        
+
         **Devices that use OAK-SoM-Pro MX**
 
         All devices that have SoM on-board are also open-source. You could redesign them, for example to change stereo baseline. If you
@@ -51,6 +51,9 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
 
         **OAK-SoM-Pro-S3** has an :ref:`RVC3` and **quadcore ARM CPU** on board. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
         replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <OAK-SoM-Pro>`).
+
+        Note that for **OAK POE devices** (:ref:`OAK-D-PoE`, :ref:`OAK-1-PoE`) this **won't work**, as S1/S2 OAK POE devices use an PCIe to ETH bridge which
+        isn't (yet) supported by RVC3 (kernel). RVC3 has ETH PHY already on the SoC, so S3 PoE devices won't use the same bridge.
 
         It was primarily designed for evaluation and backwards compatibility.
         For new products, we would suggest using :ref:`OAK-SoM-Max` (differences below).
