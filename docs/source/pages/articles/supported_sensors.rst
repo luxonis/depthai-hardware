@@ -11,12 +11,7 @@ Supported sensors
   sensors/*
 
 DepthAI firmware has to have sensor configuration in order to support the given camera sensor. Currently, we support sensor
-configurations out-of-the-box (in firmware) for the camera sensors listed below. It's possible to use a different camera
-sensor, but you need to provide sensor configuration yourself.
-
-Sensors that are supported but aren't in any of the OAK products yet need to use a different library version.
-:code:`multi_cam_support` branch (on either depthai-core or depthai-python) should be used for now, until
-`the PR <https://github.com/luxonis/depthai-python/pull/365>`__ gets merged.
+configurations out-of-the-box (in firmware) for the camera sensors listed below.
 
 ..
     Add docs/link about adding custom sensor configuration here.
@@ -70,11 +65,6 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - global
      - 1920x1200
      - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/ar0234>`__
-   * - IMX283
-     - Initially tested
-     - rolling
-     - 5496x3694
-     - Initially working 20MP, 15.86 mm diagonal.
    * - IMX390
      - Initially tested
      - rolling
@@ -150,6 +140,8 @@ Sensors that are supported but aren't in any of the OAK products yet need to use
      - rolling
      - 2592x1944
      -
+
+**Interested in a sensor not listed above?** Please send an email to support@luxonis.com.
 
 Already built CCMs
 ==================
