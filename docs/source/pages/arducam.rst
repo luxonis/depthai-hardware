@@ -81,10 +81,6 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - Global
      - 2.3MP
      - Color, M12 mount
-   * - `IMX283-M12 <https://www.arducam.com/product/arducam-20mp-imx283-camera-module-with-m12-mount-lens-and-adapter-board-for-depthai/>`__
-     - Rolling
-     - 20MP
-     - Color, C mount lens, 1" sensor
    * - `Arducam HQ Cam for RPi, IMX477 <https://www.arducam.com/product/b0240-arducam-imx477-hq-quality-camera/>`__
      - Rolling
      - 12.3MP
