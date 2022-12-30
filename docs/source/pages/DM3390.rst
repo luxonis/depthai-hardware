@@ -23,6 +23,8 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include:: /pages/rvc/includes/rvc3_inside.rst
 
+.. include::  /pages/includes/ffc_socket_api.rst
+
 .. TODO: add dimensions/weight
     Dimensions and Weight
     *********************
@@ -31,7 +33,7 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
     * Length: 22 mm (PCBA and heatsink)
     * Weight: 41g (PCBA and heatsink)
 
-.. image:: /_static/images/FFC-6P/bottom.jpg    
+.. image:: /_static/images/FFC-6P/bottom.jpg
 
 Key features
 ************

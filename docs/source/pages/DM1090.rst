@@ -30,6 +30,8 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
+.. include::  /pages/includes/ffc_socket_api.rst
+
 Board Layout
 ************
 
