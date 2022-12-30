@@ -11,10 +11,10 @@ at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
 Step by step tutorial
 #####################
 
-#. You will need a PoE switch or Injector **to power the PoE device**. `Click here for the full tutorial <https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/powering_poe_devices.html>`__. After powering the device, LED should start blinking, as on the GIF above.
+#. You will need a PoE switch or Injector **to power the PoE device** (see `Powering PoE devices <https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/powering_poe_devices.html>`__). After powering the device, LED should start blinking, as on the GIF above.
 #. Make sure to properly **tighten** the connector - either **ethernet gland** on S1 or **M12 connector** on :ref:`S2 OAK devices <OAK Series 2>` - to make a **good seal**. This ensures that the device meets its IP rating.
 #. Connect your computer to the same `LAN <https://en.wikipedia.org/wiki/Local_area_network>`__ as the PoE device.
-#. Make sure you have **DepthAI version 2.7.0.0** or newer. You can update your DepthAI python package with :code:`python3 -m pip install depthai>=2.7.0.0`
+#. Make sure your computer is connected to the same network as the PoE device.
 #. Now you can run any `code sample <https://docs.luxonis.com/projects/api/en/latest/tutorials/code_samples/>`__ / `depthai experiment <https://github.com/luxonis/depthai-experiments>`__ / `depthai_demo <https://github.com/luxonis/depthai>`__ as you would when connecting an OAK device with a USB-C cable!
 
 .. image:: /_static/images/guides/poe-working.jpeg
@@ -25,11 +25,11 @@ How it works
 ############
 
 When your app creates the device object (:code:`with dai.Device(pipeline) as device:`),
-the library will search for available devices that are connected either by USB port or are on the LAN.
+depthai will search for available devices that are connected either by USB port or are on the LAN (same subnet).
 It searches for PoE devices (UDP broadcast) on the same network and communicates with the device using TCP protocol.
 That way OAK PoE cameras work in the same manner as USB cameras. As with the USB-C connection, you can specify
-the Mx ID to specify to which OAK PoE camera you want to connect to
-(`more info here <https://docs.luxonis.com/projects/api/en/latest/tutorials/multiple/>`__).
+the MxID to specify to which OAK PoE camera you want to connect to
+(`more info here <https://docs.luxonis.com/projects/api/en/latest/tutorials/multiple/#selecting-a-specific-depthai-device-to-be-used>`__).
 
 Video streaming with OAK
 ########################
@@ -59,13 +59,24 @@ in front of cameras** (on the inside of the front cover).
 PoE Troubleshooting
 ###################
 
+Before any kind of troubleshooting we recommend try using the **latest depthai version**.
+
+No DepthAI devices found!
+"""""""""""""""""""""""""
+
+If you get this error, it means that depthai didn't find any OAK PoE cameras on the same network. Make sure that the camera is powered on and connected to
+the same network as your computer. A few options:
+
+- If you are using **DHCP server**, you can check logs/**connected devices** on the **DHCP server dashboard** to see if the camera is connected and its IP
+- If there is **no DHCP**, camera will fallback to a **static IP** (see :ref:`DHCP and Static IP`)
+- When you know the IP of the camera and can ping it, continue with :ref:`I can ping the OAK PoE camera, but can't connect to it`
+
 I can ping the OAK PoE camera, but can't connect to it
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 The DepthAI library only searches for available OAK PoE cameras inside the same LAN. If the camera is not in the same LAN, you would need to
 :ref:`Manually specify device IP`. Make sure that the camera has **bootloader version 0.0.18 or newer flashed** (we suggest using `OAK Device Manager <https://docs.luxonis.com/projects/api/en/latest/components/bootloader/#device-manager>`__
-to check that) and that you are using **depthai version 2.16.0.0 or newer**. That's because there were `XLink device search improvements <https://github.com/luxonis/depthai-python/releases/tag/v2.16.0.0>`__
-added on 2.16.0.0.
+to check that).
 
 DHCP and Static IP
 """"""""""""""""""
@@ -106,7 +117,7 @@ VPN connection
 
 VPN connectivity could also disrupt the connection with the PoE device (as your computer may be searching only the remote
 network for the device, so would be unable to discover it on the local network), so we suggest turning the VPN off when
-using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoveragle
+using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoverable
 while VPN connectivity is active.
 
 Connected to the same LAN via 2 interfaces (WiFi/ethernet)
@@ -123,7 +134,7 @@ Insufficient power supply
 """""""""""""""""""""""""
 
 If your PoE device does not work, or in some rare cases, it works for a period of time and then suddenly stops working,
-there might be an issue with your PoE switch. For example, when the power budget per port seems to be sufficient, but
+there might be an issue with your PoE switch/injector. For example, when the power budget per port seems to be sufficient, but
 the overall power budget for the switch is being exceeded due to demands from devices on other ports.
 It is worth checking the specifications of your PoE switch / injector with respect to its overall power budget.
 
