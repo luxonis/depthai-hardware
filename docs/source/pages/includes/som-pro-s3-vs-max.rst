@@ -1,4 +1,4 @@
-OAK-SoM-Pro-S3 vs OAK-SoM-Max
+OAK-SoM Pro S3 vs OAK-SoM MAX
 *****************************
 
 These are both our inital SoMs that have on-board **Robotics Vision Core 3** (:ref:`RVC3`). The :ref:`OAK-SoM-Pro-S3 <OAK-SoM-Pro>`

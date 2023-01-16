@@ -87,7 +87,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D-POE
+   * - OAK-D PoE
      - OAK-D S2 PoE
      - OAK-D Pro PoE
    * - .. image:: /_static/images/thumbnails/oak-d-poe.png
@@ -103,7 +103,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 .. list-table::
    :header-rows: 1
 
-   * - OAK-1-PoE
+   * - OAK-1 PoE
      - OAK-D W PoE
      - OAK-D Pro W PoE
    * - .. image:: /_static/images/thumbnails/oak-1-poe.png
@@ -127,9 +127,9 @@ custom baseline, or custom orientation of the cameras.
 .. list-table::
    :header-rows: 1
 
-   * - OAK-FFC-3P
-     - OAK-FFC-4P
-     - OAK-FFC-6P
+   * - OAK-FFC 3P
+     - OAK-FFC 4P
+     - OAK-FFC 6P
    * - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
           :target: pages/DM1090.html
      - .. image:: /_static/images/thumbnails/FFC-4P.png
@@ -143,10 +143,10 @@ custom baseline, or custom orientation of the cameras.
 .. list-table::
    :header-rows: 1
 
-   * - OAK-FFC-IMX378
-     - OAK-FFC-OV9282
-     - OAK-FFC-48MP
-     - OAK-FFC-ToF-VGA
+   * - OAK-FFC IMX378
+     - OAK-FFC OV9282
+     - OAK-FFC 48MP
+     - OAK-FFC ToF VGA
    * - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249.html
      - .. image:: /_static/images/thumbnails/BG0250TG.png
@@ -169,8 +169,8 @@ These devices are like combining a **Raspberry Pi with an OAK-D** in a compact s
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D-CM3
-     - OAK-D-CM4
+   * - OAK-D CM3
+     - OAK-D CM4
      - OAK-D CM4 PoE
    * - .. image:: /_static/images/thumbnails/BW1097.png
           :target: pages/BW1097.html
@@ -193,8 +193,8 @@ open-source hardware designs as you see fit.
    :header-rows: 1
 
    * - OAK-SoM
-     - OAK-SoM-Pro
-     - OAK-SoM-Max
+     - OAK-SoM Pro
+     - OAK-SoM MAX
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html
      - .. image:: /_static/images/thumbnails/oak-som-pro.png
@@ -211,7 +211,7 @@ Miscellaneous Designs
 .. list-table::
    :header-rows: 1
 
-   * - Y-adapter
+   * - OAK Y-Adapter
      - FFC Camera modules
      - PoE Board
    * - .. image:: /_static/images/thumbnails/Y-Adapter.png
