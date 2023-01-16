@@ -33,7 +33,7 @@ We offer 3 variants of the OAK-SoM-Max which expose a different configuration of
 
 - **OAK-SoM-Max** - 6x 2-lane MIPI. This is the default configuration
 - **OAK-SoM-Max-1** - 4x 2-lane MIPI, 1x 4-lane MIPI. RX0+RX1 are merged into a single 4-lane MIPI
-- **OAK-SoM-Max-2** - 2x 2-lane MIPI, 2x 4-lane MIPI. RX0+RX1 and RX4+RX5 are merged into 4-lane MIPI
+- **OAK-SoM-Max-2** - 2x 2-lane MIPI, 2x 4-lane MIPI. RX0+RX1 and RX2+RX3 are merged into 4-lane MIPI
 
 Board Layout
 ************
