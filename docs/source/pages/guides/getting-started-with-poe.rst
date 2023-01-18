@@ -39,7 +39,7 @@ video streaming demos that use Script node (**OAK PoE camera is needed**), and c
 
 - `TCP streaming <https://github.com/luxonis/depthai-experiments/tree/master/gen2-poe-tcp-streaming>`__ using Script node - either TCP server or client
 - `MJPEG streaming with HTTP server <https://docs.luxonis.com/projects/api/en/latest/samples/Script/script_mjpeg_server/#script-mjpeg-server>`__ using Script node
-- `MQTT publishing <https://github.com/luxonis/depthai-experiments/tree/master/gen2-mqtt>`__ using Script node (both pub/sub should work)
+- `MQTT publishing <https://github.com/luxonis/depthai-experiments/tree/master/gen2-poe-mqtt>`__ using Script node (both pub/sub should work)
 
 Below are some demos which stream video feed from OAK camera **via XLink to the host computer** and then stream it from
 the host computer to another computer/server, which **can also work with any other OAK camera** (eg. USB line):
