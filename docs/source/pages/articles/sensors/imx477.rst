@@ -22,8 +22,6 @@ Supported resolutions
      - 1920x1080
      - 60 FPS
 
-.. include::  /pages/articles/sensors/includes/multi-cam-support.rst
-
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
 - `OAK-FFC-IMX477-M12 <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-imx477>`__

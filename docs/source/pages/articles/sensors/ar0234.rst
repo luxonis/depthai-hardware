@@ -17,8 +17,6 @@ Supported resolutions
      - 1920x1200
      - /
 
-.. include::  /pages/articles/sensors/includes/multi-cam-support.rst
-
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
 - OAK-FFC-AR0234-M12 (WIP)
