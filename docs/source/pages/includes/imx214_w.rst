@@ -12,7 +12,7 @@
    * - Focus
      - Fixed-Focus: 50cm - ∞
    * - Max Framerate
-     - 60 FPS
+     - 35 FPS
    * - F-number
      - 2.2 +-5%
    * - Lens size

@@ -17,7 +17,7 @@
      - AF: 8cm - ∞ **OR** FF: 50cm - ∞
      - Fixed-Focus 6.5cm - ∞
    * - Max Framerate
-     - 60 FPS
+     - 35 FPS
      - 120 FPS
    * - F-number
      - 2.2 ± 5%
