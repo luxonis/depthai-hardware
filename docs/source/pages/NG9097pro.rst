@@ -50,7 +50,7 @@ This device is rated to withstand temperatures within the range of -33Â° C - 55Â
 Datasheet
 *********
 
-* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9097_OAK-D-Pro-PoE/Datasheet/OAK-D-Pro-PoE_Datasheet.pdf>`__
+* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9097_OAK-D-Pro-PoE/Datasheet/NG9097_OAK-D-Pro-PoE_Datasheet.pdf>`__
 
 3D Models
 *********
