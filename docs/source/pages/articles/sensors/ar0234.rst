@@ -15,9 +15,7 @@ Supported resolutions
      - Max FPS
    * - THE_1200_P
      - 1920x1200
-     - /
-
-.. include::  /pages/articles/sensors/includes/multi-cam-support.rst
+     - 60
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 

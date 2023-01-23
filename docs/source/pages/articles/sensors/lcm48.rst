@@ -29,11 +29,7 @@ Supported resolutions
 Currently full resolution (THE_48_MP) is center cropped to 5312x6000 (due to current ISP width limit). We are working on
 implementing split processing for the full 8000 width.
 So at the moment the image at full resolution (THE_48_MP) has narrower HFOV than the camera actually is (see image below),
-just because of this limitation on linewidth.
-
-To use the LCM48, checkout `depthai-python <https://github.com/luxonis/depthai-python>`__ to the ``multi_cam_support``
-branch, and install the library by running ``python3 examples/install_requirements.py``. You can quikcly evaluate
-the sensor by running ``python3 tests/cam_test.py -cams rgb,c -cres 48mp``.
+just because of this limitation on line width.
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
