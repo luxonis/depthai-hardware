@@ -4,7 +4,7 @@ Image quality comparison
 Here's an image comparison between different image sensors captured from :ref:`OAK-FFC-3P`.
 For more information, see `Improving Image Quality <https://docs.luxonis.com/projects/api/en/latest/tutorials/image_quality/>`__ docs.
 
-:ref:`IMX214` (13MP color sensor), :ref:`IMX378` (12MP color sensor), :ref:`LCM48 <LCM48>` (48MP color sensor)
+:ref:`IMX214` (13MP color sensor), :ref:`IMX378` (12MP color sensor), :ref:`IMX582` (48MP color sensor)
 
 .. image:: /_static/images/sensors/comparison/comparison-preview.jpg
      :target: https://user-images.githubusercontent.com/18037362/183928430-a143ad61-b599-4ecd-8d74-0015d45071cf.png

@@ -33,7 +33,7 @@ We have 3 types of SoM devices:
 
 - :ref:`OAK-SoM`
 - :ref:`OAK-SoM-Pro`
-- :ref:`OAK-SoM-Max`
+- :ref:`dm3399`
 
 The main difference between them is in:
 

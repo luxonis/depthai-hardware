@@ -145,7 +145,7 @@ custom baseline, or custom orientation of the cameras.
 
    * - OAK-FFC IMX378
      - OAK-FFC OV9282
-     - OAK-FFC 48MP
+     - OAK-FFC IMX582
      - OAK-FFC ToF VGA
    * - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249.html

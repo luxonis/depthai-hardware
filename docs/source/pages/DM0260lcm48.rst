@@ -1,7 +1,7 @@
 .. _dm0260lcm48:
 
-OAK-FFC-48MP
-============
+OAK-FFC IMX582
+==============
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-imx378>`__
 
@@ -10,7 +10,7 @@ OAK-FFC-48MP
 Overview
 ********
 
-The **OAK-FFC-48MP** is a carrier board for the :ref:`LCM48 <LCM48>` camera module, and is designed to be compatible with
+The **OAK-FFC IMX582** is a carrier board for the :ref:`IMX582` camera module, and is designed to be compatible with
 :ref:`OAK-FFC-3P`, :ref:`OAK-FFC-4P`, and :ref:`OAK-FFC RPi HAT <bw1094>` baseboards. A 26-pin FFC is used
 to carry 5V power, 4-lane MIPI, I2C, and other control signals between the this camera module and the controller baseboard.
 
@@ -30,7 +30,7 @@ Key features
 ************
 
 * 26 pin 0.5mm FFC interconnect to baseboard
-* 30 pin interface to LCM48 camera module
+* 30 pin interface to IMX582 camera module
 * 4-lane MIPI
 * Aux/Control signals to camera module
 * 5V power input via FFC

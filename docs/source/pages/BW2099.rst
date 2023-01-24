@@ -56,7 +56,7 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
         isn't (yet) supported by RVC3 (kernel). RVC3 has ETH PHY already on the SoC, so S3 PoE devices won't use the same bridge.
 
         It was primarily designed for evaluation and backwards compatibility.
-        For new products, we would suggest using :ref:`OAK-SoM-Max` (differences below).
+        For new products, we would suggest using :ref:`dm3399` (differences below).
 
         **RVC3 inside**
 

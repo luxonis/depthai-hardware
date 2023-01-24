@@ -11,7 +11,7 @@ Overview
 ********
 
 The **OAK-FFC-6P** baseboard has **6 FFC interfaces** which allows for **six 2-lane MIPI** camera modules. It is the
-first device from :ref:`OAK Series 3` (with RVP3) and uses the :ref:`OAK-SoM-Max`.
+first device from :ref:`OAK Series 3` (with RVP3) and uses the :ref:`dm3399`.
 
 To see **which cameras are compatible with this OAK FFC baseboard**, see the guide here: :ref:`OAK FFC camera modules`.
 Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can use different lenses to get **custom FoV** (with :ref:`wide or narrow FOV M12 lenses <M12 selectable FOV>`).
@@ -39,7 +39,7 @@ Key features
 ************
 
 - 6x 2-line MIPI camera interfaces (all of the CCMs supported in DepthAI can run on 2-lane MIPI, most of them also in full resolution)
-- :ref:`OAK-SoM-Max` connected to the baseboard
+- :ref:`dm3399` connected to the baseboard
 - 5V power input via barrel jack
 - USB 3.1 Gen 1 Type-C
 - IMU support (BMI270 by default, footprint for BNO086)
@@ -57,10 +57,10 @@ Getting started
 ***************
 
 The OAK-FFC-6P accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C.
-With cameras and the :ref:`OAK-SoM-Max`, total power consumption usually stays below the 1.5 A specification, Type-C power
+With cameras and the :ref:`dm3399`, total power consumption usually stays below the 1.5 A specification, Type-C power
 of 1.5 A or greater is recommended.
 
-Interfacing with the :ref:`OAK-SoM-Max` is also possible with OAK-FFC-6P connector pads QSPI, and AUX. These pads
+Interfacing with the :ref:`dm3399` is also possible with OAK-FFC-6P connector pads QSPI, and AUX. These pads
 are designed for the Amphenol/FCI 20021121-00010T1LF or equivalent. Please refer to the schematics for pinout
 information.
 
