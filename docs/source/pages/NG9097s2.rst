@@ -23,7 +23,7 @@ Hardware specifications
 
 .. include:: /pages/includes/poe_connectivity-s2.rst
 
-.. include:: /pages/includes/s2_sensors.rst
+.. include:: /pages/includes/imx378_ov9282.rst
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 

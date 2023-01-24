@@ -1,5 +1,5 @@
 Sensor specifications
----------------------
+*********************
 
 .. list-table::
     :header-rows: 1
@@ -7,7 +7,7 @@ Sensor specifications
     * - Camera Specs
       - Color camera
     * - Sensor
-      - :ref:`IMX378`
+      - :ref:`IMX378` (PY060)
     * - Shutter
       - rolling
     * - FOV (D/H/V)
@@ -18,6 +18,14 @@ Sensor specifications
       - FF: 60cm - ∞
     * - Max Framerate
       - 60 FPS
+    * - F-number
+      - 2.8 ±5%
+    * - Lens size
+      - 1/2.3 inch
+    * - Effective Focal Length
+      - 2.75mm
+    * - Distortion
+      - < -14.6%
     * - Pixel size
       - 1.55µm x 1.55µm
 

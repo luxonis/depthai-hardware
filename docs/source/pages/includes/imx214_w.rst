@@ -1,10 +1,13 @@
-.. list-table:: Sensor specifications
+Sensor specifications
+*********************
+
+.. list-table::
    :header-rows: 1
 
    * - Camera Specs
      - Color camera
    * - Sensor
-     - :ref:`IMX214`
+     - :ref:`IMX214` (PY061)
    * - DFOV / HFOV / VFOV
      - 117° / 105° / 88°
    * - Resolution
@@ -14,12 +17,12 @@
    * - Max Framerate
      - 35 FPS
    * - F-number
-     - 2.2 +-5%
+     - 2.2 ±5%
    * - Lens size
      - 1/3.1 inch
    * - Effective Focal Length
-     - 3.37mm
+     - 2.62mm
    * - Distortion
-     - < 1%
+     - < 11%
    * - Pixel size
      - 1.12µm x 1.12µm
