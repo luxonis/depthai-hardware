@@ -152,12 +152,12 @@ custom baseline, or custom orientation of the cameras.
      - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG.html
      - .. image:: /_static/images/thumbnails/oak-ffc-48mp.png
-          :target: pages/DM0260lcm48.html
+          :target: pages/DM0260imx582.html
      - .. image:: /_static/images/thumbnails/DM0256.png
           :target: pages/DM0256.html
    * - :ref:`Learn more <bg0249>`
      - :ref:`Learn more <bg0250tg>`
-     - :ref:`Learn more <dm0260lcm48>`
+     - :ref:`Learn more <DM0260imx582>`
      - :ref:`Learn more <dm0256>`
 
 
@@ -308,7 +308,7 @@ Miscellaneous Designs
    pages/DM1090.rst
    pages/BG0250TG.rst
    pages/BG0249.rst
-   pages/DM0260lcm48.rst
+   pages/DM0260imx582.rst
    pages/arducam.rst
 
 .. toctree::
