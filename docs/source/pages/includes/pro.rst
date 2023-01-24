@@ -68,3 +68,6 @@ Projector specifications
 
 *FOI = Field of illumination*. Also note that in datasheet, HFOI and VFOI are switched, that's because we mount the Belago1.1 rotated as we want
 greater horizontal field, to match field of cameras.
+
+Regarding operating temperature; some customers use dot projector even at lower ambient temperatures, but first wait a few minutes
+for device to heat up (by running AI/CV/stereo depth...) so projector gets to above 0°C.
