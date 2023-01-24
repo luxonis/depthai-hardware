@@ -66,21 +66,9 @@ For global shutter sensors, this follows immediately after the exposure for the 
 so we can say the timestamp assigned is aligned with end of exposure-window (within a margin of few microseconds).
 Here's an example graph of the global shutter sensor timings, which demonstrates when timestamp is assigned to the frame:
 
-.. code-block::
+.. figure:: /_static/images/time-diagrams/time_diagram_global.png
 
-    frame-time |---------33.3ms---------|---------33.3ms---------|---------33.3ms---------|-
-
-    exposure           <-----20ms------>                 <-10ms->     <-------30ms------->
-              _        _________________                 ________     ____________________
-    STROBE     |______|     frame1      |_______________| frame2 |___|      frame3        |_
-                _                        _                        _                        _
-    FSIN      _| |______________________| |______________________| |______________________|
-
-    MIPI      _     frame0  ____________    frame1   ____________   frame2    ____________
-    readout    \XXXXXXXXXXX/            \XXXXXXXXXXX/            \XXXXXXXXXXX/            \
-
-    capture    ^                        ^                        ^                        ^
-    timestamp  frame0                   frame1                   frame2                   frame3
+    Rolling shute sensor timings
 
 For rolling shutter, the example graph looks a bit different.
 MIPI SoF follows after the first row of the image was fully exposed and it's being streamed, but the following rows are
@@ -90,23 +78,9 @@ Below there's an example graph of rolling shutter sensor (IMX378) at 1080p
 and 30fps (33.3ms frame time). MIPI readout time varies between sensors/resolutions, but for IMX378 it's 16.54ms at 1080P,
 23.58ms at 4K, and 33.04ms at 12MP.
 
-.. code-block::
+.. figure:: /_static/images/time-diagrams/time_diagram_rolling.png
 
-    frame-time |---------33.3ms---------|---------33.3ms---------|---------33.3ms---------|-------------...
-
-    exposure           frame1                            frame2       frame3
-    exposure  row0     <-----20ms------>                 <-10ms->     <-------30ms------->
-    exposure  row540         <-----20ms------>                 <-10ms->     <-------30ms------->
-    exposure  row1079              <-----20ms------>                 <-10ms->     <-------30ms------->
-
-    MIPI      _     frame0  ____________    frame1   ____________   frame2    ____________   frame3    _...
-    readout    \XXXXXXXXXXX/            \XXXXXXXXXXX/            \XXXXXXXXXXX/            \XXXXXXXXXXX/
-                16.54ms                  16.54ms                  16.54ms                  16.54ms
-    capture    ^                        ^                        ^                        ^
-    timestamp  frame0                   frame1                   frame2                   frame3
-                _                        _                        _                        _
-    FSYNC     _| |______________________| |______________________| |______________________| |___________...
-
+    Global shute sensor timings
 
 OAK-FFC hardware syncing
 ========================
