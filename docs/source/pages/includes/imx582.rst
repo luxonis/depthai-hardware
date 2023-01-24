@@ -1,16 +1,21 @@
-.. list-table:: Sensor specifications
+Sensor specifications
+*********************
+
+.. list-table::
   :header-rows: 1
 
   * - Camera Specs
     - Color camera
   * - Sensor
-    - :ref:`IMX582`
+    - :ref:`IMX582` (PY080)
   * - DFOV / HFOV / VFOV
     - 82° / 68° / 55°
-  * - Focus
-    - Auto-Focus: 20cm - ∞
   * - Resolution
     - 32MP (5312x6000)
+  * - Focus
+    - Auto-Focus: 20cm - ∞
+  * - Max Framerate
+    - 42 FPS
   * - F-number
     - 1.79±5%
   * - Lens size
@@ -19,8 +24,5 @@
     - 4.74mm
   * - Distortion
     - < 1.5%
-..
-  * - Max Framerate
-    - 60 FPS
   * - Pixel size
-    - 1.12µm x 1.12µm
+    - 0.8µm x 0.8µm

@@ -1,0 +1,42 @@
+Sensor specifications
+*********************
+
+.. list-table::
+   :header-rows: 1
+
+   * - Camera Specs
+     - Color camera
+     - Stereo pair
+   * - Sensor
+     - :ref:`OV9782` (PY058)
+     - :ref:`OV9282` (PY059)
+   * - DFOV / HFOV / VFOV
+     - 150°/128°/80°
+     - 150°/128°/80°
+   * - Rectified Depth FOV
+     - N/A
+     - 106°/97°/70°
+   * - Resolution
+     - 1MP (1280x800)
+     - 1MP (1280x800)
+   * - Focus
+     - FF: 18cm - ∞
+     - FF: 18cm - ∞
+   * - Max Framerate
+     - 60 FPS (800P)
+     - 120 FPS (400P)
+   * - F-number
+     - 2 ±5%
+     - 2 ±5%
+   * - Lens size
+     - 1/4 inch
+     - 1/4 inch
+   * - Effective Focal Length
+     - 1.69mm
+     - 1.69mm
+   * - Distortion
+     - < 38%
+     - < 38%
+   * - Pixel size
+     - 3µm x 3µm
+     - 3µm x 3µm

@@ -32,7 +32,7 @@ just because of this limitation on line width.
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
-- :ref:`dm0260lcm48`
+- :ref:`dm0260imx582`
 
 .. figure:: /_static/images/sensors/LCM48/48mp-ffc.jpg
 

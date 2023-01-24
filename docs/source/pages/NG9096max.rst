@@ -18,7 +18,7 @@ models on-board, so that your host is free to do whatever you need it to do.
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/lcm48.rst
+.. include:: /pages/includes/imx582.rst
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 

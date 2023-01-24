@@ -1,9 +1,9 @@
-.. _dm0260lcm48:
+.. _DM0260imx582:
 
 OAK-FFC IMX582
 ==============
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-imx378>`__
+`Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-imx582>`__
 
 .. image:: /_static/images/DM0260/oak-ffc-48mp.png
 
@@ -17,7 +17,7 @@ to carry 5V power, 4-lane MIPI, I2C, and other control signals between the this 
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/lcm48.rst
+.. include:: /pages/includes/imx582.rst
 
 Board Layout and Dimensions
 ***************************

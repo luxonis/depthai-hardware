@@ -1,10 +1,13 @@
-.. list-table:: Sensor specifications
+Sensor specifications
+*********************
+
+.. list-table::
    :header-rows: 1
 
    * - Camera Specs
-     - Stereo camera
+     - Stereo pair
    * - Sensor
-     - OV9282
+     - :ref:`OV9282` (PY003)
    * - DFOV / HFOV / VFOV
      - 82° / 72° / 50°
    * - Resolution
@@ -14,8 +17,12 @@
    * - Max Framerate
      - 120 FPS
    * - F-number
-     - 2.2
+     - 2.0 ±5%
    * - Lens size
      - 1/4 inch
+   * - Effective Focal Length
+     - 2.35mm
+   * - Distortion
+     - < 1%
    * - Pixel size
      - 3µm x 3µm
