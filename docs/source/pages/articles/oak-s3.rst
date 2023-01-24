@@ -16,7 +16,7 @@ Series 3 roadmap
 
 - **2022 Q1**: Hardware bring-up and testing.
 - **2022 Q2**: Porting of DepthAI stack to :ref:`RVC3`.
-- **2022 Q3**: Hardware bring-up and testing of :ref:`OAK-SoM-Max`. Evaluation testing.
+- **2022 Q3**: Hardware bring-up and testing of :ref:`dm3399`. Evaluation testing.
 - **2022 Q4**: Beta release of initial OAK devices with integrated :ref:`RVC3`. Software/firmware is getting more feature-complete and more stable.
 - **2023 Q2**: Official release of OAK S3 device(s).
 
@@ -25,12 +25,12 @@ This might be a bit of an optimistic roadmap due to supply chain issues, but we 
 **2022 Updates**
 
 - **February**: We manufactured the initial batch of SoM with :ref:`RVC3` on board. We also started porting the DepthAI library to the new ecosystem.
-- **March**: We designed :ref:`OAK-SoM-Max` and started porting DepthAI stack.
-- **May**: We received initial :ref:`OAK-SoM-Max` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
+- **March**: We designed :ref:`dm3399` and started porting DepthAI stack.
+- **May**: We received initial :ref:`dm3399` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
 - **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-S3.
 - **July**: New OS for :ref:`RVC3` - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
-- **August**: DepthAI initial release for RVC3 (stereo support, NN support, logging support), initial support for :ref:`LCM48 <LCM48>`, PCIe WiFi card support, OTA updates
-- **September**: HDR support, support for :ref:`IMX214`, full support for :ref:`LCM48 <LCM48>`, LuxOS restructure and initial release
+- **August**: DepthAI initial release for RVC3 (stereo support, NN support, logging support), initial support for :ref:`IMX582`, PCIe WiFi card support, OTA updates
+- **September**: HDR support, support for :ref:`IMX214`, full support for :ref:`IMX582`, LuxOS restructure and initial release
 - **October**: LuxOS flashing/updating and signing, EdgeDetector, Warp and Spatial nodes, dot projector & LED support (I2C)
 - **November**: on ``rvc3_support`` branch majority of the DepthAI nodes are already supported, except FeatureTracker, ObjectTracker, Script node and some features (eg. RGB-depth alignment).
 

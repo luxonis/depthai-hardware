@@ -10,9 +10,9 @@ OAK-1 MAX
 Overview
 ********
 
-**OAK-1 MAX** features an 48MP color sensor (:ref:`LCM48 <LCM48>`) on a tiny, yet performant, device.
+**OAK-1 MAX** supports up to 32MP color camera resolution (:ref:`IMX582`) on a tiny, yet performant, device.
 
-OAK-1 Max isn’t a standard USB camera. It’s a 4-trillion-operations-per-second AI powerhouse that performs your AI
+OAK-1 Max isn't a standard USB camera. It's a 4-trillion-operations-per-second AI powerhouse that performs your AI
 models on-board, so that your host is free to do whatever you need it to do.
 
 Hardware specifications
@@ -32,13 +32,16 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1093/oak-1-assembly.png
 
-Datasheet
-*********
+..
+    Datasheet
+    *********
 
-* `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9096_OAK-1-Lite/Datasheet/OAK-1-Lite_Datasheet.pdf>`__
+    * `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9096_OAK-1-Lite/Datasheet/OAK-1-Lite_Datasheet.pdf>`__
 
 3D models
 *********
+
+Compared to OAK-1 Lite, OAK-1 Max only has a different camera sensors, otherwise PCBA/enclosure is the same.
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9096_OAK-1-Lite/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/NG9096_OAK-1-Lite/Mechanical>`__

@@ -1,10 +1,10 @@
-.. _LCM48:
+.. _IMX582:
 
-Luxonis Proprietary 48MP Camera Module
-======================================
+IMX582
+======
 
-This is a proprietary 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
-currnetly supports.
+IMX582 (previously LCM48) is a 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
+currently supports. It's integrated into the :ref:`ng9096max`.
 
 Supported resolutions
 #####################
@@ -26,18 +26,17 @@ Supported resolutions
      - Full resolution, currently width is cropped
 
 
-Currently full resolution (THE_48_MP) is center cropped to 5312x6000 (due to current ISP width limit). We are working on
-implementing split processing for the full 8000 width.
+Currently the full resolution (THE_48_MP) is center cropped to **5312x6000 due to ISP width limit**.
 So at the moment the image at full resolution (THE_48_MP) has narrower HFOV than the camera actually is (see image below),
 just because of this limitation on line width.
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
-- OAK-FFC-LCM48
+- :ref:`dm0260lcm48`
 
 .. figure:: /_static/images/sensors/LCM48/48mp-ffc.jpg
 
-  OAK-FFC-LCM48 (AF, NFOV)
+  AF, NFOV
 
 .. include::  /pages/articles/sensors/includes/ccm-section.rst
 
@@ -53,7 +52,7 @@ just because of this limitation on line width.
 
 .. figure:: /_static/images/sensors/LCM48/lcm48.jpg
 
-  Arducam short FPC NFOV AF LCM48
+  Arducam short FPC IMX582 Compact Camera Module with NFOV and AF
 
 .. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
 

@@ -75,7 +75,7 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 4056x3040
      - Initially tested, similar to IMX477
-   * - :ref:`LCM48 <LCM48>`
+   * - :ref:`IMX582`
      - Initially tested
      - rolling
      - 8000x6000
@@ -191,7 +191,7 @@ Arducam short FPC
 * :ref:`IMX477`
 
   * AF (short FPC M12-Mount, haven't yet received samples)
-* :ref:`LCM48 <LCM48>`
+* :ref:`IMX582`
 
   * AF/FF/NoIR/NotchIR - 82° DFOV, 68° HFOV, 55° VFOV
   * FF Wide FOV - 120° DFOV, 96° HFOV, 89° VFOV
