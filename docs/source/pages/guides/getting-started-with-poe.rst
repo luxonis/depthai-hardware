@@ -142,9 +142,9 @@ It is worth checking the specifications of your PoE switch / injector with respe
 "Special" network equipment
 """""""""""""""""""""""""""
 
-We have noticed that with certain network equipment, our 15 seconds **timeouts for connecting** to the
-POE deviceare insufficient, and **need to be increased**. You can increase these by using
-environmental variables (values in milliseconds).
+We have noticed that with certain network equipment, our default 15 seconds **timeout for connecting** to the
+POE device is insufficient, and **needs to be increased**. You can increase the timeout by using
+environmental variable (values in milliseconds).
 
 .. tabs::
 
