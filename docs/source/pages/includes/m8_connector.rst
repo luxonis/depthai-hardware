@@ -19,10 +19,10 @@ M8 aux connector has 8pin female A-coded connector. M12 ethernet has 8pin female
      - Isolated Frame synchronization input signal for cameras
    * - 3
      - USB D+
-     - USB 2.0 interface used as a host to control external devices. Could be used to connect to the device (eg. reflash), if USB boot is enabled (via AUX GPIO 3V3).
+     - USB 2.0 interface that can be used to connect to the OAK device (eg. reflash) if USB boot is enabled (via AUX GPIO 3V3).
    * - 4
      - USB D-
-     - USB 2.0 interface used as a host to control external devices. Could be used to connect to the device (eg. reflash), if USB boot is enabled (via AUX GPIO 3V3).
+     - USB 2.0 interface that can be used to connect to the OAK device (eg. reflash) if USB boot is enabled (via AUX GPIO 3V3).
    * - 5
      - VBUSIN
      - This pin is used for sourcing 5V power to accessory devices connected to the M8 connector. If trying to boot the device in USB boot mode, this pin can also sink current.
