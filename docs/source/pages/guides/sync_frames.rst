@@ -68,7 +68,7 @@ Here's an example graph of the global shutter sensor timings, which demonstrates
 
 .. figure:: /_static/images/time-diagrams/time_diagram_global.png
 
-    Rolling shute sensor timings
+    Global shutter sensor timings
 
 For rolling shutter, the example graph looks a bit different.
 MIPI SoF follows after the first row of the image was fully exposed and it's being streamed, but the following rows are
@@ -80,7 +80,7 @@ and 30fps (33.3ms frame time). MIPI readout time varies between sensors/resoluti
 
 .. figure:: /_static/images/time-diagrams/time_diagram_rolling.png
 
-    Global shute sensor timings
+    Rolling shutter sensor timings
 
 OAK-FFC hardware syncing
 ========================
