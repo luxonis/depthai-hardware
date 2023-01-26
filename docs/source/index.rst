@@ -217,7 +217,7 @@ Miscellaneous Designs
    * - .. image:: /_static/images/thumbnails/Y-Adapter.png
           :target: pages/DM6010.html
      - .. image:: /_static/images/thumbnails/arducam_2.png
-          :target: pages/arducam.html
+          :target: pages/ffc-cameras.html
      - .. image:: /_static/images/thumbnails/BW2098POE.png
           :target: pages/BW2098POE.html
    * - :ref:`Learn more <Y-adapter>`
@@ -309,7 +309,7 @@ Miscellaneous Designs
    pages/BG0250TG.rst
    pages/BG0249.rst
    pages/DM0260imx582.rst
-   pages/arducam.rst
+   pages/ffc-cameras.rst
 
 .. toctree::
    :maxdepth: 1

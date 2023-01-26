@@ -86,6 +86,18 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - 12.3MP
      - Color, CS mount lens
 
+
+FFC camera mounting
+*******************
+
+**OAK-FFC Kit** is a great way to mount your OAK FFC camera modules. It allows you to easily customize both **horizontal and vertical stereo baseline**.
+You can buy it from `our shop <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-kit>`__. For usage, see `instruction here <https://github.com/luxonis/depthai-hardware/blob/master/oak-ffc-kit/OAK-FFC-Kit_assembly_instruction.pdf>`__.
+
+.. image:: /_static/images/arducam/ffc-kit.jpg
+
+Mounting adapters can also be found `on Github <https://github.com/luxonis/depthai-hardware/tree/master/adapters>`__.
+
+
 M12 mount lenses
 ****************
 
