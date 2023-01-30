@@ -38,8 +38,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
 
-Key features
-************
+General information
+*******************
 
 * 2 OAK-FFC-OV9282 mono camera module interfaces
 * 1 OAK-FFC-IMX378 RGB camera module interface

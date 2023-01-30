@@ -38,8 +38,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/FFC-4P/OAK-FFC-4P_dimensions.png
 
-Key features
-************
+General information
+*******************
 
 * 2x 2-Lane MIPI interface
 * 2x 4-Lane MIPI interface

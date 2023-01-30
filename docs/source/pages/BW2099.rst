@@ -86,8 +86,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/SOM-PRO/oak-som-pro-dimensions.jpeg
 
-Key features
-************
+General information
+*******************
 
 * :ref:`RVC3` **unique features**:  2 GB RAM (16GBit)
 * :ref:`RVC2` **unique features**:  512 MB RAM (4GBit)

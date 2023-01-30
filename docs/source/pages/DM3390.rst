@@ -35,8 +35,8 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. image:: /_static/images/FFC-6P/bottom.jpg
 
-Key features
-************
+General information
+*******************
 
 - 6x 2-line MIPI camera interfaces (all of the CCMs supported in DepthAI can run on 2-lane MIPI, most of them also in full resolution)
 - :ref:`dm3399` connected to the baseboard

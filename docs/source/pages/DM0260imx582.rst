@@ -26,8 +26,8 @@ Board Layout and Dimensions
 * Height: 23.86 mm
 * Weight: 3g
 
-Key features
-************
+General information
+*******************
 
 * 26 pin 0.5mm FFC interconnect to baseboard
 * 30 pin interface to IMX582 camera module

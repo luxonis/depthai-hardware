@@ -30,8 +30,8 @@ Dimensions and Weight
 
 * Weight: 78g
 
-Key features
-************
+General information
+*******************
 
 * Support :ref:`OAK-FFC-IMX378 <bg0249>` 12MP RGB camera module
 * Interface for :ref:`OAK-SoM-Pro <bw2099>`

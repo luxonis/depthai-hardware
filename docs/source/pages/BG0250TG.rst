@@ -28,8 +28,8 @@ Board Layout and Dimensions
 
 .. image:: /_static/images/BG0250TG/BG0250TG_R0M0E0_diag.jpg
 
-Key features
-************
+General information
+*******************
 
 * 26 pin 0.5mm FFC interconnect to baseboard
 * 24 pin interface to OV9282 camera module

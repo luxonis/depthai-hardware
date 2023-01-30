@@ -41,8 +41,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1099EMB/BW1099EMB_dim.jpg
 
-Key features
-************
+General information
+*******************
 
 * Interfaces with the system through a single 10-Gbps-rated 100-pin connector (DF40C-100DP-0.4V(51))
 * 2 x 2-lane MIPI channels

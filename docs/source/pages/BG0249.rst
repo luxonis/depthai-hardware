@@ -26,8 +26,8 @@ Board Layout and Dimensions
 
 .. image:: /_static/images/BG0249/BG0249_R0M0E0_dims.jpg
 
-Key features
-************
+General information
+*******************
 
 * 26 pin 0.5mm FFC interconnect to baseboard
 * 30 pin interface to IMX378 camera module

@@ -46,8 +46,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM1090FFC/oak-ffc-3p-dimensions.jpeg
 
-Key features
-************
+General information
+*******************
 
 * 3x OAK-FFC-OV9282 (DM0250TG_R1M1E1) mono camera module interfaces or
 * 2x OAK-FFC-OV9282 (DM0250TG_R1M1E1) and 1x OAK-FFC-IMX378 (DM0249_R1M1E1) RGB camera module interface

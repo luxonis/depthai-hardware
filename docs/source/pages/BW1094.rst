@@ -26,11 +26,11 @@ Board Layout and Dimensions
 .. image:: /_static/images/BW1094/BW1094_R0M0E0_diag.jpg
 .. image:: /_static/images/BW1094/BW1094_R0M0E0_dims.jpg
 
-Key features
-************
+General information
+*******************
 
-* 2 OAK-FFC-OV9282 mono camera module interfaces
-* 1 OAK-FFC-IMX378 RGB camera module interface
+* 2 x 2-lane MIPI channels
+* 1 x 4-lane MIPI channels
 * Pass-thru for standard RPi Model B GPIO header
 * Level-shifted reset (BCM GPIO26)
 * 5V power input via barrel jack or GPIO header

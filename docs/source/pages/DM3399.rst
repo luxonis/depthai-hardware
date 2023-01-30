@@ -49,8 +49,8 @@ Dimensions and Weight
 * Length: 4 mm
 * Weight: 5g
 
-Key features
-************
+General information
+*******************
 
 * :ref:`RVC3`
 * 4 GB RAM (2x16GBit)

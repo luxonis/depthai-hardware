@@ -46,15 +46,13 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1093/oak-1-assembly.png
 
-Key features
-************
+General information
+*******************
 
-* Support :ref:`OAK-FFC-IMX378 <bg0249>` 12MP RGB camera module
+* Support for :ref:`IMX378` 12MP RGB camera module
 * Enclosure compatible with standard tripod mount (1/4"-20)
 * USB 3.1 Gen1 Type-C data and power
 * USB device power LED indicators
-* AUX 5V connector
-* Access to SoM 1.8V I2C and UART
 
 Brochures
 *********

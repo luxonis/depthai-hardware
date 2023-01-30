@@ -17,8 +17,8 @@ This allows using DepthAI with all sorts of lens combinations, including variabl
 
 .. image:: /_static/images/BW0253/BW0253.jpg
 
-Key features
-************
+General information
+*******************
 
 * Onboard 5V to 3.3V regulation
 * Level shifting of DepthAI 1.8V-native IO to 3.3V-native RPI IO
