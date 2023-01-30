@@ -13,9 +13,11 @@ Supported resolutions
    * - Name
      - Resolution
      - Max FPS
+     - MIPI lanes
    * - THE_1200_P
      - 1920x1200
      - 60
+     - 2
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
