@@ -14,15 +14,19 @@ Supported resolutions
    * - Name
      - Resolution
      - Max FPS
+     - MIPI lanes
    * - THE_800_P
      - 1280x800
      - 60 FPS
+     - 2
    * - THE_720_P
      - 1280x720
      - 60 FPS
+     - 2
    * - THE_400_P
      - 640x400
      - 120 FPS
+     - 2
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 

@@ -14,15 +14,19 @@ Supported resolutions
    * - Name
      - Resolution
      - Max FPS
+     - MIPI lanes
    * - THE_12_MP
      - 4056x3040
      - 30 FPS
+     - 2
    * - THE_4_K
      - 3840 x 2160
      - 30 FPS
+     - 2
    * - THE_1080_P
      - 1920x1080
      - 60 FPS
+     - 2
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
