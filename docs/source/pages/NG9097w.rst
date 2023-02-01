@@ -26,7 +26,7 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-.. include:: /pages/includes/m8_connector.rst
+.. include:: /pages/includes/poe_s2_connectors.rst
 
 Dimensions and Weight
 *********************
