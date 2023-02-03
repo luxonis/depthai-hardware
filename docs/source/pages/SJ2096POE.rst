@@ -32,7 +32,7 @@ Dimensions and Weight
 * Length: 32 mm
 * Weight: 294g
 
-.. image:: /_static/images/SJ2096POE/OAK-1-PoE-dimensions.svg
+.. image:: /_static/images/SJ2096POE/oak-1-poe-dimensions.png
 
 Board Layout
 ************
