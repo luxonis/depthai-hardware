@@ -90,7 +90,23 @@ silver metal ring on the Auto-Focus mechanism, as shown in the image below.
 
 .. image:: /_static/images/guides/AF_FF_recognize.jpg
 
-.. include::  /pages/includes/footer-short.rst
+Another possibility would be to query this information using depthai library:
+
+.. code-block:: python
+
+    import depthai as dai
+    with dai.Device() as device:
+        print(device.getConnectedCameraFeatures())
+
+Which will print something like below. The ``hasAutofocus`` field will be 1 for AF camera, and 0 for FF camera. So in this case, our OAK-D camera is AF:
+
+.. code-block:: bash
+
+    [
+    {socket: RGB/CENTER/CAM_A, sensorName: IMX378, width: 4056, height: 3040, orientation: AUTO, supportedTypes: [COLOR], hasAutofocus: 1, name: color},
+    {socket: LEFT/CAM_B, sensorName: OV9282, width: 1280, height: 800, orientation: AUTO, supportedTypes: [MONO], hasAutofocus: 0, name: left},
+    {socket: RIGHT/CAM_C, sensorName: OV9282, width: 1280, height: 800, orientation: AUTO, supportedTypes: [MONO], hasAutofocus: 0, name: right}
+    ]
 
 AF/FF Availability
 ******************
@@ -99,3 +115,5 @@ Auto-Focus and Fixed-Focus center color camera options are available standard fo
 the OAK-D, which doesn't offer a Fixed-Focus option standard, however a Fixed-Focus camera can be swapped in custom on request.
 In this case however, it will likely make more sense to simply select a different OAK. Visit our `store <https://shop.luxonis.com/>`_
 to see our full range of options.
+
+.. include::  /pages/includes/footer-short.rst
