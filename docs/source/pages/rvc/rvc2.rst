@@ -39,6 +39,7 @@ The SoC has integrated a number of hardware accelerators, and DepthAI API has be
     * For higher resolutions more SHAVES are consumed; for 1080P, 3 SHAVES are used, and for 4K, 6 SHAVES are used.
     * Internal resource manager inside DepthAI coordinates the use of SHAVES, and warns if too many resources are requested by a given pipeline configuration.
 
+* **20x CMX slices** - these are fast SRAM memory blocks (each 128kB) that are used for temporary storage of calculations. They are used by NN models, camera ISP, image manipulations processes etc. They 
 * **Stereo pipeline** - Stereo matching (census transform, cost matching and cost aggregation) used by `StereoDepth node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#internal-block-diagram-of-stereodepth-node>`__.
 * **Video encoder** which supports MJPEG, H264 and H265 codecs. It's used by `VideoEncoder node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/video_encoder/>`__.
 * **Vision blocks**:
@@ -47,5 +48,7 @@ The SoC has integrated a number of hardware accelerators, and DepthAI API has be
     * Corner detection (Harris/Shi-Thomasi) - used by `FeatureTracker node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/feature_tracker/>`__.
     * Motion estimator - used by `FeatureTracker node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/feature_tracker/>`__.
     * Min/Max calculator - used by `FeatureTracker node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/feature_tracker/>`__ for NMS (for Harris corner detection).
+
+You can check the SHAVE and CMX by enabling `debug information <https://docs.luxonis.com/projects/api/en/latest/tutorials/debugging/#resource-debugging>`__.
 
 .. include::  /pages/includes/footer-short.rst
