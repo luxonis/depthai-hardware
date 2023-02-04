@@ -182,6 +182,31 @@ in slow FPS, high latency, and/or high OAK CPU usage. You can use **ethtool** to
 
 In one case configuring ``sudo ethtool -C NAME rx-usecs 1022`` (where NAME was enp59s0f1) improved FPS from 12 to 20.
 
+
+Advance network settings
+""""""""""""""""""""""""
+
+.. note::
+    For advance users only! Luxonis does not provide support for these settings.
+
+For more advance users we have exposed some network settings that allows you to fine-tune the system for better performance.
+You can configure them with the device config object.
+
+For :ref:`RVC2 <rvc2>` ``sysctl`` configuration, see `available settings here <https://gist.github.com/Erol444/89a7fb1299d7a390b9f83c9028cfea81>`__
+(note that some settings are **read-only**, and some might **crash the system**).
+Please refer to FreeBSD's documentation (12.0) for more information on sysctl settings.
+
+.. code-block:: python
+
+    config = dai.Device.Config()
+    config.board.network.mtu = 9000 # Jumbo frames. Default 1500
+    config.board.network.xlinkTcpNoDelay = False # Default True
+    config.board.sysctl.append("net.inet.tcp.delayed_ack=1") # configure sysctl settings. 0 by default.
+
+    with dai.Device(config) as device:
+        device.startPipeline(pipeline)
+
+
 Flash static IP
 ###############
 
