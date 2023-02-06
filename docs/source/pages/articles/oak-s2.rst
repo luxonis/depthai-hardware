@@ -9,7 +9,7 @@ The S2 OAK devices will have **these permutations**:
 
 .. image:: /_static/images/guides/series2.png
 
-**Series 2 (S2)** of OAK devices have :ref:`RVC2` chip-down design, instead of on the :ref:`SoM <System on Module Designs>`.
+**Series 2 (S2)** of OAK devices have :ref:`RVC2` chip-down design, instead of on the :ref:`SoM <som_designs>`.
 This allows devices to be smaller and consequently lighter.
 
 **OAK S2 cameras:**

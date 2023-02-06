@@ -57,6 +57,6 @@ Camera options
 
 :ref:`OAK Series 2` devices also come with a :ref:`Wide FOV` option, which has 150° HFOV lenses.
 
-The **OAK-FFC family** supports a number of different camera modules For more information, see :ref:`here <Arducam compatible cameras>`.
+The **OAK-FFC family** supports a number of different camera modules For more information, see :ref:`here <arducam>`.
 
 .. include::  /pages/includes/footer-short.rst

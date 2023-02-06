@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'DepthAI Hardware Documentation'
-copyright = 'by Luxonis'
+html_show_copyright=False
 author = 'Luxonis'
 
 # The full version, including alpha/beta/rc tags
