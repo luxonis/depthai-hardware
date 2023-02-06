@@ -1,0 +1,1624 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE60
+P 6950 8400
+AR Path="/5FD7EFCD/6009EE60" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE60" Ref="#GND_015"  Part="1" 
+F 0 "#GND_015" H 6950 8400 20  0000 C CNN
+F 1 "GND" H 6950 8330 30  0000 C CNN
+F 2 "" H 6950 8400 70  0000 C CNN
+F 3 "" H 6950 8400 70  0000 C CNN
+	1    6950 8400
+	1    0    0    -1  
+$EndComp
+Text Notes 13400 9350 0    60   ~ 0
+SMT mounting standoffs for module\nM2, 3MM steel spacer on M2.5 mounting pad
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE67
+P 2500 5450
+AR Path="/5FD7EFCD/6009EE67" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE67" Ref="#GND_06"  Part="1" 
+F 0 "#GND_06" H 2500 5450 20  0001 C CNN
+F 1 "GND" H 2500 5380 30  0000 C CNN
+F 2 "" H 2500 5450 70  0000 C CNN
+F 3 "" H 2500 5450 70  0000 C CNN
+	1    2500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE6D
+P 14850 9600
+AR Path="/5FD7EFCD/6009EE6D" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE6D" Ref="#GND_014"  Part="1" 
+F 0 "#GND_014" H 14850 9600 20  0001 C CNN
+F 1 "GND" H 14850 9530 30  0000 C CNN
+F 2 "" H 14850 9600 70  0000 C CNN
+F 3 "" H 14850 9600 70  0000 C CNN
+	1    14850 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE7D
+P 4700 10650
+AR Path="/5FD7EFCD/6009EE7D" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE7D" Ref="#GND_07"  Part="1" 
+F 0 "#GND_07" H 4700 10650 20  0000 C CNN
+F 1 "GND" H 4700 10580 30  0000 C CNN
+F 2 "" H 4700 10650 70  0000 C CNN
+F 3 "" H 4700 10650 70  0000 C CNN
+	1    4700 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE83
+P 4350 8400
+AR Path="/5FD7EFCD/6009EE83" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE83" Ref="#GND_09"  Part="1" 
+F 0 "#GND_09" H 4350 8400 20  0000 C CNN
+F 1 "GND" H 4350 8330 30  0000 C CNN
+F 2 "" H 4350 8400 70  0000 C CNN
+F 3 "" H 4350 8400 70  0000 C CNN
+	1    4350 8400
+	1    0    0    -1  
+$EndComp
+Text Notes 14800 3300 0    72   ~ 14
+Mark "5V" on PCB
+Text Notes 11950 8200 0    72   ~ 14
+Mark "2485_PGOOD" on PCB
+Text Notes 13950 8250 0    72   ~ 14
+Mark "nRST" on PCB
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE8C
+P 14700 8000
+AR Path="/5FD7EFCD/6009EE8C" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE8C" Ref="#GND_04"  Part="1" 
+F 0 "#GND_04" H 14700 8000 20  0000 C CNN
+F 1 "GND" H 14700 7930 30  0000 C CNN
+F 2 "" H 14700 8000 70  0000 C CNN
+F 3 "" H 14700 8000 70  0000 C CNN
+	1    14700 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EE92
+P 4000 10650
+AR Path="/5FD7EFCD/6009EE92" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EE92" Ref="#GND_05"  Part="1" 
+F 0 "#GND_05" H 4000 10650 20  0000 C CNN
+F 1 "GND" H 4000 10580 30  0000 C CNN
+F 2 "" H 4000 10650 70  0000 C CNN
+F 3 "" H 4000 10650 70  0000 C CNN
+	1    4000 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EEA4
+P 7150 10650
+AR Path="/5FD7EFCD/6009EEA4" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EEA4" Ref="#GND_016"  Part="1" 
+F 0 "#GND_016" H 7150 10650 20  0000 C CNN
+F 1 "GND" H 7150 10580 30  0000 C CNN
+F 2 "" H 7150 10650 70  0000 C CNN
+F 3 "" H 7150 10650 70  0000 C CNN
+	1    7150 10650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EEAA
+P 7850 10650
+AR Path="/5FD7EFCD/6009EEAA" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EEAA" Ref="#GND_017"  Part="1" 
+F 0 "#GND_017" H 7850 10650 20  0000 C CNN
+F 1 "GND" H 7850 10580 30  0000 C CNN
+F 2 "" H 7850 10650 70  0000 C CNN
+F 3 "" H 7850 10650 70  0000 C CNN
+	1    7850 10650
+	1    0    0    -1  
+$EndComp
+Text Notes 3700 9850 0    60   ~ 0
+AUX IO HEADER
+Text Notes 7100 9850 0    60   ~ 0
+3.3V SD HEADER
+Wire Wire Line
+	7450 5300 6850 5300
+Wire Wire Line
+	2050 7100 4450 7100
+Wire Wire Line
+	4450 7000 2050 7000
+Wire Wire Line
+	7950 2300 6850 2300
+Wire Wire Line
+	3850 5200 4450 5200
+Wire Wire Line
+	3850 5300 3850 5200
+Wire Wire Line
+	4450 5300 3850 5300
+Wire Wire Line
+	7950 2400 6850 2400
+Wire Wire Line
+	7450 5100 7450 5200
+Wire Wire Line
+	6850 5100 7450 5100
+Wire Wire Line
+	8100 4300 6850 4300
+Wire Wire Line
+	8100 4100 6850 4100
+Wire Wire Line
+	8100 4500 6850 4500
+Wire Wire Line
+	4450 6000 3400 6000
+Wire Wire Line
+	4450 6100 3400 6100
+Wire Wire Line
+	6950 2700 6850 2700
+Wire Wire Line
+	6950 3000 6850 3000
+Wire Wire Line
+	6950 3300 6850 3300
+Wire Wire Line
+	6950 3600 6850 3600
+Wire Wire Line
+	6950 4000 6850 4000
+Wire Wire Line
+	6950 4900 6850 4900
+Wire Wire Line
+	6950 5000 6850 5000
+Wire Wire Line
+	6950 5500 6850 5500
+Wire Wire Line
+	6950 5600 6850 5600
+Wire Wire Line
+	6950 6500 6850 6500
+Wire Wire Line
+	6950 6700 6850 6700
+Wire Wire Line
+	6950 7400 6850 7400
+Wire Wire Line
+	6950 7700 6850 7700
+Wire Wire Line
+	6950 8000 6850 8000
+Wire Wire Line
+	6950 8300 6850 8300
+Wire Wire Line
+	4350 8300 4450 8300
+Wire Wire Line
+	4450 8000 4350 8000
+Wire Wire Line
+	4450 7700 4350 7700
+Wire Wire Line
+	4450 7400 4350 7400
+Wire Wire Line
+	4450 6700 4350 6700
+Wire Wire Line
+	4450 6500 4350 6500
+Wire Wire Line
+	4450 5600 4350 5600
+Wire Wire Line
+	4450 5500 4350 5500
+Wire Wire Line
+	4450 5000 4350 5000
+Wire Wire Line
+	4450 4900 4350 4900
+Wire Wire Line
+	4450 3700 4350 3700
+Wire Wire Line
+	4450 3400 4350 3400
+Wire Wire Line
+	4450 3100 4350 3100
+Wire Wire Line
+	4450 2800 4350 2800
+Wire Wire Line
+	4450 2500 4350 2500
+Wire Wire Line
+	3850 5100 3850 5200
+Wire Wire Line
+	4350 2200 4450 2200
+Wire Wire Line
+	4350 2500 4350 2200
+Wire Wire Line
+	4350 2800 4350 2500
+Wire Wire Line
+	4350 3100 4350 2800
+Wire Wire Line
+	4350 3400 4350 3100
+Wire Wire Line
+	4350 3700 4350 3400
+Wire Wire Line
+	4350 4900 4350 3700
+Wire Wire Line
+	4350 5000 4350 4900
+Wire Wire Line
+	4350 5500 4350 5000
+Wire Wire Line
+	4350 5600 4350 5500
+Wire Wire Line
+	4350 6500 4350 5600
+Wire Wire Line
+	4350 6700 4350 6500
+Wire Wire Line
+	4350 7400 4350 6700
+Wire Wire Line
+	4350 7700 4350 7400
+Wire Wire Line
+	4350 8000 4350 7700
+Wire Wire Line
+	4350 8300 4350 8000
+Wire Wire Line
+	4350 8400 4350 8300
+Wire Wire Line
+	4450 4400 1350 4400
+Wire Wire Line
+	2500 4500 2450 4500
+Wire Wire Line
+	4450 4500 3350 4500
+Wire Wire Line
+	4450 5900 3400 5900
+Wire Wire Line
+	7450 5400 6850 5400
+Wire Wire Line
+	7450 5300 7450 5400
+Wire Wire Line
+	7450 5200 7450 5300
+Wire Wire Line
+	6850 5200 7450 5200
+Wire Wire Line
+	6950 2200 6850 2200
+Wire Wire Line
+	6950 2700 6950 2200
+Wire Wire Line
+	6950 3000 6950 2700
+Wire Wire Line
+	6950 3300 6950 3000
+Wire Wire Line
+	6950 3600 6950 3300
+Wire Wire Line
+	6950 4000 6950 3600
+Wire Wire Line
+	6950 4900 6950 4000
+Wire Wire Line
+	6950 5000 6950 4900
+Wire Wire Line
+	6950 5500 6950 5000
+Wire Wire Line
+	6950 5600 6950 5500
+Wire Wire Line
+	6950 6500 6950 5600
+Wire Wire Line
+	6950 6700 6950 6500
+Wire Wire Line
+	6950 7400 6950 6700
+Wire Wire Line
+	6950 7700 6950 7400
+Wire Wire Line
+	6950 8000 6950 7700
+Wire Wire Line
+	6950 8300 6950 8000
+Wire Wire Line
+	6950 8400 6950 8300
+Wire Wire Line
+	8100 4400 6850 4400
+Wire Wire Line
+	4450 6400 3400 6400
+Wire Wire Line
+	4100 10250 3500 10250
+Wire Wire Line
+	4100 10150 3500 10150
+Wire Wire Line
+	4700 10550 4700 10650
+Wire Wire Line
+	4600 10550 4700 10550
+Wire Wire Line
+	14800 2550 15000 2550
+Wire Wire Line
+	14800 1650 14800 2550
+Wire Wire Line
+	4000 10550 4000 10650
+Wire Wire Line
+	4100 10550 4000 10550
+Wire Wire Line
+	7150 10550 7150 10650
+Wire Wire Line
+	7250 10550 7150 10550
+Wire Wire Line
+	7150 10250 7150 10550
+Wire Wire Line
+	7250 10250 7150 10250
+Wire Wire Line
+	7850 10550 7850 10650
+Wire Wire Line
+	7750 10550 7850 10550
+Connection ~ 2500 4500
+Connection ~ 3850 5200
+Connection ~ 4350 8300
+Connection ~ 4350 8000
+Connection ~ 4350 7700
+Connection ~ 4350 7400
+Connection ~ 4350 6700
+Connection ~ 4350 6500
+Connection ~ 4350 5600
+Connection ~ 4350 5500
+Connection ~ 4350 5000
+Connection ~ 4350 4900
+Connection ~ 4350 3700
+Connection ~ 4350 3400
+Connection ~ 4350 3100
+Connection ~ 4350 2800
+Connection ~ 4350 2500
+Connection ~ 6950 8300
+Connection ~ 6950 8000
+Connection ~ 6950 7700
+Connection ~ 6950 7400
+Connection ~ 6950 6700
+Connection ~ 6950 6500
+Connection ~ 6950 5600
+Connection ~ 6950 5500
+Connection ~ 6950 5000
+Connection ~ 6950 4900
+Connection ~ 6950 4000
+Connection ~ 6950 3600
+Connection ~ 6950 3300
+Connection ~ 6950 3000
+Connection ~ 6950 2700
+Connection ~ 7150 10550
+Connection ~ 7450 5300
+Connection ~ 7450 5200
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6009EF7A
+P 14500 9500
+AR Path="/5FD7EFCD/6009EF7A" Ref="H?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF7A" Ref="H7"  Part="1" 
+F 0 "H7" H 14600 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14700 9450 50  0001 L CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14500 9500 50  0001 C CNN
+F 3 "~" H 14500 9500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 14500 9500 50  0001 C CNN "Link1"
+F 5 "Y" H 14500 9500 50  0001 C CNN "Population"
+F 6 "9774030243R" H 14500 9500 50  0001 C CNN "MPN1"
+F 7 "~" H 14500 9500 50  0001 C CNN "STANDARD"
+F 8 "Wuerth" H 14500 9500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 14500 9500 50  0001 C CNN "Voltage Rating"
+F 10 "SoM Mount" H 14500 9500 50  0001 C CNN "Short Description"
+F 11 "~" H 14500 9500 50  0001 C CNN "Substitutes "
+	1    14500 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EF80
+P 14500 9600
+AR Path="/5FD7EFCD/6009EF80" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF80" Ref="#GND_013"  Part="1" 
+F 0 "#GND_013" H 14500 9600 20  0001 C CNN
+F 1 "GND" H 14500 9530 30  0000 C CNN
+F 2 "" H 14500 9600 70  0000 C CNN
+F 3 "" H 14500 9600 70  0000 C CNN
+	1    14500 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EF86
+P 14150 9600
+AR Path="/5FD7EFCD/6009EF86" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF86" Ref="#GND_011"  Part="1" 
+F 0 "#GND_011" H 14150 9600 20  0001 C CNN
+F 1 "GND" H 14150 9530 30  0000 C CNN
+F 2 "" H 14150 9600 70  0000 C CNN
+F 3 "" H 14150 9600 70  0000 C CNN
+	1    14150 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 6009EF8C
+P 13800 9600
+AR Path="/5FD7EFCD/6009EF8C" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF8C" Ref="#GND_010"  Part="1" 
+F 0 "#GND_010" H 13800 9600 20  0001 C CNN
+F 1 "GND" H 13800 9530 30  0000 C CNN
+F 2 "" H 13800 9600 70  0000 C CNN
+F 3 "" H 13800 9600 70  0000 C CNN
+	1    13800 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6009EF92
+P 14150 9500
+AR Path="/5FD7EFCD/6009EF92" Ref="H?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF92" Ref="H6"  Part="1" 
+F 0 "H6" H 14250 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14350 9450 50  0001 L CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14150 9500 50  0001 C CNN
+F 3 "~" H 14150 9500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 14150 9500 50  0001 C CNN "Link1"
+F 5 "Y" H 14150 9500 50  0001 C CNN "Population"
+F 6 "9774030243R" H 14150 9500 50  0001 C CNN "MPN1"
+F 7 "~" H 14150 9500 50  0001 C CNN "STANDARD"
+F 8 "Wuerth" H 14150 9500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 14150 9500 50  0001 C CNN "Voltage Rating"
+F 10 "SoM Mount" H 14150 9500 50  0001 C CNN "Short Description"
+F 11 "~" H 14150 9500 50  0001 C CNN "Substitutes "
+	1    14150 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6009EF98
+P 13800 9500
+AR Path="/5FD7EFCD/6009EF98" Ref="H?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF98" Ref="H5"  Part="1" 
+F 0 "H5" H 13900 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 14000 9450 50  0001 L CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 13800 9500 50  0001 C CNN
+F 3 "~" H 13800 9500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 13800 9500 50  0001 C CNN "Link1"
+F 5 "Y" H 13800 9500 50  0001 C CNN "Population"
+F 6 "9774030243R" H 13800 9500 50  0001 C CNN "MPN1"
+F 7 "~" H 13800 9500 50  0001 C CNN "STANDARD"
+F 8 "Wuerth" H 13800 9500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 13800 9500 50  0001 C CNN "Voltage Rating"
+F 10 "SoM Mount" H 13800 9500 50  0001 C CNN "Short Description"
+F 11 "~" H 13800 9500 50  0001 C CNN "Substitutes "
+	1    13800 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H?
+U 1 1 6009EF9E
+P 14850 9500
+AR Path="/5FD7EFCD/6009EF9E" Ref="H?"  Part="1" 
+AR Path="/5FF8D9B2/6009EF9E" Ref="H8"  Part="1" 
+F 0 "H8" H 14950 9549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15050 9450 50  0001 L CNN
+F 2 "Luxonis_KiCad_Master:Mounting_Wuerth_WA-SMSI-M2_H3mm_9774030243" H 14850 9500 50  0001 C CNN
+F 3 "~" H 14850 9500 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/9774030243R/732-7085-1-ND/5320690?utm_campaign=buynow&utm_medium=aggregator&curr=usd&utm_source=octopart" H 14850 9500 50  0001 C CNN "Link1"
+F 5 "Y" H 14850 9500 50  0001 C CNN "Population"
+F 6 "9774030243R" H 14850 9500 50  0001 C CNN "MPN1"
+F 7 "~" H 14850 9500 50  0001 C CNN "STANDARD"
+F 8 "Wuerth" H 14850 9500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 14850 9500 50  0001 C CNN "Voltage Rating"
+F 10 "SoM Mount" H 14850 9500 50  0001 C CNN "Short Description"
+F 11 "~" H 14850 9500 50  0001 C CNN "Substitutes "
+	1    14850 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 2500 4850
+Wire Wire Line
+	2500 5250 2500 5450
+Text Notes 1450 5300 0    50   ~ 0
+Note on silk that this \nbutton only resets the \nBW1099.
+$Comp
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
+U 1 1 6009EFCC
+P 1350 4400
+AR Path="/5FD7EFCD/6009EFCC" Ref="TP?"  Part="1" 
+AR Path="/5FF8D9B2/6009EFCC" Ref="TP1"  Part="1" 
+F 0 "TP1" V 1483 4468 60  0000 C CNN
+F 1 "~" H 1430 4415 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 1350 4400 60  0001 C CNN
+F 3 "~" H 1350 4400 60  0000 C CNN
+F 4 "~" H 1350 4400 50  0001 C CNN "Link1"
+F 5 "~" H 1350 4400 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 1350 4400 50  0001 C CNN "Population"
+F 7 "~" H 1350 4400 50  0001 C CNN "STANDARD"
+F 8 "~" H 1350 4400 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1350 4400 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 1350 4400 50  0001 C CNN "Short Description"
+F 11 "~" H 1350 4400 50  0001 C CNN "Substitutes "
+	1    1350 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
+U 1 1 6009EFDE
+P 7450 5400
+AR Path="/5FD7EFCD/6009EFDE" Ref="TP?"  Part="1" 
+AR Path="/5FF8D9B2/6009EFDE" Ref="TP4"  Part="1" 
+F 0 "TP4" V 7450 5580 60  0000 L CNN
+F 1 "~" H 7530 5415 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7450 5400 60  0001 C CNN
+F 3 "~" H 7450 5400 60  0000 C CNN
+F 4 "~" H 7450 5400 50  0001 C CNN "Link1"
+F 5 "~" H 7450 5400 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 7450 5400 50  0001 C CNN "Population"
+F 7 "~" H 7450 5400 50  0001 C CNN "STANDARD"
+F 8 "~" H 7450 5400 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 7450 5400 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 7450 5400 50  0001 C CNN "Short Description"
+F 11 "~" H 7450 5400 50  0001 C CNN "Substitutes "
+	1    7450 5400
+	0    1    1    0   
+$EndComp
+Text Notes 12800 8900 0    50   ~ 0
+2485_PGOOD and MODULE_nRST both have pull ups to 1.8V \non 1099 module. 2485_PGOOD is held low by open-drain output \non 1099 PMIC until power is good. MODULE_nRST rises with \n1.8V at POR, but can be held low by user button or 1099 JTAG.
+$Comp
+L Device:LED D?
+U 1 1 6009EFFA
+P 14700 6950
+AR Path="/5FD7EFCD/6009EFFA" Ref="D?"  Part="1" 
+AR Path="/5FF8D9B2/6009EFFA" Ref="D3"  Part="1" 
+F 0 "D3" V 14739 6832 50  0000 R CNN
+F 1 "YELLOW" V 14648 6832 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 14700 6950 50  0001 C CNN
+F 3 "~" H 14700 6950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kingbright/APT2012SYCK-J3-PRV/4753624" H 14700 6950 50  0001 C CNN "Link1"
+F 5 "APT2012SYCK/J3-PRV" H 14700 6950 50  0001 C CNN "MPN1"
+F 6 "Y" H 14700 6950 50  0001 C CNN "Population"
+F 7 "~" H 14700 6950 50  0001 C CNN "STANDARD"
+F 8 "Kingbright" H 14700 6950 50  0001 C CNN "MANUFACTURER"
+F 9 "2V 0805 20mA test orange LED" H 14700 6950 50  0001 C CNN "Short Description"
+F 10 "OR EQUIVALENT" H 14700 6950 50  0001 C CNN "Substitutes "
+F 11 "~" H 14700 6950 50  0001 C CNN "Voltage Rating"
+	1    14700 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6009F000
+P 14700 6550
+AR Path="/5FD7EFCD/6009F000" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/6009F000" Ref="R4"  Part="1" 
+F 0 "R4" H 14768 6596 50  0000 L CNN
+F 1 "10" H 14768 6505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14700 6550 50  0001 C CNN
+F 3 "~" H 14700 6550 50  0001 C CNN
+F 4 " 1%" H 14700 6550 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431" H 14700 6550 50  0001 C CNN "Link1"
+F 6 "Y" H 14700 6550 50  0001 C CNN "Population"
+F 7 "ROhm" H 14700 6550 50  0001 C CNN "MANUFACTURER"
+F 8 "ESR03EZPF10R0" H 14700 6550 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 14700 6550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14700 6550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14700 6550 50  0001 C CNN "Substitutes "
+	1    14700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14700 6650 14700 6800
+Wire Wire Line
+	14700 7250 14700 7100
+$Comp
+L power:GND #GND_?
+U 1 1 6009F00F
+P 12800 7850
+AR Path="/5FD7EFCD/6009F00F" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009F00F" Ref="#GND_03"  Part="1" 
+F 0 "#GND_03" H 12800 7850 20  0000 C CNN
+F 1 "GND" H 12800 7780 30  0000 C CNN
+F 2 "" H 12800 7850 70  0000 C CNN
+F 3 "" H 12800 7850 70  0000 C CNN
+	1    12800 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6009F015
+P 12800 6950
+AR Path="/5FD7EFCD/6009F015" Ref="D?"  Part="1" 
+AR Path="/5FF8D9B2/6009F015" Ref="D2"  Part="1" 
+F 0 "D2" V 12839 6832 50  0000 R CNN
+F 1 "YELLOW" V 12748 6832 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 12800 6950 50  0001 C CNN
+F 3 "~" H 12800 6950 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kingbright/APT2012SYCK-J3-PRV/4753624" H 12800 6950 50  0001 C CNN "Link1"
+F 5 "APT2012SYCK/J3-PRV" H 12800 6950 50  0001 C CNN "MPN1"
+F 6 "Y" H 12800 6950 50  0001 C CNN "Population"
+F 7 "~" H 12800 6950 50  0001 C CNN "STANDARD"
+F 8 "Kingbright" H 12800 6950 50  0001 C CNN "MANUFACTURER"
+F 9 "2V 0805 20mA test orange LED" H 12800 6950 50  0001 C CNN "Short Description"
+F 10 "OR EQUIVALENT" H 12800 6950 50  0001 C CNN "Substitutes "
+F 11 "~" H 12800 6950 50  0001 C CNN "Voltage Rating"
+	1    12800 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6009F01B
+P 12800 6550
+AR Path="/5FD7EFCD/6009F01B" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/6009F01B" Ref="R3"  Part="1" 
+F 0 "R3" H 12868 6596 50  0000 L CNN
+F 1 "10" H 12868 6505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12800 6550 50  0001 C CNN
+F 3 "~" H 12800 6550 50  0001 C CNN
+F 4 " 1%" H 12800 6550 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431" H 12800 6550 50  0001 C CNN "Link1"
+F 6 "Y" H 12800 6550 50  0001 C CNN "Population"
+F 7 "ROhm" H 12800 6550 50  0001 C CNN "MANUFACTURER"
+F 8 "ESR03EZPF10R0" H 12800 6550 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 12800 6550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 12800 6550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 12800 6550 50  0001 C CNN "Substitutes "
+	1    12800 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 6650 12800 6800
+$Comp
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
+U 1 1 6009F022
+P 12700 7450
+AR Path="/5FD7EFCD/6009F022" Ref="Q?"  Part="1" 
+AR Path="/5FF8D9B2/6009F022" Ref="Q2"  Part="1" 
+F 0 "Q2" H 12905 7496 50  0000 L CNN
+F 1 "RK7002B" H 12905 7405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 12900 7550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf" H 12700 7450 50  0001 C CNN
+F 4 "Y" H 12700 7450 50  0001 C CNN "Population"
+F 5 "~" H 12700 7450 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA" H 12700 7450 50  0001 C CNN "Link1"
+F 7 "2.5V Drive Nch FET ESD Protection Diode" H 12700 7450 50  0001 C CNN "Short Description"
+F 8 "ROhm" H 12700 7450 50  0001 C CNN "MANUFACTURER"
+F 9 "W/ APPROVAL" H 12700 7450 50  0001 C CNN "Substitutes "
+F 10 "60V 250mA" H 12700 7450 50  0001 C CNN "Voltage Rating"
+	1    12700 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 7250 12800 7100
+$Comp
+L power:GND #GND_?
+U 1 1 6009F02A
+P 15300 3000
+AR Path="/5FD7EFCD/6009F02A" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6009F02A" Ref="#GND_02"  Part="1" 
+F 0 "#GND_02" H 15300 3000 20  0000 C CNN
+F 1 "GND" H 15300 2930 30  0000 C CNN
+F 2 "" H 15300 3000 70  0000 C CNN
+F 3 "" H 15300 3000 70  0000 C CNN
+	1    15300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6009F030
+P 15300 2050
+AR Path="/5FD7EFCD/6009F030" Ref="D?"  Part="1" 
+AR Path="/5FF8D9B2/6009F030" Ref="D1"  Part="1" 
+F 0 "D1" V 15339 1932 50  0000 R CNN
+F 1 "RED" V 15248 1932 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 15300 2050 50  0001 C CNN
+F 3 "~" H 15300 2050 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531" H 15300 2050 50  0001 C CNN "Link1"
+F 5 "APT2012SRCPRV" H 15300 2050 50  0001 C CNN "MPN1"
+F 6 "Y" H 15300 2050 50  0001 C CNN "Population"
+F 7 "~" H 15300 2050 50  0001 C CNN "STANDARD"
+F 8 "Kingbright" H 15300 2050 50  0001 C CNN "MANUFACTURER"
+F 9 "2V 0805 20mA test red LED" H 15300 2050 50  0001 C CNN "Short Description"
+F 10 "OR EQUIVALENT" H 15300 2050 50  0001 C CNN "Substitutes "
+F 11 "~" H 15300 2050 50  0001 C CNN "Voltage Rating"
+	1    15300 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6009F036
+P 15300 1650
+AR Path="/5FD7EFCD/6009F036" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/6009F036" Ref="R2"  Part="1" 
+F 0 "R2" H 15368 1696 50  0000 L CNN
+F 1 "10" H 15368 1605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 15300 1650 50  0001 C CNN
+F 3 "~" H 15300 1650 50  0001 C CNN
+F 4 " 1%" H 15300 1650 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431" H 15300 1650 50  0001 C CNN "Link1"
+F 6 "Y" H 15300 1650 50  0001 C CNN "Population"
+F 7 "ROhm" H 15300 1650 50  0001 C CNN "MANUFACTURER"
+F 8 "ESR03EZPF10R0" H 15300 1650 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 15300 1650 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 15300 1650 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 15300 1650 50  0001 C CNN "Substitutes "
+	1    15300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 1750 15300 1900
+$Comp
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
+U 1 1 6009F03D
+P 15200 2550
+AR Path="/5FD7EFCD/6009F03D" Ref="Q?"  Part="1" 
+AR Path="/5FF8D9B2/6009F03D" Ref="Q1"  Part="1" 
+F 0 "Q1" H 15405 2596 50  0000 L CNN
+F 1 "RK7002B" H 15405 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 15400 2650 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf" H 15200 2550 50  0001 C CNN
+F 4 "Y" H 15200 2550 50  0001 C CNN "Population"
+F 5 "~" H 15200 2550 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA" H 15200 2550 50  0001 C CNN "Link1"
+F 7 "2.5V Drive Nch FET ESD Protection Diode" H 15200 2550 50  0001 C CNN "Short Description"
+F 8 "ROhm" H 15200 2550 50  0001 C CNN "MANUFACTURER"
+F 9 "W/ APPROVAL" H 15200 2550 50  0001 C CNN "Substitutes "
+F 10 "60V 250mA" H 15200 2550 50  0001 C CNN "Voltage Rating"
+	1    15200 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 2350 15300 2200
+$Comp
+L Device:R_Small_US R?
+U 1 1 6009F045
+P 14800 1550
+AR Path="/5FD7EFCD/6009F045" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/6009F045" Ref="R1"  Part="1" 
+F 0 "R1" H 14868 1596 50  0000 L CNN
+F 1 "10" H 14868 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14800 1550 50  0001 C CNN
+F 3 "~" H 14800 1550 50  0001 C CNN
+F 4 " 1%" H 14800 1550 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431" H 14800 1550 50  0001 C CNN "Link1"
+F 6 "Y" H 14800 1550 50  0001 C CNN "Population"
+F 7 "ROhm" H 14800 1550 50  0001 C CNN "MANUFACTURER"
+F 8 "ESR03EZPF10R0" H 14800 1550 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 14800 1550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14800 1550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14800 1550 50  0001 C CNN "Substitutes "
+	1    14800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:DF40HC(3.0)-100DS-0.4V_BW1099_G2-depthAI_sch-BW1098ABC-rescue J?
+U 1 1 6009F08A
+P 4450 2200
+AR Path="/5FD7EFCD/6009F08A" Ref="J?"  Part="1" 
+AR Path="/5FF8D9B2/6009F08A" Ref="J3"  Part="1" 
+AR Path="/6009F08A" Ref="J3"  Part="1" 
+F 0 "J3" H 5650 2489 60  0000 C CNN
+F 1 "BW1099EMB_SoM" H 5650 2383 60  0000 C CNN
+F 2 "Luxonis_KiCad_Master:DF40HC(3.0)-100DS-0.4V(58)" H 4450 2200 60  0001 C CNN
+F 3 "https://www.hirose.com/product/document?clcode=CL0684-4003-3-51&productname=DF40C-60DP-0.4V(51)&series=DF40&documenttype=Catalog&lang=en&documentid=D31649_en" H 4450 2200 60  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF40HC30-100DS-04V58?qs=Gufeu08L%2Fl14mOnXtNJDUw%3D%3D" H 4450 2200 50  0001 C CNN "Link1"
+F 5 "DF40HC(3.0)-100DS-0.4V(58)" H 4450 2200 50  0001 C CNN "MPN1"
+F 6 "Y" H 4450 2200 50  0001 C CNN "Population"
+F 7 "~" H 4450 2200 50  0001 C CNN "STANDARD"
+F 8 "Amphenol" H 4450 2200 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 4450 2200 50  0001 C CNN "Voltage Rating"
+F 10 "SoM header" H 4450 2200 50  0001 C CNN "Short Description"
+F 11 "N" H 4450 2200 50  0001 C CNN "Substitutes "
+	1    4450 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
+U 1 1 6009F090
+P 8150 4600
+AR Path="/5FD7EFCD/6009F090" Ref="TP?"  Part="1" 
+AR Path="/5FF8D9B2/6009F090" Ref="TP5"  Part="1" 
+F 0 "TP5" H 8050 4750 60  0000 R CNN
+F 1 "~" H 8230 4615 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 8150 4600 60  0001 C CNN
+F 3 "~" H 8150 4600 60  0000 C CNN
+F 4 "~" H 8150 4600 50  0001 C CNN "Link1"
+F 5 "~" H 8150 4600 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 8150 4600 50  0001 C CNN "Population"
+F 7 "~" H 8150 4600 50  0001 C CNN "STANDARD"
+F 8 "~" H 8150 4600 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 8150 4600 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8150 4600 50  0001 C CNN "Short Description"
+F 11 "~" H 8150 4600 50  0001 C CNN "Substitutes "
+	1    8150 4600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6850 4600 8150 4600
+Connection ~ 7450 5400
+Connection ~ 8150 4600
+Wire Wire Line
+	8150 4600 8300 4600
+$Comp
+L DepthABC-rescue:Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue MISC1
+U 1 1 6017E490
+P 5700 1600
+F 0 "MISC1" H 5978 1697 58  0000 L CNN
+F 1 "Layout_Guide_BW1099" H 5978 1594 58  0000 L CNN
+F 2 "Luxonis_KiCad_Master:BW1099_Layout_Guide" H 5400 2000 58  0001 C CNN
+F 3 "~" H 5400 2000 58  0001 C CNN
+F 4 "NO POP" H 5978 1497 50  0000 L CNN "Population"
+F 5 "~" H 5700 1600 50  0001 C CNN "Link1"
+F 6 "~" H 5700 1600 50  0001 C CNN "MPN1"
+F 7 "~" H 5700 1600 50  0001 C CNN "STANDARD"
+F 8 "Luxonis" H 5700 1600 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 5700 1600 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5700 1600 50  0001 C CNN "Short Description"
+F 11 "~" H 5700 1600 50  0001 C CNN "Substitutes "
+	1    5700 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3900 6850 3900
+Wire Wire Line
+	4450 3600 3050 3600
+Wire Wire Line
+	3050 3500 4450 3500
+Wire Wire Line
+	4450 3300 3050 3300
+Wire Wire Line
+	3050 3200 4450 3200
+Wire Wire Line
+	4450 3000 3050 3000
+Wire Wire Line
+	3050 2900 4450 2900
+Wire Wire Line
+	4450 2700 3050 2700
+Wire Wire Line
+	3050 2600 4450 2600
+Wire Wire Line
+	4450 2400 3050 2400
+Wire Wire Line
+	3050 2300 4450 2300
+Wire Wire Line
+	4450 4000 3500 4000
+Wire Wire Line
+	3500 4100 4450 4100
+$Comp
+L power:+5V #PWR0101
+U 1 1 6074F8A7
+P 15300 1100
+F 0 "#PWR0101" H 15300 950 50  0001 C CNN
+F 1 "+5V" H 15315 1273 50  0000 C CNN
+F 2 "" H 15300 1100 50  0001 C CNN
+F 3 "" H 15300 1100 50  0001 C CNN
+	1    15300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15300 1100 15300 1550
+$Comp
+L power:+5V #PWR0102
+U 1 1 6075CECE
+P 14800 1200
+F 0 "#PWR0102" H 14800 1050 50  0001 C CNN
+F 1 "+5V" H 14815 1373 50  0000 C CNN
+F 2 "" H 14800 1200 50  0001 C CNN
+F 3 "" H 14800 1200 50  0001 C CNN
+	1    14800 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14800 1200 14800 1450
+$Comp
+L power:+5V #PWR0103
+U 1 1 6076A2A6
+P 12800 6450
+F 0 "#PWR0103" H 12800 6300 50  0001 C CNN
+F 1 "+5V" H 12815 6623 50  0000 C CNN
+F 2 "" H 12800 6450 50  0001 C CNN
+F 3 "" H 12800 6450 50  0001 C CNN
+	1    12800 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0104
+U 1 1 607904EE
+P 14700 6450
+F 0 "#PWR0104" H 14700 6300 50  0001 C CNN
+F 1 "+5V" H 14715 6623 50  0000 C CNN
+F 2 "" H 14700 6450 50  0001 C CNN
+F 3 "" H 14700 6450 50  0001 C CNN
+	1    14700 6450
+	1    0    0    -1  
+$EndComp
+Text Label 3500 10150 0    50   ~ 0
+MODULE_nRST
+Text Label 3500 10250 0    50   ~ 0
+AUX_IO_IRQ
+Text Label 4950 10350 2    50   ~ 0
+UART_RX
+Text Label 4950 10450 2    50   ~ 0
+UART_TX
+Wire Wire Line
+	4600 10350 4950 10350
+Wire Wire Line
+	4600 10450 4950 10450
+Wire Wire Line
+	6850 7500 8300 7500
+Wire Wire Line
+	6850 7600 8300 7600
+Wire Wire Line
+	6850 7800 8300 7800
+Wire Wire Line
+	8300 7900 6850 7900
+Wire Wire Line
+	6850 8100 8300 8100
+Wire Wire Line
+	8300 8200 6850 8200
+Wire Wire Line
+	2400 6600 4450 6600
+Text Label 3400 6400 0    50   ~ 0
+AUX_IO_IRQ
+$Comp
+L power:+5V #PWR0105
+U 1 1 60BB1D14
+P 3850 5100
+F 0 "#PWR0105" H 3850 4950 50  0001 C CNN
+F 1 "+5V" H 3865 5273 50  0000 C CNN
+F 2 "" H 3850 5100 50  0001 C CNN
+F 3 "" H 3850 5100 50  0001 C CNN
+	1    3850 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 3850 5100
+Wire Wire Line
+	3850 5100 4450 5100
+$Comp
+L power:+5V #PWR0106
+U 1 1 60BD4BD7
+P 7450 5100
+F 0 "#PWR0106" H 7450 4950 50  0001 C CNN
+F 1 "+5V" H 7465 5273 50  0000 C CNN
+F 2 "" H 7450 5100 50  0001 C CNN
+F 3 "" H 7450 5100 50  0001 C CNN
+	1    7450 5100
+	1    0    0    -1  
+$EndComp
+Connection ~ 7450 5100
+Wire Wire Line
+	8250 10450 7750 10450
+Wire Wire Line
+	7750 10350 8250 10350
+Wire Wire Line
+	8250 10250 7750 10250
+Wire Wire Line
+	7750 10150 8250 10150
+Wire Wire Line
+	6550 10450 7250 10450
+Wire Wire Line
+	6550 10350 7250 10350
+Wire Wire Line
+	6550 10150 7250 10150
+Text Label 13600 7450 0    50   ~ 0
+MODULE_nRST
+Text Label 12000 7450 0    50   ~ 0
+2485_PGOOD
+Wire Wire Line
+	3000 8200 4450 8200
+Wire Wire Line
+	3000 8100 4450 8100
+Wire Wire Line
+	3000 7900 4450 7900
+Wire Wire Line
+	3000 7800 4450 7800
+Wire Wire Line
+	3000 7600 4450 7600
+Wire Wire Line
+	3000 7500 4450 7500
+Text Label 2500 4750 0    50   ~ 0
+MODULE_nRST
+Text Label 2800 4400 0    50   ~ 0
+2485_PGOOD
+Text Notes 2950 2000 0    60   ~ 0
+DPHYv1.2
+Text Notes 2950 1850 0    60   ~ 0
+MIPI Lanes:
+Text Notes 2700 2100 0    60   ~ 0
+Max 2.1 Gbps / lane
+Wire Wire Line
+	2350 6200 4450 6200
+Wire Wire Line
+	2350 6300 4450 6300
+Text GLabel 3050 2600 0    50   Input ~ 0
+MIPI_RX4_D0_N
+Text GLabel 3050 2700 0    50   Input ~ 0
+MIPI_RX4_D0_P
+Text GLabel 3050 2900 0    50   Input ~ 0
+MIPI_RX4_D1_N
+Text GLabel 3050 3000 0    50   Input ~ 0
+MIPI_RX4_D1_P
+Text GLabel 3050 3200 0    50   Input ~ 0
+MIPI_RX5_D2_N
+Text GLabel 3050 3300 0    50   Input ~ 0
+MIPI_RX5_D2_P
+Text GLabel 3050 3500 0    50   Input ~ 0
+MIPI_RX5_D3_N
+Text GLabel 3050 3600 0    50   Input ~ 0
+MIPI_RX5_D3_P
+Text GLabel 8300 4600 2    50   Output ~ 0
+COM_AUX_IO2
+Text GLabel 8300 7500 2    50   Input ~ 0
+MIPI_RX3_D1_N
+Text GLabel 8300 7600 2    50   Input ~ 0
+MIPI_RX3_D1_P
+Text GLabel 8300 7800 2    50   Input ~ 0
+MIPI_RX3_D0_N
+Text GLabel 8300 7900 2    50   Input ~ 0
+MIPI_RX3_D0_P
+Text GLabel 8300 8100 2    50   Input ~ 0
+MIPI_RX3_C_N
+Text GLabel 8300 8200 2    50   Input ~ 0
+MIPI_RX3_C_P
+Text GLabel 3000 7500 0    50   BiDi ~ 0
+MIPI_RX2_D1_N
+Text GLabel 3000 7600 0    50   BiDi ~ 0
+MIPI_RX2_D1_P
+Text GLabel 3000 7800 0    50   BiDi ~ 0
+MIPI_RX2_D0_N
+Text GLabel 3000 7900 0    50   BiDi ~ 0
+MIPI_RX2_D0_P
+Text GLabel 3000 8100 0    50   BiDi ~ 0
+MIPI_RX2_C_N
+Text GLabel 3000 8200 0    50   BiDi ~ 0
+MIPI_RX2_C_P
+Text GLabel 3500 4000 0    50   BiDi ~ 0
+I2C1_SDA
+Text GLabel 3500 4100 0    50   BiDi ~ 0
+I2C1_SCL
+Text GLabel 7550 3200 2    50   BiDi ~ 0
+USB_D_N
+Text GLabel 7550 3100 2    50   BiDi ~ 0
+USB_D_P
+Text GLabel 7550 2900 2    50   BiDi ~ 0
+USB_RX_N
+Text GLabel 7550 2800 2    50   BiDi ~ 0
+USB_RX_P
+Text GLabel 7550 3500 2    50   BiDi ~ 0
+USB_TX_N
+Text GLabel 7550 3400 2    50   BiDi ~ 0
+USB_TX_P
+Text GLabel 8350 4200 2    50   Output ~ 0
+CAM_A_PWDN_N
+Text GLabel 8350 3900 2    50   Output ~ 0
+CAM_A_CLK_OUT
+Text GLabel 2050 7000 0    50   BiDi ~ 0
+I2C2_SDA
+Text GLabel 2050 7100 0    50   BiDi ~ 0
+I2C2_SCL
+Text GLabel 2350 6300 0    50   Output ~ 0
+CAM_B_PWDN_N
+Text GLabel 2400 6600 0    50   Output ~ 0
+CAM_B_CLK_OUT
+Wire Wire Line
+	4450 5400 3850 5400
+Text GLabel 3850 5400 0    50   Input ~ 0
+VBUS
+Wire Wire Line
+	7550 2800 6850 2800
+Wire Wire Line
+	6850 2900 7550 2900
+Wire Wire Line
+	6850 3400 7550 3400
+Wire Wire Line
+	7550 3500 6850 3500
+Wire Wire Line
+	6850 3200 7550 3200
+Wire Wire Line
+	7550 3100 6850 3100
+Text Label 7950 2400 2    50   ~ 0
+UART_TX
+Text Label 7950 2300 2    50   ~ 0
+UART_RX
+Text GLabel 3050 2400 0    50   Input ~ 0
+MIPI_RX4_C_P
+Text GLabel 3050 2300 0    50   Input ~ 0
+MIPI_RX4_C_N
+Text GLabel 2350 6200 0    50   Output ~ 0
+CAM_B_D_PWM
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J4
+U 1 1 6044CBBE
+P 7450 10350
+F 0 "J4" H 7500 10767 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7500 10676 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 7450 10350 50  0001 C CNN
+F 3 "~" H 7450 10350 50  0001 C CNN
+F 4 "~" H 7450 10350 50  0001 C CNN "MPN1"
+F 5 "NO POP" H 7450 10350 50  0001 C CNN "Population"
+F 6 "~" H 7450 10350 50  0001 C CNN "STANDARD"
+F 7 "~" H 7450 10350 50  0001 C CNN "MANUFACTURER"
+F 8 "~" H 7450 10350 50  0001 C CNN "Voltage Rating"
+F 9 "~" H 7450 10350 50  0001 C CNN "Link1"
+F 10 "2x05 FEMALE 2.54mm pin socket" H 7450 10350 50  0001 C CNN "Short Description"
+F 11 "~" H 7450 10350 50  0001 C CNN "Substitutes "
+	1    7450 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J1
+U 1 1 60463FCD
+P 4300 10350
+F 0 "J1" H 4350 10767 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 4350 10676 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" H 4300 10350 50  0001 C CNN
+F 3 "~" H 4300 10350 50  0001 C CNN
+F 4 "~" H 4300 10350 50  0001 C CNN "MPN1"
+F 5 "NO POP" H 4300 10350 50  0001 C CNN "Population"
+F 6 "~" H 4300 10350 50  0001 C CNN "STANDARD"
+F 7 "~" H 4300 10350 50  0001 C CNN "MANUFACTURER"
+F 8 "~" H 4300 10350 50  0001 C CNN "Voltage Rating"
+F 9 "~" H 4300 10350 50  0001 C CNN "Link1"
+F 10 "2x05 FEMALE 2.54mm pin socket" H 4300 10350 50  0001 C CNN "Short Description"
+F 11 "~" H 4300 10350 50  0001 C CNN "Substitutes "
+	1    4300 10350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4450 4600
+Text Notes 8350 5750 0    50   ~ 0
+SPI0_SIO2&3 have 10k pullup on SoM
+Text Notes 9200 6350 0    50   ~ 0
+DO NOT USE SPI0_CS_0 for \nanother peripheral  IF \nyou are using the BW1099EMB\nit selects the nor flash
+Text Notes 7050 11000 0    50   ~ 0
+ALL PU/PD on SoM,\nSee Datasheet
+Text GLabel 8750 6600 2    50   Input ~ 0
+SPI_SCK
+Text GLabel 8750 5900 2    50   Input ~ 0
+SPI_CS_1
+Text GLabel 8750 6400 2    50   Input ~ 0
+SPI_CS_0
+Text GLabel 8750 6000 2    50   Input ~ 0
+SPI_SIO0
+Text GLabel 8750 6100 2    50   Input ~ 0
+SPI_SIO1
+Text GLabel 8750 6200 2    50   Input ~ 0
+SPI_SIO2
+Text GLabel 8750 6300 2    50   Input ~ 0
+SPI_SIO3
+Wire Wire Line
+	6850 6100 8750 6100
+Wire Wire Line
+	6850 6000 8750 6000
+Wire Wire Line
+	6850 5900 8750 5900
+Wire Wire Line
+	6850 6200 8750 6200
+Wire Wire Line
+	6850 6300 8750 6300
+Wire Wire Line
+	6850 6400 8750 6400
+Wire Wire Line
+	6850 6600 8750 6600
+Text GLabel 2450 4500 0    50   Input ~ 0
+_RST
+Text GLabel 8450 7000 2    50   Input ~ 0
+I2C3_SCL
+Text GLabel 8450 7100 2    50   Input ~ 0
+I2C3_SDA
+Wire Wire Line
+	6850 7000 8450 7000
+Wire Wire Line
+	6850 7100 8450 7100
+Text GLabel 4100 10450 0    50   Input ~ 0
+I2C3_SCL
+Text GLabel 4100 10350 0    50   Input ~ 0
+I2C3_SDA
+$Comp
+L Switch:SW_SPST B?
+U 1 1 6009EFB5
+P 2500 5050
+AR Path="/5FD7EFCD/6009EFB5" Ref="B?"  Part="1" 
+AR Path="/5FF8D9B2/6009EFB5" Ref="B1"  Part="1" 
+F 0 "B1" V 2546 5002 50  0000 R CNN
+F 1 "Off-Mohm, 50mA" V 2455 5002 50  0000 R CNN
+F 2 "depthABC:SW_PTS636_SM43J_SMTR_LFS" H 2500 5250 50  0001 C CNN
+F 3 "~" H 2500 5250 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/c-k/PTS636-SM43-SMTR-LFS/10071723" H 2500 5050 50  0001 C CNN "Link1"
+F 5 "PTS636" H 2500 5050 50  0001 C CNN "MPN1"
+F 6 "Y" H 2500 5050 50  0001 C CNN "Population"
+F 7 "~" H 2500 5050 50  0001 C CNN "STANDARD"
+F 8 "reset switch" H 2500 5050 50  0001 C CNN "Short Description"
+F 9 "OR EQUIVALENT" H 2500 5050 50  0001 C CNN "Substitutes "
+F 10 "~" H 2500 5050 50  0001 C CNN "Voltage Rating"
+F 11 "C&K" H 2500 5050 50  0001 C CNN "MANUFACTURER"
+	1    2500 5050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13500 2500 13700 2500
+Wire Wire Line
+	13500 1600 13500 2500
+$Comp
+L power:GND #GND_?
+U 1 1 60B613E8
+P 14000 2950
+AR Path="/5FD7EFCD/60B613E8" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/60B613E8" Ref="#GND_0102"  Part="1" 
+F 0 "#GND_0102" H 14000 2950 20  0000 C CNN
+F 1 "GND" H 14000 2880 30  0000 C CNN
+F 2 "" H 14000 2950 70  0000 C CNN
+F 3 "" H 14000 2950 70  0000 C CNN
+	1    14000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 60B613EE
+P 14000 2000
+AR Path="/5FD7EFCD/60B613EE" Ref="D?"  Part="1" 
+AR Path="/5FF8D9B2/60B613EE" Ref="D4"  Part="1" 
+F 0 "D4" V 14039 1882 50  0000 R CNN
+F 1 "RED" V 13948 1882 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 14000 2000 50  0001 C CNN
+F 3 "~" H 14000 2000 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531" H 14000 2000 50  0001 C CNN "Link1"
+F 5 "APT2012SRCPRV" H 14000 2000 50  0001 C CNN "MPN1"
+F 6 "Y" H 14000 2000 50  0001 C CNN "Population"
+F 7 "~" H 14000 2000 50  0001 C CNN "STANDARD"
+F 8 "Kingbright" H 14000 2000 50  0001 C CNN "MANUFACTURER"
+F 9 "2V 0805 20mA test red LED" H 14000 2000 50  0001 C CNN "Short Description"
+F 10 "OR EQUIVALENT" H 14000 2000 50  0001 C CNN "Substitutes "
+F 11 "~" H 14000 2000 50  0001 C CNN "Voltage Rating"
+	1    14000 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 60B613F4
+P 14000 1600
+AR Path="/5FD7EFCD/60B613F4" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/60B613F4" Ref="R30"  Part="1" 
+F 0 "R30" H 14068 1646 50  0000 L CNN
+F 1 "10" H 14068 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14000 1600 50  0001 C CNN
+F 3 "~" H 14000 1600 50  0001 C CNN
+F 4 " 1%" H 14000 1600 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431" H 14000 1600 50  0001 C CNN "Link1"
+F 6 "Y" H 14000 1600 50  0001 C CNN "Population"
+F 7 "ROhm" H 14000 1600 50  0001 C CNN "MANUFACTURER"
+F 8 "ESR03EZPF10R0" H 14000 1600 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 14000 1600 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14000 1600 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14000 1600 50  0001 C CNN "Substitutes "
+	1    14000 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 1700 14000 1850
+$Comp
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
+U 1 1 60B613FB
+P 13900 2500
+AR Path="/5FD7EFCD/60B613FB" Ref="Q?"  Part="1" 
+AR Path="/5FF8D9B2/60B613FB" Ref="Q4"  Part="1" 
+F 0 "Q4" H 14105 2546 50  0000 L CNN
+F 1 "RK7002B" H 14105 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14100 2600 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf" H 13900 2500 50  0001 C CNN
+F 4 "Y" H 13900 2500 50  0001 C CNN "Population"
+F 5 "~" H 13900 2500 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA" H 13900 2500 50  0001 C CNN "Link1"
+F 7 "2.5V Drive Nch FET ESD Protection Diode" H 13900 2500 50  0001 C CNN "Short Description"
+F 8 "ROhm" H 13900 2500 50  0001 C CNN "MANUFACTURER"
+F 9 "W/ APPROVAL" H 13900 2500 50  0001 C CNN "Substitutes "
+F 10 "60V 250mA" H 13900 2500 50  0001 C CNN "Voltage Rating"
+	1    13900 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 2300 14000 2150
+$Comp
+L Device:R_Small_US R?
+U 1 1 60B61403
+P 13500 1500
+AR Path="/5FD7EFCD/60B61403" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/60B61403" Ref="R29"  Part="1" 
+F 0 "R29" H 13568 1546 50  0000 L CNN
+F 1 "1k" H 13568 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13500 1500 50  0001 C CNN
+F 3 "~" H 13500 1500 50  0001 C CNN
+F 4 " 1%" H 13500 1500 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73S1JTTD1001F/10279992" H 13500 1500 50  0001 C CNN "Link1"
+F 6 "Y" H 13500 1500 50  0001 C CNN "Population"
+F 7 "KOA" H 13500 1500 50  0001 C CNN "MANUFACTURER"
+F 8 "SG73S1JTTD1001F" H 13500 1500 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 13500 1500 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13500 1500 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 13500 1500 50  0001 C CNN "Substitutes "
+	1    13500 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14000 1050 14000 1500
+Wire Wire Line
+	13500 1150 13500 1400
+$Comp
+L power:+5V #PWR0125
+U 1 1 60B8CF03
+P 14000 1050
+F 0 "#PWR0125" H 14000 900 50  0001 C CNN
+F 1 "+5V" H 14015 1223 50  0000 C CNN
+F 2 "" H 14000 1050 50  0001 C CNN
+F 3 "" H 14000 1050 50  0001 C CNN
+	1    14000 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 7650 12800 7850
+Wire Wire Line
+	13600 5050 13800 5050
+Wire Wire Line
+	13600 4150 13600 5050
+$Comp
+L power:GND #GND_?
+U 1 1 6065D3A8
+P 14100 5500
+AR Path="/5FD7EFCD/6065D3A8" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/6065D3A8" Ref="#GND_0109"  Part="1" 
+F 0 "#GND_0109" H 14100 5500 20  0000 C CNN
+F 1 "GND" H 14100 5430 30  0000 C CNN
+F 2 "" H 14100 5500 70  0000 C CNN
+F 3 "" H 14100 5500 70  0000 C CNN
+	1    14100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 6065D3AE
+P 14100 4550
+AR Path="/5FD7EFCD/6065D3AE" Ref="D?"  Part="1" 
+AR Path="/5FF8D9B2/6065D3AE" Ref="D5"  Part="1" 
+F 0 "D5" V 14139 4432 50  0000 R CNN
+F 1 "RED" V 14048 4432 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 14100 4550 50  0001 C CNN
+F 3 "~" H 14100 4550 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/kingbright/APT2012SRCPRV/1747531" H 14100 4550 50  0001 C CNN "Link1"
+F 5 "APT2012SRCPRV" H 14100 4550 50  0001 C CNN "MPN1"
+F 6 "Y" H 14100 4550 50  0001 C CNN "Population"
+F 7 "~" H 14100 4550 50  0001 C CNN "STANDARD"
+F 8 "Kingbright" H 14100 4550 50  0001 C CNN "MANUFACTURER"
+F 9 "2V 0805 20mA test red LED" H 14100 4550 50  0001 C CNN "Short Description"
+F 10 "OR EQUIVALENT" H 14100 4550 50  0001 C CNN "Substitutes "
+F 11 "~" H 14100 4550 50  0001 C CNN "Voltage Rating"
+	1    14100 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 6065D3B4
+P 14100 4150
+AR Path="/5FD7EFCD/6065D3B4" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/6065D3B4" Ref="R36"  Part="1" 
+F 0 "R36" H 14168 4196 50  0000 L CNN
+F 1 "10" H 14168 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14100 4150 50  0001 C CNN
+F 3 "~" H 14100 4150 50  0001 C CNN
+F 4 " 1%" H 14100 4150 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/rohm-semiconductor/ESR03EZPF10R0/1983431" H 14100 4150 50  0001 C CNN "Link1"
+F 6 "Y" H 14100 4150 50  0001 C CNN "Population"
+F 7 "ROhm" H 14100 4150 50  0001 C CNN "MANUFACTURER"
+F 8 "ESR03EZPF10R0" H 14100 4150 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 14100 4150 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14100 4150 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14100 4150 50  0001 C CNN "Substitutes "
+	1    14100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 4250 14100 4400
+$Comp
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
+U 1 1 6065D3BB
+P 14000 5050
+AR Path="/5FD7EFCD/6065D3BB" Ref="Q?"  Part="1" 
+AR Path="/5FF8D9B2/6065D3BB" Ref="Q5"  Part="1" 
+F 0 "Q5" H 14205 5096 50  0000 L CNN
+F 1 "RK7002B" H 14205 5005 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14200 5150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf" H 14000 5050 50  0001 C CNN
+F 4 "Y" H 14000 5050 50  0001 C CNN "Population"
+F 5 "~" H 14000 5050 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA" H 14000 5050 50  0001 C CNN "Link1"
+F 7 "2.5V Drive Nch FET ESD Protection Diode" H 14000 5050 50  0001 C CNN "Short Description"
+F 8 "ROhm" H 14000 5050 50  0001 C CNN "MANUFACTURER"
+F 9 "W/ APPROVAL" H 14000 5050 50  0001 C CNN "Substitutes "
+F 10 "60V 250mA" H 14000 5050 50  0001 C CNN "Voltage Rating"
+	1    14000 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 4850 14100 4700
+Wire Wire Line
+	14100 3600 14100 4050
+Wire Wire Line
+	13600 3700 13600 3950
+Text GLabel 13600 3700 1    50   Input ~ 0
+1V8
+$Comp
+L power:+5V #PWR0126
+U 1 1 6065D3CC
+P 14100 3600
+F 0 "#PWR0126" H 14100 3450 50  0001 C CNN
+F 1 "+5V" H 14115 3773 50  0000 C CNN
+F 2 "" H 14100 3600 50  0001 C CNN
+F 3 "" H 14100 3600 50  0001 C CNN
+	1    14100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 7450 12500 7450
+$Comp
+L DepthABC-rescue:RK7002B-BW1098ABC-rescue Q?
+U 1 1 6009F007
+P 14600 7450
+AR Path="/5FD7EFCD/6009F007" Ref="Q?"  Part="1" 
+AR Path="/5FF8D9B2/6009F007" Ref="Q3"  Part="1" 
+F 0 "Q3" H 14805 7496 50  0000 L CNN
+F 1 "RK7002B" H 14805 7405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 14800 7550 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/RK7002B.pdf" H 14600 7450 50  0001 C CNN
+F 4 "Y" H 14600 7450 50  0001 C CNN "Population"
+F 5 "~" H 14600 7450 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/rohm-semiconductor/RK7002BT116/2357204?s=N4IgjCBcoLQBxVAYygMwIYBsDOBTANCAPZQDaIcALAGwgC6Avg4QExkgBKA0gOwAMfFgCEAKmDC1GQA" H 14600 7450 50  0001 C CNN "Link1"
+F 7 "2.5V Drive Nch FET ESD Protection Diode" H 14600 7450 50  0001 C CNN "Short Description"
+F 8 "ROhm" H 14600 7450 50  0001 C CNN "MANUFACTURER"
+F 9 "W/ APPROVAL" H 14600 7450 50  0001 C CNN "Substitutes "
+F 10 "60V 250mA" H 14600 7450 50  0001 C CNN "Voltage Rating"
+	1    14600 7450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13600 7450 14400 7450
+Wire Wire Line
+	14700 7650 14700 8000
+Text GLabel 6550 10150 0    50   BiDi ~ 0
+SD_HST0_CLK
+Text GLabel 6600 10350 0    50   BiDi ~ 0
+SD_HST0_CMD
+Text GLabel 6600 10450 0    50   BiDi ~ 0
+SD_HST0_CD
+Text GLabel 8250 10150 2    50   BiDi ~ 0
+SD_HST0_D0
+Text GLabel 8250 10250 2    50   BiDi ~ 0
+SD_HST0_D1
+Text GLabel 8250 10350 2    50   BiDi ~ 0
+SD_HST0_D2
+Text GLabel 8250 10450 2    50   BiDi ~ 0
+SD_HST0_D3
+Text GLabel 3400 6000 0    50   BiDi ~ 0
+SD_HST0_CLK
+Text GLabel 3400 6100 0    50   BiDi ~ 0
+SD_HST0_CMD
+Text GLabel 3400 5900 0    50   BiDi ~ 0
+SD_HST0_CD
+Text GLabel 8100 4500 2    50   BiDi ~ 0
+SD_HST0_D0
+Text GLabel 8100 4400 2    50   BiDi ~ 0
+SD_HST0_D1
+Text GLabel 8100 4300 2    50   BiDi ~ 0
+SD_HST0_D2
+Text GLabel 8100 4100 2    50   BiDi ~ 0
+SD_HST0_D3
+Wire Wire Line
+	6850 4200 8350 4200
+$Comp
+L power:+3V3 #PWR0127
+U 1 1 609D61FA
+P 13500 1150
+AR Path="/5FF8D9B2/609D61FA" Ref="#PWR0127"  Part="1" 
+AR Path="/60483E6B/609D61FA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0127" H 13500 1000 50  0001 C CNN
+F 1 "+3V3" H 13515 1323 50  0000 C CNN
+F 2 "" H 13500 1150 50  0001 C CNN
+F 3 "" H 13500 1150 50  0001 C CNN
+	1    13500 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 10000 1    50   Input ~ 0
+1V8
+Wire Wire Line
+	4800 10000 4800 10150
+Wire Wire Line
+	4800 10250 4600 10250
+Wire Wire Line
+	4800 10150 4600 10150
+Connection ~ 4800 10150
+Wire Wire Line
+	4800 10150 4800 10250
+$Comp
+L power:GND #GND_?
+U 1 1 607E4FCE
+P 3450 5650
+AR Path="/5FD7F014/607E4FCE" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/607E4FCE" Ref="#GND_?"  Part="1" 
+AR Path="/5FF8D9B2/607E4FCE" Ref="#GND_01"  Part="1" 
+F 0 "#GND_01" H 3450 5650 20  0000 C CNN
+F 1 "GND" H 3450 5580 30  0000 C CNN
+F 2 "" H 3450 5650 70  0000 C CNN
+F 3 "" H 3450 5650 70  0000 C CNN
+	1    3450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5550 3450 5650
+$Comp
+L Device:C C?
+U 1 1 607E4FD8
+P 3450 5400
+AR Path="/5FD7F014/607E4FD8" Ref="C?"  Part="1" 
+AR Path="/60483E6B/607E4FD8" Ref="C?"  Part="1" 
+AR Path="/5FF8D9B2/607E4FD8" Ref="C3"  Part="1" 
+F 0 "C3" V 3550 5450 60  0000 R TNN
+F 1 "10uF " V 3250 5500 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3460 5310 60  0001 C CNN
+F 3 "~" H 3460 5310 60  0000 C CNN
+F 4 "6.3V" V 1150 6000 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 3450 5400 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 3450 5400 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 3450 5400 50  0001 C CNN "MPN1"
+F 8 "Y" H 3450 5400 50  0001 C CNN "Population"
+F 9 "Kemet" H 3450 5400 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 3450 5400 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 3450 5400 50  0001 C CNN "Substitutes "
+	1    3450 5400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3450 5100 3850 5100
+Wire Wire Line
+	3450 5100 3450 5250
+$Comp
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
+U 1 1 6083F113
+P 3350 4500
+AR Path="/5FD7EFCD/6083F113" Ref="TP?"  Part="1" 
+AR Path="/5FF8D9B2/6083F113" Ref="TP3"  Part="1" 
+F 0 "TP3" V 3483 4568 60  0000 C CNN
+F 1 "~" H 3430 4515 60  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3350 4500 60  0001 C CNN
+F 3 "~" H 3350 4500 60  0000 C CNN
+F 4 "~" H 3350 4500 50  0001 C CNN "Link1"
+F 5 "~" H 3350 4500 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 3350 4500 50  0001 C CNN "Population"
+F 7 "~" H 3350 4500 50  0001 C CNN "STANDARD"
+F 8 "~" H 3350 4500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 3350 4500 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 3350 4500 50  0001 C CNN "Short Description"
+F 11 "~" H 3350 4500 50  0001 C CNN "Substitutes "
+	1    3350 4500
+	-1   0    0    1   
+$EndComp
+Connection ~ 3350 4500
+Wire Wire Line
+	3350 4500 2500 4500
+Wire Wire Line
+	14000 2700 14000 2950
+Wire Wire Line
+	15300 2750 15300 3000
+Wire Wire Line
+	14100 5250 14100 5500
+$Comp
+L Device:R_Small_US R?
+U 1 1 6065D3C3
+P 13600 4050
+AR Path="/5FD7EFCD/6065D3C3" Ref="R?"  Part="1" 
+AR Path="/5FF8D9B2/6065D3C3" Ref="R35"  Part="1" 
+F 0 "R35" H 13668 4096 50  0000 L CNN
+F 1 "1k" H 13668 4005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13600 4050 50  0001 C CNN
+F 3 "~" H 13600 4050 50  0001 C CNN
+F 4 " 1%" H 13600 4050 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/SG73S1JTTD1001F/10279992" H 13600 4050 50  0001 C CNN "Link1"
+F 6 "Y" H 13600 4050 50  0001 C CNN "Population"
+F 7 "KOA" H 13600 4050 50  0001 C CNN "MANUFACTURER"
+F 8 "SG73S1JTTD1001F" H 13600 4050 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 13600 4050 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13600 4050 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 13600 4050 50  0001 C CNN "Substitutes "
+	1    13600 4050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

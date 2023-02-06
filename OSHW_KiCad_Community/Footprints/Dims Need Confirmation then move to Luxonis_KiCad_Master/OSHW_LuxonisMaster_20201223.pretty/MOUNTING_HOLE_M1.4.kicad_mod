@@ -1,6 +1,0 @@
-(module "MOUNTING_HOLE_M1.4" (layer F.Cu) (tedit 5B0D3C36)
-  (gr_arc (start 0.00000 0.00000) (end 1.60000 0.00000) (angle -360) (layer F.SilkS) (width 0.05))
-  (gr_arc (start 0.00000 0.00000) (end 1.60000 0.00000) (angle -360) (layer F.SilkS) (width 0.1))
-  (gr_arc (start 0.00000 0.00000) (end 1.60000 0.00000) (angle -360) (layer F.SilkS) (width 0.05))
-  (gr_arc (start 0.00000 0.00000) (end 1.60000 0.00000) (angle -360) (layer F.SilkS) (width 0.1))
-)

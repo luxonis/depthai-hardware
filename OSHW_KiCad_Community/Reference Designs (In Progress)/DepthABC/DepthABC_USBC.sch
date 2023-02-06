@@ -1,0 +1,2496 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #GND_?
+U 1 1 604C8AD1
+P 1650 2800
+AR Path="/5FD7F014/604C8AD1" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8AD1" Ref="#GND_0104"  Part="1" 
+F 0 "#GND_0104" H 1650 2800 20  0000 C CNN
+F 1 "GND" H 1650 2730 30  0000 C CNN
+F 2 "" H 1650 2800 70  0000 C CNN
+F 3 "" H 1650 2800 70  0000 C CNN
+	1    1650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 604C8AD7
+P 2750 2750
+AR Path="/5FD7F014/604C8AD7" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8AD7" Ref="#GND_0105"  Part="1" 
+F 0 "#GND_0105" H 2750 2750 20  0000 C CNN
+F 1 "GND" H 2750 2680 30  0000 C CNN
+F 2 "" H 2750 2750 70  0000 C CNN
+F 3 "" H 2750 2750 70  0000 C CNN
+	1    2750 2750
+	1    0    0    -1  
+$EndComp
+Text Label 13800 5850 0    60   ~ 0
+USB_D_P
+Text Label 13800 5950 0    60   ~ 0
+USB_D_N
+Text Label 9250 8250 0    60   ~ 0
+CC1
+Text Label 9250 8350 0    60   ~ 0
+CC2
+$Comp
+L power:GND #GND_?
+U 1 1 604C8B05
+P 13150 7150
+AR Path="/5FD7F014/604C8B05" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8B05" Ref="#GND_0111"  Part="1" 
+F 0 "#GND_0111" V 13150 7150 20  0000 C CNN
+F 1 "GND" H 13150 7080 30  0000 C CNN
+F 2 "" H 13150 7150 70  0000 C CNN
+F 3 "" H 13150 7150 70  0000 C CNN
+	1    13150 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 604C8B0D
+P 11950 7550
+AR Path="/5FD7F014/604C8B0D" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8B0D" Ref="#GND_0112"  Part="1" 
+F 0 "#GND_0112" H 11950 7550 20  0000 C CNN
+F 1 "GND" H 11950 7480 30  0000 C CNN
+F 2 "" H 11950 7550 70  0000 C CNN
+F 3 "" H 11950 7550 70  0000 C CNN
+	1    11950 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 604C8B13
+P 11950 9050
+AR Path="/5FD7F014/604C8B13" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8B13" Ref="#GND_0113"  Part="1" 
+F 0 "#GND_0113" H 11950 9050 20  0000 C CNN
+F 1 "GND" H 11950 8980 30  0000 C CNN
+F 2 "" H 11950 9050 70  0000 C CNN
+F 3 "" H 11950 9050 70  0000 C CNN
+	1    11950 9050
+	1    0    0    -1  
+$EndComp
+Text Notes 9650 8000 0    60   ~ 0
+target 900k 1%
+$Comp
+L power:GND #GND_?
+U 1 1 604C8B1A
+P 12250 5550
+AR Path="/5FD7F014/604C8B1A" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8B1A" Ref="#GND_0114"  Part="1" 
+F 0 "#GND_0114" H 12250 5550 20  0000 C CNN
+F 1 "GND" H 12250 5480 30  0000 C CNN
+F 2 "" H 12250 5550 70  0000 C CNN
+F 3 "" H 12250 5550 70  0000 C CNN
+	1    12250 5550
+	1    0    0    -1  
+$EndComp
+Text Label 6900 6250 0    60   ~ 0
+TXB_N
+Text Label 6900 6150 0    60   ~ 0
+TXB_P
+Text Label 6900 5850 0    60   ~ 0
+RXB_P
+Text Label 6900 5950 0    60   ~ 0
+RXB_N
+Text Label 6950 7050 0    60   ~ 0
+TXC_N
+Text Label 6950 6950 0    60   ~ 0
+TXC_P
+Text Label 6950 6750 0    60   ~ 0
+RXC_P
+Text Label 6950 6850 0    60   ~ 0
+RXC_N
+$Comp
+L power:GND #GND_?
+U 1 1 604C8B29
+P 14500 8550
+AR Path="/5FD7F014/604C8B29" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8B29" Ref="#GND_0115"  Part="1" 
+F 0 "#GND_0115" H 14500 8550 20  0000 C CNN
+F 1 "GND" H 14500 8480 30  0000 C CNN
+F 2 "" H 14500 8550 70  0000 C CNN
+F 3 "" H 14500 8550 70  0000 C CNN
+	1    14500 8550
+	1    0    0    -1  
+$EndComp
+Text Label 12900 8450 0    60   ~ 0
+USB_PORT
+Text Label 14700 9050 2    60   ~ 0
+CC1
+Text Label 14700 9150 2    60   ~ 0
+CC2
+Text Label 12900 8350 0    60   ~ 0
+USB_ENB
+$Comp
+L power:GND #GND_?
+U 1 1 604C8B3A
+P 1350 2800
+AR Path="/5FD7F014/604C8B3A" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/604C8B3A" Ref="#GND_0117"  Part="1" 
+F 0 "#GND_0117" H 1350 2800 20  0000 C CNN
+F 1 "GND" H 1350 2730 30  0000 C CNN
+F 2 "" H 1350 2800 70  0000 C CNN
+F 3 "" H 1350 2800 70  0000 C CNN
+	1    1350 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14750 6550 12550 6550
+Wire Wire Line
+	14750 6650 12550 6650
+Wire Wire Line
+	13800 5850 14900 5850
+Wire Wire Line
+	13800 5950 14900 5950
+Wire Wire Line
+	9250 8250 9750 8250
+Wire Wire Line
+	9250 8350 9750 8350
+Wire Wire Line
+	12650 7150 12550 7150
+Wire Wire Line
+	9150 8450 8650 8450
+Wire Wire Line
+	9150 8550 9150 8450
+Wire Wire Line
+	8650 8550 9150 8550
+Wire Wire Line
+	9750 8550 9150 8550
+Wire Wire Line
+	7850 8450 7850 8550
+Wire Wire Line
+	12250 5150 12250 5250
+Wire Wire Line
+	11950 5150 12250 5150
+Wire Wire Line
+	11350 6850 10150 6850
+Wire Wire Line
+	11350 6750 10550 6750
+Wire Wire Line
+	1650 2700 1650 2800
+Wire Wire Line
+	1650 2300 1650 2400
+Wire Wire Line
+	14200 8350 14500 8350
+Wire Wire Line
+	14200 8450 14500 8450
+Wire Wire Line
+	13600 8850 13600 9050
+Wire Wire Line
+	12900 8850 13600 8850
+Wire Wire Line
+	13600 9050 13600 9350
+Wire Wire Line
+	13600 9550 13600 9350
+Wire Wire Line
+	13300 8950 13300 9150
+Wire Wire Line
+	12900 8950 13300 8950
+Wire Wire Line
+	13300 9150 13300 9450
+Wire Wire Line
+	13300 9550 13300 9450
+Wire Wire Line
+	1350 2700 1350 2800
+Wire Wire Line
+	1350 2300 1350 2400
+Wire Wire Line
+	9650 6750 10250 6750
+Wire Wire Line
+	9650 6950 9650 6750
+Wire Wire Line
+	11350 6650 9550 6650
+Wire Wire Line
+	9450 6550 9450 6750
+Wire Wire Line
+	11350 6550 9450 6550
+Wire Wire Line
+	13700 8150 13700 7750
+Wire Wire Line
+	12900 8150 13700 8150
+Wire Wire Line
+	9800 6150 9800 5850
+Wire Wire Line
+	9550 6650 9550 6850
+Wire Wire Line
+	9750 6850 9750 7050
+Wire Wire Line
+	9850 6850 9750 6850
+Wire Wire Line
+	9700 5950 9700 6250
+Wire Wire Line
+	9500 6450 9800 6450
+Wire Wire Line
+	9500 6250 9500 6450
+Wire Wire Line
+	10200 6350 9600 6350
+Wire Wire Line
+	14700 9350 14200 9350
+Wire Wire Line
+	14700 9450 14700 9350
+Wire Wire Line
+	14200 9450 14700 9450
+Wire Wire Line
+	14200 9150 14700 9150
+Wire Wire Line
+	14200 9050 14700 9050
+Wire Wire Line
+	14200 7750 14300 7750
+Wire Wire Line
+	9650 8650 9750 8650
+Connection ~ 9150 8550
+Connection ~ 13300 9450
+Connection ~ 13300 9150
+Connection ~ 13600 9350
+Connection ~ 13600 9050
+$Comp
+L Device:R_US R?
+U 1 1 604C8BD7
+P 14050 9050
+AR Path="/5FD7F014/604C8BD7" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8BD7" Ref="R23"  Part="1" 
+F 0 "R23" V 13900 8950 60  0000 L BNN
+F 1 "10k" V 14000 8950 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14350 9050 60  0001 C CNN
+F 3 "~" H 14350 9050 60  0000 C CNN
+F 4 "1%" H 14050 9050 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 9050 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 9050 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 9050 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 9050 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 9050 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 9050 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 9050 50  0001 C CNN "Substitutes "
+	1    14050 9050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8BDE
+P 1650 2550
+AR Path="/5FD7F014/604C8BDE" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8BDE" Ref="C33"  Part="1" 
+F 0 "C33" V 1750 2600 60  0000 R TNN
+F 1 "10uF " V 1450 2650 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1660 2460 60  0001 C CNN
+F 3 "~" H 1660 2460 60  0000 C CNN
+F 4 "6.3V" V -650 3150 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 1650 2550 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 1650 2550 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 1650 2550 50  0001 C CNN "MPN1"
+F 8 "Y" H 1650 2550 50  0001 C CNN "Population"
+F 9 "Kemet" H 1650 2550 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 1650 2550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 1650 2550 50  0001 C CNN "Substitutes "
+	1    1650 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8BE5
+P 1350 2550
+AR Path="/5FD7F014/604C8BE5" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8BE5" Ref="C32"  Part="1" 
+F 0 "C32" V 1200 2700 60  0000 R TNN
+F 1 "10uF " V 1450 2750 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1360 2460 60  0001 C CNN
+F 3 "~" H 1360 2460 60  0000 C CNN
+F 4 "6.3V" V -350 3150 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 1350 2550 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 1350 2550 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 1350 2550 50  0001 C CNN "MPN1"
+F 8 "Y" H 1350 2550 50  0001 C CNN "Population"
+F 9 "Kemet" H 1350 2550 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 1350 2550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 1350 2550 50  0001 C CNN "Substitutes "
+	1    1350 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8BEC
+P 12250 5400
+AR Path="/5FD7F014/604C8BEC" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8BEC" Ref="C38"  Part="1" 
+F 0 "C38" V 12360 5310 60  0000 R TNN
+F 1 "10uF " V 12450 5350 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12260 5310 60  0001 C CNN
+F 3 "~" H 12260 5310 60  0000 C CNN
+F 4 "6.3V" V 2050 1700 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 12250 5400 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 12250 5400 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 12250 5400 50  0001 C CNN "MPN1"
+F 8 "Y" H 12250 5400 50  0001 C CNN "Population"
+F 9 "Kemet" H 12250 5400 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 12250 5400 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 12250 5400 50  0001 C CNN "Substitutes "
+	1    12250 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8BF3
+P 11950 8900
+AR Path="/5FD7F014/604C8BF3" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8BF3" Ref="C39"  Part="1" 
+F 0 "C39" V 12060 8810 60  0000 R TNN
+F 1 "10uF " V 11960 8810 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11960 8810 60  0001 C CNN
+F 3 "~" H 11960 8810 60  0000 C CNN
+F 4 "6.3V" V 4150 3700 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 11950 8900 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 11950 8900 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 11950 8900 50  0001 C CNN "MPN1"
+F 8 "Y" H 11950 8900 50  0001 C CNN "Population"
+F 9 "Kemet" H 11950 8900 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 11950 8900 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 11950 8900 50  0001 C CNN "Substitutes "
+	1    11950 8900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8BF9
+P 10000 6850
+AR Path="/5FD7F014/604C8BF9" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8BF9" Ref="C37"  Part="1" 
+F 0 "C37" V 10100 6900 60  0000 L BNN
+F 1 "0.1uF" V 10200 6900 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10090 6660 60  0001 C CNN
+F 3 "~" H 10090 6660 60  0000 C CNN
+F 4 "X5R 10%" H 10000 6850 50  0001 C CNN "STANDARD"
+F 5 "10V" H 10000 6850 50  0001 C CNN "Voltage Rating"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094" H 10000 6850 50  0001 C CNN "Link1"
+F 7 "C0603C104K8RACTU" H 10000 6850 50  0001 C CNN "MPN1"
+F 8 "Y" H 10000 6850 50  0001 C CNN "Population"
+F 9 "Kemet" H 10000 6850 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 10000 6850 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 10000 6850 50  0001 C CNN "Substitutes "
+	1    10000 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8BFF
+P 10400 6750
+AR Path="/5FD7F014/604C8BFF" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8BFF" Ref="C36"  Part="1" 
+F 0 "C36" V 10400 6800 60  0000 L BNN
+F 1 "0.1uF" V 10400 6450 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10490 6560 60  0001 C CNN
+F 3 "~" H 10490 6560 60  0000 C CNN
+F 4 "X5R 10%" H 10400 6750 50  0001 C CNN "STANDARD"
+F 5 "10V" H 10400 6750 50  0001 C CNN "Voltage Rating"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094" H 10400 6750 50  0001 C CNN "Link1"
+F 7 "C0603C104K8RACTU" H 10400 6750 50  0001 C CNN "MPN1"
+F 8 "Y" H 10400 6750 50  0001 C CNN "Population"
+F 9 "Kemet" H 10400 6750 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 10400 6750 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 10400 6750 50  0001 C CNN "Substitutes "
+	1    10400 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 604C8C0B
+P 10350 6350
+AR Path="/5FD7F014/604C8C0B" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8C0B" Ref="C34"  Part="1" 
+F 0 "C34" V 10350 6400 60  0000 L BNN
+F 1 "0.1uF" V 10350 6050 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10440 6160 60  0001 C CNN
+F 3 "~" H 10440 6160 60  0000 C CNN
+F 4 "X5R 10%" H 10350 6350 50  0001 C CNN "STANDARD"
+F 5 "10V" H 10350 6350 50  0001 C CNN "Voltage Rating"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094" H 10350 6350 50  0001 C CNN "Link1"
+F 7 "C0603C104K8RACTU" H 10350 6350 50  0001 C CNN "MPN1"
+F 8 "Y" H 10350 6350 50  0001 C CNN "Population"
+F 9 "Kemet" H 10350 6350 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 10350 6350 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 10350 6350 50  0001 C CNN "Substitutes "
+	1    10350 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C11
+P 8500 8550
+AR Path="/5FD7F014/604C8C11" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C11" Ref="R21"  Part="1" 
+F 0 "R21" V 8600 8400 60  0000 L BNN
+F 1 "1.8M" V 8350 8400 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8800 8450 60  0001 C CNN
+F 3 "~" H 8800 8450 60  0000 C CNN
+F 4 " 1%" H 8500 8550 50  0001 C CNN "STANDARD"
+F 5 "~" H 8500 8550 50  0001 C CNN "Link1"
+F 6 "Y" H 8500 8550 50  0001 C CNN "Population"
+F 7 "~" H 8500 8550 50  0001 C CNN "MANUFACTURER"
+F 8 "~" H 8500 8550 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 8500 8550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8500 8550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8500 8550 50  0001 C CNN "Substitutes "
+	1    8500 8550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C17
+P 8500 8450
+AR Path="/5FD7F014/604C8C17" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C17" Ref="R19"  Part="1" 
+F 0 "R19" V 8350 8350 60  0000 L BNN
+F 1 "1.8M" V 8800 8300 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8800 8350 60  0001 C CNN
+F 3 "~" H 8800 8350 60  0000 C CNN
+F 4 " 1%" H 8500 8450 50  0001 C CNN "STANDARD"
+F 5 "~" H 8500 8450 50  0001 C CNN "Link1"
+F 6 "Y" H 8500 8450 50  0001 C CNN "Population"
+F 7 "~" H 8500 8450 50  0001 C CNN "MANUFACTURER"
+F 8 "~" H 8500 8450 50  0001 C CNN "MPN1"
+F 9 "1/10W" H 8500 8450 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8500 8450 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8500 8450 50  0001 C CNN "Substitutes "
+	1    8500 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C1D
+P 14050 9150
+AR Path="/5FD7F014/604C8C1D" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C1D" Ref="R24"  Part="1" 
+F 0 "R24" V 14050 9250 60  0000 L BNN
+F 1 "10k" V 14150 9250 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14350 9150 60  0001 C CNN
+F 3 "~" H 14350 9150 60  0000 C CNN
+F 4 "1%" H 14050 9150 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 9150 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 9150 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 9150 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 9150 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 9150 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 9150 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 9150 50  0001 C CNN "Substitutes "
+	1    14050 9150
+	0    1    1    0   
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 604C8C30
+P 2750 2250
+AR Path="/5FD7F014/604C8C30" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/604C8C30" Ref="TP18"  Part="1" 
+F 0 "TP18" H 2750 2450 60  0000 L BNN
+F 1 "~" H 2750 2250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 2750 2250 50  0001 C CNN
+F 3 "~" H 2750 2250 50  0001 C CNN
+F 4 "~" H 2750 2250 50  0001 C CNN "Link1"
+F 5 "~" H 2750 2250 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 2750 2250 50  0001 C CNN "Population"
+F 7 "~" H 2750 2250 50  0001 C CNN "STANDARD"
+F 8 "~" H 2750 2250 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 2750 2250 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 2750 2250 50  0001 C CNN "Short Description"
+F 11 "~" H 2750 2250 50  0001 C CNN "Substitutes "
+	1    2750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 604C8C36
+P 9650 8650
+AR Path="/5FD7F014/604C8C36" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/604C8C36" Ref="TP19"  Part="1" 
+F 0 "TP19" V 9700 8900 60  0000 L BNN
+F 1 "~" H 9650 8650 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9650 8650 50  0001 C CNN
+F 3 "~" H 9650 8650 50  0001 C CNN
+F 4 "~" H 9650 8650 50  0001 C CNN "Link1"
+F 5 "~" H 9650 8650 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 9650 8650 50  0001 C CNN "Population"
+F 7 "~" H 9650 8650 50  0001 C CNN "STANDARD"
+F 8 "~" H 9650 8650 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 9650 8650 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 9650 8650 50  0001 C CNN "Short Description"
+F 11 "~" H 9650 8650 50  0001 C CNN "Substitutes "
+	1    9650 8650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 604C8C3C
+P 13300 9550
+AR Path="/5FD7F014/604C8C3C" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/604C8C3C" Ref="TP20"  Part="1" 
+F 0 "TP20" H 13350 9900 60  0000 R TNN
+F 1 "~" H 13300 9550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 13300 9550 50  0001 C CNN
+F 3 "~" H 13300 9550 50  0001 C CNN
+F 4 "~" H 13300 9550 50  0001 C CNN "Link1"
+F 5 "~" H 13300 9550 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 13300 9550 50  0001 C CNN "Population"
+F 7 "~" H 13300 9550 50  0001 C CNN "STANDARD"
+F 8 "~" H 13300 9550 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 13300 9550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13300 9550 50  0001 C CNN "Short Description"
+F 11 "~" H 13300 9550 50  0001 C CNN "Substitutes "
+	1    13300 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 604C8C42
+P 13600 9550
+AR Path="/5FD7F014/604C8C42" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/604C8C42" Ref="TP21"  Part="1" 
+F 0 "TP21" H 13650 9900 60  0000 R TNN
+F 1 "~" H 13600 9550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 13600 9550 50  0001 C CNN
+F 3 "~" H 13600 9550 50  0001 C CNN
+F 4 "~" H 13600 9550 50  0001 C CNN "Link1"
+F 5 "~" H 13600 9550 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 13600 9550 50  0001 C CNN "Population"
+F 7 "~" H 13600 9550 50  0001 C CNN "STANDARD"
+F 8 "~" H 13600 9550 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 13600 9550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13600 9550 50  0001 C CNN "Short Description"
+F 11 "~" H 13600 9550 50  0001 C CNN "Substitutes "
+	1    13600 9550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C48
+P 14050 9350
+AR Path="/5FD7F014/604C8C48" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C48" Ref="R25"  Part="1" 
+F 0 "R25" V 14000 9050 60  0000 L BNN
+F 1 "10k" V 14050 9450 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14350 9350 60  0001 C CNN
+F 3 "~" H 14350 9350 60  0000 C CNN
+F 4 "1%" H 14050 9350 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 9350 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 9350 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 9350 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 9350 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 9350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 9350 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 9350 50  0001 C CNN "Substitutes "
+	1    14050 9350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C4E
+P 14050 9450
+AR Path="/5FD7F014/604C8C4E" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C4E" Ref="R26"  Part="1" 
+F 0 "R26" V 14150 9250 60  0000 L BNN
+F 1 "10k" V 14150 9550 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14350 9450 60  0001 C CNN
+F 3 "~" H 14350 9450 60  0000 C CNN
+F 4 "1%" H 14050 9450 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 9450 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 9450 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 9450 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 9450 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 9450 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 9450 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 9450 50  0001 C CNN "Substitutes "
+	1    14050 9450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C54
+P 14050 7750
+AR Path="/5FD7F014/604C8C54" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C54" Ref="R18"  Part="1" 
+F 0 "R18" V 14200 7700 60  0000 L BNN
+F 1 "10k" V 13950 7600 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14140 7620 60  0001 C CNN
+F 3 "~" H 14140 7620 60  0000 C CNN
+F 4 "1%" H 14050 7750 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 7750 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 7750 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 7750 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 7750 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 7750 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 7750 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 7750 50  0001 C CNN "Substitutes "
+	1    14050 7750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C5A
+P 14050 8350
+AR Path="/5FD7F014/604C8C5A" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C5A" Ref="R20"  Part="1" 
+F 0 "R20" V 13900 8200 60  0000 L BNN
+F 1 "10k" V 14000 8200 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14350 8350 60  0001 C CNN
+F 3 "~" H 14350 8350 60  0000 C CNN
+F 4 "1%" H 14050 8350 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 8350 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 8350 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 8350 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 8350 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 8350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 8350 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 8350 50  0001 C CNN "Substitutes "
+	1    14050 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C60
+P 14050 8450
+AR Path="/5FD7F014/604C8C60" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C60" Ref="R22"  Part="1" 
+F 0 "R22" V 14150 8200 60  0000 L BNN
+F 1 "10k" V 14250 8250 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14350 8450 60  0001 C CNN
+F 3 "~" H 14350 8450 60  0000 C CNN
+F 4 "1%" H 14050 8450 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 14050 8450 50  0001 C CNN "Link1"
+F 6 "Y" H 14050 8450 50  0001 C CNN "Population"
+F 7 "Yageo" H 14050 8450 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 14050 8450 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 14050 8450 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 14050 8450 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 14050 8450 50  0001 C CNN "Substitutes "
+	1    14050 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C66
+P 12800 7150
+AR Path="/5FD7F014/604C8C66" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C66" Ref="R17"  Part="1" 
+F 0 "R17" V 12750 7000 60  0000 L BNN
+F 1 "10k" V 12750 7250 60  0000 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 12890 7020 60  0001 C CNN
+F 3 "~" H 12890 7020 60  0000 C CNN
+F 4 "1%" H 12800 7150 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 12800 7150 50  0001 C CNN "Link1"
+F 6 "Y" H 12800 7150 50  0001 C CNN "Population"
+F 7 "Yageo" H 12800 7150 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 12800 7150 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 12800 7150 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 12800 7150 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 12800 7150 50  0001 C CNN "Substitutes "
+	1    12800 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R?
+U 1 1 604C8C6C
+P 2750 2450
+AR Path="/5FD7F014/604C8C6C" Ref="R?"  Part="1" 
+AR Path="/60483E6B/604C8C6C" Ref="R16"  Part="1" 
+F 0 "R16" V 2800 2550 60  0000 R TNN
+F 1 "10k" V 2600 2550 60  0000 R TNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2860 2420 60  0001 C CNN
+F 3 "~" H 2860 2420 60  0000 C CNN
+F 4 "1%" H 2750 2450 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-7W10KL/12698809" H 2750 2450 50  0001 C CNN "Link1"
+F 6 "Y" H 2750 2450 50  0001 C CNN "Population"
+F 7 "Yageo" H 2750 2450 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-7W10KL" H 2750 2450 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 2750 2450 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 2750 2450 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 2750 2450 50  0001 C CNN "Substitutes "
+	1    2750 2450
+	-1   0    0    1   
+$EndComp
+Text Notes 8400 9800 0    52   ~ 0
+Current Mode:  \nL - Low(500-900mA) current. (Default) Pull-down to GND or leave unconnected.  \nM - Medium (1.5A) current. Pull-up to VDD with 500-kO resistor.  \nH - High (3.0A) current. Pull-up to VDD with 10-kO resistor.
+Text Notes 8400 10250 0    52   ~ 0
+DIR pin:  \nDIR of plug. This open drain output indicates the detected plug orientation: \n  Type-C plug position 2 (H) connectos Port A to Port C on U61; \n  Type-C plug position 1 (L) connects port A to Port B on U61.
+Text Notes 8400 10650 0    52   ~ 0
+Port:  \nH - DFP (Pull-up to VDD if DFP mode is desired)  \nNC - DRP (Default) (Leave unconnected if DRP mode is desired)  \nL - UFP (Pull-down or tie to GND if UFP mode is desired)
+Text GLabel 7850 8550 3    60   Output ~ 0
+VBUS
+Text GLabel 14900 5950 2    50   BiDi ~ 0
+USB_D_N
+Text GLabel 14900 5850 2    50   BiDi ~ 0
+USB_D_P
+Text GLabel 14900 6250 2    50   BiDi ~ 0
+USB_RX_N
+Text GLabel 14900 6150 2    50   BiDi ~ 0
+USB_RX_P
+Text GLabel 14750 6650 2    50   BiDi ~ 0
+USB_TX_N
+Text GLabel 14750 6550 2    50   BiDi ~ 0
+USB_TX_P
+Wire Notes Line
+	15400 6750 13800 6750
+Wire Notes Line
+	13800 6750 13800 5750
+Wire Notes Line
+	13800 5750 15400 5750
+Wire Notes Line
+	15400 5750 15400 6750
+$Comp
+L power:+5V #PWR0117
+U 1 1 6052F787
+P 15350 9300
+F 0 "#PWR0117" H 15350 9150 50  0001 C CNN
+F 1 "+5V" H 15365 9473 50  0000 C CNN
+F 2 "" H 15350 9300 50  0001 C CNN
+F 3 "" H 15350 9300 50  0001 C CNN
+	1    15350 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15350 9300 15350 9350
+Wire Wire Line
+	15350 9350 14700 9350
+Connection ~ 14700 9350
+$Comp
+L power:+3V3 #PWR0118
+U 1 1 605448CF
+P 14300 7650
+F 0 "#PWR0118" H 14300 7500 50  0001 C CNN
+F 1 "+3V3" H 14315 7823 50  0000 C CNN
+F 2 "" H 14300 7650 50  0001 C CNN
+F 3 "" H 14300 7650 50  0001 C CNN
+	1    14300 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14300 7650 14300 7750
+$Comp
+L power:+5V #PWR0119
+U 1 1 60558EB6
+P 12050 8750
+F 0 "#PWR0119" H 12050 8600 50  0001 C CNN
+F 1 "+5V" H 11950 8750 50  0000 C CNN
+F 2 "" H 12050 8750 50  0001 C CNN
+F 3 "" H 12050 8750 50  0001 C CNN
+	1    12050 8750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 1200 2300 0    60   Input ~ 0
+VBUS
+$Comp
+L power:+3V3 #PWR0120
+U 1 1 605719D5
+P 11950 5000
+F 0 "#PWR0120" H 11950 4850 50  0001 C CNN
+F 1 "+3V3" H 12050 5100 50  0000 C CNN
+F 2 "" H 11950 5000 50  0001 C CNN
+F 3 "" H 11950 5000 50  0001 C CNN
+	1    11950 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12050 8750 11950 8750
+Wire Wire Line
+	2750 2250 2750 2300
+Wire Wire Line
+	2750 2600 2750 2750
+Wire Wire Line
+	12950 7150 13150 7150
+Wire Wire Line
+	13700 7750 13900 7750
+Wire Wire Line
+	12900 8350 13900 8350
+Wire Wire Line
+	12900 8450 13900 8450
+Wire Wire Line
+	13600 9350 13900 9350
+Wire Wire Line
+	13300 9450 13900 9450
+Wire Wire Line
+	13300 9150 13900 9150
+Wire Wire Line
+	13600 9050 13900 9050
+Connection ~ 11950 8750
+Wire Wire Line
+	11950 8750 11450 8750
+Wire Wire Line
+	7850 8550 8350 8550
+Wire Wire Line
+	7850 8450 8000 8450
+Wire Wire Line
+	14500 8350 14500 8450
+Wire Wire Line
+	14500 8450 14500 8550
+Connection ~ 14500 8450
+$Comp
+L power:GND #GND_?
+U 1 1 60CF6BF2
+P 6400 9300
+AR Path="/5FD7EFCB/60CF6BF2" Ref="#GND_?"  Part="1" 
+AR Path="/604AEAFA/60CF6BF2" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/60CF6BF2" Ref="#GND_024"  Part="1" 
+F 0 "#GND_024" H 6400 9300 20  0000 C CNN
+F 1 "GND" H 6400 9230 30  0000 C CNN
+F 2 "" H 6400 9300 70  0000 C CNN
+F 3 "" H 6400 9300 70  0000 C CNN
+	1    6400 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 60CF6BFF
+P 6700 9300
+AR Path="/5FD7EFCB/60CF6BFF" Ref="#GND_?"  Part="1" 
+AR Path="/604AEAFA/60CF6BFF" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/60CF6BFF" Ref="#GND_025"  Part="1" 
+F 0 "#GND_025" H 6700 9300 20  0000 C CNN
+F 1 "GND" H 6700 9230 30  0000 C CNN
+F 2 "" H 6700 9300 70  0000 C CNN
+F 3 "" H 6700 9300 70  0000 C CNN
+	1    6700 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
+U 1 1 60CF6C4E
+P 6400 9300
+AR Path="/5FD7EFCB/60CF6C4E" Ref="TP?"  Part="1" 
+AR Path="/604AEAFA/60CF6C4E" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/60CF6C4E" Ref="TP9"  Part="1" 
+F 0 "TP9" H 6350 9450 60  0000 L BNN
+F 1 "~" H 6400 9300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6400 9300 50  0001 C CNN
+F 3 "~" H 6400 9300 50  0001 C CNN
+F 4 "~" H 6400 9300 50  0001 C CNN "Link1"
+F 5 "~" H 6400 9300 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 6400 9300 50  0001 C CNN "Population"
+F 7 "~" H 6400 9300 50  0001 C CNN "STANDARD"
+F 8 "~" H 6400 9300 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 6400 9300 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 6400 9300 50  0001 C CNN "Short Description"
+F 11 "~" H 6400 9300 50  0001 C CNN "Substitutes "
+	1    6400 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-depthAI_sch-BW1098ABC-rescue TP?
+U 1 1 60CF6C54
+P 6700 9300
+AR Path="/5FD7EFCB/60CF6C54" Ref="TP?"  Part="1" 
+AR Path="/604AEAFA/60CF6C54" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/60CF6C54" Ref="TP10"  Part="1" 
+F 0 "TP10" H 6650 9450 60  0000 L BNN
+F 1 "~" H 6700 9300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 6700 9300 50  0001 C CNN
+F 3 "~" H 6700 9300 50  0001 C CNN
+F 4 "~" H 6700 9300 50  0001 C CNN "Link1"
+F 5 "~" H 6700 9300 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 6700 9300 50  0001 C CNN "Population"
+F 7 "~" H 6700 9300 50  0001 C CNN "STANDARD"
+F 8 "~" H 6700 9300 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 6700 9300 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 6700 9300 50  0001 C CNN "Short Description"
+F 11 "~" H 6700 9300 50  0001 C CNN "Substitutes "
+	1    6700 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A3EA63
+P 7300 4150
+AR Path="/5FF8D9B2/60A3EA63" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/60A3EA63" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 7300 3900 50  0001 C CNN
+F 1 "GND" H 7305 3977 50  0000 C CNN
+F 2 "" H 7300 4150 50  0001 C CNN
+F 3 "" H 7300 4150 50  0001 C CNN
+	1    7300 4150
+	0    -1   -1   0   
+$EndComp
+Text Notes 8650 1500 2    50   ~ 0
+All BG95/EG91/BG96 pins are 1V8 only
+Wire Wire Line
+	6600 2450 6700 2450
+Wire Wire Line
+	7300 4150 7200 4150
+Wire Wire Line
+	6650 2950 6650 3050
+Wire Wire Line
+	6700 2950 6650 2950
+Wire Wire Line
+	6650 3050 6700 3050
+Wire Wire Line
+	7200 3050 7800 3050
+Wire Wire Line
+	7200 3150 7800 3150
+Text Label 7800 3050 2    50   ~ 0
+MOSI
+Text Label 7800 3150 2    50   ~ 0
+MISO
+Text Notes 8650 1500 2    50   ~ 0
+All BG95/EG91/BG96 pins are 1V8 only
+Wire Wire Line
+	7300 2450 7200 2450
+Connection ~ 7300 2450
+Wire Wire Line
+	7300 2550 7300 2450
+Wire Wire Line
+	7200 2550 7300 2550
+Wire Wire Line
+	7400 2450 7300 2450
+Wire Wire Line
+	7300 2650 7200 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	7300 2750 7300 2650
+Wire Wire Line
+	7200 2750 7300 2750
+Wire Wire Line
+	7400 2650 7300 2650
+Wire Wire Line
+	6600 2850 6700 2850
+Wire Wire Line
+	6600 2750 6700 2750
+Wire Wire Line
+	6600 2850 6600 2750
+Text GLabel 7400 2650 2    50   Input ~ 0
+PMID
+$Comp
+L power:GND #PWR?
+U 1 1 60A3EA98
+P 7450 2850
+AR Path="/5FF8D9B2/60A3EA98" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/60A3EA98" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 7450 2600 50  0001 C CNN
+F 1 "GND" H 7455 2677 50  0000 C CNN
+F 2 "" H 7450 2850 50  0001 C CNN
+F 3 "" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7250 2850
+Wire Wire Line
+	7250 2850 7450 2850
+Wire Wire Line
+	7250 2950 7250 2850
+Wire Wire Line
+	7200 2950 7250 2950
+Wire Wire Line
+	7250 2850 7200 2850
+Connection ~ 6650 3050
+$Comp
+L power:GND #PWR?
+U 1 1 60A3EAB1
+P 6450 3050
+AR Path="/5FF8D9B2/60A3EAB1" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/60A3EAB1" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 6450 2800 50  0001 C CNN
+F 1 "GND" H 6455 2877 50  0000 C CNN
+F 2 "" H 6450 3050 50  0001 C CNN
+F 3 "" H 6450 3050 50  0001 C CNN
+	1    6450 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 60A3EAB7
+P 5750 2750
+AR Path="/5FF8D9B2/60A3EAB7" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/60A3EAB7" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 5750 2600 50  0001 C CNN
+F 1 "+3V3" H 5765 2923 50  0000 C CNN
+F 2 "" H 5750 2750 50  0001 C CNN
+F 3 "" H 5750 2750 50  0001 C CNN
+	1    5750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A3EABD
+P 6600 2450
+AR Path="/5FF8D9B2/60A3EABD" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/60A3EABD" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6600 2200 50  0001 C CNN
+F 1 "GND" H 6605 2277 50  0000 C CNN
+F 2 "" H 6600 2450 50  0001 C CNN
+F 3 "" H 6600 2450 50  0001 C CNN
+	1    6600 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A3EAC3
+P 7350 2250
+AR Path="/5FF8D9B2/60A3EAC3" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/60A3EAC3" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 7350 2000 50  0001 C CNN
+F 1 "GND" H 7355 2077 50  0000 C CNN
+F 2 "" H 7350 2250 50  0001 C CNN
+F 3 "" H 7350 2250 50  0001 C CNN
+	1    7350 2250
+	0    -1   -1   0   
+$EndComp
+Text Notes 7300 1118 2    118  ~ 24
+ABC HEADER
+Connection ~ 6600 2850
+NoConn ~ 6700 2550
+NoConn ~ 6700 2650
+Wire Wire Line
+	13600 1850 14200 1850
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 60A3EAD2
+P 5750 2800
+AR Path="/5FF8D9B2/60A3EAD2" Ref="#FLG?"  Part="1" 
+AR Path="/60483E6B/60A3EAD2" Ref="#FLG0101"  Part="1" 
+F 0 "#FLG0101" H 5750 2875 50  0001 C CNN
+F 1 "PWR_FLAG" H 5750 2973 50  0001 C CNN
+F 2 "" H 5750 2800 50  0001 C CNN
+F 3 "~" H 5750 2800 50  0001 C CNN
+	1    5750 2800
+	0    -1   -1   0   
+$EndComp
+Text Notes 14600 1900 0    50   ~ 0
+1.8V 
+Text Notes 9300 3400 0    50   ~ 0
+3.3V
+Text Notes 9500 3400 0    50   ~ 0
+QSPI NOR Flash
+Text GLabel 8900 3250 2    50   Output ~ 0
+SPI_SCK
+Text GLabel 14200 1850 2    50   Output ~ 0
+SPI_CS_1
+Text GLabel 8900 3350 2    50   Output ~ 0
+SPI_CS_0
+Text GLabel 8900 3450 2    50   Output ~ 0
+SPI_SIO0
+Text GLabel 8900 3550 2    50   Output ~ 0
+SPI_SIO1
+Text GLabel 8900 3650 2    50   Output ~ 0
+SPI_SIO2
+Text GLabel 8900 3750 2    50   Output ~ 0
+SPI_SIO3
+Text Notes 9300 3500 0    50   ~ 0
+3.3V
+Text Notes 9300 3600 0    50   ~ 0
+3.3V
+Text Notes 9300 3700 0    50   ~ 0
+3.3V
+Text Notes 9300 3800 0    50   ~ 0
+3.3V
+Text Notes 9300 3300 0    50   ~ 0
+3.3V
+Wire Wire Line
+	6450 3050 6500 3050
+Text Notes 8500 2750 0    50   ~ 0
+MUST assert SoM reset \nto access NOR Flash
+Text GLabel 14200 2050 2    50   Output ~ 0
+_RST
+Wire Wire Line
+	14200 2050 13600 2050
+Text Notes 14450 2100 0    50   ~ 0
+1.8v Active Low
+Text Label 10600 6350 0    60   ~ 0
+TXB_+
+Text Label 10600 6450 0    60   ~ 0
+TXB_-
+Text Label 10850 6750 0    60   ~ 0
+TXC_+
+Text Label 10850 6850 0    60   ~ 0
+TXC_-
+Wire Wire Line
+	6700 3250 6100 3250
+Wire Wire Line
+	6700 3150 6100 3150
+NoConn ~ 6700 2250
+NoConn ~ 6700 2350
+$Comp
+L Logic_LevelTranslator:TXB0102DCT U1
+U 1 1 604F1A9B
+P 12750 1950
+F 0 "U1" H 12750 1361 50  0000 C CNN
+F 1 "2-bit bidirectional level shifter " H 13500 1150 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 12750 1400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/txb0102.pdf" H 12750 1920 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nxp-usa-inc/NTB0102DP-Q100H/4289801" H 12750 1950 50  0001 C CNN "Link1"
+F 5 "NTB0102DP-Q100H" H 12750 1950 50  0001 C CNN "MPN1"
+F 6 "Y" H 12750 1950 50  0001 C CNN "Population"
+F 7 "~" H 12750 1950 50  0001 C CNN "STANDARD"
+F 8 "NXP" H 12750 1950 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 12750 1950 50  0001 C CNN "Short Description"
+F 10 "OR EQUIVALENT" H 12750 1950 50  0001 C CNN "Substitutes "
+F 11 "~" H 12750 1950 50  0001 C CNN "Voltage Rating"
+	1    12750 1950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 1850 11550 1850
+Wire Wire Line
+	12350 2050 11550 2050
+Text Label 6100 3550 0    50   ~ 0
+P1.14
+Text GLabel 7900 2350 2    50   Output ~ 0
+1V8
+Text Label 6100 3650 0    50   ~ 0
+P0.13
+Text Label 6100 3750 0    50   ~ 0
+P0.12
+Text Label 6100 3850 0    50   ~ 0
+P0.11
+Text Label 6100 4250 0    50   ~ 0
+P0.03
+Wire Wire Line
+	6700 4250 6100 4250
+Text Label 6100 4350 0    50   ~ 0
+P0.02
+Wire Wire Line
+	6700 4350 6100 4350
+Text Label 6100 3350 0    50   ~ 0
+P0.29
+Wire Wire Line
+	6700 3350 6100 3350
+Text Label 6100 3450 0    50   ~ 0
+P0.28
+Wire Wire Line
+	6700 3450 6100 3450
+Text Label 6100 3950 0    50   ~ 0
+P0.08
+Text Label 6100 4150 0    50   ~ 0
+P0.05
+Text Label 6100 4050 0    50   ~ 0
+P0.04
+NoConn ~ 6700 1950
+NoConn ~ 6700 2050
+NoConn ~ 6700 2150
+NoConn ~ 7200 1950
+NoConn ~ 7200 2050
+NoConn ~ 7200 2150
+Text GLabel 12850 1300 1    50   Input ~ 0
+1V8
+Wire Wire Line
+	12850 1450 12850 1300
+Wire Wire Line
+	12650 1050 12650 1450
+$Comp
+L power:+3V3 #PWR0122
+U 1 1 607B9077
+P 12650 1050
+F 0 "#PWR0122" H 12650 900 50  0001 C CNN
+F 1 "+3V3" H 12665 1223 50  0000 C CNN
+F 2 "" H 12650 1050 50  0001 C CNN
+F 3 "" H 12650 1050 50  0001 C CNN
+	1    12650 1050
+	1    0    0    -1  
+$EndComp
+Text Label 7800 3650 2    50   ~ 0
+P1.15
+Text Label 7800 3850 2    50   ~ 0
+P1.09
+Text Label 7800 4250 2    50   ~ 0
+NFC2
+Text Label 7800 4350 2    50   ~ 0
+NFC1
+Text Label 7800 3550 2    50   ~ 0
+P1.11
+Text Label 7800 3250 2    50   ~ 0
+SCLK
+Text Label 7800 4250 2    50   ~ 0
+NFC2
+Text Label 7800 4350 2    50   ~ 0
+NFC1
+Text Label 7800 3450 2    50   ~ 0
+P0.31
+Text Label 7800 4050 2    50   ~ 0
+P0.25
+Text Label 7800 3350 2    50   ~ 0
+P0.30
+Wire Wire Line
+	7200 4350 7800 4350
+Wire Wire Line
+	7200 4250 7800 4250
+Wire Wire Line
+	7200 4050 7800 4050
+Wire Wire Line
+	7200 3950 7800 3950
+Text Label 7800 3950 2    50   ~ 0
+P1.04
+Wire Wire Line
+	7200 3850 7800 3850
+Text Label 7800 3750 2    50   ~ 0
+P1.03
+NoConn ~ 7800 4350
+NoConn ~ 7800 4250
+Text Label 11550 2050 0    50   ~ 0
+P0.02
+Text Label 11550 1850 0    50   ~ 0
+P0.03
+$Comp
+L Device:R_US R14
+U 1 1 60886AFD
+P 8050 3250
+F 0 "R14" V 8000 3400 50  0000 C CNN
+F 1 "0R" V 8000 3100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3240 50  0001 C CNN
+F 3 "~" H 8050 3250 50  0001 C CNN
+F 4 "~" H 8050 3250 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 8050 3250 50  0001 C CNN "Link1"
+F 6 "Y" H 8050 3250 50  0001 C CNN "Population"
+F 7 "Yageo" H 8050 3250 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 8050 3250 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 8050 3250 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8050 3250 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8050 3250 50  0001 C CNN "Substitutes "
+	1    8050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R15
+U 1 1 60889E92
+P 8050 3350
+F 0 "R15" V 8000 3500 50  0000 C CNN
+F 1 "0R" V 8000 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3340 50  0001 C CNN
+F 3 "~" H 8050 3350 50  0001 C CNN
+F 4 "~" H 8050 3350 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 8050 3350 50  0001 C CNN "Link1"
+F 6 "Y" H 8050 3350 50  0001 C CNN "Population"
+F 7 "Yageo" H 8050 3350 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 8050 3350 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 8050 3350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8050 3350 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8050 3350 50  0001 C CNN "Substitutes "
+	1    8050 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R27
+U 1 1 6088A2BF
+P 8050 3450
+F 0 "R27" V 8000 3600 50  0000 C CNN
+F 1 "0R" V 8000 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3440 50  0001 C CNN
+F 3 "~" H 8050 3450 50  0001 C CNN
+F 4 "~" H 8050 3450 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 8050 3450 50  0001 C CNN "Link1"
+F 6 "Y" H 8050 3450 50  0001 C CNN "Population"
+F 7 "Yageo" H 8050 3450 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 8050 3450 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 8050 3450 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8050 3450 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8050 3450 50  0001 C CNN "Substitutes "
+	1    8050 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R31
+U 1 1 6088A715
+P 8050 3550
+F 0 "R31" V 8000 3700 50  0000 C CNN
+F 1 "0R" V 8000 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3540 50  0001 C CNN
+F 3 "~" H 8050 3550 50  0001 C CNN
+F 4 "~" H 8050 3550 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 8050 3550 50  0001 C CNN "Link1"
+F 6 "Y" H 8050 3550 50  0001 C CNN "Population"
+F 7 "Yageo" H 8050 3550 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 8050 3550 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 8050 3550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8050 3550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8050 3550 50  0001 C CNN "Substitutes "
+	1    8050 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R33
+U 1 1 6088B6ED
+P 8050 3650
+F 0 "R33" V 8000 3800 50  0000 C CNN
+F 1 "0R" V 8000 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3640 50  0001 C CNN
+F 3 "~" H 8050 3650 50  0001 C CNN
+F 4 "~" H 8050 3650 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 8050 3650 50  0001 C CNN "Link1"
+F 6 "Y" H 8050 3650 50  0001 C CNN "Population"
+F 7 "Yageo" H 8050 3650 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 8050 3650 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 8050 3650 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8050 3650 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8050 3650 50  0001 C CNN "Substitutes "
+	1    8050 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R37
+U 1 1 6088BABA
+P 8050 3750
+F 0 "R37" V 8000 3900 50  0000 C CNN
+F 1 "0R" V 8000 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8090 3740 50  0001 C CNN
+F 3 "~" H 8050 3750 50  0001 C CNN
+F 4 "~" H 8050 3750 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 8050 3750 50  0001 C CNN "Link1"
+F 6 "Y" H 8050 3750 50  0001 C CNN "Population"
+F 7 "Yageo" H 8050 3750 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 8050 3750 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 8050 3750 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 8050 3750 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 8050 3750 50  0001 C CNN "Substitutes "
+	1    8050 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8200 3250 8900 3250
+Wire Wire Line
+	8200 3350 8900 3350
+Wire Wire Line
+	8200 3450 8900 3450
+Wire Wire Line
+	8200 3550 8900 3550
+Wire Wire Line
+	8200 3650 8900 3650
+Wire Wire Line
+	8200 3750 8900 3750
+Wire Wire Line
+	7200 3250 7900 3250
+Wire Wire Line
+	7200 3350 7900 3350
+Wire Wire Line
+	7200 3450 7900 3450
+Wire Wire Line
+	7200 3550 7900 3550
+Wire Wire Line
+	7200 3650 7900 3650
+Wire Wire Line
+	7200 3750 7900 3750
+$Comp
+L power:GND #GND_?
+U 1 1 609D6AF3
+P 3200 1550
+AR Path="/5FD7F014/609D6AF3" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/609D6AF3" Ref="#GND_0103"  Part="1" 
+F 0 "#GND_0103" H 3200 1550 20  0000 C CNN
+F 1 "GND" H 3200 1480 30  0000 C CNN
+F 2 "" H 3200 1550 70  0000 C CNN
+F 3 "" H 3200 1550 70  0000 C CNN
+	1    3200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 609D6AF9
+P 2600 1550
+AR Path="/5FD7F014/609D6AF9" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/609D6AF9" Ref="#GND_0106"  Part="1" 
+F 0 "#GND_0106" H 2600 1550 20  0000 C CNN
+F 1 "GND" H 2600 1480 30  0000 C CNN
+F 2 "" H 2600 1550 70  0000 C CNN
+F 3 "" H 2600 1550 70  0000 C CNN
+	1    2600 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1450 3200 1550
+Wire Wire Line
+	3200 1050 3200 1150
+Wire Wire Line
+	2600 1050 2600 1150
+Wire Wire Line
+	3200 1050 3450 1050
+Wire Wire Line
+	2600 1050 3200 1050
+Connection ~ 3200 1050
+$Comp
+L Device:C C?
+U 1 1 609D6B08
+P 3200 1300
+AR Path="/5FD7F014/609D6B08" Ref="C?"  Part="1" 
+AR Path="/60483E6B/609D6B08" Ref="C2"  Part="1" 
+F 0 "C2" V 3300 1350 60  0000 R TNN
+F 1 "10uF " V 3000 1400 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3210 1210 60  0001 C CNN
+F 3 "~" H 3210 1210 60  0000 C CNN
+F 4 "6.3V" V 900 1900 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 3200 1300 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 3200 1300 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 3200 1300 50  0001 C CNN "MPN1"
+F 8 "Y" H 3200 1300 50  0001 C CNN "Population"
+F 9 "Kemet" H 3200 1300 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 3200 1300 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 3200 1300 50  0001 C CNN "Substitutes "
+	1    3200 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 609D6B0F
+P 2600 1300
+AR Path="/5FD7F014/609D6B0F" Ref="C?"  Part="1" 
+AR Path="/60483E6B/609D6B0F" Ref="C1"  Part="1" 
+F 0 "C1" V 2450 1450 60  0000 R TNN
+F 1 "10uF " V 2700 1500 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2610 1210 60  0001 C CNN
+F 3 "~" H 2610 1210 60  0000 C CNN
+F 4 "6.3V" V 900 1900 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 2600 1300 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 2600 1300 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 2600 1300 50  0001 C CNN "MPN1"
+F 8 "Y" H 2600 1300 50  0001 C CNN "Population"
+F 9 "Kemet" H 2600 1300 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 2600 1300 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 2600 1300 50  0001 C CNN "Substitutes "
+	1    2600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 60A46E33
+P 3800 1050
+AR Path="/5FD7F014/60A46E33" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/60A46E33" Ref="TP2"  Part="1" 
+F 0 "TP2" H 3800 1250 60  0000 L BNN
+F 1 "~" H 3800 1050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 3800 1050 50  0001 C CNN
+F 3 "~" H 3800 1050 50  0001 C CNN
+F 4 "~" H 3800 1050 50  0001 C CNN "Link1"
+F 5 "~" H 3800 1050 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 3800 1050 50  0001 C CNN "Population"
+F 7 "~" H 3800 1050 50  0001 C CNN "STANDARD"
+F 8 "~" H 3800 1050 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 3800 1050 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 3800 1050 50  0001 C CNN "Short Description"
+F 11 "~" H 3800 1050 50  0001 C CNN "Substitutes "
+	1    3800 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0123
+U 1 1 60A47E40
+P 3450 850
+F 0 "#PWR0123" H 3450 700 50  0001 C CNN
+F 1 "+5V" H 3465 1023 50  0000 C CNN
+F 2 "" H 3450 850 50  0001 C CNN
+F 3 "" H 3450 850 50  0001 C CNN
+	1    3450 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 850  3450 1050
+Connection ~ 3450 1050
+Wire Wire Line
+	3450 1050 3700 1050
+Text GLabel 1600 1000 1    50   Input ~ 0
+PMID
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 60A6699B
+P 3700 1050
+F 0 "#FLG0102" H 3700 1125 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 1223 50  0000 C CNN
+F 2 "" H 3700 1050 50  0001 C CNN
+F 3 "~" H 3700 1050 50  0001 C CNN
+	1    3700 1050
+	-1   0    0    1   
+$EndComp
+Connection ~ 3700 1050
+Wire Wire Line
+	3700 1050 3800 1050
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 60AAAF89
+P 7800 2350
+F 0 "#FLG0103" H 7800 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 7800 2523 50  0000 C CNN
+F 2 "" H 7800 2350 50  0001 C CNN
+F 3 "~" H 7800 2350 50  0001 C CNN
+	1    7800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 60ACD3BF
+P 12750 2450
+AR Path="/5FD7F014/60ACD3BF" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/60ACD3BF" Ref="#GND_0107"  Part="1" 
+F 0 "#GND_0107" H 12750 2450 20  0000 C CNN
+F 1 "GND" H 12750 2380 30  0000 C CNN
+F 2 "" H 12750 2450 70  0000 C CNN
+F 3 "" H 12750 2450 70  0000 C CNN
+	1    12750 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 13800 2250 2    50   Input ~ 0
+1V8
+Wire Wire Line
+	13800 2250 13600 2250
+NoConn ~ 7800 3050
+NoConn ~ 7800 3150
+NoConn ~ 7800 3850
+NoConn ~ 7800 3950
+NoConn ~ 7800 4050
+NoConn ~ 6100 3450
+NoConn ~ 6100 3350
+Text Label 6100 3150 0    50   ~ 0
+SDA
+Text Label 6100 3250 0    50   ~ 0
+SCL
+NoConn ~ 6100 3150
+NoConn ~ 6100 3250
+Text Label 7400 2450 2    50   ~ 0
+VBAT
+Wire Wire Line
+	7200 2250 7350 2250
+Connection ~ 7800 2350
+Wire Wire Line
+	7800 2350 7900 2350
+Wire Wire Line
+	7200 2350 7800 2350
+Wire Wire Line
+	2600 1450 2600 1550
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 60E4ED8B
+P 6500 3050
+F 0 "#FLG0104" H 6500 3125 50  0001 C CNN
+F 1 "PWR_FLAG" H 6400 3150 50  0000 C CNN
+F 2 "" H 6500 3050 50  0001 C CNN
+F 3 "~" H 6500 3050 50  0001 C CNN
+	1    6500 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 6500 3050
+Wire Wire Line
+	6500 3050 6650 3050
+$Comp
+L Device:R_US R6
+U 1 1 6054716D
+P 13450 1850
+F 0 "R6" V 13400 2000 50  0000 C CNN
+F 1 "0R" V 13400 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13490 1840 50  0001 C CNN
+F 3 "~" H 13450 1850 50  0001 C CNN
+F 4 "~" H 13450 1850 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 13450 1850 50  0001 C CNN "Link1"
+F 6 "Y" H 13450 1850 50  0001 C CNN "Population"
+F 7 "Yageo" H 13450 1850 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 13450 1850 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 13450 1850 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13450 1850 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 13450 1850 50  0001 C CNN "Substitutes "
+	1    13450 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R7
+U 1 1 60547173
+P 13450 2050
+F 0 "R7" V 13400 2200 50  0000 C CNN
+F 1 "0R" V 13400 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13490 2040 50  0001 C CNN
+F 3 "~" H 13450 2050 50  0001 C CNN
+F 4 "~" H 13450 2050 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 13450 2050 50  0001 C CNN "Link1"
+F 6 "Y" H 13450 2050 50  0001 C CNN "Population"
+F 7 "Yageo" H 13450 2050 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 13450 2050 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 13450 2050 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13450 2050 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 13450 2050 50  0001 C CNN "Substitutes "
+	1    13450 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R11
+U 1 1 60547179
+P 13450 2250
+F 0 "R11" V 13400 2400 50  0000 C CNN
+F 1 "0R" V 13400 2100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 13490 2240 50  0001 C CNN
+F 3 "~" H 13450 2250 50  0001 C CNN
+F 4 "~" H 13450 2250 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 13450 2250 50  0001 C CNN "Link1"
+F 6 "Y" H 13450 2250 50  0001 C CNN "Population"
+F 7 "Yageo" H 13450 2250 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 13450 2250 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 13450 2250 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13450 2250 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 13450 2250 50  0001 C CNN "Substitutes "
+	1    13450 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13300 1850 13150 1850
+Wire Wire Line
+	13300 2050 13150 2050
+Wire Wire Line
+	13150 2250 13300 2250
+$Comp
+L Device:R_US R13
+U 1 1 605CDA58
+P 6050 2850
+F 0 "R13" V 6000 3000 50  0000 C CNN
+F 1 "0R" V 6000 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6090 2840 50  0001 C CNN
+F 3 "~" H 6050 2850 50  0001 C CNN
+F 4 "~" H 6050 2850 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 6050 2850 50  0001 C CNN "Link1"
+F 6 "Y" H 6050 2850 50  0001 C CNN "Population"
+F 7 "Yageo" H 6050 2850 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 6050 2850 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 6050 2850 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 6050 2850 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 6050 2850 50  0001 C CNN "Substitutes "
+	1    6050 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2850 5900 2850
+Wire Wire Line
+	5750 2750 5750 2800
+Connection ~ 5750 2800
+Wire Wire Line
+	5750 2800 5750 2850
+Wire Wire Line
+	6200 2850 6600 2850
+Text Label 2150 7800 0    60   ~ 0
+TXB_P
+Text Label 2150 7900 0    60   ~ 0
+TXB_N
+Text Label 4900 8600 2    60   ~ 0
+TXC_P
+Text Label 4900 8700 2    60   ~ 0
+TXC_N
+Text Label 4900 7800 2    60   ~ 0
+RXB_P
+Text Label 4900 7900 2    60   ~ 0
+RXB_N
+Text Label 2150 8700 0    60   ~ 0
+RXC_P
+Text Label 2150 8600 0    60   ~ 0
+RXC_N
+Text Label 2150 8100 0    60   ~ 0
+CC1
+Text Label 4900 8400 2    60   ~ 0
+CC2
+Text Label 2150 8200 0    60   ~ 0
+USB_D_P
+Text Label 2150 8300 0    60   ~ 0
+USB_D_N
+Text Label 4900 8200 2    60   ~ 0
+USB_D_P
+Text Label 4900 8300 2    60   ~ 0
+USB_D_N
+$Comp
+L power:GND #GND_?
+U 1 1 607CB7D4
+P 2550 9150
+AR Path="/5FD7F014/607CB7D4" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/607CB7D4" Ref="#GND_0108"  Part="1" 
+F 0 "#GND_0108" H 2550 9150 20  0000 C CNN
+F 1 "GND" H 2550 9080 30  0000 C CNN
+F 2 "" H 2550 9150 70  0000 C CNN
+F 3 "" H 2550 9150 70  0000 C CNN
+	1    2550 9150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 9150 2550 9000
+Wire Wire Line
+	2550 8800 2700 8800
+Wire Wire Line
+	2700 9000 2550 9000
+Connection ~ 2550 9000
+Wire Wire Line
+	2550 9000 2550 8800
+Wire Wire Line
+	9450 6750 6950 6750
+Wire Wire Line
+	6950 6850 9550 6850
+Wire Wire Line
+	6950 6950 9650 6950
+Wire Wire Line
+	6950 7050 9750 7050
+Wire Wire Line
+	6900 6250 9500 6250
+Wire Wire Line
+	9600 6150 6900 6150
+Wire Wire Line
+	6900 5950 9700 5950
+Wire Wire Line
+	9800 5850 6900 5850
+$Comp
+L Device:R_US R12
+U 1 1 60947697
+P 1900 2300
+F 0 "R12" V 1850 2450 50  0000 C CNN
+F 1 "0R" V 1850 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1940 2290 50  0001 C CNN
+F 3 "~" H 1900 2300 50  0001 C CNN
+F 4 "~" H 1900 2300 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 1900 2300 50  0001 C CNN "Link1"
+F 6 "Y" H 1900 2300 50  0001 C CNN "Population"
+F 7 "Yageo" H 1900 2300 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 1900 2300 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 1900 2300 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 1900 2300 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 1900 2300 50  0001 C CNN "Substitutes "
+	1    1900 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 2300 1650 2300
+Connection ~ 1350 2300
+Wire Wire Line
+	1350 2300 1200 2300
+Connection ~ 1650 2300
+Wire Wire Line
+	1650 2300 1350 2300
+Connection ~ 2750 2300
+$Comp
+L Device:R_US R5
+U 1 1 60A6A230
+P 2100 1050
+F 0 "R5" V 2050 1200 50  0000 C CNN
+F 1 "0R" V 2050 900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2140 1040 50  0001 C CNN
+F 3 "~" H 2100 1050 50  0001 C CNN
+F 4 "~" H 2100 1050 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 2100 1050 50  0001 C CNN "Link1"
+F 6 "Y" H 2100 1050 50  0001 C CNN "Population"
+F 7 "Yageo" H 2100 1050 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 2100 1050 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 2100 1050 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 2100 1050 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 2100 1050 50  0001 C CNN "Substitutes "
+	1    2100 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2600 1050 2250 1050
+Connection ~ 2600 1050
+Wire Wire Line
+	1600 1000 1600 1050
+Wire Wire Line
+	1600 1050 1950 1050
+$Comp
+L DepthABC-rescue:Layout_Guide_BW1099-DEPTH-BW1098ABC-rescue MISC2
+U 1 1 60C31494
+P 9400 1800
+F 0 "MISC2" H 9678 1852 58  0000 L CNN
+F 1 "Layout_Guide_ABC" H 9678 1749 58  0000 L CNN
+F 2 "ABC:ABC-Layout" H 9100 2200 58  0001 C CNN
+F 3 "~" H 9100 2200 58  0001 C CNN
+F 4 "NO POP" H 9400 1800 50  0001 C CNN "Population"
+F 5 "~" H 9400 1800 50  0001 C CNN "Link1"
+F 6 "~" H 9400 1800 50  0001 C CNN "MPN1"
+F 7 "~" H 9400 1800 50  0001 C CNN "STANDARD"
+F 8 "Luxonis" H 9400 1800 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 9400 1800 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 9400 1800 50  0001 C CNN "Short Description"
+F 11 "~" H 9400 1800 50  0001 C CNN "Substitutes "
+	1    9400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3750 5600 3750
+Wire Wire Line
+	4900 3650 5600 3650
+Wire Wire Line
+	4900 3550 5600 3550
+Wire Wire Line
+	5100 4150 5600 4150
+Wire Wire Line
+	5600 4050 5100 4050
+Wire Wire Line
+	5100 3950 5600 3950
+Wire Wire Line
+	5600 3850 5100 3850
+$Comp
+L Device:R_US R32
+U 1 1 607E9843
+P 5750 3650
+F 0 "R32" V 5700 3800 50  0000 C CNN
+F 1 "0R" V 5700 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 3640 50  0001 C CNN
+F 3 "~" H 5750 3650 50  0001 C CNN
+F 4 "~" H 5750 3650 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 3650 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 3650 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 3650 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 3650 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 3650 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 3650 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 3650 50  0001 C CNN "Substitutes "
+	1    5750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R34
+U 1 1 607E9849
+P 5750 3750
+F 0 "R34" V 5700 3900 50  0000 C CNN
+F 1 "0R" V 5700 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 3740 50  0001 C CNN
+F 3 "~" H 5750 3750 50  0001 C CNN
+F 4 "~" H 5750 3750 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 3750 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 3750 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 3750 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 3750 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 3750 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 3750 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 3750 50  0001 C CNN "Substitutes "
+	1    5750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R38
+U 1 1 607E984F
+P 5750 3850
+F 0 "R38" V 5700 4000 50  0000 C CNN
+F 1 "0R" V 5700 3700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 3840 50  0001 C CNN
+F 3 "~" H 5750 3850 50  0001 C CNN
+F 4 "~" H 5750 3850 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 3850 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 3850 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 3850 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 3850 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 3850 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 3850 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 3850 50  0001 C CNN "Substitutes "
+	1    5750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R39
+U 1 1 607E9855
+P 5750 3950
+F 0 "R39" V 5700 4100 50  0000 C CNN
+F 1 "0R" V 5700 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 3940 50  0001 C CNN
+F 3 "~" H 5750 3950 50  0001 C CNN
+F 4 "~" H 5750 3950 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 3950 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 3950 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 3950 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 3950 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 3950 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 3950 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 3950 50  0001 C CNN "Substitutes "
+	1    5750 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R40
+U 1 1 607E985B
+P 5750 4050
+F 0 "R40" V 5700 4200 50  0000 C CNN
+F 1 "0R" V 5700 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 4040 50  0001 C CNN
+F 3 "~" H 5750 4050 50  0001 C CNN
+F 4 "~" H 5750 4050 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 4050 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 4050 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 4050 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 4050 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 4050 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 4050 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 4050 50  0001 C CNN "Substitutes "
+	1    5750 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R41
+U 1 1 607E9861
+P 5750 4150
+F 0 "R41" V 5700 4300 50  0000 C CNN
+F 1 "0R" V 5700 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 4140 50  0001 C CNN
+F 3 "~" H 5750 4150 50  0001 C CNN
+F 4 "~" H 5750 4150 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 4150 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 4150 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 4150 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 4150 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 4150 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 4150 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 4150 50  0001 C CNN "Substitutes "
+	1    5750 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R28
+U 1 1 607FBF8B
+P 5750 3550
+F 0 "R28" V 5700 3700 50  0000 C CNN
+F 1 "0R" V 5700 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5790 3540 50  0001 C CNN
+F 3 "~" H 5750 3550 50  0001 C CNN
+F 4 "~" H 5750 3550 50  0001 C CNN "STANDARD"
+F 5 "https://www.digikey.com/en/products/detail/yageo/RC0603FR-070RL/1304008" H 5750 3550 50  0001 C CNN "Link1"
+F 6 "Y" H 5750 3550 50  0001 C CNN "Population"
+F 7 "Yageo" H 5750 3550 50  0001 C CNN "MANUFACTURER"
+F 8 "RC0603FR-070RL" H 5750 3550 50  0001 C CNN "MPN1"
+F 9 "1/10W " H 5750 3550 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 5750 3550 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5750 3550 50  0001 C CNN "Substitutes "
+	1    5750 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5900 3550 6700 3550
+Wire Wire Line
+	5900 3650 6700 3650
+Wire Wire Line
+	5900 3750 6700 3750
+Wire Wire Line
+	5900 3850 6700 3850
+Wire Wire Line
+	5900 3950 6700 3950
+Wire Wire Line
+	5900 4050 6700 4050
+Wire Wire Line
+	5900 4150 6700 4150
+Text GLabel 4900 3550 0    50   BiDi ~ 0
+SD_HST0_CLK
+Text GLabel 4900 3650 0    50   BiDi ~ 0
+SD_HST0_CMD
+Text GLabel 5100 3850 0    50   BiDi ~ 0
+SD_HST0_D0
+Text GLabel 5100 3950 0    50   BiDi ~ 0
+SD_HST0_D1
+Text GLabel 5100 4050 0    50   BiDi ~ 0
+SD_HST0_D2
+Text GLabel 5100 4150 0    50   BiDi ~ 0
+SD_HST0_D3
+Text GLabel 4900 3750 0    50   BiDi ~ 0
+SD_HST0_CD
+$Comp
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H?
+U 1 1 6062CDE2
+P 1750 5500
+AR Path="/6062CDE2" Ref="H?"  Part="1" 
+AR Path="/60483E6B/6062CDE2" Ref="H9"  Part="1" 
+F 0 "H9" H 1850 5549 50  0000 L CNN
+F 1 "MountingHole_4-40" H 1850 5458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1750 5500 50  0001 C CNN
+F 3 "~" H 1750 5500 50  0001 C CNN
+F 4 "NO POP" H 1750 5500 50  0001 C CNN "Population"
+F 5 "~" H 1750 5500 50  0001 C CNN "Link1"
+F 6 "~" H 1750 5500 50  0001 C CNN "MPN1"
+F 7 "~" H 1750 5500 50  0001 C CNN "STANDARD"
+F 8 "~" H 1750 5500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1750 5500 50  0001 C CNN "Voltage Rating"
+F 10 "ABC mount" H 1750 5500 50  0001 C CNN "Short Description"
+F 11 "~" H 1750 5500 50  0001 C CNN "Substitutes "
+	1    1750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6062CDFA
+P 1750 5600
+AR Path="/6062CDFA" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/6062CDFA" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 1750 5350 50  0001 C CNN
+F 1 "GND" H 1755 5427 50  0000 C CNN
+F 2 "" H 1750 5600 50  0001 C CNN
+F 3 "" H 1750 5600 50  0001 C CNN
+	1    1750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H?
+U 1 1 606A0597
+P 2750 5500
+AR Path="/606A0597" Ref="H?"  Part="1" 
+AR Path="/60483E6B/606A0597" Ref="H10"  Part="1" 
+F 0 "H10" H 2850 5549 50  0000 L CNN
+F 1 "MountingHole_4-40" H 2850 5458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 2750 5500 50  0001 C CNN
+F 3 "~" H 2750 5500 50  0001 C CNN
+F 4 "NO POP" H 2750 5500 50  0001 C CNN "Population"
+F 5 "~" H 2750 5500 50  0001 C CNN "Link1"
+F 6 "~" H 2750 5500 50  0001 C CNN "MPN1"
+F 7 "~" H 2750 5500 50  0001 C CNN "STANDARD"
+F 8 "~" H 2750 5500 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 2750 5500 50  0001 C CNN "Voltage Rating"
+F 10 "ABC mount" H 2750 5500 50  0001 C CNN "Short Description"
+F 11 "~" H 2750 5500 50  0001 C CNN "Substitutes "
+	1    2750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606A059D
+P 2750 5600
+AR Path="/606A059D" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/606A059D" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 2750 5350 50  0001 C CNN
+F 1 "GND" H 2755 5427 50  0000 C CNN
+F 2 "" H 2750 5600 50  0001 C CNN
+F 3 "" H 2750 5600 50  0001 C CNN
+	1    2750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H?
+U 1 1 606C740B
+P 1700 6250
+AR Path="/606C740B" Ref="H?"  Part="1" 
+AR Path="/60483E6B/606C740B" Ref="H11"  Part="1" 
+F 0 "H11" H 1800 6299 50  0000 L CNN
+F 1 "MountingHole_4-40" H 1800 6208 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 1700 6250 50  0001 C CNN
+F 3 "~" H 1700 6250 50  0001 C CNN
+F 4 "NO POP" H 1700 6250 50  0001 C CNN "Population"
+F 5 "~" H 1700 6250 50  0001 C CNN "Link1"
+F 6 "~" H 1700 6250 50  0001 C CNN "MPN1"
+F 7 "~" H 1700 6250 50  0001 C CNN "STANDARD"
+F 8 "~" H 1700 6250 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 1700 6250 50  0001 C CNN "Voltage Rating"
+F 10 "ABC mount" H 1700 6250 50  0001 C CNN "Short Description"
+F 11 "~" H 1700 6250 50  0001 C CNN "Substitutes "
+	1    1700 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606C7411
+P 1700 6350
+AR Path="/606C7411" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/606C7411" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 1700 6100 50  0001 C CNN
+F 1 "GND" H 1705 6177 50  0000 C CNN
+F 2 "" H 1700 6350 50  0001 C CNN
+F 3 "" H 1700 6350 50  0001 C CNN
+	1    1700 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DepthABC-rescue:Mechanical_MountingHole_Pad-depthAI_sch-BW1098ABC-rescue H?
+U 1 1 606DA36F
+P 2750 6300
+AR Path="/606DA36F" Ref="H?"  Part="1" 
+AR Path="/60483E6B/606DA36F" Ref="H12"  Part="1" 
+F 0 "H12" H 2850 6349 50  0000 L CNN
+F 1 "MountingHole_4-40" H 2850 6258 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3mm_Pad" H 2750 6300 50  0001 C CNN
+F 3 "~" H 2750 6300 50  0001 C CNN
+F 4 "NO POP" H 2750 6300 50  0001 C CNN "Population"
+F 5 "~" H 2750 6300 50  0001 C CNN "Link1"
+F 6 "~" H 2750 6300 50  0001 C CNN "MPN1"
+F 7 "~" H 2750 6300 50  0001 C CNN "STANDARD"
+F 8 "~" H 2750 6300 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 2750 6300 50  0001 C CNN "Voltage Rating"
+F 10 "ABC mount" H 2750 6300 50  0001 C CNN "Short Description"
+F 11 "~" H 2750 6300 50  0001 C CNN "Substitutes "
+	1    2750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 606DA375
+P 2750 6400
+AR Path="/606DA375" Ref="#PWR?"  Part="1" 
+AR Path="/60483E6B/606DA375" Ref="#PWR0131"  Part="1" 
+F 0 "#PWR0131" H 2750 6150 50  0001 C CNN
+F 1 "GND" H 2755 6227 50  0000 C CNN
+F 2 "" H 2750 6400 50  0001 C CNN
+F 3 "" H 2750 6400 50  0001 C CNN
+	1    2750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 10132328-10011LF:10132328-10011LF J5
+U 1 1 6062DC2A
+P 3500 8300
+F 0 "J5" H 3500 9167 50  0000 C CNN
+F 1 "USBC 3.1 Vertical" H 3500 9076 50  0000 C CNN
+F 2 "AMPHENOL_10132328-10011LF" H 3500 8300 50  0001 L BNN
+F 3 "" H 3500 8300 50  0001 L BNN
+F 4 "8.80mm" H 3500 8300 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "A" H 3500 8300 50  0001 L BNN "PARTREV"
+F 6 "~" H 3500 8300 50  0001 L BNN "STANDARD"
+F 7 "Amphenol" H 3500 8300 50  0001 L BNN "MANUFACTURER"
+F 8 "https://www.amphenol-icc.com/usb-1013232810011lf.html?__cf_chl_jschl_tk__=0f5ca71e87e5c21f3558710009ce813cb5029150-1618280928-0-Ae1QLIIZL77w7L0Za4797vDMhHlVdapWk_pPFpeR05FI2lEl93-ukIaj2wtzXQ_tU7C9Blcmn4x_tzPbtZpji2TBBs1oh7gECH1P6N3W4s3PmPp0p6TWnq_LBestk2_yHmoDtoVJRs74rKO1Bc_n0RJpgpNZSglm3wci3mnRDblYi8js1mlgva-H7Pqbj22_Zy8vepA-0e0-VIQN5IUiaRH9njPgdWDKvjoPw3TGdoCLu9Qc4McAIw0eTgiXqqZrHFKF8FDzTJ2XLhYTFZ65MNW8DNWyC269lpWRqdBHEKHk5YzpHW7dqCl56wEaQeXZr7gbIU9bq1xJ2Ygu5FD_TGs42A4CWEipT0p0CWvPFTFAi9WiuuQWPNkshYvOn3QqF_aTQQbLcHV7zuAivF3DP6Kt9vmOdob547ArJEJnslOYIFVV4rrOxiFw_C9KI4Fw0pqsmJSUB_-z58wJcutnFfw" H 3500 8300 50  0001 C CNN "Link1"
+F 9 "Y" H 3500 8300 50  0001 C CNN "Population"
+F 10 "10132328-10011LF" H 3500 8300 50  0001 C CNN "MPN1"
+F 11 "~" H 3500 8300 50  0001 C CNN "Voltage Rating"
+F 12 "~" H 3500 8300 50  0001 C CNN "Short Description"
+F 13 "N" H 3500 8300 50  0001 C CNN "Substitutes "
+	1    3500 8300
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 8000 0    47   Input ~ 0
+VBUS
+Text GLabel 2700 8500 0    47   Input ~ 0
+VBUS
+Wire Wire Line
+	2150 7800 2700 7800
+Wire Wire Line
+	2150 7900 2700 7900
+Wire Wire Line
+	2150 8100 2700 8100
+Wire Wire Line
+	2150 8200 2700 8200
+Wire Wire Line
+	2150 8300 2700 8300
+Wire Wire Line
+	2150 8600 2700 8600
+Wire Wire Line
+	2150 8700 2700 8700
+NoConn ~ 2700 8400
+$Comp
+L power:GND #GND_?
+U 1 1 60777FEC
+P 2700 7700
+AR Path="/5FD7F014/60777FEC" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/60777FEC" Ref="#GND_0110"  Part="1" 
+F 0 "#GND_0110" H 2700 7700 20  0000 C CNN
+F 1 "GND" H 2700 7630 30  0000 C CNN
+F 2 "" H 2700 7700 70  0000 C CNN
+F 3 "" H 2700 7700 70  0000 C CNN
+	1    2700 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 60778BAA
+P 4300 7700
+AR Path="/5FD7F014/60778BAA" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/60778BAA" Ref="#GND_0116"  Part="1" 
+F 0 "#GND_0116" H 4300 7700 20  0000 C CNN
+F 1 "GND" H 4300 7630 30  0000 C CNN
+F 2 "" H 4300 7700 70  0000 C CNN
+F 3 "" H 4300 7700 70  0000 C CNN
+	1    4300 7700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 4300 8000 2    47   Input ~ 0
+VBUS
+Text GLabel 4300 8500 2    47   Input ~ 0
+VBUS
+$Comp
+L power:GND #GND_?
+U 1 1 607BED24
+P 4300 8950
+AR Path="/5FD7F014/607BED24" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/607BED24" Ref="#GND_0118"  Part="1" 
+F 0 "#GND_0118" H 4300 8950 20  0000 C CNN
+F 1 "GND" H 4300 8880 30  0000 C CNN
+F 2 "" H 4300 8950 70  0000 C CNN
+F 3 "" H 4300 8950 70  0000 C CNN
+	1    4300 8950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 8950 4300 8800
+Wire Wire Line
+	4300 7800 4900 7800
+Wire Wire Line
+	4300 7900 4900 7900
+Wire Wire Line
+	4300 8200 4900 8200
+Wire Wire Line
+	4300 8300 4900 8300
+Wire Wire Line
+	4300 8400 4900 8400
+Wire Wire Line
+	4300 8600 4900 8600
+Wire Wire Line
+	4300 8700 4900 8700
+Text Notes 6450 5650 0    118  ~ 24
+90 Ohm DIfferential Impedance
+Text Label 12900 8850 0    50   ~ 0
+OUT1
+Text Label 12900 8950 0    50   ~ 0
+OUT2
+Text Label 9400 8550 0    50   ~ 0
+VBUS_DET
+Text Label 12900 8150 0    50   ~ 0
+DIR
+Text GLabel 5550 1350 2    50   Input ~ 0
+1V8
+$Comp
+L power:GND #GND_?
+U 1 1 609499FD
+P 5200 1850
+AR Path="/5FD7F014/609499FD" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/609499FD" Ref="#GND_0119"  Part="1" 
+F 0 "#GND_0119" H 5200 1850 20  0000 C CNN
+F 1 "GND" H 5200 1780 30  0000 C CNN
+F 2 "" H 5200 1850 70  0000 C CNN
+F 3 "" H 5200 1850 70  0000 C CNN
+	1    5200 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1750 5200 1850
+Wire Wire Line
+	5200 1350 5200 1450
+$Comp
+L Device:C C?
+U 1 1 60949A0A
+P 5200 1600
+AR Path="/5FD7F014/60949A0A" Ref="C?"  Part="1" 
+AR Path="/60483E6B/60949A0A" Ref="C4"  Part="1" 
+F 0 "C4" V 5300 1650 60  0000 R TNN
+F 1 "10uF " V 5000 1700 60  0000 R TNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5210 1510 60  0001 C CNN
+F 3 "~" H 5210 1510 60  0000 C CNN
+F 4 "6.3V" V 2900 2200 60  0001 C CNN "Voltage Rating"
+F 5 "X5R 20%" H 5200 1600 50  0001 C CNN "STANDARD"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C106M8PAC7867/7382061" H 5200 1600 50  0001 C CNN "Link1"
+F 7 "C0603C106M8PAC7867" H 5200 1600 50  0001 C CNN "MPN1"
+F 8 "Y" H 5200 1600 50  0001 C CNN "Population"
+F 9 "Kemet" H 5200 1600 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 5200 1600 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 5200 1600 50  0001 C CNN "Substitutes "
+	1    5200 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 6095CFF9
+P 4850 1350
+AR Path="/5FD7F014/6095CFF9" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/6095CFF9" Ref="TP6"  Part="1" 
+F 0 "TP6" H 4850 1550 60  0000 L BNN
+F 1 "~" H 4850 1350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 4850 1350 50  0001 C CNN
+F 3 "~" H 4850 1350 50  0001 C CNN
+F 4 "~" H 4850 1350 50  0001 C CNN "Link1"
+F 5 "~" H 4850 1350 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 4850 1350 50  0001 C CNN "Population"
+F 7 "~" H 4850 1350 50  0001 C CNN "STANDARD"
+F 8 "~" H 4850 1350 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 4850 1350 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 4850 1350 50  0001 C CNN "Short Description"
+F 11 "~" H 4850 1350 50  0001 C CNN "Substitutes "
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1350 5200 1350
+Connection ~ 5200 1350
+Wire Wire Line
+	5200 1350 5550 1350
+Wire Wire Line
+	2050 2300 2750 2300
+$Comp
+L Connector_Generic:Conn_02x25_Counter_Clockwise J8
+U 1 1 60AD703F
+P 6900 3150
+F 0 "J8" H 6950 1725 50  0000 C CNN
+F 1 "Conn_02x25_Counter_Clockwise" H 6950 1816 50  0000 C CNN
+F 2 "ABC:DF23C-50DS-0.5V(51)" H 6900 3150 50  0001 C CNN
+F 3 "~" H 6900 3150 50  0001 C CNN
+F 4 "Amphenol" H 6900 3150 50  0001 C CNN "MANUFACTURER"
+F 5 "DF23C-50DS-0.5V(51)" H 6900 3150 50  0001 C CNN "MPN1"
+F 6 "Y" H 6900 3150 50  0001 C CNN "Population"
+F 7 "~" H 6900 3150 50  0001 C CNN "Voltage Rating"
+F 8 "~" H 6900 3150 50  0001 C CNN "STANDARD"
+F 9 "ABC header" H 6900 3150 50  0001 C CNN "Short Description"
+F 10 "N" H 6900 3150 50  0001 C CNN "Substitutes "
+F 11 "https://www.mouser.com/ProductDetail/Hirose-Connector/DF23C-50DS-05V51?qs=nSryOFbzj8K%252BlAT%2FH6jJhg%3D%3D" H 6900 3150 50  0001 C CNN "Link1"
+	1    6900 3150
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9600 6350 9600 6150
+$Comp
+L Device:C C?
+U 1 1 604C8C05
+P 9950 6450
+AR Path="/5FD7F014/604C8C05" Ref="C?"  Part="1" 
+AR Path="/60483E6B/604C8C05" Ref="C35"  Part="1" 
+F 0 "C35" V 9950 6500 60  0000 L BNN
+F 1 "0.1uF" V 9950 6150 60  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10040 6260 60  0001 C CNN
+F 3 "~" H 10040 6260 60  0000 C CNN
+F 4 "X5R 10%" H 9950 6450 50  0001 C CNN "STANDARD"
+F 5 "10V" H 9950 6450 50  0001 C CNN "Voltage Rating"
+F 6 "https://www.digikey.com/en/products/detail/kemet/C0603C104K8RACTU/411094" H 9950 6450 50  0001 C CNN "Link1"
+F 7 "C0603C104K8RACTU" H 9950 6450 50  0001 C CNN "MPN1"
+F 8 "Y" H 9950 6450 50  0001 C CNN "Population"
+F 9 "Kemet" H 9950 6450 50  0001 C CNN "MANUFACTURER"
+F 10 "~" H 9950 6450 50  0001 C CNN "Short Description"
+F 11 "OR EQUIVALENT" H 9950 6450 50  0001 C CNN "Substitutes "
+	1    9950 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L Analog_Switch:CBTL02043A U2
+U 1 1 60DF561C
+P 11950 6650
+F 0 "U2" H 12400 7600 50  0000 C CNN
+F 1 "CBTL02043A" H 12350 7500 50  0000 C CNN
+F 2 "Package_DFN_QFN:WQFN-20-1EP_2.5x4.5mm_P0.5mm_EP1x2.9mm" H 12025 5750 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/data-sheet/CBTL02043A_CBTL02043B.pdf" H 12075 6300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/nxp-usa-inc/CBTL02043ABQ-115/2619746" H 11950 6650 50  0001 C CNN "Link1"
+F 5 "NXP" H 11950 6650 50  0001 C CNN "MANUFACTURER"
+F 6 "CBTL02043ABQ,115" H 11950 6650 50  0001 C CNN "MPN1"
+F 7 "Y" H 11950 6650 50  0001 C CNN "Population"
+F 8 "~" H 11950 6650 50  0001 C CNN "STANDARD"
+F 9 "Usb mux" H 11950 6650 50  0001 C CNN "Short Description"
+F 10 "N" H 11950 6650 50  0001 C CNN "Substitutes "
+	1    11950 6650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 6150 11350 6150
+Wire Wire Line
+	9700 6250 11350 6250
+Wire Wire Line
+	10500 6350 11350 6350
+Wire Wire Line
+	10100 6450 11350 6450
+Wire Wire Line
+	12550 6150 14900 6150
+Wire Wire Line
+	12550 6250 14900 6250
+Wire Wire Line
+	12550 7050 13700 7050
+Connection ~ 13700 7750
+Wire Wire Line
+	11950 5000 11950 5150
+Connection ~ 11950 5150
+Wire Wire Line
+	11950 5150 11950 5750
+$Comp
+L DEPTH:PTN5150HXMP IC1
+U 1 1 61036230
+P 9750 8250
+F 0 "IC1" H 10600 8515 50  0000 C CNN
+F 1 "PTN5150HXMP" H 10600 8424 50  0000 C CNN
+F 2 "Luxonis_KiCad_Master:PTN5150HXMP" H 11300 8350 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/PTN5150A.pdf" H 11300 8250 50  0001 L CNN
+F 4 "NXP - PTN5150HXMP - USB TYPE-C CC LOGIC/PORT CONTROL, X2QFN" H 11300 8150 50  0001 L CNN "Description"
+F 5 "0.35" H 11300 8050 50  0001 L CNN "Height"
+F 6 "NXP" H 11300 7950 50  0001 L CNN "Manufacturer_Name"
+F 7 "PTN5150HXMP" H 11300 7850 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "771-PTN5150HXMP" H 11300 7750 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PTN5150HXMP" H 11300 7650 50  0001 L CNN "Mouser Price/Stock"
+F 10 "PTN5150HXMP" H 11300 7550 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ptn5150hxmp/nxp-semiconductors" H 11300 7450 50  0001 L CNN "Arrow Price/Stock"
+F 12 "https://www.digikey.com/en/products/detail/nxp-usa-inc/PTN5150HXMP/5981071" H 9750 8250 50  0001 C CNN "Link1"
+F 13 "NXP" H 9750 8250 50  0001 C CNN "MANUFACTURER"
+F 14 "PTN5150HXMP" H 9750 8250 50  0001 C CNN "MPN1"
+F 15 "Y" H 9750 8250 50  0001 C CNN "Population"
+F 16 "~" H 9750 8250 50  0001 C CNN "STANDARD"
+F 17 "Usb port control" H 9750 8250 50  0001 C CNN "Short Description"
+F 18 "N" H 9750 8250 50  0001 C CNN "Substitutes "
+	1    9750 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND_?
+U 1 1 61095D8F
+P 12200 8550
+AR Path="/5FD7F014/61095D8F" Ref="#GND_?"  Part="1" 
+AR Path="/60483E6B/61095D8F" Ref="#GND_0120"  Part="1" 
+F 0 "#GND_0120" H 12200 8550 20  0000 C CNN
+F 1 "GND" H 12300 8500 30  0000 C CNN
+F 2 "" H 12200 8550 70  0000 C CNN
+F 3 "" H 12200 8550 70  0000 C CNN
+	1    12200 8550
+	1    0    0    -1  
+$EndComp
+Text Label 9250 8450 0    60   ~ 0
+USB_PORT
+Wire Wire Line
+	9250 8450 9750 8450
+Text Label 11700 8250 2    50   ~ 0
+OUT1
+Text Label 11700 8350 2    50   ~ 0
+OUT2
+Wire Wire Line
+	11700 8250 11450 8250
+Wire Wire Line
+	11450 8350 11700 8350
+Text Label 11950 8650 2    60   ~ 0
+USB_ENB
+Wire Wire Line
+	11450 8550 12200 8550
+Wire Wire Line
+	11450 8650 11950 8650
+Text Label 11950 8450 2    50   ~ 0
+DIR
+Wire Wire Line
+	11950 8450 11450 8450
+NoConn ~ 4300 8100
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 6121A478
+P 8000 8450
+F 0 "#FLG0105" H 8000 8525 50  0001 C CNN
+F 1 "PWR_FLAG" H 8000 8623 50  0000 C CNN
+F 2 "" H 8000 8450 50  0001 C CNN
+F 3 "~" H 8000 8450 50  0001 C CNN
+	1    8000 8450
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 8450
+Wire Wire Line
+	8000 8450 8350 8450
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 60EBD88D
+P 9750 8750
+AR Path="/5FD7F014/60EBD88D" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/60EBD88D" Ref="TP8"  Part="1" 
+F 0 "TP8" V 9800 9000 60  0000 L BNN
+F 1 "~" H 9750 8750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 9750 8750 50  0001 C CNN
+F 3 "~" H 9750 8750 50  0001 C CNN
+F 4 "~" H 9750 8750 50  0001 C CNN "Link1"
+F 5 "~" H 9750 8750 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 9750 8750 50  0001 C CNN "Population"
+F 7 "~" H 9750 8750 50  0001 C CNN "STANDARD"
+F 8 "~" H 9750 8750 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 9750 8750 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 9750 8750 50  0001 C CNN "Short Description"
+F 11 "~" H 9750 8750 50  0001 C CNN "Substitutes "
+	1    9750 8750
+	-1   0    0    1   
+$EndComp
+$Comp
+L DepthABC-rescue:TEST_POINT-DEPTH-BW1098ABC-rescue TP?
+U 1 1 60EBE5FD
+P 13700 7750
+AR Path="/5FD7F014/60EBE5FD" Ref="TP?"  Part="1" 
+AR Path="/60483E6B/60EBE5FD" Ref="TP7"  Part="1" 
+F 0 "TP7" V 13750 8000 60  0000 L BNN
+F 1 "~" H 13700 7750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 13700 7750 50  0001 C CNN
+F 3 "~" H 13700 7750 50  0001 C CNN
+F 4 "~" H 13700 7750 50  0001 C CNN "Link1"
+F 5 "~" H 13700 7750 50  0001 C CNN "MPN1"
+F 6 "NO POP" H 13700 7750 50  0001 C CNN "Population"
+F 7 "~" H 13700 7750 50  0001 C CNN "STANDARD"
+F 8 "~" H 13700 7750 50  0001 C CNN "MANUFACTURER"
+F 9 "~" H 13700 7750 50  0001 C CNN "Voltage Rating"
+F 10 "~" H 13700 7750 50  0001 C CNN "Short Description"
+F 11 "~" H 13700 7750 50  0001 C CNN "Substitutes "
+	1    13700 7750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	13700 7050 13700 7750
+$EndSCHEMATC
