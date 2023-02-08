@@ -75,6 +75,7 @@ The following PoE injectors were tested on a 12V input:
 - Solis energy PoE-24 HPI-1112: Input voltage: 12V / 24V DC. Works as expected.
 - Tycon Power TPDIN-1256GD-BT: Input voltage: 11 ~ 60V. Works as expected.
 - Tycon Power TP-DC-1248GDX2-HP: Input voltage: 10 ~ 15V. Only starts powering its own LED at 15V, so it is unreliable, even though the IEEE standard is 802.3af.
+- PoE Power bank `IDEA4TEC <https://linitx.com/category/poe-powerbank-/1142/149,1142>`__ was also reported to work with our OAK cameras.
 
 Here's an example of connecting multiple OAK PoE cameras to the UniFi switch:
 
