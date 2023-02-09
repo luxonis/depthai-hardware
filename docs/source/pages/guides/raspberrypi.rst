@@ -100,8 +100,8 @@ first need to enable USB_BOOT with the header pin. By default, connector is on t
 
 .. image:: /_static/images/rpi/usb-boot.png
 
-After switching the connector, we can connect a micro-USB cable from our computer to the micro-USB connector that's
-also indicated by the red box above. The OAK device (CM4, to be specific) also has to be powered via 5V barrel jack.
+After switching the pin connector to ``EN``, we can connect a micro-USB cable from our computer to the micro-USB connector that's
+also indicated by the red rectangle above. After connecting the micro-USB, you should supply the power via 5V barrel jack.
 
 After connecting both the micro-USB and power, we need to **enable RPi USB boot**. We have followed the
 `tutorial here <https://github.com/raspberrypi/usbboot>`__. After building the program and running it,
