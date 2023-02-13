@@ -1,14 +1,14 @@
 OAK-SoM Pro S3 vs OAK-SoM MAX
 *****************************
 
-These are both our inital SoMs that have on-board **Robotics Vision Core 3** (:ref:`RVC3`). The :ref:`OAK-SoM-Pro-S3 <OAK-SoM-Pro>`
-was desgined first for evaluation and **backwards compatibility** with the :ref:`OAK-SoM-Pro`. The :ref:`dm3399` was
+These are both our initial SoMs that have on-board **Robotics Vision Core 3** (:ref:`RVC3`). The :ref:`OAK-SoM-Pro-S3 <OAK-SoM-Pro>`
+was designed first for evaluation and **backwards compatibility** with the :ref:`OAK-SoM-Pro`. The :ref:`dm3399` was
 designed later for **maximum performance and extensibility**.
 
 OAK SoM differences
 -------------------
 
-- **Compatiblity with existing models**
+- **Compatibility with existing models**
     - **Pro-S3** is compatible with boards that have :ref:`OAK-SoM-Pro` integrated (:ref:`list here <OAK-SoM-Pro>`). This allowed us for quicker evaluation of the new :ref:`RVC3`.
     - **Max** is not yet compatible with any boards.
 - **Connectors**
