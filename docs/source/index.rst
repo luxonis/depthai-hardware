@@ -64,9 +64,9 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
           :target: pages/NG9096litew.html
      - .. image:: /_static/images/thumbnails/oak-1-w.png
           :target: pages/NG9096w.html
-     - .. image:: /_static/images/thumbnails/oak-d-w.png
+     - .. image:: /_static/images/thumbnails/oak-d-w_th.png
           :target: pages/DM9098w.html
-     - .. image:: /_static/images/thumbnails/oak-d-pro-w.png
+     - .. image:: /_static/images/thumbnails/OAK-D-Pro-W_th.png
           :target: pages/DM9098prow.html
    * - :ref:`Learn more <ng9096litew>`
      - :ref:`Learn more <ng9096w>`
@@ -102,7 +102,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
    * - OAK-D PoE
      - OAK-D S2 PoE
      - OAK-D Pro PoE
-   * - .. image:: /_static/images/thumbnails/oak-d-poe.png
+   * - .. image:: /_static/images/thumbnails/oak-d-poe_th.png
           :target: pages/SJ2088POE.html
      - .. image:: /_static/images/thumbnails/s2-poe.png
           :target: pages/NG9097s2.html
@@ -118,7 +118,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
    * - OAK-1 PoE
      - OAK-D W PoE
      - OAK-D Pro W PoE
-   * - .. image:: /_static/images/thumbnails/oak-1-poe.png
+   * - .. image:: /_static/images/thumbnails/OAK-1-PoE_th.png
           :target: pages/SJ2096POE.html
      - .. image:: /_static/images/thumbnails/oak-d-w-poe.png
           :target: pages/NG9097w.html
@@ -143,13 +143,13 @@ custom baseline, or custom orientation of the cameras.
      - OAK-FFC 4P
      - OAK-FFC 6P
      - FFC Camera modules
-   * - .. image:: /_static/images/thumbnails/DM1090FFC_new.png
+   * - .. image:: /_static/images/thumbnails/OAK-FFC-3P_th.png
           :target: pages/DM1090.html
-     - .. image:: /_static/images/thumbnails/FFC-4P.png
+     - .. image:: /_static/images/thumbnails/OAK-FFC-4P_th.png
           :target: pages/DD2090.html
      - .. image:: /_static/images/thumbnails/FFC-6P.png
           :target: pages/DM3390.html
-     - .. image:: /_static/images/thumbnails/arducam_2.png
+     - .. image:: /_static/images/thumbnails/OAK-FFC_modules_th.png
           :target: pages/ffc-cameras.html
    * - :ref:`Learn more <dm1090ffc>`
      - :ref:`Learn more <dd2090ffc>`
@@ -192,7 +192,7 @@ open-source hardware designs as you see fit.
      - OAK-SoM MAX
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html
-     - .. image:: /_static/images/thumbnails/oak-som-pro.png
+     - .. image:: /_static/images/thumbnails/OAK-SoM-Pro_th.png
           :target: pages/BW2099.html
      - .. image:: /_static/images/thumbnails/dm3399.png
           :target: pages/DM3399.html
@@ -209,11 +209,11 @@ Other Designs
    * - OAK-D CM4
      - OAK-D CM4 PoE
      - OAK Y-Adapter
-   * - .. image:: /_static/images/thumbnails/DM1097.png
+   * - .. image:: /_static/images/thumbnails/OAK-D-CM4_th.png
           :target: pages/DM1097.html
-     - .. image:: /_static/images/thumbnails/cm4-poe.png
+     - .. image:: /_static/images/thumbnails/OAK-D-CM4-PoE_th.png
           :target: pages/DM2097.html
-     - .. image:: /_static/images/thumbnails/Y-Adapter.png
+     - .. image:: /_static/images/thumbnails/Y_Adapter_th.png
           :target: pages/DM6010.html
    * - :ref:`Learn more <dm1097>`
      - :ref:`Learn more <dm2097>`
