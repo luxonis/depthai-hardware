@@ -3,7 +3,9 @@
 
 # Project Stage
 
-This repository contains hardware designed by Luxonis. This camera is perfect for applications that require close-in depth and detail, such as quality control or automated manufacturing, and will prove especially valuable for mounting on robots or picking arms. The OAK-D-SR leverages our OAK-SoM-Pro to make a compact overall design. The use of the SoM reduces the overall design's scale, making it easier to mount or fit in various robotic processes. The design is also open-sourced, allowing for all necessary modifications. You can preorder OAK-D-SR on Luxonis [Early access](https://shop.luxonis.com/collections/early-access) store [here](https://shop.luxonis.com/collections/early-access/products/oak-d-sr).
+This repository contains hardware designed by Luxonis. This camera is perfect for applications that require close-in depth and detail, such as quality control or automated manufacturing, and will prove especially valuable for mounting on robots or picking arms. The OAK-D-SR leverages our OAK-SoM-Pro to make a compact overall design. The use of the SoM reduces the overall design's scale, making it easier to mount or fit in various robotic processes. The design is also open-sourced, allowing for any necessary modifications.
+
+You can preorder OAK-D-SR on Luxonis [Early access store](https://shop.luxonis.com/collections/early-access/products/oak-d-sr).
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
