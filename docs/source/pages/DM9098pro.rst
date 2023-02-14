@@ -5,7 +5,7 @@ OAK-D Pro
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro.jpg
+.. image:: /_static/images/DM9098/oak-d-pro-front.png
 
 Overview
 ********
@@ -19,6 +19,8 @@ Otherwise, the PCB and enclosure are the same.
 Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-adapter` **is required** when using these functions!
 
 Looking for the **Wide FOV** OAK-D Pro? You can find it :ref:`here <dm9098prow>`.
+
+.. image:: /_static/images/DM9098/oak-d-pro-side-up.png
 
 Hardware specifications
 ***********************
@@ -51,7 +53,7 @@ Datasheet
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
 
-.. image:: /_static/images/DM9098/pro_back.jpg
+.. image:: /_static/images/DM9098/oak-d-pro-left.png
 
 .. include:: /pages/includes/laser-safety.rst
 

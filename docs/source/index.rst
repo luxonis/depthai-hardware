@@ -33,7 +33,7 @@ OAK-D and OAK-1 have been solving real-world problems for more than 2 years. **U
           :target: pages/BW1098OAK.html
      - .. image:: /_static/images/thumbnails/DM9098s2.png
           :target: pages/DM9098s2.html
-     - .. image:: /_static/images/thumbnails/DM9098pro.png
+     - .. image:: /_static/images/thumbnails/oak-d-pro_th.png
           :target: pages/DM9098pro.html
    * - :ref:`Learn more <dm9095>`
      - :ref:`Learn more <bw1098oak>`
