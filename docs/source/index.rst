@@ -42,7 +42,7 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
    * - OAK-D SR (Short Range)
      - OAK-D
      - OAK-D LR (Long Range)
-   * - .. image:: /_static/images/thumbnails/oak-d-sr.png
+   * - .. image:: /_static/images/thumbnails/oak-d-sr_th.png
           :target: pages/OAK-D-SR.html
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
           :target: pages/BW1098OAK.html
