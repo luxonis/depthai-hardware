@@ -8,8 +8,8 @@ OAK FFC camera modules
 Overview
 ********
 
-**OAK FFC** baseboards and cameras are great for prototyping flexibility. Since **cameras are modular**, you can place them
-at **various stereo baselines** and select the camera module based on your requirementss (resolution, shutter type, FPS, optics).
+**OAK FFC** baseboards and camera modules are great for prototyping flexibility. Since **cameras are modular**, you can place them
+at **various stereo baselines** and select the camera module based on your project requirements (resolution, shutter type, FPS, optics).
 
 OAK FFC baseboards
 ------------------
@@ -28,7 +28,6 @@ FFC Camera modules
 
 Here's the list of already built OAK FFC camera modules, which you can easily connect to any :ref:`OAK FFC baseboard <OAK FFC baseboards>`
 with a flat flexible cable. We are working towards offering OAK FFC camera module for :ref:`all supported CCMs <Already built CCMs>`.
-Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-3P-OG`.
 
 .. list-table::
    :header-rows: 1
@@ -37,7 +36,7 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - Shutter
      - Resolution
      - Notes
-   * - `OAK-FFC-IMX378 <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-imx378>`__
+   * - :ref:`OAK-FFC-IMX378` (AF)
      - Rolling
      - 12MP
      - Color, Auto-Focus.
@@ -49,7 +48,7 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - Rolling
      - 12MP
      - Color, Fixed-Focus, Wide FOV.
-   * - `OAK-FFC-OV9282 <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9282-pair>`__
+   * - :ref:`OAK-FFC-OV9282`
      - Global
      - 1MP
      - Mono, Fixed-Focus
@@ -69,6 +68,10 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - Global
      - 1MP
      - Color, Fixed-Focus, Wide FOV
+   * - :ref:`OAK-FFC IMX582`
+     - Rolling
+     - 32MP
+     - Color, AF
    * - `OAK-FFC-IMX477-M12 <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-imx477>`__
      - Rolling
      - 12MP
@@ -85,7 +88,6 @@ Note that these camera modules **aren't compatible** with the old :ref:`OAK-FFC-
      - Rolling
      - 12.3MP
      - Color, CS mount lens
-
 
 FFC camera mounting
 *******************

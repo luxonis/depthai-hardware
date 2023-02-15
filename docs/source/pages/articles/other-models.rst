@@ -45,4 +45,17 @@ Others
      - :ref:`Learn more <bw1094>`
      - :ref:`Learn more <bw1098ffc>`
 
+.. list-table::
+   :header-rows: 1
+
+   * - PoE Board
+     - OAK-D CM3
+   * - .. image:: /_static/images/thumbnails/BW2098POE.png
+          :target: pages/BW2098POE.html
+     - .. image:: /_static/images/thumbnails/BW1097.png
+          :target: pages/BW1097.html
+   * - :ref:`Learn more <bw2096poe>`
+     - :ref:`Learn more <bw1097>`
+
+
 .. include::  /pages/includes/footer-short.rst
