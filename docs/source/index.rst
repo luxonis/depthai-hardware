@@ -192,7 +192,7 @@ open-source hardware designs as you see fit.
      - OAK-SoM MAX
    * - .. image:: /_static/images/thumbnails/BW1099.png
           :target: pages/BW1099.html
-     - .. image:: /_static/images/thumbnails/OAK-SoM-Pro_th.png
+     - .. image:: /_static/images/thumbnails/oak-som-pro.png
           :target: pages/BW2099.html
      - .. image:: /_static/images/thumbnails/dm3399.png
           :target: pages/DM3399.html
@@ -309,15 +309,6 @@ Some **older models** can be :ref:`found here <Other models>`.
 .. toctree::
    :maxdepth: 1
    :hidden:
-   :caption: All In One Dev. Kits
-
-   pages/BW1097.rst
-   pages/DM1097.rst
-   pages/DM2097.rst
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
    :caption: System on Module
 
    pages/BW1099.rst
@@ -329,7 +320,6 @@ Some **older models** can be :ref:`found here <Other models>`.
    :hidden:
    :caption: Miscellaneous Designs
 
+   pages/DM1097.rst
+   pages/DM2097.rst
    pages/DM6010.rst
-   pages/BW0253.rst
-   pages/BW1094.rst
-   pages/BW2098POE.rst
