@@ -30,7 +30,7 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
           :target: pages/DM9095.html
      - .. image:: /_static/images/thumbnails/DM9098s2.png
           :target: pages/DM9098s2.html
-     - .. image:: /_static/images/thumbnails/oak-d-pro_th.png
+     - .. image:: /_static/images/thumbnails/DM9098pro.png
           :target: pages/DM9098pro.html
    * - :ref:`Learn more <dm9095>`
      - :ref:`Learn more <dm9098s2>`
