@@ -1,4 +1,4 @@
-- **4 TOPS** of processing power (1.4 TOPS for AI)
+- **4 TOPS** of processing power (:ref:`1.4 TOPS for AI <RVC2 NN Performance>`)
 - **Run any AI model**, even custom architectured/built ones - models need to `be converted <https://docs.luxonis.com/en/latest/pages/model_conversion/>`__.
 - **Encoding**: H.264, H.265, MJPEG - 4K/30FPS, 1080P/60FPS
 - **Computer vision**: warp/dewarp, resize, crop via `ImageManip <https://docs.luxonis.com/projects/api/en/latest/components/nodes/image_manip>`__ node, `edge detection <https://docs.luxonis.com/projects/api/en/latest/samples/EdgeDetector/edge_detector>`__, `feature tracking <https://docs.luxonis.com/projects/api/en/latest/samples/FeatureTracker/feature_tracker>`__. You can also `run custom CV functions <https://docs.luxonis.com/en/latest/pages/tutorials/creating-custom-nn-models/>`__
