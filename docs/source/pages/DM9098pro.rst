@@ -5,7 +5,7 @@ OAK-D Pro
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro-front.png
+.. image:: /_static/images/DM9098/oak-d-pro.png
 
 Overview
 ********
