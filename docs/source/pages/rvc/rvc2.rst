@@ -20,214 +20,91 @@ RVC2 Performance
 RVC2 NN Performance
 *******************
 
+`Click here <https://docs.google.com/spreadsheets/d/1yMD4L3gNTkv9d-CqwHTYkn1_on9qDwjeDSUiW2x_H8k/edit?usp=sharing>`__ for full table with **46 test results**.
+
 .. list-table::
-   :header-rows: 1
+  :header-rows: 1
 
-   * - Model name
-     - Size
-     - Latency
-     - FPS
-   * - MobileOne S0
-     - 224x224
-     - 11.09
-     - 165.45
-   * - Resnet18
-     - 224x225
-     - 19.71
-     - 94.78
-   * - DeepLab V3
-     - 256 x 256
-     - 48.12
-     - 36.53
-   * - DeepLab V3
-     - 513 x 513
-     - 253.12
-     - 6.32
-   * - YoloV6n R2
-     - 416x416
-     - 29.28
-     - 65.51
-   * - YoloV6n R2
-     - 640x640
-     - 66.42
-     - 29.30
-   * - YoloV6t R2
-     - 416x416
-     - 54.09
-     - 35.78
-   * - YoloV6t R2
-     - 640x640
-     - 133.60
-     - 14.16
-   * - YoloV6s R2
-     - 416x416
-     - 89.95
-     - 20.63
-   * - YoloV6s R2
-     - 640x640
-     - 247.18
-     - 6.69
-   * - YoloV6m R2
-     - 416x416
-     - 190.24
-     - 8.57
-   * - YoloV6m R2
-     - 640x640
-     - 487.37
-     - 3.40
-   * - YoloV6l R2
-     - 416x416
-     - 450.06
-     - 3.58
-   * - YoloV6l R2
-     - 640x640
-     - 1090.63
-     - 1.45
-   * - YoloV6n R2.1
-     - 416x416
-     - 29.27
-     - 65.82
-   * - YoloV6n R2.1
-     - 640x640
-     - 66.40
-     - 29.25
-   * - YoloV6s R2.1
-     - 416x416
-     - 68.62
-     - 27.51
-   * - YoloV6s R2.1
-     - 640x640
-     - 177.50
-     - 9.54
-   * - YoloV6m R2.1
-     - 416x416
-     - 164.47
-     - 10.25
-   * - YoloV6m R2.1
-     - 640x640
-     - 418.89
-     - 4.19
-   * - YoloV6l R2.1
-     - 416x416
-     - 340.72
-     - 4.67
-   * - YoloV6l R2.1
-     - 640x640
-     - 867.46
-     - 1.78
-   * - YoloV6n R3
-     - 416x416
-     - 37.76
-     - 50.45
-   * - YoloV6n R3
-     - 640x640
-     - 82.05
-     - 23.43
-   * - YoloV6s R3
-     - 416x416
-     - 96.00
-     - 19.50
-   * - YoloV6s R3
-     - 640x640
-     - 259.71
-     - 6.51
-   * - YoloV6m R3
-     - 416x416
-     - 201.36
-     - 7.82
-   * - YoloV6m R3
-     - 640x640
-     - 508.29
-     - 3.27
-   * - YoloV6l R3
-     - 416x416
-     - 475.65
-     - 3.31
-   * - YoloV6l R3
-     - 640x640
-     - 1141.58
-     - 1.38
-   * - YoloV7t
-     - 416x416
-     - 37.55
-     - 46.68
-   * - YoloV7t
-     - 640x640
-     - 97.03
-     - 17.80
-   * - YoloV7
-     - 416x416
-     - 410.03
-     - 3.61
-   * - YoloV7
-     - 640x640
-     - 1009.25
-     - 1.43
-   * - YoloV7x
-     - 416x416
-     - 749.29
-     - 2.20
-   * - YoloV7x
-     - 640x640
-     - 1749.53
-     - 0.57
-   * - YoloV8n
-     - 416x416
-     - 56.94
-     - 31.30
-   * - YoloV8n
-     - 640x640
-     - 123.60
-     - 14.28
-   * - YoloV8s
-     - 416x416
-     - 111.87
-     - 15.17
-   * - YoloV8s
-     - 640x640
-     - 280.10
-     - 5.81
-   * - YoloV8m
-     - 416x416
-     - 273.77
-     - 5.97
-   * - YoloV8m
-     - 640x640
-     - 636.13
-     - 2.71
-   * - YoloV8l
-     - 416x416
-     - 601.94
-     - 2.67
-   * - YoloV8l
-     - 640x640
-     - 1169.15
-     - 1.28
-   * - YoloV8x
-     - 416x416
-     - 790.16
-     - 2.11
-   * - YoloV8x
-     - 640x640
-     - 2097.45
-     - 0.68
+  * - Model name
+    - Size
+    - FPS
+    - Latency [ms]
+  * - MobileOne S0
+    - 224x224
+    - 165.5
+    - 11.1
+  * - Resnet18
+    - 224x225
+    - 94.8
+    - 19.7
+  * - DeepLab V3
+    - 256 x 256
+    - 36.5
+    - 48.1
+  * - DeepLab V3
+    - 513 x 513
+    - 6.3
+    - 253.1
+  * - YoloV6n R2
+    - 416x416
+    - 65.5
+    - 29.3
+  * - YoloV6n R2
+    - 640x640
+    - 29.3
+    - 66.4
+  * - YoloV6t R2
+    - 416x416
+    - 35.8
+    - 54.1
+  * - YoloV6t R2
+    - 640x640
+    - 14.2
+    - 133.6
+  * - YoloV6m R2
+    - 416x416
+    - 8.6
+    - 190.2
+  * - YoloV7t
+    - 416x416
+    - 46.7
+    - 37.6
+  * - YoloV7t
+    - 640x640
+    - 17.8
+    - 97.0
+  * - YoloV8n
+    - 416x416
+    - 31.3
+    - 56.9
+  * - YoloV8n
+    - 640x640
+    - 14.3
+    - 123.6
+  * - YoloV8s
+    - 416x416
+    - 15.2
+    - 111.9
+  * - YoloV8m
+    - 416x416
+    - 6.0
+    - 273.8
 
-Models were compiled for 8 shaves and were using 2 NN inference threads.
 
-5 iterations were run for each model and FPS was calculated as an average.
+Models were compiled for **8 shaves** and were using 2 NN inference threads. Latency includes getting results from device over USB3.
 
-Latency includes getting results from device over USB3.
+5 iterations were run for each model and FPS was calculated as an average. Note that due to HW
 
 NN Performance estimation
-=========================
+*************************
 
 You can estimate the performance of a model with the help of the chart below. It contains FPS estimations
 of models on RVC2 based on FLOPs and parameters.
 
-.. image:: /_static/images/fps_models.png
+.. image:: https://user-images.githubusercontent.com/18037362/219512733-4bf05edc-d263-4eb2-84d0-55c64c79241b.png
+    :target: https://docs.google.com/spreadsheets/u/8/d/e/2PACX-1vQ_tVk2PhOhnFeJrL5t2rtncxHeDVYX8j1o52vdZozRzXJ5C3gq8EngVvx32suCPasIelIwU5Ny6tLE/pubhtml?gid=41416082&single=true
 
-You can find more detailed evaluation of FPS for common models `in this sheet <https://docs.google.com/spreadsheets/u/8/d/e/2PACX-1vQ_tVk2PhOhnFeJrL5t2rtncxHeDVYX8j1o52vdZozRzXJ5C3gq8EngVvx32suCPasIelIwU5Ny6tLE/pubhtml?gid=41416082&single=true>`__.
-
+Click on the image to view a more detailed evaluation of FPS for common models.
 
 Power consumption
 *****************
