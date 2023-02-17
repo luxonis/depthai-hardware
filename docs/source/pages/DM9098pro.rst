@@ -20,8 +20,6 @@ Due to the large power consumption of dot projector/illumination LED, a :ref:`Y-
 
 Looking for the **Wide FOV** OAK-D Pro? You can find it :ref:`here <dm9098prow>`.
 
-.. image:: /_static/images/DM9098/oak-d-pro-side-up.png
-
 Hardware specifications
 ***********************
 
@@ -42,6 +40,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_800P.rst
 
+.. image:: /_static/images/DM9098/oak-d-pro-side-up.png
+
 Datasheet
 *********
 
@@ -52,8 +52,6 @@ Datasheet
 
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
-
-.. image:: /_static/images/DM9098/oak-d-pro-left.png
 
 .. include:: /pages/includes/laser-safety.rst
 
