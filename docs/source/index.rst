@@ -273,6 +273,8 @@ Some **older models** can be :ref:`found here <Other models>`.
    pages/DM9098prow.rst
    pages/DM9098s2.rst
    pages/DM9098w.rst
+   pages/OAK-D-LR.rst
+   pages/OAK-D-SR.rst
    pages/BW1098OAK.rst
    pages/DM9095.rst
    pages/BW1093.rst
