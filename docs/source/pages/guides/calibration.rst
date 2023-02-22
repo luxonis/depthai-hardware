@@ -189,10 +189,6 @@ We'll view the depth stream to ensure the cameras are calibrated correctly:
 
     python3 depthai_demo.py
 
-  The script launches a window, starts the cameras, and displays a depth video stream:
-
-  .. image:: /_static/images/calibration/calibration-depth.png
-
-  In the screenshot above, the hand is closer to the camera.
+  The script launches a window, starts the cameras, and displays a depth video stream.
 
 .. include::  /pages/includes/footer-short.rst
