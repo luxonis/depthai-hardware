@@ -34,7 +34,7 @@ If we would like to drive cameras with an outside signal, we would need to set F
 
 All `Series 2 OAK PoE models <https://docs.luxonis.com/projects/hardware/en/latest/pages/articles/oak-s2.html>`__ have an M8 I/O connector
 which exposes FSIN signal (and also STROBE). So you could connect a signal generator to an M8 connector and all 3
-camera sensors would capture a frame based on the signal generator triggers.
+camera sensors would capture a frame based on the signal generator triggers. Triggers need to be **12V** (up to 24V).
 
 .. code-block:: python
 
@@ -45,6 +45,30 @@ camera sensors would capture a frame based on the signal generator triggers.
 
 You can also control FSIN line via GPIO from within `Script node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__,
 see example `here <https://gist.github.com/Erol444/a9189a8215371ff9f4cf4472960e1d66>`__.
+
+
+External FSYNC Example
+""""""""""""""""""""""
+
+Here's an example of how to use external FSYNC signal to trigger camera sensors. You can use `M8 connector <https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9097s2.html#connectors>`__
+on any :ref:`Series 2 <OAK Series 2>` OAK-D **PoE** model to trigger the FSYNC. We used M8 breakout board to expose the GND/FSYNC lines.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/q9JZHluu2Gc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+Script used is `available here <https://gist.github.com/Erol444/0138af63378dc8de5b3f7d80db1ea1a5>`__.
+
+.. figure:: /_static/images/ext-trigger.jpeg
+
+    Simple wiring schematics.
+
+.. note::
+
+    Only global shutter (OV9282, OV9782, AR0234...) cameras support FSYNC triggering in photo/snapshot mode. Rolling shutter cameras (IMX378, IMX477, IMX577, etc) don't support it.
+
 
 STROBE signal
 -------------

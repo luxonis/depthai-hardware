@@ -20,7 +20,7 @@ A) Handling High Vibrations
 
 Auto-Focus uses an electromagnet to move a magnet that is mounted to a free-moving lens.
 In high-vibrations this electromagnetic force is overpowered and the lens vibrates all over the
-place, causing blurry/weird/”jello” images/video.
+place, causing blurry/weird/"jello" images/video.
 
 .. raw:: html
 
