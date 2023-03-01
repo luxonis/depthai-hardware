@@ -42,7 +42,7 @@ Sensor specifications
    * - Resolution
      - 1MP (1280x800)
    * - Focus
-     - FF: 25cm - ∞
+     - FF: 20cm - ∞
    * - Max Framerate
      - 60 FPS (800P)
    * - F-number
@@ -71,9 +71,9 @@ Depth perception
 This OAK camera has a baseline of 2cm - the distance between left and right stereo camera. Minimal and maximal depth perception
 depends on camera FOV, resolution, and baseline - more information `here <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
 
-* MinZ: 25cm, due to the camera's focus range
+* MinZ: 20cm, due to the camera's focus range
 * Theoretical MaxZ, `docs <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__): ~5 meters
-* Useful MaxZ (real world): ~1 meters with an estimated variance of 3%
+* Ideal MaxZ (real world): ~1 meters with an estimated variance of 3%
 
 ..
   Getting started
@@ -86,7 +86,7 @@ depends on camera FOV, resolution, and baseline - more information `here <https:
   Interfacing with the :ref:`OAK-SoM` is also possible with OAK-D connector pads J4, J5, and J6. These pads are designed for the Amphenol/FCI 
   20021121-00010T1LF or equivalent. Please refer to the schematics for pinout information.
 
-  The reset button is not populated by default on the OAK-D, but can be added. Alternativey, the :ref:`OAK-SoM`can be reset by shorting RST to ground.
+  The reset button is not populated by default on the OAK-D, but can be added. Alternatively, the :ref:`OAK-SoM`can be reset by shorting RST to ground.
 
   The 5V LED indicates 5V power is present on the PCBA. The PG LED indicates "power good" from the OAK-SoM. The "RUN"
   LED indicates that the OAK-SoM is not in reset.
