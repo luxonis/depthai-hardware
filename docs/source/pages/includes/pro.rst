@@ -32,7 +32,15 @@ dot projector and illumination LED via the API as below.
 
 .. code-block:: python
 
+  # Either within Script node:
+  script = pipeline.create(dai.node.Script)
+  script.setScript("""
+    Device.setIrLaserDotProjectorBrightness(500)
+    Device.setIrFloodLightBrightness(0)
+  """)
+
   with dai.Device(pipeline) as device:
+    # Or, using the dai.Device object from the host:
     device.setIrLaserDotProjectorBrightness(100) # in mA, 0..1200
     device.setIrFloodLightBrightness(0) # in mA, 0..1500
 
