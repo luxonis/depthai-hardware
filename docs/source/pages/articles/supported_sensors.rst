@@ -13,10 +13,6 @@ Supported sensors
 DepthAI firmware has to have sensor configuration in order to support the given camera sensor. Currently, we support sensor
 configurations out-of-the-box (in firmware) for the camera sensors listed below.
 
-..
-    Add docs/link about adding custom sensor configuration here.
-
-
 .. list-table:: Supported sensors by DepthAI
    :header-rows: 1
 
@@ -61,17 +57,12 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - 1280x800
      - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9782-22-pin>`__
    * - :ref:`AR0234`
-     - Fully integrated
+     - Fully integrated (both mono and color variants)
      - global
      - 1920x1200
      - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/ar0234>`__
-   * - IMX390
-     - Initially tested
-     - rolling
-     - 1937x1217
-     -
    * - IMX577
-     - Initially tested
+     - Fully integrated
      - rolling
      - 4056x3040
      - Initially tested, similar to IMX477
@@ -80,25 +71,50 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 8000x6000
      - 5312x6000 supported
+
+   * - IMX363 / IMX362
+     - Driver/tuning available for IMX363
+     - rolling
+     - 4048x3024
+     -
+   * - OV12895 / OV12890
+     - Driver/tuning available for OV12895
+     - rolling
+     - 4096x3072
+     -
+   * - IMX380
+     - Initially tested and integrated
+     - rolling
+     - 4056x3040
+     -
+   * - OV5645
+     - Initially tested and integrated
+     - rolling
+     - 2592x1944
+     -
+
+.. list-table:: Driver/tuning available but not yet tested/integrated
+   :header-rows: 1
+
+   * - Sensor
+     - Status
+     - Shutter
+     - Resolution
+     - Notes
    * - IMX334
      - Not tested
      - rolling
      - 3840x2160
      -
+   * - IMX390
+     - Not tested
+     - rolling
+     - 1937x1217
+     -
    * - IMX412
      - Not tested
      - rolling
      - 4056x3040
-     -
-   * - IMX415
-     - Not tested
-     - rolling
-     - 3864x2176
-     -
-   * - IMX462
-     - Not tested
-     - rolling
-     - 1920x1080
      -
    * - SC2232H
      - Not tested
@@ -115,33 +131,13 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 2592x1944
      -
-   * - IMX363 / IMX362
-     - Not tested
-     - rolling
-     - 4048x3024
-     -
    * - SC8238
      - Not tested
      - rolling
      - 3840x2160
      -
-   * - OV12895 / OV12890
-     - Not tested
-     - rolling
-     - 4096x3072
-     -
-   * - IMX380
-     - Not tested
-     - rolling
-     - 4056x3040
-     -
-   * - OV5645
-     - Not tested
-     - rolling
-     - 2592x1944
-     -
 
-**Interested in a sensor not listed above?** Please send an email to support@luxonis.com.
+**Interested in a "Not tested" sensor, or a sensor not listed above?** Please send an email to support@luxonis.com.
 
 Already built CCMs
 ==================
