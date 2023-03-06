@@ -29,6 +29,23 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include::  /pages/includes/ffc_socket_api.rst
 
+
+OAK-FFC-4P syncing
+******************
+
+2-lane MIPI connections (CAM_B and CAM_C) have FSYNC line shorted together, and so do 4-lane MIPI connections (CAM_A and CAM_D).
+But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you need to connect the two FSYNC lines together. This can be done with the depthai API:
+
+.. code-block:: python
+
+    # OAK-FFC-4P requires driving GPIO6 high (FSIN_MODE_SELECT) to connect together
+    # the A+D FSIN group (4-lane pair) with the B+C group (2-lane pair)
+    config = dai.Device.Config()
+    config.board.gpio[6] = dai.BoardConfig.GPIO(dai.BoardConfig.GPIO.OUTPUT,
+                                                dai.BoardConfig.GPIO.Level.HIGH)
+    with dai.Device(config) as device:
+        device.startPipeline(pipeline)
+
 Dimensions and Weight
 *********************
 * Width: 62 mm
