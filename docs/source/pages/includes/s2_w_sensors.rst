@@ -1,5 +1,5 @@
-Sensor specifications
----------------------
+Camera module specifications
+----------------------------
 
 .. tabs::
 

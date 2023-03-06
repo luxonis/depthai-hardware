@@ -24,8 +24,8 @@ Timeline
 - We plan to **fully support this sensor** in depthai in **Q1/Q2 of 2023**.
 - To get **updates on ToF development** feel free to **subscribe to the ToF** topic on our `email updates <https://share-eu1.hsforms.com/12tS8TEe5Ro2ry31dVhv_6Qf2chh>`__
 
-Sensor specifications
-*********************
+Camera module specifications
+****************************
 
 .. list-table::
    :header-rows: 1

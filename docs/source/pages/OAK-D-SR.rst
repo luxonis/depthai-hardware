@@ -27,8 +27,8 @@ Hardware specifications
 
 .. include:: /pages/includes/usb_connectivity.rst
 
-Sensor specifications
-*********************
+Camera module specifications
+****************************
 
 .. list-table::
    :header-rows: 1
