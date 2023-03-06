@@ -69,6 +69,37 @@ Script used is `available here <https://gist.github.com/Erol444/0138af63378dc8de
 
     Only global shutter (OV9282, OV9782, AR0234...) cameras support FSYNC triggering in photo/snapshot mode. Rolling shutter cameras (IMX378, IMX477, IMX577, etc) don't support it.
 
+Sensor FSYNC support
+--------------------
+
+As noted above the paragraph, only some sensors support FSYNC syncing. There are 2 types of FSYNC syncing:
+
+- **Continuous streaming** with external syncing, configured with ``CameraControl.setFrameSyncMode()``. In this mode, the FSIN signal is expected to arrive at a continuous rate matching the configured sensor FPS, and trigger can't arrive at arbitrary times as that would disrupt internal sensor operations (leading to bad frames, etc). It can only **correct for very small amounts of drift over time**.
+- **Snapshot mode** with external syncing, configured with ``CameraControl.setExternalTrigger()``. In this mode, trigger can arrive to the sensor at any time, and the sensor will take the photo/snapshot.
+
+
+.. list-table::
+   :header-rows: 1
+
+   * - Sensor
+     - Shutter
+     - Support
+   * - :ref:`OV9282`, :ref:`OV9782`
+     - Global
+     - FSYNC input/output, both continuous/snapshot mode supported
+   * - :ref:`OV7251`
+     - Global
+     - Should have same support as OV9*82, but not yet implemented
+   * - :ref:`AR0234`
+     - Global
+     - FSYNC input, snapshot mode supported (continuous results in strange behaviour)
+   * - :ref:`IMX378`, :ref:`IMX477`, :ref:`IMX380`
+     - Rolling
+     - FSYNC input, only continuous mode supported for rolling shutter sensors
+   * - :ref:`IMX582`
+     - Rolling
+     - [Not yet tested] FSYNC input continuous mode
+
 
 STROBE signal
 -------------
