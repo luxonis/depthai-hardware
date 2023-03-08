@@ -43,6 +43,8 @@ Currently the full resolution (THE_48_MP) is center cropped to **5312x6000 due t
 So at the moment the image at full resolution (THE_48_MP) has narrower HFOV than the camera actually is (see image below),
 just because of this limitation on line width.
 
+.. include:: /pages/includes/imx582_ram.rst
+
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
 - :ref:`dm0260imx582`
