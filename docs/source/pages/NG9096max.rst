@@ -22,6 +22,7 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
+.. include:: /pages/includes/imx582_ram.rst
 
 Dimensions and Weight
 *********************
