@@ -22,17 +22,19 @@ Series 3 roadmap
 
 This might be a bit of an optimistic roadmap due to supply chain issues, but we will do everything possible to meet it.
 
-**2022 Updates**
+**2022/2023 Updates**
 
 - **February**: We manufactured the initial batch of SoM with :ref:`RVC3` on board. We also started porting the DepthAI library to the new ecosystem.
 - **March**: We designed :ref:`dm3399` and started porting DepthAI stack.
 - **May**: We received initial :ref:`dm3399` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
 - **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-S3.
-- **July**: New OS for :ref:`RVC3` - LuxOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
+- **July**: New OS for :ref:`RVC3` - LuxonisOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
 - **August**: DepthAI initial release for RVC3 (stereo support, NN support, logging support), initial support for :ref:`IMX582`, PCIe WiFi card support, OTA updates
 - **September**: HDR support, support for :ref:`IMX214`, full support for :ref:`IMX582`, LuxOS restructure and initial release
-- **October**: LuxOS flashing/updating and signing, EdgeDetector, Warp and Spatial nodes, dot projector & LED support (I2C)
+- **October**: LuxonisOS flashing/updating and signing, EdgeDetector, Warp and Spatial nodes, dot projector & LED support (I2C)
 - **November**: on ``rvc3_support`` branch majority of the DepthAI nodes are already supported, except FeatureTracker, ObjectTracker, Script node and some features (eg. RGB-depth alignment).
+- **January 2023**: Further improvements to LuxonisOS, DepthAI improvements, new sensors supported (AR0234), camera control improvements
+- **February**: Working on TOF support (:ref:`OAK-FFC-ToF-VGA`), zero-copy for some functions, working on FeatureTracker support (for on-device VIO)
 
 For **updates on the progress of OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 
