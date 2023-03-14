@@ -65,15 +65,7 @@ Dimensions and Weight
 
 **Weight:** 72g
 
-Depth perception
-****************
-
-This OAK camera has a baseline of 2cm - the distance between left and right stereo camera. Minimal and maximal depth perception
-depends on camera FOV, resolution, and baseline - more information `here <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#min-stereo-depth-distance>`__.
-
-* MinZ: 20cm, due to the camera's focus range
-* Theoretical MaxZ, `docs <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__): ~5 meters
-* Ideal MaxZ (real world): ~1 meters with an estimated variance of 3%
+.. include:: /pages/includes/depth_20_800P.rst
 
 ..
   Getting started
