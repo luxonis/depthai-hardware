@@ -46,6 +46,8 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
     with dai.Device(config) as device:
         device.startPipeline(pipeline)
 
+.. include:: /pages/includes/imu_bno085.rst
+
 Dimensions and Weight
 *********************
 * Width: 62 mm

@@ -58,6 +58,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_480P.rst
 
+.. include:: /pages/includes/imu_bmi270.rst
+
 Power consumption
 *****************
 
