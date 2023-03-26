@@ -40,6 +40,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_800P.rst
 
+.. include:: /pages/includes/imu_bno085.rst
+
 .. image:: /_static/images/DM9098/oak-d-pro-side-up.png
 
 Datasheet

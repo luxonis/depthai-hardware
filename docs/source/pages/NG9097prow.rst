@@ -47,6 +47,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/depth_75_W.rst
 
+.. include:: /pages/includes/imu_bno085.rst
+
 Operational Temperature
 ***********************
 
