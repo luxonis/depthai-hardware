@@ -36,7 +36,7 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 4208x3120
      - Used in :ref:`OAK-D-Lite` as color camera
-   * - OV7750 / :ref:`OV7251`
+   * - OV7750, :ref:`OV7251`
      - Fully integrated
      - global
      - 640x480
@@ -57,10 +57,20 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - 1280x800
      - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-ov9782-22-pin>`__
    * - :ref:`AR0234`
-     - Fully integrated (both mono and color variants)
+     - Fully integrated (mono and color)
      - global
      - 1920x1200
      - `FFC module shop <https://shop.luxonis.com/collections/modular-cameras/products/ar0234>`__
+   * - IMX296
+     - Fully integrated
+     - global
+     - 1456x1088
+     - `RPi Global Shutter Cam <https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/>`__ works with FFC via `Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__
+   * - IMX219
+     - Initially integrated
+     - rolling
+     - 3280x2464
+     - Requires ``imx219`` branch. `RPi Cam V2 <https://www.raspberrypi.com/products/camera-module-v2/>`__ works with FFC via `Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__
    * - IMX577
      - Fully integrated
      - rolling
@@ -71,13 +81,12 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 8000x6000
      - 5312x6000 supported
-
-   * - IMX363 / IMX362
+   * - IMX363, IMX362
      - Driver/tuning available for IMX363
      - rolling
      - 4048x3024
      -
-   * - OV12895 / OV12890
+   * - OV12895, OV12890
      - Driver/tuning available for OV12895
      - rolling
      - 4096x3072
