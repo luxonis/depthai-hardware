@@ -20,7 +20,7 @@ Hardware specifications
 
 .. include:: /pages/includes/imx378_w.rst
 
-.. include:: /pages/rvc/includes/rvc2_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside_oak1.rst
 
 
 Dimensions and Weight

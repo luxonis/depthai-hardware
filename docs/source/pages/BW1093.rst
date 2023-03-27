@@ -15,7 +15,7 @@ the :ref:`OAK-SoM <bw1099>`.
 
 Some part of the design cannot be open-sourced because they contain proprietary chip-down vendor information and therefore cannot be shared publicly.
 
-OAK-1 isn’t a standard USB camera. It’s a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board, so that your host 
+OAK-1 isn't a standard USB camera. It's a 4-trillion-operations-per-second AI powerhouse that performs your AI models on-board, so that your host 
 is free to do whatever you need it to do.
 
 Its integrated 12 MegaPixel camera module communicates over an on-board 2.1 Gbps MIPI interface directly to the :ref:`RVC2`, which ingests this data 
@@ -35,7 +35,7 @@ Hardware specifications
 
 .. include:: /pages/includes/imx378.rst
 
-.. include:: /pages/rvc/includes/rvc2_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside_oak1.rst
 
 Dimensions and Weight
 *********************

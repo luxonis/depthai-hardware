@@ -20,7 +20,7 @@ Hardware specifications
 
 .. include:: /pages/includes/imx582.rst
 
-.. include:: /pages/rvc/includes/rvc2_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside_oak1.rst
 
 .. include:: /pages/includes/imx582_ram.rst
 

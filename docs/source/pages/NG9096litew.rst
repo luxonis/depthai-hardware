@@ -21,7 +21,7 @@ Hardware specifications
 
 .. include:: /pages/includes/imx214_w.rst
 
-.. include:: /pages/rvc/includes/rvc2_inside.rst
+.. include:: /pages/rvc/includes/rvc2_inside_oak1.rst
 
 
 OAK-1 W vs OAK-1-Lite W
