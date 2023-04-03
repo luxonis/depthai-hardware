@@ -23,7 +23,7 @@ Camera module specifications
      - FF: 18cm - ∞
      - FF: 18cm - ∞
    * - Max Framerate
-     - 60 FPS (800P)
+     - 120 FPS (800P)
      - 120 FPS (400P)
    * - F-number
      - 2 ±5%
