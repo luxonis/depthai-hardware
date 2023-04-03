@@ -104,9 +104,9 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
      - OAK-D Pro PoE
    * - .. image:: /_static/images/thumbnails/oak-d-poe_th.png
           :target: pages/SJ2088POE.html
-     - .. image:: /_static/images/thumbnails/s2-poe.png
+     - .. image:: /_static/images/thumbnails/oak-d-s2-poe.png
           :target: pages/NG9097s2.html
-     - .. image:: /_static/images/thumbnails/pro-poe.png
+     - .. image:: /_static/images/thumbnails/oak-d-pro-poe.png
           :target: pages/NG9097pro.html
    * - :ref:`Learn more <sj2088poe>`
      - :ref:`Learn more <ng9097s2>`
