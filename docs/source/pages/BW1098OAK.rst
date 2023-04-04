@@ -35,6 +35,7 @@ Dimensions and Weight
 
 OAK-D PCBA
 **********
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/iot/products/bw10980bc>`__
 
 In the past we also sold OAK-D PCBA, which is essentially an OAK-D without an enclosure
 and instead has a heatsink. This could still be useful for some applications where
