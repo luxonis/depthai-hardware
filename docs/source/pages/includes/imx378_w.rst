@@ -1,6 +1,3 @@
-Camera module specifications
-****************************
-
 .. list-table::
     :header-rows: 1
 
@@ -10,7 +7,7 @@ Camera module specifications
       - :ref:`IMX378` (PY060)
     * - Shutter
       - rolling
-    * - FOV (D/H/V)
+    * - DFOV / HFOV / VFOV
       - 120°/95°/70°
     * - Resolution
       - 12MP (4032x3040)
@@ -28,6 +25,4 @@ Camera module specifications
       - < -14.6%
     * - Pixel size
       - 1.55µm x 1.55µm
-
-*Wide FOV lenses can only be fixed-focus.*
 

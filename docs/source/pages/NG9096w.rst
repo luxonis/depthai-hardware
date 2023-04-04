@@ -18,7 +18,25 @@ models on-board, so that your host is free to do whatever you need it to do.
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/imx378_w.rst
+.. tabs::
+
+    .. tab:: Wide FOV IMX378
+
+      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
+      (1MP) color camera.
+
+      .. include:: /pages/includes/imx378_w.rst
+
+      *Wide FOV lenses can only be fixed-focus.*
+
+    .. tab:: Wide FOV OV9782
+
+      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
+      (1MP) color camera.
+
+      .. include:: /pages/includes/ov9782_w.rst
+
+      *Wide FOV lenses can only be fixed-focus.*
 
 .. include:: /pages/rvc/includes/rvc2_inside_oak1.rst
 
