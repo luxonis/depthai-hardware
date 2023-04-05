@@ -43,18 +43,6 @@ The [BW1097 repository](/BW1097_DepthAI_Compute_Module) contains open hardware d
 
 ![](BW1097_DepthAI_Compute_Module/Images/BW1097_R1M1E2_transparent_crop.png)
 
-# Pure Embedded Design
-
-## [BW1092](https://github.com/luxonis/depthai-hardware/tree/master/BW1092_ESP32_Embedded_WIFI_BT)
-
-This design showcases WiFi+BT interface and a pure-embedded usecase of DepthAI, with communication over SPI from depthai BW1099EMB to the onboard ESP32.  This device can be programmed and run completely standalone with no host processor (i.e. no Linux, macOS, Windows, or RPi required).
-
-![image](https://user-images.githubusercontent.com/32992551/93823746-8db73000-fc1f-11ea-9b6b-a873a1dc65c8.png)
-
-It also acts as a convenient way to do AIoT - that is, using onboard AI to compress data to information to then insight.  An example in a (remote) construction environment is returning a single byte from the device every couple seconds, with each bit representing if anything unsafe is happening, if there is a fire, if there is a hard-hat violation, a leak, etc.
-
-Or conversely, driving a transducer to communicate the number of fish observed, their size, and species 1km through water, through the water as radio waves back to a fishing vessel.
-
 # USB Designs
 
 ## [OAK-D | BW1098OAK](https://github.com/luxonis/depthai-hardware/tree/master/BW1098OAK_USB3C#bw1098oak-usb3c-baseboard)
