@@ -2,7 +2,7 @@ OV9282
 ======
 
 `OMNIVISION's OV9282 <https://www.ovt.com/sensor/ov9282/>`__ is a 1MP (1280x800) global shutter grayscale image sensor.
-It's used in almost all of our products (:ref:`OAK-D`, :ref:`OAK-D S2` :ref:`OAK-D Pro`, :ref:`OAK-D-PoE`, :ref:`OAK-D S2 PoE`, etc.)
+It's used in almost all of our products (:ref:`OAK-D`, :ref:`OAK-D S2`, :ref:`OAK-D Pro`, :ref:`OAK-D-PoE`, :ref:`OAK-D S2 PoE`, etc.)
 as the stereo camera pair.
 
 Supported resolutions
