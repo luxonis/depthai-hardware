@@ -37,7 +37,7 @@ For communication and power, the OAK-D LR camera uses **either**:
    * - Sensor
      - :ref:`AR0234` (**color**, PY056)
    * - DFOV / HFOV / VFOV
-     - 89.5° / 80° / 55°
+     - 100° / 82° / 56°
    * - Resolution
      - 2.3MP (1920x1200)
    * - Focus
