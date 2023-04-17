@@ -14,7 +14,7 @@ You can select either **FF or AF** color camera, more :ref:`information here <Au
      - :ref:`OV9282` (PY003)
    * - DFOV / HFOV / VFOV
      - 81° / 69° / 55°
-     - 82° / 72° / 50°
+     - 82° / 77° / 53°
    * - Resolution
      - 12MP (4032x3040)
      - 1MP (1280x800)

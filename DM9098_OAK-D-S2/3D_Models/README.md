@@ -1,0 +1,1 @@
+Moded to https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-S2/DM9098S2.STEP

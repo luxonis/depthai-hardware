@@ -1,0 +1,1 @@
+Moved to https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-S2-POE/NG9097S2.STEP

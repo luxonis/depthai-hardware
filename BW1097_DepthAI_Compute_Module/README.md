@@ -1,4 +1,4 @@
-# BW1097_R2M2E3 DepthAI for CM3+
+# OAK-D-CM3
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1097.html)
 

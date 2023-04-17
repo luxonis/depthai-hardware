@@ -1,4 +1,4 @@
-# BW2098POE PoE Board
+# OAK-FFC-1P-PoE
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BW2098POE.html)
 

@@ -1,0 +1,1 @@
+Moved to https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-Lite/DM9095.STEP
