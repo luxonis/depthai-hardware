@@ -9,7 +9,7 @@ Camera module specifications
    * - Sensor
      - :ref:`OV9282` (PY003)
    * - DFOV / HFOV / VFOV
-     - 82° / 72° / 50°
+     - 82° / 77° / 53°
    * - Resolution
      - 1MP (1280x800)
    * - Focus
