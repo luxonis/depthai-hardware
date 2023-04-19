@@ -3,12 +3,14 @@ Calibration
 
 .. note::
 
+
    All non-modular OAK devices are calibrated before shipment. It is not required to (re-)calibrate any of these, but for PCBA-only models like OAK-D-CM4, OAK-D-CM3, OAK-D-PCBA
    it can be desirable to do so if the depth quality degrades from mounting the PCBA (into an enclosure).
 
-For the :ref:`Modular camera OAK devices <Modular Camera Designs>` it is necessary to do a stereo camera calibration after mounting the cameras in the baseline/configuration for your application.
+For the modular camera editions of DepthAI (`OAK-FFC-3P <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1090.html>`__ and `DepthAI RaspberryPi Hat <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1094.html>`__)
+it is necessary to do a stereo camera calibration after mounting the cameras in the baseline/configuration for your application.
 
-Below is a quick video showing the (re-) calibration of the :ref:`OAK-D`.
+Below is a quick video showing the (re-) calibration of the `OAK-D <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OAK.html>`__.
 
 In short, the calibration uses the intersections to determine the orientation and distance of the charuco board.
 So the greatest accuracy will be obtained by a clear print or display of the provided board image on a flat plane.
@@ -46,7 +48,7 @@ please see the steps below and also :code:`./calibrate.py --help` which will pri
 
     Often, using a monitor to display the calibration target is easier/faster.
 
-    .. image:: /_static/images/calibration/charuco_calibration.png
+    .. image:: /_static/images/charuco_calibration.png
       :alt: Print this charuco calibration image
       :target: https://github.com/luxonis/depthai/blob/2402db26408da6a122d9ae9ae646b0d96ea7e1d9/charuco_11x8.pdf
 
@@ -100,57 +102,138 @@ please see the steps below and also :code:`./calibrate.py --help` which will pri
 Modular cameras calibration
 ***************************
 
-Use one of the board :code:`*.json` files from `here <https://github.com/luxonis/depthai/tree/gen1_main/resources/boards>`__ to
-define the baseline between the stereo cameras, and between the left camera and the color camera, replacing the items in brackets below.
+Use one of the board :code:`*.json` files from `here <https://github.com/luxonis/depthai-boards/tree/main/boards>`__ as a template for your custom board config.
 
-- Swap left/right (i.e. which way are the cameras facing, set to :code:`true` or :code:`false`)
-- The :code:`BASELINE` in centimeters between grayscale left/right cameras
-- The distance :code:`RGBLEFT` separation between the :code:`Left` grayscale camera and the color camera, in centimeters.
+.. note::
+
+   It is best to use a template which has similar camera configuration to your custom board.
+
+In the board config we define the cameras, their sockets and their positions relative to the other cameras. Each camera should have the following information:
+
+- Board socket name the camera is connected to - defined on the board PCB (e.g. CAM_A, CAM_B, CAM_C, CAM_D, ...)
+- HFOV of the camera module (`documentation <https://docs.luxonis.com/projects/hardware/en/latest/pages/ffc-cameras.html#ffc-camera-modules>`__)
+- Type of camera (color/mono)
+- Its relative position to some other camera on the device:
+   - translation [x, y, z]
+   - rotation [r, p, y]
+
+Example for OAK FFC 4P with two OV9282 (PY003) cameras in stereo setup with 14.8cm basline, along with IMX378 PY052 positioned between, 5cm from the right mono camera:
 
 .. code-block::
 
-  {
-      "board_config":
-      {
-          "name": "ACME01",
-          "revision": "V1.2",
-          "swap_left_and_right_cameras": [true | false],
-          "left_fov_deg": 73.5,
-          "rgb_fov_deg": 68.7938,
-          "left_to_right_distance_cm": [BASELINE],
-          "left_to_rgb_distance_cm": [RGBLEFT]
-      }
-  }
+   {
+       "board_config":
+       {
+           "name": "Custom FFC",
+           "revision": "R1M0E1",
+           "cameras":{
+               "CAM_C": {
+                   "name": "right",
+                   "hfov": 71.86,
+                   "type": mono,
+                   "extrinsics": {
+                       "to_cam": CAM_B,
+                       "specTranslation": {
+                           "x": 14.8,
+                           "y": 0,
+                           "z": 0
+                       },
+                       "rotation":{
+                           "r": 0,
+                           "p": 0,
+                           "y": 0
+                       }
+                   }
+               },
+               "CAM_B": {
+                   "name": "left",
+                   "hfov": 71.86,
+                   "type": "mono",
+                   "extrinsics": {
+                       "to_cam": "CAM_A",
+                       "specTranslation": {
+                           "x": -9.8,
+                           "y": 0,
+                           "z": 0
+                       },
+                       "rotation":{
+                           "r": 0,
+                           "p": 0,
+                           "y": 0
+                       }
+                   }
+               },
+               "CAM_A": {
+                   "name": "middle",
+                   "hfov": 69,
+                   "type": "color"
+               }
 
-So for example if you setup your :ref:`OAK-FFC-3P` with a stereo baseline of 2.5cm, with the color camera exactly between
-the two grayscale cameras, as shown below, use the JSON further below:
+           },
+           "stereo_config":{
+               "left_cam": "CAM_B",
+               "right_cam": "CAM_C"
+           }
+       }
+   }
 
-.. image:: /_static/images/calibration/mono-cameras-min-dist.png
 
-.. code-block:: json
 
-  {
-      "board_config":
-      {
-          "name": "ACME01",
-          "revision": "V1.2",
-          "swap_left_and_right_cameras": true,
-          "left_fov_deg": 73.5,
-          "rgb_fov_deg": 68.7938,
-          "left_to_right_distance_cm": 2.5,
-          "left_to_rgb_distance_cm": 5.0
-      }
-  }
-
-Note that in this orientation of the cameras, :code:`"swap_left_and_right_cameras"` is set to true.
-
-Then, run calibration with this board name:
+Having set up the board config, we can now run the calibration with name of the json config as board name. Since we named the config file :code:`OAK-FFC-4P.json`, we'll run the calibration as:
 
 .. code-block:: bash
 
-  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd ACME01 -ih
+  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P -ih
 
 Run :code:`python3 calibrate.py --help` (or :code:`-h`) for a full list of arguments and usage examples.
+
+Another example using OAK-FFC-4P, but this time without the color camera:
+
+.. code-block:: 
+
+  {
+      "board_config":
+      {
+          "name": "Custom FFC",
+          "revision": "R1M0E1",
+          "cameras":{
+              "CAM_C": {
+                  "name": "right",
+                  "hfov":  71.86,
+                  "type": "mono",
+                  "extrinsics": {
+                      "to_cam": "CAM_B",
+                      "specTranslation": {
+                          "x": 14.8,
+                          "y": 0,
+                          "z": 0
+                      },
+                      "rotation":{
+                          "r": 0,
+                          "p": 0,
+                          "y": 0
+                      }
+                  }
+              },
+              "CAM_B": {
+                  "name": "left",
+                  "hfov":  71.86,
+                  "type": "mono"
+                  }
+          },
+          "stereo_config":{
+              "left_cam": "CAM_B",
+              "right_cam": "CAM_C"
+          }
+      }
+  }
+
+When running the calibration, we'll use the same command as before, but with the :code:`-drgb` option to disable the color camera:
+
+.. code-block:: bash
+
+  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P -drgb -ih
+
 
 Position the charuco board and capture images
 *********************************************
@@ -159,9 +242,10 @@ Left and right video streams are displayed, each containing a polygon overlay.
 
 Hold up the printed charuco board (or laptop with the image displayed on the screen) so that the whole of the calibration board is displayed within both video streams.
 
-Match the orientation of the overlaid polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
+Match the orientation of the overlayed polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
 not need to match the polygon exactly, but it is important to use the polygon as a guideline for angling and location relative to the camera.
-There are 13 required polygon positions.
+There are 39 required polygon positions. Note that the number of required polygon positions can be manually changed, 
+but might impact the accuracy of the calibration.
 
 After capturing images for all of the polygon positions, the calibration image processing step will begin.
 If successful, the calibration data will be written to EEPROM and a copy of it will be created in files under
@@ -181,7 +265,7 @@ We'll view the depth stream to ensure the cameras are calibrated correctly:
 
   .. code-block:: bash
 
-    cd [depthai repo]
+    cd path/to/depthai
 
 3. Run test script.
 
@@ -189,6 +273,20 @@ We'll view the depth stream to ensure the cameras are calibrated correctly:
 
     python3 depthai_demo.py
 
-  The script launches a window, starts the cameras, and displays a depth video stream.
+  The script launches a window, starts the cameras, and displays a depth video stream:
+
+  .. image:: /_static/images/products/calibration-depth.png
+
+  In the screenshot above, the hand is closer to the camera.
+
+Troubleshooting
+**********
+
+- If calibration fails with error: :code:`High reprojection error!`, the usual cause is misconfigured board config. Many times this is due to incorrect specified HFOV of used camera module. 
+
+- If you find that despite successfully calibrating the cameras and 
+  confirming the epiplolar lines correctly align left and right, the depth is still incorrect, perhaps your left and right cameras are swapped. 
+  In that case you could retry the calibration with changed board config, or simply swap the board sockets the cameras are plugged into.
+
 
 .. include::  /pages/includes/footer-short.rst
