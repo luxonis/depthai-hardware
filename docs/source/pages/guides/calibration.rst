@@ -48,7 +48,7 @@ please see the steps below and also :code:`./calibrate.py --help` which will pri
 
     Often, using a monitor to display the calibration target is easier/faster.
 
-    .. image:: /_static/images/charuco_calibration.png
+    .. image:: /_static/images/calibration/charuco_calibration.png
       :alt: Print this charuco calibration image
       :target: https://github.com/luxonis/depthai/blob/2402db26408da6a122d9ae9ae646b0d96ea7e1d9/charuco_11x8.pdf
 
@@ -117,7 +117,7 @@ In the board config we define the cameras, their sockets and their positions rel
    - translation [x, y, z]
    - rotation [r, p, y]
 
-Example for OAK FFC 4P with two OV9282 (PY003) cameras in stereo setup with 14.8cm basline, along with IMX378 PY052 positioned between, 5cm from the right mono camera:
+Example for OAK FFC 4P with two OV9282 (PY003) cameras in stereo setup with 14.8cm basline, along with IMX378 (PY052) positioned between, 5cm from the right mono camera:
 
 .. code-block::
 
@@ -242,7 +242,7 @@ Left and right video streams are displayed, each containing a polygon overlay.
 
 Hold up the printed charuco board (or laptop with the image displayed on the screen) so that the whole of the calibration board is displayed within both video streams.
 
-Match the orientation of the overlayed polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
+Match the orientation of the overlaid polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
 not need to match the polygon exactly, but it is important to use the polygon as a guideline for angling and location relative to the camera.
 There are 39 required polygon positions. Note that the number of required polygon positions can be manually changed, 
 but might impact the accuracy of the calibration.
