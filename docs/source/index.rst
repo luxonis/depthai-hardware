@@ -222,7 +222,7 @@ Other Designs
 
 Some **older models** can be :ref:`found here <Other models>`.
 
-.. include::  /pages/includes/footer-long.rst
+.. include::  /pages/includes/footer-short.rst
 
 
 .. toctree::
