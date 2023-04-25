@@ -3,7 +3,7 @@
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/ffc-cameras.html#ffc-camera-mounting).
 
 Below are the FFC adapters, to which you can attach [FFC camera modules](https://docs.luxonis.com/projects/hardware/en/latest/pages/ffc-cameras.html), and attach the adapter to the 20x20 T-Slot aluminum framing. We recommend
-buying the [OAK-FFC-Kit on our shop](https://shop.luxonis.com/collections/early-access/products/oak-ffc-kit), but you can also buy all the screws and profiles, and 3D-print the adapters, as they are open source (see below).
+buying the [OAK-FFC-Kit on our shop](https://shop.luxonis.com/collections/early-access/products/oak-ffc-kit), but you can also buy all the screws and profiles, and 3D-print the adapters, as they are open source (see below). See [OAK-FFC-Kit assembly instructions](OAK-FFC-Kit_assembly_instruction.pdf).
 
 
 ### Step files
