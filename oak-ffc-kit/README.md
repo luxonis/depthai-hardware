@@ -15,4 +15,4 @@ Use M5 screws to attached these adapters to the ALU profile.
 - [FFC-camera-adapter-horizontal.STL](3D_Models/FFC-camera-adapter-horizontal.STL) - For OAK FFC and RaspberryPi (v1, v2, 3, 3 Wide) camera modules, which have a size of 25x24 mm. Use this adapter to position the camera parallel to the aluminum framing. Camera modules can be attached to the adapter with M2 screws.
 - [FFC-camera-adapter-vertical.STL](3D_Models/FFC-camera-adapter-vertical.STL) - For OAK FFC and RaspberryPi (v1, v2, 3, 3 Wide) camera modules, which have a size of 25x24 mm. Use this adapter to position the camera perpendicular to the aluminum framing. Camera modules can be attached to the adapter with M2 screws.
 
-![Image]()
+![Image](https://user-images.githubusercontent.com/18037362/234275376-6cb9eaf5-b206-41b2-abec-9de9e71fcfaf.png)
