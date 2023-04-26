@@ -78,6 +78,10 @@ Replacing SoM-Pro versions
 
     .. tab:: Overview
 
+        .. note::
+
+            We **do not** officially support this feature, and it is purely an option that users can choose to use at their own risk without any warranty or guarantee from us.
+
         As OAK-SoM-Pro-S3 is a drop-in replacement for OAK-SoM-Pro, you can replace it on some OAK devices (baseboards) that use it. Click on next tabs to see
         what PCBA changes need to be performed to get it working.
 
