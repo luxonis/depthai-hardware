@@ -141,19 +141,19 @@ custom baseline, or custom orientation of the cameras.
 
    * - OAK-FFC 3P
      - OAK-FFC 4P
-     - OAK-FFC 6P
+     - OAK-FFC 4P PoE
      - FFC Camera modules
    * - .. image:: /_static/images/thumbnails/OAK-FFC-3P_th.png
           :target: pages/DM1090.html
      - .. image:: /_static/images/thumbnails/OAK-FFC-4P_th.png
           :target: pages/DD2090.html
-     - .. image:: /_static/images/thumbnails/FFC-6P.png
-          :target: pages/DM3390.html
+     - .. image:: /_static/images/thumbnails/FFC-4P-POE-thumbnail.png
+          :target: pages/NG2093.html
      - .. image:: /_static/images/thumbnails/OAK-FFC_modules_th.png
           :target: pages/ffc-cameras.html
    * - :ref:`Learn more <dm1090ffc>`
      - :ref:`Learn more <dd2090ffc>`
-     - :ref:`Learn more <dm3390>`
+     - :ref:`Learn more <ng2093>`
      - :ref:`Learn more <arducam>`
 
 .. list-table::
