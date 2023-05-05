@@ -56,6 +56,127 @@ General information
 Getting started
 ***************
 
+In this tutorial, we will be using OAK-FFC-6P with 2x OAK-FFC-OV9282 camera modules. First we will install the correct
+depthai library version, then we will calibrate the stereo cameras, and finally we will check the results.
+
+.. image:: 
+
+RVC3 library
+------------
+
+As RVC3 is still in early access, you will need to install the correct version of depthai library on the host computer.
+You can do that by checking out on ``rvc3_develop`` on the **depthai-python** repository and running ``python example/install_requirements.py``.
+
+Now, let's check the cameras streams first. As we have OV9282 on ports B and C, we will run the following command:
+
+.. code-block:: bash
+
+    python cam_test.py -cams left,m right,m
+
+    Enabled cameras:
+        left : mono
+        right : mono
+    DepthAI version: 2.19.1.0.dev+c5fd7c993a3d446f6b9fdb54653cb49c7523534f
+    DepthAI path: path/to/depthai.cp39-win_amd64.pyd
+        Connected cameras: [{socket: LEFT/CAM_B, sensorName: OV9282, width: -1, height: -1, orientation: AUTO, supportedTypes: [], hasAutofocus: 0, name: CAM-SA}, {socket: RIGHT/CAM_C, sensorName: OV9282, width: -1, height: -1, orientation: AUTO, supportedTypes: [], hasAutofocus: 0, name: CAM-SB}]
+        -socket LEFT  : OV9282   -1 x   -1 focus:fixed -
+        -socket RIGHT : OV9282   -1 x   -1 focus:fixed -
+    USB speed: UNKNOWN
+    IR drivers: []
+    Cam:      left          right    [host | capture timestamp]
+    FPS:  24.61| 21.96  24.31| 21.44
+
+And we get the streams from both cameras.
+
+RVC3 SSH into ARM
+-----------------
+
+RVC3 also has quadcore ARM, so it's also possible to SSH into the device and install the same library (so ``rvc3_develop``) there. To SSH
+into the device, please see `gdocs here <https://docs.google.com/document/d/1r3en4EqgDG3hum8o5yS1DJ5vSCb6aNqyA38tIM8723U/edit#heading=h.xush1yeo9n1f>`__.
+Note that because the device doesn't have internet access, you'd need to download and copy the library from the host computer to the device.
+
+Calibration
+-----------
+
+Now, let's calibrate the cameras. First, we need to be on the ``rvc3_develop`` branch on the **depthai** repository. We need to have all the requirements installed,
+and also make sure we still have the correct depthai library (as we did in the previous step). Following the `Calibration docs here <https://docs.luxonis.com/projects/hardware/en/latest/pages/guides/calibration.html>`__,
+I ran the calibrate.py file in the depthai repository:
+
+.. code-block::
+
+    python calibrate.py -s 5 -brd board.json -db -cd 0
+
+And the board.json file is the following:
+
+.. code-block::
+
+    {
+        "board_config":
+        {
+            "name": "OAK-FFC-6P",
+            "revision": "R0M0E0",
+            "cameras":{
+                "CAM_B": {
+                    "name": "left",
+                    "hfov":  77,
+                    "type": "mono",
+                    "extrinsics": {
+                        "to_cam": "CAM_C",
+                        "specTranslation": {
+                            "x": -9.75,
+                            "y": 0,
+                            "z": 0
+                        },
+                        "rotation":{
+                            "r": 0,
+                            "p": 0,
+                            "y": 0
+                        }
+                    }
+                },
+                "CAM_C": {
+                    "name": "right",
+                    "hfov":  77,
+                    "type": "mono"
+                    }
+            },
+            "stereo_config":{
+                "left_cam": "CAM_B",
+                "right_cam": "CAM_C"
+            }
+        }
+    }
+
+    After 39 images at different angles and orientations, I got an average epipolar error of 0.14 pixels. Not great, not terrible, but will do for the tutorial.
+    Now let's try our the stereo depth.
+
+Testing the stereo results
+--------------------------
+
+We will be using SDK to test the results. Here's a simple script we can use to test the results:
+
+.. code-block:: python
+
+    from depthai_sdk import OakCamera
+
+    with OakCamera() as oak:
+        camb = oak.create_camera('camb,m', resolution='800p',fps=10)
+        camc = oak.create_camera('camc,m', resolution='800p',fps=10)
+
+        stereo = oak.create_stereo(left=camb, right=camc)
+
+        oak.visualize([stereo.out.disparity, camc, stereo.out.rectified_left], fps=True)
+
+        oak.start(blocking=True)
+
+Note that depthai_sdk library should be installed from the ``rvc3_develop`` branch on depthai repository. After I run the script, I get this result:
+
+.. image:: 
+
+
+Hardware setup
+**************
+
 The OAK-FFC-6P accepts 5V (+/-10%) from a 5.5m x 2.5mm barrel jack, and interfaces to a host via USB 3.1 Gen1 Type-C.
 With cameras and the :ref:`dm3399`, total power consumption usually stays below the 1.5 A specification, Type-C power
 of 1.5 A or greater is recommended.
