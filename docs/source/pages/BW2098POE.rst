@@ -1,7 +1,7 @@
 .. _bw2096poe:
 
-PoE Board
-=========
+OAK-FFC 1P PoE
+==============
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-poe-1p>`__
 
@@ -10,11 +10,15 @@ PoE Board
 Overview
 ********
 
-The POE Board offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a  5V barrel jack. 
+The **OAK-FFC 1P PoE** offers full 802.3af, Class 3 PoE compliance with 1000BASE-T speeds, along with user-selectable external power from a  5V barrel jack. 
 The Luxonis :ref:`OAK-FFC-IMX378 <bg0249>` 12MP RGB camera module can be connected via the 26-pin FFC interface, which exposes a 4-lane MIPI CSI-2 
 channel directly into the :ref:`RVC2` on the :ref:`OAK-SoM-Pro <bw2099>` (System on Module) for processing. Data can also be streamed to a host via USB 3.1 Gen1 (Type-C). 
 Finally, the PoE Board exposes boot selection switches, allowing the end user to boot the :ref:`OAK-SoM-Pro <bw2099>` from USB or the on-board eMMC 
 or NOR flash.
+
+.. note::
+
+    The :ref:`OAK-FFC 4P PoE` offers the same functionality as the OAK-FFC 1P PoE, but also **3 additional FFC ports** and **PoE passthrough** feature (for daisy chaining).
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
