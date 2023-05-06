@@ -50,12 +50,15 @@ Others
 
    * - PoE Board
      - OAK-D CM3
+     - OAK-FFC 6P
    * - .. image:: /_static/images/thumbnails/BW2098POE.png
           :target: ../BW2098POE.html
      - .. image:: /_static/images/thumbnails/BW1097.png
           :target: ../BW1097.html
+     - .. image:: /_static/images/thumbnails/FFC-6P.png
+          :target: ../DM3390.html
    * - :ref:`Learn more <bw2096poe>`
      - :ref:`Learn more <bw1097>`
-
+     - :ref:`Learn more <dm3390>`
 
 .. include::  /pages/includes/footer-short.rst
