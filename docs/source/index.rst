@@ -156,7 +156,7 @@ custom baseline, or custom orientation of the cameras.
      - :ref:`Learn more <ng2093>`
      - :ref:`Learn more <arducam>`
 
-.. list-table::
+.. list-table:: A few FFC Camera modules:
    :header-rows: 1
 
    * - OAK-FFC IMX378

@@ -65,7 +65,7 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - Fully integrated
      - global
      - 1456x1088
-     - `RPi Global Shutter Cam <https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/>`__ works with FFC via `Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__
+     - `RPi Global Shutter Cam <https://www.raspberrypi.com/products/raspberry-pi-global-shutter-camera/>`__ - **Note:** `See this <https://discuss.luxonis.com/d/1460-rpi-high-quality-camera-with-oak-ffc-baseboard>`__
    * - IMX219
      - Initially integrated
      - rolling
