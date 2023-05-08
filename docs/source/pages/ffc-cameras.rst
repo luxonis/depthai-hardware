@@ -17,8 +17,10 @@ OAK FFC baseboards
 OAK FFC baseboards are OAK devices that have onboard VPU and FFC connectors, to which you can connect :ref:`OAK FFC camera modules <FFC Camera modules>`.
 Here's the list of our current OAK FFC baseboards:
 
-- :ref:`OAK-FFC-6P`
 - :ref:`OAK-FFC-4P`
+- :ref:`OAK-FFC 4P PoE`
+- :ref:`OAK-FFC 1P PoE`
+- :ref:`OAK-FFC-6P`
 - :ref:`OAK-FFC-3P <dm1090ffc>`
 - :ref:`OAK-FFC RPi HAT <bw1094>`
 
@@ -99,6 +101,48 @@ You can buy it from `our shop <https://shop.luxonis.com/collections/modular-came
 
 Mounting adapters can also be found `on Github <https://github.com/luxonis/depthai-hardware/tree/master/adapters>`__.
 
+Raspberry Pi cameras modules
+****************************
+
+Raspberry Pi sells a `number of camera modules <https://www.raspberrypi.com/documentation/accessories/camera.html>`__ that are compatible with the OAK FFC baseboards.
+RPi cameras can be connected to the FFC baseboard via the `UC-244 Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__.
+
+.. list-table::
+   :header-rows: 1
+
+   * - RPi camera module
+     - Sensor
+     - Shutter
+     - Pixels
+     - Notes
+   * - `RPi Camera Module 3 <https://www.raspberrypi.com/products/camera-module-3/>`__
+     - IMX708
+     - Rolling
+     - 12 MP
+     - Color, Auto-Focus.
+   * - `RPi Camera Module 2 <https://www.raspberrypi.com/products/camera-module-v2/>`__
+     - IMX219
+     - Rolling
+     - 8 MP
+     - Color, Auto-Focus. Requires ``imx219`` branch
+   * - `RPi High Quality Camera <https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/>`__
+     - IMX477
+     - Rolling
+     - 12 MP
+     - Color, C/CS mount
+   * - `RPi Global Shutter Camera <https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/>`__
+     - IMX296
+     - Global
+     - 1.6 MP
+     - Color, C/CS mount
+
+.. note::
+
+  The UC-244 Adapter doesn't work out-of-the-box with the RPi HQ and Global Shutter cameras, additional steps are `required and described here <https://discuss.luxonis.com/d/1460-rpi-high-quality-camera-with-oak-ffc-baseboard>`__.
+
+If you just want to use IMX477, we suggest using `Arducam HQ Cam for RPi, IMX477 <https://www.arducam.com/product/b0240-arducam-imx477-hq-quality-camera/>`__ that works directly with OAK FFC baseboards (without the UC-244 adapter).
+
+.. image::
 
 M12 mount lenses
 ****************
