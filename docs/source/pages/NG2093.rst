@@ -22,7 +22,8 @@ This board uses :ref:`OAK-SoM-Pro` and is also compatible with RPi camera interf
 which converts 26-pin Luxonis camera pinout to 22 pin RPi camera pinout.
 
 This device also supports **PoE passthrough**, so you can **daisy chain** multiple OAK-FFC 4P PoE boards. As the chip is PoE 802.3af, it can supply up to 15.4W
-of power, which means you can connect up to 3 devices in a row (as each consumes about 5W of power).
+of power, which means you can connect up to 3 devices in a row (as each consumes ~5W of power). **Note** that if you have longer cables and/or utilize all available computation
+(NN, Stereo, CV, video encoder, CPU, etc.), it might be that you could only connect 2 devices in a row.
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
@@ -44,9 +45,8 @@ General information
 * 2x 4-Lane MIPI interface
 * PoE for connectivity and power
 * Interface for Luxonis :ref:`OAK-SoM-Pro`
-* Pads for OAK-SoM-Pro 1.8V SPI
-* Pads for OAK-SoM-Pro 3.3V SDIO
 * Pads for OAK-SoM-Pro 1.8V Aux Signals (I2C, UART, GPIO)
+* PSRBS connector for FSYNC
 * Design files produced with Altium Designer 20
 
 .. include:: /pages/includes/ffc-depth-perception.rst
