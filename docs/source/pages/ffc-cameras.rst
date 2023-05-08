@@ -119,12 +119,12 @@ RPi cameras can be connected to the FFC baseboard via the `UC-244 Adapter <https
      - IMX708
      - Rolling
      - 12 MP
-     - Color, Auto-Focus.
+     - Color, Auto-Focus. Initial (**WIP**) integration
    * - `RPi Camera Module 2 <https://www.raspberrypi.com/products/camera-module-v2/>`__
      - IMX219
      - Rolling
      - 8 MP
-     - Color, Auto-Focus. Requires ``imx219`` branch
+     - Color, Fixed-Focus. Requires ``imx219`` branch
    * - `RPi High Quality Camera <https://www.raspberrypi.com/products/raspberry-pi-high-quality-camera/>`__
      - IMX477
      - Rolling

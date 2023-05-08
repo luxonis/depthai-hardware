@@ -71,6 +71,11 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 3280x2464
      - Requires ``imx219`` branch. `RPi Cam V2 <https://www.raspberrypi.com/products/camera-module-v2/>`__ works with FFC via `Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__
+   * - IMX708
+     - Initially integrated
+     - rolling
+     - 4608x2592
+     - `RPi Cam V3 <https://www.raspberrypi.com/products/camera-module-3/>`__ works with FFC via `Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__
    * - IMX577
      - Fully integrated
      - rolling
