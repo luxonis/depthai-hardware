@@ -203,8 +203,8 @@ Arducam short FPC
   * AF (short FPC M12-Mount, haven't yet received samples)
 * :ref:`IMX582`
 
-  * AF/FF/NoIR/NotchIR - 82° DFOV, 68° HFOV, 55° VFOV
-  * FF Wide FOV - 120° DFOV, 96° HFOV, 89° VFOV
+  * AF/FF/NoIR/NotchIR - 71° DFOV, 45° HFOV, 55° VFOV
+  * FF Wide FOV - 109° DFOV, 63° HFOV, 89° VFOV
 
 Arducam longer FPC
 ------------------

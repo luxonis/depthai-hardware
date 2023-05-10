@@ -9,7 +9,7 @@ Camera module specifications
   * - Sensor
     - :ref:`IMX582` (PY080)
   * - DFOV / HFOV / VFOV
-    - 82° / 68° / 55°
+    - 71° / 45° / 55°
   * - Resolution
     - 32MP (5312x6000)
   * - Focus
