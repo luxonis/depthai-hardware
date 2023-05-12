@@ -10,7 +10,7 @@
     * - DFOV / HFOV / VFOV
       - 120°/95°/70°
     * - Resolution
-      - 12MP (4032x3040)
+      - 12MP (4056x3040)
     * - Focus
       - FF: 60cm - ∞
     * - Max Framerate

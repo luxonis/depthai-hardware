@@ -11,7 +11,7 @@ Camera module specifications
    * - DFOV / HFOV / VFOV
      - 81° / 69° / 55°
    * - Resolution
-     - 12MP (4032x3040)
+     - 12MP (4056x3040)
    * - Focus
      - Auto-Focus: 8cm - ∞
    * - Max Framerate

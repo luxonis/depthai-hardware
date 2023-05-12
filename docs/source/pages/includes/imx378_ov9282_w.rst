@@ -17,7 +17,7 @@ Camera module specifications
      - N/A
      - 106°/97°/70°
    * - Resolution
-     - 12MP (4032x3040)
+     - 12MP (4056x3040)
      - 1MP (1280x800)
    * - Focus
      - FF: 60cm - ∞
