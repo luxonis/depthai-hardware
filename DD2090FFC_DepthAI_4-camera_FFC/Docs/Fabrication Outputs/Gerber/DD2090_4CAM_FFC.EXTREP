@@ -1,5 +1,5 @@
 ------------------------------------------------------------------------------------------
-Gerber File Extension Report For: DD2090_4CAM_FFC.GBR   05/01/2022  16:13:27
+Gerber File Extension Report For: DD2090_4CAM_FFC.GBR   18/05/2023  17:46:11
 ------------------------------------------------------------------------------------------
 
 
@@ -23,6 +23,7 @@ Layer Extension     Layer Description
 .GM3                Bottom Assembly                         
 .GM4                Fab Notes                               
 .GM5                Dimensions                              
+.GM6                Top Component Center                    
 .GM7                Assembly Notes                          
 .GM9                Mechanical 9                            
 .GM11               Mechanical 11                           
@@ -30,17 +31,18 @@ Layer Extension     Layer Description
 .GM14               Bottom 3D Body                          
 .GM15               Top Courtyard                           
 .GM16               Bottom Courtyard                        
+.GM24               Bottom Component Center                 
 .GM31               Top Component Outline                   
 .GM32               Bottom Component Outline                
 .GKO                Keep-Out Layer                          
 .GPT                Top Pad Master                          
 .GPB                Bottom Pad Master                       
+.GML                Multi-Layer                             
 .1                  Dielectric 1 (2116)                     
+.2                  Core                                    
 .3                  Dielectric 2 (2116)                     
 .4                  Dielectric 3 (1080)                     
 .5                  Dielectric 4 (1080)                     
-.GML                Multi-Layer                             
-.2                  Core                                    
 .GD1                Drill Drawing                           
 .GG1                Drill Guide                             
 ------------------------------------------------------------------------------------------
