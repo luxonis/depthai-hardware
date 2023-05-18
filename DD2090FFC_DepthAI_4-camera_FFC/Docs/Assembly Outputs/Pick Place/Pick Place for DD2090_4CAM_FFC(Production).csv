@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-E:\hardware\DD2090FFC_R2M1E2\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DD2090_4CAM_FFC(Production).csv
+E:\A365\DD2090_4CAM_FFC\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DD2090_4CAM_FFC(Production).csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       05/01/22
-Time:       16:13
-Revision:   1799
+Date:       17/08/22
+Time:       14:12
+Revision:   7ca58d2ac22912d1ebe9ee63f0cab7024cde4137
 Variant:    Production
 Units used: mm
 
@@ -30,13 +30,8 @@ Units used: mm
 "C15","26.0750mm","19.6500mm","180","BottomLayer","GRM188R61A226ME15D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
 "C16","26.0750mm","18.4750mm","180","BottomLayer","GRM188R61A226ME15D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 22UF 10V X5R 0603 20%","22uF 0603"
 "C17","25.0000mm","24.1250mm","270","BottomLayer","GRM0335C1E330JA01D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","CAP CER 33PF 25V C0G/NP0 0201","33pF 0201"
-"C42","26.8477mm","12.3500mm","90","BottomLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
-"C43","26.2477mm","10.3500mm","0","BottomLayer","GRM188R61A106ME69D","CAPC0603(1608)100_L","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC High Density","CAP CER 10UF 10V X5R 0603 20%","10uF 0603"
-"C44","27.8977mm","10.6250mm","270","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
-"C45","27.8977mm","12.2750mm","90","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
-"C46","31.0977mm","15.5500mm","0","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
-"C47","31.1955mm","9.7936mm","180","BottomLayer","GRM0335C1E180FA01D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","Cap Ceramic 18pF 25V C0G 1% Pad SMD 0201 125C T/R","18pF 0201"
-"C48","29.9001mm","9.7936mm","0","BottomLayer","GRM0335C1E180FA01D","CAPC0201(0603)33_L","Chip Capacitor, Body 0.6x0.3mm, Height 0.33mm, IPC High Density","Cap Ceramic 18pF 25V C0G 1% Pad SMD 0201 125C T/R","18pF 0201"
+"C18","40.7250mm","14.3500mm","90","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
+"C19","38.5500mm","15.7500mm","180","BottomLayer","GRM155R71A104JA01D","CAPC0402(1005)70_L","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC High Density","CAP CER 0.1UF 10V X7R 0402 5%","0.1uF 0402"
 "C55","64.1000mm","27.0750mm","270","TopLayer","GRM188R61C475KAAJD","CAPC0603(1608)100_N","Chip Capacitor, Body 1.6x0.8mm, Height 1.0mm, IPC Medium Density","CAP CER 4.7UF 16V X5R 0603 10%","4.7uF 0603"
 "C73","13.0977mm","24.4000mm","180","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
 "C74","15.3727mm","18.6750mm","0","TopLayer","GRM155R60J106ME15D","CAPC0402(1005)70_N","Chip Capacitor, Body 1.0x0.5mm, Height 0.7mm, IPC Medium Density","CAP CER 10UF 6.3V X5R 0402 20%","10uF 0402"
@@ -86,10 +81,8 @@ Units used: mm
 "M3","25.2477mm","2.2250mm","90","TopLayer","RE1C002UNTCL","RE1C002UNTCL","ROHM SOT-416FL","MOSFET N-CH 20V 0.2A EMT3","RE1C002UNTCL"
 "MTG7","27.8550mm","33.1749mm","90","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
 "MTG8","52.0600mm","8.9749mm","90","TopLayer","9774030243R","9774030243R","STANDOFF_M2X0.4_3MM with no pad on bottom of PCB","MP ROUND STANDOFF M2X0.4 STEEL 3MM","M2, 3MM steel spacer on M2.5 mounting pad"
-"R1","35.6727mm","13.2750mm","180","BottomLayer","RC0402FR-072K2L","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 2.2K OHM 1% 1/16W 0402","2.2K 0402"
 "R3","30.1477mm","2.1750mm","0","BottomLayer","RC0402FR-071KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R4","20.9477mm","2.6000mm","90","TopLayer","RC0402FR-071KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
-"R5","35.6727mm","14.2000mm","180","BottomLayer","RC0402FR-072K2L","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 2.2K OHM 1% 1/16W 0402","2.2K 0402"
 "R6","17.5727mm","20.5500mm","90","TopLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
 "R7","30.0227mm","5.4250mm","0","BottomLayer","RC0402FR-071KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R8","25.7500mm","24.1250mm","270","BottomLayer","CRCW040290K9FKED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 90.9K OHM 1% 1/16W 0402","90.9K 0402"
@@ -102,9 +95,9 @@ Units used: mm
 "R16","23.6000mm","21.0000mm","0","BottomLayer","RC0402FR-071KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R17","38.4227mm","24.7250mm","0","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
 "R18","35.2977mm","24.7250mm","180","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
-"R19","21.5000mm","25.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
-"R20","21.5000mm","24.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
-"R21","21.5000mm","23.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R19","21.5500mm","25.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R20","21.5500mm","24.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R21","21.5500mm","23.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
 "R25","25.7500mm","25.7750mm","270","BottomLayer","RC0402FR-0720KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 20K OHM 1% 1/16W 0402 20 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","20K 0402"
 "R26","63.5500mm","23.5750mm","270","TopLayer","RC0402FR-071KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
 "R27","41.9227mm","21.1250mm","0","BottomLayer","CRCW0603-0000Z0EA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/10W 0603 0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film","0R 0603"
@@ -119,7 +112,7 @@ Units used: mm
 "R39","43.5000mm","3.2500mm","180","TopLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
 "R40","43.5000mm","5.2500mm","180","TopLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
 "R61","23.6000mm","22.0000mm","0","BottomLayer","RC0402FR-071KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
-"R63","21.5000mm","20.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R63","21.5500mm","20.0000mm","180","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
 "R66","63.5500mm","20.2250mm","270","TopLayer","CRCW04020000Z0ED","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/16W 0402","0R 0402"
 "R67","56.0750mm","20.7750mm","180","TopLayer","CRCW04020000Z0ED","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 0 OHM JUMPER 1/16W 0402","0R 0402"
 "R183","13.0977mm","25.5000mm","180","TopLayer","RC0402FR-1310KL","RESC0402(1005)_N","Chip Resistor, Body 1.0x0.5mm, IPC Medium Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
@@ -136,7 +129,7 @@ Units used: mm
 "TP5","39.3500mm","9.1934mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "TP6","18.8250mm","26.8500mm","0","TopLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "TP7","14.6289mm","11.1511mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
-"TP8","37.6464mm","13.9250mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
+"TP8","23.6250mm","18.7250mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "TP9","26.1500mm","30.4000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "TP10","12.1727mm","19.4000mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
 "TP11","32.3477mm","6.5250mm","180","BottomLayer","","TP100_200_NS","1mm dia pad, 2mm dia clearance, no silk screen","","TP100_200_NS"
@@ -165,7 +158,6 @@ Units used: mm
 "U4","32.0487mm","21.5830mm","0","BottomLayer","TLV70018DCKR","TLV70018DCK","SC70-5 1.1mm","IC REG LINEAR 1.8V 200MA SC70-5 Linear Voltage Regulator IC  1 Output  200mA SC-70-5","TLV70018DCK"
 "U5","37.7227mm","19.7250mm","270","BottomLayer","NC7SZ66M5X","SOT235","SOT23-5 60mil","ANALOGUE SWITCH, SINGLE, SPST-NO, SOT-23; Analog Switch Type:SPST - NO; No. of Channels:1; On State Resistance Max:60ohm; Supply Voltage Range:1.65V to 5.5V; Analog Switch Case:SOT-23; No. of Pins:5; Operating Temperature Min:-40 C ;RoHS Compliant: Yes","NC7SZ66M5X"
 "U6","39.2500mm","4.7500mm","180","TopLayer","24AA32A-I/MS","24AA32A-I/MS","Body: 3 x 3mm, pitch: 0.65mm","IC EEPROM 32K I2C 400KHZ 8MSOP Memory IC 32Kb (4K x 8) I²C 400kHz 900ns 8-MSOP","24AA32A-I/MS 8-MSOP"
-"U12","31.5781mm","12.6714mm","270","BottomLayer","BNO085","BNO085","28-TFLGA Module (5.2x3.8)","IMU ACCEL/GYRO/MAG I2C 32BIT","BNO085"
+"U7","38.5000mm","13.8000mm","0","BottomLayer","BMI270","XDCR_BMI270","","Accelerometer, Gyroscope, 6 Axis Sensor IÂ²C, SPI Output","BMI270"
 "U61","16.8033mm","20.4493mm","90","BottomLayer","CBTL02043ABQ,115","CBTL02043A","VQFN-20","Multiplexer And Demux/Decoder, CBT/FST/QS/5C/B Series, 1-Func, 2 Line Input, 1 Line Output, True Output, PQCC20","USB Type-C Switch"
 "U62","11.0977mm","34.9500mm","90","TopLayer","TUSB321RWBR","TUSB321RWBR","X2QFN-12 1.6x1.6","IC USB PORT CONTROL TYPE-C 12X2Q","USB Type-C Port Control"
-"Y1","30.5454mm","8.4670mm","0","BottomLayer","ABS06-127-32.768KHZ-T","ABS06-127-32.768KHZ-T","2-SMD 0.079" L x 0.047" W (2.00mm x 1.20mm)","CRYSTAL 32.768kHz ±20ppm Crystal 12.5pF 90 kOhms 2-SMD, No Lead","ABS06-127-32.768KHZ-T"
