@@ -64,8 +64,10 @@ Dimensions and Weight
 
 ..
    .. image:: /_static/images/BW1098OAK/oak-d-dimensions.png
-
-**Weight:** 376g
+* Width: 202 mm
+* Height: 44 mm
+* Length: 40 mm
+* Weight: 376g
 
 ..
    .. include:: /pages/includes/depth_75_800P.rst
