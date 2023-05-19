@@ -1,4 +1,4 @@
-# OAK-D-SR_POE
+# OAK-D-SR-POE
 
 # Board layout & dimensions
 OAK-D-SR was made with intention that the overall size of the board would be as minimal as possible. 
