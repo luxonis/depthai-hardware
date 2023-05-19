@@ -1,0 +1,51 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: EL2086.GBR   19/05/2023  14:02:00
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.GTO                Top Overlay                             
+.GTP                Top Paste                               
+.GTS                Top Mask                                
+.GTL                L1_TOP                                  
+.GP1                L2_GND                                  
+.G1                 L3_HS                                   
+.G2                 L4_POWER                                
+.G3                 L5_GND                                  
+.GBL                L6_BOT                                  
+.GBS                Bottom Mask                             
+.GBP                Bottom Paste                            
+.GBO                Bottom Overlay                          
+.GM1                Board                                   
+.GM2                Top Assembly                            
+.GM3                Bottom Assembly                         
+.GM4                Top Component Center                    
+.GM5                out line                                
+.GM6                dxf_02242023                            
+.GM7                Assembly Notes                          
+.GM8                DXF_03202023                            
+.GM9                Top DXF                                 
+.GM10               Bottom DXF                              
+.GM11               dxf_2099                                
+.GM12               DimBot                                  
+.GM13               Top 3D Body                             
+.GM14               Bottom 3D Body                          
+.GM15               Top Courtyard                           
+.GM16               Bottom Courtyard                        
+.GM24               Bottom Component Center                 
+.GM31               Top Component Outline                   
+.GM32               Bottom Component Outline                
+.GKO                Keep-Out Layer                          
+.GPT                Top Pad Master                          
+.GPB                Bottom Pad Master                       
+.GML                Multi-Layer                             
+.1                  Dielectric 1                            
+.2                  Core 1                                  
+.3                  core3                                   
+.4                  Core 2                                  
+.5                  Dielectric 3                            
+.GD1                Drill Drawing                           
+.GG1                Drill Guide                             
+------------------------------------------------------------------------------------------
