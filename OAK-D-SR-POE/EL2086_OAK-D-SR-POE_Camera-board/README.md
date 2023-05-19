@@ -1,11 +1,11 @@
-# OAK-D-SR
-![](Images/OAK-D-SR_1.jpg)
+# OAK-D-SR-POE
+![](https://github.com/luxonis/depthai-hardware/blob/EL2086/EL6905_OAK-D-SR-POE/OAK-D-SR-POE/Images/oak-d-sr-poe_03.png)
 
 # Project Stage
 
-This repository contains hardware designed by Luxonis. This camera is perfect for applications that require close-in depth and detail, such as quality control or automated manufacturing, and will prove especially valuable for mounting on robots or picking arms. The OAK-D-SR leverages our OAK-SoM-Pro to make a compact overall design. The use of the SoM reduces the overall design's scale, making it easier to mount or fit in various robotic processes. The design is also open-sourced, allowing for any necessary modifications.
+This repository contains hardware designed by Luxonis. This is a camera that emphasizes improved short-range accuracy when compared to the standard OAK-D and further expands our catalog of robotic vision solutions. It employs Time of Flight (ToF) VGA sensor, which enables accurate measurement of the depth of objects in a scene, resulting in more precise focusing and improved low-light performance. It is the ultimate camera for robotic vision that perceives the world like a human by combining stereo depth camera and high-resolution color camera with an on-device Neural Network inferencing and Computer Vision capabilities. It uses PoE for both power and GigE connectivity.
 
-You can preorder OAK-D-SR on Luxonis [Early access store](https://shop.luxonis.com/collections/early-access/products/oak-d-sr).
+You can preorder OAK-D-SR-POE on Luxonis [Early access store](https://shop.luxonis.com/collections/early-access/products/oak-d-sr-poe).
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -14,28 +14,26 @@ You can preorder OAK-D-SR on Luxonis [Early access store](https://shop.luxonis.c
 * `3D Models` contains generated 3D models of the board
 
 # Key features
-* USB-C connector for both power and communication, supporting USB2 and USB3 protocols (5Gbps / 10Gbps)
-* BMI270 IMU, 6-axis sensor combining accelerometer and gyroscope
-* Primarily used for short range functionalities 
-* Encoding: H.264, H.265, MJPEG - 4K/30FPS, 1080P/60FPS
-* 2 x NFOV Cameras (near field of view with fixed focus)
-* Stereo depth perception at 120 FPS with filtering
-* Object tracking: 2D and 3D tracking
+* IR dot projector
+* Time of Flight (ToF) VGA (640x480 @ 30fps)
+* Two OV9782 (1 MP Color Global Shutter)
+* IP67 rated enclosure
+* M12 X-coded connector
+* M8 IO connector
+* PoE circuitry
+* 4 TOPS of processing power (1.4 TOPS for AI - RVC2 NN Performance)
+* Run any AI model, even custom architectured/built ones (models need to be converted)
+* Encoding: H.264, H.265, MJPEG, 4K/30FPS, 1080P/60FPS
+* Computer vision: warp (undistortion), resize, crop via ImageManip node, edge detection, feature tracking. You can also run custom CV functions
+* Stereo depth perception with filtering, post-processing, RGB-depth alignment, and high configurability
+* Object tracking: 2D and 3D tracking with ObjectTracker node
 
-* Design files produced with Altium Designer 22
+* Design files produced with Altium Designer 23
 
 # Board layout & dimensions
-OAK-D-SR was made with intention that the overall size of the board would be as minimal as possible. 
+OAK-D-SR-POE was made with intention that the overall size of the board would be as minimal as possible. 
 
-Dimensions are represented below (renders including all components, some may not be populated in production variant):
 
-![OAK-D-SR_DIMENSIONS](https://user-images.githubusercontent.com/118981341/203859854-37c5d949-d82a-4896-96af-765904665ebc.png)
-
-![OAK-D-SR_BOTTOM](https://user-images.githubusercontent.com/118981341/203855309-baec10c6-445b-4164-9684-a99a4719f979.png)
-
-# Revision info
-
-These files represent the R1M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 
 
