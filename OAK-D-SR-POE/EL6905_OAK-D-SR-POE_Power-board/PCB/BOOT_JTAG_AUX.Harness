@@ -1,0 +1,5 @@
+BB_JTAG=TMS,TCK,TDI,TRST,TDO,SYS_RST
+I2C3=I2C3_SCL,I2C3_SDA
+I2C4=I2C4_SCL,I2C4_SDA
+RGB_LED=RGB_LED_R,RGB_LED_G,RGB_LED_B
+uSD_Card=sd_hst0_clk,sd_hst0_cmd,sd_hst0_dat_0,sd_hst0_dat_1,sd_hst0_dat_2,sd_hst0_dat_3,GPIO7/sd_hst_cd

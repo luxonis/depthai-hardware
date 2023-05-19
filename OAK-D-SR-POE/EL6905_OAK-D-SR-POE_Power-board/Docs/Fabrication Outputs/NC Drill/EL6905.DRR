@@ -1,0 +1,25 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: EL6905.PcbDoc   19/05/2023  14:06:46
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1_TOP to L6_BOT
+ASCII Plated RoundHoles File : EL6905-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : EL6905-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : EL6905-SlotHoles-Plated.TXT
+EIA File   : EL6905.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             41        PTH        191.58mm (7.54inch)
+T2      0.254mm (10mil)                                           Round             33        PTH        136.41mm (5.37inch)
+T3      0.406mm (16mil)                                           Round             76        PTH        384.31mm (15.13inch)
+T4      0.6mm (24mil)                                             Slot              2         PTH        30.03mm (1.18inch)
+T5      0.8mm (31mil)                                             Round             20        PTH        98.85mm (3.89inch)
+T6      1.2mm (47mil)                                             Round             3         PTH        14.14mm (0.56inch)
+T7      2.3mm (91mil)                                             Round             3         PTH        74.21mm (2.92inch)
+T8      0.7mm (28mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T9      0.9mm (35mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              180
+
+Total Processing Time (hh:mm:ss) : 00:00:00
