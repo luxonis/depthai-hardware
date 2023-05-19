@@ -30,7 +30,5 @@ You can preorder OAK-D-SR-POE on Luxonis [Early access store](https://shop.luxon
 
 * Design files produced with Altium Designer 23
 
-# Board layout & dimensions
-OAK-D-SR-POE was made with intention that the overall size of the board would be as minimal as possible. 
 
 
