@@ -32,6 +32,7 @@ quality color camera - IMX378. Otherwise OAK-1-Lite uses the same PCBA and enclo
 
 Dimensions and Weight
 *********************
+
 * Width: 36 mm
 * Height: 54.5 mm
 * Length: 27.8 mm

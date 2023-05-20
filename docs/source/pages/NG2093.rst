@@ -34,9 +34,7 @@ Dimensions and Weight
 * Width: 62 mm
 * Height: 34 mm (PCBA and heatsink)
 * Length: 125 mm
-
-..
-    * Weight:  (PCBA and heatsink)
+* Weight: 81 g (PCBA and heatsink)
 
 General information
 *******************

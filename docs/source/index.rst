@@ -99,32 +99,36 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D PoE
-     - OAK-D S2 PoE
+   * - OAK-D S2 PoE
      - OAK-D Pro PoE
-   * - .. image:: /_static/images/thumbnails/oak-d-poe_th.png
-          :target: pages/SJ2088POE.html
-     - .. image:: /_static/images/thumbnails/oak-d-s2-poe.png
+     - OAK-D SR PoE
+   * - .. image:: /_static/images/thumbnails/oak-d-s2-poe.png
           :target: pages/NG9097s2.html
      - .. image:: /_static/images/thumbnails/oak-d-pro-poe.png
           :target: pages/NG9097pro.html
-   * - :ref:`Learn more <sj2088poe>`
-     - :ref:`Learn more <ng9097s2>`
+     - .. image:: /_static/images/thumbnails/oak-d-sr-poe_th.png
+          :target: pages/OAK-D-SR-POE.html
+   * - :ref:`Learn more <ng9097s2>`
      - :ref:`Learn more <ng9097pro>`
+     - :ref:`Learn more <OAK-D SR PoE>`
 
 .. list-table::
    :header-rows: 1
 
    * - OAK-1 PoE
+     - OAK-D PoE
      - OAK-D W PoE
      - OAK-D Pro W PoE
    * - .. image:: /_static/images/thumbnails/OAK-1-PoE_th.png
           :target: pages/SJ2096POE.html
+     - .. image:: /_static/images/thumbnails/oak-d-poe_th.png
+          :target: pages/SJ2088POE.html
      - .. image:: /_static/images/thumbnails/oak-d-w-poe.png
           :target: pages/NG9097w.html
      - .. image:: /_static/images/thumbnails/oak-d-pro-w-poe.png
           :target: pages/NG9097prow.html
    * - :ref:`Learn more <sj2096>`
+     - :ref:`Learn more <sj2088poe>`
      - :ref:`Learn more <ng9097w>`
      - :ref:`Learn more <ng9097prow>`
 
