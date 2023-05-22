@@ -1,5 +1,6 @@
 # OAK-D-SR-POE
-![](https://github.com/luxonis/depthai-hardware/blob/EL2086/EL6905_OAK-D-SR-POE/OAK-D-SR-POE/Images/oak-d-sr-poe_03.png)
+The project consists of two PCBs, the power (EL6905) PCB and the camera (EL2086) PCB.
+![](https://github.com/luxonis/depthai-hardware/blob/master/OAK-D-SR-POE/Images/oak-d-sr-poe_03.png)
 
 # Project Stage
 
