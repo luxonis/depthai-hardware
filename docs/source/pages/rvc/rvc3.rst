@@ -17,6 +17,27 @@ RVC3 Performance
 
 .. include:: /pages/rvc/includes/rvc3_features.rst
 
+RVC3 HDR support
+----------------
+
+RVC3 supports HDR (High Dynamic Range) mode, which allows to capture images with a higher dynamic range than the standard mode. Supported camera sensors:
+
+- IMX412 driver (that we reuse for IMX577/IMX477 as well), requires 12MP resolution and 4 MIPI lanes
+- IMX327 driver (that we reuse for IMX462), requires 1080P and 4 MIPI lanes
+
+To enable HDR, you can specify:
+
+.. code-block:: python
+
+    colorCam1.initialControl.setMisc("camera-mode", "HDR-2DOL")
+    # or, for 3DOL:
+    colorCam2.initialControl.setMisc("camera-mode", "HDR-3DOL")
+    # Note that 3DOL is only suited for static scenes
+
+DOL HDR stands for digital-overlap HDR. Comparison between the modes can be seen below:
+
+.. image:: /_static/images/sensors/hdr-comparison.jpg
+
 Power consumption
 *****************
 
