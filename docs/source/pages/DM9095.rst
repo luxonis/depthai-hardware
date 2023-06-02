@@ -72,7 +72,8 @@ Occasional power spikes of 2W may occur when running videoEncoder and/or Neural 
 Operating temperature
 *********************
 
-We have tested OAK-D-Lite with the following command which should inflict the highest consumption:
+More information can be found at :ref:`OAK-D-Lite temperature tests`. We have tested OAK-D-Lite with the following command which should
+inflict the highest consumption:
 
 .. code-block:: bash
 

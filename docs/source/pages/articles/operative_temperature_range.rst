@@ -35,27 +35,27 @@ As we wanted to make :ref:`OAK-D-Lite` as small as possible, we had to use a sma
      - VPU [°C]
      - HS-CPU [°C]
      - HS [°C]
-   * - :ref:`No1 <Test 1>`
+   * - :ref:`Test 1`
      - 30
      - 87
      - 71.5
      - 67
-   * - :ref:`No2 <Test 2>`
+   * - :ref:`Test 2`
      - 35
      - 94
      - 77
      - 73
-   * - :ref:`No3 <Test 3>`
+   * - :ref:`Test 3`
      - 40
      - 100
      - 88
      - 78
-   * - :ref:`No4 <Test 4>`
+   * - :ref:`Test 4`
      - 50
      - /
      - /
      - /
-   * - :ref:`No5 <Test 5>`
+   * - :ref:`Test 5`
      - 50
      - 112
      - 95

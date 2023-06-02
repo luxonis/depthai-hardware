@@ -21,27 +21,27 @@ Test results
      - VPU [°C]
      - HS-CPU [°C]
      - HS [°C]
-   * - :ref:`No1 <Test 1>`
+   * - :ref:`Test 1`
      - 30
      - 87
      - 71.5
      - 67
-   * - :ref:`No2 <Test 2>`
+   * - :ref:`Test 2`
      - 35
      - 94
      - 77
      - 73
-   * - :ref:`No3 <Test 3>`
+   * - :ref:`Test 3`
      - 40
      - 100
      - 88
      - 78
-   * - :ref:`No4 <Test 4>`
+   * - :ref:`Test 4`
      - 50
      - /
      - /
      - /
-   * - :ref:`No5 <Test 5>`
+   * - :ref:`Test 5`
      - 50
      - 112
      - 95
@@ -57,6 +57,9 @@ Legend:
 Tests 1-4 were running all 3 cameras at 30FPS, stereo depth, NN (mobilenet), and video encoding, so the maximum workload possible.
 As test 4 resulted in a crash of the device (at 125°C VPU temperature), test 5 was done without video encoding (only NN, stereo depth, and 3 cameras at 30FPS).
 
+
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/5253a64c-362d-4de8-a483-9254fb1f74b0
+
 Conclusion
 ----------
 
@@ -64,7 +67,7 @@ Testing showed that the :ref:`OAK-D-Lite` can withstand 40°C ambient temperatur
 The noise effect is more pronounced in the dark areas. Above 40°C under full load the unit reached a thermal shutdown point of 125°C.
 
 .. note::
-    OAK-D-Lite has "Lite" (i.e. cheaper) version of cameras on-board (:ref:`IMX214`, 2x :ref:`OV7251`), which are more prone to thermal noise.
+    OAK-D-Lite has "Lite" (i.e. cheaper) version of cameras on-board (:ref:`IMX214`, 2x :ref:`OV7251`), which are more prone to thermal noise. See :ref:`Test 5`.
 
 .. note::
 
@@ -73,16 +76,29 @@ The noise effect is more pronounced in the dark areas. Above 40°C under full lo
 Test 1
 ~~~~~~
 
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/ecf69413-df56-4018-926d-e5e7216f2e3c
+
 Test 2
 ~~~~~~
+
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/1f6d702b-3796-4840-b913-0565d7e70e26
 
 Test 3
 ~~~~~~
 
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/dfaaa970-9bf7-483c-bc91-169c1b65893d
+
 Test 4
 ~~~~~~
+
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/cc6de3e8-4bd9-407d-99eb-979cc6b6335a
 
 Test 5
 ~~~~~~
 
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/2c75161c-d5c6-423b-ad22-403d0230a330
+
+.. figure:: https://github.com/luxonis/depthai-hardware/assets/18037362/ee8b1d5c-5d2b-4b16-9799-81877398ff57
+
+    At such a high temp image quality degradation is significant. The image is noisy and the colors are off.
 
