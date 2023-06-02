@@ -39,7 +39,7 @@ Dimensions and Weight
 
     * `Datasheet <https://github.com/luxonis/depthai-hardware/blob/master/NG9096_OAK-1-Lite/Datasheet/OAK-1-Lite_Datasheet.pdf>`__
 
-.. include:: /pages/include/hdr_imx582.rst
+.. include:: /pages/includes/hdr_imx582.rst
 
 3D models
 *********
