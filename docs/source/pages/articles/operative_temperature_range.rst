@@ -21,6 +21,56 @@ which sets the thermal margin to a minimum of 35°C.
 Since devices generate about 45°C in worst-case, this means the **maximum ambient temperature** should *theoretically* be **60°C**
 (:code:`105°C-45°C=60°C`).
 
+
+OAK-D-Lite max temperature
+--------------------------
+
+As we wanted to make :ref:`OAK-D-Lite` as small as possible, we had to use a smaller heatsink. This means the maximum ambient temperature is about 40°C.
+
+.. list-table::
+   :header-rows: 1
+
+   * - Test
+     - Ambient [°C]
+     - VPU [°C]
+     - HS-CPU [°C]
+     - HS [°C]
+   * - :ref:`No1 <Test 1>`
+     - 30
+     - 87
+     - 71.5
+     - 67
+   * - :ref:`No2 <Test 2>`
+     - 35
+     - 94
+     - 77
+     - 73
+   * - :ref:`No3 <Test 3>`
+     - 40
+     - 100
+     - 88
+     - 78
+   * - :ref:`No4 <Test 4>`
+     - 50
+     - /
+     - /
+     - /
+   * - :ref:`No5 <Test 5>`
+     - 50
+     - 112
+     - 95
+     - 90
+
+Legend:
+
+- ``Ambient`` temperature means the temperature of the air around the device
+- ``VPU`` is the temperature of the :ref:`RVC2` (as reported by depthai)
+- ``HS-CPU`` is the temperature of the enclosure where VPU is located
+- ``HS`` is the temperature of the enclosure on the opposite side of the VPU
+
+Tests 1-4 were running all 3 cameras at 30FPS, stereo depth, NN (mobilenet), and video encoding, so the maximum workload possible.
+As test 4 resulted in a crash of the device (at 125°C VPU temperature), test 5 was done without video encoding (only NN, stereo depth, and 3 cameras at 30FPS).
+
 Min temperature
 ---------------
 
@@ -89,5 +139,11 @@ Test with T1 OAK-1 sample:
 .. image:: /_static/images/temperature_range/OAK-1_heatsink.jpeg
 
 We have also tested the devices at the lowest ambient temperature of -25.1°C and they worked as expected.
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   pages/articles/lite_temp_test.rst
 
 .. include::  /pages/includes/footer-short.rst
