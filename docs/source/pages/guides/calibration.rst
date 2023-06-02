@@ -189,7 +189,7 @@ Run :code:`python3 calibrate.py --help` (or :code:`-h`) for a full list of argum
 
 Another example using OAK-FFC-4P, but this time without the color camera:
 
-.. code-block:: 
+.. code-block::
 
   {
       "board_config":
@@ -244,7 +244,7 @@ Hold up the printed charuco board (or laptop with the image displayed on the scr
 
 Match the orientation of the overlaid polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
 not need to match the polygon exactly, but it is important to use the polygon as a guideline for angling and location relative to the camera.
-There are 39 required polygon positions. Note that the number of required polygon positions can be manually changed, 
+There are 39 required polygon positions. Note that the number of required polygon positions can be manually changed,
 but might impact the accuracy of the calibration.
 
 After capturing images for all of the polygon positions, the calibration image processing step will begin.
@@ -280,12 +280,12 @@ We'll view the depth stream to ensure the cameras are calibrated correctly:
   In the screenshot above, the hand is closer to the camera.
 
 Troubleshooting
-**********
+***************
 
-- If calibration fails with error: :code:`High reprojection error!`, the usual cause is misconfigured board config. Many times this is due to incorrect specified HFOV of used camera module. 
+- If calibration fails with error: ``High reprojection error!``, the usual cause is misconfigured board config. Many times this is due to incorrect specified HFOV of used camera module.
 
-- If you find that despite successfully calibrating the cameras and 
-  confirming the epiplolar lines correctly align left and right, the depth is still incorrect, perhaps your left and right cameras are swapped. 
+- If you find that despite successfully calibrating the cameras and
+  confirming the epiplolar lines correctly align left and right, the depth is still incorrect, perhaps your left and right cameras are swapped.
   In that case you could retry the calibration with changed board config, or simply swap the board sockets the cameras are plugged into.
 
 

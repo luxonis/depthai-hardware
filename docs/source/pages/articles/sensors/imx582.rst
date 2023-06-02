@@ -71,6 +71,8 @@ just because of this limitation on line width.
 
 .. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
 
+.. include:: /pages/includes/hdr_imx582.rst
+
 Additional images
 #################
 
