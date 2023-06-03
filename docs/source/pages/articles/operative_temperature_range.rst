@@ -84,6 +84,37 @@ of 10°C - 60°C (abolute limit 0°C - 80°C). If you would like to use Pro devi
 device (without projector) for a few minutes so the device heats up, which would also heat up the laser projector, hopefully
 above 10°C.
 
+CCM heating
+***********
+
+CCM (Compact Camera Module) are the modules that are integrated into the OAK cameras. OAK-D has 3 CCMs, 2x for stereo pair, and in the middle is the RGB camera.
+CCMs themselves have different operating ranges and also some have lower thermal noise than others (eg. on OAK Lite cameras, those CCMs have worse thermal noise).
+
+We have done some quick testing on CCM heating with different sensors; :ref:`IMX582`, :ref:`IMX214`, :ref:`OV9282`, :ref:`IMX378`.
+
+.. list-table::
+   :header-rows: 1
+
+   * - Sensor
+     - Max temp [°C]
+     - Temp diff [°C]
+   * - :ref:`IMX582`
+     - 64°C
+     - 30°C
+   * - :ref:`IMX214`
+     - 62°C
+     - 29°C
+   * - :ref:`OV9282`
+     - 50°C
+     - 13°C
+   * - :ref:`IMX378`
+     - 46°C
+     - 12°C
+
+*Temp diff* is the difference between the ambient temperature and the temperature of the CCM.
+
+.. image:: 
+
 Command used for testing
 ************************
 
