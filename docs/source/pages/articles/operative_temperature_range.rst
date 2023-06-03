@@ -90,7 +90,10 @@ CCM heating
 CCM (Compact Camera Module) are the modules that are integrated into the OAK cameras. OAK-D has 3 CCMs, 2x for stereo pair, and in the middle is the RGB camera.
 CCMs themselves have different operating ranges and also some have lower thermal noise than others (eg. on OAK Lite cameras, those CCMs have worse thermal noise).
 
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/cb3de541-1251-454e-82ed-2cd1a4fcc29d
+
 We have done some quick testing on CCM heating with different sensors; :ref:`IMX582`, :ref:`IMX214`, :ref:`OV9282`, :ref:`IMX378`.
+
 
 .. list-table::
    :header-rows: 1
@@ -113,7 +116,10 @@ We have done some quick testing on CCM heating with different sensors; :ref:`IMX
 
 *Temp diff* is the difference between the ambient temperature and the temperature of the CCM.
 
-.. image:: 
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/9a40c831-54ff-4fe5-9368-520062919283
+
+.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/68420ffa-cfcd-449c-bf67-454ba1c0bc43
+
 
 Command used for testing
 ************************
