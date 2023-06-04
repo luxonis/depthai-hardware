@@ -1,8 +1,8 @@
 How it works
 ************
 
-This OAK model doesn't have an IR filter on mono cameras (the production version will have notch `IR filters at 940nm <>`__),
-which allows only visible light and IR light from illumination LED/laser dot projector to the camera.
+This OAK model has `notch IR filters at 940nm <https://github.com/luxonis/depthai-hardware/assets/18037362/b3e5caf3-1dd9-4156-b9a9-d81041945230>`__ on
+the stereo camera pair, which allows both visible light and IR light from illumination LED/laser dot projector to be perceived by the camera.
 
 **Laser dot projector** projects many small dots in front of the device, which helps with disparity matching, especially for low-visual-interest surfaces
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
