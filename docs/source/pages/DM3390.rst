@@ -25,13 +25,13 @@ In addition, IMU (over SPI) sensor is also added to this OAK FFC board.
 
 .. include::  /pages/includes/ffc_socket_api.rst
 
-.. TODO: add dimensions/weight
-    Dimensions and Weight
-    *********************
-    * Width: 
-    * Height: 
-    * Length: 
-    * Weight: 
+
+Dimensions and Weight
+*********************
+* Width: 50mm
+* Height: 33mm, without heatsink: 13mm
+* Length: 70mm
+* Weight: 69g, without heatsink: 33g
 
 .. image:: /_static/images/FFC-6P/bottom.jpg
 

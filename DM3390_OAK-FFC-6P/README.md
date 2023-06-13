@@ -1,19 +1,14 @@
-# OAK-FFC-6P (WIP not vetted)
+# OAK-FFC-6P
 
-[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/***.html) (TBD)
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM3390.html)
 
 ![](Images/OAK-FFC-6P_side.png)
 
 # Project Stage
 
-**Product is a work in progress, where first revision files were sent to FAB house and we are expecting first prototypes in mid June.**
+This repository contains open hardware designed by Luxonis, for a product that is meant to be used as reference design for OAK-SoM-MAX. This is first base board designed for OAK-SoM-MAX and it connects up to 6 cameras.
 
-**If the design will be vetted we will make it available on Luxonis web shop, for now it is available only as a backorder option in Beta Shop.**        
-
-
-This repository contains open hardware designed by Luxonis, for a product that is meant to be used as reference design for OAK-SoM-MAX. This is first base board designed for OAK-SoM-MAX and it connects up to 6 cameras.  
-
-This comes handy especially when there is a need of multiple cameras that are synced and run together on a single VPU which in this case will be RVP3. To fully support the OAK-SoM-MAX functionality we also added a coin battery (1025) for the RTC and which will not be shipped along with the product. That means you need to get one on your side when this RTC operation is needed also when main power is cut/disrupted.   
+This comes handy especially when there is a need of multiple cameras that are synced and run together on a single VPU which in this case will be RVP3. To fully support the OAK-SoM-MAX functionality we also added a coin battery (1025) for the RTC and which will not be shipped along with the product. That means you need to get one on your side when this RTC operation is needed also when main power is cut/disrupted.
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
