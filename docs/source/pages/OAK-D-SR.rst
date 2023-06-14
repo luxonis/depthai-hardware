@@ -44,7 +44,7 @@ Camera module specifications
    * - Focus
      - FF: 20cm - ∞
    * - Max Framerate
-     - 60 FPS (800P)
+     - 120 FPS (800P)
    * - F-number
      - 2.0 ±5%
    * - Lens size

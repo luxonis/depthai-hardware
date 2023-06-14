@@ -56,7 +56,7 @@ Camera module specifications
      - FF: 20cm - ∞
      - 20cm - 5m
    * - Max Framerate
-     - 60 FPS (800P)
+     - 120 FPS (800P)
      - 30 FPS (VGA)
    * - Pixel size
      - 3µm x 3µm
