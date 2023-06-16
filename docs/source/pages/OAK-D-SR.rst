@@ -1,10 +1,7 @@
 OAK-D SR
 ========
 
-.. role:: raw-html(raw)
-   :format: html
-
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-sr>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-sr>`__
 
 .. image:: /_static/images/OAK-D-SR/oak-d-sr.jpg
 
