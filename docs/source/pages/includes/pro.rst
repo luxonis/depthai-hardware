@@ -27,8 +27,7 @@ for your AI/CV processes.
 Getting started
 ***************
 
-To get started with this OAK model, you first need to install **depthai library version 2.15 or above**. You can set IR laser
-dot projector and illumination LED via the API as below.
+You can set IR laser dot projector and illumination LED via the API as below. **Note** that the dot projector will be **strongest at 765mA**, as above that, the duty cycle will decrease.
 
 .. code-block:: python
 
