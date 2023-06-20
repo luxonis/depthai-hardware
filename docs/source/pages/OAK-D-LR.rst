@@ -67,7 +67,7 @@ Dimensions and Weight
 * Width: 202 mm
 * Height: 44 mm
 * Length: 40 mm
-* Weight: 376g
+* Weight: 415g
 
 ..
    .. include:: /pages/includes/depth_75_800P.rst
