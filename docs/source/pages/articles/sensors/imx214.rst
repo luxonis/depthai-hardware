@@ -51,7 +51,7 @@ Supported resolutions
 
 .. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
 
-.. figure:: 
+.. figure:: https://github.com/luxonis/depthai-hardware/assets/18037362/e5b3fe82-169b-4888-aea2-33454a6781d5
 
   IMX214 and OV9782 sensors used on RAE
 
