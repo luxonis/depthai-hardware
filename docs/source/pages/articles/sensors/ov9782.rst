@@ -46,5 +46,10 @@ Supported resolutions
 
   * NFOV FF (PY074) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Distortion: < 1%, Lens Size: 1/4"
   * WFOV FF (PY058) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+  * WFOV FF (PY139W), 3.5cm long connector - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+
+.. figure:: https://github.com/luxonis/depthai-hardware/assets/18037362/e5b3fe82-169b-4888-aea2-33454a6781d5
+
+  IMX214 and OV9782 sensors used on RAE
 
 .. include::  /pages/includes/footer-short.rst
