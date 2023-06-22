@@ -1,9 +1,28 @@
 OV9782
 ======
 
-`OMNIVISION's OV9782 <https://www.ovt.com/sensor/ov9782/>`__ is a 1MP (1280x800) global shutter color image sensor.
+`OMNIVISION's OV9782 <https://www.ovt.com/sensor/ov9782/>`__ is a 1MP global shutter color image sensor.
 It's **optionally** integrated into :ref:`OAK Series 2` Wide FOV cameras; :ref:`OAK-D W`, :ref:`OAK-D W PoE` as the
-150° DFOV color camera.
+150° DFOV color camera. OV9782 is essentially the same sensor as :ref:`OV9282`, it just has a color bayer filter on top of it.
+
+Sensor specs
+############
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   * - Optical format
+     - 1/4"
+   * - Resolution
+     - 1280x800
+   * - Pixel size
+     - 3.0 µm
+   * - Shutter type
+     - Global
+   * - Chroma
+     - Color
 
 Supported resolutions
 #####################
