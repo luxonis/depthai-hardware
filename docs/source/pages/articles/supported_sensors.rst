@@ -192,12 +192,13 @@ Arducam short FPC
   * WFOV FF - 117° DFOV, 105° HFOV, 88° VFOV
 * :ref:`OV9282` (notch filter is WIP instead of NoIR)
 
-  * WFOV FF (NoIR/IR) - 150° DFOV, 127° HFOV, 79.5° VFOV
   * NFOV FF (NoIR/IR) - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * WFOV FF (NoIR/IR) - 150° DFOV, 127° HFOV, 79.5° VFOV
 * :ref:`OV9782`
 
-  * WFOV FF IR - 150° DFOV, 127° HFOV, 79.5° VFOV
   * NFOV FF IR - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * WFOV FF IR - 150° DFOV, 127° HFOV, 79.5° VFOV
+
 * :ref:`IMX477`
 
   * AF (short FPC M12-Mount, haven't yet received samples)
@@ -216,5 +217,7 @@ Arducam longer FPC
 
   * AF (Motorized Focus)
   * M12-Mount FF
+
+.. include::  /pages/articles/sensors/includes/low_light_performance.rst
 
 .. include::  /pages/includes/footer-short.rst

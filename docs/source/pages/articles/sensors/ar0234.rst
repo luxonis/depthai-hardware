@@ -1,8 +1,27 @@
 AR0234
 ======
 
-`ON Semiconductor's AR0234 <https://www.onsemi.com/products/sensors/image-sensors/ar0234cs>`__ is a 2.3MP (1920x1200)
+`ON Semiconductor's AR0234 <https://www.onsemi.com/products/sensors/image-sensors/ar0234cs>`__ is a 2.3MP
 global shutter color image sensor.
+
+Sensor specs
+############
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   * - Optical format
+     - 1/2.6"
+   * - Resolution
+     - 1920x1200
+   * - Pixel size
+     - 3.0 µm
+   * - Shutter type
+     - Global
+   * - Chroma
+     - Color/Mono
 
 Supported resolutions
 #####################

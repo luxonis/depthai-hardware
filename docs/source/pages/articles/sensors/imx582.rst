@@ -3,8 +3,27 @@
 IMX582
 ======
 
-IMX582 (previously LCM48) is a 48MP (8000x6000) rolling shutter color image sensor. It's the highest resolution sensor that depthai
+IMX582 is a 48MP rolling shutter color image sensor. It's the highest resolution sensor that depthai
 currently supports. It's integrated into the :ref:`ng9096max`.
+
+Sensor specs
+############
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   * - Optical format
+     - 1/1.2"
+   * - Resolution
+     - 8000x6000
+   * - Pixel size
+     - 0.8 µm
+   * - Shutter type
+     - Rolling
+   * - Chroma
+     - Color
 
 Supported resolutions
 #####################

@@ -1,0 +1,47 @@
+IMX462
+======
+
+Sony's IMX462 is a 1080P rolling shutter color image sensor. It has great low-light performance, as it's
+part of Sony's `STARVIS <https://www.sony-semicon.com/en/technology/security/index.html>`__ series of sensors.
+
+Sensor specs
+############
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   * - Optical format
+     - 1/2.8"
+   * - Resolution
+     - 1920x1080
+   * - Pixel size
+     - 2.9 µm
+   * - Shutter type
+     - Rolling shutter
+   * - Chroma
+     - Color
+
+Supported resolutions
+#####################
+
+.. list-table:: Supported sensor resolution by depthai
+   :header-rows: 1
+
+   * - Name
+     - Resolution
+     - Max FPS
+     - MIPI lanes
+   * - THE_1080_P
+     - 1920x1080
+     - 30 FPS
+     - 2
+
+.. note::
+
+    Currently, support for IMX462 is available on ``imx283`` branch (on depthai-python)
+
+.. include::  /pages/articles/sensors/includes/low_light_performance.rst
+
+.. include::  /pages/includes/footer-short.rst

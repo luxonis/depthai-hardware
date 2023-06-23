@@ -8,7 +8,7 @@ Device name guide
 *****************
 
 .. image:: /_static/images/device-comparison/device-naming.png
-     :target: pages/guides/device-comparison.html
+     :target: pages/guides/device-comparison
 
 More information can be found at :ref:`Device comparison` guide.
 
@@ -27,11 +27,11 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
      - OAK-D S2
      - OAK-D Pro
    * - .. image:: /_static/images/thumbnails/DM9095.png
-          :target: pages/DM9095.html
+          :target: pages/DM9095
      - .. image:: /_static/images/thumbnails/DM9098s2.png
-          :target: pages/DM9098s2.html
+          :target: pages/DM9098s2
      - .. image:: /_static/images/thumbnails/DM9098pro.png
-          :target: pages/DM9098pro.html
+          :target: pages/DM9098pro
    * - :ref:`Learn more <dm9095>`
      - :ref:`Learn more <dm9098s2>`
      - :ref:`Learn more <dm9098pro>`
@@ -43,11 +43,11 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
      - OAK-D
      - OAK-D LR (Long Range)
    * - .. image:: /_static/images/thumbnails/oak-d-sr_th.png
-          :target: pages/OAK-D-SR.html
+          :target: pages/OAK-D-SR
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
-          :target: pages/BW1098OAK.html
+          :target: pages/BW1098OAK
      - .. image:: /_static/images/thumbnails/oak-d-lr.png
-          :target: pages/OAK-D-LR.html
+          :target: pages/OAK-D-LR
    * - :ref:`Learn more <OAK-D SR>`
      - :ref:`Learn more <bw1098oak>`
      - :ref:`Learn more <OAK-D LR>`
@@ -61,13 +61,13 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
      - OAK-D W
      - OAK-D Pro W
    * - .. image:: /_static/images/thumbnails/oak-1-lite-w.png
-          :target: pages/NG9096litew.html
+          :target: pages/NG9096litew
      - .. image:: /_static/images/thumbnails/oak-1-w.png
-          :target: pages/NG9096w.html
+          :target: pages/NG9096w
      - .. image:: /_static/images/thumbnails/oak-d-w_th.png
-          :target: pages/DM9098w.html
+          :target: pages/DM9098w
      - .. image:: /_static/images/thumbnails/OAK-D-Pro-W_th.png
-          :target: pages/DM9098prow.html
+          :target: pages/DM9098prow
    * - :ref:`Learn more <ng9096litew>`
      - :ref:`Learn more <ng9096w>`
      - :ref:`Learn more <dm9098w>`
@@ -81,11 +81,11 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
      - OAK-1
      - OAK-1 MAX
    * - .. image:: /_static/images/thumbnails/oak-1-lite.png
-          :target: pages/NG9096.html
+          :target: pages/NG9096
      - .. image:: /_static/images/thumbnails/oak-1.png
-          :target: pages/BW1093.html
+          :target: pages/BW1093
      - .. image:: /_static/images/thumbnails/oak-1-max.png
-          :target: pages/NG9096max.html
+          :target: pages/NG9096max
    * - :ref:`Learn more <ng9096>`
      - :ref:`Learn more <bw1093>`
      - :ref:`Learn more <ng9096max>`
@@ -103,11 +103,11 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
      - OAK-D Pro PoE
      - OAK-D SR PoE
    * - .. image:: /_static/images/thumbnails/oak-d-s2-poe.png
-          :target: pages/NG9097s2.html
+          :target: pages/NG9097s2
      - .. image:: /_static/images/thumbnails/oak-d-pro-poe.png
-          :target: pages/NG9097pro.html
+          :target: pages/NG9097pro
      - .. image:: /_static/images/thumbnails/oak-d-sr-poe_th.png
-          :target: pages/OAK-D-SR-POE.html
+          :target: pages/OAK-D-SR-POE
    * - :ref:`Learn more <ng9097s2>`
      - :ref:`Learn more <ng9097pro>`
      - :ref:`Learn more <OAK-D SR PoE>`
@@ -120,13 +120,13 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
      - OAK-D W PoE
      - OAK-D Pro W PoE
    * - .. image:: /_static/images/thumbnails/OAK-1-PoE_th.png
-          :target: pages/SJ2096POE.html
+          :target: pages/SJ2096POE
      - .. image:: /_static/images/thumbnails/oak-d-poe_th.png
-          :target: pages/SJ2088POE.html
+          :target: pages/SJ2088POE
      - .. image:: /_static/images/thumbnails/oak-d-w-poe.png
-          :target: pages/NG9097w.html
+          :target: pages/NG9097w
      - .. image:: /_static/images/thumbnails/oak-d-pro-w-poe.png
-          :target: pages/NG9097prow.html
+          :target: pages/NG9097prow
    * - :ref:`Learn more <sj2096>`
      - :ref:`Learn more <sj2088poe>`
      - :ref:`Learn more <ng9097w>`
@@ -148,13 +148,13 @@ custom baseline, or custom orientation of the cameras.
      - OAK-FFC 4P PoE
      - FFC Camera modules
    * - .. image:: /_static/images/thumbnails/OAK-FFC-3P_th.png
-          :target: pages/DM1090.html
+          :target: pages/DM1090
      - .. image:: /_static/images/thumbnails/OAK-FFC-4P_th.png
-          :target: pages/DD2090.html
+          :target: pages/DD2090
      - .. image:: /_static/images/thumbnails/FFC-4P-POE-thumbnail.png
-          :target: pages/NG2093.html
+          :target: pages/NG2093
      - .. image:: /_static/images/thumbnails/OAK-FFC_modules_th.png
-          :target: pages/ffc-cameras.html
+          :target: pages/ffc-cameras
    * - :ref:`Learn more <dm1090ffc>`
      - :ref:`Learn more <dd2090ffc>`
      - :ref:`Learn more <ng2093>`
@@ -168,13 +168,13 @@ custom baseline, or custom orientation of the cameras.
      - OAK-FFC IMX582
      - OAK-FFC ToF VGA
    * - .. image:: /_static/images/thumbnails/BG0249.png
-          :target: pages/BG0249.html
+          :target: pages/BG0249
      - .. image:: /_static/images/thumbnails/BG0250TG.png
-          :target: pages/BG0250TG.html
+          :target: pages/BG0250TG
      - .. image:: /_static/images/thumbnails/oak-ffc-48mp.png
-          :target: pages/DM0260imx582.html
+          :target: pages/DM0260imx582
      - .. image:: /_static/images/thumbnails/DM0256.png
-          :target: pages/DM0256.html
+          :target: pages/DM0256
    * - :ref:`Learn more <bg0249>`
      - :ref:`Learn more <bg0250tg>`
      - :ref:`Learn more <DM0260imx582>`
@@ -195,11 +195,11 @@ open-source hardware designs as you see fit.
      - OAK-SoM Pro
      - OAK-SoM MAX
    * - .. image:: /_static/images/thumbnails/BW1099.png
-          :target: pages/BW1099.html
+          :target: pages/BW1099
      - .. image:: /_static/images/thumbnails/oak-som-pro.png
-          :target: pages/BW2099.html
+          :target: pages/BW2099
      - .. image:: /_static/images/thumbnails/dm3399.png
-          :target: pages/DM3399.html
+          :target: pages/DM3399
    * - :ref:`Learn more <bw1099>`
      - :ref:`Learn more <bw2099>`
      - :ref:`Learn more <dm3399>`
@@ -214,11 +214,11 @@ Other Designs
      - OAK-D CM4 PoE
      - OAK Y-Adapter
    * - .. image:: /_static/images/thumbnails/DM1097.png
-          :target: pages/DM1097.html
+          :target: pages/DM1097
      - .. image:: /_static/images/thumbnails/OAK-D-CM4-PoE_th.png
-          :target: pages/DM2097.html
+          :target: pages/DM2097
      - .. image:: /_static/images/thumbnails/Y_Adapter_th.png
-          :target: pages/DM6010.html
+          :target: pages/DM6010
    * - :ref:`Learn more <dm1097>`
      - :ref:`Learn more <dm2097>`
      - :ref:`Learn more <Y-adapter>`

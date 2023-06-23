@@ -68,9 +68,6 @@ Enhanced Stereo Depth on RVC3
 **Series 3 OAK devices feature CNN-based calculation of pixel descriptors**, compared to census transform that's being used in
 previous OAK series.
 
-We plan on doing **depth accuracy benchmark tests** on **static images** and comparing S3 and older series of OAK **in
-August of 2022**.
-
 NN quantization
 ###############
 

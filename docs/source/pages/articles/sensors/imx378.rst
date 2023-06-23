@@ -1,9 +1,28 @@
 IMX378
 ======
 
-Sony's IMX378 is a 12MP (4056x3040) rolling shutter color image sensor. It's used in almost all of our products
+Sony's IMX378 is a 12MP rolling shutter color image sensor. It's used in almost all of our products
 (:ref:`OAK-D`, :ref:`OAK-D S2` :ref:`OAK-D Pro`, :ref:`OAK-D-PoE`, :ref:`OAK-D S2 PoE`, etc.)
 as the color camera.
+
+Sensor specs
+############
+
+.. list-table::
+   :header-rows: 1
+
+   * - Parameter
+     - Value
+   * - Optical format
+     - 1/2.3"
+   * - Resolution
+     - 4056x3040
+   * - Pixel size
+     - 1.55µm
+   * - Shutter type
+     - Rolling
+   * - Chroma
+     - Color
 
 Supported resolutions
 #####################
