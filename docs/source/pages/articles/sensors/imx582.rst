@@ -36,31 +36,57 @@ Supported resolutions
      - Max FPS
      - MIPI lanes
      - Notes
-   * - THE_4000X3000
-     - 4000x3000
-     - 30 FPS
-     - 4
-     - Full FOV, super-pixel / quad-bayer binning
-   * - THE_4_K
-     - 3840x2160
-     - 42 FPS
-     - 4
-     - Cropped from THE_12_MP
-   * - THE_5312X6000
-     - 5312x6000
-     - 10 FPS
-     - 4
-     - Full resolution, currently width is cropped
+     - Mode
    * - THE_48_MP
      - 5312x6000
      - 10 FPS
      - 4
-     - Same as THE_5312X6000
+     - Maps to ``THE_5312X6000``
+     - Full resolution (not supported)
+   * - THE_5312X6000
+     - 5312x6000
+     - 10 FPS
+     - 4
+     - Width is cropped
+     - Cropping (QBC remosaic'ed)
+   * - THE_4000X3000
+     - 4000x3000
+     - 30 FPS
+     - 4
+     - Full FOV
+     - QBC Binning
+   * - THE_4_K
+     - 3840x2160
+     - 42 FPS
+     - 4
+     -
+     - QBC Binning (to 4000x3000) then Cropping
+..
+     * - THE_2000x1500
+     - 2000x1500
+     - 10 FPS
+     - 
 
 
 Currently the full resolution (THE_48_MP) is center cropped to **5312x6000 due to ISP width limit**.
 So at the moment the image at full resolution (THE_48_MP) has narrower HFOV than the camera actually is (see image below),
 just because of this limitation on line width.
+
+
+IMX582 QBC
+##########
+
+QBC (Quad Bayer Coding) remosaic is computed on the sensor itself. Physical pixel layout (QBC) is on the left,
+and remosaic'ed pixel layout is on the right, which is the standard Bayer layout.
+
+.. image:: https://1.img-dpreview.com/files/p/E~TS1180x0~articles/4088675984/Remosaic_diagram.png
+  :target: https://www.dpreview.com/articles/4088675984/quad-bayer-vs-quad-pixel-af-what-they-are-how-they-work-and-how-they-differ
+
+When binning on QBC sensor (eg. 4000x3000 resolution), sensor just combines the two adjacent pixels into one (eg. 4 green pixels into 1 big green pixel).
+The result is a binned image that has better `Image Quality (IQ) <https://docs.luxonis.com/projects/api/en/latest/tutorials/image_quality/>`__
+compared to standard bayer sensor (eg. :ref:`IMX378`), where binning will reduce image quality, as it has to jump over pixels to combine those
+of the same color filter, which results in less sharp images.
+
 
 .. include:: /pages/includes/imx582_ram.rst
 

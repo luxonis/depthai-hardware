@@ -33,22 +33,27 @@ Supported resolutions
      - Resolution
      - Max FPS
      - MIPI lanes
+     - Mode
    * - THE_13_MP
      - 4208x3120
      - 30 FPS
      - 4
+     - Full resolution
    * - THE_12_MP
      - 4056x3040
      - 30 FPS
      - 4
+     - Cropping
    * - THE_4_K
      - 3840 x 2160
      - 30 FPS
      - 4
+     - Cropping
    * - THE_1080_P
      - 1920x1080
      - 35 FPS
      - 2
+     - Cropping (to 4K) then Binning
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 

@@ -22,8 +22,8 @@ RVC3 HDR support
 
 RVC3 supports HDR (High Dynamic Range) mode, which allows to capture images with a higher dynamic range than the standard mode. Supported camera sensors:
 
-- IMX412 driver (that we reuse for IMX577/IMX477 as well), requires 12MP resolution and 4 MIPI lanes
-- IMX327 driver (that we reuse for IMX462), requires 1080P and 4 MIPI lanes
+- IMX412 driver (that we reuse for IMX577/:ref:`IMX477` as well), requires 12MP resolution and 4 MIPI lanes
+- IMX327 driver (that we reuse for :ref:`IMX462`), requires 1080P and 4 MIPI lanes
 
 To enable HDR, you can specify:
 

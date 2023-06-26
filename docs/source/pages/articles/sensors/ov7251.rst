@@ -33,14 +33,17 @@ Supported resolutions
      - Resolution
      - Max FPS
      - MIPI lanes
+     - Mode
    * - THE_480_P
      - 640x480
      - 99 FPS
      - 2
+     - Full resolution
    * - THE_400_P
      - 640x400
      - 117 FPS
      - 2
+     - Cropping
 
 .. include::  /pages/articles/sensors/includes/ffc-section.rst
 
