@@ -5,7 +5,7 @@
 # Overview
 This repository contains open hardware designed by Luxonis. The PA0960 is an IR dot projector and IR flood light module and is designed to be compatible with [Modular Cameras](https://docs.luxonis.com/projects/hardware/en/latest/#modular-camera-designs) which are, OAK-FFC-4P, and OAK-FFC-6P (more to come). 
 
-The advantage of this new OAK-FFC-IR design is that the IR dot projector and flood light performance can be determined with other OAK-DDC-CBA modules. 
+The advantage of this new OAK-FFC-IR design is that the IR dot projector and flood light performance can be determined with other OAK-DDC-CBA modules.  
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
