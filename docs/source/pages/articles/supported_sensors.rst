@@ -106,6 +106,16 @@ configurations out-of-the-box (in firmware) for the camera sensors listed below.
      - rolling
      - 2592x1944
      -
+   * - IMX283
+     - Initially integrated
+     - rolling
+     - 5496x3672
+     - Huge sensor, works on ``imx283`` branch, `FFC cam module <https://www.arducam.com/product/arducam-20mp-imx283-camera-module-with-m12-mount-lens-and-adapter-board-for-depthai/>`__
+   * - :ref:`IMX462`
+     - Initially integrated
+     - rolling
+     - 1920x1080
+     - STARVIS, works on ``imx283`` branch
 
 .. list-table:: Driver/tuning available but not yet tested/integrated
    :header-rows: 1
