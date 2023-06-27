@@ -23,7 +23,7 @@ The advantage of this new OAK-FFC-CBA design is that it can support various Comp
 * 3V3 power input via FFC
 * On-board power generation for camera modules (two assembly variants covering all supported sensors in Luxonis products)
 * Support for M12 lens mount
-* Design files produced with Altium Designer 22
+* Design files produced with Altium Designer 23
 
 # Board layout & dimensions
 
