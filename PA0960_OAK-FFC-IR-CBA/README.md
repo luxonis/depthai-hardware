@@ -16,7 +16,7 @@ The advantage of this new OAK-FFC-IR design is that the IR dot projector and flo
 # Key features
 * 10-pin 0.5mm FFC interconnect to baseboard
 * 5V power input via FFC
-* IR LED and IR dot projector that are used on all of our Pro devices
+* IR LED and IR dot projector that are used on all of our **Pro** devices
 * Design files produced with Altium Designer 23 
 
 # Board layout & dimensions
