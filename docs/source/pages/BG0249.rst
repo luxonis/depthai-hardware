@@ -5,7 +5,7 @@ OAK-FFC-IMX378
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-imx378>`__
 
-.. image:: /_static/images/BG0249/imx378.jpg
+.. image:: /_static/images/BG0249/OAK-FFC-IMX378.png
 
 Overview
 ********
@@ -20,12 +20,11 @@ Hardware specifications
 
 .. include:: /pages/includes/imx378.rst
 
-Board Layout and Dimensions
-***************************
+Dimensions
+**********
 
-.. image:: /_static/images/BG0249/BG0249_R0M0E0_diag.jpg
-
-.. image:: /_static/images/BG0249/BG0249_R0M0E0_dims.jpg
+- Width: 25 mm
+- Height: 24 mm
 
 General information
 *******************
@@ -38,13 +37,11 @@ General information
 * On-board power generation for camera module
 * Design files produced with Altium Designer 20
 
-.. image:: /_static/images/BG0249/imx378_coin.jpg
-
 Getting started
 ***************
 
-Camera module compatibility is known for the Arducam PY011 IMX378 module (and previously used Sunny A12N02A), but not tested for other modules. The FFC connector is an 0.5mm pitch, 
-26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines. 
+Camera module compatibility is known for the Arducam PY011 IMX378 module (and previously used Sunny A12N02A), but not tested for other modules. The FFC connector is an 0.5mm pitch,
+26-pin, and bottom-contact, across which travels the 4-lane MIPI, 5V, I2C, camera clock, camera reset, and other optional control lines.
 5V power is regulated down and filtered as appropriate to meet the requirements of the compact camera module and IMX378.
 
 3D Models
