@@ -17,12 +17,7 @@ OAK FFC baseboards
 OAK FFC baseboards are OAK devices that have onboard VPU and FFC connectors, to which you can connect :ref:`OAK FFC camera modules <FFC Camera modules>`.
 Here's the list of our current OAK FFC baseboards:
 
-- :ref:`OAK-FFC-4P`
-- :ref:`OAK-FFC 4P PoE`
-- :ref:`OAK-FFC 1P PoE`
-- :ref:`OAK-FFC-6P`
-- :ref:`OAK-FFC-3P <dm1090ffc>`
-- :ref:`OAK-FFC RPi HAT <bw1094>`
+.. include:: /pages/includes/ffc-baseboards-list.rst
 
 
 FFC Camera modules

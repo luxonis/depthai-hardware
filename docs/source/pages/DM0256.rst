@@ -1,19 +1,19 @@
 .. _dm0256:
 
-OAK-FFC-ToF-VGA
+OAK-FFC ToF 33D
 ===============
 
-.. image:: /_static/images/DM0256/dm0256-front.png
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-ffc-tof-33d>`__
+
+.. image:: /_static/images/DM0256/ffc-33d.png
 
 Overview
 ********
 
-The **OAK-FFC-ToF-VGA** is a carrier board for a VGA resolution ToF (Time-of-Flight) camera sensor.
+The **OAK-FFC ToF 33D** is a carrier board for a VGA resolution ToF (Time-of-Flight) camera sensor. A 26-pin FFC is used
+to carry 5V power, 4-lane MIPI, I2C, and other control signals between the this camera module and the controller baseboard.
 
-This FFC camera board and is designed to be compatible with :ref:`OAK-FFC-3P`, :ref:`OAK-FFC-4P`, and
-:ref:`OAK-FFC RPi HAT <bw1094>` baseboards.
-
-
+.. include:: /pages/includes/ffc-baseboard-compatible.rst
 
 Camera module specifications
 ****************************
@@ -21,42 +21,38 @@ Camera module specifications
 .. list-table::
    :header-rows: 1
 
-   * - Specs
-     - Value
+   * - Camera Specs
+     - Stereo pair / Color
+     - ToF
+   * - Sensor
+     - :ref:`OV9782` (**color**, PY074)
+     - `33D ToF <https://semiconductor.samsung.com/image-sensor/tof-sensor/isocell-vizion-33d/>`__
+   * - DFOV / HFOV / VFOV
+     - 89.5° / 80° / 55°
+     - 82.3° / 70° / 54.7°
    * - Resolution
-     - 640x480 (VGA)
-   * - Depth range
+     - 1MP (1280x800)
+     - VGA (640x480)
+   * - Range / Focus
+     - FF: 20cm - ∞
      - 20cm - 5m
-   * - Depth accuracy
-     - <1% indoors, <2% outdoors
-   * - Depth precision
-     - <0.1%
-   * - DFOV
-     - 82°
-   * - HFOV
-     - 70°
-   * - VFOV
-     - 55°
-   * - Optical format
-     - 1/3.2"
+   * - Max Framerate
+     - 120 FPS (800P)
+     - 30 FPS (VGA)
    * - Pixel size
-     - 7 µm
-   * - VSCEL wavelength
-     - 940nm
-   * - Max framerate:
-     - 60 FPS (4-tap)
-   * - Output interface:
-     - 2-lane MIPI
-   * - Operating temperature
-     - -20°C to 70°C
-   * - TV distortion
-     - < 1.5%
-   * - EFL
-     - 3.16
-   * - F Number
+     - 3µm x 3µm
+     - 7µm x 7µm
+   * - Lens size
+     - 1/4 inch
+     - 1/3.2 inch
+   * - F-number
+     - 2.0 ±5%
      - 1.45 ± 5%
+   * - Distortion
+     - < 1%
+     - < 1.5%
 
-.. image:: /_static/images/DM0256/dm0256-back.png
+.. image:: /_static/images/DM0256/33d-back.png
 
 ..
   Key features
