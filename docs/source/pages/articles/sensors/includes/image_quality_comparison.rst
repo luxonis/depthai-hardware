@@ -1,5 +1,5 @@
 Image quality comparison
-========================
+------------------------
 
 Here's an image comparison between different image sensors captured from :ref:`OAK-FFC-3P`.
 For more information, see `Improving Image Quality <https://docs.luxonis.com/projects/api/en/latest/tutorials/image_quality/>`__ docs.

@@ -166,14 +166,14 @@ custom baseline, or custom orientation of the cameras.
    * - OAK-FFC IMX378
      - OAK-FFC OV9282
      - OAK-FFC IMX582
-     - OAK-FFC ToF VGA
+     - OAK-FFC ToF 33D
    * - .. image:: /_static/images/thumbnails/BG0249.png
           :target: pages/BG0249
      - .. image:: /_static/images/thumbnails/BG0250TG.png
           :target: pages/BG0250TG
      - .. image:: /_static/images/thumbnails/oak-ffc-48mp.png
           :target: pages/DM0260imx582
-     - .. image:: /_static/images/thumbnails/DM0256.png
+     - .. image:: /_static/images/DM0256/OAK-FFC-33D-TH.png
           :target: pages/DM0256
    * - :ref:`Learn more <bg0249>`
      - :ref:`Learn more <bg0250tg>`
@@ -302,15 +302,22 @@ Some **older models** can be :ref:`found here <Other models>`.
 .. toctree::
    :maxdepth: 1
    :hidden:
+   :caption: Modular Baseboards
+
+   pages/DM1090.rst
+   pages/DD2090.rst
+   pages/NG2093.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
    :caption: Modular Cameras
 
-   pages/DM3390.rst
-   pages/DD2090.rst
-   pages/DM1090.rst
-   pages/BG0250TG.rst
-   pages/BG0249.rst
-   pages/DM0260imx582.rst
    pages/ffc-cameras.rst
+   pages/BG0249.rst
+   pages/BG0250TG.rst
+   pages/DM0260imx582.rst
+   pages/DM0256.rst
 
 .. toctree::
    :maxdepth: 1
