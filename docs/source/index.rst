@@ -167,11 +167,11 @@ custom baseline, or custom orientation of the cameras.
      - OAK-FFC OV9282
      - OAK-FFC IMX582
      - OAK-FFC ToF 33D
-   * - .. image:: /_static/images/thumbnails/BG0249.png
+   * - .. image:: /_static/images/BG0249/ffc-imx378-th.png
           :target: pages/BG0249
-     - .. image:: /_static/images/thumbnails/BG0250TG.png
+     - .. image:: /_static/images/BG0250TG/oak-ffc-9282-th.png
           :target: pages/BG0250TG
-     - .. image:: /_static/images/thumbnails/oak-ffc-48mp.png
+     - .. image:: /_static/images/DM0260/oak-ffc-imx582-th.png
           :target: pages/DM0260imx582
      - .. image:: /_static/images/DM0256/OAK-FFC-33D-TH.png
           :target: pages/DM0256
