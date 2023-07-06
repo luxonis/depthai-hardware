@@ -20,15 +20,15 @@ We haven't done any (quantitative) tests ourselves, but a third party (a custome
 comparing :ref:`OAK-D Pro` with RealSense D435i.
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184259447-8984e083-05fe-4130-86ef-bfa5ec8bf112.png
-  
+
   Laser dot projector disabled (passive stereo)
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184259825-e19f0631-4325-424a-8d39-2060923b31fe.png
-  
+
   Laser dot projector enabled (active stereo)
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184262380-9ad26b2f-0b31-439d-b887-5c89a2ad67bb.png
-  
+
   Target (color image). Table and wall are featureless surfaces.
 
 Custom stereo depth perception
@@ -71,199 +71,199 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Object detection
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Object tracking
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - On-device scripting
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Video/Image Encoding
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Image Manipulation
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Skeleton/Hand Tracking
      - ✔️
      - ✔️
      - ✔️
-     - ❌
+     - X
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
    * - 3D Semantic Segmentation
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - 3D Object Pose Estimation
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - 3D Edge Detection
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Feature Tracking
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
      - ✔️
    * - 3D Feature Tracking
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - OCR
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Face Recognition
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
      - ✔️
      - ✔️
-     - ❌
+     - X
    * - Fiducial Marker localization
      - ✔️
      - ✔️
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Neural Assisted Depth
      - WIP
      - WIP
      - WIP
      - \-
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - Encryption
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
      - ✔️
      - ✔️
-     - ❌
+     - X
    * - VIO
      - WIP
      - WIP
      - WIP
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
      - ✔️
 
 
@@ -415,41 +415,41 @@ Camera specification
      - 1024x768
      - 1280x720
      - 1280x720
-     - 
-     - 
+     -
+     -
      - 848x800
    * - IR LED
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
      - ✔️
      - ✔️
      - ✔️
    * - ToF/Laser
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
      - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
+     - X
+     - X
+     - X
+     - X
+     - X
+     - X
    * - IMU
      - ✔️
      - ✔️
-     - ❌
+     - X
      - ✔️
-     - ❌
-     - ✔️/❌
+     - X
+     - ✔️/X
      - ✔️
-     - ❌
-     - ❌
+     - X
+     - X
      - ✔️
 
 
