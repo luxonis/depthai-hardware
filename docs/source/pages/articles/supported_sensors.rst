@@ -194,28 +194,51 @@ Arducam short FPC
 
 * :ref:`IMX378`
 
-  * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 55° VFOV
-  * WFOV FF - 120° DFOV, 108° HFOV, 93° VFOV
+  * PY004 - NFOV, AF, IR filter - 78° DFOV, 66° HFOV, 54° VFOV
+  * PY052 - NFOV, FF, IR filter - 81° DFOV, 69° HFOV, 55° VFOV
+  * PY060 - WFOV, FF, IR filter - 120° DFOV, 108° HFOV, 93° VFOV
 * :ref:`IMX214`
 
-  * NFOV (AF/FF) - 81° DFOV, 69° HFOV, 54° VFOV
-  * WFOV FF - 117° DFOV, 105° HFOV, 88° VFOV
-* :ref:`OV9282` (notch filter is WIP instead of NoIR)
+  * PY047 - NFOV, AF, IR filter - 81° DFOV, 69° HFOV, 54° VFOV
+  * PY062 - NFOV, FF, IR filter - 81° DFOV, 69° HFOV, 54° VFOV
+  * PY072 - NFOV, FF, IR cut filter - 81° DFOV, 69° HFOV, 54° VFOV
+  * PY061 - WFOV, FF, IR filter - 117° DFOV, 105° HFOV, 88° VFOV
+  * PY138 - WFOV, FF, IR filter, 5cm long connector (used on RAE) - 117° DFOV, 105° HFOV, 88° VFOV
+* :ref:`OV9282`
 
-  * NFOV FF (NoIR/IR) - 89.5° DFOV, 80° HFOV, 55° VFOV
-  * WFOV FF (NoIR/IR) - 150° DFOV, 127° HFOV, 79.5° VFOV
+  * PY003 - NFOV, FF, IR filter - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * PY044 - NFOV, FF, NoIR filter - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * PY091 - NFOV, FF, BandPass @ 940nm - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * PY059 - WFOV, FF, IR filter - 150° DFOV, 127° HFOV, 79.5° VFOV
+  * PY075 - WFOV, FF, NoIR filter - 150° DFOV, 127° HFOV, 79.5° VFOV
+  * PY097 - WFOV, FF, BandPass @ 940nm - 150° DFOV, 127° HFOV, 79.5° VFOV
 * :ref:`OV9782`
 
-  * NFOV FF IR - 89.5° DFOV, 80° HFOV, 55° VFOV
-  * WFOV FF IR - 150° DFOV, 127° HFOV, 79.5° VFOV
+  * PY074 - NFOV, FF, IR filter - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * PY186 - NFOV, FF, BandPass @ 940nm - 89.5° DFOV, 80° HFOV, 55° VFOV
+  * PY058 - WFOV, FF, IR filter - 150° DFOV, 127° HFOV, 79.5° VFOV
+  * PY139 - WFOV, FF, IR filter, 3.5cm long connector (used on RAE) - 150° DFOV, 127° HFOV, 79.5° VFOV
 
+* :ref:`OV7251`
+
+  * PY013 - NFOV, FF, IR filter - 86° DFOV, 73° HFOV, 55° VFOV
+  * PY030 - WFOV, FF, IR filter - 166° DFOV, 163° HFOV, 157° VFOV
 * :ref:`IMX477`
 
-  * AF (short FPC M12-Mount, haven't yet received samples)
+  * PY070 - M12-mount lenses, mechanical focus, IR filter
 * :ref:`IMX582`
 
-  * AF/FF/NoIR/NotchIR - 71° DFOV, 45° HFOV, 55° VFOV
-  * FF Wide FOV - 109° DFOV, 63° HFOV, 89° VFOV
+  * PY080 - NFOV, AF, IR filter - 71° DFOV, 45° HFOV, 55° VFOV
+  * PY101 - NFOV, AF, NoIR filter - 71° DFOV, 45° HFOV, 55° VFOV
+  * PY102 - NFOV, FF, BandPass @ 940nm - 71° DFOV, 45° HFOV, 55° VFOV
+  * PY106 - NFOV, FF, IR filter - 71° DFOV, 45° HFOV, 55° VFOV
+  * PY107 - WFOV, FF, IR filter  - 109° DFOV, 63° HFOV, 89° VFOV
+  * PY174 - M12-mount lenses, FF, IR650
+  * PY175 - M12-mount lenses, FF, NoIR filter
+* IMX577
+
+  * PY090 - M12-mount lenses, FF, IR filter
+  * PY136 - M12-mount lenses, FF, IR650
 
 Arducam longer FPC
 ------------------
