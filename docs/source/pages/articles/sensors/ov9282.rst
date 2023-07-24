@@ -73,6 +73,7 @@ Supported resolutions
   * WFOV FF (PY059) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
   * WFOV FF NoIR (PY075WN) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
   * WFOV FF Notch filter 940nm (PY097W) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+
 .. note::
   Series 1 OAK-D cameras (:ref:`OAK-D`, :ref:`OAK-D-PoE`, :ref:`OAK-D-CM3`, etc.) have Sunny's long FPC NFOV IR OV9282
   CCMs onboard, which have a bit narrower FOV - 81° DFOV, 72° HFOV, 49° VFOV.
