@@ -37,8 +37,8 @@ less than 1A, which means that you could power an OAK camera directly from RPi v
 - You have the **Pro** version of the OAK camera that has IR laser dot projector and IR illumination LED, which additionally draw up to 0.25A.
 
 We still **recommend externally powering your OAK camera** either via **barrel jack** (on older devices), or with a :ref:`Y-adapter`. The reason is that
-there OAK have current spikes (especially when using Video Encoder and running AI inference), which can lead to brownout.
 
+OAK have current spikes (especially when using Video Encoder and running AI inference), which can lead to brownout.
 SSH into the RPi
 ****************
 
