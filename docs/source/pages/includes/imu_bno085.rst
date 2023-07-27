@@ -1,5 +1,5 @@
 Integrated IMU
---------------
+**************
 
 This OAK camera has an integrated **BNO085, a 9-axis IMU** (Inertial Measurement Unit). See `IMU node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/imu/>`__
 for the API details on how to use it.

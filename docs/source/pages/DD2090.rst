@@ -46,6 +46,17 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
     with dai.Device(config) as device:
         device.startPipeline(pipeline)
 
+Syncing with OAK-FFC-IR
+-----------------------
+
+If you have an `OAK-FFC-IR <https://shop.luxonis.com/collections/early-access/products/oak-ffc-ir>`__ compatible board (rev. R5M1E5 and up), you can configure from which camera you want to have STROBE signal to the connector on the left, to which you can connect the IR module. 
+If you have stereo pair on CAM_B and CAM_C, and want to have dot projector synced with stereo pair, you should move the switch 2 or 3 up (ON).
+
+
+.. image:: /_static/images/FFC-4P/SW1.png
+
+
+
 .. include:: /pages/includes/imu_bno085.rst
 
 Dimensions and Weight
