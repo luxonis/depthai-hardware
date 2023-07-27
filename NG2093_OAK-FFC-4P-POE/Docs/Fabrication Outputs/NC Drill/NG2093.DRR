@@ -1,0 +1,41 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: NG2093.PcbDoc   28/06/2023  12:13:25
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Copper to Bottom Copper
+ASCII Plated RoundHoles File : NG2093-RoundHoles-Plated.TXT
+ASCII Non-Plated RoundHoles File : NG2093-RoundHoles-NonPlated.TXT
+ASCII Plated SlotHoles File : NG2093-SlotHoles-Plated.TXT
+EIA File   : NG2093.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T2      0.2mm (8mil)                                              Round             106       PTH        185.84mm (7.32inch)
+T3      0.203mm (8mil)                                            Round             150       PTH        737.58mm (29.04inch)
+T4      0.254mm (10mil)                                           Round             835       PTH        2414.38mm (95.05inch)
+T5      0.5mm (20mil)                                             Slot              2         PTH        15.70mm (0.62inch)
+T6      0.7mm (28mil)                                             Slot              4         PTH        27.70mm (1.09inch)
+T7      0.8mm (31mil)                                             Round             4         PTH        47.58mm (1.87inch)
+T8      0.9mm (35mil)                                             Round             28        PTH        179.15mm (7.05inch)
+T9      1.02mm (40mil)                                            Round             8         PTH        143.28mm (5.64inch)
+T10     1.7mm (67mil)                                             Round             4         PTH        134.80mm (5.31inch)
+T11     2.75mm (108mil)                                           Round             4         PTH        356.63mm (14.04inch)
+T12     3mm (118mil)                                              Round             2         PTH        34.22mm (1.35inch)
+T13     3.2mm (126mil)          +/-0mm (0mil)                     Round             4         NPTH       131.50mm (5.18inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1151
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1151
+MicroVia : Top Copper to Signal Layer 2
+ASCII Plated RoundHoles File : NG2093-RoundHoles-Plated.TX2
+EIA File   : NG2093-MicroVia.DR2
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.102mm (4mil)                                            Round             51        PTH        94.28mm (3.71inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              51
+----------------------------------------------------------------------------------------------------------------------------------
+MicroVia Totals                                                                     51
+
+Total Processing Time (hh:mm:ss) : 00:00:01
