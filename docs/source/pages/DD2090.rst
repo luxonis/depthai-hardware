@@ -49,12 +49,12 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
 Syncing with OAK-FFC-IR
 -----------------------
 
-If you have an `OAK-FFC-IR <https://shop.luxonis.com/collections/early-access/products/oak-ffc-ir>`__ compatible board (rev. R5M1E5 and up) and wish to use the IR module, you **must** first configure from which camera you want to have STROBE signal sent to the connector on the left (to which you connect the IR module). 
+If you have an OAK-FFC-4P R5 or newer and you wish to use the `OAK-FFC-IR <https://shop.luxonis.com/collections/early-access/products/oak-ffc-ir>`__ module, you **must** first configure which camera will drive the STROBE signal to the connector to which you connect your IR module. The connector located to the left of the switch (J12, see the image below). 
 
 
 .. image:: /_static/images/FFC-4P/SW1.png
 
-If you have stereo pair on CAM_B and CAM_C, and want to have dot projector synced with stereo pair, you should move the switch 2 or 3 up (ON).
+If you have stereo pair on CAM_B and CAM_C, and want to have dot projector synced with stereo pair, you should move the switch 2 or 3 up (ON). Keep in mind that **only one** switch can be up at a time.
 
 
 .. include:: /pages/includes/imu_bno085.rst
