@@ -86,6 +86,20 @@ By default, PoE devices will try to pull an IP address from DHCP. If a DHCP serv
 devices will fall back to static IP ``169.254.1.222``.  In this static fall-back case, your computer will need to be in the same range. This can
 be achieved by setting a static IP on your computer (e.g. with static IP: ``169.254.1.10`` and netmask: ``255.255.0.0``).
 
+In many cases, your host machine will automatically be assigned an IP address in the correct range if you let the device boot up before connecting it to the host (eg. by first connecting it to a POE switch). 
+
+
+Issues when using multiple PoE devices
+""""""""""""""""""""""""""""""""""""""
+When using multiple PoE devices, make sure the other end of a POE switch is not directly connected to your host (PC, Raspberry Pi, etc.). 
+PoE switches (and network switches in general) are layer 2 devices, meaning they operate with MAC addresses and will not be able to assign 
+IP adresses to your OAK devices. You generally have two options:
+
+1. Connect the PoE switch to a router, which will assign IP addresses to your OAK devices. 
+
+2. Assign static IP addresses to your OAK devices (see :ref:`Manually specify device IP`). Make sure each device has a unique IP address, and that your host is in the same subnet as the OAK devices. 
+
+
 Ports and Firewall
 """"""""""""""""""
 
