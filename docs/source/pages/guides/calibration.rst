@@ -39,6 +39,7 @@ please see the steps below and also :code:`./calibrate.py --help` which will pri
 
       git clone https://github.com/luxonis/depthai.git
       cd depthai
+      git submodule update --init --recursive
       python3 install_requirements.py
 
 #. Print charuco board calibration image.
