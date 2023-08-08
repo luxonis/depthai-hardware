@@ -120,7 +120,7 @@ but also FOV and baseline distance between stereo cameras.
      - 4.8 m
      - 12.0 m
      - 24.0 m
-     - 3.85 m
+     - 0.34 m
    * - 100
      - 4.0 m
      - 10.1 m
