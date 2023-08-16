@@ -167,7 +167,7 @@ Already built CCMs
 ==================
 
 Here's the list of already built Compact Camera Modules (CCMs) by `Arducam <https://www.arducam.com/>`__.
-MOQ for OAK camera product with a custom configuration of CCMs from the listed below is 50 units. Please send an
+MOQ for OAK camera product with a custom configuration of CCMs from the listed below is 100 units. Please send an
 email to support@luxonis.com if that's of interest.
 
 NFOV = Normal FOV, WFOV = Wide FOV. NoIR = No IR filter, IR = IR filter. FF = Fixed-Focus, AF = Auto-Focus.
@@ -225,7 +225,7 @@ Arducam short FPC
   * PY030 - WFOV, FF, IR filter - 166° DFOV, 163° HFOV, 157° VFOV
 * :ref:`IMX477`
 
-  * PY070 - M12-mount lenses, mechanical focus, IR filter
+  * PY070 - M12-mount lenses, mechanical focus
 * :ref:`IMX582`
 
   * PY080 - NFOV, AF, IR filter - 71° DFOV, 45° HFOV, 55° VFOV
@@ -233,12 +233,18 @@ Arducam short FPC
   * PY102 - NFOV, FF, BandPass @ 940nm - 71° DFOV, 45° HFOV, 55° VFOV
   * PY106 - NFOV, FF, IR filter - 71° DFOV, 45° HFOV, 55° VFOV
   * PY107 - WFOV, FF, IR filter  - 109° DFOV, 63° HFOV, 89° VFOV
-  * PY174 - M12-mount lenses, FF, IR650
-  * PY175 - M12-mount lenses, FF, NoIR filter
+  * PY174 - M12-mount lenses, FF. Default lens: IR650, 82.4° DFOV
+  * PY175 - M12-mount lenses, FF. Default lens: NoIR filter, 82.4° DFOV
 * IMX577
 
-  * PY090 - M12-mount lenses, FF, IR filter
-  * PY136 - M12-mount lenses, FF, IR650
+  * PY090 - M12-mount lenses, FF. Default lens: IR filter, LN108 lens
+  * PY111 - M12-mount lenses, FF. Default lens: `M25156H18 <https://www.arducam.com/product/arducam-180-degree-fisheye-1-2-3-m12-mount-with-lens-adapter-for-raspberry-pi-high-quality-camera/>`__, IR650 filter, fisheye
+  * PY136 - M12-mount lenses, FF. Default lens: IR650 filter, fisheye LN108 lens
+
+* :ref:`AR0234`
+
+  * PY056 - M12-mount lenses, mechanical focus. Default lens: IR filter, 89.5° DFOV, 80° HFOV, 55° VFOV
+  * PY078 - M12-mount lenses, FF, used on :ref:`OAK-D LR`. Default lenses: `M25360H06S <https://www.arducam.com/product/m25360h06s-2/>`__, IR filter
 
 Arducam longer FPC
 ------------------
@@ -250,6 +256,9 @@ Arducam longer FPC
 
   * AF (Motorized Focus)
   * M12-Mount FF
+
+.. note::
+  M12-mount lenses can easily be replaced in order to fit application needs. Filters (such as BandPass, IR650) are part of the lens, not the camera module.
 
 .. include::  /pages/articles/sensors/includes/low_light_performance.rst
 

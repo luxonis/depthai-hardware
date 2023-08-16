@@ -87,7 +87,7 @@ Replacing SoM-Pro versions
 
     .. tab:: OAK-FFC-4P
 
-        Before replacing the SoM-Pro versions, you'd need to update the baseboard (:ref:`DD-2090`) a bit, as boot sequence needs to be changed.
+        Before replacing the SoM-Pro versions, you'd need to update the baseboard (:ref:`OAK-FFC-4P`) a bit, as boot sequence needs to be changed.
         You'd need to remove 2 resistors, move 2 resistors, and add one 0 Ω resistor.
 
         .. image:: /_static/images/SOM-PRO/ffc-4p-update-s2.png
