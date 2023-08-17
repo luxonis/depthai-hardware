@@ -93,7 +93,7 @@ As noted above the paragraph, only some sensors support FSYNC syncing. There are
    * - :ref:`AR0234`
      - Global
      - FSYNC input, snapshot mode supported (continuous results in strange behaviour)
-   * - :ref:`IMX378`, :ref:`IMX477`, :ref:`IMX380`
+   * - :ref:`IMX378`, :ref:`IMX477`, IMX380
      - Rolling
      - FSYNC input, only continuous mode supported for rolling shutter sensors
    * - :ref:`IMX582`
