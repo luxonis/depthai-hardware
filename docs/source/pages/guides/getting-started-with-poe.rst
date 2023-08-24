@@ -135,6 +135,30 @@ network for the device, so would be unable to discover it on the local network),
 using the PoE devices or otherwise ensuring that your local routing is setup such that local devices are usable/discoverable
 while VPN connectivity is active.
 
+Low PoE link speed
+""""""""""""""""""
+
+If you've already executed the `PoE Test Script <https://github.com/luxonis/depthai-experiments/tree/master/random-scripts#poe-test-script>`_ and your PoE link speed is below 1000 Mbps, there may be a bottleneck in your setup:
+
+- **Ethernet Cable**: Use Cat5e or higher. While Cat5e supports 1 Gbps, Cat5 is limited to 100 Mbps.
+  
+- **PoE Switch**: Ensure it supports 1 Gbps speeds. Such switches are usually labeled 10/100/1000 Mbps.
+  
+- **Router**: If applicable, ensure it can handle 1 Gbps. Some routers might have limited ports with this capability.
+  
+- **PoE Injector**: Ensure it supports 1 Gbps. Some models are limited to 100 Mbps.
+  
+- **Cable Length**: Keep your Ethernet cable under 100 meters (328 feet). For longer distances, use a PoE extender.
+  
+- **Host Network Card**: Ensure it supports 1 Gbps. Older cards might be capped at 100 Mbps. If necessary, upgrade your network card.
+  
+
+**Do not use WiFi** to connect to the PoE device. WiFi is not designed for high bandwidth applications, and will likely result in a bottleneck.
+If you must use it, use WiFi standards supporting at least 1 Gbps such as 802.11ac (WiFi 5), 802.11ax (WiFi 6), or 802.11ay (WiFi 6E). Note that bandwidth diminishes with distance and obstructions between the router and host.
+
+
+
+
 Connected to the same LAN via 2 interfaces (WiFi/ethernet)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
