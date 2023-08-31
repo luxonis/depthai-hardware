@@ -11,12 +11,12 @@ rae
 Overview
 ********
 
-The **rae** (short for "Robotics Access for Everyone") is a small desktop robot developed for evaluation of the DepthAI ecosystem and
+**rae** (short for "Robotics Access for Everyone") is a small desktop robot developed for evaluation of the DepthAI ecosystem and
 rapid prototyping of robotics applications. It is designed to be a low-cost, easy-to-use, and extensible platform. It was brought to
 life by a successful `Kickstarter campaign <https://www.kickstarter.com/projects/opencv/rae-0>`__.
 
-It was built on top of the :ref:`RVC3 <RVC3>`, which along with AI, CV, video encoding, and stereo depth features, also
-supports **on-chip VIO and Sparse SLAM**. rae is running ROS2 which handles path planning and navigation.
+It's built on top of the :ref:`RVC3 <RVC3>`, which along with AI, CV, video encoding, and stereo depth features, also
+supports **on-chip VIO and Sparse SLAM**. **rae** is running ROS2 which handles path planning and navigation.
 
 Specification overview
 **********************
@@ -89,10 +89,11 @@ Hardware specifications
 
 - Utilizes :ref:`OAK-SoM Max` (OAK-SoM-Max-1 configuration)
 - Wireless card: Intel 9260 (via PCIe M.2)
-- 
+- Accessory USB-C (on top) works as USB3.0 host, so you can connect USB devices to it
+- USB-C charging port (on the side) is USB2, while Accessory USB-C (on top) is USB3
+- LED ring (around the bottom): 10 LEDs per side, in total 40 LEDs individually addressable via WS2812 protocol
 
-..
-   .. include:: /pages/includes/depth_75_800P.rst
+.. include:: /pages/includes/depth_75_W.rst
 
 Getting started
 ***************
@@ -105,8 +106,8 @@ Connecting to rae
 .. tabs::
 
     .. tab:: USB-C
-        Connect USB-C to the side port. USB ETH interface should become available on your computer.
-        Default IP address is ``192.168.197.55/28``. To connect to the :ref:`RVXC3 <RVC3>` via SSH, run:
+        Connect USB cable from your computer to rae's USB-C charging port (on the side). USB ETH interface should become available on your computer.
+        Default IP address is ``192.168.197.55/28``. To connect to the :ref:`RVC3 <RVC3>` via SSH, run:
 
         .. code-block:: bash
 
@@ -131,20 +132,18 @@ Connecting to rae
 Running NN on rae
 -----------------
 
-Documentation here: https://docs.google.com/document/d/1AMtzXj26Q9vNzD-fQKgSPm8wlMRW3MxbXXN-XOWtQCk/edit#heading=h.czl0lh37ugyw
+Documentation `here <https://docs.google.com/document/d/1AMtzXj26Q9vNzD-fQKgSPm8wlMRW3MxbXXN-XOWtQCk/edit#heading=h.czl0lh37ugyw>`__
 Dev Blobconverter here: https://dev-blobconverter.luxonis.com/
 
+Upload files to RAE
+-------------------
 
+.. code-block:: bash
 
-Upload files to RAE:
+  # If you use MAC you may need to use -O option to enable file transfers with scp
+  scp <file> root@192.168.197.55:/<path>
 
-
-scp <file> root@192.168.197.55:/<path>
-
-Note:
-If you use MAC you may need to use -O option to enable file transfers with scp
-
-System partition is RO. /data and /home are RW
+System partition is Read-Only. ``/data`` and ``/home`` are Read/Write.
 
 
 Firmware update
@@ -166,7 +165,8 @@ Reset
 *****
 
 Press the power button for 8s for a hard shutdown. You can factory reset rae by holding the reset button (with a pin)
-for 10s.
+for 10s. Factory reset will remove everything from ``/data`` and all user changes made to ``/etc`` and ``/var``.
+
 
 ..
    Brochures
