@@ -212,15 +212,19 @@ Other Designs
 
    * - OAK-D CM4
      - OAK-D CM4 PoE
+     - **rae**
      - OAK Y-Adapter
    * - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097
      - .. image:: /_static/images/thumbnails/OAK-D-CM4-PoE_th.png
           :target: pages/DM2097
+     - .. image:: /_static/images/rae/rae_th.png
+          :target: pages/rae.html
      - .. image:: /_static/images/thumbnails/Y_Adapter_th.png
           :target: pages/DM6010
    * - :ref:`Learn more <dm1097>`
      - :ref:`Learn more <dm2097>`
+     - :ref:`Learn more <rae>`
      - :ref:`Learn more <Y-adapter>`
 
 
