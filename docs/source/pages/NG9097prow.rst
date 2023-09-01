@@ -28,7 +28,7 @@ Hardware specifications
 
 .. include:: /pages/includes/poe_connectivity-s2.rst
 
-.. include:: /pages/includes/s2_w_sensors.rst
+.. include:: /pages/includes/s2_w_sensors_pro.rst
 
 .. include:: /pages/includes/pro.rst
 
