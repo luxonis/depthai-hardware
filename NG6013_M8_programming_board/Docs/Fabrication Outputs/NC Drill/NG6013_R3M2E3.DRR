@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: NG6013_R3M2E3.PcbDoc   03/08/2022  12:40:49
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Layer 1 to Layer 2
+ASCII Plated RoundHoles File : NG6013_R3M2E3-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : NG6013_R3M2E3-SlotHoles-Plated.TXT
+EIA File   : NG6013_R3M2E3.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.203mm (8mil)                                            Round             34        PTH        67.36mm (2.65inch)
+T2      0.6mm (24mil)                                             Slot              4         PTH        42.05mm (1.66inch)
+T3      1mm (39mil)                                               Round             8         PTH        11.93mm (0.47inch)
+T4      1mm (39mil)                                               Slot              4         PTH        62.16mm (2.45inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              50
+
+Total Processing Time (hh:mm:ss) : 00:00:00
