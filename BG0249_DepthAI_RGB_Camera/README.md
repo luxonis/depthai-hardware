@@ -1,4 +1,4 @@
-# BG0249_R1M1E1 RGB Camera Module
+# BG0249_R1M1E1 RGB Camera Module (NRND, refer to [DM0260](https://github.com/luxonis/depthai-hardware/tree/master/DM0260_OAK-FFC-CBA))
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/BG0249.html)
 
