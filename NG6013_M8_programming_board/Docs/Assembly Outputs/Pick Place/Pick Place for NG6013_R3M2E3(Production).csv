@@ -1,0 +1,23 @@
+Altium Designer Pick and Place Locations
+C:\Luxonis\01 - REPO\SVN-Luxonis\NG6013_R3M2E3\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for NG6013_R3M2E3(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       03/08/22
+Time:       12:38
+Revision:   2002
+Variant:    Production
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"B1","-6.9000mm","-7.1500mm","270","TopLayer","DTSM-32N-V-T/R","DTSM-32N-V","tactile button 160gf","SWITCH TACTILE SMT 3.5mm * 6mm , brown 160gf","Off-Mom, 50mA"
+"D1","-6.2500mm","-12.6250mm","270","TopLayer","SML-D12M8WT86","SML_D1xx8W","Rohm LED SML_D1 series - Chip Diode, 2-Leads, Body 1.60x0.80mm, IPC High Density","LED GREEN DIFFUSED 0603 SMD Green 572nm LED Indication - Discrete 2.2V 0603 (1608 Metric)","GREEN 0603"
+"J1","0.0000mm","-11.5350mm","0","TopLayer","105450-0101","105450-0101","USB3.1 Type-C Molex SMT, RA, TH","CONN RCP USB3.1 TYPEC 24P SMD RA","USB3.1 TYPEC 24P SMD RA"
+"J2","0.0000mm","0.0000mm","180","BottomLayer","08-3101-08PB","1424236","","Circular Connector","08-3101-08PB"
+"R1","2.8000mm","-13.5750mm","270","BottomLayer","CRCW08050000Z0EA","RESC0805(2012)_L","Chip Resistor, Body 2.0x1.3mm, IPC High Density","RES SMD 0.0R OHM 1% 1/8W 0805","0R 0805"
+"R3","-6.0000mm","-12.5000mm","90","BottomLayer","RC0402FR-071KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 1K OHM 1% 1/16W 0402 1 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","1K 0402"
+"R5","-6.9250mm","-9.8500mm","0","BottomLayer","RC0402FR-1310KL","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 10K OHM 1% 0402 1/16W Chip Resistor, 0402 [1005 Metric], 10 kohm, RC Series, 50 V, Thick Film, 62.5 mW","10K 0402"
+"R6","-3.0750mm","-9.2250mm","90","BottomLayer","RC0402FR-075K11L","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 5.11K OHM 1% 1/16W 0402 5.11 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","5.11K 0402"
+"R7","1.9000mm","-10.5000mm","180","BottomLayer","RC0402FR-075K11L","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 5.11K OHM 1% 1/16W 0402 5.11 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film","5.11K 0402"
+"R8","3.4250mm","0.8500mm","270","TopLayer","CRCW04020000Z0ED","RESC0402(1005)_L","Chip Resistor, Body 1.0x0.5mm, IPC High Density","RES SMD 0 OHM JUMPER 1/16W 0402","0R 0402"
