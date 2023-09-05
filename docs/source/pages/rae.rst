@@ -167,28 +167,19 @@ Reset
 Press the power button for 8s for a hard shutdown. You can factory reset rae by holding the reset button (with a pin)
 for 10s. Factory reset will remove everything from ``/data`` and all user changes made to ``/etc`` and ``/var``.
 
+3D Models
+*********
 
-..
-   Brochures
-   *********
+3D models - STEP/STL of the enclosure and the PCBA - can `be found here <https://github.com/luxonis/depthai-hardware/tree/master/DM3370_RAE#3d-files>`__
 
-   * `Brochure <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Datasheet/OAK-D_brochure.pdf>`__
-   * `Datasheet <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Datasheet/OAK-D_Datasheet.pdf>`__
-..
-    3D Models
-    *********
+Files
+*****
 
-    - Board (PCBA) STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/3D_Models>`__
-    - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Mechanical>`__
-
-    Files
-    *****
-
-    * `Altium project files <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/PCB>`__
-    * `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BC2087_OAK-D-LR/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
-    * `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Docs/Assembly%20Outputs>`__
-    * `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/BC2087_OAK-D-LR/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
-    * `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Docs/Fabrication%20Outputs>`__
-    * `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/BC2087_OAK-D-LR/Docs/Schematic%20PDF/Production.PDF>`__
+* `Altium project files <https://github.com/luxonis/depthai-hardware/tree/master/DM3370_RAE/PCB>`__
+* `Assembly Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM3370_RAE/Docs/Assembly%20Drawing%20PDF/Production.PDF>`__
+* `Assembly Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM3370_RAE/Docs/Assembly%20Outputs>`__
+* `Fabrication Drawing <https://github.com/luxonis/depthai-hardware/blob/master/DM3370_RAE/Docs/Fabrication%20Drawing%20PDF/Production.PDF>`__
+* `Fabrication Outputs <https://github.com/luxonis/depthai-hardware/tree/master/DM3370_RAE/Docs/Fabrication%20Outputs>`__
+* `Schematic <https://github.com/luxonis/depthai-hardware/blob/master/DM3370_RAE/Docs/Schematic%20PDF/Production.PDF>`__
 
 .. include::  /pages/includes/footer-short.rst

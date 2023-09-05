@@ -338,5 +338,6 @@ Some **older models** can be :ref:`found here <Other models>`.
    :caption: Miscellaneous Designs
 
    pages/DM1097.rst
+   pages/rae.rst
    pages/DM2097.rst
    pages/DM6010.rst
