@@ -42,17 +42,15 @@ We have found the best results by displaying the charuco board to a TV or a larg
 more charuco markers to be visible in the image, which typically improves the calibration accuracy. Depending on the screen size (diagonal, in inches), we suggest
 displaying the following charuco board in full-screen:
 
-- `24" monitor, 13 squaresX, 7 squaresY Charuco board <https://drive.google.com/file/d/1dlXVZSeT7FKmbRcrlQHY-lb5hlFL7UDh/view?usp=drive_link>`__
-- `28" monitor, 15 squaresX, 8 squaresY Charuco board <https://drive.google.com/file/d/1iv2eAi3SQth6-FYmfCjrXGmcInlFASYh/view?usp=drive_link>`__
-- `32" monitor, 17 squaresX, 9 squaresY Charuco board <https://drive.google.com/file/d/12rYNo1FAFeK-yHCEWl7NQPjg6sMSW3ar/view?usp=drive_link>`__
-- `42" monitor, 22 squaresX, 12 squaresY Charuco board <https://drive.google.com/file/d/1ZY1ibJEk0W1VMde_6eXHkellKG9vWIw-/view?usp=drive_link>`__
-- `50" monitor, 27 squaresX, 15 squaresY Charuco board <https://drive.google.com/file/d/1j5XJIBDOfHfZVewG6HtIKBfAQ_4eyRjq/view?usp=drive_link>`__
-- `55" monitor, 30 squaresX, 17 squaresY Charuco board <https://drive.google.com/file/d/1m8AVXizYl1gYw3Wh6ZJBgJaujyf5Nk75/view?usp=drive_link>`__
-- `65" monitor, 35 squaresX, 20 squaresY Charuco board <https://drive.google.com/file/d/1LcbALivGs39QshT7WxVkLHcA4kYz7G8Z/view?usp=drive_link>`__
-- `75" monitor, 41 squaresX, 23 squaresY Charuco board <https://drive.google.com/file/d/16sRtjhMipOqu1wVMEO11_0_ltKcb8Yoe/view?usp=drive_link>`__
-
-..
-  - `36" monitor, __ squaresX, __ squaresY Charuco board <https://drive.google.com/file/d/1H8CQHGtdyYwsNuX1fhuLtJbslG4pYisF/view?usp=drive_link>`__
+- `24" screen, 13 squaresX, 7 squaresY Charuco board <https://drive.google.com/file/d/1UbIUsHvJggqoQXM5yVx2kKj9EpmqpfI8/view?usp=sharing>`__
+- `28" screen, 15 squaresX, 8 squaresY Charuco board <https://drive.google.com/file/d/1SYxudYAoB9ObYd7WZFNTZdwv7zFMnCQq/view?usp=sharing>`__
+- `32" screen, 17 squaresX, 9 squaresY Charuco board <https://drive.google.com/file/d/1L5G6WZ4U3FbSZi6-xM0tep9VSOrg9942/view?usp=sharing>`__
+- `36" screen, 19 squaresX, 11 squaresY Charuco board <https://drive.google.com/file/d/1_vPt_f79UDhAm0Vsh91w8in2_ejcNxzl/view?usp=sharing>`__
+- `42" screen, 22 squaresX, 12 squaresY Charuco board <https://drive.google.com/file/d/1C_L_r3zLtdO1u4U8M7x0k-o3G8b-GQrT/view?usp=sharing>`__
+- `50" screen, 27 squaresX, 15 squaresY Charuco board <https://drive.google.com/file/d/1rKoAboqAHlpbh02Cii5ozalN3RYHb5hp/view?usp=sharing>`__
+- `55" screen, 30 squaresX, 17 squaresY Charuco board <https://drive.google.com/file/d/1c_hvkrekhD_5fJdx9WIS-WXweBDkY0b1/view?usp=sharing>`__
+- `65" screen, 35 squaresX, 20 squaresY Charuco board <https://drive.google.com/file/d/1FWBRHwsyN7tIaQwvtckLEFyvTItv5N_h/view?usp=sharing>`__
+- `75" screen, 41 squaresX, 23 squaresY Charuco board <https://drive.google.com/file/d/1XCN8nuZOJNgH3DAXi5RBRELlvPzXQ3je/view?usp=sharing>`__
 
 If you have a different screen size, we suggest rounding down, so for eg. 30" screen, use 15 squaresX, 8 squaresY Charuco board.
 
@@ -64,8 +62,8 @@ Display the charuco board
 
 When displaying the charuco board, markers and squares should be sharp and clearly visible. A few things to keep in mind:
 
-- Monitor shouldn't be too bright (or too dim), as it will cause oversatured images, which will make it harder for the camera to detect the markers.
-- Don't have bright lights / sun shining directly on the monitor
+- Screen shouldn't be too bright (or too dim), as it will cause oversatured images, which will make it harder for the camera to detect the markers.
+- Don't have bright lights / sun shining directly on the screen
 - Display the charuco board in full-screen, so that the markers are as large as possible
 
 .. image:: /_static/images/calibration/screen_issue.jpg
@@ -85,7 +83,7 @@ Replace the placeholder argument values with valid entries:
 
   python3 calibrate.py -s [SQUARE_SIZE_IN_CM] --board [BOARD] -nx [squaresX] -ny [squaresY]
 
-For calibrating the :ref:`OAK-D S2` on a 32" monitor, you should use the 17 squaresX, 9 squaresY Charuco board, and the square size is 3.76 cm (measured above). I will run the following command:
+For calibrating the :ref:`OAK-D S2` on a 32" screen, you should use the 17 squaresX, 9 squaresY Charuco board, and the square size is 3.76 cm (measured above). I will run the following command:
 
 .. code-block:: bash
 
@@ -146,7 +144,7 @@ We suggest capturing the calibration from different angles and distances, as it 
 
    Different camera rotations/positions during calibration, birdseye-view
 
-Close for Normal FOV with 28" screen would be about 50cm, and far about 1m, but it varies depending on the screen size.
+Close for Normal FOV with 28" screen would be about 50cm, and far about 1m.
 
 .. tabs::
 
