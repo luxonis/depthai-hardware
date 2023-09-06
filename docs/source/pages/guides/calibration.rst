@@ -1,27 +1,21 @@
 Calibration
 ###########
 
+`Camera calibration <https://en.wikipedia.org/wiki/Camera_resectioning>`__ is a process of determining the **intrinsic, extrinsic**, and **distortion parameters** of a camera.
+These are required for a camera to be able to map points in the 3D world to 2D points in an image, and vice versa, to undistort images, and to determine depth
+from stereo images.
+
+From these parameters, camera also calculates the rectification matrices which are used to rectify (align) the images from the stereo camera pair, so the `StereoDepth node <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/>`__
+can then perform stereo disparity calculation and depth estimation.
+
 .. note::
 
+   All OAK cameras (except :ref:`Modular line <Modular Camera Designs>`) are calibrated before shipment, and it's not required to (re-)calibrate them.
 
-   All non-modular OAK devices are calibrated before shipment. It is not required to (re-)calibrate any of these, but for PCBA-only models like OAK-D-CM4, OAK-D-CM3, OAK-D-PCBA
-   it can be desirable to do so if the depth quality degrades from mounting the PCBA (into an enclosure).
-
-For the modular camera editions of DepthAI (`OAK-FFC-3P <https://docs.luxonis.com/projects/hardware/en/latest/pages/DM1090.html>`__ and `DepthAI RaspberryPi Hat <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1094.html>`__)
-it is necessary to do a stereo camera calibration after mounting the cameras in the baseline/configuration for your application.
-
-Below is a quick video showing the (re-) calibration of the `OAK-D <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OAK.html>`__.
-
-In short, the calibration uses the intersections to determine the orientation and distance of the charuco board.
-So the greatest accuracy will be obtained by a clear print or display of the provided board image on a flat plane.
-
-The flatness of the calibration board is very important.  Do not use curved monitors, or calibration targets that
-have any 'waviness'.  So if you print the charuco board, please make sure to affix the sheet to a known flat surface,
-without any waves.  That said, using a laptop with a flat monitor is usually the easiest technique.
+For the :ref:`OAK FFC camera modules` it is necessary to perform camera calibration after mounting the cameras in the desired configuration.
 
 Watching the video below will give you the steps needed to calibrate your own DepthAI.  For more information/details on calibration options,
 please see the steps below and also :code:`./calibrate.py --help` which will print out all of the calibration options.
-
 
 .. raw:: html
 
@@ -29,76 +23,146 @@ please see the steps below and also :code:`./calibrate.py --help` which will pri
         <iframe src="https://www.youtube.com/embed/nD0hy9164p8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-#. Checkout the `depthai <https://github.com/luxonis/depthai>`__ GitHub repo.
+Prerequisites
+*************
 
-    .. warning::
+If you don't yet have the `depthai <https://github.com/luxonis/depthai>`__ repository on your computer, you'd need to clone it and install the requirements:
 
-      Already checked out `depthai <https://github.com/luxonis/depthai>`__? **Skip this step.**
+.. code-block:: bash
 
-    .. code-block:: bash
+  git clone https://github.com/luxonis/depthai.git
+  cd depthai
+  git submodule update --init --recursive
+  python3 install_requirements.py
 
-      git clone https://github.com/luxonis/depthai.git
-      cd depthai
-      git submodule update --init --recursive
-      python3 install_requirements.py
+Prepare charuco board
+*********************
 
-#. Print charuco board calibration image.
+We have found the best results by displaying the charuco board to a TV or a large (**flat**, not curved!) monitor. Larger screens are better, as they allow
+more charuco markers to be visible in the image, which typically improves the calibration accuracy. Depending on the screen size (diagonal, in inches), we suggest
+displaying the following charuco board in full-screen:
 
-    Either print the calibration charuco board onto a flat surface, or display the calibration board on a flat (not curved!) monitor.
-    Note that if you do print the calibration target, take care to make sure it is attached to a flat surface and is flat and free of wrinkles and/or 'waves'.
+- `24" screen, 13 squaresX, 7 squaresY Charuco board <https://drive.google.com/file/d/1UbIUsHvJggqoQXM5yVx2kKj9EpmqpfI8/view?usp=sharing>`__
+- `28" screen, 15 squaresX, 8 squaresY Charuco board <https://drive.google.com/file/d/1SYxudYAoB9ObYd7WZFNTZdwv7zFMnCQq/view?usp=sharing>`__
+- `32" screen, 17 squaresX, 9 squaresY Charuco board <https://drive.google.com/file/d/1L5G6WZ4U3FbSZi6-xM0tep9VSOrg9942/view?usp=sharing>`__
+- `36" screen, 19 squaresX, 11 squaresY Charuco board <https://drive.google.com/file/d/1_vPt_f79UDhAm0Vsh91w8in2_ejcNxzl/view?usp=sharing>`__
+- `42" screen, 22 squaresX, 12 squaresY Charuco board <https://drive.google.com/file/d/1C_L_r3zLtdO1u4U8M7x0k-o3G8b-GQrT/view?usp=sharing>`__
+- `50" screen, 27 squaresX, 15 squaresY Charuco board <https://drive.google.com/file/d/1rKoAboqAHlpbh02Cii5ozalN3RYHb5hp/view?usp=sharing>`__
+- `55" screen, 30 squaresX, 17 squaresY Charuco board <https://drive.google.com/file/d/1c_hvkrekhD_5fJdx9WIS-WXweBDkY0b1/view?usp=sharing>`__
+- `65" screen, 35 squaresX, 20 squaresY Charuco board <https://drive.google.com/file/d/1FWBRHwsyN7tIaQwvtckLEFyvTItv5N_h/view?usp=sharing>`__
+- `75" screen, 41 squaresX, 23 squaresY Charuco board <https://drive.google.com/file/d/1XCN8nuZOJNgH3DAXi5RBRELlvPzXQ3je/view?usp=sharing>`__
 
-    Often, using a monitor to display the calibration target is easier/faster.
+If you have a different screen size, we suggest rounding down, so for eg. 30" screen, use 15 squaresX, 8 squaresY Charuco board.
 
-    .. image:: /_static/images/calibration/charuco_calibration.png
-      :alt: Print this charuco calibration image
-      :target: https://github.com/luxonis/depthai/blob/2402db26408da6a122d9ae9ae646b0d96ea7e1d9/charuco_11x8.pdf
+If displaying the charuco board on a monitor is not possible, the second best option would be to print the board to a **flat surface**, free of wrinkles and/or 'waves'.
+You can also print it to a piece of paper (eg. A3) and glue it to a solid, flat surface (eg. a piece of plywood).
 
-    The entire board should fit on a single piece of paper (scale to fit).  And if displaying on a monitor, full-screen the image with a white background.
+Display the charuco board
+*************************
 
-#. Start the calibration script.
+When displaying the charuco board, markers and squares should be sharp and clearly visible. A few things to keep in mind:
 
-    Replace the placeholder argument values with valid entries:
+- Screen shouldn't be too bright (or too dim), as it will cause oversatured images, which will make it harder for the camera to detect the markers.
+- Don't have bright lights / sun shining directly on the screen
+- Display the charuco board in full-screen, so that the markers are as large as possible
 
-    .. code-block:: bash
+.. image:: /_static/images/calibration/screen_issue.jpg
 
-      python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -brd [BOARD] -db
+Afterwards, you need to measure the square size of the charuco board, as we will need it later.
 
-    Argument reference:
+.. figure:: /_static/images/calibration/square_size.jpeg
 
-    - :code:`-s SQUARE_SIZE_IN_CM`, :code:`--squareSizeCm SQUARE_SIZE_IN_CM`: Measure the square size of the printed charuco board in centimeters.
-    - :code:`-db`, :code:`--defaultBoard`: flag that specifies that we're using a calibration board provided in depthai repository (from calib.io). If you're using other board, please instead specify :code:`-ms MARKER_SIZE_IN_CM`, :code:`--markerSizeCm MARKER_SIZE_IN_CM`: Marker size on the printed charuco board in centimeters.
-    - :code:`-brd BOARD`, :code:`--board BOARD`: BW1097, BW1098OBC - Device board type from resources/boards/ (not case-sensitive, if you're using OAK-D please choose BW1098OBC) or path to a custom .json board config.
+  Measuring square size, which is 3.76 cm in this case
 
-    Retrieve the size of the squares from the calibration target by measuring them with a ruler or calipers and enter that number (in cm) in place of [SQUARE_SIZE_IN_CM].
+Run the calibration script
+**************************
 
-    For example, the arguments for the `OAK-D <https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1098OAK.html>`__ look like the following if the square size is 2.35 cm:
+Replace the placeholder argument values with valid entries:
+
+.. code-block:: bash
+
+  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] --board [BOARD] -nx [squaresX] -ny [squaresY]
+
+For calibrating the :ref:`OAK-D S2` on a 32" screen, you should use the 17 squaresX, 9 squaresY Charuco board, and the square size is 3.76 cm (measured above). I will run the following command:
+
+.. code-block:: bash
+
+  python3 calibrate.py -s 3.76 --board OAK-D-S2 -nx 17 -ny 9
 
 
-    .. code-block:: bash
+.. list-table:: More important arguments. For a full list of arguments, run ``python3 calibrate.py --help``
+  :header-rows: 1
 
-      python3 calibrate.py -s 2.35 -brd bw1098obc -db
+  * - Arg
+    - Arg long
+    - Arg Description
+  * - ``-s``
+    - ``--squareSizeCm``
+    - Measured square size of the printed charuco board in centimeters
+  * - ``-brd``
+    - ``--board``
+    - Name of the camera (from `depthai-boards <https://github.com/luxonis/depthai-boards/tree/main/boards>`__, not case-sensitive), or path to a custom .json board config
+  * - ``-nx``
+    - ``--squaresX``
+    - Number of squares in X direction. SquaresX is specified in :ref:`Prepare charuco board`, depending on your screen size.
+  * - ``-ny``
+    - ``--squaresY``
+    - Number of squares in Y direction. SquaresY is specified in :ref:`Prepare charuco board`, depending on your screen size.
+  * - ``-cm``
+    - ``--cameraMode``
+    - Camera mode, either ``perspective`` (default) or ``fisheye``.
+  * - ``-mdmp``
+    - ``--minDetectedMarkersPercent``
+    - Minimum percentage of detected markers in a frame, to consider the frame valid. Default is 0.5 (50%). If you want to bemore strict, you can increase this value, but it can cause longer time to get enough valid frames.
+  * - ``-ep``
+    - ``--maxEpipolarError``
+    - Maximum epipolar error in pixels, to consider the frame valid. Default is 0.7. If you want to be more strict, you can decrease this value.
 
-    And note that mirroring the display when calibrating is often useful (so that the directions of motion don't seem backwards).
-    When seeing ourselves, we're used to seeing ourselves backwards (because that's what we see in a mirror), so do so, use the :code:`-ih` option as below:
 
-    .. code-block:: bash
+Camera positioning during calibration
+**************************************
 
-      python3 calibrate.py -s 2.35 -brd bw1098obc -db -ih
+We suggest capturing the calibration from different angles and distances, as it will help the calibration algorithm to find the best possible calibration.
 
-    So when we're running calibration internally we almost always use the :code:`-ih` option, so we'll include it on all the following example commands:
+* **1. Close to the screen**; calibration board covers almost the entire FOV. Take 5 images to cover the entire FOV of the camera:
 
-    - **OAK-D:**
+  * Front view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/18YxuiZlH87rt0TafhNqxj25i5rJK_oFD/view?usp=drive_link>`__)
+  * Without moving (translation) the camera, only with rotation align the camera FOV with calibration board edges (examples: `bottom-right <https://drive.google.com/file/d/1xe1zT0vG6RPgOoegH56y3KX-QjCuHaMU/view?usp=drive_link>`__, `top-left <https://drive.google.com/file/d/1tdDMUI9tNtuc_aLoIY-nnVSp9uc7camb/view?usp=drive_link>`__, `top-right <https://drive.google.com/file/d/1JKa77WfAJt7b933qySa7ZX1UmKD4xfvT/view?usp=drive_link>`__, `bottom-left <https://drive.google.com/file/d/1u-8ntHu7TaxU3oNkJjPqy__skIokBgGO/view?usp=drive_link>`__)
+* **2. Close to the screen, from the side**. 4 or more images of the calibration board tilted, but still covering majority of the FOV. Move the camera to the top, bottom, left, and right side of the screen. You can use different distances as well
+* **3. Middle distance**; calibration board covers 40% of the FOV. Take 5 images to cover the entire FOV of the camera:
 
-      .. code-block:: bash
+  * Front view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/1kSN_HHpKxsPWcTQnHqWNJM1Y_tkELM8X/view?usp=drive_link>`__)
+  * Same as for ``Close to the screen``, without moving, only with rotation align the camera FOV with calibration board edges
+* **4. Far from the screen**; calibration board covers only a small part of the FOV. In total, take 9 images to cover the entire FOV of the camera:
 
-        python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd bw1098obc -ih
+  * Frontal view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/100Ek-j6AVSvsJwvHKd8p_opt9HwwHXc0/view?usp=drive_link>`__)
+  * Similar to close/middle distance, take 4 images aligning the camera FOV to all 4 edges (example: `top-left <https://drive.google.com/file/d/1wb5pwuSLhunDEdQfs7GAaSnqKjARHVU3/view?usp=drive_link>`__)
+  * Besides aligning with all 4 edges, also take 4 images aligning with corners (examples: `top <https://drive.google.com/file/d/1sqBuyTdclv8dllZGDLa_eQQD3Sod4Eie/view?usp=drive_link>`__, `bottom <https://drive.google.com/file/d/1YfP4ehtb5jDfioc4rcSaYtDU3fvVbKhq/view?usp=drive_link>`__, `left <https://drive.google.com/file/d/1S0bd4Dqvo0hRKVLkFZOcpo5USb8QzgWn/view?usp=drive_link>`__, `right <https://drive.google.com/file/d/1zYP5re_X0u6yEFMGKALG354riYTwbwo1/view?usp=drive_link>`__)
 
-    - **OAK-D-CM4:**
 
-      .. code-block:: bash
+.. figure:: /_static/images/calibration/calib_positions.jpeg
 
-        python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd bw1097 -ih
+   Different camera rotations/positions during calibration, birdseye-view
 
+Close for Normal FOV with 28" screen would be about 50cm, and far about 1m.
+
+.. tabs::
+
+   .. tab:: Normal FOV
+
+      .. figure:: /_static/images/calibration/nfov_views.jpg
+
+        :target: https://docs.luxonis.com/projects/hardware/en/latest/_images/nfov_views.jpg
+
+        Camera poses in respect to the calibration board (black dots), Normal FOV
+
+   .. tab:: Wide FOV
+
+      .. figure:: /_static/images/calibration/wfov_views.jpg
+
+        :target: https://docs.luxonis.com/projects/hardware/en/latest/_images/nfov_views.jpg
+
+        Camera poses in respect to the calibration board (black dots), Wide FOV
 
 Modular cameras calibration
 ***************************
@@ -118,7 +182,7 @@ In the board config we define the cameras, their sockets and their positions rel
    - translation [x, y, z]
    - rotation [r, p, y]
 
-Example for OAK FFC 4P with two OV9282 (PY003) cameras in stereo setup with 14.8cm basline, along with IMX378 (PY052) positioned between, 5cm from the right mono camera:
+Example for OAK-FFC-4P with two OV9282 (PY003) cameras in stereo setup with 14.8cm basline, with IMX378 (PY052) between them, 5cm from the right mono camera:
 
 .. code-block::
 
@@ -180,11 +244,11 @@ Example for OAK FFC 4P with two OV9282 (PY003) cameras in stereo setup with 14.8
 
 
 
-Having set up the board config, we can now run the calibration with name of the json config as board name. Since we named the config file :code:`OAK-FFC-4P.json`, we'll run the calibration as:
+Having set up the board config, we can now run the calibration with name of the json config as board name. Since we named the config file ``OAK-FFC-4P.json``, we'll run the calibration as:
 
 .. code-block:: bash
 
-  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P -ih
+  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P.json
 
 Run :code:`python3 calibrate.py --help` (or :code:`-h`) for a full list of arguments and usage examples.
 
@@ -233,7 +297,7 @@ When running the calibration, we'll use the same command as before, but with the
 
 .. code-block:: bash
 
-  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P -drgb -ih
+  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P -drgb
 
 
 Position the charuco board and capture images
