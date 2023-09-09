@@ -42,15 +42,15 @@ We have found the best results by displaying the charuco board to a TV or a larg
 more charuco markers to be visible in the image, which typically improves the calibration accuracy. Depending on the screen size (diagonal, in inches), we suggest
 displaying the following charuco board in full-screen:
 
-- `24" screen, 13 squaresX, 7 squaresY Charuco board <https://drive.google.com/file/d/1UbIUsHvJggqoQXM5yVx2kKj9EpmqpfI8/view?usp=sharing>`__
-- `28" screen, 15 squaresX, 8 squaresY Charuco board <https://drive.google.com/file/d/1SYxudYAoB9ObYd7WZFNTZdwv7zFMnCQq/view?usp=sharing>`__
-- `32" screen, 17 squaresX, 9 squaresY Charuco board <https://drive.google.com/file/d/1L5G6WZ4U3FbSZi6-xM0tep9VSOrg9942/view?usp=sharing>`__
-- `36" screen, 19 squaresX, 11 squaresY Charuco board <https://drive.google.com/file/d/1_vPt_f79UDhAm0Vsh91w8in2_ejcNxzl/view?usp=sharing>`__
-- `42" screen, 22 squaresX, 12 squaresY Charuco board <https://drive.google.com/file/d/1C_L_r3zLtdO1u4U8M7x0k-o3G8b-GQrT/view?usp=sharing>`__
-- `50" screen, 27 squaresX, 15 squaresY Charuco board <https://drive.google.com/file/d/1rKoAboqAHlpbh02Cii5ozalN3RYHb5hp/view?usp=sharing>`__
-- `55" screen, 30 squaresX, 17 squaresY Charuco board <https://drive.google.com/file/d/1c_hvkrekhD_5fJdx9WIS-WXweBDkY0b1/view?usp=sharing>`__
-- `65" screen, 35 squaresX, 20 squaresY Charuco board <https://drive.google.com/file/d/1FWBRHwsyN7tIaQwvtckLEFyvTItv5N_h/view?usp=sharing>`__
-- `75" screen, 41 squaresX, 23 squaresY Charuco board <https://drive.google.com/file/d/1XCN8nuZOJNgH3DAXi5RBRELlvPzXQ3je/view?usp=sharing>`__
+- `24" screen, 13 squaresX, 7 squaresY Charuco board <https://drive.google.com/file/d/1phwh_6jrwDddYP2Efb-Mw93e1H_d3j4F/view?usp=drive_link>`__
+- `28" screen, 15 squaresX, 8 squaresY Charuco board <https://drive.google.com/file/d/1FV2jNvzMkOBqdP_a8ULEGKOZxR5c-rWU/view?usp=drive_link>`__
+- `32" screen, 17 squaresX, 9 squaresY Charuco board <https://drive.google.com/file/d/1oR_WLaL2iXKXkWci68s55C38Bb74PJer/view?usp=drive_link>`__
+- `36" screen, 19 squaresX, 11 squaresY Charuco board <https://drive.google.com/file/d/1483YOjJro9FAKP0X0gweeoV1x4B5Np4b/view?usp=drive_link>`__
+- `42" screen, 22 squaresX, 12 squaresY Charuco board <https://drive.google.com/file/d/1W05dPQvk3F8YM8jpMG_GhubG46AbXtWX/view?usp=drive_link>`__
+- `50" screen, 27 squaresX, 15 squaresY Charuco board <https://drive.google.com/file/d/1qb4z0omvHa0z1G3AtqMa9gCdykPQiuKX/view?usp=drive_link>`__
+- `55" screen, 30 squaresX, 17 squaresY Charuco board <https://drive.google.com/file/d/13hSTA2NUSoKyZFqzE4NRw6csfO7fMHX7/view?usp=drive_link>`__
+- `65" screen, 35 squaresX, 20 squaresY Charuco board <https://drive.google.com/file/d/1Hc3L3w9g4otGoJvRtgJmA3-Sg1RLjVGF/view?usp=drive_link>`__
+- `75" screen, 41 squaresX, 23 squaresY Charuco board <https://drive.google.com/file/d/1pyGY5CPhn09Vdxb9wH90SoBFKzu4OYww/view?usp=drive_link>`__
 
 If you have a different screen size, we suggest rounding down, so for eg. 30" screen, use 15 squaresX, 8 squaresY Charuco board.
 
