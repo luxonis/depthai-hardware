@@ -1,8 +1,10 @@
 IMX462
 ======
 
-Sony's IMX462 is a 1080P rolling shutter color image sensor. It has great low-light performance, as it's
+Sony's IMX462 (`datasheet here <https://www.sony-semicon.com/files/62/flyer_security/IMX462LQR_Flyer.pdf>`__) is a 1080P rolling shutter color image sensor. It has great low-light performance, as it's
 part of Sony's `STARVIS <https://www.sony-semicon.com/en/technology/security/index.html>`__ series of sensors.
+
+
 
 Sensor specs
 ############
