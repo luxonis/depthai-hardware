@@ -1,1 +1,1 @@
-Moved to https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-LR/BC2087_OAK_D_LR.STEP
+- [OAK-D-LR PCBA STEP](https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-LR/OAK-D-LR_PCBA.STEP)
