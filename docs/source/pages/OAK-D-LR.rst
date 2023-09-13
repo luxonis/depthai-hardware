@@ -178,8 +178,9 @@ Dimensions and Weight
 3D Models
 *********
 
-- Board (PCBA) STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/3D_Models>`__
-- Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Mechanical>`__
+- PCBA Board `STEP here <https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-LR/OAK-D-LR_PCBA.STEP>`__
+- Enclosure `STEP here <https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-LR/OAK-D-LR_Enclosure.STEP>`__
+- Enclosure `STL here <https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-LR/OAK-D-LR_Enclosure.STL>`__
 
 Files
 *****
