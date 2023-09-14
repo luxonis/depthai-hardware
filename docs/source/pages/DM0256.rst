@@ -22,34 +22,24 @@ Camera module specifications
    :header-rows: 1
 
    * - Camera Specs
-     - Stereo pair / Color
      - ToF
    * - Sensor
-     - :ref:`OV9782` (**color**, PY074)
      - `33D ToF <https://semiconductor.samsung.com/image-sensor/tof-sensor/isocell-vizion-33d/>`__
    * - DFOV / HFOV / VFOV
-     - 89.5° / 80° / 55°
      - 82.3° / 70° / 54.7°
    * - Resolution
-     - 1MP (1280x800)
      - VGA (640x480)
    * - Range / Focus
-     - FF: 20cm - ∞
      - 20cm - 5m
    * - Max Framerate
-     - 120 FPS (800P)
      - 30 FPS (VGA)
    * - Pixel size
-     - 3µm x 3µm
      - 7µm x 7µm
    * - Lens size
-     - 1/4 inch
      - 1/3.2 inch
    * - F-number
-     - 2.0 ±5%
      - 1.45 ± 5%
    * - Distortion
-     - < 1%
      - < 1.5%
 
 .. image:: /_static/images/DM0256/33d-back.png
