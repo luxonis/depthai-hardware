@@ -16,15 +16,7 @@ To **stay up to date, consider subscribing** to the `RVC4 newsletter <https://sh
 RVC4 Timeline
 *************
 
-RVC4 is currently in the development phase. We are planning to early-release some RVC4 devices in Q4 2023.
-
-- Q1: Started with hardware design of SOM and internal development board
-- Q2: Received development board and started with Linux development
-- Q3 (Planned): Start porting our DepthAI features to the new SoC.
-- Q4 (Planned): Porting DepthAI features, start developing ecosystem around the new RVC (eg. model tools, SDK, blobconverter, tutorials, docs, etc.). Early release of RVC4 device (likely a :ref:`FFC baseboard <>`).
-- Q1/Q2 2024 (Planned): Official release of RVC4 devices
-
-We will also be releasing more information / test results as we progress.
+RVC4 is currently in the development phase. We plan to release RVC4-based devices in 2024. We will also be releasing more information / test results as we progress.
 
 RVC4 Computer vision engine
 ***************************
