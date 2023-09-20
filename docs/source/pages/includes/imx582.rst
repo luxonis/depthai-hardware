@@ -22,7 +22,5 @@ Camera module specifications
     - 1/2 inch
   * - Effective Focal Length
     - 4.74mm
-  * - Distortion
-    - < 1.5%
   * - Pixel size
     - 0.8µm x 0.8µm

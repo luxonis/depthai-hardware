@@ -67,9 +67,6 @@ Camera module specifications
    * - F-number
      - 2.0 ±5%
      - 1.45 ± 5%
-   * - Distortion
-     - < 1%
-     - < 1.5%
 ..
    * - Effective Focal Length
      - 2.35mm

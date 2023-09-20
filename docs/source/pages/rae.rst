@@ -65,9 +65,6 @@ Specification overview
    * - Effective Focal Length
      - 2.26mm
      - 1.69mm
-   * - Distortion
-     - < 11%
-     - < 38%
    * - Pixel size
      - 1.55µm x 1.55µm
      - 3µm x 3µm
@@ -100,8 +97,19 @@ Getting started
 
 Press the power button, which is located on the bottom side of the rae, to turn it on. Press the power button twice to shut it down.
 
-Connecting to rae
+Deploying apps via RobotHub
+---------------------------
+
+`RobotHub <https://www.luxonis.com/robothub>`__ is our cloud control platform, allowing users to connect easily to our devices. You can just scan the QR code (generated for you), and the rae will connect to our cloud
+platform through your WiFi. This will allow users to easily deploy pre-made apps, such as Follow-Me, Floor/3D Mapping, Sentry Mode, etc. with a click of a button. As RobotHub frontend is mobile-native, these apps
+(their frontend control part) will also work on mobile devices and will be open-source, so users will be able to build their solutions on top of them. `See the documentation here <https://docs-beta.luxonis.com/deploy/connect-device/RAE>`__
+on how to **connect the rae to the RobotHub**.
+
+Direct connection
 -----------------
+
+Besides deploying apps (docker containers with scripts inside) via RobotHub, one can also connect to the rae directly via SSH, and control the robot that way. This path is more suited for developers who don't mind
+diving deep into the perception, navigation, and ROS logic. The best path to get started would be through with `the rae-ros Github repository <https://github.com/luxonis/rae-ros>`__.
 
 .. tabs::
 

@@ -181,6 +181,6 @@ We have also tested the devices at the lowest ambient temperature of -25.1°C an
    :maxdepth: 1
    :hidden:
 
-   pages/articles/lite_temp_test.rst
+   lite_temp_test.rst
 
 .. include::  /pages/includes/footer-short.rst

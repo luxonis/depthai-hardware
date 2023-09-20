@@ -53,8 +53,6 @@ For communication and power, the OAK-D LR camera uses **either**:
      - 1/4 inch
    * - Effective Focal Length
      - 2.35mm
-   * - Distortion
-     - < 1%
 
 
 Depth accuracy

@@ -68,10 +68,12 @@ Supported resolutions
 
 * Arducam short FPC:
 
-    * NFOV AF (PY047) - 81° DFOV, 69° HFOV, 54° VFOV, EFL: 3.37, F. NO: 2.2±5%, Distortion: < 1%, Lens Size: 1/3.1"
-    * NFOV FF (PY062) - 81° DFOV, 69° HFOV, 54° VFOV, EFL: 3.37, F. NO: 2.2±5%, Distortion: < 1%, Lens Size: 1/3.1"
-    * WFOV FF (PY061) - 117° DFOV, 105° HFOV, 88° VFOV, EFL: 2.26, F. NO: 2.2±5%, Distortion: < 11%, Lens Size: 1/3.1"
-    * WFOV FF (PY138W), 5cm long connector - 117° DFOV, 105° HFOV, 88° VFOV, EFL: 2.26, F. NO: 2.2±5%, Distortion: < 11%, Lens Size: 1/3.1"
+    * NFOV AF (PY047) - 81° DFOV, 69° HFOV, 54° VFOV, EFL: 3.37, F. NO: 2.2±5%, Lens Size: 1/3.1"
+    * NFOV FF (PY062) - 81° DFOV, 69° HFOV, 54° VFOV, EFL: 3.37, F. NO: 2.2±5%, Lens Size: 1/3.1"
+    * WFOV FF (PY061) - 117° DFOV, 105° HFOV, 88° VFOV, EFL: 2.26, F. NO: 2.2±5%, Lens Size: 1/3.1"
+    * WFOV FF (PY138W), 5cm long connector - 117° DFOV, 105° HFOV, 88° VFOV, EFL: 2.26, F. NO: 2.2±5%, Lens Size: 1/3.1"
+
+
 
 .. include::  /pages/articles/sensors/includes/image_quality_comparison.rst
 

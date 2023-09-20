@@ -21,7 +21,5 @@
      - 1/4 inch
    * - Effective Focal Length
      - 1.69mm
-   * - Distortion
-     - < 38%
    * - Pixel size
      - 3µm x 3µm

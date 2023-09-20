@@ -16,7 +16,7 @@ To **stay up to date, consider subscribing** to the `RVC4 newsletter <https://sh
 RVC4 Timeline
 *************
 
-RVC4 is currently in the development phase. We plan to release RVC4-based devices in 2024. We will also be releasing more information / test results as we progress.
+RVC4 is currently in the development phase. Our current plan is to release RVC4-based devices in Q2 2024. We will also be releasing more information / test results as we progress.
 
 RVC4 Computer vision engine
 ***************************
@@ -37,7 +37,7 @@ RVC4's Image Signal Processor (ISP) has the following features:
 - High throughput: Up to 3x 8K @ 30FPS, or 1x 108MP @ 30FPS
 - 3A (Auto Exposure, Auto White Balance, Auto Focus)
 - Supports 18 bpp (bits-per-pixel)
-- Always-on camera (dedicated low-power island), up to 10FPS at VGA resolution + dedicated low-power NPU (Neural Processing Unit) for image processing
+- Low-power camera mode (dedicated low-power island), up to 10FPS at VGA resolution + dedicated low-power NPU (Neural Processing Unit) for image processing
 - Hardware HDR: Staggered HDR, digital overlap, non-overlap
 - Image stabilization (EIS), good low-light performance
 
@@ -90,6 +90,7 @@ Users will have full access to the power of the RVC4:
 - Easy development & deployment of **custom containerized apps** will be possible out-of-the-box via `RobotHub <https://www.luxonis.com/robothub>`__
 - Develop and run fast CV pipelines on top of accelerated hardware blocks using `Halide <https://halide-lang.org/>`__
 - Interface with GPIOs and communication interfaces
+
 ..
     - Full access to the **Linux OS**, which allows users to rebuilt their OS, install custom packages, add custom drivers, etc.
 

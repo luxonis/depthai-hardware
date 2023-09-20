@@ -53,10 +53,10 @@ Supported resolutions
 
 * Sunny style long FPC:
 
-  * NFOV FF (PY013) - 86° DFOV, 73° HFOV, 58° VFOV, EFL: 1.24, F. NO: 2.0±5%, Distortion: < 1.5%, Lens Size: 1/7" - on all :ref:`OAK-D-Lite` cameras
+  * NFOV FF (PY013) - 86° DFOV, 73° HFOV, 58° VFOV, EFL: 1.24, F. NO: 2.0±5%, Lens Size: 1/7" - on all :ref:`OAK-D-Lite` cameras
 * Arducam short FPC:
 
-  * WFOV FF (PY030) - 166° DFOV, 163° HFOV, 157° VFOV, EFL: 0.83, F. NO: 2.0±5%, Distortion: < -36.67%, Lens Size: 1/7.5"
+  * WFOV FF (PY030) - 166° DFOV, 163° HFOV, 157° VFOV, EFL: 0.83, F. NO: 2.0±5%, Lens Size: 1/7.5"
 
 Additional images
 #################

@@ -68,11 +68,11 @@ Supported resolutions
   * WFOV FF NoIR (`shop <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__) - 150° DFOV, 127° HFOV, 79.5° VFOV
 * Arducam short FPC:
 
-  * NFOV FF (PY003) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Distortion: < 1%, Lens Size: 1/4"
-  * NFOV FF Notch filter 940nm (PY091) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Distortion: < 1%, Lens Size: 1/4"
-  * WFOV FF (PY059) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
-  * WFOV FF NoIR (PY075WN) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
-  * WFOV FF Notch filter 940nm (PY097W) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Distortion: < 38%, Lens Size: 1/4"
+  * NFOV FF (PY003) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Lens Size: 1/4"
+  * NFOV FF Notch filter 940nm (PY091) - 89.5° DFOV, 80° HFOV, 55° VFOV, EFL: 2.35, F. NO: 2.0±5%, Lens Size: 1/4"
+  * WFOV FF (PY059) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Lens Size: 1/4"
+  * WFOV FF NoIR (PY075WN) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Lens Size: 1/4"
+  * WFOV FF Notch filter 940nm (PY097W) - 150° DFOV, 127° HFOV, 79.5° VFOV, EFL: 1.69, F. NO: 2.0±5%, Lens Size: 1/4"
 
 .. note::
   Series 1 OAK-D cameras (:ref:`OAK-D`, :ref:`OAK-D-PoE`, :ref:`OAK-D-CM3`, etc.) have Sunny's long FPC NFOV IR OV9282

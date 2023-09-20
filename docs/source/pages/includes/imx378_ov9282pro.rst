@@ -33,9 +33,6 @@ You can select either **FF or AF** color camera, more :ref:`information here <Au
    * - Effective Focal Length
      - 4.81mm
      - 2.35mm
-   * - Distortion
-     - < 1% AF, < 1.5% FF
-     - < 1%
    * - Pixel size
      - 1.55µm x 1.55µm
      - 3µm x 3µm

@@ -39,8 +39,6 @@ Camera module specifications
      - 1/3.2 inch
    * - F-number
      - 1.45 ± 5%
-   * - Distortion
-     - < 1.5%
 
 .. image:: /_static/images/DM0256/33d-back.png
 

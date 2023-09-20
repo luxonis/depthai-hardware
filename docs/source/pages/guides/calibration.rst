@@ -152,15 +152,11 @@ Close for Normal FOV with 28" screen would be about 50cm, and far about 1m.
 
       .. figure:: /_static/images/calibration/nfov_views.jpg
 
-        :target: https://docs.luxonis.com/projects/hardware/en/latest/_images/nfov_views.jpg
-
         Camera poses in respect to the calibration board (black dots), Normal FOV
 
    .. tab:: Wide FOV
 
       .. figure:: /_static/images/calibration/wfov_views.jpg
-
-        :target: https://docs.luxonis.com/projects/hardware/en/latest/_images/nfov_views.jpg
 
         Camera poses in respect to the calibration board (black dots), Wide FOV
 
@@ -323,26 +319,7 @@ which can be used to overcome distortions in stereo node for camera modules with
 Test depth
 **********
 
-We'll view the depth stream to ensure the cameras are calibrated correctly:
-
-1. Start a terminal session.
-2. Access your local copy of `depthai <https://github.com/luxonis/depthai>`__.
-
-  .. code-block:: bash
-
-    cd path/to/depthai
-
-3. Run test script.
-
-  .. code-block:: bash
-
-    python3 depthai_demo.py
-
-  The script launches a window, starts the cameras, and displays a depth video stream:
-
-  .. image:: /_static/images/products/calibration-depth.png
-
-  In the screenshot above, the hand is closer to the camera.
+For testing depth quality, we suggest using DepthAI Viewer (`PyPi <https://pypi.org/project/depthai-viewer/>`__), which can be installed by following `Getting Started instructions <https://docs.luxonis.com/en/latest/pages/tutorials/first_steps/#first-steps-with-depthai>`__.
 
 Troubleshooting
 ***************
