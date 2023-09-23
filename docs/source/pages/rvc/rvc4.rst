@@ -5,10 +5,10 @@ Robotics Vision Core 4
 
 **Robotics Vision Core 4** (**RVC4** in short) is the fourth generation of our RVC. Main specs:
 
-- Octa-core ARM CPU running Linux OS (Yocto Kirkstone, Kernel 5.15)
+- **Octa-core** ARM CPU running **Linux** (Kernel 5.15)
 - :ref:`AI <RVC4 AI>`: 48 INT8, 12 FP16 TOPS
 - :ref:`Computer vision <RVC4 Computer vision engine>`: Stereo depth, frame warp engine, optical flow, feature detection, description matching, template matching
-- :ref:`ISP <RVC4 Image Signal Processor>`: 5 camera streams, HDR, EIS, 3A, AON, up to 3x 8K @ 30FPS
+- :ref:`ISP <RVC4 Image Signal Processor>`: 5 camera streams, HDR, EIS, 3A, up to 3x 8K @ 30FPS
 - Encoding: 4K @ 240FPS decoding, 4K @ 120FPS encoding for H264 and H265. Decoding also supported for VP9, AV1
 
 To **stay up to date, consider subscribing** to the `RVC4 newsletter <https://share-eu1.hsforms.com/1-0jqFzyITnu-etWvAp_dEwf2chh>`__.
