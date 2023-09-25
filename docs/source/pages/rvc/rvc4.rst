@@ -59,28 +59,96 @@ RVC4 NN model benchmarks:
     - Object detection
   * - YoloV6n
     - 512x288
-    - 1037
+    - 2340
     - Object detection
-  * - YoloV67-W6
+  * - YoloV7-W6
     - 640x640
-    - 88
+    - 162
     - Object detection
   * - ResNet-50
     - 224x224
-    - 370
+    - 934
     - Classification
   * - ViT-Tiny
     - 224x224
-    - 240
+    - 650
     - Classification
   * - BiSeNetv1-MBNV2
     - 512x228
-    - 317
+    - 647
     - Semantic segmentation
   * - eWaSR
     - 512x384
-    - 204
+    - 309
     - Semantic segmentation
+
+
+AI Power Consumption
+********************
+
+RVC4's AI system is designed to be power-efficient and configurable to the user's needs. The AI system can be configured to run at different power levels, which will affect the performance of the AI system.
+The following table shows the power consumption of the AI system at different power levels:
+
+.. list-table::
+  :header-rows: 1
+
+  * - Model name
+    - Low FPS
+    - Medium FPS
+    - High FPS
+    - Max FPS
+  * - BiSeNet-MBNV2	(512x288)
+    - 80 [0.67 W]
+    - 133 [1.04 W]
+    - 391 [3.02 W]
+    - 647 [5 W]
+  * - eWaSR ResNet18 (512x384)
+    - 59 [0.79 W]
+    - 106 [1.51 W]
+    - 229 [3.55 W]
+    - 309 [5.25 W]
+  * - MobileVit-xxs	(224x224)
+    - 104 [0.63 W]
+    - 199 [1 W]
+    - 277 [1.82 W]
+    - 488 [3.27 W]
+  * - Repvgg_a2	(224x224)
+    - 181 [1.07 W]
+    - 327 [2.22 W]
+    - 466 [3.75 W]
+    - 1250 [10.4 W]
+  * - ResNet101	(224x224)
+    - 115 [1.05 W]
+    - 243 [2.4 W]
+    - 339 [3.57 W]
+    - 718 [8.62 W]
+  * - ResNet50-v2-7	(224x224)
+    - 145 [0.96 W]
+    - 260 [1.9 W]
+    - 380 [2.83 W]
+    - 934 [7.65 W]
+  * - ViT-Tiny patch16 (224x224)
+    - 124 [0.7 W]
+    - 228 [1.25 W]
+    - 300 [1.88 W]
+    - 615 [4.27 W]
+  * - Yolo6N (512x288)
+    - 190 [0.7 W]
+    - 307 [1.1 W]
+    - 702 [3.8 W]
+    - 2340 [7.5 W]
+  * - YoloV5M	(640x640)
+    - 48 [0.93 W]
+    - 72 [1.75 W]
+    - 212 [6.05 W]
+    - 280 [8.4 W]
+  * - YoloV7-W6	(640x640)
+    - 34 [1.05 W]
+    - 60 [2.48 W]
+    - 139 [7.45 W]
+    - 162 [7.85 W]
+
+Power measurements were taken of the whole RVC4 board during 10 second inference runs. So the AI power consumption is a bit less, as the rest of the chip (mainly CPU) is also consuming power.
 
 Custom applications
 -------------------
