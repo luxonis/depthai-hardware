@@ -84,7 +84,7 @@ RVC4 NN model benchmarks:
 
 
 AI Power Consumption
-********************
+--------------------
 
 RVC4's AI system is designed to be power-efficient and configurable to the user's needs. The AI system can be configured to run at different power levels, which will affect the performance of the AI system.
 The following table shows the power consumption of the AI system at different power levels:

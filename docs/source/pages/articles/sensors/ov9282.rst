@@ -83,6 +83,33 @@ Supported resolutions
 
   From left to right: Sunny style long FPC WFOV, Sunny style long FPC NFOV, Arducam short FPC NFOV
 
+Sensor driver
+#############
+
+Sensor driver adds support for that sensor to the Robotics Vision Core (RVC). Here are :ref:`RVC2 <RVC2>` driver specifications for this sensor:
+
+- Min exposure times:
+
+  - Manual: 10 us (microseconds)
+  - Auto-Exposure: 20 us
+- Min FPS: 1.6
+- Max exposure times:
+
+  - Manual: 1 / CAM_FPS (eg. 33ms @ 30FPS)
+  - Auto-Exposure:
+
+    - AntiBanding OFF: 33ms
+    - AntiBanding 50Hz: 30ms
+    - AntiBanding 60Hz: 25ms
+
+Max AE exposure time depends on the Anti-Banding (AB) mode, which helps to avoid flickering when using artificial lighting. We can configure the AB using the API:
+
+.. code-block:: python
+
+  cam = pipeline.create(dai.node.MonoCamera) # Or ColorCamera
+  # "OFF", "MAINS_50_HZ", or "MAINS_60_HZ"
+  cam.initialControl.setAntiBandingMode(dai.CameraControl.AntiBandingMode.OFF)
+
 Additional images
 #################
 
