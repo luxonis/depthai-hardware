@@ -63,17 +63,17 @@ Sensor driver adds support for that sensor to the Robotics Vision Core (RVC). He
 
 - Min exposure times:
 
-  - Manual: 10 us (microseconds)
+  - Manual: 2 us (microseconds)
   - Auto-Exposure: 110 us
-- Min FPS: 0.8
+- Min FPS: 1.1
 - Max exposure times:
 
   - Manual: 1 / CAM_FPS (eg. 33ms @ 30FPS)
   - Auto-Exposure:
 
-    - AntiBanding OFF: 16ms
-    - AntiBanding 50Hz: 10ms
-    - AntiBanding 60Hz: 8.3ms
+    - AntiBanding OFF: 33ms
+    - AntiBanding 50Hz: 30ms
+    - AntiBanding 60Hz: 25ms
 
 Max AE exposure time depends on the Anti-Banding (AB) mode, which helps to avoid flickering when using artificial lighting. We can configure the AB using the API:
 
