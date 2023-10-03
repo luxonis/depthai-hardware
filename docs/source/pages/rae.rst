@@ -42,11 +42,11 @@ Specification overview
      - :ref:`IMX214` (**color**, PY138)
      - :ref:`OV9782` (**color**, PY139)
    * - DFOV / HFOV / VFOV
-     - 117° / 105° / 88°
-     - 150° / 128° / 80°
+     - `117° / 105° / 88° <https://fov.luxonis.com/?horizontalFov=105&verticalFov=88&horizontalResolution=4208&verticalResolution=3120>`__
+     - `150° / 128° / 80° <https://fov.luxonis.com/?horizontalFov=128&verticalFov=80&horizontalResolution=1280&verticalResolution=800>`__
    * - Rectified Depth FOV
      - N/A
-     - 106°/97°/70°
+     - `106° / 97° / 70° <https://fov.luxonis.com/?horizontalFov=97&verticalFov=70&horizontalResolution=1280&verticalResolution=800>`__
    * - Resolution
      - 13MP (4208x3120)
      - 1MP (1280x800)

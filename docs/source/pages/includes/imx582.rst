@@ -9,7 +9,7 @@ Camera module specifications
   * - Sensor
     - :ref:`IMX582` (PY080)
   * - DFOV / HFOV / VFOV
-    - 71° / 45° / 55°
+    - `71° / 45° / 55° <https://fov.luxonis.com/?horizontalFov=45&verticalFov=55&horizontalResolution=5312&verticalResolution=6000>`__
   * - Resolution
     - 32MP (5312x6000)
   * - Focus
