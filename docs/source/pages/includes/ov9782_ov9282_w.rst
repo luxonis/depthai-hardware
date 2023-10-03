@@ -12,7 +12,7 @@
      - `150° / 128° / 80° <https://fov.luxonis.com/?horizontalFov=128&verticalFov=80&horizontalResolution=1280&verticalResolution=800>`__
    * - Rectified Depth FOV
      - N/A
-     - 106°/97°/70°
+     - `106° / 97° / 70° <https://fov.luxonis.com/?horizontalFov=97&verticalFov=70&horizontalResolution=1280&verticalResolution=800>`__
    * - Resolution
      - 1MP (1280x800)
      - 1MP (1280x800)
