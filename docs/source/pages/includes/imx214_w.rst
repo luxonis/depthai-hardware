@@ -9,7 +9,7 @@ Camera module specifications
    * - Sensor
      - :ref:`IMX214` (PY061)
    * - DFOV / HFOV / VFOV
-     - 117° / 105° / 88°
+     - `117° / 105° / 88° <https://fov.luxonis.com/?horizontalFov=105&verticalFov=88&horizontalResolution=4208&verticalResolution=3120>`__
    * - Resolution
      - 13MP (4208x3120)
    * - Focus

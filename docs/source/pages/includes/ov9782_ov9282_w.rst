@@ -8,8 +8,8 @@
      - :ref:`OV9782` (PY058)
      - :ref:`OV9282` (PY059)
    * - DFOV / HFOV / VFOV
-     - 150°/128°/80°
-     - 150°/128°/80°
+     - `150° / 128° / 80° <https://fov.luxonis.com/?horizontalFov=128&verticalFov=80&horizontalResolution=1280&verticalResolution=800>`__
+     - `150° / 128° / 80° <https://fov.luxonis.com/?horizontalFov=128&verticalFov=80&horizontalResolution=1280&verticalResolution=800>`__
    * - Rectified Depth FOV
      - N/A
      - 106°/97°/70°

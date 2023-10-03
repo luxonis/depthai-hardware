@@ -9,7 +9,7 @@ Camera module specifications
    * - Sensor
      - :ref:`IMX378` (PY004 AF, PY052 FF)
    * - DFOV / HFOV / VFOV
-     - 81° / 69° / 55°
+     - `81° / 69° / 55° <https://fov.luxonis.com/?horizontalFov=69&verticalFov=55&horizontalResolution=4056&verticalResolution=3040>`__
    * - Resolution
      - 12MP (4056x3040)
    * - Focus

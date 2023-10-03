@@ -8,8 +8,8 @@
      - :ref:`IMX378` (PY060)
      - :ref:`OV9282` (PY097 BP @ 940nm)
    * - DFOV / HFOV / VFOV
-     - 120°/95°/70°
-     - 150°/128°/80°
+     - `120° / 95° / 70° <https://fov.luxonis.com/?horizontalFov=95&verticalFov=70&horizontalResolution=4056&verticalResolution=3040>`__
+     - `150° / 128° / 80° <https://fov.luxonis.com/?horizontalFov=128&verticalFov=80&horizontalResolution=1280&verticalResolution=800>`__
    * - Rectified Depth FOV
      - N/A
      - 106°/97°/70°

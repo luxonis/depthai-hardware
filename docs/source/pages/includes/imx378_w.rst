@@ -8,7 +8,7 @@
     * - Shutter
       - rolling
     * - DFOV / HFOV / VFOV
-      - 120°/95°/70°
+      - `120° / 95° / 70° <https://fov.luxonis.com/?horizontalFov=95&verticalFov=70&horizontalResolution=4056&verticalResolution=3040>`__
     * - Resolution
       - 12MP (4056x3040)
     * - Focus
