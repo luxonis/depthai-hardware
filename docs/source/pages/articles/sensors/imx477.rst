@@ -64,10 +64,6 @@ Supported resolutions
 * Arducam short FPC:
 
   * M12 AF (PY070) - WIP
-* Arducam longer FPC:
-
-  * AF (Motorized Focus)
-  * M12 FF
 
 Additional images
 #################

@@ -223,9 +223,7 @@ Arducam short FPC
 
   * PY013 - NFOV, FF, IR filter - 86° DFOV, 73° HFOV, 55° VFOV
   * PY030 - WFOV, FF, IR filter - 166° DFOV, 163° HFOV, 157° VFOV
-* :ref:`IMX477`
 
-  * PY070 - M12-mount lenses, mechanical focus
 * :ref:`IMX582`
 
   * PY080 - NFOV, AF, IR filter - 71° DFOV, 45° HFOV, 55° VFOV
@@ -233,13 +231,9 @@ Arducam short FPC
   * PY102 - NFOV, FF, BandPass @ 940nm - 71° DFOV, 45° HFOV, 55° VFOV
   * PY106 - NFOV, FF, IR filter - 71° DFOV, 45° HFOV, 55° VFOV
   * PY107 - WFOV, FF, IR filter  - 109° DFOV, 63° HFOV, 89° VFOV
-  * PY174 - M12-mount lenses, FF. Default lens: IR650, 82.4° DFOV
-  * PY175 - M12-mount lenses, FF. Default lens: NoIR filter, 82.4° DFOV
 * IMX577
 
   * PY090 - M12-mount lenses, FF. Default lens: IR filter, LN108 lens
-  * PY111 - M12-mount lenses, FF. Default lens: `M25156H18 <https://www.arducam.com/product/arducam-180-degree-fisheye-1-2-3-m12-mount-with-lens-adapter-for-raspberry-pi-high-quality-camera/>`__, IR650 filter, fisheye
-  * PY136 - M12-mount lenses, FF. Default lens: IR650 filter, fisheye LN108 lens
 
 * :ref:`AR0234`
 
