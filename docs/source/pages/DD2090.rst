@@ -41,6 +41,7 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
     # OAK-FFC-4P requires driving GPIO6 high (FSIN_MODE_SELECT) to connect together
     # the A+D FSIN group (4-lane pair) with the B+C group (2-lane pair)
     config = dai.Device.Config()
+    # For FFC-4P R6 (revision 6) or higher, we changed FSIN_MODE_SELECT from GPIO6 to GPIO38!
     config.board.gpio[6] = dai.BoardConfig.GPIO(dai.BoardConfig.GPIO.OUTPUT,
                                                 dai.BoardConfig.GPIO.Level.HIGH)
     with dai.Device(config) as device:
