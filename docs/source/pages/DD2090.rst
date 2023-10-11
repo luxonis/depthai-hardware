@@ -46,6 +46,8 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
     with dai.Device(config) as device:
         device.startPipeline(pipeline)
 
+.. image:: /_static/images/FFC-4P/ffc-4p-sync.png
+
 Syncing with OAK-FFC-IR
 -----------------------
 
