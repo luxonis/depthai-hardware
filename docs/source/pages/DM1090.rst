@@ -100,6 +100,8 @@ USB designs with FFC camera boards contain 3 different iterations, below is a fl
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 3D Models
 *********
 

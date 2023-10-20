@@ -1,7 +1,7 @@
 .. _rvc4:
 
-Robotics Vision Core 4
-======================
+Robotics Vision Core 4 (RVC4)
+=============================
 
 **Robotics Vision Core 4** (**RVC4** in short) is the fourth generation of our RVC. Main specs:
 

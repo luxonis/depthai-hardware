@@ -1,7 +1,7 @@
 .. _rvc2:
 
-Robotics Vision Core 2
-======================
+Robotics Vision Core 2 (RVC2)
+=============================
 
 **Robotics Vision Core 2** (**RVC2** in short) is the second generation of our RVC. :ref:`OAK Series 2` and our initial devices
 are built on top of the RVC2.

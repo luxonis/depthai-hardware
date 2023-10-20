@@ -48,6 +48,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/rvc2_power_consumption_pro_poe.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Operational Temperature
 ***********************
 

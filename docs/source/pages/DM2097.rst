@@ -57,6 +57,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/rvc2_power_consumption_rpi.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Datasheet
 *********
 

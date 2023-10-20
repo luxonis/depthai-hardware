@@ -1,7 +1,7 @@
 .. _rvc3:
 
-Robotics Vision Core 3
-======================
+Robotics Vision Core 3 (RVC3)
+=============================
 
 **Robotics Vision Core 3** (**RVC3** in short) is the third generation of our RVC. :ref:`OAK Series 3` devices are built on top of the RVC3.
 

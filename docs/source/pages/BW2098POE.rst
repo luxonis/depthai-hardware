@@ -54,6 +54,8 @@ General information
 
 .. include:: /pages/includes/rvc2_power_consumption_poe.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Datasheet
 *********
 

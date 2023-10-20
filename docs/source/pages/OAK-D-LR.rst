@@ -175,6 +175,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/rvc2_power_consumption_poe.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 3D Models
 *********
 

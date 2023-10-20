@@ -62,6 +62,8 @@ LED indicates that the OAK-SoM is not in reset.
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Brochures
 *********
 

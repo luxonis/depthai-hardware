@@ -80,6 +80,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 ..
   Brochures
   *********

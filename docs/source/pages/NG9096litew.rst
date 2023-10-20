@@ -32,6 +32,8 @@ quality color camera - IMX378. Otherwise OAK-1-Lite W uses the same PCBA and enc
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Dimensions and Weight
 *********************
 * Width: 36 mm

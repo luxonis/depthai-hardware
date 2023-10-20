@@ -165,6 +165,8 @@ ToF vs Stereo for depth perception
 
 .. include:: /pages/includes/rvc2_power_consumption_poe.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 ..
   Brochures
   *********

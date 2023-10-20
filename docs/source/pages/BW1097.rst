@@ -58,6 +58,8 @@ for the two USB2.0 Type A ports and for the 10/100 Ethernet port.
 
 .. include:: /pages/includes/rvc2_power_consumption_rpi.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Brochures
 *********
 

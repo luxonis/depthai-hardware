@@ -92,6 +92,8 @@ temperature. Note that the stable image temperature of the camera sensor is 0 °
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 
+.. include:: /pages/includes/rvc2_operating_temp.rst
+
 Datasheet
 *********
 
