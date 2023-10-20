@@ -17,25 +17,12 @@ products being "outdated".
 We realize majority of people will buy the newer, pin-compatible version that is better, faster, cheaper, and generally more efficient.
 However, folks that absolutely need the exact version of an old product will still be able to buy it, as we will always offer it.
 
-**For example**, we are getting ready to release our **OAK-SoM-Pro S2** based on the MA2095. It is Electrically, Mechanically, and
-fully pin-compatible with the **OAK-SoM-Pro**, but based on :ref:`RVC3` instead of the :ref:`RVC2`.
+RVC2-based devices
+******************
 
-Only those who, for some reasons, absolutely want the lower performance version, will continue to buy the lower performance version.
-And as above, what this strategy allows is keeping long-term stock of everything.
-
-And in the worst-case situations where this doesn't work, we do what Mini Circuits does in the situation where the uncontrollable
-happens (eg. warehouse(s) holding these burn to the ground): we make as close-as-possible substitute and work with the customer
-to keep their products going.
-
-Wind down of Intel's RealSense
-******************************
-
-In August of 2021, Intel decided to "wind down" its RealSense products, which means the development of
-product will eventually be stopped. Since Myriad X are integrated into our :ref:`RVC2`, we want to reassure
-you that this has **no effect on our Movidius Myriad X SoC supply**, since that is a different group from
-RealSense. Furthermore, the Movidius team has gotten integrated into some huge areas silently, which has resulted
-in it having guaranteed production for quite a while. This way, we can **guarantee the production of our devices into 2028**
-and likely well past that. More information about this topic `here <https://discuss.luxonis.com/d/293-intel-winding-down-realsense/6>`__.
+In 2023, most of our products are :ref:`RVC2 <RVC2>` based, which utilizes Intel's Myriad X VPU. The VPU itself will be in production
+at least until 2026, and we will be able to manufacture and sell RVC2-based devices until **2030**. By then, we will have a few new generations
+of devices that will be better in all cases, and will be backwards compatible with the RVC2-based software.
 
 Conclusion
 **********
