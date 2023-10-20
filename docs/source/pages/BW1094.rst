@@ -40,6 +40,8 @@ General information
 
 .. image:: /_static/images/BW1094/rpi_hat_side.png
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Getting started
 ***************
 

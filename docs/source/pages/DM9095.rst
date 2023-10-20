@@ -90,6 +90,8 @@ temperature. Note that the stable image temperature of the camera sensor is 0 °
 
 .. image:: /_static/images/DM9095/oak-d-lite-thermals.jpg
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Datasheet
 *********
 

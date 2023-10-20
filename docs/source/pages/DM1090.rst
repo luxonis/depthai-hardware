@@ -65,7 +65,7 @@ General information
 .. image:: /_static/images/DM1090FFC/DM1090FFC_with_cameras.jpg
 
 .. include:: /pages/includes/ffc-depth-perception.rst
-  
+
 Getting started
 ***************
 
@@ -97,6 +97,8 @@ USB designs with FFC camera boards contain 3 different iterations, below is a fl
 
 .. note::
   The first two revisions (**BW1092FFC** and **DM1098FFC**) were also named **F1**, and the newest revision (**DM1090FFC**) is named **F2**.
+
+.. include:: /pages/includes/rvc2_power_consumption.rst
 
 3D Models
 *********

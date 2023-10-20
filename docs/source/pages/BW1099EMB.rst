@@ -51,6 +51,8 @@ General information
 * Boot Modes supported: USB, NOR (128MB)
 * Design files produced with Altium Designer 20
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Datasheet
 *********
 

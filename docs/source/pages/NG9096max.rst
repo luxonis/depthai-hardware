@@ -33,6 +33,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1093/oak-1-assembly.png
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 ..
     Datasheet
     *********

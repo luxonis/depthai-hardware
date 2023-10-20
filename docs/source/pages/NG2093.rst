@@ -63,6 +63,8 @@ Known errata
 
 - It is not possible to power the OAK-FFC-4P-POE via the USB-C connector. So to connect through the USB-C, you will need to power via RJ45 (POE).
 
+.. include:: /pages/includes/rvc2_power_consumption_poe.rst
+
 3D Models
 *********
 

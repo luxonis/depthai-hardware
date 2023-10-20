@@ -173,6 +173,8 @@ Dimensions and Weight
    * `Brochure <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Datasheet/OAK-D_brochure.pdf>`__
    * `Datasheet <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR/Datasheet/OAK-D_Datasheet.pdf>`__
 
+.. include:: /pages/includes/rvc2_power_consumption_poe.rst
+
 3D Models
 *********
 

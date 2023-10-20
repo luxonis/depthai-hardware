@@ -56,6 +56,8 @@ LED indicates that the OAK-SoM-IoT is not in reset.
 
 `Here is an example how to connect to the wifi and creates a basic http file server <https://github.com/luxonis/esp32-spi-message-demo/tree/main/jpeg_webserver_demo>`__.
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Datasheet
 *********
 

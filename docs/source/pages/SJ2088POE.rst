@@ -45,18 +45,12 @@ Board Layout
 .. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
 .. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
 
-Power usage
-***********
-
-Power usage  for OAK-D-PoE ranges between 2.00 W (standby) and 5.5 W (max consumption). More information on the power usage is below (`photo here <https://docs.luxonis.com/projects/hardware/en/latest/_images/OAK-D-PoE-power-usage.jpeg>`__):
-
-* Standby: 2.00 W
-* Normal operation (running :code:`python depthai_demo.py`): 5.25 W
-* Max consumption power (running :code:`python depthai_demo.py -s left right color disparity rectified_left depth`): 5.50 W
-
 .. include:: /pages/includes/poe_s1_getting_started.rst
 
 .. image:: /_static/images/SJ2088POE/oak-d-poe.png
+
+
+.. include:: /pages/includes/rvc2_power_consumption_poe.rst
 
 Datasheet
 *********

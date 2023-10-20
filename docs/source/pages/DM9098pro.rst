@@ -44,6 +44,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM9098/oak-d-pro-side-up.png
 
+.. include:: /pages/includes/rvc2_power_consumption_pro.rst
+
 Datasheet
 *********
 

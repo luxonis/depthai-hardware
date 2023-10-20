@@ -54,6 +54,8 @@ the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is confi
 
 .. image:: /_static/images/DM1092/DM1092_back.jpg
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 3D Models
 *********
 

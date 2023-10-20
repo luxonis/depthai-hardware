@@ -55,6 +55,9 @@ The reset button resets the OAK-SoM only. To reset the CM3/CM3+, ground the RUN 
 The PWR LED indicates "power good" for the BW1097 on-board PMIC. The ACT LED indicates activity on the CM3/CM3+ device. Other indicator LEDs exist 
 for the two USB2.0 Type A ports and for the 10/100 Ethernet port.
 
+
+.. include:: /pages/includes/rvc2_power_consumption_rpi.rst
+
 Brochures
 *********
 

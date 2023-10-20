@@ -128,6 +128,8 @@ General information
 
     **left**: OAK-SoM-Pro-S3 (RVC3), **right**: OAK-SoM-Pro (RVC2)
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Datasheets
 **********
 

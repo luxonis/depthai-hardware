@@ -45,6 +45,8 @@ Board Layout
 
 .. image:: /_static/images/DM1097/DM1097_side.jpg
 
+.. include:: /pages/includes/rvc2_power_consumption_rpi.rst
+
 3D Models
 *********
 

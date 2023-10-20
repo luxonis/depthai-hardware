@@ -52,6 +52,8 @@ General information
 
 .. include:: /pages/includes/poe_s1_getting_started.rst
 
+.. include:: /pages/includes/rvc2_power_consumption_poe.rst
+
 Datasheet
 *********
 

@@ -45,6 +45,8 @@ Dimensions and Weight
 
 .. include:: /pages/includes/imu_bno085.rst
 
+.. include:: /pages/includes/rvc2_power_consumption_pro.rst
+
 Datasheet
 *********
 

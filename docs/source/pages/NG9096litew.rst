@@ -30,6 +30,8 @@ OAK-1 W vs OAK-1-Lite W
 The only difference between these two models is the color camera sensor; OAK-1-Lite W uses IMX214 W while :ref:`ng9096w` uses a higher
 quality color camera - IMX378. Otherwise OAK-1-Lite W uses the same PCBA and enclosure as the OAK-1 W.
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Dimensions and Weight
 *********************
 * Width: 36 mm

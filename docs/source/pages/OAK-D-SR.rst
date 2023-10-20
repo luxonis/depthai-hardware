@@ -78,6 +78,8 @@ Dimensions and Weight
   The 5V LED indicates 5V power is present on the PCBA. The PG LED indicates "power good" from the OAK-SoM. The "RUN"
   LED indicates that the OAK-SoM is not in reset.
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 ..
   Brochures
   *********

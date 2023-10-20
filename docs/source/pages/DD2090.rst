@@ -89,6 +89,8 @@ General information
 
 .. image:: /_static/images/FFC-4P/OAK-FFC-4P.png
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 Getting started
 ***************
 

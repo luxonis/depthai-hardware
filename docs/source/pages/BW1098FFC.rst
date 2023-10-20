@@ -38,6 +38,8 @@ Dimensions and Weight
 
 .. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
 
+.. include:: /pages/includes/rvc2_power_consumption.rst
+
 General information
 *******************
 
