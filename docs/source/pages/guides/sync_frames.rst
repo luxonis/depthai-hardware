@@ -69,7 +69,6 @@ Script used is `available here <https://gist.github.com/Erol444/0138af63378dc8de
 
     Only global shutter (OV9282, OV9782, AR0234...) cameras support FSYNC triggering in photo/snapshot mode. Rolling shutter cameras (IMX378, IMX477, IMX577, etc) don't support it.
 
-
 Sensor FSYNC support
 --------------------
 
@@ -84,22 +83,22 @@ As noted above the paragraph, only some sensors support FSYNC syncing. There are
    * - Sensor
      - Shutter
      - Support
-   * - OV9282, OV9782
+   * - :ref:`OV9282`, :ref:`OV9782`
      - Global
      - FSYNC input/output, both continuous mode and snapshot (arbitrary external trigger) supported
-   * - OV7251
+   * - :ref:`OV7251`
      - Global
      - Should have the same hardware support as OV9*82, but not implemented in FW as of now
-   * - AR0234
+   * - :ref:`AR0234`
      - Global
      - FSYNC input, both continuous and snapshot mode supported
-   * - IMX378, IMX477, IMX577, IMX380
+   * - :ref:`IMX378`, :ref:`IMX477`, :ref:`IMX577`, :ref:`IMX380`
      - Rolling
      - FSYNC input, only continuous mode supported for rolling shutter sensors. Hardware also supports FSYNC output, but not implemented in FW yet
-   * - IMX582
+   * - :ref:`IMX582`
      - Rolling
      - Similar to IMX378, but not yet tested
-   * - IMX296 (RPi GS Camera)
+   * - :ref:`IMX296` (RPi GS Camera)
      - Global
      - Arbitrary external trigger supported on XTR/XTRIG pin. Pulse length determines exposure time (sensor feature). Continuous mode TODO (would be on another pin: XVS)
 
