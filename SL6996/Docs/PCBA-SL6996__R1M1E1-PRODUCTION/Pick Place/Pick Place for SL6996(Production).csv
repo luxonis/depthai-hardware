@@ -1,0 +1,21 @@
+Altium Designer Pick and Place Locations
+C:\Users\malov\AppData\Local\TempReleases\Snapshot\1\Assembly Production\Pick Place\Pick Place for SL6996(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       29/05/23
+Time:       13:20
+Revision:   Not in VersionControl
+Variant:    Production
+Units used: mm
+
+"Designator","Comment","Layer","Footprint","Center-X(mm)","Center-Y(mm)","Rotation","Description"
+"U1","NCP114AMX180TBG","TopLayer","FP-517CU-MFG","11.1995mm","4.8514mm","270","LDO Voltage Regulators 300 MA CMOS LDO AD O"
+"R2","RC0402FR-1310KL","TopLayer","RESC0402(1005)_L","12.2348mm","9.4108mm","270","RES SMD 10K OHM 1% 1/16W 0402"
+"R1","RC0402FR-1310KL","TopLayer","RESC0402(1005)_L","9.3064mm","9.2128mm","270","RES SMD 10K OHM 1% 1/16W 0402"
+"Q1","RE1C002UNTCL","TopLayer","RE1C002UNTCL","10.7362mm","9.1823mm","0","MOSFET N-CH 20V 0.2A EMT3"
+"J2","F52Q-1A7H1-11015","TopLayer","F52Q-1A7H1-11015-Footprint-1","18.4000mm","12.4000mm","90","FPC/FFC Connector Socket 15 Position 1mm Top Contact Solder Right Angle Surface Mount T/R"
+"J1","F32Q-1A7H1-11022","TopLayer","F32Q-1A7H1-11022","5.2000mm","12.4000mm","270","FPC/FFC Connector Socket 22 Position 0.5mm Top Contact Solder Right Angle Surface Mount T/R"
+"C2","GRM033R61A105ME15D","TopLayer","CAPC0201(0603)33_L","12.3952mm","4.7250mm","90","CAP CER 1UF 10V X5R 0201 20%"
+"C1","GRM155R60J106ME15D","TopLayer","CAPC0402(1005)70_L","9.2610mm","4.8220mm","90","CAP CER 10UF 6.3V X5R 0402 20%"
