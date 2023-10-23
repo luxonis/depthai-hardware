@@ -9,6 +9,7 @@ depends on camera FOV, resolution, and baseline- more information `here <https:/
 * :ref:`Stereo Depth Accuracy`: <3% error @ 6.5m, <5% error @ 12m
 
 .. image:: /_static/images/depth_error/oak-d-depth-error.png
+    :target: pages/guides/depth_accuracy
 
 
 **Extended** means that StereoDepth node has `Extended disparity <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#stereo-extended-disparity-mode>`__ mode enabled.
