@@ -247,6 +247,7 @@ Some **older models** can be :ref:`found here <Other models>`.
    pages/guides/sync_frames.rst
    pages/guides/raspberrypi.rst
    pages/guides/af_ff.rst
+   pages/guides/depth_accuracy.rst
 
 .. toctree::
    :maxdepth: 0
