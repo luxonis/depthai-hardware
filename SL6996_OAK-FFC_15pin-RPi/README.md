@@ -33,7 +33,9 @@ This repository contains open hardware designed by Luxonis. Adapter board is mea
 
 # Getting started
 
-RPi cameras with 15-pin FFC connector can be connected with adapter including 15-pin FFC and with use of 26 --> 22pin adapter cable that is already part of the OAK-FFC-**P package. 
+RPi cameras with 15-pin FFC connector can be connected with adapter including 15-pin FFC and with use of 26 --> 22pin adapter cable that is already part of the OAK-FFC-**P package. Connection scheme can be seen on the below photo. 
+
+![](Images/Adapter_connection.jpg)
 
 
 # Revision info
