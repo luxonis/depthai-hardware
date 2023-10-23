@@ -49,7 +49,7 @@ Current S2 OAK POE require between 10V-24V on M8 FSYNC line in order to trigger 
 This means that you can't directly daisy chain multiple OAK cameras (where one is the "FSYNC Host" and others are "FSYNC Peripherals"),
 but a an external 10V+ FSYNC signal is required, such as from a signal generator.
 
-**Future S2 OAK POE** devices (ETA Q1 2024) won't require external FSYNC signal, and will be able to daisy chain multiple cameras directly (as per :ref:`Getting Started` section).
+**Future S2 OAK POE** devices (ETA Q2 2024) won't require external FSYNC signal, and will be able to daisy-chain multiple cameras directly (as per :ref:`Getting Started` section).
 
 One could also use level shifter to convert 5V output (from "FSYNC Host device") to 10V.
 
