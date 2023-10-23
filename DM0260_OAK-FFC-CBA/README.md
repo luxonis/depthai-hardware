@@ -1,13 +1,13 @@
-# DM0260_R1M0E0 Camera Board Assembly
+# DM0260_R2M1E1 Camera Board Assembly
 
-[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/arducam.html#ffc-camera-modules)
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/ffc-cameras/)
 
 ![](Images/OAK-FFC-CBA_front.jpg)
 
 # Overview
-This repository contains open hardware designed by Luxonis. The DM0260 is a carrier board for the ArduCam camera modules, and is designed to be compatible with all [Modular Cameras](https://docs.luxonis.com/projects/hardware/en/latest/#modular-camera-designs) which are OAK-FFC-3P, OAK-FFC-4P and OAK-FFC-6P (more to come).
+This repository contains open hardware designed by Luxonis. The DM0260 is a carrier board for the ArduCam camera modules and is designed to be compatible with all [Modular Cameras](https://docs.luxonis.com/projects/hardware/en/latest/#modular-camera-designs) which are OAK-FFC-3P, OAK-FFC-4P and OAK-FFC-6P (more to come).
 
-The advantage of this new OAK-FFC-CBA design is that it can support various Compact Camera Modules from Arducam which are interfacing over standard 33-pin camera FPC. Supported cameras are listed [here](https://docs.luxonis.com/projects/hardware/en/latest/pages/arducam.html#ffc-camera-modules) but you must exclude those with an M12 lens mount, which are not officially supported due to different FPC lengths and mechanical restrictions resulting from the mount.    
+The advantage of this new OAK-FFC-CBA design is that it can support various Compact Camera Modules from Arducam which are interfacing over standard 33-pin camera FPC. Supported cameras are listed [here](https://docs.luxonis.com/projects/hardware/en/latest/pages/arducam.html#ffc-camera-modules), it also supports M12 lens mount.    
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -22,7 +22,8 @@ The advantage of this new OAK-FFC-CBA design is that it can support various Comp
 * Aux/Control signals to camera module
 * 3V3 power input via FFC
 * On-board power generation for camera modules (two assembly variants covering all supported sensors in Luxonis products)
-* Design files produced with Altium Designer 22
+* Support for M12 lens mount
+* Design files produced with Altium Designer 23
 
 # Board layout & dimensions
 
@@ -38,4 +39,4 @@ The 0.5mm pitch, 26-pin 15cm long FFC is included with each camera that is sold 
 ![](Images/FFC_orientation2.jpg)
 
 # Revision info
-These files represent the R1M0E0 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R2M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.

@@ -1,12 +1,12 @@
 Altium Designer Pick and Place Locations
-C:\A365\DM0260\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM0260(Production_1V2).csv
+C:\Users\Public\Documents\Altium\DM0260\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for DM0260(Production_1V2).csv
 
 ========================================================================================================================
 File Design Information:
 
-Date:       19/08/22
-Time:       14:35
-Revision:   f7a1543da0fbbbc4d75500086768df1ddd66a0df
+Date:       07/11/22
+Time:       16:52
+Revision:   f84ac81b8057b0375798451be6524b4011c61389
 Variant:    Production_1V2
 Units used: mm
 
@@ -31,10 +31,10 @@ Units used: mm
 "FB3","-7.2500mm","7.2500mm","90","TopLayer","2508056017Y2","2508056017Y2","2508056017Y2 Chip Inductor, 2-Leads, Body 2.00x1.25mm","FERRITE BEAD, 0.1OHM, 2A, 0805, 600R/100MHz","600R/100MHz"
 "FID1","-5.5000mm","-7.5000mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
 "FID2","10.3000mm","6.8000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
-"FID3","-10.2000mm","-7.2000mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
-"FID4","10.6000mm","-3.5000mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID3","-10.9250mm","-5.3250mm","90","BottomLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
+"FID4","10.9250mm","-7.4250mm","90","TopLayer","","FIDUCIAL_ROUND_1MM","Round, 1mm dia","Fiducial with various available footprints","FIDUCIAL_ROUND_1MM"
 "J1","0.0000mm","-4.6760mm","0","TopLayer","F32R-1A7H1-11026","F32R-1A7H1-11026","26pin Molex FFC 0.5mm Bottom","26 Position FFC, FPC Connector Contacts, Bottom 0.020" (0.50mm) Surface Mount, Right Angle","FLEX CONNECTOR, 0.50MM PITCH, HE"
-"J2","0.0122mm","9.8593mm","0","BottomLayer","FH26W-33S-0.3SHW(60)","AC-PY004-IMX378","connector: FH26W-33S-0.3SHW","FFC/FPC Connector, 33 Contact(s), 1 Row(s), Female, Right Angle, Surface Mount Terminal","FH26W-33S-0.3SHW(60)"
+"J2","0.0122mm","9.8593mm","0","BottomLayer","FH26W-33S-0.3SHW(60)","AC-PY003-OV9282","connector: FH26W-33S-0.3SHW","FFC/FPC Connector, 33 Contact(s), 1 Row(s), Female, Right Angle, Surface Mount Terminal","AC_PY003-OV9282_CON"
 "L1","-2.8500mm","12.6500mm","270","TopLayer","DFE252012P-1R0M=P2","DFE252012P-1R0M=P2","Chip Inductor, 2-Leads, Body 2.40x2.00mm, IPC High Density","FIXED IND 1UH 3.2A 42 MOHM SMD","1uH, 3.2A, 20%"
 "MTG1","-10.5000mm","12.5310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
 "MTG2","10.5000mm","12.5310mm","90","TopLayer","","MOUNTING_HOLE_M2_RPI_CAM","NPTH 2.2mm Hole Used in Raspberry Pi Camera","=CurrentFootprint","MOUNTING_HOLE_M2_RPI_CAM"
