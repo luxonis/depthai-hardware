@@ -1,2 +1,1 @@
-Moved to https://oak-files....
-
+Moved to https://oak-files.fra1.cdn.digitaloceanspaces.com/SL6996/SL6996_PCBA.step
