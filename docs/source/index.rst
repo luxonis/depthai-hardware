@@ -203,7 +203,6 @@ open-source hardware designs as you see fit.
    * - :ref:`Learn more <bw1099>`
      - :ref:`Learn more <bw2099>`
      - :ref:`Learn more <dm3399>`
-
 Other Designs
 *************
 
@@ -213,20 +212,30 @@ Other Designs
    * - OAK-D CM4
      - OAK-D CM4 PoE
      - **rae**
-     - OAK Y-Adapter
    * - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097
      - .. image:: /_static/images/thumbnails/OAK-D-CM4-PoE_th.png
           :target: pages/DM2097
      - .. image:: /_static/images/rae/rae_th.png
           :target: pages/rae.html
-     - .. image:: /_static/images/thumbnails/Y_Adapter_th.png
-          :target: pages/DM6010
    * - :ref:`Learn more <dm1097>`
      - :ref:`Learn more <dm2097>`
      - :ref:`Learn more <rae>`
-     - :ref:`Learn more <Y-adapter>`
 
+Accessories
+***********
+
+.. list-table::
+   :header-rows: 1
+
+   * - FSYNC Y-Adapter
+     - OAK Y-Adapter
+   * - .. image:: /_static/images/FSYNC_YADAPTER/fsync_yadapter_bg.png
+          :target: pages/FSYNC_Yadapter
+     - .. image:: /_static/images/thumbnails/Y_Adapter_th.png
+          :target: pages/DM6010
+   * - :ref:`Learn more <pa6940>`
+     - :ref:`Learn more <Y-adapter>`
 
 Some **older models** can be :ref:`found here <Other models>`.
 
@@ -340,4 +349,11 @@ Some **older models** can be :ref:`found here <Other models>`.
    pages/DM1097.rst
    pages/rae.rst
    pages/DM2097.rst
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+   :caption: Accessories
+
    pages/DM6010.rst
+   pages/FSYNC_Yadapter.rst
