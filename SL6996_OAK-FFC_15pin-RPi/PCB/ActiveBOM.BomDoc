@@ -1,0 +1,15 @@
+|RECORD=BOM|VERSION=2|FILENAME=C:\ProgramData\Altium\Altium Designer {E51851BB-CBED-4FD6-B012-1EC8EF0ABB46}\VaultEditCache\42BA9AA4-7341-4DAD-80EF-9CD4F1127DFB\Released\ActiveBOM.$$$|KIND=ALTIUM_DESIGNER_LIVEBOM|DATE=13.03.2023|TIME=15:02:56|CURRENCY=USD|PRODUCTIONQUANTITY=1|PERUNITTARGETPRICE=0|PERUNITACTUALPRICE=0
+|RECORD=GeneralOptions|OPENEXPORTED=False|ADDTOPROJECT=False|FORCEFIT=False|NOTFITTED=False|TEMPLATEFILENAME=|BATCHMODE=0|SUPPLIERPRODQTY=0|SUPPLIERAUTOQTY=False|SUPPLIERUSECACHEDPRICING=False|SUPPLIERCURRENCY=|SOLUTIONSPERITEM=1|SUPPLIERSPERSOLUTION=1|DISPLAYTOTALROW=False|DISPLAYSUBTOTALSFORGROUPS=False|INCLUDEPCBPARAMETERS=False|INCLUDEDBPARAMETERS=False|INCLUDEVAULTPARAMETERS=False|INCLUDECLOUDPARAMETERS=False|INCLUDEDOCUMENTPARAMETERS=False|FILTEROUTRISKYSOLUTIONS=True|DESIGNATORGROUPING=No
+|RECORD=SortOrderOptions|SORTORDER=
+|RECORD=GroupOrderOptions|GROUPORDER=
+|RECORD=VisibleOrderOptions|VISIBLEORDER=Line #=71!Comment=69!Description=99!Designator=97!Quantity=84!Manufacturer 1=119!Manufacturer Part Number 1=186!Manufacturer Lifecycle 1=164!Supplier 1=92!Supplier Part Number 1=159!Supplier Unit Price 1=144!Supplier Subtotal 1=139
+|RECORD=VisibleOrderOptions2|BASEVIEW=Line #=71!Comment=69!Description=99!Designator=97!Quantity=84!Manufacturer 1=119!Manufacturer Part Number 1=186!Manufacturer Lifecycle 1=164!Supplier 1=92!Supplier Part Number 1=159!Supplier Unit Price 1=144!Supplier Subtotal 1=139|FLATVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Manufacturer 1=119!Manufacturer Part Number 1=186!Manufacturer Lifecycle 1=164!Supplier 1=92!Supplier Part Number 1=159!Supplier Unit Price 1=144!Supplier Subtotal 1=139|CONSOLIDATEDVIEW=Line #=-1!Comment=-1!Description=-1!Designator=-1!Quantity=-1!Manufacturer 1=119!Manufacturer Part Number 1=186!Manufacturer Lifecycle 1=164!Supplier 1=92!Supplier Part Number 1=159!Supplier Unit Price 1=144!Supplier Subtotal 1=139
+|RECORD=CustomColumns|CUSTOMCOLUMNS=
+|RECORD=ColumnsAliases|COLUMNSALIASES=Comment=Name
+|RECORD=FilterOptions|FILTER=
+|RECORD=CheckGroupCompParamsOptions|CHECKGROUPCOMPPARAMS=Comment=0,Description=0,Value=0,Footprint=1
+|RECORD=ManufacturerLinkOptions|MANUFACTURERLINKPARAMETERS=
+|RECORD=FavoriteSuppliers|PARTSOURCES=|SUPPLIERS=|USESUPPLIERORDER=False
+|RECORD=CheckOptions|CHECKLEVELS=Component_has_been_deleted=Error
+|RECORD=LineNumberingOptions|STARTVALUE=|INCREMENT=
+|RECORD=Catalog|DBLINKFILEPATH=
