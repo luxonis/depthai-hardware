@@ -21,7 +21,7 @@ Devices that have M8 auxiliary connector:
 Getting Started
 ***************
 
-One can daisy-chain multiple OAK cameras as per wiring schematics below. There's no limit on how many cameras can be daisy-chained.
+One can daisy-chain multiple OAK cameras as per wiring schematics below. Multiple cameras can be daisy-chained.
 
 .. image:: /_static/images/FSYNC_YADAPTER/fsync_schematics.jpg
 
