@@ -74,9 +74,8 @@ Sensor FSYNC support
 
 As noted above the paragraph, only some sensors support FSYNC syncing. There are 2 types of FSYNC syncing:
 
-- **Continuous streaming** with external syncing, configured with ``CameraControl.setFrameSyncMode()``. In this mode, the FSIN signal is expected to arrive at a continuous rate matching the configured sensor FPS, and trigger can't arrive at arbitrary times as that would disrupt internal sensor operations (leading to bad frames, etc). It can only **correct for very small amounts of drift over time**.
-- **Snapshot mode** with external syncing, configured with ``CameraControl.setExternalTrigger()``. In this mode, trigger can arrive to the sensor at any time, and the sensor will take the photo/snapshot.
-
+- **Continuous streaming** with external syncing, configured with `CameraControl.setFrameSyncMode()`. In this mode, the FSIN signal is expected to arrive at a continuous rate matching the configured sensor FPS, and trigger can't arrive at arbitrary times as that would disrupt internal sensor operations (leading to bad frames, etc). It can only **correct for very small amounts of drift over time**.
+- **Snapshot mode** with external syncing, configured with `CameraControl.setExternalTrigger()`. In this mode, trigger can arrive to the sensor at any time, and the sensor will take the photo/snapshot.
 
 .. list-table::
    :header-rows: 1
@@ -86,19 +85,22 @@ As noted above the paragraph, only some sensors support FSYNC syncing. There are
      - Support
    * - :ref:`OV9282`, :ref:`OV9782`
      - Global
-     - FSYNC input/output, both continuous/snapshot mode supported
+     - FSYNC input/output, both continuous mode and snapshot (arbitrary external trigger) supported
    * - :ref:`OV7251`
      - Global
-     - Should have same support as OV9*82, but not yet implemented
+     - Should have the same hardware support as OV9*82, but not implemented in FW as of now
    * - :ref:`AR0234`
      - Global
-     - FSYNC input, snapshot mode supported (continuous results in strange behaviour)
-   * - :ref:`IMX378`, :ref:`IMX477`, IMX380
+     - FSYNC input, both continuous and snapshot mode supported
+   * - :ref:`IMX378`, :ref:`IMX477`, :ref:`IMX577`, :ref:`IMX380`
      - Rolling
-     - FSYNC input, only continuous mode supported for rolling shutter sensors
+     - FSYNC input, only continuous mode supported for rolling shutter sensors. Hardware also supports FSYNC output, but not implemented in FW yet
    * - :ref:`IMX582`
      - Rolling
-     - [Not yet tested] FSYNC input continuous mode
+     - Similar to IMX378, but not yet tested
+   * - :ref:`IMX296` (RPi GS Camera)
+     - Global
+     - Arbitrary external trigger supported on XTR/XTRIG pin. Pulse length determines exposure time (sensor feature). Continuous mode TODO (would be on another pin: XVS)
 
 
 STROBE signal
