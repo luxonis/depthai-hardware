@@ -129,7 +129,7 @@ RPi cameras can be connected to the FFC baseboard via the `UC-244 Adapter <https
      - IMX296
      - Global
      - 1.6 MP
-     - Color, C/CS mount
+     - Color, C/CS mount. Might have color artifacts, see `workaround here <https://discuss.luxonis.com/d/2372-rpi-global-shutter-camera-imx296-module/7>`__
 
 .. note::
 
