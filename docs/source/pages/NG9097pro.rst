@@ -41,14 +41,10 @@ Dimensions and Weight
 .. image:: /_static/images/NG9097/pro-poe-back.png
 
 .. include:: /pages/includes/depth_75_800P.rst
-
 .. include:: /pages/includes/imu_bno085.rst
-
-
-
 .. include:: /pages/includes/rvc2_power_consumption_pro_poe.rst
-
 .. include:: /pages/includes/rvc2_operating_temp.rst
+.. include:: /pages/includes/vibration_report.rst
 
 Operational Temperature
 ***********************
