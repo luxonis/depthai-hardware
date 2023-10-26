@@ -54,6 +54,8 @@ Board Layout
 
 .. include:: /pages/includes/rvc2_operating_temp.rst
 
+.. include:: /pages/includes/vibration_report.rst
+
 Datasheet
 *********
 

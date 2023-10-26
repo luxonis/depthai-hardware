@@ -265,6 +265,7 @@ Some **older models** can be :ref:`found here <Other models>`.
 
    pages/articles/waterproof.rst
    pages/articles/operative_temperature_range.rst
+   pages/articles/vibration_testing.rst
    pages/articles/device_availability_and_eol.rst
    pages/articles/supported_sensors.rst
 
