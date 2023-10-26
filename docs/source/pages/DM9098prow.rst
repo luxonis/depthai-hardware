@@ -41,7 +41,7 @@ Dimensions and Weight
 
 .. image:: /_static/images/DM9098/dimensions-pro.png
 
-.. include:: /pages/includes/depth_75_800P.rst
+.. include:: /pages/includes/depth_75_W.rst
 .. include:: /pages/includes/imu_bno085.rst
 .. include:: /pages/includes/rvc2_power_consumption_pro.rst
 .. include:: /pages/includes/rvc2_operating_temp.rst
