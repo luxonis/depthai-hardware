@@ -30,5 +30,6 @@ Vibration Report
 performed by the `SIQ <https://www.siq.si/en/>`__, which is an independent third-party testing laboratory. As per the **EN 60068-2-6:2008** standard, they have
 performed sinus vibration test from 5 Hz to 200 Hz at 1 octave per minute, with acceleration amplitude of 50 m/s^2, for all 3 axes separately (X, Y, Z).
 
+.. image:: /_static/images/guides/vibration_testing.png
 
 .. include::  /pages/includes/footer-short.rst
