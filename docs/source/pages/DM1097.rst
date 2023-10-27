@@ -53,7 +53,7 @@ Board Layout
 Limitations
 ***********
 
-If the OAK-D-CM4 device does not come with a built-in WiFi module, a Tenda Wifi dongle can be used as an alternative. 
+If the OAK-D-CM4 device does not come with a built-in WiFi module, a Tenda Wi-Fi dongle is included in the box of the device as a workaround.
 To enable the dongle, you will need to install the necessary drivers. Follow the steps below (`source <https://stackoverflow.com/questions/76495004/installing-tenda-w311mi-usb-adabter-on-ubuntu-22-04>`_) to install the drivers:
 
 .. code-block:: bash
