@@ -49,6 +49,31 @@ Board Layout
 
 .. include:: /pages/includes/rvc2_operating_temp.rst
 
+
+Limitations
+***********
+
+If the OAK-D-CM4 device does not come with a built-in WiFi module, a Tenda Wifi dongle can be used as an alternative. 
+To enable the dongle, you will need to install the necessary drivers. Follow the steps below (`source <https://stackoverflow.com/questions/76495004/installing-tenda-w311mi-usb-adabter-on-ubuntu-22-04>`_) to install the drivers:
+
+.. code-block:: bash
+
+    sudo apt-get install build-essential git dkms linux-headers-$(uname -r)
+    git clone https://github.com/McMCCRU/rtl8188gu.git
+    cd rtl8188gu
+    make
+    sudo make install
+    sudo apt install --reinstall linux-firmware 
+    sudo reboot
+
+.. note::
+
+    The Tenda Wifi dongle should be included in the box with the OAK-D-CM4 device.
+
+After rebooting, the Tenda USB dongle should be operational.
+
+
+
 3D Models
 *********
 
