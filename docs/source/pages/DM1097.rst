@@ -54,7 +54,9 @@ Limitations
 ***********
 
 If the OAK-D-CM4 device does not come with a built-in WiFi module, a Tenda Wi-Fi dongle is included in the box of the device as a workaround.
-To enable the dongle, you will need to install the necessary drivers. Follow the steps below (`source <https://stackoverflow.com/questions/76495004/installing-tenda-w311mi-usb-adabter-on-ubuntu-22-04>`_) to install the drivers:
+To enable the dongle, you will need to install the necessary drivers. These drivers come pre-installed on the V10 (or higher) OAK-CM4-POE 64bit RPi OS image (available `here <https://drive.google.com/drive/u/1/folders/1O50jPpGj_82jkAokdrsG--k9OBQfMXK5>`__).
+
+Alternatively, you can the steps below (`source <https://stackoverflow.com/questions/76495004/installing-tenda-w311mi-usb-adabter-on-ubuntu-22-04>`_) to install the drivers manually:
 
 .. code-block:: bash
 
@@ -65,10 +67,6 @@ To enable the dongle, you will need to install the necessary drivers. Follow the
     sudo make install
     sudo apt install --reinstall linux-firmware 
     sudo reboot
-
-.. note::
-
-    The Tenda Wifi dongle should be included in the box with the OAK-D-CM4 device.
 
 After rebooting, the Tenda USB dongle should be operational.
 
