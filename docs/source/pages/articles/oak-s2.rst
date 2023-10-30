@@ -57,8 +57,8 @@ Left: IMX378 AF (12MP), Right: OV9782 color FF (1MP)
 
 .. include:: /pages/includes/wide-fov.rst
 
-Smaller and ligher devices
-##########################
+Smaller and lighter devices
+###########################
 
 :ref:`OAK-D S2` is ~20% lighter than :ref:`OAK-D`. OAK-D POE S2 is 50% lighter than :ref:`OAK-D-POE`.
 
