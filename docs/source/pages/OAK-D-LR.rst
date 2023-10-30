@@ -147,6 +147,8 @@ Dimensions and Weight
 * Length: 40 mm
 * Weight: 415g
 
+.. include:: /pages/includes/imu_bno085.rst
+
 ..
    .. include:: /pages/includes/depth_75_800P.rst
 
