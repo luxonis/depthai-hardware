@@ -14,15 +14,6 @@ can then perform stereo disparity calculation and depth estimation.
 
 For the :ref:`OAK FFC camera modules` it is necessary to perform camera calibration after mounting the cameras in the desired configuration.
 
-Watching the video below will give you the steps needed to calibrate your own DepthAI.  For more information/details on calibration options,
-please see the steps below and also :code:`./calibrate.py --help` which will print out all of the calibration options.
-
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/nD0hy9164p8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
 Prerequisites
 *************
 
