@@ -81,6 +81,17 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
         note that ~5 microseconds pulse is required by OV9x82 sensor, while IMX sensors
         will get triggered even at ~500 ns pulse.
 
+    .. tab:: BNC to M8 adapter
+
+        We made our own BNC to M8 adapter by splitting one BNC to BNC cable and one M8 to M8 cable. We then used that to **connect** the **signal generator** (BNC) **to the FSYNC Y-adapter** (M8).
+
+        The signal line (BNC core) has to be connected to pin 1 of the M8 cable (FSYNC line).
+        GND from the BNC connector (so the shielding around it) has to be connected to both pin 3 (GPIO3/5V) and pin 8 (GND) of the M8 cable. If GPIO3 is not connected to the ground,
+        the camera on the first FSYNC Y-adapter won't work, only the cameras after it will be synced together. This is because the first FSYNC Y-adapter will pull the GPIO3 to GND, as
+        seen in the schematics below.
+
+        .. image:: /_static/images/FSYNC_YADAPTER/FSYNC_Yadapter_schematics.jpg
+
 
 Dimensions and Weight
 *********************
