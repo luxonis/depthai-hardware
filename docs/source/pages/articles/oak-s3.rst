@@ -11,32 +11,6 @@ differences with the Series 3:
 
 We also plan to keep **backward compatibility** - so pipelines written for :ref:`RVC2` will still work on the Series 3 devices.
 
-Series 3 roadmap
-################
-
-- **2022 Q1**: Hardware bring-up and testing.
-- **2022 Q2**: Porting of DepthAI stack to :ref:`RVC3`.
-- **2022 Q3**: Hardware bring-up and testing of :ref:`dm3399`. Evaluation testing.
-- **2022 Q4**: Beta release of initial OAK devices with integrated :ref:`RVC3`. Software/firmware is getting more feature-complete and more stable.
-- **2023 Q2**: Official release of OAK S3 device(s).
-
-This might be a bit of an optimistic roadmap due to supply chain issues, but we will do everything possible to meet it.
-
-**2022/2023 Updates**
-
-- **February**: We manufactured the initial batch of SoM with :ref:`RVC3` on board. We also started porting the DepthAI library to the new ecosystem.
-- **March**: We designed :ref:`dm3399` and started porting DepthAI stack.
-- **May**: We received initial :ref:`dm3399` boards and designed :ref:`OAK-FFC-6P` which will use OAK-SoM-Max.
-- **June**: HW bringup of :ref:`OAK-FFC-6P`. New batch of OAK-SoM-Pro-S3.
-- **July**: New OS for :ref:`RVC3` - LuxonisOS. Camera driver support for :ref:`IMX378`, :ref:`IMX477`, IMX577, :ref:`OV7251`
-- **August**: DepthAI initial release for RVC3 (stereo support, NN support, logging support), initial support for :ref:`IMX582`, PCIe WiFi card support, OTA updates
-- **September**: HDR support, support for :ref:`IMX214`, full support for :ref:`IMX582`, LuxOS restructure and initial release
-- **October**: LuxonisOS flashing/updating and signing, EdgeDetector, Warp and Spatial nodes, dot projector & LED support (I2C)
-- **November**: on ``rvc3_support`` branch majority of the DepthAI nodes are already supported, except FeatureTracker, ObjectTracker, Script node and some features (eg. RGB-depth alignment).
-- **January 2023**: Further improvements to LuxonisOS, DepthAI improvements, new sensors supported (AR0234), camera control improvements
-- **February**: Working on TOF support (:ref:`OAK-FFC-ToF-VGA`), zero-copy for some functions, working on FeatureTracker support (for on-device VIO)
-
-For **updates on the progress of OAK Series 3**, sign-up to our `newsletter here <https://share-eu1.hsforms.com/15b91qbvARW2-8L0LO4HxKAf2chh>`__.
 
 Quad-core ARM
 #############
@@ -59,8 +33,8 @@ full model decoding on the device itself, which would allow DepthAI apps to be m
 SLAM / VIO
 ----------
 
-Since Series 3 OAK cameras will have on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <https://docs.luxonis.com/en/latest/pages/slam_oak/>`__
-on the OAK camera itself. Sparse SLAM will be supported on-device, for dense SLAM additional host computing might be required (TBD).
+Since Series 3 OAK cameras has an on-board quad-core ARM, it will be possible to run `VIO or SLAM software stacks <https://docs.luxonis.com/en/latest/pages/slam_oak/>`__
+on the OAK camera itself. Sparse SLAM is supported on-device, for dense SLAM additional host computing might be required (TBD).
 
 Enhanced Stereo Depth on RVC3
 #############################
