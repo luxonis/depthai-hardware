@@ -67,10 +67,9 @@ Camera module specifications
    * - F-number
      - 2.0 ±5%
      - 1.45 ± 5%
-..
    * - Effective Focal Length
      - 2.35mm
-     - ??
+     - N/A
 
 .. image:: /_static/images/OAK-D-SR-POE/oak-d-sr-poe-sensors.png
 
