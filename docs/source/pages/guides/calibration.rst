@@ -1,6 +1,15 @@
 Calibration
 ###########
 
+Types of calibration currently supported: 
+
+ - :ref:`Depth Calibration <Depth Calibration>` 
+ - :ref:`TOF Calibration <TOF Calibration>`
+
+
+Depth Calibration
+#################
+
 `Camera calibration <https://en.wikipedia.org/wiki/Camera_resectioning>`__ is a process of determining the **intrinsic, extrinsic**, and **distortion parameters** of a camera.
 These are required for a camera to be able to map points in the 3D world to 2D points in an image, and vice versa, to undistort images, and to determine depth
 from stereo images.
@@ -329,6 +338,52 @@ Troubleshooting
 - If you find that despite successfully calibrating the cameras and
   confirming the epiplolar lines correctly align left and right, the depth is still incorrect, perhaps your left and right cameras are swapped.
   In that case you could retry the calibration with changed board config, or simply swap the board sockets the cameras are plugged into.
+
+TOF Calibration
+################
+
+Time-of-Flight (ToF) calibration is a process used to ensure the accuracy and reliability of a ToF camera system. ToF cameras measure the distance to a subject or object by emitting a light signal (usually infrared) and then measuring the time it takes for the light to bounce back to the camera.
+
+Calibration procedure
+*********************
+
+
+If you have already installed the DepthAI repository, you can update it for TOF calibration with the following commands:
+
+.. code-block:: bash
+
+    git checkout new_tof_calib
+    git submodule update --init --recursive
+
+After updating the boards, install the updated DepthAI Python libraries:
+
+.. code-block:: bash
+
+    python3 .\install_requirements.py
+
+To start the calibration process, run `calibrate.py` with the appropriate parameters for the Charuco board you are using. For example:
+
+.. code-block:: bash
+
+    python3 calibrate.py -db -nx 12 -ny 9 -c 1 -cd 0 -s 6 -ms 4.7 -brd OAK-D-SR-POE
+
+Where the parameters are as follows:
+
+- `-db`: Indicates the default board, meaning you are using Charuco markers.
+- `-nx`: Number of Charuco markers in the x direction.
+- `-ny`: Number of Charuco markers in the y direction.
+- `-c`: Number of pictures taken each time the polygon is displayed (optional, suggested to be left out in your case).
+- `-cd`: Countdown time before a picture is taken in seconds (optional, suggested for faster image calibration).
+- `-s`: Size of the square around the Charuco marker in centimeters.
+- `-ms`: Size of the markers in centimeters.
+- `-brd`: Board of the device (in this case, OAK-D-SR-POE).
+
+Note that TOF calibration can be challenging because the board must be close to the camera to detect Charuco boards. If you encounter errors such as ``division by zero`` or ``Failed to detect markers in the image dataset/rgb/rgb_p3_10.png``, you should go to the dataset folder and delete the picture with poor detection of Charuco boards (in all camera folders). Then, run the same code again with the added parameter ``-m process``. This will initiate only the processing stage, so you won't have to retake pictures of the board.
+
+.. code-block:: bash
+
+    python3 calibrate.py -db -nx 12 -ny 9 -c 1 -cd 0 -s 6 -ms 4.7 -brd OAK-D-SR-POE -m process
+
 
 
 .. include::  /pages/includes/footer-short.rst
