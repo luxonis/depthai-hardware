@@ -1,10 +1,7 @@
 rae
 ===
 
-.. role:: raw-html(raw)
-   :format: html
-
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/rae>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/rae>`__
 
 .. image:: /_static/images/rae/rae.jpg
 

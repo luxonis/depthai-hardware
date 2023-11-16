@@ -1,10 +1,7 @@
 OAK-D LR
 ========
 
-.. role:: raw-html(raw)
-   :format: html
-
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-lr-pre-order>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d-lr>`__
 
 .. image:: /_static/images/OAK-D-LR/oak-d-lr-bottom.jpg
 
