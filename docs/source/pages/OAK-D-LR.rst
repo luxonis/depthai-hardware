@@ -70,57 +70,57 @@ but also FOV and baseline distance between stereo cameras.
      - 54.9 m
      - 137.2 m
      - 274.3 m
-     - 3.85 m
+     - 1.92 m
    * - 20
      - 27.2 m
      - 68.1 m
      - 136.1 m
-     - 1.91 m
+     - 95 cm
    * - 30
      - 17.9 m
      - 44.8 m
      - 89.6 m
-     - 1.26 m
+     - 63 cm
    * - 40
      - 13.2 m
      - 33.0 m
      - 65.9 m
-     - 0.93 m
+     - 46 cm
    * - 50
      - 10.3 m
      - 25.7 m
      - 51.5 m
-     - 0.72 m
+     - 36 cm
    * - 60
      - 8.3 m
      - 20.8 m
      - 41.6 m
-     - 0.58 m
+     - 29 cm
    * - 70
      - 6.9 m
      - 17.1 m
      - 34.3 m
-     - 0.48 m
+     - 24 cm
    * - 80
      - 5.7 m
      - 14.3 m
      - 28.6 m
-     - 0.41 m
+     - 21 cm
    * - **82**
      - **5.5 m**
      - **13.8 m**
      - **27.6 m**
-     - **0.39 m**
+     - **20 cm**
    * - 90
      - 4.8 m
      - 12.0 m
      - 24.0 m
-     - 0.34 m
+     - 17 cm
    * - 100
      - 4.0 m
      - 10.1 m
      - 20.1 m
-     - 0.28 m
+     - 14 cm
 
 **Note:** we haven't tested these combinations, we only calculated `theoretical depth error <https://docs.google.com/spreadsheets/d/1ymn-0D4HcCbzYP-iPycj_PIdSwmrLenlGryuZDyA4rQ/edit#gid=0>`__
 and interpolated those values with our previous real-world tests when enabling subpixel disparity:
@@ -129,8 +129,8 @@ and interpolated those values with our previous real-world tests when enabling s
 - ``< 5% error`` - 8th disparity pixel, which has 12.5% full-pixel error (~5% with subpixel enabled)
 - ``< 10% error`` - 4th disparity pixel, which has 25% full-pixel error (~10% with subpixel enabled)
 
-Maximum depth was calculated by using the large (15cm) baseline, while MinZ was calculated by using the small (5cm) baseline of the OAK-D-LR. You can further decrease MinZ by using Extended Disparity Mode, lower resolution,
-or using disparity shift (`docs here <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#how-to-get-lower-minz>`__).
+Maximum depth was calculated by using the large (15cm) baseline, while MinZ was calculated by using the small (5cm) baseline of the OAK-D-LR. You can further decrease MinZ by lowering the resolution,
+or using disparity shift (`docs here <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#how-to-get-lower-minz>`__). MinZ values are already using Extended Disparity Mode.
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
