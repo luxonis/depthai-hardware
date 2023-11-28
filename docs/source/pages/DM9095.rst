@@ -5,7 +5,7 @@ OAK-D-Lite
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-lite-1>`__
 
-.. image:: /_static/images/DM9095/oak_d_lite_en.png
+.. thumbnail:: /_static/images/DM9095/oak_d_lite_en.png
 
 Overview
 ********
@@ -54,7 +54,7 @@ Dimensions and Weight
 * Baseline: 75 mm
 * Weight: 61 g
 
-.. image:: /_static/images/DM9095/oak-d-lite_dimensions.jpg
+.. thumbnail:: /_static/images/DM9095/oak-d-lite_dimensions.jpg
 
 .. include:: /pages/includes/depth_75_480P.rst
 
@@ -88,7 +88,7 @@ and after 90 minutes, we received the following temperatures:
 The operating temperature range of the :ref:`RVC2` (die temperature) is -40 °C to 105 °C. The die temperature can get to about +35°C from the ambient 
 temperature. Note that the stable image temperature of the camera sensor is 0 °C to +50 °C (operating temperature -30 °C to +70 °C).
 
-.. image:: /_static/images/DM9095/oak-d-lite-thermals.jpg
+.. thumbnail:: /_static/images/DM9095/oak-d-lite-thermals.jpg
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 

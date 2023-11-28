@@ -5,7 +5,7 @@ OAK-FFC IMX582
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-imx582>`__
 
-.. image:: /_static/images/DM0260/oak-ffc-imx582.png
+.. thumbnail:: /_static/images/DM0260/oak-ffc-imx582.png
 
 Overview
 ********

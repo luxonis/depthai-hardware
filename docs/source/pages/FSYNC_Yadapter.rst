@@ -5,7 +5,7 @@ FSYNC Y-adapter
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/accessories/products/>`__
 
-.. image:: /_static/images/FSYNC_YADAPTER/fsync-yadapter.jpg
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/fsync-yadapter.jpg
 
 Overview
 ********
@@ -23,7 +23,7 @@ Getting Started
 
 One can daisy-chain multiple OAK cameras as per wiring schematics below. Multiple cameras can be daisy-chained.
 
-.. image:: /_static/images/FSYNC_YADAPTER/fsync_schematics.jpg
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/fsync_schematics.jpg
 
 OAK-D-SR-POE that doesn't have a cable connected to "IN" port (M8 female connector) will output FSYNC signal automatically and will therefore be the "FSYNC Host" device, while
 devices that have a cable connected to "IN" port will be "FSYNC Peripheral" devices.
@@ -61,7 +61,7 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
 
     .. tab:: Wiring diagram
 
-        .. image:: /_static/images/FSYNC_YADAPTER/signal-gen-schematics.jpg
+        .. thumbnail:: /_static/images/FSYNC_YADAPTER/signal-gen-schematics.jpg
 
         .. code-block:: python
 
@@ -75,7 +75,7 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
 
     .. tab:: Photo of the wiring
 
-        .. image:: /_static/images/FSYNC_YADAPTER/signal_gen.jpg
+        .. thumbnail:: /_static/images/FSYNC_YADAPTER/signal_gen.jpg
 
         Make sure that the LOW level is 0V, and that HIGH voltage is above 10V. Also
         note that ~5 microseconds pulse is required by OV9x82 sensor, while IMX sensors
@@ -90,7 +90,7 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
         the camera on the first FSYNC Y-adapter won't work, only the cameras after it will be synced together. This is because the first FSYNC Y-adapter will pull the GPIO3 to GND, as
         seen in the schematics below.
 
-        .. image:: /_static/images/FSYNC_YADAPTER/FSYNC_Yadapter_schematics.jpg
+        .. thumbnail:: /_static/images/FSYNC_YADAPTER/FSYNC_Yadapter_schematics.jpg
 
 
 Dimensions and Weight

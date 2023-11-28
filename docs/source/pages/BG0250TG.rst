@@ -5,7 +5,7 @@ OAK-FFC-OV9282
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-ov9282-pair>`__
 
-.. image:: /_static/images/BG0250TG/oak-ffc-9282.png
+.. thumbnail:: /_static/images/BG0250TG/oak-ffc-9282.png
 
 Overview
 ********

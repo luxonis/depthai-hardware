@@ -5,7 +5,7 @@ OAK-FFC ToF 33D
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-ffc-tof-33d>`__
 
-.. image:: /_static/images/DM0256/ffc-33d.png
+.. thumbnail:: /_static/images/DM0256/ffc-33d.png
 
 Overview
 ********
@@ -40,7 +40,7 @@ Camera module specifications
    * - F-number
      - 1.45 ± 5%
 
-.. image:: /_static/images/DM0256/33d-back.png
+.. thumbnail:: /_static/images/DM0256/33d-back.png
 
 ..
   Key features

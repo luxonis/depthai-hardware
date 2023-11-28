@@ -58,7 +58,7 @@ Tests 1-4 were running all 3 cameras at 30FPS, stereo depth, NN (mobilenet), and
 As test 4 resulted in a crash of the device (at 125°C VPU temperature), test 5 was done without video encoding (only NN, stereo depth, and 3 cameras at 30FPS).
 
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/5253a64c-362d-4de8-a483-9254fb1f74b0
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/5253a64c-362d-4de8-a483-9254fb1f74b0
 
 Conclusion
 ----------
@@ -76,27 +76,27 @@ The noise effect is more pronounced in the dark areas. Above 40°C under full lo
 Test 1
 ~~~~~~
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/ecf69413-df56-4018-926d-e5e7216f2e3c
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/ecf69413-df56-4018-926d-e5e7216f2e3c
 
 Test 2
 ~~~~~~
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/1f6d702b-3796-4840-b913-0565d7e70e26
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/1f6d702b-3796-4840-b913-0565d7e70e26
 
 Test 3
 ~~~~~~
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/dfaaa970-9bf7-483c-bc91-169c1b65893d
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/dfaaa970-9bf7-483c-bc91-169c1b65893d
 
 Test 4
 ~~~~~~
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/cc6de3e8-4bd9-407d-99eb-979cc6b6335a
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/cc6de3e8-4bd9-407d-99eb-979cc6b6335a
 
 Test 5
 ~~~~~~
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/2c75161c-d5c6-423b-ad22-403d0230a330
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/2c75161c-d5c6-423b-ad22-403d0230a330
 
 .. figure:: https://github.com/luxonis/depthai-hardware/assets/18037362/ee8b1d5c-5d2b-4b16-9799-81877398ff57
 

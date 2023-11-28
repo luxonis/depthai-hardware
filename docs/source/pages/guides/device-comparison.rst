@@ -13,7 +13,7 @@ All OAK cameras have a number of features that can be run on the device itself:
 - `Video encoding <https://docs.luxonis.com/projects/api/en/latest/components/nodes/video_encoder/>`__,
 - `Python scripts <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__, and many others.
 
-.. image:: /_static/images/device-comparison/oak-features.png
+.. thumbnail:: /_static/images/device-comparison/oak-features.png
 
 Spatial Data
 ############

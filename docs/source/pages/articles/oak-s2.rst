@@ -7,7 +7,7 @@ The S2 OAK devices will have **these permutations**:
 - the **Pro version** has on-board IR laser dot projector for active stereo and IR illumination LED for night vision
 - the **Wide FOV version** has wide FOV lenses, increasing DFOV from ~85° to ~150°
 
-.. image:: /_static/images/guides/series2.png
+.. thumbnail:: /_static/images/guides/series2.png
 
 **Series 2 (S2)** of OAK devices have :ref:`RVC2` chip-down design, instead of on the :ref:`SoM <som_designs>`.
 This allows devices to be smaller and consequently lighter.
@@ -28,7 +28,7 @@ Pro version of OAK cameras have on-board **IR laser dot projector** for active s
 (blank surfaces with little to no texture), such as a wall or floor. The technique that we use is called `ASV <https://en.wikipedia.org/wiki/Computer_stereo_vision#Conventional_active_stereo_vision_(ASV)>`__
 - conventional active stereo vision - as stereo matching is performed on the device the same way as on OAK-D (passive stereo).
 
-.. image:: /_static/images/guides/active-stereo.png
+.. thumbnail:: /_static/images/guides/active-stereo.png
 
 Above: IR laser dot projector turned off, Below: IR laser dot projector set to ~200mA
 
@@ -36,7 +36,7 @@ Above: IR laser dot projector turned off, Below: IR laser dot projector set to ~
 on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
 for your AI/CV processes.
 
-.. image:: /_static/images/guides/night-vision.png
+.. thumbnail:: /_static/images/guides/night-vision.png
     :alt: Night vision mode (right)
 
 Left: no illumination, Right: IR illumination LED set to ~400mA
@@ -50,7 +50,7 @@ Wide FOV
 Wide FOV (indicated as **W** in the camera name) version will have wide FOV lenses on all 3 cameras. Wide FOV lenses
 can only be fixed-focus.
 
-.. image:: /_static/images/guides/nfov-vs-wfov.png
+.. thumbnail:: /_static/images/guides/nfov-vs-wfov.png
     :alt: Wide FOV lenses (right)
 
 Left: IMX378 AF (12MP), Right: OV9782 color FF (1MP)
@@ -62,7 +62,7 @@ Smaller and lighter devices
 
 :ref:`OAK-D S2` is ~20% lighter than :ref:`OAK-D`. OAK-D POE S2 is 50% lighter than :ref:`OAK-D-POE`.
 
-.. image:: /_static/images/guides/s1_vs_s2.png
+.. thumbnail:: /_static/images/guides/s1_vs_s2.png
 
 Back: :ref:`OAK-D-PoE`, Front: :ref:`OAK-D S2 PoE` (Wide FOV)
 

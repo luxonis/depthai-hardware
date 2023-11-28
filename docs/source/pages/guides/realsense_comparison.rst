@@ -44,7 +44,7 @@ and place them at an ideal stereo baseline distance for their application.
 Below is a long-range disparity depth visualized over a color frame. This customer used narrow FOV M12 lenses
 with wide stereo baseline distance (25cm) to achieve such results with our platform.
 
-.. image:: https://user-images.githubusercontent.com/18037362/184261853-7d447b7d-1ff9-4c8d-871c-eb230591eae1.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/184261853-7d447b7d-1ff9-4c8d-871c-eb230591eae1.png
 
 See `stereo depth documentation <https://docs.luxonis.com/projects/api/en/latest/components/nodes/stereo_depth/#max-stereo-depth-distance>`__
 on max depth perception calculations based on camera intrinsics/baseline distance.

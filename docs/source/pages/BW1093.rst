@@ -5,7 +5,7 @@ OAK-1
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/megaai-kit>`__
 
-.. image:: /_static/images/BW1093/oak-1.png
+.. thumbnail:: /_static/images/BW1093/oak-1.png
 
 Overview
 ********
@@ -44,7 +44,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1093/oak-1-assembly.png
+.. thumbnail:: /_static/images/BW1093/oak-1-assembly.png
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 
@@ -70,6 +70,6 @@ Brochures
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/BW1093_USB3C/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/blob/master/BW1093_USB3C/Mechanical/OAK-1-enclosure.step>`__
 
-.. image:: /_static/images/BW1093/3d-enclosure.png
+.. thumbnail:: /_static/images/BW1093/3d-enclosure.png
 
 .. include::  /pages/includes/footer-short.rst

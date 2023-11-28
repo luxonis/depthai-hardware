@@ -3,7 +3,7 @@ rae
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/rae>`__
 
-.. image:: /_static/images/rae/rae.jpg
+.. thumbnail:: /_static/images/rae/rae.jpg
 
 Overview
 ********
@@ -76,7 +76,7 @@ Dimensions and Weight
 * Height: 32 mm
 * Weight: 400g
 
-.. image:: /_static/images/rae/rae_schematics.svg
+.. thumbnail:: /_static/images/rae/rae_schematics.svg
 
 Hardware specifications
 ***********************

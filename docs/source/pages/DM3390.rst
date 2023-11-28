@@ -5,13 +5,13 @@ OAK-FFC-6P
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-ffc-6p>`__
 
-.. image:: /_static/images/FFC-6P/top.png
+.. thumbnail:: /_static/images/FFC-6P/top.png
 
 Overview
 ********
 
-The **OAK-FFC-6P** baseboard has **6 FFC interfaces** which allows for **six 2-lane MIPI** camera modules. It is the
-first device from :ref:`OAK Series 3` (with RVP3) and uses the :ref:`dm3399`.
+The **OAK-FFC-6P** baseboard has **6 FFC interfaces** which allows for **six 2-lane MIPI** camera modules. It's a :ref:`RVC3-based <RVC3>` device
+and uses the :ref:`dm3399`.
 
 To see **which cameras are compatible with this OAK FFC baseboard**, see the guide here: :ref:`OAK FFC camera modules`.
 Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can use different lenses to get **custom FoV** (with :ref:`wide or narrow FOV M12 lenses <M12 selectable FOV>`).
@@ -33,7 +33,7 @@ Dimensions and Weight
 * Length: 70mm
 * Weight: 69g, without heatsink: 33g
 
-.. image:: /_static/images/FFC-6P/bottom.jpg
+.. thumbnail:: /_static/images/FFC-6P/bottom.jpg
 
 General information
 *******************
@@ -59,7 +59,7 @@ Getting started
 In this tutorial, we will be using OAK-FFC-6P with 2x OAK-FFC-OV9282 camera modules (9.75cm apart) on ports CAM_B and CAM_C. We are using `OAK-FFC-Kit <https://docs.luxonis.com/projects/hardware/en/latest/pages/ffc-cameras.html#ffc-camera-mounting>`__
 to mount the cameras. First we will install the correct depthai library version, then we will calibrate the stereo cameras, and finally we will check the results.
 
-.. image:: https://user-images.githubusercontent.com/18037362/236559896-06340943-ee68-4add-b760-d47d478e3e87.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/236559896-06340943-ee68-4add-b760-d47d478e3e87.png
 
 RVC3 library
 ------------
@@ -171,7 +171,7 @@ We will be using SDK to test the results. Here's a simple script we can use to t
 
 Note that depthai_sdk library should be installed from the ``rvc3_develop`` branch on depthai repository. After running the script, we get this result:
 
-.. image:: https://user-images.githubusercontent.com/18037362/236560333-4ad97783-1d63-41df-a35f-2c4cd02b55a1.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/236560333-4ad97783-1d63-41df-a35f-2c4cd02b55a1.png
 
 Not bad, but at the edges you can see some circular/warp artifacts, which is is caused due to a) not great calibration, b) camera distortion model we are using.
 

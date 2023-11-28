@@ -5,7 +5,7 @@ OAK-1 MAX
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-1-max>`__
 
-.. image:: /_static/images/NG9096/oak-1-max.png
+.. thumbnail:: /_static/images/NG9096/oak-1-max.png
 
 Overview
 ********
@@ -31,7 +31,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1093/oak-1-assembly.png
+.. thumbnail:: /_static/images/BW1093/oak-1-assembly.png
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 

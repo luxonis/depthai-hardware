@@ -5,7 +5,7 @@ OAK-D Pro
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-d-pro>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro.png
+.. thumbnail:: /_static/images/DM9098/oak-d-pro.png
 
 Overview
 ********
@@ -36,12 +36,12 @@ Dimensions and Weight
 
 **Weight:** 91g
 
-.. image:: /_static/images/DM9098/dimensions-pro.png
+.. thumbnail:: /_static/images/DM9098/dimensions-pro.png
 
 .. include:: /pages/includes/depth_75_800P.rst
 .. include:: /pages/includes/imu_bno085.rst
 
-.. image:: /_static/images/DM9098/oak-d-pro-side-up.png
+.. thumbnail:: /_static/images/DM9098/oak-d-pro-side-up.png
 
 .. include:: /pages/includes/rvc2_power_consumption_pro.rst
 .. include:: /pages/includes/rvc2_operating_temp.rst

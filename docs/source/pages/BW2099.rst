@@ -29,7 +29,7 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
 
     .. tab:: OAK-SoM-Pro (RVC2, BW2099)
 
-        .. image:: /_static/images/SOM-PRO/BW2099.png
+        .. thumbnail:: /_static/images/SOM-PRO/BW2099.png
 
         **Devices that use OAK-SoM-Pro MX**
 
@@ -47,7 +47,7 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
 
     .. tab:: OAK-SoM-Pro-S3 (RVC3, DM2399)
 
-        .. image:: /_static/images/SOM-PRO/board-back.png
+        .. thumbnail:: /_static/images/SOM-PRO/board-back.png
 
         **OAK-SoM-Pro-S3** has an :ref:`RVC3` and **quadcore ARM CPU** on board. It was designed to have the same dimensions and pinout as the :ref:`OAK-SoM-Pro`, so it can easily
         replace the :ref:`OAK-SoM-Pro` on OAK cameras that use it (:ref:`list here <OAK-SoM-Pro>`).
@@ -90,16 +90,16 @@ Replacing SoM-Pro versions
         Before replacing the SoM-Pro versions, you'd need to update the baseboard (:ref:`OAK-FFC-4P`) a bit, as boot sequence needs to be changed.
         You'd need to remove 2 resistors, move 2 resistors, and add one 0 Ω resistor.
 
-        .. image:: /_static/images/SOM-PRO/ffc-4p-update-s2.png
+        .. thumbnail:: /_static/images/SOM-PRO/ffc-4p-update-s2.png
 
         The OAK-FFC-4P baseboard should look like on the image below after the update. Afterwards, you can replace the OAK-SoM-Pro to OAK-SoM-Pro-S3.
 
-        .. image:: /_static/images/SOM-PRO/ffc-4p-pro-s3.png
+        .. thumbnail:: /_static/images/SOM-PRO/ffc-4p-pro-s3.png
 
 Board Layout
 ************
 
-.. image:: /_static/images/SOM-PRO/BW2099_diag.jpg
+.. thumbnail:: /_static/images/SOM-PRO/BW2099_diag.jpg
 
 Dimensions and Weight
 *********************
@@ -109,7 +109,7 @@ Dimensions and Weight
 * Length: 4 mm
 * Weight: 5g
 
-.. image:: /_static/images/SOM-PRO/oak-som-pro-dimensions.jpeg
+.. thumbnail:: /_static/images/SOM-PRO/oak-som-pro-dimensions.jpeg
 
 General information
 *******************

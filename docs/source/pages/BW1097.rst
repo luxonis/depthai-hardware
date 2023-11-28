@@ -5,7 +5,7 @@ OAK-D-CM3
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/all-in-one-dev-kits/products/depthai-rpi-compute-module-edition>`__
 
-.. image:: /_static/images/BW1097/BW1097-front.png
+.. thumbnail:: /_static/images/BW1097/BW1097-front.png
 
 Overview
 ********
@@ -34,14 +34,14 @@ Dimensions and Weight
 * Length: 27 mm
 * Weight: 101g
 
-.. image:: /_static/images/BW1097/BW1097_dims.jpg
+.. thumbnail:: /_static/images/BW1097/BW1097_dims.jpg
 
 Board layout
 ************
 
-.. image:: /_static/images/BW1097/BW1097_diag.jpg
+.. thumbnail:: /_static/images/BW1097/BW1097_diag.jpg
 
-.. image:: /_static/images/BW1097/BW1097.jpg
+.. thumbnail:: /_static/images/BW1097/BW1097.jpg
 
 Getting started
 ***************
