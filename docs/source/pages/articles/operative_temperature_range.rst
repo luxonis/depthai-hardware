@@ -90,7 +90,7 @@ CCM heating
 CCM (Compact Camera Module) are the modules that are integrated into the OAK cameras. OAK-D has 3 CCMs, 2x for stereo pair, and in the middle is the RGB camera.
 CCMs themselves have different operating ranges and also some have lower thermal noise than others (eg. on OAK Lite cameras, those CCMs have worse thermal noise).
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/cb3de541-1251-454e-82ed-2cd1a4fcc29d
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/cb3de541-1251-454e-82ed-2cd1a4fcc29d
 
 We have done some quick testing on CCM heating with different sensors; :ref:`IMX582`, :ref:`IMX214`, :ref:`OV9282`, :ref:`IMX378`.
 
@@ -116,9 +116,9 @@ We have done some quick testing on CCM heating with different sensors; :ref:`IMX
 
 *Temp diff* is the difference between the ambient temperature and the temperature of the CCM.
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/9a40c831-54ff-4fe5-9368-520062919283
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/9a40c831-54ff-4fe5-9368-520062919283
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/68420ffa-cfcd-449c-bf67-454ba1c0bc43
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/68420ffa-cfcd-449c-bf67-454ba1c0bc43
 
 
 Command used for testing
@@ -142,7 +142,7 @@ Test on the `OAK-D-PCBA <https://docs.luxonis.com/projects/hardware/en/latest/pa
 * Heatsink max temperature: 43°C
 * Die max temperature: 60°C
 
-.. image:: /_static/images/temperature_range/OAK-D-PCBA_heatsink.jpeg
+.. thumbnail:: /_static/images/temperature_range/OAK-D-PCBA_heatsink.jpeg
 
 Test on the megaAI with the Tianmai 6.5W/K TIM for both the front heatsink and the MX. TMA-6518 (0.5mm) for the MX and the TMA-6500 (2mm) 
 for the front were used. This test was with the BW machined heatsink.
@@ -150,7 +150,7 @@ for the front were used. This test was with the BW machined heatsink.
 * Heatsink max temperature: 61°C
 * Die max temperature: 73°C
 
-.. image:: /_static/images/temperature_range/megaAI_heatsink.jpeg
+.. thumbnail:: /_static/images/temperature_range/megaAI_heatsink.jpeg
 
 Tests for OAK-1:
 
@@ -173,7 +173,7 @@ Test with T1 OAK-1 sample:
 * Front heatsink max temperature: 63°C
 * Die max temperature: 73°C
 
-.. image:: /_static/images/temperature_range/OAK-1_heatsink.jpeg
+.. thumbnail:: /_static/images/temperature_range/OAK-1_heatsink.jpeg
 
 We have also tested the devices at the lowest ambient temperature of -25.1°C and they worked as expected.
 

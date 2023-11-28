@@ -5,7 +5,7 @@ OAK-D-PoE
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/poe/products/oak-d-poe>`__
 
-.. image:: /_static/images/SJ2088POE/oak-d-poe_2.png
+.. thumbnail:: /_static/images/SJ2088POE/oak-d-poe_2.png
 
 Overview
 ********
@@ -33,7 +33,7 @@ Dimensions and Weight
 * Length: 31 mm
 * Weight: 361g
 
-.. image:: /_static/images/SJ2088POE/OAK-D-PoE-dimensions.svg
+.. thumbnail:: /_static/images/SJ2088POE/OAK-D-PoE-dimensions.svg
 
 .. include:: /pages/includes/depth_75_800P.rst
 
@@ -42,12 +42,12 @@ Dimensions and Weight
 Board Layout
 ************
 
-.. image:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
-.. image:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
+.. thumbnail:: /_static/images/SJ2088POE/SJ2088POE_b.jpg
+.. thumbnail:: /_static/images/SJ2088POE/SJ2088POE_dim.jpg
 
 .. include:: /pages/includes/poe_s1_getting_started.rst
 
-.. image:: /_static/images/SJ2088POE/oak-d-poe.png
+.. thumbnail:: /_static/images/SJ2088POE/oak-d-poe.png
 
 
 .. include:: /pages/includes/rvc2_power_consumption_poe.rst

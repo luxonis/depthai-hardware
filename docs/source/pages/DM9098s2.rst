@@ -5,7 +5,7 @@ OAK-D S2
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-s2>`__
 
-.. image:: /_static/images/DM9098/oak-d-s2.png
+.. thumbnail:: /_static/images/DM9098/oak-d-s2.png
 
 Overview
 ********
@@ -30,7 +30,7 @@ Dimensions and Weight
 
 **Weight:** 91g
 
-.. image:: /_static/images/DM9098/dimensions.png
+.. thumbnail:: /_static/images/DM9098/dimensions.png
 
 .. include:: /pages/includes/depth_75_800P.rst
 .. include:: /pages/includes/imu_bno085.rst

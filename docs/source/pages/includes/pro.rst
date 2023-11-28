@@ -15,13 +15,13 @@ On the image below there's a blank wall with no texture. Without the dot project
 With the dot projector set to ~200mA, the (active) depth perception looks much better. If you look closely at the bottom
 left frame, you can see little dots all around the wall.
 
-.. image:: /_static/images/guides/active-stereo.png
+.. thumbnail:: /_static/images/guides/active-stereo.png
 
 **Flood IR LED** illumination allows perceiving low-light and no-light environments. You can run your AI/CV processes
 on frames that are illuminated by the IR LED. Note that the color camera doesn't perceive IR light, so you would need to use a mono camera stream
 for your AI/CV processes.
 
-.. image:: /_static/images/guides/night-vision.png
+.. thumbnail:: /_static/images/guides/night-vision.png
     :alt: Night vision mode (right)
 
 Getting started
@@ -45,7 +45,7 @@ You can set IR laser dot projector and illumination LED via the API as below. **
 
 You can set these two parameters in **DepthAI Demo** in the *Depth* tab:
 
-.. image:: /_static/images/guides/pro-conf.png
+.. thumbnail:: /_static/images/guides/pro-conf.png
 
 Projector specifications
 ************************

@@ -57,7 +57,7 @@ When displaying the charuco board, markers and squares should be sharp and clear
 - Don't have bright lights / sun shining directly on the screen
 - Display the charuco board in full-screen, so that the markers are as large as possible
 
-.. image:: /_static/images/calibration/screen_issue.jpg
+.. thumbnail:: /_static/images/calibration/screen_issue.jpg
 
 Afterwards, you need to measure the square size of the charuco board, as we will need it later.
 

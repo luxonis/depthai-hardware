@@ -161,7 +161,7 @@ STROBE/FSIN lines via test pads. To sync these cameras, you could either solder 
 the camera module's FSIN header pin, or connect all FSIN header pins together, as done
 `here <https://discuss.luxonis.com/d/934-ffc-4p-hardware-synchronization/3>`__.
 
-.. image:: https://user-images.githubusercontent.com/18037362/196110419-27639d8f-ea88-4945-8fa0-99fa91061f07.jpg
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/196110419-27639d8f-ea88-4945-8fa0-99fa91061f07.jpg
 
 Connecting FSIN/STROBE
 ----------------------
@@ -174,7 +174,7 @@ signals are on the PCB.
 OAK-FFC-4P FSIN
 ^^^^^^^^^^^^^^^
 
-.. image:: https://user-images.githubusercontent.com/18037362/202100246-53ed754f-e2b3-450f-8deb-538589ab07fb.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/202100246-53ed754f-e2b3-450f-8deb-538589ab07fb.png
 
 As shown on image above, on :ref:`OAK-FFC-4P` you can enable connection of ``FSIN_4LANE`` and ``FSIN_2LANE`` with the MXIO6.
 The script below will sync together all 4 cameras that are connected to the OAK-FFC-4P.
@@ -204,19 +204,19 @@ Series 2 USB OAKs
 
 FSIN lines on DM9098 board (:ref:`OAK-D S2`, :ref:`OAK-D W`, :ref:`OAK-D Pro`, :ref:`OAK-D Pro W`):
 
-.. image:: https://user-images.githubusercontent.com/18037362/202097546-af3f3035-b4a3-4be2-8136-d37c2ee9d622.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/202097546-af3f3035-b4a3-4be2-8136-d37c2ee9d622.png
 
 USB OAK-1* FSIN
 ^^^^^^^^^^^^^^^
 
 FSIN test pad on NG9093 board (:ref:`OAK-1`, :ref:`OAK-1 W`, :ref:`OAK-1 Lite`, :ref:`OAK-1 Lite W`, :ref:`OAK-1 Max`):
 
-.. image:: https://user-images.githubusercontent.com/18037362/202103792-45ed20b4-4345-4af0-a266-1e2b0eb88d07.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/202103792-45ed20b4-4345-4af0-a266-1e2b0eb88d07.png
 
 OAK-D-Lite FSIN
 ^^^^^^^^^^^^^^^
 
-.. image:: https://user-images.githubusercontent.com/18037362/202106310-e3cbbaa8-2b22-41ae-95b7-ce06465bfbdc.png
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/202106310-e3cbbaa8-2b22-41ae-95b7-ce06465bfbdc.png
 
 Note that stereo camera pair and color cameras aren't connected together.
 

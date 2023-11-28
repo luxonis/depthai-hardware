@@ -79,7 +79,7 @@ The following PoE injectors were tested on a 12V input:
 
 Here's an example of connecting multiple OAK PoE cameras to the UniFi switch:
 
-.. image:: /_static/images/poe/poe-switch.jpeg
+.. thumbnail:: /_static/images/poe/poe-switch.jpeg
 
 Ethernet Cables and weather resistance
 **************************************
@@ -88,7 +88,7 @@ The OAK PoE models are designed to allow outdoor use, including being weather re
 provides the sealing around the Ethernet cable. These glands are designed to be used with "professional" installations, meaning that they are designed 
 to be used with cable that is crimped to length for the installation and thus has no "boot".
 
-.. image:: /_static/images/poe/boot.jpeg
+.. thumbnail:: /_static/images/poe/boot.jpeg
 
 Cables with boots often will not fit in these water-sealing glands (since they are designed for these professional installations, which are "no-boot" 
 installations). So, if you are installing outdoors, it is recommended to either use a no-boot pre-made cable, or us the "professional" technique of 

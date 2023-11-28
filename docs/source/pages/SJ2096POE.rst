@@ -5,7 +5,7 @@ OAK-1-PoE
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/poe/products/oak-1-poe>`__
 
-.. image:: /_static/images/SJ2096POE/SJ2096POE.png
+.. thumbnail:: /_static/images/SJ2096POE/SJ2096POE.png
 
 Overview
 ********
@@ -32,13 +32,13 @@ Dimensions and Weight
 * Length: 32 mm
 * Weight: 294g
 
-.. image:: /_static/images/SJ2096POE/oak-1-poe-dimensions.png
+.. thumbnail:: /_static/images/SJ2096POE/oak-1-poe-dimensions.png
 
 Board Layout
 ************
 
-.. image:: /_static/images/SJ2096POE/SJ2096POE_dim.jpg
-.. image:: /_static/images/SJ2096POE/SJ2096POE_dim_2.jpg
+.. thumbnail:: /_static/images/SJ2096POE/SJ2096POE_dim.jpg
+.. thumbnail:: /_static/images/SJ2096POE/SJ2096POE_dim_2.jpg
 
 .. include:: /pages/includes/poe_s1_getting_started.rst
 

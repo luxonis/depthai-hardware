@@ -3,14 +3,11 @@
 Robotics Vision Core 3 (RVC3)
 =============================
 
-**Robotics Vision Core 3** (**RVC3** in short) is the third generation of our RVC. :ref:`OAK Series 3` devices are built on top of the RVC3.
-
-RVC3 encapsulates three main components:
+**Robotics Vision Core 3** (**RVC3** in short) is the third generation of our RVC. It encapsulates three main components:
 
 - **DepthAI features** that are fine-tuned for the particular SoC
 - A **performant SoC** and all its support circuitry (HS PCB layout, power delivery network, efficient heat dissipation, etc.)
-- Out-of-the-box **connectivity with Robothub**, our cloud platform, which allows for an end-to-end integration of the perception stack.
-
+- Out-of-the-box **connectivity with** `RobotHub <https://www.luxonis.com/robothub>`__ - our cloud platform, which allows for an end-to-end integration of the perception stack.
 
 RVC3-based devices
 ##################
@@ -162,7 +159,7 @@ To enable HDR, you can specify:
 
 DOL HDR stands for digital-overlap HDR. Comparison between the modes can be seen below:
 
-.. image:: /_static/images/sensors/hdr-comparison.jpg
+.. thumbnail:: /_static/images/sensors/hdr-comparison.jpg
 
 Power consumption
 *****************

@@ -5,7 +5,7 @@ OAK-D W
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-w>`__
 
-.. image:: /_static/images/DM9098/oak-d-w.png
+.. thumbnail:: /_static/images/DM9098/oak-d-w.png
 
 Overview
 ********
@@ -23,14 +23,14 @@ Hardware specifications
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
-.. image:: /_static/images/DM9098/oak-d-w-back.png
+.. thumbnail:: /_static/images/DM9098/oak-d-w-back.png
 
 Dimensions and Weight
 *********************
 
 **Weight:** 91g
 
-.. image:: /_static/images/DM9098/dimensions.png
+.. thumbnail:: /_static/images/DM9098/dimensions.png
 
 .. include:: /pages/includes/depth_75_W.rst
 .. include:: /pages/includes/imu_bno085.rst

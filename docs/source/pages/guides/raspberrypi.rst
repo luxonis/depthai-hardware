@@ -46,7 +46,7 @@ SSH into the RPi
 If you are using a pre-configured RPi OS image, SSH server is already enabled, otherwise
 you need to create file :code:`ssh` inside this **boot** volume, so SSH server will be enabled on startup (`tutorial here <https://desertbot.io/blog/ssh-into-pi-zero-over-usb>`__).
 
-.. image:: /_static/images/hosts/boot_volume.png
+.. thumbnail:: /_static/images/hosts/boot_volume.png
 
 If you have RPi with **WiFi connectivity**, you can set the WiFi SSID/Password
 by creating (and editing) :code:`wpa_supplicant.conf` inside the **boot** volume (`tutorial here <https://raspberrytips.com/raspberry-pi-wifi-setup/>`__).
@@ -75,7 +75,7 @@ After this command, you will need to provide the password. The **default RPi OS 
 
 After SSH was successful, let's try running an example app :code:`python depthai-python/examples/MobileNet/rgb_mobilenet.py`
 
-.. image:: /_static/images/hosts/works.png
+.. thumbnail:: /_static/images/hosts/works.png
 
 Known image limitations
 ***********************
@@ -93,13 +93,13 @@ go through the process of flashing an image to the eMMC that's on the CM4.
 Here's an OAK-D-CM4, which has CM4 with **eMMC memory that is indicated by the red arrow**. CM4 Lite versions won't
 have this chip in that location.
 
-.. image:: /_static/images/rpi/cm4-emmc.png
+.. thumbnail:: /_static/images/rpi/cm4-emmc.png
 
 To flash an image to the CM4 eMMC (`official RPi guide <https://www.raspberrypi.com/documentation/computers/compute-module.html#flashing-the-compute-module-emmc>`__),
 first need to enable USB_BOOT with the header pin. By default, connector is on the 2 header pins that are indicated as
 ``DIS`` (disabled), so we have to move the connector to the :code:`EN` pins (enabled).
 
-.. image:: /_static/images/rpi/usb-boot.png
+.. thumbnail:: /_static/images/rpi/usb-boot.png
 
 After switching the pin connector to ``EN``, we can connect a micro-USB cable from our computer to the micro-USB connector that's
 also indicated by the red rectangle above. After connecting the micro-USB, you should supply the power via 5V barrel jack.
@@ -128,7 +128,7 @@ or `Balena Etcher <https://www.balena.io/etcher/>`__ (what we have used, screens
 desired image to the eMMC**. After flashing is complete, make sure to disable the USB boot (by switching the connector
 again) and restart the device. It should boot from the newly flashed image!
 
-.. image:: /_static/images/rpi/etcher.png
+.. thumbnail:: /_static/images/rpi/etcher.png
 
 Raspberry Pi Zero
 *****************
@@ -137,7 +137,7 @@ Raspberry Pi Zero
 performance. You can get one for about $5. It has 512MB RAM, 1GHz single-core CPU, and optional on-board Bluetooth and WiFi
 connectivity (RPI Zero W, which costs about $10). It consumes about 0.5W.
 
-.. image:: /_static/images/hosts/rpi_zero.png
+.. thumbnail:: /_static/images/hosts/rpi_zero.png
 
 **RPi Zero is sufficient for streaming metadata** (NN results), low-resolution encoded videos, or light computing. If you intend to stream
 high-res videos, perform heavy computing (e.g. with OpenCV) or post-processing, RPi Zero won't be the best choice for host computer.
@@ -148,12 +148,12 @@ Connect OAK camera to a RPI Zero
 RPI Zero has one micro USB connector for peripherals. You can use your standard USB-C (to USB-A) cable, but you will need **OTG connector/cable**
 to connect an OAK camera to the RPI Zero.
 
-.. image:: /_static/images/hosts/rpi_zero_otg.png
+.. thumbnail:: /_static/images/hosts/rpi_zero_otg.png
 
 All of the above options work. We are not connected/affiliated with these companies, but here's where we got the left connector (`Aliexpress <https://www.aliexpress.com/item/1005001873492004.html?spm=a2g0o.productlist.0.0.4259778c8zzJWk&algo_pvid=108d8130-3b53-4e3b-98ab-e025d519330d&algo_exp_id=108d8130-3b53-4e3b-98ab-e025d519330d-1&pdp_ext_f=%7B%22sku_id%22%3A%2212000022480660847%22%7D>`__),
 and right connector (`Aliexpress <https://www.aliexpress.com/item/1005001894832301.html?spm=a2g0o.productlist.0.0.4259778c8zzJWk&algo_pvid=108d8130-3b53-4e3b-98ab-e025d519330d&algo_exp_id=108d8130-3b53-4e3b-98ab-e025d519330d-0&pdp_ext_f=%7B%22sku_id%22%3A%2212000018040382364%22%7D>`__).
 
-.. image:: /_static/images/hosts/zero_oak_d.png
+.. thumbnail:: /_static/images/hosts/zero_oak_d.png
 
 From our testing, RPi Zero was able to provide enough power to the OAK-D without an external power supply (either power jack or :ref:`Y-adapter`).
 

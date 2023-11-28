@@ -3,7 +3,7 @@ OAK-D SR
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-sr>`__
 
-.. image:: /_static/images/OAK-D-SR/oak-d-sr.jpg
+.. thumbnail:: /_static/images/OAK-D-SR/oak-d-sr.jpg
 
 Overview
 ********
@@ -56,7 +56,7 @@ Camera module specifications
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/OAK-D-SR/oak-d-sr-dimensions.png
+.. thumbnail:: /_static/images/OAK-D-SR/oak-d-sr-dimensions.png
 
 **Weight:** 72g
 

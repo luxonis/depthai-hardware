@@ -5,7 +5,7 @@ FSYNC Y-adapter
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/accessories/products/>`__
 
-.. image:: /_static/images/FSYNC_YADAPTER/fsync-yadapter.jpg
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/fsync-yadapter.jpg
 
 Overview
 ********
@@ -23,7 +23,7 @@ Getting Started
 
 One can daisy-chain multiple OAK cameras as per wiring schematics below. Multiple cameras can be daisy-chained.
 
-.. image:: /_static/images/FSYNC_YADAPTER/fsync_schematics.jpg
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/fsync_schematics.jpg
 
 OAK-D-SR-POE that doesn't have a cable connected to "IN" port (M8 female connector) will output FSYNC signal automatically and will therefore be the "FSYNC Host" device, while
 devices that have a cable connected to "IN" port will be "FSYNC Peripheral" devices.
@@ -31,17 +31,17 @@ devices that have a cable connected to "IN" port will be "FSYNC Peripheral" devi
 FSYNC results
 *************
 
-.. figure:: /_static/images/FSYNC_YADAPTER/exposure1.jpg
+Exposure time is low (manual exposure set), so TS difference (TS is from the middle of the exposure) is minimal:
 
-    Exposure time is low (manual exposure set), so TS difference (TS is from the middle of the exposure) is minimal
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/exposure1.jpg
 
-.. figure:: /_static/images/FSYNC_YADAPTER/exposure2.jpg
+Auto-Exposure, TS difference is a bit larger (13ms), as color sensors have ~25ms longer exposure time (and we take middle of exposure, so /2):
 
-    Auto-Exposure, TS difference is a bit larger (13ms), as color sensors have ~25ms longer exposure time (and we take middle of exposure, so /2)
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/exposure2.jpg
 
-.. figure:: /_static/images/FSYNC_YADAPTER/exposure3.jpg
+Hardware syncing 4x OAK PoE cameras. Manual exposure of 6ms for color cameras, 1ms mono cameras:
 
-    Hardware syncing 4x OAK PoE cameras. Manual exposure of 6ms for color cameras, 1ms mono cameras.
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/exposure3.jpg
 
 Script used can be `found here <https://gist.github.com/Erol444/9767b2b63d5829cf9469496ea291c541>`__.
 We used :ref:`External FSYNC signal` in this case, as we tested it with 2x OAK-D Pro PoE cameras. The mobile phone screen was set to 120 Hz refresh rate.
@@ -61,7 +61,7 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
 
     .. tab:: Wiring diagram
 
-        .. image:: /_static/images/FSYNC_YADAPTER/signal-gen-schematics.jpg
+        .. thumbnail:: /_static/images/FSYNC_YADAPTER/signal-gen-schematics.jpg
 
         .. code-block:: python
 
@@ -75,7 +75,7 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
 
     .. tab:: Photo of the wiring
 
-        .. image:: /_static/images/FSYNC_YADAPTER/signal_gen.jpg
+        .. thumbnail:: /_static/images/FSYNC_YADAPTER/signal_gen.jpg
 
         Make sure that the LOW level is 0V, and that HIGH voltage is above 10V. Also
         note that ~5 microseconds pulse is required by OV9x82 sensor, while IMX sensors
@@ -90,7 +90,7 @@ One could also use level shifter to convert 5V output (from "FSYNC Host device")
         the camera on the first FSYNC Y-adapter won't work, only the cameras after it will be synced together. This is because the first FSYNC Y-adapter will pull the GPIO3 to GND, as
         seen in the schematics below.
 
-        .. image:: /_static/images/FSYNC_YADAPTER/FSYNC_Yadapter_schematics.jpg
+        .. thumbnail:: /_static/images/FSYNC_YADAPTER/FSYNC_Yadapter_schematics.jpg
 
 
 Dimensions and Weight
