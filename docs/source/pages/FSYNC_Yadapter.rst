@@ -31,17 +31,17 @@ devices that have a cable connected to "IN" port will be "FSYNC Peripheral" devi
 FSYNC results
 *************
 
-.. figure:: /_static/images/FSYNC_YADAPTER/exposure1.jpg
+Exposure time is low (manual exposure set), so TS difference (TS is from the middle of the exposure) is minimal:
 
-    Exposure time is low (manual exposure set), so TS difference (TS is from the middle of the exposure) is minimal
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/exposure1.jpg
 
-.. figure:: /_static/images/FSYNC_YADAPTER/exposure2.jpg
+Auto-Exposure, TS difference is a bit larger (13ms), as color sensors have ~25ms longer exposure time (and we take middle of exposure, so /2):
 
-    Auto-Exposure, TS difference is a bit larger (13ms), as color sensors have ~25ms longer exposure time (and we take middle of exposure, so /2)
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/exposure2.jpg
 
-.. figure:: /_static/images/FSYNC_YADAPTER/exposure3.jpg
+Hardware syncing 4x OAK PoE cameras. Manual exposure of 6ms for color cameras, 1ms mono cameras:
 
-    Hardware syncing 4x OAK PoE cameras. Manual exposure of 6ms for color cameras, 1ms mono cameras.
+.. thumbnail:: /_static/images/FSYNC_YADAPTER/exposure3.jpg
 
 Script used can be `found here <https://gist.github.com/Erol444/9767b2b63d5829cf9469496ea291c541>`__.
 We used :ref:`External FSYNC signal` in this case, as we tested it with 2x OAK-D Pro PoE cameras. The mobile phone screen was set to 120 Hz refresh rate.
