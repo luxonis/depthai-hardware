@@ -1,7 +1,7 @@
 Calibration
-###########
+===========
 
-Types of calibration currently supported: 
+Currently supported calibration procedures: 
 
  - :ref:`Depth Calibration <Depth Calibration>` 
  - :ref:`TOF Calibration <TOF Calibration>`
@@ -29,7 +29,7 @@ please see the steps below and also :code:`./calibrate.py --help` which will pri
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/nD0hy9164p8" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+        <iframe src="https://www.youtube.com/embed/ZT2AqNC2xDY" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
 Prerequisites
@@ -83,94 +83,15 @@ Afterwards, you need to measure the square size of the charuco board, as we will
 
   Measuring square size, which is 3.76 cm in this case
 
-Run the calibration script
-**************************
 
-Replace the placeholder argument values with valid entries:
+Creating custom configuration for modular OAK devices
+*****************************************************
 
-.. code-block:: bash
-
-  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] --board [BOARD] -nx [squaresX] -ny [squaresY]
-
-For calibrating the :ref:`OAK-D S2` on a 32" screen, you should use the 17 squaresX, 9 squaresY Charuco board, and the square size is 3.76 cm (measured above). I will run the following command:
-
-.. code-block:: bash
-
-  python3 calibrate.py -s 3.76 --board OAK-D-S2 -nx 17 -ny 9
+.. note::
+  If you have a compact OAK device (OAK-D, OAK-D-Lite, OAK-D-Pro PoE....), you can skip this step.
 
 
-.. list-table:: More important arguments. For a full list of arguments, run ``python3 calibrate.py --help``
-  :header-rows: 1
-
-  * - Arg
-    - Arg long
-    - Arg Description
-  * - ``-s``
-    - ``--squareSizeCm``
-    - Measured square size of the printed charuco board in centimeters
-  * - ``-brd``
-    - ``--board``
-    - Name of the camera (from `depthai-boards <https://github.com/luxonis/depthai-boards/tree/main/boards>`__, not case-sensitive), or path to a custom .json board config
-  * - ``-nx``
-    - ``--squaresX``
-    - Number of squares in X direction. SquaresX is specified in :ref:`Prepare charuco board`, depending on your screen size.
-  * - ``-ny``
-    - ``--squaresY``
-    - Number of squares in Y direction. SquaresY is specified in :ref:`Prepare charuco board`, depending on your screen size.
-  * - ``-cm``
-    - ``--cameraMode``
-    - Camera mode, either ``perspective`` (default) or ``fisheye``.
-  * - ``-mdmp``
-    - ``--minDetectedMarkersPercent``
-    - Minimum percentage of detected markers in a frame, to consider the frame valid. Default is 0.5 (50%). If you want to bemore strict, you can increase this value, but it can cause longer time to get enough valid frames.
-  * - ``-ep``
-    - ``--maxEpipolarError``
-    - Maximum epipolar error in pixels, to consider the frame valid. Default is 0.7. If you want to be more strict, you can decrease this value.
-
-
-Camera positioning during calibration
-**************************************
-
-We suggest capturing the calibration from different angles and distances, as it will help the calibration algorithm to find the best possible calibration.
-
-* **1. Close to the screen**; calibration board covers almost the entire FOV. Take 5 images to cover the entire FOV of the camera:
-
-  * Front view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/18YxuiZlH87rt0TafhNqxj25i5rJK_oFD/view?usp=drive_link>`__)
-  * Without moving (translation) the camera, only with rotation align the camera FOV with calibration board edges (examples: `bottom-right <https://drive.google.com/file/d/1xe1zT0vG6RPgOoegH56y3KX-QjCuHaMU/view?usp=drive_link>`__, `top-left <https://drive.google.com/file/d/1tdDMUI9tNtuc_aLoIY-nnVSp9uc7camb/view?usp=drive_link>`__, `top-right <https://drive.google.com/file/d/1JKa77WfAJt7b933qySa7ZX1UmKD4xfvT/view?usp=drive_link>`__, `bottom-left <https://drive.google.com/file/d/1u-8ntHu7TaxU3oNkJjPqy__skIokBgGO/view?usp=drive_link>`__)
-* **2. Close to the screen, from the side**. 4 or more images of the calibration board tilted, but still covering majority of the FOV. Move the camera to the top, bottom, left, and right side of the screen. You can use different distances as well
-* **3. Middle distance**; calibration board covers 40% of the FOV. Take 5 images to cover the entire FOV of the camera:
-
-  * Front view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/1kSN_HHpKxsPWcTQnHqWNJM1Y_tkELM8X/view?usp=drive_link>`__)
-  * Same as for ``Close to the screen``, without moving, only with rotation align the camera FOV with calibration board edges
-* **4. Far from the screen**; calibration board covers only a small part of the FOV. In total, take 9 images to cover the entire FOV of the camera:
-
-  * Frontal view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/100Ek-j6AVSvsJwvHKd8p_opt9HwwHXc0/view?usp=drive_link>`__)
-  * Similar to close/middle distance, take 4 images aligning the camera FOV to all 4 edges (example: `top-left <https://drive.google.com/file/d/1wb5pwuSLhunDEdQfs7GAaSnqKjARHVU3/view?usp=drive_link>`__)
-  * Besides aligning with all 4 edges, also take 4 images aligning with corners (examples: `top <https://drive.google.com/file/d/1sqBuyTdclv8dllZGDLa_eQQD3Sod4Eie/view?usp=drive_link>`__, `bottom <https://drive.google.com/file/d/1YfP4ehtb5jDfioc4rcSaYtDU3fvVbKhq/view?usp=drive_link>`__, `left <https://drive.google.com/file/d/1S0bd4Dqvo0hRKVLkFZOcpo5USb8QzgWn/view?usp=drive_link>`__, `right <https://drive.google.com/file/d/1zYP5re_X0u6yEFMGKALG354riYTwbwo1/view?usp=drive_link>`__)
-
-
-.. figure:: /_static/images/calibration/calib_positions.jpeg
-
-   Different camera rotations/positions during calibration, birdseye-view
-
-Close for Normal FOV with 28" screen would be about 50cm, and far about 1m.
-
-.. tabs::
-
-   .. tab:: Normal FOV
-
-      .. figure:: /_static/images/calibration/nfov_views.jpg
-
-        Camera poses in respect to the calibration board (black dots), Normal FOV
-
-   .. tab:: Wide FOV
-
-      .. figure:: /_static/images/calibration/wfov_views.jpg
-
-        Camera poses in respect to the calibration board (black dots), Wide FOV
-
-Modular cameras calibration
-***************************
+If you are using a :ref:`Modular Camera Designs` (OAK-FFC-4P, 3P, 6P), you will need to create a custom board config file, which will describe the camera configuration on your device.
 
 Use one of the board :code:`*.json` files from `here <https://github.com/luxonis/depthai-boards/tree/main/boards>`__ as a template for your custom board config.
 
@@ -248,15 +169,6 @@ Example for OAK-FFC-4P with two OV9282 (PY003) cameras in stereo setup with 14.8
    }
 
 
-
-Having set up the board config, we can now run the calibration with name of the json config as board name. Since we named the config file ``OAK-FFC-4P.json``, we'll run the calibration as:
-
-.. code-block:: bash
-
-  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P.json
-
-Run :code:`python3 calibrate.py --help` (or :code:`-h`) for a full list of arguments and usage examples.
-
 Another example using OAK-FFC-4P, but this time without the color camera:
 
 .. code-block::
@@ -298,31 +210,127 @@ Another example using OAK-FFC-4P, but this time without the color camera:
       }
   }
 
-When running the calibration, we'll use the same command as before, but with the :code:`-drgb` option to disable the color camera:
+
+Having set up the board config, we can now run the calibration with name of the json config as board name.
+
+Run the calibration script
+**************************
+
+Replace the placeholder argument values with valid entries:
 
 .. code-block:: bash
 
-  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] -db -brd OAK-FFC-4P -drgb
+  python3 calibrate.py -s [SQUARE_SIZE_IN_CM] --board [BOARD] -nx [squaresX] -ny [squaresY]
+
+For calibrating the :ref:`OAK-D S2` on a 32" screen, you should use the 17 squaresX, 9 squaresY charuco board, and the square size is 3.76 cm (measured above). I will run the following command:
+
+.. code-block:: bash
+
+  python3 calibrate.py -s 3.76 --board OAK-D-S2 -nx 17 -ny 9
+
+For calibrating a modular OAK device (OAK-FFC-4P, 3P, 6P), you should use the custom board config file you created in the previous step. 
+Since we named the config file ``OAK-FFC-4P.json``, we'll run the calibration as:
+
+.. code-block:: bash
+
+  python3 calibrate.py -s 3.76 --board OAK-FFC-4P -nx 17 -ny 9
+
+or if for the example without an RGB camera:
+
+.. code-block:: bash
+
+  python3 calibrate.py -s 3.76 --board OAK-FFC-4P -nx 17 -ny 9 -drgb
 
 
-Position the charuco board and capture images
-*********************************************
 
-Left and right video streams are displayed, each containing a polygon overlay.
+.. list-table:: More important arguments. For a full list of arguments, run ``python3 calibrate.py --help``
+  :header-rows: 1
 
-Hold up the printed charuco board (or laptop with the image displayed on the screen) so that the whole of the calibration board is displayed within both video streams.
+  * - Arg
+    - Arg long
+    - Arg Description
+  * - ``-s``
+    - ``--squareSizeCm``
+    - Measured square size of the printed charuco board in centimeters
+  * - ``-brd``
+    - ``--board``
+    - Name of the camera (from `depthai-boards <https://github.com/luxonis/depthai-boards/tree/main/boards>`__, not case-sensitive), or path to a custom .json board config
+  * - ``-nx``
+    - ``--squaresX``
+    - Number of squares in X direction. SquaresX is specified in :ref:`Prepare charuco board`, depending on your screen size.
+  * - ``-ny``
+    - ``--squaresY``
+    - Number of squares in Y direction. SquaresY is specified in :ref:`Prepare charuco board`, depending on your screen size.
+  * - ``-cm``
+    - ``--cameraMode``
+    - Camera mode, either ``perspective`` (default) or ``fisheye``.
+  * - ``-mdmp``
+    - ``--minDetectedMarkersPercent``
+    - Minimum percentage of detected markers in a frame, to consider the frame valid. Default is 0.5 (50%). If you want to bemore strict, you can increase this value, but it can cause longer time to get enough valid frames.
+  * - ``-ep``
+    - ``--maxEpipolarError``
+    - Maximum epipolar error in pixels, to consider the frame valid. Default is 0.7. If you want to be more strict, you can decrease this value.
 
-Match the orientation of the overlaid polygon and press [SPACEBAR] to capture an image. The charuco board pattern does
-not need to match the polygon exactly, but it is important to use the polygon as a guideline for angling and location relative to the camera.
-There are 39 required polygon positions. Note that the number of required polygon positions can be manually changed,
-but might impact the accuracy of the calibration.
 
-After capturing images for all of the polygon positions, the calibration image processing step will begin.
-If successful, the calibration data will be written to EEPROM and a copy of it will be created in files under
-:code:`depthai/resources/` as :code:`<Device Mx ID>.json` if device is connected or :code:`depthai_calib.json` otherwise
 
-It will also create the mesh files named :code:`left_mesh.calib` and :code:`right_mesh.calib` under :code:`depthai/resources/`
-which can be used to overcome distortions in stereo node for camera modules with distortions.
+Camera positioning during calibration
+**************************************
+
+We suggest capturing the calibration from different angles and distances, as it will help the calibration algorithm to find the best possible calibration.
+
+* **1. Close to the screen**; calibration board covers almost the entire FOV. Take 5 images to cover the entire FOV of the camera:
+
+  * Front view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/18YxuiZlH87rt0TafhNqxj25i5rJK_oFD/view?usp=drive_link>`__)
+  * Without moving (translation) the camera, only with rotation align the camera FOV with calibration board edges (examples: `bottom-right <https://drive.google.com/file/d/1xe1zT0vG6RPgOoegH56y3KX-QjCuHaMU/view?usp=drive_link>`__, `top-left <https://drive.google.com/file/d/1tdDMUI9tNtuc_aLoIY-nnVSp9uc7camb/view?usp=drive_link>`__, `top-right <https://drive.google.com/file/d/1JKa77WfAJt7b933qySa7ZX1UmKD4xfvT/view?usp=drive_link>`__, `bottom-left <https://drive.google.com/file/d/1u-8ntHu7TaxU3oNkJjPqy__skIokBgGO/view?usp=drive_link>`__)
+* **2. Close to the screen, from the side**. 4 or more images of the calibration board tilted, but still covering majority of the FOV. Move the camera to the top, bottom, left, and right side of the screen. You can use different distances as well
+* **3. Middle distance**; calibration board covers 40% of the FOV. Take 5 images to cover the entire FOV of the camera (9 were taken in the video tutorial, but 5 is enough):
+
+  * Front view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/1kSN_HHpKxsPWcTQnHqWNJM1Y_tkELM8X/view?usp=drive_link>`__)
+  * Same as for ``Close to the screen``, without moving, only with rotation align the camera FOV with calibration board edges
+* **4. Far from the screen**; calibration board covers only a small part of the FOV. In total, take 9 images to cover the entire FOV of the camera:
+
+  * Frontal view, calibration board in the middle of the FOV (`example <https://drive.google.com/file/d/100Ek-j6AVSvsJwvHKd8p_opt9HwwHXc0/view?usp=drive_link>`__)
+  * Similar to close/middle distance, take 4 images aligning the camera FOV to all 4 edges (example: `top-left <https://drive.google.com/file/d/1wb5pwuSLhunDEdQfs7GAaSnqKjARHVU3/view?usp=drive_link>`__)
+  * Besides aligning with all 4 edges, also take 4 images aligning with corners (examples: `top <https://drive.google.com/file/d/1sqBuyTdclv8dllZGDLa_eQQD3Sod4Eie/view?usp=drive_link>`__, `bottom <https://drive.google.com/file/d/1YfP4ehtb5jDfioc4rcSaYtDU3fvVbKhq/view?usp=drive_link>`__, `left <https://drive.google.com/file/d/1S0bd4Dqvo0hRKVLkFZOcpo5USb8QzgWn/view?usp=drive_link>`__, `right <https://drive.google.com/file/d/1zYP5re_X0u6yEFMGKALG354riYTwbwo1/view?usp=drive_link>`__)
+
+
+.. figure:: /_static/images/calibration/calib_positions.jpeg
+
+   Different camera rotations/positions during calibration, birdseye-view
+
+Close for Normal FOV with 28" screen would be about 50cm, and far about 1m.
+
+.. tabs::
+
+   .. tab:: Normal FOV
+
+      .. figure:: /_static/images/calibration/nfov_views.jpg
+
+        Camera poses in respect to the calibration board (black dots), Normal FOV
+
+   .. tab:: Wide FOV
+
+      .. figure:: /_static/images/calibration/wfov_views.jpg
+
+        Camera poses in respect to the calibration board (black dots), Wide FOV
+
+
+
+Follow the same procedure as for the compact camera calibration `above <#camera-positioning-during-calibration>`__.
+
+
+Running the calibration
+***********************
+
+After capturing images, we can run the calibration. This is done by pressing ``s`` key. The script will show epiplolar lines for each image, and you should check if they are aligned correctly. Once all images are checked, the calibration result (if successful) will be flashed on to the device EEPROM. 
+Each captured image is saved in the ``dataset`` folder, so you can re-run the calibration process on its own, without having to capture the images again. 
+
+.. code-block:: bash
+
+  python3 calibrate.py -s 3.76 --board OAK-D-S2 -nx 17 -ny 9 -m process
+
+
+Calibration results are stored inside the resources folder and can be used later for testing/debugging purposes. You can also load/flash this local calibration file to the device - see `here <https://docs.luxonis.com/projects/api/en/latest/samples/calibration/calibration_load/#calibration-load>`__ for more details.
 
 
 Test depth
@@ -339,15 +347,17 @@ Troubleshooting
   confirming the epiplolar lines correctly align left and right, the depth is still incorrect, perhaps your left and right cameras are swapped.
   In that case you could retry the calibration with changed board config, or simply swap the board sockets the cameras are plugged into.
 
+
 TOF Calibration
 ################
 
-Time-of-Flight (ToF) calibration is a process used to ensure the accuracy and reliability of a ToF camera system. ToF cameras measure the distance to a subject or object by emitting a light signal (usually infrared) and then measuring the time it takes for the light to bounce back to the camera.
+The Time-of-Flight (ToF) calibration is essential for aligning the ToF sensor with other cameras in the system. This procedure focuses on obtaining extrinsic parameters, which are crucial for ensuring coordinated operation among different cameras. Note that this calibration does not enhance the depth accuracy, as that aspect is managed by the device's firmware.
+
 
 Calibration procedure
 *********************
 
-
+The procedure should be the same as for the :ref:`Depth Calibration <Depth Calibration>` procedure.
 If you have already installed the DepthAI repository, you can update it for TOF calibration with the following commands:
 
 .. code-block:: bash
