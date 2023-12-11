@@ -196,14 +196,14 @@ which has 40 TOPS (GPU) and 6-core ARM CPU. Below is a 1:1 comparison of RVC4 to
     - 1342
     - 563
 
-**Conclusion:** From results above, the **RVC4 provides 90% better performance** compared to the Jetson Orin Nano 8GB.
+**Conclusion:** From results above, the **RVC4 provides 1.9x better performance** compared to the Jetson Orin Nano 8GB.
 
 Looking at `Jetson Family Benchmarks <https://developer.nvidia.com/embedded/jetson-benchmarks>`__ (at the bottom), Nvidia reports FPS for
 BS32 models (Batch Size 32, so 32 images getting inferenced all at once). From our own tests, these numbers are realistic, however, their
 BS1 models (Batch Size 1, so single image) perform ~2x worse than BS32 ones. If you want real-time performance (not +1 sec latency), you
 will need to use BS1 models.
 
-If we are only looking at **BS1 model comparison**, on average, **RVC4 provides 117% better performance**.
+If we are only looking at **BS1 model comparison**, on average, **RVC4 provides 2.17x better performance**.
 
 \* As the SoC is brand new, the model optimizer is still being updated, and additional layers will be added to get inferenced on accelerated blocks in the future. For Super resolution model, a few layers got inferenced on the CPU, that's why RVC4 performance was low.
 

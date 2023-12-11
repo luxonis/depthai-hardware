@@ -221,28 +221,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ❌
-   * - Fiducial Marker localization
-     - ✔️
-     - ✔️
-     - ✔️
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-   * - Neural Assisted Depth
-     - WIP
-     - WIP
-     - WIP
-     - \-
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
    * - Encryption
      - ❌
      - ❌
@@ -254,19 +232,6 @@ On-device feature comparison
      - ✔️
      - ✔️
      - ❌
-   * - VIO
-     - WIP
-     - WIP
-     - WIP
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ❌
-     - ✔️
-
-
 
 Features described
 ******************
@@ -285,10 +250,7 @@ Features described
 - **3D Feature Tracking** - With depth information, you can track these features in physical space.
 - **OCR** - Optical character recognition, `demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-ocr>`__.
 - **Face Recognition** - `Demo here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-face-recognition>`__, which runs face detection, alignment, and face recognition (3 different NN models) on the device simultaneously.
-- **Fiducial Marker localization** - AprilTag detector currently works at ~20FPS, `progress here <https://github.com/luxonis/depthai/issues/133>`__.
-- **Neural Assisted Depth** - Work in progress, ticket `here <https://github.com/luxonis/depthai/issues/173>`__.
 - **Encryption** - Not yet addressed.
-- **VIO** - Work in progress on :ref:`RVC3`, on :ref:`OAK Series 3` cameras.
 
 
 Camera specification
