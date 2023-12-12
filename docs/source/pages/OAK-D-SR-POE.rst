@@ -80,8 +80,8 @@ Dimensions and Weight
 * Length: 46 mm
 * Weight: 297g (with enclosure)
 
-..
-  .. thumbnail:: /_static/images/OAK-D-SR/oak-d-sr-dimensions.png
+
+.. thumbnail:: /_static/images/OAK-D-SR-POE/dimensions.png
 
 .. include:: /pages/includes/depth_20_800P.rst
 

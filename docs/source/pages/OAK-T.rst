@@ -108,7 +108,7 @@ Dimensions and Weight
 * Length: 46 mm
 * Weight: 297g (with enclosure)
 
-.. thumbnail:: /_static/images/OAK-T/oak-t-exploded.png
+.. thumbnail:: /_static/images/OAK-T/dimensions.png
 
 Power consumption
 *****************
@@ -125,6 +125,8 @@ So the total power consumption can be up to ~6.5W if you are using all the featu
 you can reduce FPS of the whole pipeline - that way, subsystems won't be utilized at 100% and will consume less power.
 
 .. include:: /pages/includes/rvc2_operating_temp.rst
+
+.. thumbnail:: /_static/images/OAK-T/oak-t-exploded.png
 
 ..
   Open Source Hardware
