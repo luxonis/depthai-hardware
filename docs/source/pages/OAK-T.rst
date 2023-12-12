@@ -108,6 +108,7 @@ Dimensions and Weight
 * Length: 46 mm
 * Weight: 297g (with enclosure)
 
+.. thumbnail:: /_static/images/OAK-T/oak-t-exploded.png
 
 Power consumption
 *****************
