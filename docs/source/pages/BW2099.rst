@@ -66,35 +66,6 @@ OAK-SoM-Pro (:ref:`RVC2`) (list below).
 
         .. include:: /pages/includes/som-pro-s3-vs-max.rst
 
-        .. figure:: /_static/images/SOM-PRO/on-FFC-4P.png
-
-            **OAK-SoM-Pro-S3** on the :ref:`OAK-FFC-4P` baseboard, which has OAK-SoM-Pro integrated by default.
-
-
-Replacing SoM-Pro versions
-**************************
-
-.. tabs::
-
-    .. tab:: Overview
-
-        .. note::
-
-            We **do not** officially support this feature, and it is purely an option that users can choose to use at their own risk without any warranty or guarantee from us.
-
-        As OAK-SoM-Pro-S3 is a drop-in replacement for OAK-SoM-Pro, you can replace it on some OAK devices (baseboards) that use it. Click on next tabs to see
-        what PCBA changes need to be performed to get it working.
-
-    .. tab:: OAK-FFC-4P
-
-        Before replacing the SoM-Pro versions, you'd need to update the baseboard (:ref:`OAK-FFC-4P`) a bit, as boot sequence needs to be changed.
-        You'd need to remove 2 resistors, move 2 resistors, and add one 0 Ω resistor.
-
-        .. thumbnail:: /_static/images/SOM-PRO/ffc-4p-update-s2.png
-
-        The OAK-FFC-4P baseboard should look like on the image below after the update. Afterwards, you can replace the OAK-SoM-Pro to OAK-SoM-Pro-S3.
-
-        .. thumbnail:: /_static/images/SOM-PRO/ffc-4p-pro-s3.png
 
 Board Layout
 ************
