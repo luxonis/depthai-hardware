@@ -141,23 +141,14 @@ Low PoE link speed
 If you've already executed the `PoE Test Script <https://github.com/luxonis/depthai-experiments/tree/master/random-scripts#poe-test-script>`_ and your PoE link speed is below 1000 Mbps, there may be a bottleneck in your setup:
 
 - **Ethernet Cable**: Use Cat5e or higher. While Cat5e supports 1 Gbps, Cat5 is limited to 100 Mbps.
-  
 - **PoE Switch**: Ensure it supports 1 Gbps speeds. Such switches are usually labeled 10/100/1000 Mbps.
-  
 - **Router**: If applicable, ensure it can handle 1 Gbps. Some routers might have limited ports with this capability.
-  
 - **PoE Injector**: Ensure it supports 1 Gbps. Some models are limited to 100 Mbps.
-  
 - **Cable Length**: Keep your Ethernet cable under 100 meters (328 feet). For longer distances, use a PoE extender.
-  
 - **Host Network Card**: Ensure it supports 1 Gbps. Older cards might be capped at 100 Mbps. If necessary, upgrade your network card.
-  
 
 **Do not use WiFi** to connect to the PoE device. WiFi is not designed for high bandwidth applications, and will likely result in a bottleneck.
 If you must use it, use WiFi standards supporting at least 1 Gbps such as 802.11ac (WiFi 5), 802.11ax (WiFi 6), or 802.11ay (WiFi 6E). Note that bandwidth diminishes with distance and obstructions between the router and host.
-
-
-
 
 Connected to the same LAN via 2 interfaces (WiFi/ethernet)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -244,6 +235,15 @@ Please refer to FreeBSD's documentation (12.0) for more information on sysctl se
     with dai.Device(config) as device:
         device.startPipeline(pipeline)
 
+PoE connectivity drop
+"""""""""""""""""""""
+
+Due to the network and networking equipment, OAK PoE cameras might drop the connection after running as expected for a few hours or a few days. There
+are 3 potential solutions/workarounds for this issue:
+
+1. Decrease the network load, so the connection doesn't drop. This can be achieved by decreasing the FPS of the camera, or by decreasing the resolution of the camera.
+2. Auto-reconnect if the camera drops connection. We have a demo here that does that. The downside is that the reconnection can take up to about 30 seconds. First, the watchdog has to kick in and reset the camera (~5sec). Then, the bootloader has to reboot on the camera so it's accessible again (~5sec). And finally, the host computer has to initialize a new connection and transfer the firmware, the pipeline, and all assets (NNs) to the camera, so it can boot up the pipeline (application).
+3. `Standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__ (best solution); in case of a dropped connection, host computer can just reconnect to the TCP (`example here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-poe-tcp-streaming>`__) or an HTTP server (`example here <https://docs.luxonis.com/projects/api/en/latest/samples/Script/script_http_server/#script-http-server>`__) running on the camera, which takes <100ms. If there's any crash (either user's application, or firmware), the device will reboot automatically in <5 seconds.
 
 Flash static IP
 ###############
