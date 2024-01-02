@@ -57,16 +57,12 @@ Stereo depth perception
 This OAK camera has a baseline of 5 cm, 10 cm, and 15 cm. Baseline distance is the distance between the left and the right stereo camera. Since we have 3 camera sensors on the OAK-D-LR,
 we also have 3 baseline distances, and 3 potential stereo pairs. We measured the accuracy of the 15 cm stereo pair (the left-most and right-most camera).
 
-* `Depth range <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#move-the-camera-closer-to-the-object>`__: 40cm - 8m
-* `MinZ <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#short-range-stereo-depth>`__: ~20cm (480P, extended), ~35cm (480P)
+* `Depth range <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#move-the-camera-closer-to-the-object>`__: 20cm - 16m
 * :ref:`Stereo Depth Accuracy`:
 
-    * 40cm - 3m: below 2% absolute depth error
-    * 3m - 6m: below 4% absolute depth error
-    * 6m-8m: below 6% absolute depth error
-
-.. image:: /_static/images/depth_error/oak-d-lite-depth-error.png
-    :target: ../guides/depth_accuracy
+    * 20cm - 6m: below 2% absolute depth error
+    * 6m - 8m: below 3% absolute depth error
+    * 8m-12m: below 4% absolute depth error
 
 Theoretical depth accuracy
 **************************
