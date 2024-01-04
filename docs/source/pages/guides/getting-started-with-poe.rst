@@ -245,6 +245,54 @@ Please refer to FreeBSD's documentation (12.0) for more information on sysctl se
         device.startPipeline(pipeline)
 
 
+Using multiple network adapters
+"""""""""""""""""""""""""""""""
+
+When working with DepthAI devices on systems with multiple network adapters, it's crucial to configure network routing to ensure proper communication with the device while maintaining internet connectivity. 
+It is common to have your PC connected to the internet **via WiFi**, while being simultaneously connected to the DepthAI device **via PoE**. In this case, most machines will prioritize the Ethernet connection, which will cause your internet connection to fail.
+
+To avoid this, we can manually configure routing to ensure that the DepthAI device communicates through the correct network adapter, while your main internet connection remains unaffected.
+
+
+.. tabs::
+
+    .. tab:: **Windows**
+
+        1. **Open Command Prompt**: Press ``Win + R``, type ``cmd``, and press Enter to open Command Prompt.
+        2. **Identify Network Adapters**: Type ``ipconfig`` and press Enter. Note the names of your network adapters (e.g., Ethernet, Wi-Fi) and their IP addresses.
+        3. **Add a Route**: 
+
+           - Use the ``route`` command to add a persistent route to the DepthAI device. The general format is: ``route -p ADD [DepthAI-IP] MASK [Subnet-Mask] [Adapter-Gateway-IP]``.
+           - Replace ``[DepthAI-IP]`` with the IP address of your DepthAI device, ``[Subnet-Mask]`` with the appropriate subnet mask, and ``[Adapter-Gateway-IP]`` with the gateway IP of the adapter you wish to use for DepthAI communication.
+
+        4. **Verify the Route**: After adding the route, you can verify it by typing ``route print`` and pressing Enter.
+
+    .. tab:: **macOS**
+
+        1. **Open Terminal**: You can find Terminal in Applications under Utilities, or use Spotlight to search for it.
+        2. **Identify Network Interfaces**: Type ``ifconfig`` and press Enter. Note the names of your network interfaces (e.g., ``en0`` for Ethernet, ``en1`` for Wi-Fi).
+        3. **Add a Route**:
+
+           - Under **network settings** -> **set service order**, drag the interface used for DepthAI to the bottom of the list.
+           - Direct the relevant traffic to the DepthAI adapter: ``sudo route add -net 169.254 -interface [dongle-interface]``.
+           - Replace ``[dongle-interface]`` with the DepthAI network interface.
+
+    .. tab:: **Ubuntu**
+
+        1. **Open Terminal**: You can find the Terminal application in the applications menu or use the shortcut ``Ctrl + Alt + T``.
+        2. **Identify Network Interfaces**: Type ``ip addr`` and press Enter. Note the names of your network interfaces (e.g., ``eth0`` for Ethernet, ``wlan0`` for Wi-Fi).
+        3. **Add a Route**:
+
+           - Use the ``ip route`` command to add a route to the DepthAI device: ``sudo ip route add [DepthAI-IP]/24 via [Adapter-Gateway-IP] dev [Network-Interface]``.
+           - Replace ``[DepthAI-IP]`` with the IP address of your DepthAI device (make sure the mask - ``24`` - is correct), ``[Adapter-Gateway-IP]`` with the gateway IP of the adapter you wish to use for DepthAI communication, and ``[Network-Interface]`` with the name of the network interface.
+        4. **Verify the Route**: You can check the route by typing ``ip route show`` and pressing Enter.
+
+    Make sure to replace the values in brackets with the appropriate values for your system. Default settings for DepthAI devices (when disconnected from a DHCP server) are specified in :ref:`DHCP and Static IP`.
+
+    More info on routing/making routes persistant can be found here: `Windows <https://www.howtogeek.com/22/adding-a-tcpip-route-to-the-windows-routing-table/>`__, `macOS <https://www.backup.ch/post/macos-how-to-add-a-static-route/>`__, `Ubuntu <https://www.cyberciti.biz/faq/linux-route-add/>`__.
+
+
+
 Flash static IP
 ###############
 
