@@ -5,7 +5,7 @@ OAK-FFC-IMX378
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-imx378>`__
 
-.. image:: /_static/images/BG0249/OAK-FFC-IMX378.png
+.. thumbnail:: /_static/images/BG0249/OAK-FFC-IMX378.png
 
 Overview
 ********

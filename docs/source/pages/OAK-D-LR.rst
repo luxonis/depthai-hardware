@@ -1,21 +1,17 @@
 OAK-D LR
 ========
 
-.. role:: raw-html(raw)
-   :format: html
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/oak-cameras-1/products/oak-d-lr>`__
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-lr-pre-order>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
-
-.. image:: /_static/images/OAK-D-LR/oak-d-lr-bottom.jpg
+.. thumbnail:: /_static/images/OAK-D-LR/oak-d-lr-bottom.jpg
 
 Overview
 ********
 
-The **OAK-D LR** (Long Range) was designed to provide an accurate long range stereo depth perception. It allows users to
-easily change the `M12 lenses <M12 selectable FOV>`__ for the cameras, which also affects the max length of stereo depth perception.
+The **OAK-D LR** (Long Range) was designed to provide an accurate **short range and long range stereo depth perception**. This works by having up to 3 stereo depth pairs at different baseline distances.
+One can also easily change the `M12 lenses <M12 selectable FOV>`__ for the cameras, which also affects the min/max distance of stereo depth perception (`additional info <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#depth-from-disparity>`__).
 
-It has **three** :ref:`AR0234` global shutter color cameras, that act as a multi-stereo pairs to
-achieve accurate, long range and short range depth perception.
+It has **3** horizontally aligned :ref:`AR0234` global shutter color cameras, which have different distances between each other, and allow for 3 different stereo baseline camera pairs (5cm, 10cm and 15cm baseline distances).
 
 The OAK-D LR leverages our :ref:`OAK-SoM-Pro <bw2099>` to make a overall compact design. The use of the SoM reduces the
 design's scale, making it easier to mount or fit in various robotic processes. The design is also `open-source <https://github.com/luxonis/depthai-hardware/tree/master/BC2087_OAK-D-LR>`__,
@@ -55,85 +51,97 @@ For communication and power, the OAK-D LR camera uses **either**:
      - 2.35mm
 
 
-Depth accuracy
-**************
+Stereo depth perception
+***********************
 
-The OAK-D LR is designed to provide accurate depth perception at long range. The depth accuracy is dependent on number of factors (`docs here <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#depth-from-disparity>`__),
-but also FOV and baseline distance between stereo cameras.
+This OAK camera has a baseline of 5 cm, 10 cm, and 15 cm. Baseline distance is the distance between the left and the right stereo camera. Since we have 3 camera sensors on the OAK-D-LR,
+we also have 3 baseline distances, and 3 potential stereo pairs. We measured the accuracy of the 15 cm stereo pair (the left-most and right-most camera).
+
+* `Depth range <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#move-the-camera-closer-to-the-object>`__: 20cm - 16m
+* :ref:`Stereo Depth Accuracy`:
+
+    * 20cm - 6m: below 2% absolute depth error
+    * 6m - 8m: below 3% absolute depth error
+    * 8m-12m: below 4% absolute depth error
+
+Theoretical depth accuracy
+**************************
+
+As M12 lenses are swappable, user can easily change lenses to achieve **wider FOV**, or **longer depth perception** (narrower FOV):
 
 .. list-table:: Maximum depth perception based on lens/accuracy
    :header-rows: 1
 
    * - HFOV [°]
-     - < 3% depth error
-     - < 5% depth error
-     - < 10% depth error
+     - < 2% depth error
+     - < 4% depth error
+     - < 8% depth error
      - MinZ
    * - 10
      - 54.9 m
      - 137.2 m
      - 274.3 m
-     - 3.85 m
+     - 1.92 m
    * - 20
      - 27.2 m
      - 68.1 m
      - 136.1 m
-     - 1.91 m
+     - 95 cm
    * - 30
      - 17.9 m
      - 44.8 m
      - 89.6 m
-     - 1.26 m
+     - 63 cm
    * - 40
      - 13.2 m
      - 33.0 m
      - 65.9 m
-     - 0.93 m
+     - 46 cm
    * - 50
      - 10.3 m
      - 25.7 m
      - 51.5 m
-     - 0.72 m
+     - 36 cm
    * - 60
      - 8.3 m
      - 20.8 m
      - 41.6 m
-     - 0.58 m
+     - 29 cm
    * - 70
      - 6.9 m
      - 17.1 m
      - 34.3 m
-     - 0.48 m
+     - 24 cm
    * - 80
      - 5.7 m
      - 14.3 m
      - 28.6 m
-     - 0.41 m
+     - 21 cm
    * - **82**
      - **5.5 m**
      - **13.8 m**
      - **27.6 m**
-     - **0.39 m**
+     - **20 cm**
    * - 90
      - 4.8 m
      - 12.0 m
      - 24.0 m
-     - 0.34 m
+     - 17 cm
    * - 100
      - 4.0 m
      - 10.1 m
      - 20.1 m
-     - 0.28 m
+     - 14 cm
 
-**Note:** we haven't tested these combinations, we only calculated `theoretical depth error <https://docs.google.com/spreadsheets/d/1ymn-0D4HcCbzYP-iPycj_PIdSwmrLenlGryuZDyA4rQ/edit#gid=0>`__
+**Note:** we haven't tested all of these combinations, but calculated `theoretical depth error <https://docs.google.com/spreadsheets/d/1ymn-0D4HcCbzYP-iPycj_PIdSwmrLenlGryuZDyA4rQ/edit#gid=0>`__
 and interpolated those values with our previous real-world tests when enabling subpixel disparity:
 
-- ``< 3% error`` - 20th disparity pixel, which has 5% full-pixel error (~3% with subpixel enabled)
-- ``< 5% error`` - 8th disparity pixel, which has 12.5% full-pixel error (~5% with subpixel enabled)
-- ``< 10% error`` - 4th disparity pixel, which has 25% full-pixel error (~10% with subpixel enabled)
+- ``< 2% error`` - 20th disparity pixel, which has 5% full-pixel error (~2% with subpixel enabled)
+- ``< 4% error`` - 8th disparity pixel, which has 12.5% full-pixel error (~4% with subpixel enabled)
+- ``< 8% error`` - 4th disparity pixel, which has 25% full-pixel error (~10% with subpixel enabled)
 
-Maximum depth was calculated by using the large (15cm) baseline, while MinZ was calculated by using the small (5cm) baseline of the OAK-D-LR. You can further decrease MinZ by using Extended Disparity Mode, lower resolution,
-or using disparity shift (`docs here <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#how-to-get-lower-minz>`__).
+Maximum depth was calculated by using the large (15cm) baseline, while MinZ was calculated by using the small (5cm) baseline of the OAK-D-LR. You can further decrease MinZ by lowering the resolution,
+or using disparity shift (`docs here <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#how-to-get-lower-minz>`__). MinZ values are already using Extended Disparity Mode.
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
@@ -141,11 +149,13 @@ Dimensions and Weight
 *********************
 
 ..
-   .. image:: /_static/images/BW1098OAK/oak-d-dimensions.png
+   .. thumbnail:: /_static/images/BW1098OAK/oak-d-dimensions.png
 * Width: 202 mm
 * Height: 44 mm
 * Length: 40 mm
 * Weight: 415g
+
+.. include:: /pages/includes/imu_bno085.rst
 
 ..
    .. include:: /pages/includes/depth_75_800P.rst

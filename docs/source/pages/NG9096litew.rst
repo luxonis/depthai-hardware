@@ -5,7 +5,7 @@ OAK-1 Lite W
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-1-lite-w>`__
 
-.. image:: /_static/images/NG9096/OAK-1-Lite-W_up.png
+.. thumbnail:: /_static/images/NG9096/OAK-1-Lite-W_up.png
 
 Overview
 ********
@@ -41,7 +41,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1093/oak-1-assembly.png
+.. thumbnail:: /_static/images/BW1093/oak-1-assembly.png
 
 
 3D models

@@ -3,7 +3,7 @@
 OAK FFC camera modules
 ######################
 
-.. image:: /_static/images/arducam/cameras.jpg
+.. thumbnail:: /_static/images/arducam/cameras.jpg
 
 Overview
 ========
@@ -92,7 +92,7 @@ FFC camera mounting
 **OAK-FFC Kit** is a great way to mount your OAK FFC camera modules. It allows you to easily customize both **horizontal and vertical stereo baseline**.
 You can buy it from `our shop <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-kit>`__. For usage, see `instruction here <https://github.com/luxonis/depthai-hardware/blob/master/oak-ffc-kit/OAK-FFC-Kit_assembly_instruction.pdf>`__.
 
-.. image:: /_static/images/arducam/ffc-kit.jpg
+.. thumbnail:: /_static/images/arducam/ffc-kit.jpg
 
 Mounting adapters can also be found `on Github <https://github.com/luxonis/depthai-hardware/tree/master/adapters>`__.
 
@@ -137,7 +137,7 @@ RPi cameras can be connected to the FFC baseboard via the `UC-244 Adapter <https
 
 If you just want to use IMX477, we suggest using `Arducam HQ Cam for RPi, IMX477 <https://www.arducam.com/product/b0240-arducam-imx477-hq-quality-camera/>`__ that works directly with OAK FFC baseboards (without the UC-244 adapter).
 
-.. image::
+.. thumbnail::
 
 M12 mount lenses
 ****************

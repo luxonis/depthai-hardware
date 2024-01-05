@@ -15,7 +15,7 @@ github repository.
 Overview
 ########
 
-.. image:: /_static/images/guides/iot-diagram.png
+.. thumbnail:: /_static/images/guides/iot-diagram.png
 
 Overview explained:
 

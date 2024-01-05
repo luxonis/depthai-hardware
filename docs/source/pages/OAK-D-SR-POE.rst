@@ -6,7 +6,7 @@ OAK-D SR PoE
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-d-sr-poe>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
 
-.. image:: /_static/images/OAK-D-SR-POE/oak-d-sr-poe.png
+.. thumbnail:: /_static/images/OAK-D-SR-POE/oak-d-sr-poe.png
 
 Overview
 ********
@@ -67,12 +67,11 @@ Camera module specifications
    * - F-number
      - 2.0 ±5%
      - 1.45 ± 5%
-..
    * - Effective Focal Length
      - 2.35mm
-     - ??
+     - N/A
 
-.. image:: /_static/images/OAK-D-SR-POE/oak-d-sr-poe-sensors.png
+.. thumbnail:: /_static/images/OAK-D-SR-POE/oak-d-sr-poe-sensors.png
 
 Dimensions and Weight
 *********************
@@ -83,7 +82,7 @@ Dimensions and Weight
 * Weight: 297g (with enclosure)
 
 ..
-  .. image:: /_static/images/OAK-D-SR/oak-d-sr-dimensions.png
+  .. thumbnail:: /_static/images/OAK-D-SR/oak-d-sr-dimensions.png
 
 .. include:: /pages/includes/depth_20_800P.rst
 

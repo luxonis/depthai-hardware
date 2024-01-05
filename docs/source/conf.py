@@ -35,6 +35,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.autosectionlabel",  # https://github.com/sphinx-doc/sphinx/issues/7697 wait for this and implement
     "sphinx_rtd_theme",
+    "sphinxcontrib.images",
 ]
 
 # Add any paths that contain templates here, relative to this directory.

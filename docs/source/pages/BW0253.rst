@@ -5,7 +5,7 @@ RaspberryPi Adapter Camera
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/rpi-hq-camera-imx477-adapter-kit>`__
 
-.. image:: /_static/images/BW0253/BW0253_sq.jpg
+.. thumbnail:: /_static/images/BW0253/BW0253_sq.jpg
 
 Overview
 ********
@@ -15,7 +15,7 @@ the :ref:`OAK-FFC-3P-OG <bw1098ffc>`.
 
 This allows using DepthAI with all sorts of lens combinations, including variable zoom, variable focus, and even with a telescope.
 
-.. image:: /_static/images/BW0253/BW0253.jpg
+.. thumbnail:: /_static/images/BW0253/BW0253.jpg
 
 General information
 *******************

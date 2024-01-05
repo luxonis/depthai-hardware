@@ -5,7 +5,7 @@ OAK-FFC 1P PoE
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/beta-store/products/oak-ffc-poe-1p>`__
 
-.. image:: /_static/images/BW2098POE/BW2098POE_up.png
+.. thumbnail:: /_static/images/BW2098POE/BW2098POE_up.png
 
 Overview
 ********
@@ -25,12 +25,12 @@ or NOR flash.
 Board Layout
 ************
 
-.. image:: /_static/images/BW2098POE/BW2098POE_an.jpg
+.. thumbnail:: /_static/images/BW2098POE/BW2098POE_an.jpg
 
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/BW2098POE/BW2098POE_dims.jpg
+.. thumbnail:: /_static/images/BW2098POE/BW2098POE_dims.jpg
 
 * Weight: 78g
 

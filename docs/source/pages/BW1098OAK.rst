@@ -5,7 +5,7 @@ OAK-D
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/1098obcenclosure>`__
 
-.. image:: /_static/images/BW1098OAK/BW1098oak.png
+.. thumbnail:: /_static/images/BW1098OAK/BW1098oak.png
 
 Overview
 ********
@@ -25,7 +25,7 @@ Hardware specifications
 Dimensions and Weight
 *********************
 
-.. image:: /_static/images/BW1098OAK/oak-d-dimensions.png
+.. thumbnail:: /_static/images/BW1098OAK/oak-d-dimensions.png
 
 **Weight:** 115g total, OAK-D-PCBA 43g
 
@@ -41,9 +41,9 @@ Available despite decreasing demand, OAK-D PCBA is essentially an OAK-D without 
 and instead has a heatsink. This could still be useful for some applications where
 size/weight is really critical (eg. drones), and PCBA also exposes some additional connectors.
 
-.. image:: /_static/images/BW1098OAK/BW1098OBC_an.jpg
+.. thumbnail:: /_static/images/BW1098OAK/BW1098OBC_an.jpg
 
-.. image:: /_static/images/BW1098OAK/BW1098OBC_dims.jpg
+.. thumbnail:: /_static/images/BW1098OAK/BW1098OBC_dims.jpg
 
 Getting started
 ***************

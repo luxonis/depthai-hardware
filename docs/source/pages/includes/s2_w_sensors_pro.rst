@@ -12,7 +12,7 @@ Camera module specifications
 
       *Wide FOV lenses can only be fixed-focus.*
 
-      .. image:: /_static/images/guides/nfov-vs-wfov.png
+      .. thumbnail:: /_static/images/guides/nfov-vs-wfov.png
           :alt: Wide FOV lenses (right)
 
       Left: normal FOV, Right: Wide FOV
@@ -26,7 +26,7 @@ Camera module specifications
 
       *Wide FOV lenses can only be fixed-focus.*
 
-      .. image:: /_static/images/guides/nfov-vs-wfov.png
+      .. thumbnail:: /_static/images/guides/nfov-vs-wfov.png
           :alt: Wide FOV lenses (right)
 
       Left: normal FOV, Right: Wide FOV

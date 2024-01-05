@@ -3,7 +3,7 @@ Y-adapter
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/accessories/products/oak-y-adapter>`__
 
-.. image:: /_static/images/DM6010/front.png
+.. thumbnail:: /_static/images/DM6010/front.png
 
 Overview
 ********
@@ -25,14 +25,14 @@ Getting started
 #. Connect USB wall charger to the Y-adapter's USB-C power port via USB-C cable
 #. Insert Y-adapter to the OAK device via USB-C connector
 
-.. image:: /_static/images/DM6010/Y_Adapter_5.jpg
+.. thumbnail:: /_static/images/DM6010/Y_Adapter_5.jpg
 
 Dimensions and Weight
 *********************
 
 **Weight:** 5g
 
-.. image:: /_static/images/DM6010/y-adapter-dimensions.jpeg
+.. thumbnail:: /_static/images/DM6010/y-adapter-dimensions.jpeg
 
 3D Models
 *********

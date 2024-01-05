@@ -5,7 +5,7 @@ OAK-D-CM4
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/all-in-one-dev-kits/products/depthai-rpi-compute-module-4-edition>`__
 
-.. image:: /_static/images/DM1097/DM1097_up.png
+.. thumbnail:: /_static/images/DM1097/DM1097_up.png
 
 Overview
 ********
@@ -36,14 +36,14 @@ Dimensions and Weight
 * Length: 27 mm
 * Weight: 106g
 
-.. image:: /_static/images/DM1097/DM1097_dim.jpg
+.. thumbnail:: /_static/images/DM1097/DM1097_dim.jpg
 
 Board Layout
 ************
 
-.. image:: /_static/images/DM1097/DM1097.jpg
+.. thumbnail:: /_static/images/DM1097/DM1097.jpg
 
-.. image:: /_static/images/DM1097/DM1097_side.jpg
+.. thumbnail:: /_static/images/DM1097/DM1097_side.jpg
 
 .. include:: /pages/includes/rvc2_power_consumption_rpi.rst
 

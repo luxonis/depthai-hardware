@@ -5,7 +5,7 @@ OAK-D Pro W
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/usb/products/oak-d-pro-w>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro-w-front.png
+.. thumbnail:: /_static/images/DM9098/oak-d-pro-w-front.png
 
 Overview
 ********
@@ -39,7 +39,7 @@ Dimensions and Weight
 
 **Weight:** 91g
 
-.. image:: /_static/images/DM9098/dimensions-pro.png
+.. thumbnail:: /_static/images/DM9098/dimensions-pro.png
 
 .. include:: /pages/includes/depth_75_W.rst
 .. include:: /pages/includes/imu_bno085.rst
@@ -58,7 +58,7 @@ Datasheet
 - Board STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/3D_Models>`__
 - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM9098_OAK-D-Pro/Mechanical>`__
 
-.. image:: /_static/images/DM9098/oak-d-pro-w-left.png
+.. thumbnail:: /_static/images/DM9098/oak-d-pro-w-left.png
 
 .. include:: /pages/includes/laser-safety.rst
 

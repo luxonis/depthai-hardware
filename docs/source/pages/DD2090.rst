@@ -5,7 +5,7 @@ OAK-FFC-4P
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/modular-cameras/products/oak-ffc-4p>`__
 
-.. image:: /_static/images/FFC-4P/OAK-FFC-4P-front.png
+.. thumbnail:: /_static/images/FFC-4P/OAK-FFC-4P-front.png
 
 Overview
 ********
@@ -47,7 +47,7 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
     with dai.Device(config) as device:
         device.startPipeline(pipeline)
 
-.. image:: /_static/images/FFC-4P/ffc-4p-sync.png
+.. thumbnail:: /_static/images/FFC-4P/ffc-4p-sync.png
 
 Syncing with OAK-FFC-IR
 -----------------------
@@ -55,7 +55,7 @@ Syncing with OAK-FFC-IR
 If you have an OAK-FFC-4P R5 or newer and you wish to use the `OAK-FFC-IR <https://shop.luxonis.com/collections/early-access/products/oak-ffc-ir>`__ module, you **must** first configure which camera will drive the STROBE signal to the connector to which you connect your IR module. The connector located to the left of the switch (J12, see the image below). 
 
 
-.. image:: /_static/images/FFC-4P/SW1.png
+.. thumbnail:: /_static/images/FFC-4P/SW1.png
 
 If you have stereo pair on CAM_B and CAM_C, and want to have dot projector synced with stereo pair, you should move the switch 2 or 3 up (ON). Keep in mind that **only one** switch can be up at a time.
 
@@ -69,7 +69,7 @@ Dimensions and Weight
 * Length: 22 mm (PCBA and heatsink)
 * Weight: 41g (PCBA and heatsink)
 
-.. image:: /_static/images/FFC-4P/OAK-FFC-4P_dimensions.png
+.. thumbnail:: /_static/images/FFC-4P/OAK-FFC-4P_dimensions.png
 
 General information
 *******************
@@ -87,7 +87,7 @@ General information
 
 .. include:: /pages/includes/ffc-depth-perception.rst
 
-.. image:: /_static/images/FFC-4P/OAK-FFC-4P.png
+.. thumbnail:: /_static/images/FFC-4P/OAK-FFC-4P.png
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 

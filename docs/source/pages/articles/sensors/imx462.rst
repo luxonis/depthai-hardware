@@ -44,7 +44,7 @@ Supported resolutions
 
 .. note::
 
-    Currently, support for IMX462 is available on ``imx283`` branch (on depthai-python)
+    Currently, support for IMX462 is available on ``develop`` branch (on depthai-python)
 
 .. include::  /pages/articles/sensors/includes/low_light_performance.rst
 
