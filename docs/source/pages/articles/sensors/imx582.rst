@@ -108,7 +108,7 @@ of the same color filter, which results in less sharp images.
     * AF NoIR: PY101
     * FF BandPass @ 940nm: PY102
     * FF: PY106 (Focus: 50cm+)
-  * Wide FOV FF (PY080) - 109° DFOV, 63° HFOV, 89° VFOV, EFL: 2.75, F. NO: 2.8±5%, Lens Size: 1/2", Focus: 50cm+
+  * Wide FOV FF (PY107) - 109° DFOV, 63° HFOV, 89° VFOV, EFL: 2.75, F. NO: 2.8±5%, Lens Size: 1/2", Focus: 50cm+
 
 .. figure:: /_static/images/sensors/LCM48/lcm48.jpg
 
