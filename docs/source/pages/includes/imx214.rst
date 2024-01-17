@@ -7,7 +7,7 @@ Camera module specifications
    * - Camera Specs
      - Color camera
    * - Sensor
-     - :ref:`IMX214` (PY014 AF, PY114 FF)
+     - :ref:`IMX214` (PY047 AF, PY062 FF)
    * - DFOV / HFOV / VFOV
      - `81° / 69° / 54° <https://fov.luxonis.com/?horizontalFov=69&verticalFov=54&horizontalResolution=4208&verticalResolution=3120>`__
    * - Resolution
