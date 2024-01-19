@@ -5,8 +5,8 @@ Camera module specifications
 
     .. tab:: Wide FOV IMX378
 
-      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
-      (1MP) color camera.
+      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP, rolling shutter) **or** 150° DFOV color OV9782
+      (1MP, global shutter) color camera.
 
       .. include:: /pages/includes/imx378_ov9282_w.rst
 
@@ -19,8 +19,8 @@ Camera module specifications
 
     .. tab:: Wide FOV OV9782
 
-      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
-      (1MP) color camera.
+      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP, rolling shutter) **or** 150° DFOV color OV9782
+      (1MP, global shutter) color camera.
 
       .. include:: /pages/includes/ov9782_ov9282_w.rst
 

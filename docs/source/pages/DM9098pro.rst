@@ -25,7 +25,7 @@ Hardware specifications
 
 .. include:: /pages/includes/usb_connectivity.rst
 
-.. include:: /pages/includes/imx378_ov9282pro.rst
+.. include:: /pages/includes/pro_sensors.rst
 
 .. include:: /pages/includes/pro.rst
 
