@@ -352,6 +352,7 @@ Some **older models** can be :ref:`found here <Other models>`.
    :hidden:
    :caption: Miscellaneous Designs
 
+   pages/OAK-T.rst
    pages/DM1097.rst
    pages/rae.rst
    pages/DM2097.rst

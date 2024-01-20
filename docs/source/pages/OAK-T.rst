@@ -1,19 +1,19 @@
 .. _oakt:
 
-OAK-T
-=====
+OAK-Thermal
+===========
 
 .. role:: raw-html(raw)
    :format: html
 
-`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
+`Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-t>`__ - :raw-html:`<font color="red"><b>Early Access</b></font>`
 
-.. thumbnail:: /_static/images/OAK-T/oak-t-render.png
+.. thumbnail:: /_static/images/OAK-T/oak-t.png
 
 Overview
 ********
 
-The **OAK-T** (OAK Thermal) is our first camera with a **thermal sensor** and a color image sensor.
+The **OAK-T** (OAK-Thermal) is our first camera with a **thermal sensor** and a color image sensor.
 
 When fusing thermal frames, color frames, and AI models, you can create a wide variety of applications in different fields, such as:
 
@@ -21,6 +21,8 @@ When fusing thermal frames, color frames, and AI models, you can create a wide v
 - **Industrial**: Detect overheating, detect leaks, detect fires, etc.
 - **Security**: Detect intruders (night vision), detect fires, etc.
 - **Transportation**: Detect pedestrians, vehicles, bicycles for analytics and traffic optimization...
+
+.. thumbnail:: /_static/images/OAK-T/oak-t-industries.png
 
 It leverages our :ref:`OAK-SoM-Pro <bw2099>` to make an overall compact design. The use of the SoM reduces the
 design's scale, making it easier to mount or fit anywhere seamlessly. The design will also be open-source when we verify the hardware design.
