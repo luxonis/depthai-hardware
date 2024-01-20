@@ -43,7 +43,7 @@ Camera module specifications
      - Thermal
    * - Sensor
      - :ref:`IMX462` (PY154)
-     - TBD
+     - `Tiny1-C <https://www.infiray.com/products/tiny1-c-micro-uncooled-ir-camera-sensor-module.html>`__
    * - DFOV / HFOV / VFOV
      - `95° / 84° / 45° <https://fov.luxonis.com/?horizontalFov=84&verticalFov=45&horizontalResolution=1920&verticalResolution=1080>`__
      - `111° / 90° / 65° <https://fov.luxonis.com/?horizontalFov=90&verticalFov=65&horizontalResolution=256&verticalResolution=192>`__
@@ -64,7 +64,7 @@ Camera module specifications
      - 
    * - F-number
      - 1 ± 10%
-     - 
+     - 1.1
    * - Effective Focal Length
      - 3.9mm
      - 
@@ -82,6 +82,8 @@ which is then scanned by an array of infrared-detector elements ("pixels") in th
 
    * - Specs
      - Value
+   * - Sensor part number
+     - Tiny1- C 256 02011 X H WR
    * - Measurement range
      - -15°C - 150°C
    * - Thermal sensitivity
@@ -99,7 +101,42 @@ which is then scanned by an array of infrared-detector elements ("pixels") in th
    * - Communication
      - SPI (data) and I2C (control)
 
+Thermal perception range
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Thermal perception range is similar to color camera's range, it mostly depends on the object's size and temperature. For example, with
+you can easily detect a large building even from 1km away, but you won't be able to detect a small animal from that distance.
+
+The following table shows the approximate thermal perception range for different object sizes:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Object
+     - Size
+     - Detection
+     - Recognition
+     - Identification
+   * - Human
+     - 1.8m x 0.5m
+     - 200m
+     - 50m
+     - 25m
+   * - Car
+     - 4.5m x 2m
+     - 500m
+     - 125m
+     - 63m
+
+The DRI (Detection, Recognition, Identification) ranges are based on the `Johnson's criteria <https://en.wikipedia.org/wiki/Johnson%27s_criteria>`__,
+which is a standard for optical systems. Specifications are as follows:
+
+- **Detection**: The ability to notice that something is there, but without the ability to identify it
+- **Recognition**: Being able to classify the type of object (like distinguishing a car from a truck)
+- **Identification**: The capability to specify the exact nature of the object (like determining the make and model of a car).
+
 .. include:: /pages/includes/poe_s2_connectors.rst
+
 
 
 Dimensions and Weight
