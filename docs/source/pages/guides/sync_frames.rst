@@ -1,7 +1,7 @@
 .. _sync_frames:
 
 Hardware message syncing
-########################
+========================
 
 There are 2 way to synchronize messages from different sensors (frames, IMU packet, ToF, etc.);
 
@@ -12,7 +12,7 @@ This documentation page focuses on **hardware syncing**, which allows precise sy
 camera sensors and potentially with other hardware, e.g. flash LED, external IMU, or other cameras.
 
 FSYNC signal
-------------
+############
 
 **FSYNC/FSIN** (frame sync) signal is a pulse that is driven high at the start of each frame capture. Its length is not proportional
 to the exposure time. It can be either **input or output**. It operates in **1.8V** logic.
@@ -140,7 +140,7 @@ and 30fps (33.3ms frame time). MIPI readout time varies between sensors/resoluti
     Rolling shutter sensor timings
 
 OAK-FFC hardware syncing
-========================
+------------------------
 
 On :ref:`OAK-FFC-4P`, we have 4 camera ports; A (rgb), B (left), C (right), and D (cam_d). A & D are 4-lane MIPI, and B & C
 are 2-lane MIPI. Each pair (A&D and B&C) share an I2C bus, and the B&C bus is configured for HW syncing left+right cameras by default.

@@ -155,6 +155,8 @@ Dimensions and Weight
 * Length: 40 mm
 * Weight: 415g
 
+.. thumbnail:: /_static/images/OAK-D-LR/dimensions.png
+
 .. include:: /pages/includes/imu_bno085.rst
 
 ..

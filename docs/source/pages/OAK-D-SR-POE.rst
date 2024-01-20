@@ -18,21 +18,12 @@ Besides the stereo camera pair (2x :ref:`OV9782`, 2cm baseline distance) it feat
 which has an ideal range of 20cm to 5m, and **depth accuracy of <1% indoors**, <2% outdoors.
 
 The OAK-D SR PoE leverages our :ref:`OAK-SoM-Pro <bw2099>` to make an overall compact design. The use of the SoM reduces the
-design's scale, making it easier to mount or fit in various robotic processes. The design will also be open-source when we verify the hardware design.
+design's scale, making it easier to mount or fit in various robotic processes.
 
 Hardware specifications
 ***********************
 
 .. include:: /pages/includes/poe_connectivity-s2.rst
-
-.. include:: /pages/rvc/includes/rvc2_inside.rst
-
-.. figure:: /_static/images/OAK-D-SR-POE/SRpoe-back.png
-
-  Note that on the schematics below, the enclosure isn't the same as on the OAK-D SR PoE, but pins/connections are the same.
-
-.. include:: /pages/includes/poe_s2_connectors.rst
-
 
 Camera module specifications
 ****************************
@@ -47,8 +38,8 @@ Camera module specifications
      - :ref:`OV9782` (**color**, PY074)
      - `33D ToF <https://semiconductor.samsung.com/image-sensor/tof-sensor/isocell-vizion-33d/>`__
    * - DFOV / HFOV / VFOV
-     - 89.5° / 80° / 55°
-     - 82.3° / 70° / 54.7°
+     - `89.5° / 80° / 55° <https://fov.luxonis.com/?horizontalFov=80&verticalFov=55&horizontalResolution=1280&verticalResolution=800>`__
+     - `82.3° / 70° / 54.7° <https://fov.luxonis.com/?horizontalFov=70&verticalFov=54.7&horizontalResolution=640&verticalResolution=480>`__
    * - Resolution
      - 1MP (1280x800)
      - VGA (640x480)
@@ -73,6 +64,14 @@ Camera module specifications
 
 .. thumbnail:: /_static/images/OAK-D-SR-POE/oak-d-sr-poe-sensors.png
 
+.. include:: /pages/rvc/includes/rvc2_inside.rst
+
+.. figure:: /_static/images/OAK-D-SR-POE/SRpoe-back.png
+
+  Note that on the schematics below, the enclosure isn't the same as on the OAK-D SR PoE, but pins/connections are the same.
+
+.. include:: /pages/includes/poe_s2_connectors.rst
+
 Dimensions and Weight
 *********************
 
@@ -81,8 +80,8 @@ Dimensions and Weight
 * Length: 46 mm
 * Weight: 297g (with enclosure)
 
-..
-  .. thumbnail:: /_static/images/OAK-D-SR/oak-d-sr-dimensions.png
+
+.. thumbnail:: /_static/images/OAK-D-SR-POE/dimensions.png
 
 .. include:: /pages/includes/depth_20_800P.rst
 
@@ -165,21 +164,6 @@ ToF vs Stereo for depth perception
 .. include:: /pages/includes/rvc2_power_consumption_poe.rst
 
 .. include:: /pages/includes/rvc2_operating_temp.rst
-
-..
-  Brochures
-  *********
-
-  * `Brochure <https://github.com/luxonis/depthai-hardware/tree/master/DM2080_OAK_D_SR/Datasheet/OAK-D_brochure.pdf>`__
-  * `Datasheet <https://github.com/luxonis/depthai-hardware/tree/master/DM2080_OAK_D_SR/Datasheet/OAK-D_Datasheet.pdf>`__
-
-
-..
-  3D Models
-  *********
-
-  - Board (PCBA) STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM2080_OAK_D_SR/3D_Models>`__
-  - Enclosure STEP files `here <https://github.com/luxonis/depthai-hardware/tree/master/DM2080_OAK_D_SR/Mechanical>`__
 
 Open Source Hardware
 ********************

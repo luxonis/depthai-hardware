@@ -209,16 +209,20 @@ Other Designs
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D CM4
+   * - OAK-T (Thermal)
+     - OAK-D CM4
      - OAK-D CM4 PoE
      - **rae**
-   * - .. image:: /_static/images/thumbnails/DM1097.png
+   * - .. image:: /_static/images/OAK-T/oak-t-thumbnail.png
+          :target: pages/OAK-T
+     - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097
      - .. image:: /_static/images/thumbnails/OAK-D-CM4-PoE_th.png
           :target: pages/DM2097
      - .. image:: /_static/images/rae/rae_th.png
           :target: pages/rae.html
-   * - :ref:`Learn more <dm1097>`
+   * - :ref:`Learn more <oakt>`
+     - :ref:`Learn more <dm1097>`
      - :ref:`Learn more <dm2097>`
      - :ref:`Learn more <rae>`
 
@@ -348,6 +352,7 @@ Some **older models** can be :ref:`found here <Other models>`.
    :hidden:
    :caption: Miscellaneous Designs
 
+   pages/OAK-T.rst
    pages/DM1097.rst
    pages/rae.rst
    pages/DM2097.rst
