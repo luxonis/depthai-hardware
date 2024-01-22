@@ -51,7 +51,7 @@ Camera module specifications
      - 2.1MP (1920x1080)
      - 256x192
    * - Range / Focus
-     - 30cm - ∞
+     - 60cm - ∞
      - 30cm - ∞
    * - Max Framerate
      - 30 FPS (2.1MP)
