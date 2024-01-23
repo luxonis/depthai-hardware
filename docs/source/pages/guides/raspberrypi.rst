@@ -4,7 +4,7 @@ OAK & Raspberry Pi
 Our devices can also be connected to small SBCs like a Raspberry Pi (RPi). To install `DepthAI <https://github.com/luxonis/depthai-python>`__
 on a RPi, you should install `dependencies <https://docs.luxonis.com/projects/api/en/latest/install/#raspberry-pi-os>`__
 and then install the `library <https://docs.luxonis.com/projects/api/en/latest/install/#install-from-pypi>`__ with :code:`pip`.
-DepthAI library has **prebuilt wheels** for RPi on `piwheels <https://www.piwheels.org/project/depthai/>`__.
+DepthAI library has **prebuilt wheels** for RPi on `PyPi <https://pypi.org/project/depthai/>`__.
 
 Using pre-configured RPi OS image
 *********************************
