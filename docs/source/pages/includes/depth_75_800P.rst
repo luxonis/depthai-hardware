@@ -12,6 +12,6 @@ depends on camera FOV, resolution, and baseline; more information `here <https:/
     * 4m - 7m: below 2% absolute depth error
     * 7m - 12m: below 3% absolute depth error
 
-.. chart:: _static/charts/stereo_75mm_800p.json
+.. chart:: charts/stereo_75mm_800p.json
 
     Stereo depth accuracy
