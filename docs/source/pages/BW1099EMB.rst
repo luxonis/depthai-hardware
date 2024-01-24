@@ -5,7 +5,7 @@ OAK-SoM-IoT
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/system-on-module-som/products/oak-som-iot-5-pcs>`__
 
-.. image:: /_static/images/BW1099EMB/BW1099EMB.png
+.. thumbnail:: /_static/images/BW1099EMB/BW1099EMB.png
 
 Overview
 ********
@@ -29,7 +29,7 @@ are interested in integrating DepthAI (via SoM) into your product, see :ref:`doc
 Board Layout
 ************
 
-.. image:: /_static/images/BW1099EMB/BW1099EMB_diag.jpg
+.. thumbnail:: /_static/images/BW1099EMB/BW1099EMB_diag.jpg
 
 Dimensions and Weight
 *********************
@@ -39,7 +39,7 @@ Dimensions and Weight
 * Length: 4.35 mm (17.5 mm with heatsink)
 * Weight: 4g
 
-.. image:: /_static/images/BW1099EMB/BW1099EMB_dim.jpg
+.. thumbnail:: /_static/images/BW1099EMB/BW1099EMB_dim.jpg
 
 General information
 *******************

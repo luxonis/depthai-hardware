@@ -4,7 +4,7 @@ Getting started with OAK PoE devices
 PoE allows a single Cat5e (or higher) Ethernet cable to be used to both power a device and give it connectivity
 at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
 
-.. image:: https://user-images.githubusercontent.com/18037362/125928421-daed2432-73fb-4c5b-843e-037c7383a871.gif
+.. thumbnail:: https://user-images.githubusercontent.com/18037362/125928421-daed2432-73fb-4c5b-843e-037c7383a871.gif
 
 *After connecting the PoE device, the Ethernet connectivity LED (shown above) should turn on and start occasionally flashing.*
 
@@ -17,7 +17,7 @@ Step by step tutorial
 #. Make sure your computer is connected to the same network as the PoE device.
 #. Now you can run any `code sample <https://docs.luxonis.com/projects/api/en/latest/tutorials/code_samples/>`__ / `depthai experiment <https://github.com/luxonis/depthai-experiments>`__ / `depthai_demo <https://github.com/luxonis/depthai>`__ as you would when connecting an OAK device with a USB-C cable!
 
-.. image:: /_static/images/guides/poe-working.jpeg
+.. thumbnail:: /_static/images/guides/poe-working.jpeg
 
 *After these steps, the depthai_demo is working on the OAK-D-POE!*
 
@@ -55,7 +55,7 @@ PoE enclosures are :ref:`IP67 rated <Waterproof enclosures>`, so they are dustpr
 **GORE vent isn't blocked** when you install the camera (especially outside), as it can lead to **moisture fogging up
 in front of cameras** (on the inside of the front cover).
 
-.. image:: /_static/images/guides/vent.png
+.. thumbnail:: /_static/images/guides/vent.png
 
 PoE Troubleshooting
 ###################
@@ -141,23 +141,14 @@ Low PoE link speed
 If you've already executed the `PoE Test Script <https://github.com/luxonis/depthai-experiments/tree/master/random-scripts#poe-test-script>`_ and your PoE link speed is below 1000 Mbps, there may be a bottleneck in your setup:
 
 - **Ethernet Cable**: Use Cat5e or higher. While Cat5e supports 1 Gbps, Cat5 is limited to 100 Mbps.
-  
 - **PoE Switch**: Ensure it supports 1 Gbps speeds. Such switches are usually labeled 10/100/1000 Mbps.
-  
 - **Router**: If applicable, ensure it can handle 1 Gbps. Some routers might have limited ports with this capability.
-  
 - **PoE Injector**: Ensure it supports 1 Gbps. Some models are limited to 100 Mbps.
-  
 - **Cable Length**: Keep your Ethernet cable under 100 meters (328 feet). For longer distances, use a PoE extender.
-  
 - **Host Network Card**: Ensure it supports 1 Gbps. Older cards might be capped at 100 Mbps. If necessary, upgrade your network card.
-  
 
 **Do not use WiFi** to connect to the PoE device. WiFi is not designed for high bandwidth applications, and will likely result in a bottleneck.
 If you must use it, use WiFi standards supporting at least 1 Gbps such as 802.11ac (WiFi 5), 802.11ax (WiFi 6), or 802.11ay (WiFi 6E). Note that bandwidth diminishes with distance and obstructions between the router and host.
-
-
-
 
 Connected to the same LAN via 2 interfaces (WiFi/ethernet)
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -243,6 +234,63 @@ Please refer to FreeBSD's documentation (12.0) for more information on sysctl se
 
     with dai.Device(config) as device:
         device.startPipeline(pipeline)
+
+PoE connectivity drop
+"""""""""""""""""""""
+
+Due to the network and networking equipment, OAK PoE cameras might drop the connection after running as expected for a few hours or a few days. There
+are 3 potential solutions/workarounds for this issue:
+
+1. Decrease the network load, so the connection doesn't drop. This can be achieved by decreasing the FPS of the camera, or by decreasing the resolution of the camera.
+2. Auto-reconnect if the camera drops connection. We have a demo here that does that. The downside is that the reconnection can take up to about 30 seconds. First, the watchdog has to kick in and reset the camera (~5sec). Then, the bootloader has to reboot on the camera so it's accessible again (~5sec). And finally, the host computer has to initialize a new connection and transfer the firmware, the pipeline, and all assets (NNs) to the camera, so it can boot up the pipeline (application).
+3. `Standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__ (best solution); in case of a dropped connection, host computer can just reconnect to the TCP (`example here <https://github.com/luxonis/depthai-experiments/tree/master/gen2-poe-tcp-streaming>`__) or an HTTP server (`example here <https://docs.luxonis.com/projects/api/en/latest/samples/Script/script_http_server/#script-http-server>`__) running on the camera, which takes <100ms. If there's any crash (either user's application, or firmware), the device will reboot automatically in <5 seconds.
+
+Using multiple network adapters
+"""""""""""""""""""""""""""""""
+
+When working with DepthAI devices on systems with multiple network adapters, it's crucial to configure network routing to ensure proper communication with the device while maintaining internet connectivity. 
+It is common to have your PC connected to the internet **via WiFi**, while being simultaneously connected to the DepthAI device **via PoE**. In this case, most machines will prioritize the Ethernet connection, which will cause your internet connection to fail.
+
+To avoid this, we can manually configure routing to ensure that the DepthAI device communicates through the correct network adapter, while your main internet connection remains unaffected.
+
+
+.. tabs::
+
+    .. tab:: **Windows**
+
+        1. **Open Command Prompt**: Press ``Win + R``, type ``cmd``, and press Enter to open Command Prompt.
+        2. **Identify Network Adapters**: Type ``ipconfig`` and press Enter. Note the names of your network adapters (e.g., Ethernet, Wi-Fi) and their IP addresses.
+        3. **Add a Route**: 
+
+           - Use the ``route`` command to add a persistent route to the DepthAI device. The general format is: ``route -p ADD [DepthAI-IP] MASK [Subnet-Mask] [Adapter-Gateway-IP]``.
+           - Replace ``[DepthAI-IP]`` with the IP address of your DepthAI device, ``[Subnet-Mask]`` with the appropriate subnet mask, and ``[Adapter-Gateway-IP]`` with the gateway IP of the adapter you wish to use for DepthAI communication.
+
+        4. **Verify the Route**: After adding the route, you can verify it by typing ``route print`` and pressing Enter.
+
+    .. tab:: **macOS**
+
+        1. **Open Terminal**: You can find Terminal in Applications under Utilities, or use Spotlight to search for it.
+        2. **Identify Network Interfaces**: Type ``ifconfig`` and press Enter. Note the names of your network interfaces (e.g., ``en0`` for Ethernet, ``en1`` for Wi-Fi).
+        3. **Add a Route**:
+
+           - Under **network settings** -> **set service order**, drag the interface used for DepthAI to the bottom of the list.
+           - Direct the relevant traffic to the DepthAI adapter: ``sudo route add -net 169.254 -interface [dongle-interface]``.
+           - Replace ``[dongle-interface]`` with the DepthAI network interface.
+
+    .. tab:: **Ubuntu**
+
+        1. **Open Terminal**: You can find the Terminal application in the applications menu or use the shortcut ``Ctrl + Alt + T``.
+        2. **Identify Network Interfaces**: Type ``ip addr`` and press Enter. Note the names of your network interfaces (e.g., ``eth0`` for Ethernet, ``wlan0`` for Wi-Fi).
+        3. **Add a Route**:
+
+           - Use the ``ip route`` command to add a route to the DepthAI device: ``sudo ip route add [DepthAI-IP]/24 via [Adapter-Gateway-IP] dev [Network-Interface]``.
+           - Replace ``[DepthAI-IP]`` with the IP address of your DepthAI device (make sure the mask - ``24`` - is correct), ``[Adapter-Gateway-IP]`` with the gateway IP of the adapter you wish to use for DepthAI communication, and ``[Network-Interface]`` with the name of the network interface.
+        4. **Verify the Route**: You can check the route by typing ``ip route show`` and pressing Enter.
+
+    Make sure to replace the values in brackets with the appropriate values for your system. Default settings for DepthAI devices (when disconnected from a DHCP server) are specified in :ref:`DHCP and Static IP`.
+
+    More info on routing/making routes persistant can be found here: `Windows <https://www.howtogeek.com/22/adding-a-tcpip-route-to-the-windows-routing-table/>`__, `macOS <https://www.backup.ch/post/macos-how-to-add-a-static-route/>`__, `Ubuntu <https://www.cyberciti.biz/faq/linux-route-add/>`__.
+
 
 
 Using multiple network adapters
@@ -385,7 +433,7 @@ OAK-D-PoE and OAK-1-PoE have a USB-C connector, while OAK-D Pro PoE has USB conn
         #. Change DIP switch back to 0x3 (switches 5,6 up, others down) for PoE communication.
         #. Close back the enclosure, making sure the gasket is in the correct place (for waterproofing).
 
-        .. image:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
+        .. thumbnail:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
 
     .. tab:: Series 2 PoE devices
 

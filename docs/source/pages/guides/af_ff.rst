@@ -90,7 +90,7 @@ Recognizing AF/FF camera
 If you aren't sure whether the OAK in front of you has Auto-Focus or Fixed-Focus color camera, you can recognize it by the
 silver metal ring on the Auto-Focus mechanism, as shown in the image below.
 
-.. image:: /_static/images/guides/AF_FF_recognize.jpg
+.. thumbnail:: /_static/images/guides/AF_FF_recognize.jpg
 
 Another possibility would be to query this information using depthai library:
 

@@ -5,7 +5,7 @@ OAK-D Pro W PoE
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-d-pro-w-poe>`__
 
-.. image:: /_static/images/NG9097/pro-w-poe.png
+.. thumbnail:: /_static/images/NG9097/pro-w-poe.png
 
 Overview
 ********
@@ -41,9 +41,9 @@ Dimensions and Weight
 
 **Weight:** 184g
 
-.. image:: /_static/images/NG9097/dimensions-pro.png
+.. thumbnail:: /_static/images/NG9097/dimensions-pro.png
 
-.. image:: /_static/images/NG9097/pro-poe-back.png
+.. thumbnail:: /_static/images/NG9097/pro-poe-back.png
 
 .. include:: /pages/includes/depth_75_W.rst
 .. include:: /pages/includes/imu_bno085.rst

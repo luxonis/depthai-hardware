@@ -5,7 +5,7 @@ OAK-FFC-3P-OG
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/oak-ffc-3p-og>`__
 
-.. image:: /_static/images/BW1098FFC/BW1098FFC_front.png
+.. thumbnail:: /_static/images/BW1098FFC/BW1098FFC_front.png
 
 Overview
 ********
@@ -19,14 +19,14 @@ the :ref:`Raspberry Pi Adapter Board <bw0253>`.
 
 Baseboards and cameras (BW1098FFC + :ref:`OAK-FFC-OV9282 <bg0250tg>` + :ref:`OAK-FFC-IMX378 <bg0249>`) together:
 
-.. image:: /_static/images/BW1098FFC/with_camera.jpeg
+.. thumbnail:: /_static/images/BW1098FFC/with_camera.jpeg
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Board Layout
 ************
 
-.. image:: /_static/images/BW1098FFC/BW1098FFC_diag.jpg
+.. thumbnail:: /_static/images/BW1098FFC/BW1098FFC_diag.jpg
 
 Dimensions and Weight
 *********************
@@ -36,7 +36,7 @@ Dimensions and Weight
 * Length: 20.5 mm
 * Weight: 40g
 
-.. image:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
+.. thumbnail:: /_static/images/BW1098FFC/BW1098FFC_dims.jpg
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 

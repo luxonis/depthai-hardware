@@ -5,7 +5,7 @@ OAK-SoM
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/system-on-module-som/products/oak-som-5-pcs>`__
 
-.. image:: /_static/images/BW1099/BW1099.png
+.. thumbnail:: /_static/images/BW1099/BW1099.png
 
 Overview
 ********
@@ -34,7 +34,7 @@ are interested in integrating DepthAI (via SoM) into your product, see :ref:`doc
 Board Layout
 ************
 
-.. image:: /_static/images/BW1099/BW1099_diag.jpg
+.. thumbnail:: /_static/images/BW1099/BW1099_diag.jpg
 
 Dimensions and Weight
 *********************
@@ -44,7 +44,7 @@ Dimensions and Weight
 * Length: 4.53 mm (17.5 mm with heatsink)
 * Weight: 4g
 
-.. image:: /_static/images/BW1099/BW1099_dim.jpg
+.. thumbnail:: /_static/images/BW1099/BW1099_dim.jpg
 
 General information
 *******************

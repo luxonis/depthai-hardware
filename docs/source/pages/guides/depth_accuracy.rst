@@ -13,14 +13,29 @@ In a nutshell, the most important factors are:
 - Resolution of stereo pair: Higher resolution results in more accurate depth.
 - Baseline distance: Wider baseline distance results in more accurate depth, but also higher MinZ (minimal depth distance the camera can detect).
 
-.. figure:: /_static/images/depth_error/overall_depth_error.png
+800P, 75mm baseline distance OAKs
+---------------------------------
 
-- **800P 75mm baseline distance**: For normal FOV cameras with 800P (:ref:`OV9282` or :ref:`OV9782`) stereo pair resolution; :ref:`OAK-D`, :ref:`OAK-D S2`, :ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`, :ref:`OAK-D S2 PoE`, :ref:`OAK-D-PoE`, 
-- **480P 75mm baseline distance**: For normal FOV cameras with 480P (:ref:`OV7251`) stereo pair resolution; :ref:`OAK-D-Lite`
+For normal FOV cameras with 800P (:ref:`OV9282` or :ref:`OV9782`) stereo pair resolution; :ref:`OAK-D`, :ref:`OAK-D S2`, :ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`, :ref:`OAK-D S2 PoE`, :ref:`OAK-D-PoE`.
+Depth accuracy:
 
-.. note::
+* 0.7m - 4m: below 1% absolute depth error
+* 4m - 7m: below 2% absolute depth error
+* 7m - 12m: below 3% absolute depth error
 
-    We will be measuring accuracy at 1cm step in range from 1m to 10m for all our cameras and will create a full report by November.
+.. thumbnail:: /_static/images/depth_error/depth_error_800p_75mm.png
+
+480P, 75mm baseline distance OAKs
+---------------------------------
+
+For normal FOV cameras with 480P (:ref:`OV7251`) stereo pair resolution; :ref:`OAK-D-Lite`.
+Depth accuracy:
+
+* 40cm - 3m: below 2% absolute depth error
+* 3m - 6m: below 4% absolute depth error
+* 6m - 8m: below 6% absolute depth error
+
+.. thumbnail:: /_static/images/depth_error/depth_error_480p_75mm.png
 
 Measurement setup
 -----------------

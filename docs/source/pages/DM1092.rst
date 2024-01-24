@@ -8,7 +8,7 @@ OAK-D-IOT-40
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/iot/products/bw1092>`__
 
-.. image:: /_static/images/DM1092/DM1092.png
+.. thumbnail:: /_static/images/DM1092/DM1092.png
 
 Overview
 ********
@@ -37,7 +37,7 @@ Dimensions and Weight
 * Length: 25 mm (including the SoM)
 * Weight: 45.5g (total), 20g (PCBA), 25.5g (SoM with heatsink)
 
-.. image:: /_static/images/DM1092/OAK-D-IoT-40_dimensions.svg
+.. thumbnail:: /_static/images/DM1092/OAK-D-IoT-40_dimensions.svg
 
 .. include:: /pages/includes/depth_40_800P.rst
 
@@ -52,7 +52,7 @@ the ESP32 or NOR flash on the :ref:`BW1099EMB <bw1099>`, boot selection is confi
 * The PG LED indicates "power good" from the OAK-SoM-IoT.
 * The "RUN" LED indicates that the OAK-SoM-IoT is not reset.
 
-.. image:: /_static/images/DM1092/DM1092_back.jpg
+.. thumbnail:: /_static/images/DM1092/DM1092_back.jpg
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 

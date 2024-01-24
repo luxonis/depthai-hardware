@@ -39,9 +39,9 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
 .. list-table:: Variable Stereo Baseline distance
    :header-rows: 1
 
-   * - OAK-D SR (Short Range)
+   * - OAK-D Short Range
      - OAK-D
-     - OAK-D LR (Long Range)
+     - OAK-D Long Range
    * - .. image:: /_static/images/thumbnails/oak-d-sr_th.png
           :target: pages/OAK-D-SR
      - .. image:: /_static/images/thumbnails/BW1098OAK.png
@@ -79,7 +79,7 @@ OAK-D and OAK-1 products have been solving real-world problems since 2019. **USB
 
    * - OAK-1 Lite
      - OAK-1
-     - OAK-1 MAX
+     - OAK-1 Max
    * - .. image:: /_static/images/thumbnails/oak-1-lite.png
           :target: pages/NG9096
      - .. image:: /_static/images/thumbnails/oak-1.png
@@ -101,7 +101,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
 
    * - OAK-D S2 PoE
      - OAK-D Pro PoE
-     - OAK-D SR PoE
+     - OAK-D Short Range PoE
    * - .. image:: /_static/images/thumbnails/oak-d-s2-poe.png
           :target: pages/NG9097s2
      - .. image:: /_static/images/thumbnails/oak-d-pro-poe.png
@@ -209,16 +209,20 @@ Other Designs
 .. list-table::
    :header-rows: 1
 
-   * - OAK-D CM4
+   * - OAK Thermal (OAK-T)
+     - OAK-D CM4
      - OAK-D CM4 PoE
-     - **rae**
-   * - .. image:: /_static/images/thumbnails/DM1097.png
+     - **rae** Robot
+   * - .. image:: /_static/images/OAK-T/oak-t-thumbnail.png
+          :target: pages/OAK-T
+     - .. image:: /_static/images/thumbnails/DM1097.png
           :target: pages/DM1097
      - .. image:: /_static/images/thumbnails/OAK-D-CM4-PoE_th.png
           :target: pages/DM2097
      - .. image:: /_static/images/rae/rae_th.png
           :target: pages/rae.html
-   * - :ref:`Learn more <dm1097>`
+   * - :ref:`Learn more <oakt>`
+     - :ref:`Learn more <dm1097>`
      - :ref:`Learn more <dm2097>`
      - :ref:`Learn more <rae>`
 
@@ -348,6 +352,7 @@ Some **older models** can be :ref:`found here <Other models>`.
    :hidden:
    :caption: Miscellaneous Designs
 
+   pages/OAK-T.rst
    pages/DM1097.rst
    pages/rae.rst
    pages/DM2097.rst

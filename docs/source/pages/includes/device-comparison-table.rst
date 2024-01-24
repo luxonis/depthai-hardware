@@ -16,13 +16,13 @@
     <table id="comparison">
         <tr>
             <th>OAK model</th>
-            <th><a href="device-comparison.html#oak-features">AI, CV, tracking, encoding…</a></th>
-            <th><a href="device-comparison.html#spatial-data">Spatial data</a></th>
-            <th><a href="device-comparison.html#poe-connectivity-ip67-rating">PoE, IP67</a></th>
-            <th><a href="device-comparison.html#active-stereo-perception-and-night-vision">Active stereo, night vision</a></th>
-            <th><a href="device-comparison.html#standalone-mode-support">Standalone mode</a></th>
-            <th><a href="device-comparison.html#coprocessor">Coprocessor</a></th>
-            <th><a href="device-comparison.html#camera-options">Cameras</a></th>
+            <th><a href="#oak-features">AI, CV, tracking, encoding…</a></th>
+            <th><a href="#spatial-data">Spatial data</a></th>
+            <th><a href="#poe-connectivity-ip67-rating">PoE, IP67</a></th>
+            <th><a href="#active-stereo-perception-and-night-vision">Active stereo, night vision</a></th>
+            <th><a href="#standalone-mode-support">Standalone mode</a></th>
+            <th><a href="#coprocessor">Coprocessor</a></th>
+            <th><a href="#camera-options">Cameras</a></th>
         </tr>
         <tr>
             <td><b><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/BW1093.html">OAK-1</a><br><a href="https://docs.luxonis.com/projects/hardware/en/latest/pages/NG9096.html">OAK-1 Lite</a></b></td>

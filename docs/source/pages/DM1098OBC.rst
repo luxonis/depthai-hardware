@@ -8,7 +8,7 @@ OAK-D-IOT-75
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/iot/products/oak-d-iot-75>`__
 
-.. image:: /_static/images/DM1098OBC/IOT-75.png
+.. thumbnail:: /_static/images/DM1098OBC/IOT-75.png
 
 Overview
 ********
@@ -34,9 +34,9 @@ Dimensions and Weight
 
 **Weight:** 89g total (with enclosure), 49g PCBA & SOM only
 
-.. image:: /_static/images/DM1098OBC/IOT-75-enc.svg
+.. thumbnail:: /_static/images/DM1098OBC/IOT-75-enc.svg
 
-.. image:: /_static/images/DM1098OBC/DM1098obc_dim.png
+.. thumbnail:: /_static/images/DM1098OBC/DM1098obc_dim.png
 
 .. include:: /pages/includes/depth_75_800P.rst
 

@@ -42,7 +42,7 @@ The main difference between them is in:
 
 OAK-SoM:
 
-.. image:: /_static/images/BW1099/BW1099.png
+.. thumbnail:: /_static/images/BW1099/BW1099.png
 
 Baseboards
 **********
@@ -55,11 +55,11 @@ so the baseboard can be a 2-layer PCB.
 
 Here is an example of a baseboard without the SoM:
 
-.. image:: /_static/images/baseboard.jpeg
+.. thumbnail:: /_static/images/baseboard.jpeg
 
 And here is an example of a SoM on the baseboard - :ref:`OAK-FFC-4P`:
 
-.. image:: /_static/images/FFC-4P/OAK-FFC-4P-front.png
+.. thumbnail:: /_static/images/FFC-4P/OAK-FFC-4P-front.png
 
 NOR Flash and Powering
 **********************

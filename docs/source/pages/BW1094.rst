@@ -5,7 +5,7 @@ OAK-FFC RPi HAT
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/products/depthai-rpi-hat>`__
 
-.. image:: /_static/images/BW1094/rpi_hat_cameras.png
+.. thumbnail:: /_static/images/BW1094/rpi_hat_cameras.png
 
 Overview
 ********
@@ -23,8 +23,8 @@ Some of camera modules have a :ref:`M12 mount <M12 mount lenses>`, so you can us
 Board Layout and Dimensions
 ***************************
 
-.. image:: /_static/images/BW1094/BW1094_R0M0E0_diag.jpg
-.. image:: /_static/images/BW1094/BW1094_R0M0E0_dims.jpg
+.. thumbnail:: /_static/images/BW1094/BW1094_R0M0E0_diag.jpg
+.. thumbnail:: /_static/images/BW1094/BW1094_R0M0E0_dims.jpg
 
 General information
 *******************
@@ -38,7 +38,7 @@ General information
 * 5V Fan/Aux header
 * Design files produced with Altium Designer 20
 
-.. image:: /_static/images/BW1094/rpi_hat_side.png
+.. thumbnail:: /_static/images/BW1094/rpi_hat_side.png
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 

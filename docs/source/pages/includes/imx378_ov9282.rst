@@ -1,7 +1,7 @@
 Camera module specifications
 ****************************
 
-You can select either **FF or AF** color camera, more :ref:`information here <Auto-Focus vs Fixed-Focus>`.
+You can select either Fixed Focus (FF) **or** Auto Focus (AF) color camera, more :ref:`information here <Auto-Focus vs Fixed-Focus>`.
 
 .. list-table::
    :header-rows: 1
@@ -19,7 +19,7 @@ You can select either **FF or AF** color camera, more :ref:`information here <Au
      - 12MP (4056x3040)
      - 1MP (1280x800)
    * - Focus
-     - AF: 8cm - ∞, FF: 50cm - ∞
+     - AF: 8cm - ∞ **or** FF: 50cm - ∞
      - FF: 19.6cm - ∞
    * - Max Framerate
      - 60 FPS

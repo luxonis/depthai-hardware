@@ -5,7 +5,7 @@ OAK-1 W
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-1-w>`__
 
-.. image:: /_static/images/NG9096/OAK-1-w.png
+.. thumbnail:: /_static/images/NG9096/OAK-1-w.png
 
 Overview
 ********
@@ -22,8 +22,8 @@ Hardware specifications
 
     .. tab:: Wide FOV IMX378
 
-      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
-      (1MP) color camera.
+      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP, rolling shutter) **or** 150° DFOV color OV9782
+      (1MP, global shutter) color camera.
 
       .. include:: /pages/includes/imx378_w.rst
 
@@ -31,8 +31,8 @@ Hardware specifications
 
     .. tab:: Wide FOV OV9782
 
-      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP) **or** 150° DFOV color OV9782
-      (1MP) color camera.
+      For the wide FOV version you can select **either** 120° DFOV IMX378 (12MP, rolling shutter) **or** 150° DFOV color OV9782
+      (1MP, global shutter) color camera.
 
       .. include:: /pages/includes/ov9782_w.rst
 
@@ -49,7 +49,7 @@ Dimensions and Weight
 * Length: 27.8 mm
 * Weight: 53.1 grams
 
-.. image:: /_static/images/BW1093/oak-1-assembly.png
+.. thumbnail:: /_static/images/BW1093/oak-1-assembly.png
 
 .. include:: /pages/includes/rvc2_power_consumption.rst
 .. include:: /pages/includes/rvc2_operating_temp.rst

@@ -74,13 +74,12 @@ As test 4 resulted in a crash of the device (at 125°C VPU temperature), test 5 
 Min temperature
 ---------------
 
-While an OAK camera would work below 0°C, a valid concern here is the **condensation** on the components with cycling the
-temperature - if the device isn't :ref:`waterproof <waterproof>`. Worst case would be turning the cameras on and completely
-off several times week or even a day. This would cause condensation on the components and because of that, the stress on
-components would be bigger. Solution would be to spray PCBAs with a conformal coating to protect the components against humidity.
+While the :ref:`RVC2 <RVC2>` SoC has the lowest operating temperature of -40°C, we have only tested our devices at the lowest ambient temperature of
+-25.1°C and they worked as expected. Minimum temperature would depend on the computational workload, as the VPU would generate more heat
+when running at full power, which would heat up the device.
 
-**Pro versions** (:ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`) have on-board IR laser dot projector that has an operating temperature range
-of 10°C - 60°C (abolute limit 0°C - 80°C). If you would like to use Pro devices below 0°C, we would suggest to first run the
+Note that **Pro versions** (:ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`) have on-board IR laser dot projector that has an operating temperature range
+of 10°C - 60°C (absolute limit 0°C - 80°C). If you would like to use Pro devices below 0°C, we would suggest running the
 device (without projector) for a few minutes so the device heats up, which would also heat up the laser projector, hopefully
 above 10°C.
 
@@ -90,7 +89,7 @@ CCM heating
 CCM (Compact Camera Module) are the modules that are integrated into the OAK cameras. OAK-D has 3 CCMs, 2x for stereo pair, and in the middle is the RGB camera.
 CCMs themselves have different operating ranges and also some have lower thermal noise than others (eg. on OAK Lite cameras, those CCMs have worse thermal noise).
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/cb3de541-1251-454e-82ed-2cd1a4fcc29d
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/cb3de541-1251-454e-82ed-2cd1a4fcc29d
 
 We have done some quick testing on CCM heating with different sensors; :ref:`IMX582`, :ref:`IMX214`, :ref:`OV9282`, :ref:`IMX378`.
 
@@ -116,9 +115,9 @@ We have done some quick testing on CCM heating with different sensors; :ref:`IMX
 
 *Temp diff* is the difference between the ambient temperature and the temperature of the CCM.
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/9a40c831-54ff-4fe5-9368-520062919283
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/9a40c831-54ff-4fe5-9368-520062919283
 
-.. image:: https://github.com/luxonis/depthai-hardware/assets/18037362/68420ffa-cfcd-449c-bf67-454ba1c0bc43
+.. thumbnail:: https://github.com/luxonis/depthai-hardware/assets/18037362/68420ffa-cfcd-449c-bf67-454ba1c0bc43
 
 
 Command used for testing
@@ -142,7 +141,7 @@ Test on the `OAK-D-PCBA <https://docs.luxonis.com/projects/hardware/en/latest/pa
 * Heatsink max temperature: 43°C
 * Die max temperature: 60°C
 
-.. image:: /_static/images/temperature_range/OAK-D-PCBA_heatsink.jpeg
+.. thumbnail:: /_static/images/temperature_range/OAK-D-PCBA_heatsink.jpeg
 
 Test on the megaAI with the Tianmai 6.5W/K TIM for both the front heatsink and the MX. TMA-6518 (0.5mm) for the MX and the TMA-6500 (2mm) 
 for the front were used. This test was with the BW machined heatsink.
@@ -150,7 +149,7 @@ for the front were used. This test was with the BW machined heatsink.
 * Heatsink max temperature: 61°C
 * Die max temperature: 73°C
 
-.. image:: /_static/images/temperature_range/megaAI_heatsink.jpeg
+.. thumbnail:: /_static/images/temperature_range/megaAI_heatsink.jpeg
 
 Tests for OAK-1:
 
@@ -173,9 +172,7 @@ Test with T1 OAK-1 sample:
 * Front heatsink max temperature: 63°C
 * Die max temperature: 73°C
 
-.. image:: /_static/images/temperature_range/OAK-1_heatsink.jpeg
-
-We have also tested the devices at the lowest ambient temperature of -25.1°C and they worked as expected.
+.. thumbnail:: /_static/images/temperature_range/OAK-1_heatsink.jpeg
 
 .. toctree::
    :maxdepth: 1

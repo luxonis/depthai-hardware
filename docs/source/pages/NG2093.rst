@@ -5,7 +5,7 @@ OAK-FFC 4P PoE
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/oak-modules/products/oak-ffc-poe-4p>`__
 
-.. image:: /_static/images/FFC-4P-POE/ffc-4p-poe.png
+.. thumbnail:: /_static/images/FFC-4P-POE/ffc-4p-poe.png
 
 Overview
 ********
@@ -56,7 +56,7 @@ For FFC cables we use `Molex series 15166 <https://www.molex.com/molex/search/pa
 **26 pin count, same-sided, 152mm** cables (part number `151660281 <https://www.molex.com/molex/products/part-detail/cable/0151660281>`__).
 If you would like to use **shorter/longer FFC cables**, you can get them `here <https://www.molex.com/molex/search/deepSearch?pQuery=q%253D*%253A*%2540fq%253Dcollection%253Aimpulse%2540fq%253Dcollection%253Aimpulse%2540fq%253Dproductseries%253A%252215166%2522%252BOR%252Bengineeringnumber%253A%252215166%2522%2540fq%253Dcategory%253A%2522Cable%2522%2540fq%253Dcircuitsloaded%253A%252226%2522&currentQuery=contactlayouttype%3AA%2B%2528same%2Bside%2529&origin=_l1stv13w>`__.
 
-.. image:: /_static/images/FFC-4P-POE/ffc-4p-poe-bottom.png
+.. thumbnail:: /_static/images/FFC-4P-POE/ffc-4p-poe-bottom.png
 
 Known errata
 ************

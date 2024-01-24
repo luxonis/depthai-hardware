@@ -3,7 +3,7 @@
 OAK-SoM MAX
 ===========
 
-.. image:: /_static/images/SOM-Max/OAK-SoM-MAX-white_background.jpg
+.. thumbnail:: /_static/images/SOM-Max/OAK-SoM-MAX-white_background.jpg
 
 Overview
 ********
@@ -38,7 +38,7 @@ We offer 3 variants of the OAK-SoM MAX which expose a different configuration of
 Board Layout
 ************
 
-.. image:: /_static/images/SOM-Max/pinout.png
+.. thumbnail:: /_static/images/SOM-Max/pinout.png
 
 
 Dimensions and Weight

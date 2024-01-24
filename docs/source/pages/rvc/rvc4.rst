@@ -150,6 +150,94 @@ The following table shows model FPS and [power consumption] at different FPS spe
 
 Power measurements were taken of the whole RVC4 board during 10 second inference runs. So the AI power consumption is a bit less, as the rest of the chip (mainly CPU) is also consuming power.
 
+Jetson comparison
+-----------------
+
+Nvidia's Jetson series is currently the de-facto edge AI platform. We tested the Jetson Orin Nano 8GB (`MSRP: $499 <https://www.arrow.com/en/products/945-13766-0007-000/nvidia>`__),
+which has 40 TOPS (GPU) and 6-core ARM CPU. Below is a 1:1 comparison of RVC4 to Jetson Orin Nano 8GB, both using INT8 precision and the same image shape:
+
+.. list-table::
+  :header-rows: 1
+
+  * - Model name
+    - RVC4 [FPS]
+    - Jetson Orin Nano 8GB [FPS]
+  * - InceptionV4, BS1
+    - 691
+    - 170
+  * - InceptionV4, BS32
+    - 608
+    - 358
+  * - ResNet50, BS1
+    - 1369
+    - 502
+  * - ResNet50, BS32
+    - 1644
+    - 1191
+  * - VGG19, BS1
+    - 269
+    - 183
+  * - VGG19, BS32
+    - 560
+    - 362
+  * - Super Resolution, BS1
+    - 36*
+    - 202
+  * - SSD MobileNet V1, BS1
+    - 1910
+    - 920
+  * - SSD MobileNet V1, BS32
+    - 2688
+    - 2260
+  * - UNet Segmentation, BS1
+    - 323
+    - 142
+  * - YoloV3 Tiny, BS1
+    - 1342
+    - 563
+
+**Conclusion:** From results above, the **RVC4 provides 1.9x better performance** compared to the Jetson Orin Nano 8GB.
+
+Looking at `Jetson Family Benchmarks <https://developer.nvidia.com/embedded/jetson-benchmarks>`__ (at the bottom), Nvidia reports FPS for
+BS32 models (Batch Size 32, so 32 images getting inferenced all at once). From our own tests, these numbers are realistic, however, their
+BS1 models (Batch Size 1, so single image) perform ~2x worse than BS32 ones. If you want real-time performance (not +1 sec latency), you
+will need to use BS1 models.
+
+If we are only looking at **BS1 model comparison**, on average, **RVC4 provides 2.17x better performance**.
+
+\* As the SoC is brand new, the model optimizer is still being updated, and additional layers will be added to get inferenced on accelerated blocks in the future. For Super resolution model, a few layers got inferenced on the CPU, that's why RVC4 performance was low.
+
+Power efficiency
+^^^^^^^^^^^^^^^^
+
+We also measured the power usage of both RVC4 and the Jetson Orin Nano 8GB. We ran both devices at max performance (so MAX FPS for RVC4),
+and measured the power usage of the whole board. Power usage of Orin Nano fluctuates a lot, so we took the average of the power usage over 10 seconds.
+We always took a model with Batch Size=1 (so a single image).
+
+.. list-table::
+  :header-rows: 1
+
+  * - Model name
+    - RVC4 [W]
+    - Jetson Orin Nano 8GB [W]
+  * - InceptionV4
+    - 9.1
+    - 12
+  * - ResNet50
+    - 10.2
+    - 13
+  * - VGG19
+    - 9.5
+    - 11
+  * - YoloV3 Tiny
+    - 9.9
+    - 10
+  * - YoloV5 M (416x416)
+    - 9.3
+    - 11
+
+**Conclusion:** While being 90% faster, **RVC4 is also 15% more power efficient** compared to the Jetson Orin Nano 8GB
+
 Custom applications
 -------------------
 

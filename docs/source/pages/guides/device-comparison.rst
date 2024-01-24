@@ -13,7 +13,7 @@ All OAK cameras have a number of features that can be run on the device itself:
 - `Video encoding <https://docs.luxonis.com/projects/api/en/latest/components/nodes/video_encoder/>`__,
 - `Python scripts <https://docs.luxonis.com/projects/api/en/latest/components/nodes/script/>`__, and many others.
 
-.. image:: /_static/images/device-comparison/oak-features.png
+.. thumbnail:: /_static/images/device-comparison/oak-features.png
 
 Spatial Data
 ############
@@ -22,8 +22,7 @@ The **OAK-D family** of devices has an on-board stereo depth camera pair. Stereo
 devices to perform `Spatial AI <https://docs.luxonis.com/en/latest/pages/spatial-ai/#spatialai>`__ tasks, like providing
 3D spatial coordinates (XYZ) of detected objects and features, or providing class for each depth point.
 
-The **OAK-FFC family** can also perceive depth **if** a stereo camera pair (eg. :ref:`OAK-FFC-OV9282` pair)
-is attached to the FFC board.
+The **OAK-FFC family** can also perceive depth **if** a stereo camera pair (eg. 2x :ref:`OAK-FFC-OV9282`), or a ToF camera (eg. :ref:`OAK-FFC-TOF1`) is connected.
 
 PoE connectivity, IP67 rating
 #############################
@@ -49,8 +48,6 @@ Coprocessor
 ###########
 
 **OAK CM** models have an on-board Raspberry Pi Compute Module, either CM3 or CM4.
-
-Upcoming :ref:`OAK Series 3` will have onboard quadcore ARM with Yocto.
 
 Camera options
 ##############
