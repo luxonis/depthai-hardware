@@ -50,4 +50,4 @@ Cameras also include an M8 connector cap for waterproofing in case the M8 connec
 .. thumbnail:: /_static/images/guides/m8-isolated-circiut.png
 
 **External triggering**: Sensors require 1V8 rising edge on FSYNC for the trigger event. We are using an optocoupler and ESD protection diode, so the input trigger voltage should be 12V (up to 24V)
-and the trigger logic is reversed, so trigger event happens at 0V on the FSYNC line. For **example**, see :ref:`External FSYNC Example`.
+and the trigger logic is reversed, so trigger event happens at 0V on the FSYNC line. For an **example**, see :ref:`External FSYNC Example`.
