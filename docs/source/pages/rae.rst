@@ -92,77 +92,7 @@ Hardware specifications
 Getting started
 ***************
 
-`See the documentation here <https://docs-beta.luxonis.com/deploy/connect-device/RAE>`__ on how to **connect the rae to the RobotHub**.
-
-Direct connection
------------------
-
-Besides deploying apps (docker containers with scripts inside) via RobotHub, one can also connect to the rae directly via SSH, and control the robot that way. This path is more suited for developers who don't mind
-diving deep into the perception, navigation, and ROS logic. The best path to get started would be through with `the rae-ros Github repository <https://github.com/luxonis/rae-ros>`__.
-
-.. tabs::
-
-    .. tab:: USB-C
-        Connect USB cable from your computer to rae's USB-C charging port (on the side). USB ETH interface should become available on your computer.
-        Default IP address is ``192.168.197.55/28``. To connect to the :ref:`RVC3 <RVC3>` via SSH, run:
-
-        .. code-block:: bash
-
-            ssh root@192.168.197.55
-            # No password is needed.
-
-    .. tab:: WiFi
-
-        rae will create WiFi access point by default, with the following settings:
-
-        - **SSID**: rae-<ID>
-        - **Password**: ``wifiwifi@``
-
-        After connecting to its AP, rae's IP is ``192.168.11.1/24``. You can connect to it and SSH into rae:
-
-        .. code-block:: bash
-
-            ssh root@192.168.11.1
-            # No password is needed.
-
-
-Running NN on rae
------------------
-
-Documentation `here <https://docs.google.com/document/d/1AMtzXj26Q9vNzD-fQKgSPm8wlMRW3MxbXXN-XOWtQCk/edit#heading=h.czl0lh37ugyw>`__
-Dev Blobconverter here: https://dev-blobconverter.luxonis.com/
-
-Upload files to RAE
--------------------
-
-.. code-block:: bash
-
-  # If you use MAC you may need to use -O option to enable file transfers with scp
-  scp <file> root@192.168.197.55:/<path>
-
-System partition is Read-Only. ``/data`` and ``/home`` are Read/Write.
-
-
-Firmware update
----------------
-
-Log into RAE and run:
-
-.. code-block:: bash
-
-    mender -install <link_to_firmware> ; reboot
-
-You can check the version of the OS by running:
-
-.. code-block:: bash
-
-    cat /etc/os-release
-
-Reset
-*****
-
-Press the power button for 8s for a hard shutdown. You can factory reset rae by holding the reset button (with a pin)
-for 10s. Factory reset will remove everything from ``/data`` and all user changes made to ``/etc`` and ``/var``.
+`See the documentation here <https://docs-beta.luxonis.com/hardware/rae/get-started/>`__ on how to **connect the rae to the RobotHub**.
 
 3D Models
 *********
