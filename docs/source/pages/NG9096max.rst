@@ -1,6 +1,6 @@
 .. _ng9096max:
 
-OAK-1 MAX
+OAK-1 Max
 =========
 
 `Buy it on Luxonis shop <https://shop.luxonis.com/collections/early-access/products/oak-1-max>`__
@@ -10,7 +10,7 @@ OAK-1 MAX
 Overview
 ********
 
-**OAK-1 MAX** supports up to 32MP color camera resolution (:ref:`IMX582`) on a tiny, yet performant, device.
+**OAK-1 Max** supports up to 32MP color camera resolution (:ref:`IMX582`) on a tiny, yet performant, device.
 
 OAK-1 Max isn't a standard USB camera. It's a 4-trillion-operations-per-second AI powerhouse that performs your AI
 models on-board, so that your host is free to do whatever you need it to do.

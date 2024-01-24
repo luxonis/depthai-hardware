@@ -8,7 +8,7 @@ OAK-D SR
 Overview
 ********
 
-The **OAK-D SR** (Short Range) was designed to provide an accurate close-in depth perception. It's ideal for application like bin picking/pack, for pick and place
+The **OAK-D Short Range** (OAK-D SR) was designed to provide an accurate close-in depth perception. It's ideal for application like bin picking/pack, for pick and place
 machines, quality control/automated manufacturing, robotics arms, and more.
 
 It has two :ref:`OV9782` global shutter color cameras, that are used as the stereo pair.

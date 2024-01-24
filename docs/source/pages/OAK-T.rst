@@ -1,6 +1,6 @@
 .. _oakt:
 
-OAK-Thermal
+OAK Thermal
 ===========
 
 .. role:: raw-html(raw)
@@ -13,7 +13,7 @@ OAK-Thermal
 Overview
 ********
 
-The **OAK-T** (OAK-Thermal) is our first camera with a **thermal sensor** and a color image sensor.
+The **OAK-T** (OAK Thermal) is our first camera with a **thermal sensor** and a color image sensor.
 
 When fusing thermal frames, color frames, and AI models, you can create a wide variety of applications in different fields, such as:
 

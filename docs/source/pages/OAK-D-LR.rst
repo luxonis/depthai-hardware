@@ -8,7 +8,7 @@ OAK-D LR
 Overview
 ********
 
-The **OAK-D LR** (Long Range) was designed to provide an accurate **short range and long range stereo depth perception**. This works by having up to 3 stereo depth pairs at different baseline distances.
+The **OAK-D Long Range** (OAK-D LR) was designed to provide an accurate **short range and long range stereo depth perception**. This works by having up to 3 stereo depth pairs at different baseline distances.
 One can also easily change the `M12 lenses <M12 selectable FOV>`__ for the cameras, which also affects the min/max distance of stereo depth perception (`additional info <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#depth-from-disparity>`__).
 
 It has **3** horizontally aligned :ref:`AR0234` global shutter color cameras, which have different distances between each other, and allow for 3 different stereo baseline camera pairs (5cm, 10cm and 15cm baseline distances).

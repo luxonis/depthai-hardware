@@ -1,7 +1,7 @@
 IMX582 HDR
 **********
 
-IMX582 sensor supports on-sensor HDR, so it can be leveraged by the :ref:`RVC2` as well. In the comparison image below we are using :ref:`OAK-1 MAX`.
+IMX582 sensor supports on-sensor HDR, so it can be leveraged by the :ref:`RVC2` as well. In the comparison image below we are using :ref:`OAK-1 Max`.
 HDR support is currently on branch `camera_controls_misc <https://github.com/luxonis/depthai-python/tree/camera_controls_misc>`__ and will be merged to main soon.
 
 .. figure:: https://user-images.githubusercontent.com/18037362/242872521-32395b7b-7e8a-4948-9887-1d1deb3774e8.png
