@@ -129,8 +129,8 @@ diving deep into the perception, navigation, and ROS logic. The best path to get
 Running NN on rae
 -----------------
 
-Documentation `here <https://docs.google.com/document/d/1AMtzXj26Q9vNzD-fQKgSPm8wlMRW3MxbXXN-XOWtQCk/edit#heading=h.czl0lh37ugyw>`__
-Dev Blobconverter here: https://dev-blobconverter.luxonis.com/
+- Documentation `here <https://docs.google.com/document/d/1AMtzXj26Q9vNzD-fQKgSPm8wlMRW3MxbXXN-XOWtQCk/edit#heading=h.czl0lh37ugyw>`__
+- Blobconverter here, use ``RVC3`` as the version: https://blobconverter.luxonis.com/
 
 Upload files to RAE
 -------------------
