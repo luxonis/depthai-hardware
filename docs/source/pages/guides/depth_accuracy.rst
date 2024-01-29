@@ -17,11 +17,12 @@ In a nutshell, the most important factors are:
 ---------------------------------
 
 For normal FOV cameras with 800P (:ref:`OV9282` or :ref:`OV9782`) stereo pair resolution; :ref:`OAK-D`, :ref:`OAK-D S2`, :ref:`OAK-D Pro`, :ref:`OAK-D Pro PoE`, :ref:`OAK-D S2 PoE`, :ref:`OAK-D-PoE`.
-Depth accuracy:
 
-* 0.7m - 4m: below 1% absolute depth error
-* 4m - 7m: below 2% absolute depth error
-* 7m - 12m: below 3% absolute depth error
+Depth accuracy of a median device (in terms of depth performance) would be:
+
+* below 4m: below 2% absolute depth error
+* 4m - 7m: below 4% absolute depth error
+* 7m - 10m: below 6% absolute depth error
 
 .. chart:: charts/stereo_75mm_800p.json
 
@@ -31,13 +32,16 @@ Depth accuracy:
 ---------------------------------
 
 For normal FOV cameras with 480P (:ref:`OV7251`) stereo pair resolution; :ref:`OAK-D-Lite`.
-Depth accuracy:
 
-* 40cm - 3m: below 2% absolute depth error
+Depth accuracy of a median device (in terms of depth performance) would be:
+
+* below 3m: below 2% absolute depth error
 * 3m - 6m: below 4% absolute depth error
 * 6m - 8m: below 6% absolute depth error
 
-.. thumbnail:: /_static/images/depth_error/depth_error_480p_75mm.png
+.. chart:: charts/stereo_75mm_480p.json
+
+    Depth accuracy of a 480P, 75mm baseline OAK camera
 
 Measurement setup
 -----------------

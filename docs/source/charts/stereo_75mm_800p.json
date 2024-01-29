@@ -11,6 +11,9 @@
         "b": 30,
         "r": 15,
         "l": 35
-      }
-    }
+      },
+      "xaxis": { "title": "Distance to the noise pattern target [meters]" },
+      "yaxis": { "title": "Depth error [%]" }
+    },
+    "meta": { "caption": "Depth accuracy of a 800P, 75mm baseline OAK camera" }
   }
