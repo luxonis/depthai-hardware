@@ -6,3 +6,4 @@ rtd-redirects==1.1.0
 sphinxcontrib-spelling
 sphinxcontrib-images
 urllib3==1.26.15
+sphinx-charts==0.2.1

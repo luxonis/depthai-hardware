@@ -25,6 +25,10 @@ Depth accuracy:
 
 .. thumbnail:: /_static/images/depth_error/depth_error_800p_75mm.png
 
+.. chart:: charts/stereo_75mm_800p.json
+
+    Depth accuracy of a 800P, 75mm baseline OAK camera
+
 480P, 75mm baseline distance OAKs
 ---------------------------------
 

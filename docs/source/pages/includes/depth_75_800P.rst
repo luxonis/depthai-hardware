@@ -6,8 +6,8 @@ depends on camera FOV, resolution, and baseline; more information `here <https:/
 
 * Ideal depth range: 70cm - 12m
 * `MinZ <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#short-range-stereo-depth>`__: ~20cm (400P and `extended <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#stereo-extended-disparity-mode>`__), ~35cm (400P **OR** 800P, `extended <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#stereo-extended-disparity-mode>`__), ~70cm (800P)
-* Depth accuracy (See :ref:`800P, 75mm baseline distance OAKs` for details):
+* Median depth accuracy (See :ref:`800P, 75mm baseline distance OAKs` for details):
 
-    * 0.7m - 4m: below 1% absolute depth error
-    * 4m - 7m: below 2% absolute depth error
-    * 7m - 12m: below 3% absolute depth error
+    * below 4m: below 2% absolute depth error
+    * 4m - 7m: below 4% absolute depth error
+    * 7m - 10m: below 6% absolute depth error
