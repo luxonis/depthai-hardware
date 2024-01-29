@@ -49,6 +49,41 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
 
 .. thumbnail:: /_static/images/FFC-4P/ffc-4p-sync.png
 
+PSRBS connector
+***************
+
+The OAK-FFC-4P has a PSBRS connector, which allows users to easily connect the OAK camera to the external logic.
+
+.. thumbnail:: /_static/images/FFC-4P/psrbs.png
+
+.. list-table::
+   :header-rows: 1
+
+   * - Pin
+     - Name
+     - Description
+   * - 1
+     - VDD_5V
+     - 5V power input/output
+   * - 2
+     - STROBE
+     - Strobe signal output, can drive external lighting (projector, illumination lights, etc.)
+   * - 3
+     - MODULE_nRST
+     - Allows resetting the OAK-FFC from an external source (GND will reset the :ref:`RVC2 <RVC2>`, same as RST button)
+   * - 4
+     - BOOT_SEL
+     - Allows selecting whether to boot into the `bootloader <https://docs.luxonis.com/projects/api/en/latest/components/bootloader/>`__ (1.8V will skip bootloader, same as BOOT button)
+   * - 5
+     - COM_AUX_IO2
+     - 2-lane MIPI FSYNC signal input/output
+   * - 6
+     - FSIN_4LANE
+     - 4-lane MIPI FSYNC signal input/output
+   * - 7
+     - GND
+     - GND power input/output
+
 Syncing with OAK-FFC-IR
 -----------------------
 
