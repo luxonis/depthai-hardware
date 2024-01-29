@@ -23,7 +23,7 @@ Depth accuracy:
 * 4m - 7m: below 2% absolute depth error
 * 7m - 12m: below 3% absolute depth error
 
-.. chart:: https://docs.luxonis.com/projects/hardware/en/latest/_charts/charts/stereo_75mm_800p.json
+.. chart:: charts/stereo_75mm_800p.json
 
     Depth accuracy of a 800P, 75mm baseline OAK camera
 
