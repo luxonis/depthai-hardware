@@ -38,7 +38,7 @@ Hardware specifications
 
 .. include:: /pages/includes/poe_connectivity.rst
 
-.. include:: /pages/includes/cm4-poe-sensors.rst
+.. include:: /pages/includes/oak_d_poe_sensors.rst
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 

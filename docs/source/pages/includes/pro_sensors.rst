@@ -8,7 +8,7 @@ Camera module specifications
       You can select **either**  IMX378 (12MP, rolling shutter) **or** OV9782
       (1MP, global shutter) color camera.
 
-      .. include:: /pages/includes/imx378_ov9282.rst
+      .. include:: /pages/includes/imx378_ov9282pro.rst
 
     .. tab:: OV9782 Color Sensor
 

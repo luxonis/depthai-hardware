@@ -39,7 +39,7 @@ For communication and power, the OAK-D LR camera uses **either**:
    * - Focus
      - M12 (FF): 45cm - ∞
    * - Lens size
-      - 1/2.5 inch
+     - 1/2.5 inch
    * - Max Framerate
      - 60 FPS (1200P)
    * - Pixel size
