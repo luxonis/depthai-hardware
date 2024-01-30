@@ -116,11 +116,14 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
    :header-rows: 1
 
    * - OAK-1 PoE
+     - OAK-1 W PoE
      - OAK-D PoE
      - OAK-D W PoE
      - OAK-D Pro W PoE
    * - .. image:: /_static/images/thumbnails/OAK-1-PoE_th.png
           :target: pages/SJ2096POE
+     - .. image:: /_static/images/thumbnails/OAK-1-PoE_th.png
+          :target: pages/SJ2096POE-W
      - .. image:: /_static/images/thumbnails/oak-d-poe_th.png
           :target: pages/SJ2088POE
      - .. image:: /_static/images/thumbnails/oak-d-w-poe.png
@@ -128,6 +131,7 @@ in `standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/s
      - .. image:: /_static/images/thumbnails/oak-d-pro-w-poe.png
           :target: pages/NG9097prow
    * - :ref:`Learn more <sj2096>`
+     - :ref:`Learn more <sj2096-w>`
      - :ref:`Learn more <sj2088poe>`
      - :ref:`Learn more <ng9097w>`
      - :ref:`Learn more <ng9097prow>`
@@ -312,6 +316,7 @@ Some **older models** can be :ref:`found here <Other models>`.
    :caption: PoE Designs
 
    pages/SJ2096POE.rst
+   pages/SJ2096POE-W.rst
    pages/SJ2088POE.rst
    pages/NG9097s2.rst
    pages/NG9097w.rst

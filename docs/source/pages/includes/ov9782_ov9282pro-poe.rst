@@ -9,7 +9,7 @@ Camera module specifications
      - Stereo pair
    * - Sensor
      - :ref:`OV9782` (PY074)
-     - :ref:`OV9282` (PY044)
+     - :ref:`OV9282` (PY091 BP @ 940nm)
    * - DFOV / HFOV / VFOV
      - `89° / 80° / 55° <https://fov.luxonis.com/?horizontalFov=80&verticalFov=55&horizontalResolution=1280&verticalResolution=800>`__
      - `89° / 80° / 55° <https://fov.luxonis.com/?horizontalFov=80&verticalFov=55&horizontalResolution=1280&verticalResolution=800>`__

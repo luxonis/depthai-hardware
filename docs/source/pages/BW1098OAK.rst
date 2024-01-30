@@ -18,7 +18,7 @@ Hardware specifications
 
 .. include:: /pages/includes/usb_connectivity.rst
 
-.. include:: /pages/includes/imx378_ov9282.rst
+.. include:: /pages/includes/oak-d-sensors.rst
 
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
