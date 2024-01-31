@@ -1,7 +1,7 @@
 .. _rvc4:
 
 Robotics Vision Core 4 (RVC4)
-=============================
+#############################
 
 **Robotics Vision Core 4** (**RVC4** in short) is the fourth generation of our RVC. Main specs:
 
@@ -84,7 +84,7 @@ RVC4 NN model benchmarks:
 
 
 AI Power Consumption
---------------------
+====================
 
 RVC4's AI system is designed to be power-efficient and configurable to the user's needs. The AI system can be configured to run at different power levels (FPS speeds), which will affect the performance of the AI system.
 The following table shows model FPS and [power consumption] at different FPS speeds:
@@ -151,7 +151,7 @@ The following table shows model FPS and [power consumption] at different FPS spe
 Power measurements were taken of the whole RVC4 board during 10 second inference runs. So the AI power consumption is a bit less, as the rest of the chip (mainly CPU) is also consuming power.
 
 Jetson comparison
------------------
+=================
 
 Nvidia's Jetson series is currently the de-facto edge AI platform. We tested the Jetson Orin Nano 8GB (`MSRP: $499 <https://www.arrow.com/en/products/945-13766-0007-000/nvidia>`__),
 which has 40 TOPS (GPU) and 6-core ARM CPU. Below is a 1:1 comparison of RVC4 to Jetson Orin Nano 8GB, both using INT8 precision and the same image shape:
@@ -208,7 +208,7 @@ If we are only looking at **BS1 model comparison**, on average, **RVC4 provides 
 \* As the SoC is brand new, the model optimizer is still being updated, and additional layers will be added to get inferenced on accelerated blocks in the future. For Super resolution model, a few layers got inferenced on the CPU, that's why RVC4 performance was low.
 
 Power efficiency
-^^^^^^^^^^^^^^^^
+----------------
 
 We also measured the power usage of both RVC4 and the Jetson Orin Nano 8GB. We ran both devices at max performance (so MAX FPS for RVC4),
 and measured the power usage of the whole board. Power usage of Orin Nano fluctuates a lot, so we took the average of the power usage over 10 seconds.
@@ -239,17 +239,64 @@ We always took a model with Batch Size=1 (so a single image).
 **Conclusion:** While being 90% faster, **RVC4 is also 15% more power efficient** compared to the Jetson Orin Nano 8GB
 
 Custom applications
--------------------
+*******************
 
 Users will have full access to the power of the RVC4:
 
 - Easy development & deployment of **custom containerized apps** will be possible out-of-the-box via `RobotHub <https://www.luxonis.com/robothub>`__
 - Develop and run fast CV pipelines on top of accelerated hardware blocks using `Halide <https://halide-lang.org/>`__
 - Interface with GPIOs and communication interfaces
+- As the RVC4 can also optionally act as a host computer, it will be able to connect other OAK :ref:`RVC2-based <RVC2>`  OAK (PoE) cameras to it.
+
+RVC4-based devices
+******************
+
+Also called **OAK4**, are planned to be released in June 2024. From the hardware perspective, OAK4 cameras will have:
+
+- Both PoE (M12 connector) and USB3 (with screw holes) connectivity, so user can choose which one to use
+- M8 auxiliary connector, just like the OAK PoE cameras
+- Microphones
+- Status indication LED
+- IP67-rated enclosure
+
+We plan to release the following OAK4 devices:
+
+- :ref:`OAK4-S` (S as in Single/Small), so similar to OAK-1 (PoE), but with RVC4 inside.
+- :ref:`OAK4-D` and all its variants (FoV, sensor types, active/passive stereo)
+- :ref:`OAK4-D LR` (Long Range)
+
+OAK4-S
+======
+
+We got initial prototypes of OAK4-S in January '24, and are working on OS and FW support for it.
+
+.. thumbnail:: /_static/images/OAK4/oak4-s.jpeg
+
+It is much smaller than the :ref:`sj2096`, and will have a wide variety of sensor options. It will also have an IMU, and (optionally) an
+IR illumination LED for night vision capabilities.
+
+.. thumbnail:: /_static/images/OAK4/oak1poe-vs-oak4s.jpeg
+
+Since the design of the OAK4-S is quite modular (2 PCBAs + SOM, and 3-part enclosure), we will be able to reuse most of the design to also
+**quickly develop RVC4-based** :ref:`oakt` and :ref:`OAK-D SR PoE`. More details about those two models will be available in the future.
+
+OAK4-D
+======
+
+This device will be quite similar to the :ref:`ng9097s2` (and all it's variations), but with RVC4 inside, and additional hardware features
+:ref:`mentioned above <RVC4-based devices>`. We plan to release similar variations as for the Series 2 OAK PoE cameras, so normal/wide FOV,
+different sensor types and passive/active stereo (Pro version).
+
+.. thumbnail:: /_static/images/OAK4/oak4-d.jpeg
+
+OAK4-D LR
+=========
+
+Will be very similar to the :ref:`OAK-D LR`, but with RVC4 inside, and an M12 connector (+ M8 aux connector) instead of the RJ45 for the ethernet (PoE) connection.
+
+.. thumbnail:: /_static/images/OAK4/oak4-lr.jpeg
 
 ..
     - Full access to the **Linux OS**, which allows users to rebuilt their OS, install custom packages, add custom drivers, etc.
-
-As RVC4 can also optionally act as a host computer, it will be able to connect other OAK :ref:`RVC2 <RVC2>`-based cameras to it.
 
 .. include::  /pages/includes/footer-short.rst

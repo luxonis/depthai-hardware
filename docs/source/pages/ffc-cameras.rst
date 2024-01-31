@@ -137,8 +137,6 @@ RPi cameras can be connected to the FFC baseboard via the `UC-244 Adapter <https
 
 If you just want to use IMX477, we suggest using `Arducam HQ Cam for RPi, IMX477 <https://www.arducam.com/product/b0240-arducam-imx477-hq-quality-camera/>`__ that works directly with OAK FFC baseboards (without the UC-244 adapter).
 
-.. thumbnail::
-
 M12 mount lenses
 ****************
 

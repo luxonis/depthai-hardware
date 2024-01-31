@@ -203,6 +203,7 @@ open-source hardware designs as you see fit.
    * - :ref:`Learn more <bw1099>`
      - :ref:`Learn more <bw2099>`
      - :ref:`Learn more <dm3399>`
+
 Other Designs
 *************
 
@@ -278,7 +279,6 @@ Some **older models** can be :ref:`found here <Other models>`.
      :hidden:
 
      pages/articles/oak-s2.rst
-     pages/articles/oak-s3.rst
 
 .. toctree::
      :caption: Robotics Vision Core

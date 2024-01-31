@@ -30,7 +30,16 @@ design's scale, making it easier to mount or fit anywhere seamlessly. The design
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/poe_connectivity-s2.rst
+This OAK camera uses **Power-over-Ethernet** (PoE) for communication and power.
+It offers full 802.3af and Class 3 PoE compliance with 1000BASE-T speeds (1 Gbps).
+A :ref:`PoE injector/switch <Powering PoE devices>` is required to power the device.
+It also features an :ref:`IP67-rated enclosure <IP67 rated PoE enclosures>`.
+
+..
+  didn't use the include as this has ip67 enc, but no uSD card
+  .. include:: /pages/includes/poe_connectivity-s2.rst
+
+
 
 Camera module specifications
 ****************************
