@@ -33,7 +33,7 @@ Below is an example of running MobileNet-SSD:
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/imx378.rst
+.. include:: /pages/includes/imx378_ov9782.rst
 
 .. include:: /pages/rvc/includes/rvc2_inside_oak1.rst
 

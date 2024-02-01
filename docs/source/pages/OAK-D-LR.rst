@@ -31,13 +31,15 @@ For communication and power, the OAK-D LR camera uses **either**:
    * - Camera Specs
      - Stereo pair / Color
    * - Sensor
-     - :ref:`AR0234` (**color**, PY056)
+     - :ref:`AR0234` (**color**, PY078)
    * - DFOV / HFOV / VFOV
      - 100° / 82° / 56°
    * - Resolution
      - 2.3MP (1920x1200)
    * - Focus
      - M12 (FF): 45cm - ∞
+   * - Lens size
+     - 1/2.5 inch
    * - Max Framerate
      - 60 FPS (1200P)
    * - Pixel size

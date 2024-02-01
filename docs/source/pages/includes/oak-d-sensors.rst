@@ -1,8 +1,6 @@
 Camera module specifications
 ****************************
 
-You can select either **FF or AF** color camera, more :ref:`information here <Auto-Focus vs Fixed-Focus>`.
-
 .. list-table::
    :header-rows: 1
 
@@ -10,16 +8,16 @@ You can select either **FF or AF** color camera, more :ref:`information here <Au
      - Color camera
      - Stereo pair
    * - Sensor
-     - :ref:`IMX378` (PY004 AF, PY052 FF)
-     - :ref:`OV9282` (PY044)
+     - :ref:`IMX378` (PY011 AF)
+     - :ref:`OV9282` (PY010 FF)
    * - DFOV / HFOV / VFOV
      - `81° / 69° / 55° <https://fov.luxonis.com/?horizontalFov=69&verticalFov=55&horizontalResolution=4056&verticalResolution=3040>`__
-     - `89° / 80° / 55° <https://fov.luxonis.com/?horizontalFov=80&verticalFov=55&horizontalResolution=1280&verticalResolution=800>`__
+     - `81° / 72° / 49° <https://fov.luxonis.com/?horizontalFov=80&verticalFov=55&horizontalResolution=1280&verticalResolution=800>`__
    * - Resolution
      - 12MP (4056x3040)
      - 1MP (1280x800)
    * - Focus
-     - AF: 8cm - ∞, FF: 50cm - ∞
+     - AF: 8cm - ∞ **or** FF: 50cm - ∞
      - FF: 19.6cm - ∞
    * - Max Framerate
      - 60 FPS
