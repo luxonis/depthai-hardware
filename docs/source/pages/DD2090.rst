@@ -52,7 +52,8 @@ But if you want to enable :ref:`Hardware message syncing` for all 4 cameras, you
 PSRBS connector
 ***************
 
-The OAK-FFC-4P has a PSBRS connector, which allows users to easily connect the OAK camera to the external logic.
+The OAK-FFC-4P has a PSRBS connector, which allows users to easily connect the OAK camera to the external logic. You can use
+`PSRBS cable <https://shop.luxonis.com/products/psrbs-cable>`__ to connect to this connector.
 
 .. thumbnail:: /_static/images/FFC-4P/psrbs.png
 
