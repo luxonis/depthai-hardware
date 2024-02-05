@@ -182,4 +182,10 @@ you can reduce FPS of the whole pipeline - that way, subsystems won't be utilize
 
   This hardware design is open source, and all design files are available `on GitHub <https://github.com/luxonis/depthai-hardware/tree/master/OAK-D-SR-POE>`__.
 
+3D Models
+*********
+
+- Enclosure STEP file `here <https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-Thermal/OAK-T_ENCLOSURE.STEP>`__
+- Enclosure STL file `here <https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-Thermal/OAK-T_ENCLOSURE.STL>`__
+
 .. include::  /pages/includes/footer-short.rst
