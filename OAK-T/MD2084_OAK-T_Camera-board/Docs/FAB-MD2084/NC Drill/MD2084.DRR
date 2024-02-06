@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MD2084.PcbDoc   8. 11. 2023  15:27:06
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : L1_TOP to L6_BOT
+ASCII Plated RoundHoles File : MD2084-Plated.TXT
+ASCII Non-Plated RoundHoles File : MD2084-NonPlated.TXT
+EIA File   : MD2084.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.201mm (8mil)                                            Round             558       PTH        1017.27mm (40.05inch)
+T2      0.203mm (8mil)                                            Round             23        PTH        132.04mm (5.20inch)
+T3      0.254mm (10mil)                                           Round             4         PTH        11.23mm (0.44inch)
+T4      0.6mm (24mil)                                             Round             7         PTH        7.62mm (0.30inch)
+T5      2.1mm (83mil)                                             Round             2         PTH        19.98mm (0.79inch)
+T6      2.3mm (91mil)                                             Round             2         PTH        65.37mm (2.57inch)
+T7      3mm (118mil)                                              Round             2         PTH        31.20mm (1.23inch)
+T8      0.5mm (20mil)                                             Round             2         NPTH       50.88mm (2.00inch)
+T9      0.7mm (28mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T10     0.9mm (35mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T11     1.5mm (59mil)                                             Round             2         NPTH       65.34mm (2.57inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              604
+
+Total Processing Time (hh:mm:ss) : 00:00:00
