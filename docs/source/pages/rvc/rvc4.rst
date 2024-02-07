@@ -16,7 +16,7 @@ To **stay up to date, consider subscribing** to the `RVC4 newsletter <https://sh
 RVC4 Timeline
 *************
 
-RVC4 is currently in the development phase. Our current plan is to release RVC4-based devices in Q2 2024. We will also be releasing more information / test results as we progress.
+RVC4 is currently in the development phase. Our current plan is to release RVC4-based devices in Q2 2024.
 
 RVC4 Computer vision engine
 ***************************
@@ -203,7 +203,7 @@ BS32 models (Batch Size 32, so 32 images getting inferenced all at once). From o
 BS1 models (Batch Size 1, so single image) perform ~2x worse than BS32 ones. If you want real-time performance (not +1 sec latency), you
 will need to use BS1 models.
 
-If we are only looking at **BS1 model comparison**, on average, **RVC4 provides 2.17x better performance**.
+Looking only at **BS1 model comparison**, on average, **RVC4 provides 2.17x better performance**.
 
 \* As the SoC is brand new, the model optimizer is still being updated, and additional layers will be added to get inferenced on accelerated blocks in the future. For Super resolution model, a few layers got inferenced on the CPU, that's why RVC4 performance was low.
 

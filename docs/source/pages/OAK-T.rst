@@ -144,9 +144,7 @@ which is a standard for optical systems. Specifications are as follows:
 - **Recognition**: Being able to classify the type of object (like distinguishing a car from a truck)
 - **Identification**: The capability to specify the exact nature of the object (like determining the make and model of a car).
 
-.. include:: /pages/includes/poe_s2_connectors.rst
-
-
+.. include:: /pages/includes/poe_s2_updated_connectors.rst
 
 Dimensions and Weight
 *********************
