@@ -163,44 +163,4 @@ and `190° FOV <https://www.arducam.com/product/arducam-190-degrees-lens-for-hq-
 
     Test setup from birds view
 
-Replacing CCMs
-**************
-
-For majority of our cameras (see :ref:`Already built CCMs`), we use Compact Camera Modules (CCM) that have Arducam's short FPC connector. This means that you can replace the camera module with any other CCM that we support.
-
-**Example**: On your :ref:`OAK-D Pro` one could replace the central color camera (:ref:`IMX378` by default) to a higher-resolution color camera (:ref:`IMX582`, 32MP sensor).
-
-Few things to note:
-
-- M12 mount: Camera modules that support M12 mount lenses are too large to fit into our standard OAK cameras (except :ref:`OAK-D LR`, which has 3x M12 mount :ref:`AR0234`)
-- FOV: OAK cameras have a front glass for a specific FOV. If you'd want to replace a normal FOV camera (eg. 80HFOV) with a wide FOV camera (eg. 120HFOV), from glass would likely need to be replaced as well
-- Procurement: We don't sell CCMs separately, so you'd need to get them from Arducam or other suppliers (see :ref:`Procurement of CCMs`)
-
-Procedure
-"""""""""
-
-1. **Removing an old CCM**
-
-.. note::
-
-  We do not recommend removing the CCMs from the PCB, as they can easily break (either CCM, or PCB). If you do so, you do it at your own risk. We are not responsible for any damage to the PCB or CCM.
-
-Removing CCM is a bit tricky. The best option is to put some acetone or IPA (isopropyl alcohol) around the CCM to soften the glue. After that, a scalpel or any
-other similar sharp/thin tool should be used slicing the camera off of the PCB, by cutting the glue in between the CCM and PCB. Be careful to not use too much force, as CCM can easily brake.
-
-2. **Attaching a new CCM**
-
-This step is much easier. First connect the FPC cable to the FPC connector, and press the connector down. Then apply some super glue (cyanoacrylate glue) to the back of the CCM, and press it down to the PCB. Be careful to
-not use too much glue, as it can leak between the contacts of the FPC connector and prevent the connection/contact.
-
-Procurement of CCMs
-"""""""""""""""""""
-
-A few CCMs that Arducam offers on their shop, that are compatible with the (2020 version of) OAK-D:
-
-- Compact Camera Module (CCM) Fish-Eye OV9282 (for better SLAM) `here <https://www.arducam.com/product/arducam-1mp-ov9282-fisheye-mono-global-shutter-drop-in-replacement-for-depthai-oak-dnoir/>`__
-- Mechanical, Optical, and Electrical equivalent OV9282 module with visible and IR capability `here <https://www.arducam.com/product/arducam-1mp-ov9282-ccm-drop-in-replacement-for-oak-d/>`__
-- Global-Shutter Color Camera (OV9782) with same intrinsics as OV9282 grayscale `here <https://www.arducam.com/product/arducam-1mp-ov9782-color-global-shutter-drop-in-replacement-for-depthai-oak-dnoir-b0352/>`__
-
-
 .. include::  /pages/includes/footer-short.rst
