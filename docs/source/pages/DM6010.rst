@@ -22,7 +22,7 @@ Getting started
 ***************
 
 #. Connect host computer to the Y-adapter's USB-C data port via USB-C cable
-#. Connect USB wall charger to the Y-adapter's USB-C power port via USB-C cable
+#. Connect 5V voltage (eg. standard USB wall charger) to the Y-adapter's USB-C power port via USB-C cable
 #. Insert Y-adapter to the OAK device via USB-C connector
 
 .. thumbnail:: /_static/images/DM6010/Y_Adapter_5.jpg
