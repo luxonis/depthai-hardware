@@ -264,6 +264,7 @@ Some **older models** can be :ref:`found here <Other models>`.
    pages/guides/integrating_depthai_into_products.rst
    pages/guides/sync_frames.rst
    pages/guides/raspberrypi.rst
+   pages/guides/jetson.rst
    pages/guides/af_ff.rst
    pages/guides/shutter_type.rst
    pages/guides/depth_accuracy.rst
