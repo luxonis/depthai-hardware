@@ -62,21 +62,29 @@ Raw data of the depth accuracy evaluation can be found on `Google Sheets here <h
 Accuracy oscillation
 --------------------
 
-From the graphs it's clear that the depth accuracy oscillates with distances. This is due to the nature of disparity matching, and is a common thing in stereo depth cameras. Let's first look at ideal
-measured distance (for OAK-D-Lite) at different distances:
+From the graphs it's clear that the depth accuracy oscillates with distances. This is due to the nature of disparity matching, and is a common thing in stereo depth cameras. 
 
+You can see **data & graphs** in `Gsheets here <https://docs.google.com/spreadsheets/d/1pG8wb8R004sHAuvhgR6GfD3y09QiVdntbGmob9s2Ab0/edit#gid=1080580476>`__ in **Theoretical** tab.
+Let's first look at ideal measured distance (for OAK-D-Lite) at different distances:
 
 .. chart:: charts/guide_ideal_distance.json
 
     Theoretical depth accuracy
 
-You can see oscillation around the ground truth, easily seen for full-pixel depth. With Subpixel mode, you can achieve better accuracy, but the oscillation is still there. Let's also look at the same data, but for depth error in %:
+You can see oscillation around the ground truth, easily seen for full-pixel depth. Let's focus on that: there are discrete "steps"/"stairs" in the graph. One is at 6.6m, then 8.25m, then 11m.
+These correspond to disparity distance of 5, 4, and 3 pixels. This means that a feature on the left stereo frame is 5/4/3 pixels to the left of the same feature on the right stereo frame.
+
+With Subpixel mode, you can achieve better accuracy, as we can estimate the disparity distance with higher precision, so eg. 3.5, or 4.125 pixels.
+This will make estimations more accurate, but oscillation is still there.
+
+Let's also look at the same data, but for depth error in %:
 
 .. chart:: charts/guide_ideal_error.json
 
     Theoretical depth error
 
-And if we look at the absolute error, we will see that it's similar to the chart above (:ref:`480P, 75mm baseline distance OAKs`):
+And if we look at the absolute error, the ideal 1/2 pixel accuracy (below) will look somewhat similar to the chart above (:ref:`480P, 75mm baseline distance OAKs`). Note that every camera is different, and for the graph below
+we set focal distance to 440pix.
 
 .. chart:: charts/guide_ideal_abs_error.json
 
