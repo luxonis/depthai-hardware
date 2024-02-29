@@ -4,7 +4,7 @@ Getting started with OAK PoE devices
 PoE allows a single Cat5e (or higher) Ethernet cable to be used to both power a device and give it connectivity
 at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
 
-.. thumbnail:: https://user-images.githubusercontent.com/18037362/125928421-daed2432-73fb-4c5b-843e-037c7383a871.gif
+.. image:: https://user-images.githubusercontent.com/18037362/125928421-daed2432-73fb-4c5b-843e-037c7383a871.gif
 
 *After connecting the PoE device, the Ethernet connectivity LED (shown above) should turn on and start occasionally flashing.*
 
@@ -385,7 +385,7 @@ OAK-D-PoE and OAK-1-PoE have a USB-C connector, while OAK-D Pro PoE has USB conn
         #. Change DIP switch back to 0x3 (switches 5,6 up, others down) for PoE communication.
         #. Close back the enclosure, making sure the gasket is in the correct place (for waterproofing).
 
-        .. thumbnail:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
+        .. image:: https://user-images.githubusercontent.com/18037362/154956812-c3fcc961-af46-4dfd-8080-e15c8c6b43f0.png
 
     .. tab:: Series 2 PoE devices
 
