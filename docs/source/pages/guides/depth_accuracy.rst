@@ -58,3 +58,27 @@ Here is the process for each step of the measurement, which is similar to how ot
 4. Repeat 10 times, average the median values to remove noise
 
 Raw data of the depth accuracy evaluation can be found on `Google Sheets here <https://docs.google.com/spreadsheets/d/1pG8wb8R004sHAuvhgR6GfD3y09QiVdntbGmob9s2Ab0/edit?usp=sharing>`__.
+
+Accuracy oscillation
+--------------------
+
+From the graphs it's clear that the depth accuracy oscillates with distances. This is due to the nature of disparity matching, and is a common thing in stereo depth cameras. Let's first look at ideal
+measured distance (for OAK-D-Lite) at different distances:
+
+
+.. chart:: charts/guide_ideal_distance.json
+
+    Theoretical depth accuracy
+
+You can see oscillation around the ground truth, easily seen for full-pixel depth. With Subpixel mode, you can achieve better accuracy, but the oscillation is still there. Let's also look at the same data, but for depth error in %:
+
+.. chart:: charts/guide_ideal_error.json
+
+    Theoretical depth error
+
+And if we look at the absolute error, we will see that it's similar to the chart above (:ref:`480P, 75mm baseline distance OAKs`):
+
+.. chart:: charts/guide_ideal_abs_error.json
+
+    Theoretical absolute depth error
+
