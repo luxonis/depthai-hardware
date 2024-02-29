@@ -191,6 +191,20 @@ Dimensions and Weight
 
 .. include:: /pages/includes/rvc2_operating_temp.rst
 
+Changing lenses
+***************
+
+As OAK-D-LR's camera modules use M12 lenses, users can replace them without any special tools. By default, lenses are glued to the camera module, but users can remove the glue and replace the M12 lens with a different one.
+`ArduCam's M12 lens kit <https://www.arducam.com/product/m12-mount-camera-lens-kit-arduino-raspberry-pi/>`__ can be quite useful to test a variety of lenses to choose from.
+
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/b4srULvw7UE" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+
+
 3D Models
 *********
 
