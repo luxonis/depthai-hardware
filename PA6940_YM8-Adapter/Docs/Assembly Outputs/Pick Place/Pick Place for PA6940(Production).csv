@@ -1,0 +1,20 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\PA6940\KingTop_Output_Files\Assembly Outputs\Pick Place\Pick Place for PA6940(Production).csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       04/07/23
+Time:       13:58
+Revision:   38ba9f5ee6082ede184f8723c69795bd74af7cce
+Variant:    Production
+Units used: mm
+
+"Designator","Center-X(mm)","Center-Y(mm)","Rotation","Layer","Manufacturer Part Number 1","Footprint","Footprint Description","Description","Comment"
+"J2","17.1000mm","8.5000mm","270","BottomLayer","1424236","1424236","","Circular Connector","1424236"
+"J3","7.7033mm","8.5000mm","270","TopLayer","08-3203-08-XXX","08-3203-08-XXX","","M8 Circular Connector","08-3203-08-xxx"
+"J4","26.6000mm","8.5000mm","90","TopLayer","1424236","1424236","","Circular Connector","1424236"
+"R1","30.9500mm","7.5750mm","180","BottomLayer","CRCW060310R0FKEA","RESC0603(1608)_N","Chip Resistor, Body 1.6x0.8mm, IPC Medium Density","RES SMD 10 OHM 1% 1/10W 0603","CRCW060310R0FKEA"
+"R3","30.1750mm","11.0000mm","180","BottomLayer","RC0603FR-07220RL","RESC0603(1608)_L","Chip Resistor, Body 1.6x0.8mm, IPC High Density","RES SMD 220 OHM 1% 0.1W 0603","RC0603FR-07220RL"
+"TP1","31.7750mm","9.0170mm","270","BottomLayer","TPAD6R","TP06R","Testpoint, round, d=0.6mm","0.6mm round","TPAD6R"
+"TP2","16.0000mm","4.2500mm","270","TopLayer","TPAD6R","TP06R","Testpoint, round, d=0.6mm","0.6mm round","TPAD6R"
