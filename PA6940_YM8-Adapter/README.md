@@ -8,7 +8,7 @@
 
 **Product is fully vetted and is series production.**
 
-**Product is available on Luxonis web shop, under the Early Access section ([Link](https://shop.luxonis.com/collections/early-access))**        
+**Product is available on Luxonis web shop, under the Early Access section ([Link](https://shop.luxonis.com/collections/early-access))**
 
 
 This repository contains open hardware designed by Luxonis, for a product that is meant to be used as an accessory providing an option to FrameSync multiple devices daisy chaining them into a single cluster. 
@@ -36,7 +36,7 @@ Dimensions are represented below:
 
 
 
-# Getting started  
+# Getting started
 
 Usage of the Y-adapter is fairly simple, you just need to connect M8 cables and setup daisy-chain configuration. Hardware frame syncing is achieved passing through the FSync signal from one to another camera. Master can either be the first device in the chain or it can be the external generator connected to the first INput of the adapters in the chain.
 
