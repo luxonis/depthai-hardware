@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PA6940.PcbDoc   04/07/2023  13:58:09
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII Plated RoundHoles File : PA6940-RoundHoles-Plated.TXT
+ASCII Plated SlotHoles File : PA6940-SlotHoles-Plated.TXT
+EIA File   : PA6940.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.2mm (8mil)                                              Round             29        PTH        89.99mm (3.54inch)
+T2      0.203mm (8mil)                                            Round             26        PTH        90.88mm (3.58inch)
+T3      0.203mm (8mil)                                            Round             20        PTH        51.39mm (2.02inch)
+T4      0.6mm (24mil)                                             Slot              2         PTH        30.03mm (1.18inch)
+T5      0.8mm (31mil)                                             Round             8         PTH        11.93mm (0.47inch)
+T6      1mm (39mil)                                               Round             16        PTH        40.48mm (1.59inch)
+T7      1mm (39mil)                                               Slot              4         PTH        78.71mm (3.10inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              105
+
+Total Processing Time (hh:mm:ss) : 00:00:00

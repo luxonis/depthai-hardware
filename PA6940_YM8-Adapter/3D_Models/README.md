@@ -1,0 +1,1 @@
+Moved to https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-Y-Adapter/DM6010.STEP
