@@ -1,62 +1,52 @@
-# Y-adapter
+# Y-FSync adapter
 
-[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/DM6010.html)
+[Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/FSYNC_Yadapter/)
 
-![](https://docs.luxonis.com/projects/hardware/en/latest/_images/Y-adapter_front.png)
+![](Images/YM8_adapter.png)
 
 # Project Stage
 
 **Product is fully vetted and is series production.**
 
-**It will be soon available on Luxonis web shop, for now it is available only as a Kickstarter add-on, as it was introduced because of OAK-D Lite existence.**        
+**Product is available on Luxonis web shop, under the Early Access section ([Link](https://shop.luxonis.com/collections/early-access))**        
 
 
-This repository contains open hardware designed by Luxonis, for a product that is meant to be used as an accessory providing an option to supply the  OAK products with an external USB wall charger. 
+This repository contains open hardware designed by Luxonis, for a product that is meant to be used as an accessory providing an option to FrameSync multiple devices daisy chaining them into a single cluster. 
 
-This comes handy especially when any of the OAK products which only have a single USB port meant for both the data and power transfer. For some hosts that could be a problem at least with the higher end products which require more power for their operation (such as OAK-D-Pro), but it might be needed even with OAK-D Lite when a host is Raspberry Pi or if more than one OAK-D device is connected to a single host with limited power providing abilities.
 
-# Repository structure:
+
+Repository structure:
+
 * `PCB` contains the packaged Altium project files
 * `Docs` contains project output files
 * `Images` contains graphics for readme and reference
 * `3D Models` contains generated 3D models of the board
 # Key features
-* USB 3.1 Gen 1 Type-C SS data input 
-* USB VBUS power input capable of carrying 15W 
-* USB 3.1 Gen 1 Type-C output (data + power)
-* Design files produced with Altium Designer 22
+* M8 male device side output ((Power + FSync + GPIOs + USB) passthrough)
+* M8 female daisy-chain input ((Power + FSync + GPIOs + USB) passthrough)
+* M8 male daisy-chain output (FSync passthrough)
 
 # Board layout & dimensions
 
-Y-adapter was made with intention that the overall enclosed size would be as minimal as possible. 
+Y-FSync adapter was made with intention that the overall enclosed size would be as minimal as possible. 
 
 Dimensions are represented below:
 
-![](https://docs.luxonis.com/projects/hardware/en/latest/_images/y-adapter-dimensions.png)
-
-## Layout OAK-FFC-3P-OG (BW1098FFC/DM1098FFC) vs DM1098EMB:
-
- 
-
-Below is picture of the PCBA so everyone can see what is hidden inside the minimal enclosure. It is nothing special, but the USB-C plug and two USB-C receptacles, which are connected with the data and power path. Power path is controlled with the USB data cable inserted into the related receptacle so the power is delivered to device only when both cables (power and data) are connected.    
-
-![](Images/Y-adapter_PCBA.jpg)
+![](Images/YM8-adapter-drawing.png)
 
 
-
-For detailed electrical design and mechanical properties please take a look under project folders.
-
-![](Images/Y-adapter_packed.png)
 
 # Getting started  
 
-Usage of the Y-adapter is fairly simple, you just need to connect USB3.0 Type-C data cable to the data input and connect it to host. USB wall charger should be connected with Type-C cable to the power input of the Y-adapter and then you can connect the Y-adapter to OAK USB device which should power up and host should enumerate it as USB3.0 SS device.
+Usage of the Y-adapter is fairly simple, you just need to connect M8 cables and setup daisy-chain configuration. Hardware frame syncing is achieved passing through the FSync signal from one to another camera. Master can either be the first device in the chain or it can be the external generator connected to the first INput of the adapters in the chain.
 
-The sequence of connecting power/data/Y-adapter can be randomly chosen and does not affect the functionality of the adapter nor the OAK USB device.
+Basic wiring is showcased on the below diagram:
+
+![](Images/YM8-adapter-wiring.png)
 
 # Revision info
 
-These files represent the R2M2E2 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R1M0E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 
 
