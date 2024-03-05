@@ -43,9 +43,9 @@ You can set IR laser dot projector and illumination LED via the API as below. **
     device.setIrLaserDotProjectorBrightness(100) # in mA, 0..1200
     device.setIrFloodLightBrightness(0) # in mA, 0..1500
 
-You can set these two parameters in **DepthAI Demo** in the *Depth* tab:
+You can set these two parameters in `DepthAI Viewer <https://github.com/luxonis/depthai-viewer#depthai-viewer-the-visualization-tool-for-depthai>`__ in the *Depth* drop-down menu:
 
-.. thumbnail:: /_static/images/guides/pro-conf.png
+.. thumbnail:: /_static/images/guides/viewer-dot-projector.png
 
 Projector specifications
 ************************
