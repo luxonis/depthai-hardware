@@ -109,7 +109,7 @@ Click on the image to view a more detailed evaluation of FPS for common models.
 Power consumption
 *****************
 
-The RVC2 itself has a maximum power consumption of about 4.5W, which is mainly consumed by the SoC, Movidius Myriad X, that
+The RVC2 itself has a maximum power consumption of about 4.5W, which is mainly consumed by the SoC, Movidius™ Myriad X, that
 is integrated inside the RVC2.
 
 Hardware blocks and accelerators

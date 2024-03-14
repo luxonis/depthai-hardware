@@ -23,7 +23,7 @@ State of the RVC3
 First and most importantly, we want to be clear that Luxonis is 100% going to continue supporting the RVC3 architecture including for a number of standard and customer-specific devices that it is being used for.
 RVC3 unlocks a number of improved capabilities over RVC2 and we will be supporting RVC3 for years to come to help enable those capabilities for our customers.
 
-However, the RVC3 does have some limitations. It's built on the Movidius Keembay, which Intel has deprioritized. The primary limitation is in AI performance. Despite having higher TOPS, it lacks support for some neural
+However, the RVC3 does have some limitations. It's built on the Movidius™ Keembay, which Intel has deprioritized. The primary limitation is in AI performance. Despite having higher TOPS, it lacks support for some neural
 network layers/operations, and some NN operations/layers are not optimized for the AI subsystem.
 
 This was not the case for its predecessor (:ref:`RVC2 <RVC2>`). Intel released the `Neural Compute Stick 2 <https://www.intel.com/content/www/us/en/developer/articles/tool/neural-compute-stick.html>`__ (NCS2) based on the
@@ -164,7 +164,7 @@ DOL HDR stands for digital-overlap HDR. Comparison between the modes can be seen
 Power consumption
 *****************
 
-The RVC3 itself has a maximum power consumption of about 8W, which is mainly consumed by the SoC, Movidius Keem Bay, that
+The RVC3 itself has a maximum power consumption of about 8W, which is mainly consumed by the SoC, Movidius™ Keem Bay, that
 is integrated inside the RVC3.
 
 .. include::  /pages/includes/footer-short.rst

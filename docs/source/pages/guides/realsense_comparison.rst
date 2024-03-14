@@ -1,34 +1,25 @@
-RealSense comparison
-====================
+RealSense™ comparison
+=====================
 
-**TL;DR:** Compared to RealSense stereo cameras, the DepthAI platform adds a **ton of on-device features** (custom AI modes, tracking, scripting,
+**TL;DR:** Compared to RealSense™ stereo cameras, the DepthAI platform adds a **ton of on-device features** (custom AI modes, tracking, scripting,
 encoding etc.) to OAK cameras and can be used in **embedded applications** (:ref:`Embedded use-case`).
-**RealSense is also winding down** and cameras are **out of stock**, more information below.
-
-RealSense availability and EOL
-##############################
-
-In August of 2021, Intel announced it is winding down their RealSense Camera Business (`CRN <https://www.crn.com/news/components-peripherals/intel-says-it-s-winding-down-realsense-camera-business>`__, `The Verge <https://www.theverge.com/2021/8/17/22629528/intel-realsense-3d-camera-tech-wind-down-business-product-demos>`__).
-Since then, RealSense cameras are also out of stock almost everywhere. In contrast, all OAK cameras are in stock and we never plan to EOL
-any of our devices, more :ref:`info here <device_availability_and_eol>`.
-
 
 Depth comparison
 ################
 
 We haven't done any (quantitative) tests ourselves, but a third party (a customer) sent us their OAK evaluation results,
-comparing :ref:`OAK-D Pro` with RealSense D435i.
+comparing :ref:`OAK-D Pro` with RealSense™ D435i.
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184259447-8984e083-05fe-4130-86ef-bfa5ec8bf112.png
-  
+
   Laser dot projector disabled (passive stereo)
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184259825-e19f0631-4325-424a-8d39-2060923b31fe.png
-  
+
   Laser dot projector enabled (active stereo)
 
 .. figure:: https://user-images.githubusercontent.com/18037362/184262380-9ad26b2f-0b31-439d-b887-5c89a2ad67bb.png
-  
+
   Target (color image). Table and wall are featureless surfaces.
 
 Custom stereo depth perception
@@ -418,7 +409,7 @@ Camera specification
 Embedded use-case
 #################
 
-Unlike RealSense, our platform supports booting from flash (`standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__)
+Unlike RealSense™, our platform supports booting from flash (`standalone mode <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__)
 and features a 2-way SPI communication (`SPIOut <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_out/>`__, `SPIIn <https://docs.luxonis.com/projects/api/en/latest/components/nodes/spi_in/>`__ nodes).
 Standalone/on-the-edge mode means that you can flash your application to the device, which means that
 you don't need to have the device connected to a host (RPi/PC/laptop...), more `information here <https://docs.luxonis.com/projects/api/en/latest/tutorials/standalone_mode/>`__.
