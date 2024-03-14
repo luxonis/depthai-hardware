@@ -417,4 +417,8 @@ you don't need to have the device connected to a host (RPi/PC/laptop...), more `
 This allows users to build small, low-powered, embedded devices and :ref:`integrate OAK SoM <Integrating DepthAI into products>` to upgrade
 their products with the power of Spatial AI.
 
+------------
+
+*Intel, Intel RealSense and Intel Movidius Myriad are trademarks of Intel Corporation or its subsidiaries.*
+
 .. include::  /pages/includes/footer-short.rst
