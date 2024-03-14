@@ -3,22 +3,13 @@
 Powering PoE devices
 ====================
 
-We currently have these Power-over-Ethernet (PoE) cameras:
- - :ref:`OAK-D-PoE <sj2088poe>`
- - :ref:`OAK-1-PoE <sj2096>`
- - :ref:`OAK-D S2 PoE <NG9097s2>`
- - :ref:`OAK-D W PoE <NG9097w>`
- - :ref:`OAK-D Pro PoE <NG9097pro>` and
- - :ref:`OAK-D Pro W PoE <NG9097pro>`
-
-If you are new to Power over Ethernet (POE), welcome; PoE is extremely convenient. PoE allows a single Cat5e (or higher) Ethernet cable to be used to 
-both power a device and give it connectivity at 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
+PoE allows a single Cat5e (or higher) Ethernet cable to be used to both power a device and give it connectivity at up to 1,000 Mbps (1 Gbps) full-duplex at up to 100 meters (328 feet).
 
 In this tutorial, we will go through the suggested hardware to use with Luxonis PoE devices.
 
 The recommended way to use PoE devices (such as Luxonis' OAK PoE models) is with a PoE Ethernet Switch. Alternatively, if you already have a non-PoE 
 switch that you have installed, you can use a PoE injector in conjunction with this switch. But using a PoE Ethernet Switch is advised, as these give 
-you better control, the installation is cleaner, and insights (like power use) and control (like remote device power-down) are possible with a PoE Switch.
+you better control, the installation is cleaner, and insights (like power use) and control (like remote device power-down) are typically possible with a PoE Switch.
 
 Our OAK PoE cameras support both **PoE Mode A** and **PoE Mode B** (more information `here <https://planetechusa.com/power-over-ethernet-poe-demystifying-mode-a-and-mode-b/>`__).
 
@@ -26,7 +17,7 @@ General specifications
 **********************
 
 - PoE Standard: **802.3af**
-- Data transfer rate: **1 Gbps (1000BASE-T)**
+- Max data transfer rate: **1 Gbps (1000BASE-T)**
 - Device power consumption: **average ~4W**, **max 6.25W**
 
 PoE Switch or Injector
@@ -63,6 +54,10 @@ injector, which would be used per OAK PoE device.
 
 If an outdoor rated PoE switch is needed, one option is the `EP-S16 <https://store.ui.com/collections/operator-edgemax-control-points/products/edgepoint-s16>`__.
 
+Here's an example of connecting multiple OAK PoE cameras to the UniFi switch:
+
+.. thumbnail:: /_static/images/poe/poe-switch.jpeg
+
 Powering from a battery
 ***********************
 
@@ -77,9 +72,19 @@ The following PoE injectors were tested on a 12V input:
 - Tycon Power TP-DC-1248GDX2-HP: Input voltage: 10 ~ 15V. Only starts powering its own LED at 15V, so it is unreliable, even though the IEEE standard is 802.3af.
 - PoE Power bank `IDEA4TEC <https://linitx.com/category/poe-powerbank-/1142/149,1142>`__ was also reported to work with our OAK cameras.
 
-Here's an example of connecting multiple OAK PoE cameras to the UniFi switch:
+Passive PoE
+^^^^^^^^^^^
 
-.. thumbnail:: /_static/images/poe/poe-switch.jpeg
+While active PoE adheres to standardized power levels and communications (eg. 802.3af), passive PoE does not. This makes them cheaper and viable option if you know what you are doing, as 
+it can easily lead to overvoltage and damage the device.
+
+Our cameras require 48V, but from our testing they power up even at 40V. Note that most of these passive PoE injectors are 10Mbps (some are 100Mbps), which is quite slow, but can be suitable
+for certain applications, like only streaming metadata (NN results), low-resolution encoded stream, or high-resolution image every few seconds. We have used `this PoE injector <https://www.aliexpress.com/item/1005004370783834.html?spm=a2g0o.order_detail.order_detail_item.3.3348f19cFNiXsS>`__ ($2 from Aliexpress, 10Mbps)
+
+.. thumbnail:: /_static/images/guides/passive_poe.webp
+
+From the image you can see that the power LEDs are on, which means that the camera is getting power. We are supplying 48V and it's consuming about 0.1A, so about 5W, which is as expected. It's (slowly) streaming
+encoded video stream to the computer.
 
 Ethernet Cables and weather resistance
 **************************************
