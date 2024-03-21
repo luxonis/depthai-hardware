@@ -100,7 +100,7 @@ Raspberry Pi cameras modules
 ****************************
 
 Raspberry Pi sells a `number of camera modules <https://www.raspberrypi.com/documentation/accessories/camera.html>`__ that are compatible with the OAK FFC baseboards.
-RPi cameras can be connected to the FFC baseboard via the `UC-244 Adapter <https://shop.luxonis.com/products/oak-ffc-uc244-2>`__.
+RPi cameras can be connected to the FFC baseboard via the `RPi Camera Adapter <https://shop.luxonis.com/products/oak-ffc-2rpi-tbd>`__.
 
 .. list-table::
    :header-rows: 1
