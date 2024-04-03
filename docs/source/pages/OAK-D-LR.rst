@@ -145,6 +145,13 @@ and interpolated those values with our previous real-world tests when enabling s
 Maximum depth was calculated by using the large (15cm) baseline, while MinZ was calculated by using the small (5cm) baseline of the OAK-D-LR. You can further decrease MinZ by lowering the resolution,
 or using disparity shift (`docs here <https://docs.luxonis.com/projects/api/en/latest/tutorials/configuring-stereo-depth/#how-to-get-lower-minz>`__). MinZ values are already using Extended Disparity Mode.
 
+Lens clearance
+^^^^^^^^^^^^^^
+
+There is 11.6mm of clearance between the M12 sensor housing and the cover lens. If you are using longer lenses (longer focal length which means narrower FOV), you might not be able to mount back the front cover.
+
+.. thumbnail:: /_static/images/OAK-D-LR/oak-d-lr-lens-clearance.png
+
 .. include:: /pages/rvc/includes/rvc2_inside.rst
 
 Dimensions and Weight
