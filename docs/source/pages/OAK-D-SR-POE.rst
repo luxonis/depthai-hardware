@@ -12,7 +12,7 @@ Overview
 ********
 
 The **OAK-D Short Range PoE with ToF** (OAK-D SR PoE) was designed to provide an accurate short to medium-range depth perception (ideally up to 3m). It's ideal for applications like bin
-picking, for pick and place machines, quality control/automated manufacturing, robotics arms, and more. It features a robust, IP67-rated enclosure.
+picking, for pick and place machines, quality control/automated manufacturing, robotics arms, and more. It features a robust, IP66-rated enclosure.
 
 Besides the stereo camera pair (2x :ref:`OV9782`, 2cm baseline distance) it features **ToF sensor**
 which has an ideal range of 20cm to 5m, and **depth accuracy of <1% indoors**, <2% outdoors.
@@ -23,7 +23,11 @@ design's scale, making it easier to mount or fit in various robotic processes.
 Hardware specifications
 ***********************
 
-.. include:: /pages/includes/poe_connectivity-s2.rst
+This OAK camera uses **Power-over-Ethernet** (PoE) for communication and power.
+It offers full 802.3af and Class 3 PoE compliance with 1000BASE-T speeds (1 Gbps).
+A :ref:`PoE injector/switch <Powering PoE devices>` is required to power the device.
+It also features an :ref:`IP66-rated enclosure <IP67 rated PoE enclosures>`.
+
 
 Camera module specifications
 ****************************
