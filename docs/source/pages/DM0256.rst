@@ -15,6 +15,12 @@ to carry 5V power, 4-lane MIPI, I2C, and other control signals between the this 
 
 .. include:: /pages/includes/ffc-baseboard-compatible.rst
 
+Multiple camera modules
+***********************
+
+When using OAK-FFC-3P/4P/4P-PoE, user can't have OAK-FFC ToF 33D camera modules connected both on ports CAM_B and CAM_C. This is because CAM_B and CAM_C have shared I2C bus, so when FW fetches calibration data both modules
+would respond at the same time (and provide garbage calibration data to the FW). So on OAK-FFC-4P, only 3 OAK-FFC-ToF-33D camera modules can be connected (CAM_A, CAM_B, CAM_D).
+
 Camera module specifications
 ****************************
 
