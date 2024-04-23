@@ -16,7 +16,7 @@ To **stay up to date, consider subscribing** to the `RVC4 newsletter <https://sh
 RVC4 Timeline
 *************
 
-RVC4 is currently in the development phase. Our current plan is to release RVC4-based devices in Q2 2024.
+RVC4 is currently in the development phase. Our current plan is to release RVC4-based devices in October 2024.
 
 RVC4 Computer vision engine
 ***************************
