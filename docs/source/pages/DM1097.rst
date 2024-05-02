@@ -70,7 +70,7 @@ Alternatively, you can the steps below (`source <https://stackoverflow.com/quest
 
 After rebooting, the Tenda USB dongle should be operational.
 
-
+Note that the additional CSI connector on the OAK-D-CM4 doesn't work by default.
 
 3D Models
 *********
