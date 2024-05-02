@@ -36,9 +36,9 @@ Camera module specifications
    * - Resolution
      - VGA (640x480)
    * - Range / Focus
-     - 20cm - 5m
+     - 20cm - 6m
    * - Max Framerate
-     - 30 FPS (VGA)
+     - 45 FPS (VGA)
    * - Pixel size
      - 7µm x 7µm
    * - Lens size
