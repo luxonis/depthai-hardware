@@ -1,28 +1,25 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BW2098POE.PcbDoc   21/04/2021  12:05:28
+NCDrill File Report For: BW2098POE.PcbDoc   22/05/2024  18:16:27
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
 ASCII Plated RoundHoles File : BW2098POE-RoundHoles-Plated.TXT
-ASCII Non-Plated RoundHoles File : BW2098POE-RoundHoles-NonPlated.TXT
 ASCII Plated SlotHoles File : BW2098POE-SlotHoles-Plated.TXT
 EIA File   : BW2098POE.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.203mm (8mil)                                            Round             104       PTH        0.00mm (0.00inch)
-T2      0.254mm (10mil)                                           Round             434       PTH        0.00mm (0.00inch)
-T3      0.6mm (24mil)                                             Slot              4         PTH        0.00mm (0.00inch)
-T4      0.8mm (31mil)                                             Round             4         PTH        0.00mm (0.00inch)
-T5      0.9mm (35mil)                                             Round             14        PTH        0.00mm (0.00inch)
-T6      1.02mm (40mil)                                            Round             7         PTH        0.00mm (0.00inch)
-T7      1.05mm (41mil)                                            Slot              3         PTH        0.00mm (0.00inch)
-T8      1.7mm (67mil)                                             Round             2         PTH        0.00mm (0.00inch)
-T9      2.75mm (108mil)                                           Round             4         PTH        0.00mm (0.00inch)
-T10     3mm (118mil)                                              Round             2         PTH        0.00mm (0.00inch)
-T11     3.2mm (126mil)          +/-0mm (0mil)                     Round             2         PTH        0.00mm (0.00inch)
-T12     1.8mm (71mil)                                             Round             1         NPTH       0.00mm (0.00inch)
+T1      0.203mm (8mil)                                            Round             145       PTH        467.41mm (18.40inch)
+T2      0.254mm (10mil)                                           Round             416       PTH        1228.28mm (48.36inch)
+T3      0.6mm (24mil)                                             Slot              4         PTH        42.05mm (1.66inch)
+T4      0.8mm (31mil)                                             Round             4         PTH        28.25mm (1.11inch)
+T5      0.9mm (35mil)                                             Round             14        PTH        37.71mm (1.48inch)
+T6      1.02mm (40mil)                                            Round             4         PTH        13.26mm (0.52inch)
+T7      1.7mm (67mil)                                             Round             2         PTH        16.13mm (0.63inch)
+T8      2.75mm (108mil)                                           Round             4         PTH        236.21mm (9.30inch)
+T9      3mm (118mil)                                              Round             2         PTH        34.22mm (1.35inch)
+T10     3.2mm (126mil)          +/-0mm (0mil)                     Round             2         PTH        11.43mm (0.45inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              581
+Totals                                                                              597
 
-Total Processing Time (hh:mm:ss) : 00:00:01
+Total Processing Time (hh:mm:ss) : 00:00:00
