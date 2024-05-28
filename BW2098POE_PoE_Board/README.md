@@ -44,8 +44,8 @@ The reset button resets the Luxonis DepthAI OAK-SOM-PRO only.
 
 The 5V LED indicates 5V power is present on the BW2098POE. The PG LED indicates "power good" from the DepthAI OAK-SOM-PRO. The "RUN" LED indicates that the OAK SoM is not in reset.
 
-**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 57V may exist. Always use electronics handling best practices.** 
+**Caution should be taken when handling any PoE circuit board. Do not directly touch the circuitry as potentials up to and exceeding 57V may exist. Always use electronics handling best practices.**
 
 
 # Revision info
-The desigs files represent the R3M1E3 revision of this project, though some photos may be of ealier revisions. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+The desigs files represent the **R4** revision of this project, though some photos may be of an earlier revisions. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
