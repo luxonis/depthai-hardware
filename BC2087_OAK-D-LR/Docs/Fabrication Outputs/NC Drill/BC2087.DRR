@@ -1,5 +1,5 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: BC2087.PcbDoc   14/02/2023  17:00:45
+NCDrill File Report For: BC2087.PcbDoc   08/06/2023  11:33:30
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Copper to Bottom Copper
@@ -10,15 +10,15 @@ EIA File   : BC2087.DRL
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.202mm (8mil)                                            Round             36        PTH        233.76mm (9.20inch)
+T1      0.202mm (8mil)                                            Round             32        PTH        232.32mm (9.15inch)
 T2      0.203mm (8mil)                                            Round             201       PTH        633.55mm (24.94inch)
-T3      0.203mm (8mil)                                            Round             330       PTH        1091.81mm (42.98inch)
-T4      0.254mm (10mil)                                           Round             299       PTH        915.74mm (36.05inch)
+T3      0.203mm (8mil)                                            Round             349       PTH        1143.31mm (45.01inch)
+T4      0.254mm (10mil)                                           Round             311       PTH        1001.17mm (39.42inch)
 T5      0.3mm (12mil)                                             Round             1         PTH        0.00mm (0.00inch)
 T6      0.4mm (16mil)                                             Round             14        PTH        12.01mm (0.47inch)
 T7      0.6mm (24mil)                                             Slot              4         PTH        45.46mm (1.79inch)
 T8      0.8mm (31mil)                                             Round             4         PTH        45.97mm (1.81inch)
-T9      0.9mm (35mil)                                             Round             14        PTH        48.80mm (1.92inch)
+T9      0.9mm (35mil)                                             Round             14        PTH        43.72mm (1.72inch)
 T10     1.02mm (40mil)                                            Round             4         PTH        13.26mm (0.52inch)
 T11     1.6mm (63mil)                                             Round             1         PTH        0.00mm (0.00inch)
 T12     1.7mm (67mil)                                             Round             2         PTH        16.13mm (0.63inch)
@@ -29,6 +29,6 @@ T16     3mm (118mil)                                              Round         
 T17     3.2mm (126mil)          +/-0mm (0mil)                     Round             2         PTH        11.43mm (0.45inch)
 T18     1.6mm (63mil)                                             Round             1         NPTH       0.00mm (0.00inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              928
+Totals                                                                              955
 
 Total Processing Time (hh:mm:ss) : 00:00:01

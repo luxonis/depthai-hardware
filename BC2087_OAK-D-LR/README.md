@@ -2,13 +2,13 @@
 
 [Documentation here](https://docs.luxonis.com/projects/hardware/en/latest/pages/OAK-D-LR.html)
 
-![](https://docs.luxonis.com/projects/hardware/en/latest/_images/oak-d-lr-bottom)
+![](https://docs-old.luxonis.com/projects/hardware/en/latest/_images/oak-d-lr-bottom1.jpg)
 
 # Project Stage
 
 This repository contains hardware designed by Luxonis. This camera is perfect for applications that require close-in depth and detail, such as quality control or automated manufacturing, and will prove especially valuable for mounting on robots or picking arms. The **OAK-D-LR** leverages our OAK-SoM-Pro to make a compact overall design. The use of the SoM reduces the overall design's scale, making it easier to mount or fit in various robotic processes. The design is also open-sourced, allowing for any necessary modifications.
 
-You can preorder OAK-D-LR on Luxonis [Early access store](https://shop.luxonis.com/collections/early-access/products/oak-d-lr-pre-order).
+You can buy OAK-D-LR on Luxonis store [OAK Cameras](https://shop.luxonis.com/products/oak-d-lr).
 
 # Repository structure:
 * `PCB` contains the packaged Altium project files
@@ -17,6 +17,7 @@ You can preorder OAK-D-LR on Luxonis [Early access store](https://shop.luxonis.c
 * `3D Models` contains generated 3D models of the board
 
 <!-- # Key features
+
 * USB-C connector for both power and communication, supporting USB2 and USB3 protocols (5Gbps / 10Gbps)
 * BMI270 IMU, 6-axis sensor combining accelerometer and gyroscope
 * Primarily used for short range functionalities 
@@ -25,11 +26,11 @@ You can preorder OAK-D-LR on Luxonis [Early access store](https://shop.luxonis.c
 * Stereo depth perception at 120 FPS with filtering
 * Object tracking: 2D and 3D tracking
 
-* Design files produced with Altium Designer 22 -->
+* Design files produced with Altium Designer 24 -->
 
 # Revision info
 
-These files represent the R1M1E1 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
+These files represent the R3M1E3 revision of this project. Please refer to schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 
 
