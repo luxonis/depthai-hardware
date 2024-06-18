@@ -5,5 +5,5 @@ sphinx-rtd-theme==0.5.2
 rtd-redirects==1.1.0
 sphinxcontrib-spelling
 sphinxcontrib-images
-urllib3==1.26.15
+urllib3==1.26.19
 sphinx-charts==0.2.1
