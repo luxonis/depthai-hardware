@@ -1,4 +1,4 @@
-﻿[Design]
+[Design]
 Version=1.0
 HierarchyMode=4
 ChannelRoomNamingStyle=0
@@ -35,10 +35,6 @@ IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs for Documents
 LogFolderPath=
-ManagedProjectGUID=3B06F240-1BE4-4299-A9B2-A59B8CC33A7F
-VaultGUID=98070AC9-F9F1-46EE-99F0-76826EC5782B
-ReleaseVaultName=Luxonis LLC
-ItemGUID=3B06F240-1BE4-4299-A9B2-A59B8CC33A7F
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -46,7 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=Production_BNO086_RVC3
+CurrentVariant=Production_BMO085
 
 [Preferences]
 PrefsVaultGUID=
@@ -513,10 +509,10 @@ DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=FEBD8C3C-9C4B-4597-8C96-380D29DE354C
-Description=Production_BMI
+Description=Production
 AllowFabrication=0
 ParameterCount=0
-VariationCount=27
+VariationCount=30
 Variation1=Designator=RZ29|UniqueId=\XRZDYHUA\CNXAMKXH|Kind=1|AlternatePart= 
 Variation2=Designator=RZ28|UniqueId=\XRZDYHUA\HCHEDILE|Kind=1|AlternatePart= 
 Variation3=Designator=J4|UniqueId=\FQJLIQCB\HSAGQISN|Kind=1|AlternatePart= 
@@ -533,17 +529,20 @@ Variation13=Designator=R38|UniqueId=\ZFWNWYTR\JHYVOEUD|Kind=1|AlternatePart=
 Variation14=Designator=R41|UniqueId=\RGWJEHDA\ZKGQTRWK|Kind=1|AlternatePart= 
 Variation15=Designator=R43|UniqueId=\FQJLIQCB\IXEXTDSE|Kind=1|AlternatePart= 
 Variation16=Designator=R11|UniqueId=\UYMGGPLT\IHNEVZRW|Kind=1|AlternatePart= 
-Variation17=Designator=U12|UniqueId=\VXWAMDTX\LXGUOFWC|Kind=1|AlternatePart= 
-Variation18=Designator=R5|UniqueId=\VXWAMDTX\HQBCCAQZ|Kind=1|AlternatePart= 
-Variation19=Designator=R1|UniqueId=\VXWAMDTX\GLIFCDGJ|Kind=1|AlternatePart= 
-Variation20=Designator=C46|UniqueId=\VXWAMDTX\JGRCSMLZ|Kind=1|AlternatePart= 
-Variation21=Designator=C44|UniqueId=\VXWAMDTX\LHHLGOVG|Kind=1|AlternatePart= 
-Variation22=Designator=C42|UniqueId=\VXWAMDTX\MYRIPQZW|Kind=1|AlternatePart= 
-Variation23=Designator=C45|UniqueId=\VXWAMDTX\DPLAOGOB|Kind=1|AlternatePart= 
-Variation24=Designator=C43|UniqueId=\VXWAMDTX\HCSKWZNJ|Kind=1|AlternatePart= 
-Variation25=Designator=Y1|UniqueId=\VXWAMDTX\TLQRUXQJ|Kind=1|AlternatePart= 
-Variation26=Designator=C48|UniqueId=\VXWAMDTX\UJKERFCN|Kind=1|AlternatePart= 
-Variation27=Designator=C47|UniqueId=\VXWAMDTX\VPRWIUXH|Kind=1|AlternatePart= 
+Variation17=Designator=C18|UniqueId=\VXWAMDTX\KLKHQIZE|Kind=0|AlternatePart= 
+Variation18=Designator=C19|UniqueId=\VXWAMDTX\OLEIPNHV|Kind=0|AlternatePart= 
+Variation19=Designator=U7|UniqueId=\VXWAMDTX\SUHYAIIQ|Kind=0|AlternatePart= 
+Variation20=Designator=U12|UniqueId=\VXWAMDTX\LXGUOFWC|Kind=1|AlternatePart= 
+Variation21=Designator=R5|UniqueId=\VXWAMDTX\HQBCCAQZ|Kind=1|AlternatePart= 
+Variation22=Designator=R1|UniqueId=\VXWAMDTX\GLIFCDGJ|Kind=1|AlternatePart= 
+Variation23=Designator=C46|UniqueId=\VXWAMDTX\JGRCSMLZ|Kind=1|AlternatePart= 
+Variation24=Designator=C44|UniqueId=\VXWAMDTX\LHHLGOVG|Kind=1|AlternatePart= 
+Variation25=Designator=C42|UniqueId=\VXWAMDTX\MYRIPQZW|Kind=1|AlternatePart= 
+Variation26=Designator=C45|UniqueId=\VXWAMDTX\DPLAOGOB|Kind=1|AlternatePart= 
+Variation27=Designator=C43|UniqueId=\VXWAMDTX\HCSKWZNJ|Kind=1|AlternatePart= 
+Variation28=Designator=Y1|UniqueId=\VXWAMDTX\TLQRUXQJ|Kind=1|AlternatePart= 
+Variation29=Designator=C48|UniqueId=\VXWAMDTX\UJKERFCN|Kind=1|AlternatePart= 
+Variation30=Designator=C47|UniqueId=\VXWAMDTX\VPRWIUXH|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -571,76 +570,6 @@ Variation16=Designator=R11|UniqueId=\UYMGGPLT\IHNEVZRW|Kind=1|AlternatePart=
 Variation17=Designator=C18|UniqueId=\VXWAMDTX\KLKHQIZE|Kind=1|AlternatePart= 
 Variation18=Designator=C19|UniqueId=\VXWAMDTX\OLEIPNHV|Kind=1|AlternatePart= 
 Variation19=Designator=U7|UniqueId=\VXWAMDTX\SUHYAIIQ|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant3]
-UniqueID=99313E61-E51F-496D-B546-58F5C583B658
-Description=Production_BMI_RVC3
-AllowFabrication=0
-ParameterCount=0
-VariationCount=31
-Variation1=Designator=RZ29|UniqueId=\XRZDYHUA\CNXAMKXH|Kind=1|AlternatePart= 
-Variation2=Designator=RZ28|UniqueId=\XRZDYHUA\HCHEDILE|Kind=1|AlternatePart= 
-Variation3=Designator=J4|UniqueId=\FQJLIQCB\HSAGQISN|Kind=1|AlternatePart= 
-Variation4=Designator=J5|UniqueId=\FQJLIQCB\UAYURNPL|Kind=1|AlternatePart= 
-Variation5=Designator=R23|UniqueId=\RGWJEHDA\ITZOESRZ|Kind=1|AlternatePart= 
-Variation6=Designator=R22|UniqueId=\RGWJEHDA\HSXMLXVH|Kind=1|AlternatePart= 
-Variation7=Designator=R60|UniqueId=\RGWJEHDA\PADUJMPA|Kind=0|AlternatePart= 
-Variation8=Designator=R24|UniqueId=\RGWJEHDA\ZFWPXULA|Kind=0|AlternatePart= 
-Variation9=Designator=R9|UniqueId=\RGWJEHDA\JVGLEZNX|Kind=1|AlternatePart= 
-Variation10=Designator=R2|UniqueId=\RGWJEHDA\YZJRCGRV|Kind=1|AlternatePart= 
-Variation11=Designator=R37|UniqueId=\ZFWNWYTR\AYPBFZKV|Kind=1|AlternatePart= 
-Variation12=Designator=R34|UniqueId=\ZFWNWYTR\TJGOAUKU|Kind=1|AlternatePart= 
-Variation13=Designator=R38|UniqueId=\ZFWNWYTR\JHYVOEUD|Kind=1|AlternatePart= 
-Variation14=Designator=R41|UniqueId=\RGWJEHDA\ZKGQTRWK|Kind=0|AlternatePart= 
-Variation15=Designator=R43|UniqueId=\FQJLIQCB\IXEXTDSE|Kind=1|AlternatePart= 
-Variation16=Designator=R11|UniqueId=\UYMGGPLT\IHNEVZRW|Kind=1|AlternatePart= 
-Variation17=Designator=U12|UniqueId=\VXWAMDTX\LXGUOFWC|Kind=1|AlternatePart= 
-Variation18=Designator=R5|UniqueId=\VXWAMDTX\HQBCCAQZ|Kind=1|AlternatePart= 
-Variation19=Designator=R1|UniqueId=\VXWAMDTX\GLIFCDGJ|Kind=1|AlternatePart= 
-Variation20=Designator=C46|UniqueId=\VXWAMDTX\JGRCSMLZ|Kind=1|AlternatePart= 
-Variation21=Designator=C44|UniqueId=\VXWAMDTX\LHHLGOVG|Kind=1|AlternatePart= 
-Variation22=Designator=C42|UniqueId=\VXWAMDTX\MYRIPQZW|Kind=1|AlternatePart= 
-Variation23=Designator=C45|UniqueId=\VXWAMDTX\DPLAOGOB|Kind=1|AlternatePart= 
-Variation24=Designator=C43|UniqueId=\VXWAMDTX\HCSKWZNJ|Kind=1|AlternatePart= 
-Variation25=Designator=Y1|UniqueId=\VXWAMDTX\TLQRUXQJ|Kind=1|AlternatePart= 
-Variation26=Designator=C48|UniqueId=\VXWAMDTX\UJKERFCN|Kind=1|AlternatePart= 
-Variation27=Designator=C47|UniqueId=\VXWAMDTX\VPRWIUXH|Kind=1|AlternatePart= 
-Variation28=Designator=R21|UniqueId=\RGWJEHDA\JQRWWHHY|Kind=1|AlternatePart= 
-Variation29=Designator=R20|UniqueId=\RGWJEHDA\VALTKLRX|Kind=1|AlternatePart= 
-Variation30=Designator=R29|UniqueId=\RGWJEHDA\JMUQLWRO|Kind=1|AlternatePart= 
-Variation31=Designator=R28|UniqueId=\RGWJEHDA\WFEJYXMB|Kind=1|AlternatePart= 
-ParamVariationCount=0
-
-[ProjectVariant4]
-UniqueID=5E4262AE-2096-46C7-B624-695D87F2C6CE
-Description=Production_BNO086_RVC3
-AllowFabrication=0
-ParameterCount=0
-VariationCount=23
-Variation1=Designator=RZ29|UniqueId=\XRZDYHUA\CNXAMKXH|Kind=1|AlternatePart= 
-Variation2=Designator=RZ28|UniqueId=\XRZDYHUA\HCHEDILE|Kind=1|AlternatePart= 
-Variation3=Designator=J4|UniqueId=\FQJLIQCB\HSAGQISN|Kind=1|AlternatePart= 
-Variation4=Designator=J5|UniqueId=\FQJLIQCB\UAYURNPL|Kind=1|AlternatePart= 
-Variation5=Designator=R23|UniqueId=\RGWJEHDA\ITZOESRZ|Kind=1|AlternatePart= 
-Variation6=Designator=R22|UniqueId=\RGWJEHDA\HSXMLXVH|Kind=1|AlternatePart= 
-Variation7=Designator=R60|UniqueId=\RGWJEHDA\PADUJMPA|Kind=0|AlternatePart= 
-Variation8=Designator=R24|UniqueId=\RGWJEHDA\ZFWPXULA|Kind=0|AlternatePart= 
-Variation9=Designator=R9|UniqueId=\RGWJEHDA\JVGLEZNX|Kind=1|AlternatePart= 
-Variation10=Designator=R2|UniqueId=\RGWJEHDA\YZJRCGRV|Kind=1|AlternatePart= 
-Variation11=Designator=R37|UniqueId=\ZFWNWYTR\AYPBFZKV|Kind=1|AlternatePart= 
-Variation12=Designator=R34|UniqueId=\ZFWNWYTR\TJGOAUKU|Kind=1|AlternatePart= 
-Variation13=Designator=R38|UniqueId=\ZFWNWYTR\JHYVOEUD|Kind=1|AlternatePart= 
-Variation14=Designator=R41|UniqueId=\RGWJEHDA\ZKGQTRWK|Kind=0|AlternatePart= 
-Variation15=Designator=R43|UniqueId=\FQJLIQCB\IXEXTDSE|Kind=1|AlternatePart= 
-Variation16=Designator=R11|UniqueId=\UYMGGPLT\IHNEVZRW|Kind=1|AlternatePart= 
-Variation17=Designator=C18|UniqueId=\VXWAMDTX\KLKHQIZE|Kind=1|AlternatePart= 
-Variation18=Designator=C19|UniqueId=\VXWAMDTX\OLEIPNHV|Kind=1|AlternatePart= 
-Variation19=Designator=U7|UniqueId=\VXWAMDTX\SUHYAIIQ|Kind=1|AlternatePart= 
-Variation20=Designator=R29|UniqueId=\RGWJEHDA\JMUQLWRO|Kind=1|AlternatePart= 
-Variation21=Designator=R28|UniqueId=\RGWJEHDA\WFEJYXMB|Kind=1|AlternatePart= 
-Variation22=Designator=R20|UniqueId=\RGWJEHDA\VALTKLRX|Kind=1|AlternatePart= 
-Variation23=Designator=R21|UniqueId=\RGWJEHDA\JQRWWHHY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -944,6 +873,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -955,6 +894,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1041,12 +990,6 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=PCBDrawing
-OutputName14=Draftsman
-OutputDocumentPath14=
-OutputVariantName14=[No Variations]
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -1192,12 +1135,6 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Project History
-OutputName9=Project History
-OutputDocumentPath9=
-OutputVariantName9=[No Variations]
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1416,6 +1353,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs

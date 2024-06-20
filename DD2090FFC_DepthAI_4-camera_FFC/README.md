@@ -6,14 +6,6 @@ DD2090FFC + [DM0250TG](https://github.com/luxonis/depthai-hardware/tree/master/D
 
 ![](./Images/DD2090FFC_R0M0E0.jpg)
 
-# Project Stage 
-
-
-
-This design is WIP and will be updated when design is finished and sent out for prototyping.
-
-**FFC reference design DM1090FFC with support for 3 cameras is located [here](https://github.com/luxonis/depthai-hardware/tree/master/DM1090FFC_DepthAI_USB3) .**   
-
 
 
 # Overview
@@ -36,13 +28,17 @@ This repository contains open hardware designed by Luxonis, and meant to be used
 * Pads for OAK SoM 1.8V SPI
 * Pads for OAK SoM 1.8V Aux Signals (I2C, UART, GPIO)
 * PSRBS connector (5V, STROBE, RST, BOOT_SEL, AUX_GPIO, FSIN_4LANE)
-* Design files produced with Altium Designer 22
+* FFC connector for connecting [OAK-FFC IR](https://github.com/luxonis/depthai-hardware/tree/master/PA0960_OAK-FFC-IR-CBA)
+* DIP switch for choosing which camera controls [OAK-FFC IR](https://github.com/luxonis/depthai-hardware/tree/master/PA0960_OAK-FFC-IR-CBA)
+* Design files produced with Altium Designer 24
 
 # Board layout & dimensions
 
-![](Images/DD2090FFC_R1M1E1_TOP.jpg)
+![](Images/DD2090FFC_R7M1E7_TOP.png)
 
-![](Images/DD2090FFC_R1M1E1_BOTTOM_dimms.jpg)
+![](Images/DD2090FFC_R7M1E7_BOTTOM.png)
+
+
 
 # Getting started  
 
@@ -56,7 +52,7 @@ The 5V LED indicates 5V power is present on the DD2090FFC. The PG LED indicates 
 
 # Revision info
 
-These files represent the R2M1E2 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history. This design is a WIP and will be updated once received and fully vetted.
+These files represent the R7M1E7 revision of this project. Please refer to a schematic page, `Project_Information.SchDoc` for full details of revision history.
 
 # Camera Usage
 
