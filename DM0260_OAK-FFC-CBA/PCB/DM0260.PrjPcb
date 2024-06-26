@@ -1,4 +1,4 @@
-[Design]
+﻿[Design]
 Version=1.0
 HierarchyMode=0
 ChannelRoomNamingStyle=0
@@ -35,6 +35,10 @@ IsProjectConflictPreventionWarningsEnabled=1
 IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs for BG0250TG
 LogFolderPath=
+ManagedProjectGUID=7AE5B11A-ED73-40DC-B783-2286F408F954
+VaultGUID=98070AC9-F9F1-46EE-99F0-76826EC5782B
+ReleaseVaultName=Luxonis LLC
+ItemGUID=7AE5B11A-ED73-40DC-B783-2286F408F954
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
@@ -42,7 +46,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=Production_1V2
+CurrentVariant=Production_1V0
 
 [Preferences]
 PrefsVaultGUID=
@@ -189,8 +193,15 @@ UniqueID=00A0E5E4-CEF0-4597-B49B-460B649C679E
 Description=Production_1V0
 AllowFabrication=1
 ParameterCount=0
-VariationCount=1
+VariationCount=8
 Variation1=Designator=R5|UniqueId=\DIGPAGJV|Kind=1|AlternatePart= 
+Variation2=Designator=R?|UniqueId=\HJBLFZZG|Kind=0|AlternatePart= 
+Variation3=Designator=R?|UniqueId=\MIPOCIVZ|Kind=0|AlternatePart= 
+Variation4=Designator=R?|UniqueId=\QCFPZIRK|Kind=0|AlternatePart= 
+Variation5=Designator=U4|UniqueId=\YCYKXIDQ|Kind=0|AlternatePart= 
+Variation6=Designator=R9|UniqueId=\IFUCGAWV|Kind=1|AlternatePart= 
+Variation7=Designator=R14|UniqueId=\YEVLEDUY|Kind=1|AlternatePart= 
+Variation8=Designator=R15|UniqueId=\HUPGHRHP|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -198,19 +209,26 @@ UniqueID=B1A28223-F9AC-439C-ACD8-C1B9CFDE6EE3
 Description=Production_1V2
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=4
 Variation1=Designator=R4|UniqueId=\SQKJLWNS|Kind=1|AlternatePart= 
+Variation2=Designator=R?|UniqueId=\MIPOCIVZ|Kind=1|AlternatePart= 
+Variation3=Designator=R?|UniqueId=\HJBLFZZG|Kind=1|AlternatePart= 
+Variation4=Designator=R?|UniqueId=\QCFPZIRK|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
-DocumentPath=BOM CROSS CHECK\Production\DM0260.xlsx
+DocumentPath=Project Outputs for BG0250TG\Design Rule Check - DM0260.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
-DocumentPath=BOM CROSS CHECK\Production_1V0\DM0260.xlsx
+DocumentPath=BOM CROSS CHECK\Production\DM0260.xlsx
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=BOM CROSS CHECK\Production_1V0\DM0260.xlsx
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=BOM CROSS CHECK\Production_1V2\DM0260.xlsx
 DItemRevisionGUID=
 
@@ -228,7 +246,7 @@ Value=DM0260
 
 [Parameter4]
 Name=revision
-Value=R2M1E1
+Value=R4M2E2
 
 [Configuration1]
 Name=Default Configuration
@@ -458,6 +476,18 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType14=PCBDrawing
+OutputName14=Draftsman
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType15=PCBDrawing
+OutputName15=Draftsman
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -601,6 +631,12 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType9=Project History
+OutputName9=Project History
+OutputDocumentPath9=
+OutputVariantName9=[No Variations]
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -952,6 +988,7 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
 
 [Difference Levels]
 Type1=1
@@ -1022,6 +1059,7 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1150,6 +1188,30 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
