@@ -1,2 +1,0 @@
-- **USB**: :ref:`OAK-FFC-3P <dm1090ffc>`, :ref:`OAK-FFC-4P`, :ref:`OAK-FFC-6P`
-- **PoE**: :ref:`OAK-FFC 1P PoE`, :ref:`OAK-FFC 4P PoE`
