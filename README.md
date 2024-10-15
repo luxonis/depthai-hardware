@@ -7,6 +7,8 @@
 
 This repository contains Luxonis open sourced baseboards, including the DepthAI OpenCV AI Kits, and contains Altium design files, documentation, and pictures. This repository is for anyone interested in developing with the OAK SoM or anyone interested in understanding more about the embedded hardware that powers DepthAI. An open source, community KiCad folder is also available for sharing KiCad based designs and components.
 
+The designs are Dual Licensed under [MIT](LICENSE) or [KiCad Libraries License](LICENSE.KiCad.md)
+
 # POE Designs
 
 ## [OAK-D-POE | SJ2088POE](https://github.com/luxonis/depthai-hardware/tree/master/SJ2088POE_PoE_Board)
