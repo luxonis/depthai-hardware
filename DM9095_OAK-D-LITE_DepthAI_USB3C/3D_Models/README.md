@@ -4,8 +4,7 @@
 - [OAK-D Lite Enclosure STL](https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-Lite/DM9095_enclosure.STL)
 
 **PCBA**
-- [OAK-D-Lite PCBA STEP](https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-Lite/DM9095_PCBA.STEP)
-
+- [OAK-D-Lite PCBA STEP](https://oak-files.fra1.cdn.digitaloceanspaces.com/OAK-D-Lite/DM9095_PCBA_%20R3M2E4.step)
 
 **OAK-D-Lite LEGO Adapter**
 
