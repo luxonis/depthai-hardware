@@ -8,7 +8,6 @@ generated/*
 
 # venv folder
 venv/
-docs/
 
 # Previews Folders
 **/__Previews/
